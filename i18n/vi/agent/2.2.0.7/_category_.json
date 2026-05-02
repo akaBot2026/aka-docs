@@ -1,0 +1,10 @@
+{
+  "label": "Akabot Agent",
+  "position": 12,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Deploy and run intelligent automation agents on desktops and servers."
+  }
+}
