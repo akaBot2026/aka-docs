@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Read(//c/c/Users/TuanTK1/OneDrive - FPT Corporation/Projects/aka-docs/**)",
-      "Bash(npx tsc *)"
-    ]
-  }
-}
