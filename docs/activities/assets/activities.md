@@ -2,7 +2,7 @@
 id: activities
 title: Activities
 sidebar_label: Activities
-sidebar_position: 1
+sidebar_position: 3
 description: Overview of available activities used to build automation workflows in akaBot Studio.
 displayed_sidebar: activitiesSidebar
 ---
