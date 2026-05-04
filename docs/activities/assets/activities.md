@@ -13,7 +13,7 @@ displayed_sidebar: activitiesSidebar
 ## Description
 This activity allows you to retrieve a specified akaBot Center credential using a provided Asset Name. It returns a username and a secure password.
 
-![Get Agent Credential](image-20220506112654-1.png)
+![Get Agent Credential](/img/image-20220506112654-1.png)
 
 > (* indicates mandatory fields)
 
