@@ -1,4 +1,4 @@
-# Take Screenshot - akaBot Docs
+﻿# Take Screenshot - akaBot Docs
 
 RCA.Activities.Common.TakeScreenshot
 
@@ -6,7 +6,7 @@ RCA.Activities.Common.TakeScreenshot
 
 The Take Screenshot allows you to take screenshot of a UI Elements within a browser or window application.
 
-![image-20220505133457-1.png](../../../_images/08d8cd_image-20220505133457-1.png)
+![image-20220505133457-1.png](/img/08d8cd-image-20220505133457-1.png)
 
 (\* is mandatory)
 

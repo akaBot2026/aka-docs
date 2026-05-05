@@ -1,4 +1,4 @@
-# Save Image - akaBot Docs
+﻿# Save Image - akaBot Docs
 
 RCA.Activities.Core.SaveImage
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.SaveImage
 
 This activity allows you to save an image to your disk.
 
-![image-20220513111129-1.png](../../../_images/a26eec_image-20220513111129-1.png)
+![image-20220513111129-1.png](/img/a26eec-image-20220513111129-1.png)
 
 (\* for Mandatory)
 

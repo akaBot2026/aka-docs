@@ -1,4 +1,4 @@
-# CV Dropdown Select - akaBot Docs
+﻿# CV Dropdown Select - akaBot Docs
 
 RCA.Activities.ComputerVision.CVDropdownSelect
 
@@ -6,7 +6,7 @@ RCA.Activities.ComputerVision.CVDropdownSelect
 
 Selects a specified item from a drop-down list.
 
-![image-20220505132014-1.png](../../../_images/939b62_image-20220505132014-1.png)
+![image-20220505132014-1.png](/img/939b62-image-20220505132014-1.png)
 
 (\*For mandatory)
 

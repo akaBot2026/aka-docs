@@ -1,4 +1,4 @@
-# Element Exists - akaBot Docs
+﻿# Element Exists - akaBot Docs
 
 RCA.Activities.Common.UiElementExists
 
@@ -6,7 +6,7 @@ RCA.Activities.Common.UiElementExists
 
 The Element Exist activity allows you to confirm whether an element exist.
 
-![image-20220505132755-1.png](../../../_images/de43b5_image-20220505132755-1.png)
+![image-20220505132755-1.png](/img/de43b5-image-20220505132755-1.png)
 
 (\* is mandatory)
 

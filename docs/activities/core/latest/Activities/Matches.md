@@ -1,4 +1,4 @@
-# Matches - akaBot Docs
+﻿# Matches - akaBot Docs
 
 RCA.Activities.Core.Matches
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.Matches
 
 This activity allows you to search string and it will return to successful matches.
 
-![image-20220505095119-2.jpeg](../../../_images/4d7b6f_image-20220505095119-2.jpeg)
+![image-20220505095119-2.jpeg](/img/4d7b6f-image-20220505095119-2.jpeg)
 
 (\* for Mandatory)
 

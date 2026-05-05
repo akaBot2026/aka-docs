@@ -12,7 +12,7 @@ Table of Content
 
 A container that enables you to attach to a browser which is already running
 
-![Browser_StartBrowserForAttach](/img/554b0d_bdb1dad-screenshot_2021-05-25_173342.jpg)
+![Browser_StartBrowserForAttach](/img/554b0d-bdb1dad-screenshot-2021-05-25-173342.jpg)
 
 (\* for Mandatory)
 

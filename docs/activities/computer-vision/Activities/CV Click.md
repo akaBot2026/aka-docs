@@ -1,4 +1,4 @@
-# CV Click - akaBot Docs
+﻿# CV Click - akaBot Docs
 
 RCA.Activities.ComputerVision.CVClick
 
@@ -6,7 +6,7 @@ RCA.Activities.ComputerVision.CVClick
 
 Clicks a specified UI element which is targeted by using the Computer Vision neural network.
 
-![image-20220505131917-2.png](../../../_images/e1d64a_image-20220505131917-2.png)
+![image-20220505131917-2.png](/img/e1d64a-image-20220505131917-2.png)
 
 (\*For mandatory)
 

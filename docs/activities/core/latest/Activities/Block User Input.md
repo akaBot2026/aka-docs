@@ -1,4 +1,4 @@
-# Block User Input - akaBot Docs
+﻿# Block User Input - akaBot Docs
 
 RCA.Activities.Core.BlockUserInput
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.BlockUserInput
 
 This activity allows you to block users from using mouse, keyboard when activities run. Can be configured to block either mouse, keyboard, or both, and permits you to designate a hotkey combination to re-enable them.
 
-![image-20220505100618-1.jpeg](../../../_images/448ddf_image-20220505100618-1.jpeg)
+![image-20220505100618-1.jpeg](/img/448ddf-image-20220505100618-1.jpeg)
 
 (\* for Mandatory)
 

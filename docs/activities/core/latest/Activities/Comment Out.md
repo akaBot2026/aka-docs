@@ -1,4 +1,4 @@
-# Comment Out - akaBot Docs
+﻿# Comment Out - akaBot Docs
 
 RCA.Activities.Core.CommentOut
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.CommentOut
 
 This activity allows you to add different activities that won’t be executed at run time.
 
-![image-20220513103221-1.png](../../../_images/7189b7_image-20220513103221-1.png)
+![image-20220513103221-1.png](/img/7189b7-image-20220513103221-1.png)
 
 ## **Properties**
 

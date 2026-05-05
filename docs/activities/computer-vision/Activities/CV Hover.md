@@ -1,4 +1,4 @@
-# CV Hover - akaBot Docs
+﻿# CV Hover - akaBot Docs
 
 RCA.Activities.ComputerVision.CVHover
 
@@ -6,7 +6,7 @@ RCA.Activities.ComputerVision.CVHover
 
 Hovers over a specified UI element which is targeted by using the Computer Vision neural network.
 
-![image-20220505132314-1.png](../../../_images/4341fa_image-20220505132314-1.png)
+![image-20220505132314-1.png](/img/4341fa-image-20220505132314-1.png)
 
 (\*For mandatory)
 

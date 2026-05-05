@@ -1,4 +1,4 @@
-# Read Text File - akaBot Docs
+﻿# Read Text File - akaBot Docs
 
 RCA.Activities.Core.ReadTextFile
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.ReadTextFile
 
 This activity allows you to read all characters from a specified file and store it in a String variable.
 
-![image-20220513110137-1.png](../../../_images/2373a1_image-20220513110137-1.png)
+![image-20220513110137-1.png](/img/2373a1-image-20220513110137-1.png)
 
 (\* for Mandatory)
 

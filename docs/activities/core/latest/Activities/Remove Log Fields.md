@@ -1,4 +1,4 @@
-# Remove Log Fields - akaBot Docs
+﻿# Remove Log Fields - akaBot Docs
 
 RCA.Activities.Core.RemoveLogFields
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.RemoveLogFields
 
 This activity allows you to remove customized log fields to each Log Message.
 
-![image-20220505093240-1.jpeg](../../../_images/d0ec7b_image-20220505093240-1.jpeg)
+![image-20220505093240-1.jpeg](/img/d0ec7b-image-20220505093240-1.jpeg)
 
 (\* for Mandatory)
 

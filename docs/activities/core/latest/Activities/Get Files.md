@@ -1,4 +1,4 @@
-# Get Files - akaBot Docs
+﻿# Get Files - akaBot Docs
 
 RCA.Activities.Core.GetFiles
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.GetFiles
 
 This activity allows you to return the names of files (including their paths) in a specified directory.
 
-![image-20220513104343-1.png](../../../_images/9d351e_image-20220513104343-1.png)
+![image-20220513104343-1.png](/img/9d351e-image-20220513104343-1.png)
 
 (\* for Mandatory)
 

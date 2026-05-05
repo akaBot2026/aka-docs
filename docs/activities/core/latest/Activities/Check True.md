@@ -1,4 +1,4 @@
-# Check True - akaBot Docs
+﻿# Check True - akaBot Docs
 
 RCA.Activities.Core.CheckTrue
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.CheckTrue
 
 This activity allows you to check whether the expression is true.
 
-![image-20220505095635-1.jpeg](../../../_images/9b6f2f_image-20220505095635-1.jpeg)
+![image-20220505095635-1.jpeg](/img/9b6f2f-image-20220505095635-1.jpeg)
 
 (\* for Mandatory)
 

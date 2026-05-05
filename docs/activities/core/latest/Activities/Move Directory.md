@@ -1,4 +1,4 @@
-# Move Directory - akaBot Docs
+﻿# Move Directory - akaBot Docs
 
 RCA.Activities.Core.MoveDirectory
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.MoveDirectory
 
 This activity allows you to move a folder to another location.
 
-![image-20220513105013-1.png](../../../_images/95d686_image-20220513105013-1.png)
+![image-20220513105013-1.png](/img/95d686-image-20220513105013-1.png)
 
 (\* for Mandatory)
 

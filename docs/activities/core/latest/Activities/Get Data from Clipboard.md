@@ -1,4 +1,4 @@
-# Get Data from Clipboard - akaBot Docs
+﻿# Get Data from Clipboard - akaBot Docs
 
 RCA.Activities.Core.GetFromClipboard
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.GetFromClipboard
 
 This activity allows you to get data from Clipboard for further execution
 
-![image-20220505092631-1.jpeg](../../../_images/a2e9c6_image-20220505092631-1.jpeg)
+![image-20220505092631-1.jpeg](/img/a2e9c6-image-20220505092631-1.jpeg)
 
 (\* for Mandatory)
 

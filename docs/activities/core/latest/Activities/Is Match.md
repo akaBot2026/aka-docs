@@ -1,4 +1,4 @@
-# Is Match - akaBot Docs
+﻿# Is Match - akaBot Docs
 
 RCA.Activities.Core.IsMatch
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.IsMatch
 
 This activity allows you to find expression that matches the specified input string.
 
-![image-20220505094842-1.jpeg](../../../_images/c569b8_image-20220505094842-1.jpeg)
+![image-20220505094842-1.jpeg](/img/c569b8-image-20220505094842-1.jpeg)
 
 (\* is mandatory)
 

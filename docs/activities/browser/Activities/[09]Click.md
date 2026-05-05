@@ -6,7 +6,7 @@ RCA.Activities.Browser.Click
 
 The Click activity is used to send a click action into a webpage.
 
-![Browser_Click](/img/d3cc56_5fcb1fe-screenshot_2021-05-25_155024.jpg)
+![Browser_Click](/img/d3cc56-5fcb1fe-screenshot-2021-05-25-155024.jpg)
 
 (\* For Mandatory)
 

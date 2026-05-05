@@ -1,4 +1,4 @@
-# Path Exists - akaBot Docs
+﻿# Path Exists - akaBot Docs
 
 RCA.Activities.Core.PathExists
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.PathExists
 
 This activity allows you to open a dialog and check if the specified path of file or folder/directory exists.
 
-![image-20220505093138-1.jpeg](../../../_images/6d4e86_image-20220505093138-1.jpeg)
+![image-20220505093138-1.jpeg](/img/6d4e86-image-20220505093138-1.jpeg)
 
 (\* for Mandatory)
 

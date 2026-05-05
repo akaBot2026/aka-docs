@@ -1,4 +1,4 @@
-# Select File - akaBot Docs
+﻿# Select File - akaBot Docs
 
 RCA.Activities.Core.SelectFile
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.SelectFile
 
 This activity opens a dialog, allows you to select a file and returns full path of the selected file.
 
-![image-20220505093334-1.jpeg](../../../_images/ed0879_image-20220505093334-1.jpeg)
+![image-20220505093334-1.jpeg](/img/ed0879-image-20220505093334-1.jpeg)
 
 ## **Properties**
 

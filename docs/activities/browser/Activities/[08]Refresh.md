@@ -6,7 +6,7 @@ RCA.Activities.Browser.Refresh
 
 The Refresh reloads the tab that is currently displayed in a browser.
 
-![Browser_Refresh](/img/fb42cf_d809b0d-screenshot_2021-05-25_155007.jpg)
+![Browser_Refresh](/img/fb42cf-d809b0d-screenshot-2021-05-25-155007.jpg)
 
 **Properties**
 

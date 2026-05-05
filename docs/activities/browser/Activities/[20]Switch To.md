@@ -6,7 +6,7 @@ RCA.Activities.Browser.SwitchTo
 
 The Switch To activity allows you to switch between different UI Elements within a browser.
 
-![image-20220505133627-1.png](/img/7f3a6b_image-20220505133627-1.png)
+![image-20220505133627-1.png](/img/7f3a6b-image-20220505133627-1.png)
 
 (\*For Mandatory)
 

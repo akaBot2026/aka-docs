@@ -1,4 +1,4 @@
-# Continue - akaBot Docs
+﻿# Continue - akaBot Docs
 
 RCA.Activities.Core.Continue
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.Continue
 
 This activity allows you to skip the step or steps in the current iteration. This only can be used in a “For each” loop.
 
-![image-20220505092342-1.jpeg](../../../_images/723deb_image-20220505092342-1.jpeg)
+![image-20220505092342-1.jpeg](/img/723deb-image-20220505092342-1.jpeg)
 
 ## **Properties**
 

@@ -1,4 +1,4 @@
-# CV Type Into - akaBot Docs
+﻿# CV Type Into - akaBot Docs
 
 RCA.Activities.ComputerVision.CVTypeInto
 
@@ -6,7 +6,7 @@ RCA.Activities.ComputerVision.CVTypeInto
 
 Sends keystrokes to a UI element. The UI element is identified by using the Computer Vision neural network.
 
-![image-20220505132534-1.png](../../../_images/7191a2_image-20220505132534-1.png)
+![image-20220505132534-1.png](/img/7191a2-image-20220505132534-1.png)
 
 (\*For mandatory)
 

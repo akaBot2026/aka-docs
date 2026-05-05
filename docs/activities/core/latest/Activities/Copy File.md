@@ -1,4 +1,4 @@
-# Copy File - akaBot Docs
+﻿# Copy File - akaBot Docs
 
 RCA.Core.Activities.CopyFile
 
@@ -6,7 +6,7 @@ RCA.Core.Activities.CopyFile
 
 This activity allows you to copy files from a specified location to another.
 
-![image-20220513103651-1.png](../../../_images/d5bb12_image-20220513103651-1.png)
+![image-20220513103651-1.png](/img/d5bb12-image-20220513103651-1.png)
 
 (\* for Mandatory)
 

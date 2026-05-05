@@ -1,4 +1,4 @@
-# Add Log Fields - akaBot Docs
+﻿# Add Log Fields - akaBot Docs
 
 RCA.Activities.Core.AddLogFields
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.AddLogFields
 
 This activity allows you to add customized log fields to each and every Log Message.
 
-![image-20220513103428-1.png](../../../_images/7d6799_image-20220513103428-1.png)
+![image-20220513103428-1.png](/img/7d6799-image-20220513103428-1.png)
 
 (\* for Mandatory)
 

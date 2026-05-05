@@ -1,4 +1,4 @@
-# Comment - akaBot Docs
+﻿# Comment - akaBot Docs
 
 RCA.Activities.Core.Comment
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.Comment
 
 The activity allows you comment to a workflow.
 
-![image-20220505092245-1.jpeg](../../../_images/e3cbe3_image-20220505092245-1.jpeg)
+![image-20220505092245-1.jpeg](/img/e3cbe3-image-20220505092245-1.jpeg)
 
 (\* for Mandatory)
 

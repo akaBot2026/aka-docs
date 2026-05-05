@@ -1,4 +1,4 @@
-# Get Text - akaBot Docs
+﻿# Get Text - akaBot Docs
 
 RCA.Activities.Common.GetText
 
@@ -6,7 +6,7 @@ RCA.Activities.Common.GetText
 
 The Get Text activity allows you to get text from webpage or windows application.
 
-![image-20220505133216-1.png](../../../_images/795ac7_image-20220505133216-1.png)
+![image-20220505133216-1.png](/img/795ac7-image-20220505133216-1.png)
 
 (\* is mandatory)
 

@@ -1,4 +1,4 @@
-# Message Box - akaBot Docs
+﻿# Message Box - akaBot Docs
 
 RCA.Activities.Core.MessageBox
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.MessageBox
 
 This activity allows you to display a message box with the specified text and button options.
 
-![image-20220505092843-1.jpeg](../../../_images/25aa1c_image-20220505092843-1.jpeg)
+![image-20220505092843-1.jpeg](/img/25aa1c-image-20220505092843-1.jpeg)
 
 (\* is mandatory.)
 

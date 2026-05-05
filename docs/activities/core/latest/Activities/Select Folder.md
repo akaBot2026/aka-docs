@@ -1,4 +1,4 @@
-# Select Folder - akaBot Docs
+﻿# Select Folder - akaBot Docs
 
 RCA.Activities.Core.SelectFolder
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.SelectFolder
 
 This activity opens a dialog, allows you to select a folder and returns full path of the selected folder.
 
-![image-20220505093358-1.jpeg](../../../_images/e2ca08_image-20220505093358-1.jpeg)
+![image-20220505093358-1.jpeg](/img/e2ca08-image-20220505093358-1.jpeg)
 
 ## **Properties**
 

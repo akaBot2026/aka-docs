@@ -1,4 +1,4 @@
-# Select Item - akaBot Docs
+﻿# Select Item - akaBot Docs
 
 RCA.Activities.Common.SelectItem
 
@@ -6,7 +6,7 @@ RCA.Activities.Common.SelectItem
 
 The Select Item activity allows you to select an item from a combo box or list box.
 
-![image-20220505133323-1.png](../../../_images/e0599e_image-20220505133323-1.png)
+![image-20220505133323-1.png](/img/e0599e-image-20220505133323-1.png)
 
 (\* is mandatory)
 

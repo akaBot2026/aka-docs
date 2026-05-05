@@ -6,7 +6,7 @@ RCA.Activities.Browser.WaitPageUrl
 
 The Wait Page URL verifies if the page URL has the requirement format according to the predefined value
 
-![image-20220505142016-2.png](/img/613d9d_image-20220505142016-2.png)
+![image-20220505142016-2.png](/img/613d9d-image-20220505142016-2.png)
 
 (\* for Mandatory)
 

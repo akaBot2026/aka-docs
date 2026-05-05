@@ -1,4 +1,4 @@
-# CV Get Text - akaBot Docs
+﻿# CV Get Text - akaBot Docs
 
 RCA.Activities.ComputerVision.CVGetText
 
@@ -6,7 +6,7 @@ RCA.Activities.ComputerVision.CVGetText
 
 Extracts the text from a specified UI element.
 
-![image-20220505132150-1.png](../../../_images/3f8f40_image-20220505132150-1.png)
+![image-20220505132150-1.png](/img/3f8f40-image-20220505132150-1.png)
 
 (\*For mandatory)
 

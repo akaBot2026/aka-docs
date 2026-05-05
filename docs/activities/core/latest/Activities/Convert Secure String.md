@@ -1,4 +1,4 @@
-# Convert Secure String - akaBot Docs
+﻿# Convert Secure String - akaBot Docs
 
 RCA.Activities.Core.ConvertSecureString
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.ConvertSecureString
 
 This activity allows you to convert SecureString to string.
 
-![image-20220505103002-1.jpeg](../../../_images/9c85f6_image-20220505103002-1.jpeg)
+![image-20220505103002-1.jpeg](/img/9c85f6-image-20220505103002-1.jpeg)
 
 (\* for Mandatory)
 

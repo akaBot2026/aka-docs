@@ -1,4 +1,4 @@
-# Create Directory - akaBot Docs
+﻿# Create Directory - akaBot Docs
 
 RCA.Activities.Core.CreateDirectory
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.CreateDirectory
 
 This activity allows you to create a folder in a specific location.
 
-![image-20220513103756-1.png](../../../_images/300467_image-20220513103756-1.png)
+![image-20220513103756-1.png](/img/300467-image-20220513103756-1.png)
 
 (\* for Mandatory)
 

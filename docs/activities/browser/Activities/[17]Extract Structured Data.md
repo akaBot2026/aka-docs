@@ -6,7 +6,7 @@ RCA.Activities.Browser.ExtractStructuredData
 
 The Extract Structured Data allows you to extract structured data from a specified webpage.
 
-![Browser_ExtractStructuredData](/img/b174d1_d1a0e86-screenshot_2021-05-25_160026.jpg)
+![Browser_ExtractStructuredData](/img/b174d1-d1a0e86-screenshot-2021-05-25-160026.jpg)
 
 (\* For mandatory)
 

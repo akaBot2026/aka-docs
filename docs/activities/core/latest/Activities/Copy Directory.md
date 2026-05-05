@@ -1,4 +1,4 @@
-# Copy Directory - akaBot Docs
+﻿# Copy Directory - akaBot Docs
 
 RCA.Activities.Core.CopyDirectory
 
@@ -6,7 +6,7 @@ RCA.Activities.Core.CopyDirectory
 
 This activity allows you to copy a folder to specified location
 
-![image-20220513103534-1.png](../../../_images/bc9de5_image-20220513103534-1.png)
+![image-20220513103534-1.png](/img/bc9de5-image-20220513103534-1.png)
 
 (\* for Mandatory)
 

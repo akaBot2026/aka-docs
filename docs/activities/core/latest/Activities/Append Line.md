@@ -1,4 +1,4 @@
-# Append Line - akaBot Docs
+﻿# Append Line - akaBot Docs
 
 RCA.Core.Activities.AppendLine
 
@@ -6,7 +6,7 @@ RCA.Core.Activities.AppendLine
 
 This activity allows you to append the specified string to a file, creating the file if it does not already exist.
 
-![image-20220513103343-1.png](../../../_images/3a0ad0_image-20220513103343-1.png)
+![image-20220513103343-1.png](/img/3a0ad0-image-20220513103343-1.png)
 
 (\* for Mandatory)
 
