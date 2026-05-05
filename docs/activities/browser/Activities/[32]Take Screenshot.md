@@ -1,4 +1,4 @@
-# [32]Take Screenshot - akaBot Docs
+﻿# [32]Take Screenshot - akaBot Docs
 
 RCA.Activities.Browser.TakeScreenshot
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.TakeScreenshot
 
 The Take Screenshot takes screenshot of a UI Elements within a browser.
 
-![image-20220505142230-1.png](../../../_images/d33e82_image-20220505142230-1.png)
+![image-20220505142230-1.png](/img/d33e82_image-20220505142230-1.png)
 
 (\* For Mandatory)
 

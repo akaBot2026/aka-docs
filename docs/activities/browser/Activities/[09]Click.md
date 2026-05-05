@@ -1,4 +1,4 @@
-# [09]Click - akaBot Docs
+﻿# [09]Click - akaBot Docs
 
 RCA.Activities.Browser.Click
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.Click
 
 The Click activity is used to send a click action into a webpage.
 
-![Browser_Click](../../../_images/d3cc56_5fcb1fe-Screenshot_2021-05-25_155024.jpg)
+![Browser_Click](/img/d3cc56_5fcb1fe-Screenshot_2021-05-25_155024.jpg)
 
 (\* For Mandatory)
 

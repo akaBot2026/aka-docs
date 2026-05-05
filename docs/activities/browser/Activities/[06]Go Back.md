@@ -1,4 +1,4 @@
-# [06]Go Back - akaBot Docs
+﻿# [06]Go Back - akaBot Docs
 
 RCA.Activities.Browser.GoBack
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.GoBack
 
 The Go Back activity goes back one URL in the history list of the current browser.
 
-![Browser_GoBack](../../../_images/dc4c6f_bdce0db-Screenshot_2021-05-25_154910.jpg)
+![Browser_GoBack](/img/dc4c6f_bdce0db-Screenshot_2021-05-25_154910.jpg)
 
 (\* For Mandatory)
 

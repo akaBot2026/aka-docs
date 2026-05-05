@@ -1,4 +1,4 @@
-# [33]Handle Alert - akaBot Docs
+﻿# [33]Handle Alert - akaBot Docs
 
 RCA.Activities.Browser.HandleAlert
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.HandleAlert
 
 The Handle Alert activity allows you to handle alert popup box in various ways.
 
-![image-20220505142619-1.png](../../../_images/7116a9_image-20220505142619-1.png)
+![image-20220505142619-1.png](/img/7116a9_image-20220505142619-1.png)
 
 (\* For Mandatory)
 

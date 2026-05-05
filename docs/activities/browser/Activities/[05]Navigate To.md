@@ -1,4 +1,4 @@
-# [05]Navigate To - akaBot Docs
+﻿# [05]Navigate To - akaBot Docs
 
 RCA.Activities.Browser.NavigateTo
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.NavigateTo
 
 The Navigate To activity allows you to navigate to another URL on the current browser.
 
-![Browser_NavigateTo](../../../_images/00ebcd_896cc4b-Screenshot_2021-05-25_154828.jpg)
+![Browser_NavigateTo](/img/00ebcd_896cc4b-Screenshot_2021-05-25_154828.jpg)
 
 (\* For Mandatory)
 

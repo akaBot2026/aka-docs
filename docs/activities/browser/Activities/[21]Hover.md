@@ -1,4 +1,4 @@
-# [21]Hover - akaBot Docs
+﻿# [21]Hover - akaBot Docs
 
 RCA.Activities.Browser.Hover
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.Hover
 
 The Hover activity will move the mouse pointer to a specified element without clicking.
 
-![image-20220505134021-1.png](../../../_images/5b764b_image-20220505134021-1.png)
+![image-20220505134021-1.png](/img/5b764b_image-20220505134021-1.png)
 
 (\* For Mandatory)
 

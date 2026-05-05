@@ -1,4 +1,4 @@
-# [28]Wait Page Load Complete - akaBot Docs
+﻿# [28]Wait Page Load Complete - akaBot Docs
 
 RCA.Activities.Browser.WaitPageLoadComplete
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.WaitPageLoadComplete
 
 The Wait Page Load Complete allows you to waits until a webpage is fully loaded.
 
-![image-20220505140621-1.png](../../../_images/9d1869_image-20220505140621-1.png)
+![image-20220505140621-1.png](/img/9d1869_image-20220505140621-1.png)
 
 (\* For Mandatory)
 

@@ -1,4 +1,4 @@
-# [25]Wait Element Exist - akaBot Docs
+﻿# [25]Wait Element Exist - akaBot Docs
 
 RCA.Activities.Browser.WaitElementExist
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.WaitElementExist
 
 The Wait Element Exist activity waits for a selected element to appear in a webpage and throws an error (if required) if the desired element still is not visible after a specified time.
 
-![image-20220505135459-1.png](../../../_images/2069cf_image-20220505135459-1.png)
+![image-20220505135459-1.png](/img/2069cf_image-20220505135459-1.png)
 
 (\* For Mandatory)
 

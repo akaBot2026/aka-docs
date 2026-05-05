@@ -1,4 +1,4 @@
-# [22]Select Multiple Items - akaBot Docs
+﻿# [22]Select Multiple Items - akaBot Docs
 
 RCA.Activities.Browser.SelectMultiple
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.SelectMultiple
 
 The Select Multiple Items activity allows you to select many items from a combo box or list box.
 
-![image-20220505134303-1.png](../../../_images/e7f3d2_image-20220505134303-1.png)
+![image-20220505134303-1.png](/img/e7f3d2_image-20220505134303-1.png)
 
 (\*For Mandatory)
 

@@ -1,4 +1,4 @@
-# [18]Check/Uncheck - akaBot Docs
+﻿# [18]Check/Uncheck - akaBot Docs
 
 RCA.Activities.Browser.Check
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.Check
 
 The Check/Uncheck activity allows you to check or uncheck a Checkbox.
 
-​![image-20220505133104-1.png](../../../_images/d88115_image-20220505133104-1.png)
+​![image-20220505133104-1.png](/img/d88115_image-20220505133104-1.png)
 
 (\*For Mandatory)
 

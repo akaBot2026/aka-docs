@@ -1,4 +1,4 @@
-# [17]Extract Structured Data - akaBot Docs
+﻿# [17]Extract Structured Data - akaBot Docs
 
 RCA.Activities.Browser.ExtractStructuredData
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.ExtractStructuredData
 
 The Extract Structured Data allows you to extract structured data from a specified webpage.
 
-![Browser_ExtractStructuredData](../../../_images/b174d1_d1a0e86-Screenshot_2021-05-25_160026.jpg)
+![Browser_ExtractStructuredData](/img/b174d1_d1a0e86-Screenshot_2021-05-25_160026.jpg)
 
 (\* For mandatory)
 

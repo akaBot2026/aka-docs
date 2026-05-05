@@ -1,4 +1,4 @@
-# [27]Wait Element Vanishes - akaBot Docs
+﻿# [27]Wait Element Vanishes - akaBot Docs
 
 RCA.Activities.Browser.WaitElementVanish
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.WaitElementVanish
 
 The Wait Element Vanishes activity waits for a selected element to disappear from a webpage.
 
-![image-20220505140424-1.png](../../../_images/856fc1_image-20220505140424-1.png)
+![image-20220505140424-1.png](/img/856fc1_image-20220505140424-1.png)
 
 (\* For Mandatory)
 

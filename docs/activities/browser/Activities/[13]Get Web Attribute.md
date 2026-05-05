@@ -1,4 +1,4 @@
-# [13]Get Web Attribute - akaBot Docs
+﻿# [13]Get Web Attribute - akaBot Docs
 
 RCA.Activities.Browser.GetWebAttribute
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.GetWebAttribute
 
 The Get Web Attribute activity allows you to get the value of an attribute that belongs to the native browser element.
 
-![Browser_GetWebAttribute](../../../_images/c88dc1_71d320f-Screenshot_2021-05-25_155928.jpg)
+![Browser_GetWebAttribute](/img/c88dc1_71d320f-Screenshot_2021-05-25_155928.jpg)
 
 (\* For Mandatory)
 

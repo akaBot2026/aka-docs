@@ -1,4 +1,4 @@
-# [10]Get Text - akaBot Docs
+﻿# [10]Get Text - akaBot Docs
 
 RCA.Activities.Browser.GetText
 
@@ -6,7 +6,7 @@ RCA.Activities.Browser.GetText
 
 The Get Text activity extracts on a webpage and saves it in a String variable.
 
-![Browser_GetText](../../../_images/cfa416_5e63ba9-Screenshot_2021-05-25_155057.jpg)
+![Browser_GetText](/img/cfa416_5e63ba9-Screenshot_2021-05-25_155057.jpg)
 
 (\* For Mandatory)
 
