@@ -1,0 +1,22 @@
+# [1] Release Notes - akaBot Docs
+
+## **RCA.Activities.ComputerVision Version 1.0.0.0**
+
+### **Features added**
+
+* Add new activities:
+  + CV Check
+  + CV Click
+  + CV Dropdown Select
+  + CV Element Exists
+  + CV Get Text
+  + CV Highlight
+  + CV Hover
+  + CV Screen Scope
+  + CV Table Extract
+  + CV Type Into
+
+Table of Content
+
+* [RCA.Activities.ComputerVision Version 1.0.0.0](#HRCA.Activities.ComputerVisionVersion1.0.0.0)
+  + [Features added](#HFeaturesadded)
