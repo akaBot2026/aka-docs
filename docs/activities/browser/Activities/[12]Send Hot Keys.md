@@ -6,7 +6,7 @@ RCA.Activities.Browser.SendHotKeys
 
 The Send Hot Keys activity allows you to send a keyboard shortcut to a browser element.
 
-![Browser_SendHotKeys](/img/5d7892_e9e1b2c-Browser_sendhotkey.png)
+![Browser_SendHotKeys](/img/5d7892_e9e1b2c-browser_sendhotkey.png)
 
 (\* for Mandatory)
 

@@ -6,7 +6,7 @@ RCA.Activities.Browser.BrowserScrope
 
 The Browser Scope activity creates a container that lets you attach an already opened Browser and execute actions within the Browser.
 
-![Browser_BrowserScope](/img/c5655a_c41d394-Screenshot_2021-05-25_155316.jpg)  
+![Browser_BrowserScope](/img/c5655a_c41d394-screenshot_2021-05-25_155316.jpg)  
 (\* For Mandatory)
 
 ## **In the body of activity**
