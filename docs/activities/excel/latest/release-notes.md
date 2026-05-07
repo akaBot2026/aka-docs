@@ -1,16 +1,21 @@
----
-id: release-notes
-title: Release Notes
-sidebar_label: Release Notes
-sidebar_position: 2
-description: What's new, improved, and fixed in each version of activity package.
-displayed_sidebar: activitiesSidebar
----
+# [1] Release Notes - akaBot Docs
 
-# Release Notes
+## **RCA.Activities.Excel Version 2.1.1.0**
 
-## v3.2.0 — April 2026
+### **Bugs fixed**
 
-### New activities
-- **`Classify Document`** — AI-powered document classification using a configurable confidence threshold.
-- **`Send Teams Message`** — Post messages and adaptive cards to Microsoft Teams channels or chats.
+* [ExcelApplicationScope]Edit message when excel file is set password protected sheet.
+* [ExportChart]Export chart missing when name file excel has chart name same.
+* [ExcelApplicationScope] At Textbox[Designer], change length when input more than 200 characters.
+* [ExcelApplicationScope] A loop opens Excel file in the background. Even though the workflow has been stopped.
+* [ExcelApplicationScope] Don't show message when WorkBook Path does exist, Wrong Format.
+* [ExcelApplicationScope] Don't show a message when entering incorrect data of Edit Password.
+* [ExcelCopyPasteRange] Modify message when user does not select value in [Copy Items].
+* [ExcelCopySheet] Screen hangs when typing Destination File Path does not have permission to access.
+* [ExcelSetBorder] Wrong behavior when set property Range = nothing.
+* [ExcelReadCell] Data is not kept when [Preserve Format] is checked and [Cell] is a fixed address.
+
+Table of Content
+
+* [RCA.Activities.Excel Version 2.1.1.0](#HRCA.Activities.ExcelVersion2.1.1.0)
+  + [Bugs fixed](#HBugsfixed)
