@@ -24,7 +24,7 @@ const SIZE_LIMIT_BYTES = 5 * 1024 * 1024;
 
 // Filename rule: lowercase letters/digits, segments separated by hyphens,
 // followed by a lowercase extension. Example: dashboard-overview.png
-const NAME_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*\.[a-z0-9]+$/;
+const NAME_PATTERN = /^[a-z0-9]+([_-][a-z0-9]+)*\.[a-z0-9]+$/;
 
 const MEDIA_EXTS = new Set([
   '.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp', '.ico',
