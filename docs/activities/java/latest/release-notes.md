@@ -1,16 +1,16 @@
----
-id: release-notes
-title: Release Notes
-sidebar_label: Release Notes
-sidebar_position: 2
-description: What's new, improved, and fixed in each version of activity package.
-displayed_sidebar: activitiesSidebar
----
+# [1] Release Notes - akaBot Docs
 
-# Release Notes
+## **RCA.Activities.Java Version 2.3.0.0**
 
-## v3.2.0 — April 2026
+### **Bugs Fixed**
 
-### New activities
-- **`Classify Document`** — AI-powered document classification using a configurable confidence threshold.
-- **`Send Teams Message`** — Post messages and adaptive cards to Microsoft Teams channels or chats.
+* [GetText] Do not show all data when the selector contains text.
+* [Click] Cannot move mouse point when select Click Type= LeftClick, Animate Mouse = check.
+* [Click] App is closed before this activity shows an error message.
+* [GetText] Operation of "Continue On Error" property is incorrect when input [Selector] by data incorrect format.
+* [GetText] Can not get text on Java application.
+
+Table of Content
+
+* [RCA.Activities.Java Version 2.3.0.0](#HRCA.Activities.JavaVersion2.3.0.0)
+  + [Bugs Fixed](#HBugsFixed)

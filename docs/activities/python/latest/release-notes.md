@@ -1,16 +1,12 @@
----
-id: release-notes
-title: Release Notes
-sidebar_label: Release Notes
-sidebar_position: 2
-description: What's new, improved, and fixed in each version of activity package.
-displayed_sidebar: activitiesSidebar
----
+# [1] Release Notes - akaBot Docs
 
-# Release Notes
+## **RCA.Activities.Python Version 2.1.0.3**
 
-## v3.2.0 — April 2026
+### **Bugs Fixed**
 
-### New activities
-- **`Classify Document`** — AI-powered document classification using a configurable confidence threshold.
-- **`Send Teams Message`** — Post messages and adaptive cards to Microsoft Teams channels or chats.
+* [PythonScope] Property Working Folder not working.
+
+Table of Content
+
+* [RCA.Activities.Python Version 2.1.0.3](#HRCA.Activities.PythonVersion2.1.0.3)
+  + [Bugs Fixed](#HBugsFixed)

@@ -1,12 +1,14 @@
----
-id: introduction
-title: Introduction
-sidebar_label: Introduction
-sidebar_position: 1
-description: The introduction of the activity package.
-displayed_sidebar: activitiesSidebar
----
+# Data Service Activities - akaBot Docs
 
-# Introduction
+**Data Service Activities** is a collection of pre-built activities designed to work with data services in Studio. These activities allow users to interact with various data services, such as databases, web services, and APIs, within their automation workflows. These activities enable the robots to:
 
-This is a sample content.
+* Create Entity Record
+* Get Entity Record By Id
+* Update Entity Record
+* Delete Entity Record
+* Query Entity Records
+
+See also:
+
+* [Release Notes](https://docs.akabot.com/bin/view/Activities/Data%20Service%20Activities/Release%20Notes/)
+* [Activities](https://docs.akabot.com/bin/view/Activities/Data%20Service%20Activities/Activities/)

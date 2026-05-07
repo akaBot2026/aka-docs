@@ -1,12 +1,8 @@
----
-id: introduction
-title: Introduction
-sidebar_label: Introduction
-sidebar_position: 1
-description: The introduction of the activity package.
-displayed_sidebar: activitiesSidebar
----
+# Internet Explorer - akaBot Docs
 
-# Introduction
+These activities belong to **Core Activities Pack**enables the robots to execute multiple activities within a specified URL on Internet Explorer, such as opening, refreshing, closing the browser, etc...
 
-This is a sample content.
+See also:
+
+* [Release Notes](/bin/view/Activities/Internet%20Explorer/%5B1%5D%20Release%20Notes/)
+* [Activities](/bin/view/Activities/Internet%20Explorer/Activities/)

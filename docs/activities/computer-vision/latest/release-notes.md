@@ -1,16 +1,22 @@
----
-id: release-notes
-title: Release Notes
-sidebar_label: Release Notes
-sidebar_position: 2
-description: What's new, improved, and fixed in each version of activity package.
-displayed_sidebar: activitiesSidebar
----
+# [1] Release Notes - akaBot Docs
 
-# Release Notes
+## **RCA.Activities.ComputerVision Version 1.0.0.0**
 
-## v3.2.0 — April 2026
+### **Features added**
 
-### New activities
-- **`Classify Document`** — AI-powered document classification using a configurable confidence threshold.
-- **`Send Teams Message`** — Post messages and adaptive cards to Microsoft Teams channels or chats.
+* Add new activities:
+  + CV Check
+  + CV Click
+  + CV Dropdown Select
+  + CV Element Exists
+  + CV Get Text
+  + CV Highlight
+  + CV Hover
+  + CV Screen Scope
+  + CV Table Extract
+  + CV Type Into
+
+Table of Content
+
+* [RCA.Activities.ComputerVision Version 1.0.0.0](#HRCA.Activities.ComputerVisionVersion1.0.0.0)
+  + [Features added](#HFeaturesadded)

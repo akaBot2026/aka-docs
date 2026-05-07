@@ -1,16 +1,13 @@
----
-id: release-notes
-title: Release Notes
-sidebar_label: Release Notes
-sidebar_position: 2
-description: What's new, improved, and fixed in each version of activity package.
-displayed_sidebar: activitiesSidebar
----
+# [1] Release Notes - akaBot Docs
 
-# Release Notes
+## **RCA.Activities.Word Version 2.2.1.0**
 
-## v3.2.0 — April 2026
+### **Bugs Fixed**
 
-### New activities
-- **`Classify Document`** — AI-powered document classification using a configurable confidence threshold.
-- **`Send Teams Message`** — Post messages and adaptive cards to Microsoft Teams channels or chats.
+* [SetContentControl] Value is String but contain incorrect chars incorrect.
+* [SetContentControl]: Value and TypeArgument have a different Type with word Control: incorrect.
+
+Table of Content
+
+* [RCA.Activities.Word Version 2.2.1.0](#HRCA.Activities.WordVersion2.2.1.0)
+  + [Bugs Fixed](#HBugsFixed)
