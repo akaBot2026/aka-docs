@@ -6,7 +6,7 @@ RCA.Activities.Browser.ExtractData
 
 The Extract Data activity allows you to get data from a specified webpage.
 
-![Browser_ExtractData](/static/img/173e9e_f342d2e-Screenshot_2021-05-25_160007.jpg)
+![Browser_ExtractData](/img/173e9e_f342d2e-Screenshot_2021-05-25_160007.jpg)
 
 (\* For Mandatory)
 
