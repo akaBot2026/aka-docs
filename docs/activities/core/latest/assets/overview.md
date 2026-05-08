@@ -4,7 +4,7 @@ title: Introduction
 sidebar_label: Introduction
 sidebar_position: 1
 description: The introduction of the activity package.
-displayed_sidebar:activitiesSidebar
+displayed_sidebar: activitiesSidebar
 ---
 
 # Assets

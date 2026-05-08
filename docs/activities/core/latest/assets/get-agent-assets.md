@@ -4,7 +4,7 @@ title: Get Agent Assets
 sidebar_label: Get Agent Assets
 sidebar_position: 2
 description: The introduction of the activity package.
-displayed_sidebar:activitiesSidebar
+displayed_sidebar: activitiesSidebar
 ---
 
 # Get Agent Asset - akaBot Docs
