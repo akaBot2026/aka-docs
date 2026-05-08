@@ -1,3 +1,11 @@
+---
+id: read-csv-file
+title: "Read CSV File"
+sidebar_label: "Read CSV File"
+sidebar_position: 2
+description: "Read CSV File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Read CSV File - akaBot Docs
 
 RCA.Activities.CSV.ReadCSVFile

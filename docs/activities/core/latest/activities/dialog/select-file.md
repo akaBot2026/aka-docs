@@ -1,3 +1,11 @@
+---
+id: select-file
+title: "Select File"
+sidebar_label: "Select File"
+sidebar_position: 2
+description: "Select File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Select File - akaBot Docs
 
 RCA.Activities.Core.SelectFile

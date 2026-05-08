@@ -1,3 +1,11 @@
+---
+id: state
+title: "State"
+sidebar_label: "State"
+sidebar_position: 3
+description: "State activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # State - akaBot Docs
 
 System.Activities.Statements.State

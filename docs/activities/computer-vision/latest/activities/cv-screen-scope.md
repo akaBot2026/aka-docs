@@ -1,3 +1,11 @@
+---
+id: cv-screen-scope
+title: "CV Screen Scope"
+sidebar_label: "CV Screen Scope"
+sidebar_position: 8
+description: "CV Screen Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # CV Screen Scope - akaBot Docs
 
 RCA.Activities.ComputerVision.CVScreenScope

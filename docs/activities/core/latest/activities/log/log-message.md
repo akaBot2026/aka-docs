@@ -1,3 +1,11 @@
+---
+id: log-message
+title: "Log Message"
+sidebar_label: "Log Message"
+sidebar_position: 2
+description: "Log Message activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Log Message - akaBot Docs
 
 RCA.Activities.Core.LogMessage

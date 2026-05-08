@@ -1,3 +1,11 @@
+---
+id: activities
+title: "Activities"
+sidebar_label: "Activities"
+sidebar_position: 2
+description: "Activities activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [2] Activities - akaBot Docs
 
 * [Data Service Scope](https://docs.akabot.com/bin/view/Activities/Data%20Service%20Activities/Activities/1/)

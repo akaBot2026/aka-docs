@@ -1,3 +1,11 @@
+---
+id: save-image
+title: "Save Image"
+sidebar_label: "Save Image"
+sidebar_position: 11
+description: "Save Image activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Save Image - akaBot Docs
 
 RCA.Activities.Core.SaveImage

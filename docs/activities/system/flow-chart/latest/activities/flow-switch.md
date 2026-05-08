@@ -1,3 +1,11 @@
+---
+id: flow-switch
+title: "Flow Switch"
+sidebar_label: "Flow Switch"
+sidebar_position: 3
+description: "Flow Switch activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [03]Flow Switch - akaBot Docs
 
 System.Activities.Statements.FlowSwitch

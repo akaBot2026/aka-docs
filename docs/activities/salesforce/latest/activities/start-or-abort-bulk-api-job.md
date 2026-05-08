@@ -1,3 +1,11 @@
+---
+id: start-or-abort-bulk-api-job
+title: "Start or Abort Bulk API Job"
+sidebar_label: "Start or Abort Bulk API Job"
+sidebar_position: 17
+description: "Start or Abort Bulk API Job activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Start or Abort Bulk API Job - akaBot Docs
 
 Content

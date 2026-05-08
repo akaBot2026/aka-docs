@@ -1,3 +1,11 @@
+---
+id: get-property
+title: "Get Property"
+sidebar_label: "Get Property"
+sidebar_position: 24
+description: "Get Property activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [24]Get Property - akaBot Docs
 
 RCA.Activities.Windows.GetProperty

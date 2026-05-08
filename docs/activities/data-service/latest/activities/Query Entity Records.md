@@ -1,3 +1,11 @@
+---
+id: Query Entity Records
+title: "Query Entity Records"
+sidebar_label: "Query Entity Records"
+sidebar_position: 6
+description: "Query Entity Records activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [6] Query Entity Records - akaBot Docs
 
 RCA.Activities.DataService.QueryEntityRecords

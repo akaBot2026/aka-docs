@@ -1,3 +1,11 @@
+---
+id: for-each-row
+title: "For Each Row"
+sidebar_label: "For Each Row"
+sidebar_position: 6
+description: "For Each Row activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # For Each Row - akaBot Docs
 
 RCA.Activities.Core.ForEachRow

@@ -1,3 +1,11 @@
+---
+id: introduction install-and-enable-java-access-bridge
+title: "Install and Enable Java Access Bridge"
+sidebar_label: "Install and Enable Java Access Bridge"
+sidebar_position: 2
+description: "Install and Enable Java Access Bridge activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Install and Enable Java Access Bridge - akaBot Docs
 
 Content

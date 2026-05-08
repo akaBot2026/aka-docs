@@ -1,3 +1,11 @@
+---
+id: remove-data-column
+title: "Remove Data Column"
+sidebar_label: "Remove Data Column"
+sidebar_position: 13
+description: "Remove Data Column activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Remove Data Column - akaBot Docs
 
 RCA.Activities.Core.RemoveDataColumn

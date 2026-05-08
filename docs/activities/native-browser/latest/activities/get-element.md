@@ -1,3 +1,11 @@
+---
+id: get-element
+title: "Get Element (NB)"
+sidebar_label: "Get Element (NB)"
+sidebar_position: 7
+description: "Get Element (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Element (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.GetElement

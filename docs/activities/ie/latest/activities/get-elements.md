@@ -1,3 +1,11 @@
+---
+id: get-elements
+title: "Get Elements"
+sidebar_label: "Get Elements"
+sidebar_position: 7
+description: "Get Elements activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Elements - akaBot Docs
 
 RCA.Activities.IE.GetElements

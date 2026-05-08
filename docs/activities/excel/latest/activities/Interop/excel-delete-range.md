@@ -1,3 +1,11 @@
+---
+id: excel-delete-range
+title: "Excel Delete Range"
+sidebar_label: "Excel Delete Range"
+sidebar_position: 6
+description: "Excel Delete Range activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Delete Range - akaBot Docs
 
 RCA.Activities.Excel.ExcelDeleteRange

@@ -1,3 +1,11 @@
+---
+id: get-bulk-api-job-results
+title: "Get Bulk API Job Results"
+sidebar_label: "Get Bulk API Job Results"
+sidebar_position: 9
+description: "Get Bulk API Job Results activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Bulk API Job Results - akaBot Docs
 
 Content

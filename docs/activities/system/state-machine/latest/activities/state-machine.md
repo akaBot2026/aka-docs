@@ -1,3 +1,11 @@
+---
+id: state-machine
+title: "State Machine"
+sidebar_label: "State Machine"
+sidebar_position: 2
+description: "State Machine activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # State Machine - akaBot Docs
 
 System.Activities.Statements.StateMachine

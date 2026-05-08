@@ -1,3 +1,11 @@
+---
+id: export-chart
+title: "Export Chart"
+sidebar_label: "Export Chart"
+sidebar_position: 26
+description: "Export Chart activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Export Chart - akaBot Docs
 
 RCA.Activities.Excel.ExcelExportChart

@@ -1,3 +1,11 @@
+---
+id: get-exchange-email-messages
+title: "Get Exchange Email Messages"
+sidebar_label: "Get Exchange Email Messages"
+sidebar_position: 2
+description: "Get Exchange Email Messages activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Exchange Email Messages - akaBot Docs
 
 RCA.Activities.Mail.GetExchangeEmailMessage

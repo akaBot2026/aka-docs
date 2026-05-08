@@ -1,3 +1,11 @@
+---
+id: get-credential
+title: "Get Credential"
+sidebar_label: "Get Credential"
+sidebar_position: 3
+description: "Get Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [03]Get Credential - akaBot Docs
 
 RCA.Activities.Core.GetCredential

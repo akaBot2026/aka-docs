@@ -1,3 +1,11 @@
+---
+id: update-file-permission
+title: "Update File Permission"
+sidebar_label: "Update File Permission"
+sidebar_position: 15
+description: "Update File Permission activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Update File Permission - akaBot Docs
 
 RCA.Activities.GSuite.UpdateFilePermission

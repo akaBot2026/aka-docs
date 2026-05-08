@@ -1,3 +1,11 @@
+---
+id: remove-from-collection
+title: "Remove From Collection"
+sidebar_label: "Remove From Collection"
+sidebar_position: 4
+description: "Remove From Collection activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [04]Remove From Collection - akaBot Docs
 
 System.Activities.Statements.RemoveFromCollection<System.Int32>

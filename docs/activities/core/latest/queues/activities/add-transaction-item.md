@@ -1,3 +1,11 @@
+---
+id: add-transaction-item
+title: "Add Transaction Item"
+sidebar_label: "Add Transaction Item"
+sidebar_position: 2
+description: "Add Transaction Item activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Add Transaction Item - akaBot Docs
 
 RCA.Activities.Core.AddTransactionItem

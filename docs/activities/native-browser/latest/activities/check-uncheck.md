@@ -1,3 +1,11 @@
+---
+id: check-uncheck
+title: "Check/Uncheck (NB)"
+sidebar_label: "Check/Uncheck (NB)"
+sidebar_position: 2
+description: "Check/Uncheck (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Check/Uncheck (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.Check

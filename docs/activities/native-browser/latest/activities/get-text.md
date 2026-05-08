@@ -1,3 +1,11 @@
+---
+id: get-text
+title: "Get Text (NB)"
+sidebar_label: "Get Text (NB)"
+sidebar_position: 8
+description: "Get Text (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Text (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.GetText

@@ -1,3 +1,11 @@
+---
+id: set-web-attribute
+title: "Set Web Attribute"
+sidebar_label: "Set Web Attribute"
+sidebar_position: 19
+description: "Set Web Attribute activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Set Web Attribute - akaBot Docs
 
 RCA.Activities.IE.SetWebAttribute

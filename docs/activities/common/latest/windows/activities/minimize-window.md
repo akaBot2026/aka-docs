@@ -1,3 +1,11 @@
+---
+id: minimize-window
+title: "Minimize Window"
+sidebar_label: "Minimize Window"
+sidebar_position: 6
+description: "Minimize Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Minimize Window - akaBot Docs
 
 RCA.Activities.Common.MinimizeWindow

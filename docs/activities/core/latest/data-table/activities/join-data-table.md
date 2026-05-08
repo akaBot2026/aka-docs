@@ -1,3 +1,11 @@
+---
+id: join-data-table
+title: "Join Data Tables"
+sidebar_label: "Join Data Tables"
+sidebar_position: 9
+description: "Join Data Tables activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Join Data Tables - akaBot Docs
 
 RCA.Activities.Core.JoinDataTables

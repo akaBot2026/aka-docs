@@ -1,3 +1,11 @@
+---
+id: delete-file-permission
+title: "Delete File Permission"
+sidebar_label: "Delete File Permission"
+sidebar_position: 5
+description: "Delete File Permission activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Delete File Permission - akaBot Docs
 
 RCA.Activities.GSuite.DeleteFilePermission

@@ -1,3 +1,11 @@
+---
+id: find-file-folder
+title: "Find File Folder"
+sidebar_label: "Find File Folder"
+sidebar_position: 8
+description: "Find File Folder activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Find File Folder - akaBot Docs
 
 RCA.Activities.GSuite.FindFileFolder

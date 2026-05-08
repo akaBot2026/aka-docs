@@ -1,3 +1,11 @@
+---
+id: set-bookmark-content
+title: "Set Bookmark Content"
+sidebar_label: "Set Bookmark Content"
+sidebar_position: 8
+description: "Set Bookmark Content activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Set Bookmark Content - akaBot Docs
 
 RCA.Activities.Word.SetBookmarkContent

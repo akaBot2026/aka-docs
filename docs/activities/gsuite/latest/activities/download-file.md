@@ -1,3 +1,11 @@
+---
+id: download-file
+title: "Download File"
+sidebar_label: "Download File"
+sidebar_position: 7
+description: "Download File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Download File - akaBot Docs
 
 RCA.Activities.GSuite.DownloadFile

@@ -1,3 +1,11 @@
+---
+id: find-control
+title: "Find Control"
+sidebar_label: "Find Control"
+sidebar_position: 19
+description: "Find Control activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [19]Find Control - akaBot Docs
 
 RCA.Activities.Windows.FindControl

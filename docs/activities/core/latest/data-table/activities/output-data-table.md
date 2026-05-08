@@ -1,3 +1,11 @@
+---
+id: output-data-table
+title: "Output Data Table"
+sidebar_label: "Output Data Table"
+sidebar_position: 12
+description: "Output Data Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Output Data Table - akaBot Docs
 
 RCA.Activties.Core.OutputDataTable

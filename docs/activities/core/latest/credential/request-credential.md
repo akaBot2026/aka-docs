@@ -1,3 +1,11 @@
+---
+id: request-credential
+title: "Request Credential"
+sidebar_label: "Request Credential"
+sidebar_position: 5
+description: "Request Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [05]Request Credential - akaBot Docs
 
 RCA.Activities.Core.RequestCredential

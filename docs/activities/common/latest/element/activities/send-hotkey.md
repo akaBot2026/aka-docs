@@ -1,3 +1,11 @@
+---
+id: send-hotkey
+title: "Send Hotkey"
+sidebar_label: "Send Hotkey"
+sidebar_position: 9
+description: "Send Hotkey activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Send Hotkey - akaBot Docs
 
 RCA.Activities.Common.SendHotkey

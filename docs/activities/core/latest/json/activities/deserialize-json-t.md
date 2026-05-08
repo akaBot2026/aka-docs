@@ -1,3 +1,11 @@
+---
+id: deserialize-json-t
+title: "Deserialize JSON <T>"
+sidebar_label: "Deserialize JSON <T>"
+sidebar_position: 2
+description: "Deserialize JSON <T> activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Deserialize JSON <T> - akaBot Docs
 
 RCA.Activities.Core.DeserializeJson

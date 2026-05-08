@@ -1,3 +1,11 @@
+---
+id: cv-get-text
+title: "CV Get Text"
+sidebar_label: "CV Get Text"
+sidebar_position: 5
+description: "CV Get Text activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # CV Get Text - akaBot Docs
 
 RCA.Activities.ComputerVision.CVGetText

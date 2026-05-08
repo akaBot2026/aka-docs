@@ -1,3 +1,11 @@
+---
+id: attach-window
+title: "Attach Window"
+sidebar_label: "Attach Window"
+sidebar_position: 1
+description: "Attach Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Attach Window - akaBot Docs
 
 RCA.Activities.Common.AttachWindow

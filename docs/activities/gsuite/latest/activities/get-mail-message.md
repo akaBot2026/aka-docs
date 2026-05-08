@@ -1,3 +1,11 @@
+---
+id: get-mail-message
+title: "Get Mail Message"
+sidebar_label: "Get Mail Message"
+sidebar_position: 11
+description: "Get Mail Message activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Mail Message - akaBot Docs
 
 RCA.Activities.GSuite.GetMailMessages

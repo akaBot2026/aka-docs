@@ -1,3 +1,11 @@
+---
+id: click-toolbar-button
+title: "Click Toolbar button"
+sidebar_label: "Click Toolbar button"
+sidebar_position: 1
+description: "Click Toolbar button activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Click Toolbar button - akaBot Docs
 
 Content

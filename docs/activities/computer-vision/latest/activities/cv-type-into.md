@@ -1,3 +1,11 @@
+---
+id: cv-type-into
+title: "CV Type Into"
+sidebar_label: "CV Type Into"
+sidebar_position: 10
+description: "CV Type Into activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # CV Type Into - akaBot Docs
 
 RCA.Activities.ComputerVision.CVTypeInto

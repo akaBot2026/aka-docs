@@ -1,3 +1,11 @@
+---
+id: execute-macro
+title: "Execute Macro"
+sidebar_label: "Execute Macro"
+sidebar_position: 25
+description: "Execute Macro activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Execute Macro - akaBot Docs
 
 RCA.Activities.Excel.ExecuteMacro

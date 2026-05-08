@@ -1,3 +1,11 @@
+---
+id: read-row
+title: "Read Row"
+sidebar_label: "Read Row"
+sidebar_position: 4
+description: "Read Row activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Read Row - akaBot Docs
 
 RCA.Activities.Excel.ReadRow

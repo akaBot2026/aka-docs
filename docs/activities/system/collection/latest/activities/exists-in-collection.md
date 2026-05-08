@@ -1,3 +1,11 @@
+---
+id: exists-in-collection
+title: "Exists In Collection"
+sidebar_label: "Exists In Collection"
+sidebar_position: 3
+description: "Exists In Collection activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [03]Exists In Collection - akaBot Docs
 
 System.Activities.Statements.ExistsInCollection<System.Int32>

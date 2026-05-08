@@ -1,3 +1,11 @@
+---
+id: close-tab
+title: "Close Tab (NB)"
+sidebar_label: "Close Tab (NB)"
+sidebar_position: 4
+description: "Close Tab (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Close Tab (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.CloseTab

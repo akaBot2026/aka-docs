@@ -1,3 +1,11 @@
+---
+id: search
+title: "Search"
+sidebar_label: "Search"
+sidebar_position: 16
+description: "Search activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Search - akaBot Docs
 
 Content

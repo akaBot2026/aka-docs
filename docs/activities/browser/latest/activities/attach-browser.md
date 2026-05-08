@@ -1,3 +1,11 @@
+---
+id: attach-browser
+title: "Attach Browser"
+sidebar_label: "Attach Browser"
+sidebar_position: 3
+description: "Attach Browser activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [03]Attach Browser - akaBot Docs
 
 RCA.Activities.Browser.AttachBrowser

@@ -1,3 +1,11 @@
+---
+id: get-record
+title: "Get Record"
+sidebar_label: "Get Record"
+sidebar_position: 12
+description: "Get Record activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Record - akaBot Docs
 
 Content

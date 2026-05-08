@@ -1,3 +1,11 @@
+---
+id: go-forward
+title: "Go Forward"
+sidebar_label: "Go Forward"
+sidebar_position: 6
+description: "Go Forward activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Go Forward - akaBot Docs
 
 RCA.Activities.Common.GoForward

@@ -1,3 +1,11 @@
+---
+id: get-web-attribute
+title: "Get Web Attribute (NB)"
+sidebar_label: "Get Web Attribute (NB)"
+sidebar_position: 9
+description: "Get Web Attribute (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Web Attribute (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.GetWebAttribute

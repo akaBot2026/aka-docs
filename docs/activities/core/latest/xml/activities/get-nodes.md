@@ -1,3 +1,11 @@
+---
+id: get-nodes
+title: "Get Nodes"
+sidebar_label: "Get Nodes"
+sidebar_position: 3
+description: "Get Nodes activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Nodes - akaBot Docs
 
 RCA.Activities.Core.GetNodes

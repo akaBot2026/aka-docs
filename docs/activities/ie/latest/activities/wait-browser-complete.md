@@ -1,3 +1,11 @@
+---
+id: wait-browser-complete
+title: "Wait Browser Complete"
+sidebar_label: "Wait Browser Complete"
+sidebar_position: 22
+description: "Wait Browser Complete activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Wait Browser Complete - akaBot Docs
 
 RCA.Activities.IE.WaitBrowserComplete

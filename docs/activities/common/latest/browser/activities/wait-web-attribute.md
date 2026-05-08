@@ -1,3 +1,11 @@
+---
+id: wait-web-attribute
+title: "Wait Web Attribute"
+sidebar_label: "Wait Web Attribute"
+sidebar_position: 14
+description: "Wait Web Attribute activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Wait Web Attribute - akaBot Docs
 
 RCA.Activities.Common.WaitWebAttribute

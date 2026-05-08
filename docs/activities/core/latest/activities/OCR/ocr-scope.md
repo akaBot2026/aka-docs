@@ -1,3 +1,11 @@
+---
+id: ocr-scope
+title: "OCR Scope"
+sidebar_label: "OCR Scope"
+sidebar_position: 2
+description: "OCR Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # OCR Scope - akaBot Docs
 
 RCA.Activities.Core.OCRScope

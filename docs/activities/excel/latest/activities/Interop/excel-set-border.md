@@ -1,3 +1,11 @@
+---
+id: excel-set-border
+title: "Excel Set Border"
+sidebar_label: "Excel Set Border"
+sidebar_position: 21
+description: "Excel Set Border activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Set Border - akaBot Docs
 
 RCA.Activities.Excel.ExelSetBorder

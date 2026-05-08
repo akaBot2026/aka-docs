@@ -1,3 +1,11 @@
+---
+id: windows
+title: "Common Windows"
+sidebar_label: "Common Windows"
+sidebar_position: 3
+description: "Common Windows activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Common Windows - akaBot Docs
 
 Content

@@ -1,3 +1,11 @@
+---
+id: type-into
+title: "Type Into"
+sidebar_label: "Type Into"
+sidebar_position: 9
+description: "Type Into activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Type Into - akaBot Docs
 
 RCA.Activities.Java.TypeInto

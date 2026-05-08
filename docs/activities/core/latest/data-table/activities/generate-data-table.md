@@ -1,3 +1,11 @@
+---
+id: generate-data-table
+title: "Generate Data Table"
+sidebar_label: "Generate Data Table"
+sidebar_position: 7
+description: "Generate Data Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Generate Data Table - akaBot Docs
 
 RCA.Activities.Core.GenerateDataTable

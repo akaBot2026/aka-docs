@@ -1,3 +1,11 @@
+---
+id: get-outlook-mail-message
+title: "Get Outlook Mail Message"
+sidebar_label: "Get Outlook Mail Message"
+sidebar_position: 3
+description: "Get Outlook Mail Message activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [03]Get Outlook Mail Message - akaBot Docs
 
 RCA.Activities.Mail.GetOutlookMailMessages

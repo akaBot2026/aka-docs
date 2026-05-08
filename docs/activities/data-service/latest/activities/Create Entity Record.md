@@ -1,3 +1,11 @@
+---
+id: Create Entity Record
+title: "Create Entity Record"
+sidebar_label: "Create Entity Record"
+sidebar_position: 2
+description: "Create Entity Record activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [2] Create Entity Record - akaBot Docs
 
 RCA.Activities.DataService.CreateEntityRecord

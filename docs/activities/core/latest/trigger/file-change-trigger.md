@@ -1,3 +1,11 @@
+---
+id: file-change-trigger
+title: "File Change Trigger"
+sidebar_label: "File Change Trigger"
+sidebar_position: 1
+description: "File Change Trigger activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [01]File Change Trigger - akaBot Docs
 
 System.Activities.Core.FileChangeTrigger

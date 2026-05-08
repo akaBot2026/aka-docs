@@ -1,3 +1,11 @@
+---
+id: check
+title: "Check/Uncheck"
+sidebar_label: "Check/Uncheck"
+sidebar_position: 16
+description: "Check/Uncheck activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [16]Check/Uncheck - akaBot Docs
 
 RCA.Activities.Windows.Check

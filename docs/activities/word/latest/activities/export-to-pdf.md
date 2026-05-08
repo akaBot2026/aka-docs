@@ -1,3 +1,11 @@
+---
+id: export-to-pdf
+title: "Export to PDF"
+sidebar_label: "Export to PDF"
+sidebar_position: 3
+description: "Export to PDF activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Export to PDF - akaBot Docs
 
 RCA.Activities.Word.ExportToPDF

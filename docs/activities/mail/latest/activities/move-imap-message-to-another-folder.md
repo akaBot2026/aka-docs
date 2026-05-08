@@ -1,3 +1,11 @@
+---
+id: move-imap-message-to-another-folder
+title: "Move IMAP Message To Another Folder"
+sidebar_label: "Move IMAP Message To Another Folder"
+sidebar_position: 7
+description: "Move IMAP Message To Another Folder activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [07]Move IMAP Message To Another Folder - akaBot Docs
 
 RCA.Activities.Mail.MoveIMAPMessageToFolder

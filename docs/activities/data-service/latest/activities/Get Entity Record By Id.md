@@ -1,3 +1,11 @@
+---
+id: Get Entity Record By Id
+title: "Get Entity Record By Id"
+sidebar_label: "Get Entity Record By Id"
+sidebar_position: 3
+description: "Get Entity Record By Id activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [3] Get Entity Record By Id - akaBot Docs
 
 RCA.Activities.DataService.GetEntityRecordById

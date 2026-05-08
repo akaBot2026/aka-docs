@@ -1,3 +1,11 @@
+---
+id: move-directory
+title: "Move Directory"
+sidebar_label: "Move Directory"
+sidebar_position: 7
+description: "Move Directory activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Move Directory - akaBot Docs
 
 RCA.Activities.Core.MoveDirectory

@@ -1,3 +1,11 @@
+---
+id: excel-insert-or-delete-rows
+title: "Excel Insert Or Delete Rows"
+sidebar_label: "Excel Insert Or Delete Rows"
+sidebar_position: 11
+description: "Excel Insert Or Delete Rows activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Insert Or Delete Rows - akaBot Docs
 
 RCA.Activities.Excel.ExcelInsertOrDeleteRows

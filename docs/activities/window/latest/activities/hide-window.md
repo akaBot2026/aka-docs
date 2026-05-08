@@ -1,3 +1,11 @@
+---
+id: hide-window
+title: "Hide Window"
+sidebar_label: "Hide Window"
+sidebar_position: 9
+description: "Hide Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [09]Hide Window - akaBot Docs
 
 RCA.Activities.Windows.HideWindow

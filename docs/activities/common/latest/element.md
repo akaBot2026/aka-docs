@@ -1,3 +1,11 @@
+---
+id: element
+title: "Common Element"
+sidebar_label: "Common Element"
+sidebar_position: 2
+description: "Common Element activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Common Element - akaBot Docs
 
 Content

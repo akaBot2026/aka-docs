@@ -1,3 +1,11 @@
+---
+id: excel-insert-rows
+title: "Excel Insert Rows"
+sidebar_label: "Excel Insert Rows"
+sidebar_position: 12
+description: "Excel Insert Rows activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Insert Rows - akaBot Docs
 
 RCA.Activities.Excel.ExcelInsertRows

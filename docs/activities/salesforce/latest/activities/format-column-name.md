@@ -1,3 +1,11 @@
+---
+id: format-column-name
+title: "Format Column Names"
+sidebar_label: "Format Column Names"
+sidebar_position: 8
+description: "Format Column Names activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Format Column Names - akaBot Docs
 
 RCA.Activities.Salesforce.FormatColumnNames

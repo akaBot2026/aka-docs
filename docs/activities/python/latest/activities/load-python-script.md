@@ -1,3 +1,11 @@
+---
+id: load-python-script
+title: "Load Python Script"
+sidebar_label: "Load Python Script"
+sidebar_position: 3
+description: "Load Python Script activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Load Python Script - akaBot Docs
 
 RCA.Activities.Python.LoadScript

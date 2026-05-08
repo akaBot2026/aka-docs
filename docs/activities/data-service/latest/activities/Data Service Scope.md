@@ -1,3 +1,11 @@
+---
+id: Data Service Scope
+title: "Data Service Scope"
+sidebar_label: "Data Service Scope"
+sidebar_position: 1
+description: "Data Service Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [1] Data Service Scope - akaBot Docs
 
 RCA.Activities.DataService.DataServiceScope

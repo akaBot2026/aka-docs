@@ -1,3 +1,11 @@
+---
+id: navigate-to
+title: "Navigate To"
+sidebar_label: "Navigate To"
+sidebar_position: 8
+description: "Navigate To activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Navigate To - akaBot Docs
 
 RCA.Activities.Common.NavigateTo

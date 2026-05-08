@@ -1,3 +1,11 @@
+---
+id: excel-application-scope
+title: "Excel Application Scope"
+sidebar_label: "Excel Application Scope"
+sidebar_position: 2
+description: "Excel Application Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Application Scope - akaBot Docs
 
 RCA.Activities.Excel.ExcelApplicationScope

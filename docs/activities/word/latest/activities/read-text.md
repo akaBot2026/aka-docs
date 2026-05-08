@@ -1,3 +1,11 @@
+---
+id: read-text
+title: "Read Text"
+sidebar_label: "Read Text"
+sidebar_position: 5
+description: "Read Text activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Read Text - akaBot Docs
 
 RCA.Activities.Word.ReadText

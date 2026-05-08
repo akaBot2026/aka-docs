@@ -1,3 +1,11 @@
+---
+id: execute-report
+title: "Execute Report"
+sidebar_label: "Execute Report"
+sidebar_position: 6
+description: "Execute Report activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Execute Report - akaBot Docs
 
 Content

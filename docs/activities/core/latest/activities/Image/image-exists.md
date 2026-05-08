@@ -1,3 +1,11 @@
+---
+id: image-exists
+title: "Image Exists"
+sidebar_label: "Image Exists"
+sidebar_position: 2
+description: "Image Exists activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Image Exists - akaBot Docs
 
 RCA.Activities.Core.ImageFound

@@ -1,3 +1,11 @@
+---
+id: quit-browser
+title: "Quit Browser (NB)"
+sidebar_label: "Quit Browser (NB)"
+sidebar_position: 16
+description: "Quit Browser (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Quit Browser (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.QuitBrowser

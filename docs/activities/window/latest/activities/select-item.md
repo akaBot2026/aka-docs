@@ -1,3 +1,11 @@
+---
+id: select-item
+title: "Select Item"
+sidebar_label: "Select Item"
+sidebar_position: 12
+description: "Select Item activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [12]Select Item - akaBot Docs
 
 RCA.Activities.Windows.SelectItem

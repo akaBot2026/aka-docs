@@ -1,3 +1,11 @@
+---
+id: get-file-info
+title: "Get File Info"
+sidebar_label: "Get File Info"
+sidebar_position: 9
+description: "Get File Info activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get File Info - akaBot Docs
 
 RCA.Activities.GSuite.GetFileInfo

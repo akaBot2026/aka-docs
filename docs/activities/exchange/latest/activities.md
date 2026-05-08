@@ -1,3 +1,11 @@
+---
+id: activities
+title: "Activities"
+sidebar_label: "Activities"
+sidebar_position: 1
+description: "Activities activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Activities - akaBot Docs
 
 * [Exchange Scope](https://docs.akabot.com/bin/view/Activities/Exchange/Activities/Exchange%20Scope/)

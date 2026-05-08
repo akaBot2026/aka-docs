@@ -1,3 +1,11 @@
+---
+id: scroll
+title: "Scroll"
+sidebar_label: "Scroll"
+sidebar_position: 13
+description: "Scroll activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [13]Scroll - akaBot Docs
 
 RCA.Activities.Windows.Scroll

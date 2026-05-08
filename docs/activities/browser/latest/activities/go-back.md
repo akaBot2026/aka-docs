@@ -1,3 +1,11 @@
+---
+id: go-back
+title: "Go Back"
+sidebar_label: "Go Back"
+sidebar_position: 6
+description: "Go Back activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [06]Go Back - akaBot Docs
 
 RCA.Activities.Browser.GoBack

@@ -1,3 +1,11 @@
+---
+id: replace
+title: "Replace"
+sidebar_label: "Replace"
+sidebar_position: 3
+description: "Replace activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Replace - akaBot Docs
 
 RCA.Activities.Core.Replace

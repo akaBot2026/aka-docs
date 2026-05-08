@@ -1,3 +1,11 @@
+---
+id: extract-structured-data
+title: "Extract Structured Data (NB)"
+sidebar_label: "Extract Structured Data (NB)"
+sidebar_position: 6
+description: "Extract Structured Data (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Extract Structured Data (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.ExtractStructuredData

@@ -1,3 +1,11 @@
+---
+id: wait-page-url
+title: "Wait Page Url"
+sidebar_label: "Wait Page Url"
+sidebar_position: 13
+description: "Wait Page Url activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Wait Page Url - akaBot Docs
 
 RCA.Activities.Common.WaitPageUrl

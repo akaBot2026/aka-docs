@@ -1,3 +1,11 @@
+---
+id: read-status-bar
+title: "Read Status Bar"
+sidebar_label: "Read Status Bar"
+sidebar_position: 3
+description: "Read Status Bar activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Read Status Bar - akaBot Docs
 
 Content

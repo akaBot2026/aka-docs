@@ -1,3 +1,11 @@
+---
+id: add-log-fields
+title: "Add Log Fields"
+sidebar_label: "Add Log Fields"
+sidebar_position: 1
+description: "Add Log Fields activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Add Log Fields - akaBot Docs
 
 RCA.Activities.Core.AddLogFields

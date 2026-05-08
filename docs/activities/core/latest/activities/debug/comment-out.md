@@ -1,3 +1,11 @@
+---
+id: comment-out
+title: "Comment Out"
+sidebar_label: "Comment Out"
+sidebar_position: 1
+description: "Comment Out activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Comment Out - akaBot Docs
 
 RCA.Activities.Core.CommentOut

@@ -1,3 +1,11 @@
+---
+id: wait-page-load-complete
+title: "Wait Page Load Complete"
+sidebar_label: "Wait Page Load Complete"
+sidebar_position: 12
+description: "Wait Page Load Complete activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Wait Page Load Complete - akaBot Docs
 
 RCA.Activities.Common.WaitPageLoadComplete

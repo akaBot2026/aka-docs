@@ -1,3 +1,11 @@
+---
+id: open-application
+title: "Open Application"
+sidebar_label: "Open Application"
+sidebar_position: 8
+description: "Open Application activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Open Application - akaBot Docs
 
 RCA.Activities.Common.OpenApplication

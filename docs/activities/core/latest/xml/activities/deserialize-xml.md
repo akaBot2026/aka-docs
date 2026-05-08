@@ -1,3 +1,11 @@
+---
+id: deserialize-xml
+title: "Deserialize XML"
+sidebar_label: "Deserialize XML"
+sidebar_position: 1
+description: "Deserialize XML activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Deserialize XML - akaBot Docs
 
 RCA.Activities.Core.DeserializeXML

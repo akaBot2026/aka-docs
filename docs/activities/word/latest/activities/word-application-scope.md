@@ -1,3 +1,11 @@
+---
+id: word-application-scope
+title: "Word Application Scope"
+sidebar_label: "Word Application Scope"
+sidebar_position: 10
+description: "Word Application Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Word Application Scope - akaBot Docs
 
 RCA.Activities.Word.WordApplicationScope

@@ -1,3 +1,11 @@
+---
+id: get-pop3-mail-messages
+title: "Get POP3 Mail Messages"
+sidebar_label: "Get POP3 Mail Messages"
+sidebar_position: 9
+description: "Get POP3 Mail Messages activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [09]Get POP3 Mail Messages - akaBot Docs
 
 RCA.Activities.Mail.GetPOP3MailMessages

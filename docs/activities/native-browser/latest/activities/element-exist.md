@@ -1,3 +1,11 @@
+---
+id: element-exist
+title: "Element Exist (NB)"
+sidebar_label: "Element Exist (NB)"
+sidebar_position: 5
+description: "Element Exist (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Element Exist (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.ElementExist

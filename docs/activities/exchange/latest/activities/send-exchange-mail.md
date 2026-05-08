@@ -1,3 +1,11 @@
+---
+id: send-exchange-mail
+title: "Send Exchange Mail"
+sidebar_label: "Send Exchange Mail"
+sidebar_position: 4
+description: "Send Exchange Mail activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Send Exchange Mail - akaBot Docs
 
 RCA.Activities.Mail.SendExchangeMail

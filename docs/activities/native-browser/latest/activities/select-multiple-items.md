@@ -1,3 +1,11 @@
+---
+id: select-multiple-items
+title: "Select Multiple Items (NB)"
+sidebar_label: "Select Multiple Items (NB)"
+sidebar_position: 19
+description: "Select Multiple Items (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Select Multiple Items (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.SelectMultiple

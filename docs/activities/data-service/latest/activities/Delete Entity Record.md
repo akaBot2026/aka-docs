@@ -1,3 +1,11 @@
+---
+id: Delete Entity Record
+title: "Delete Entity Record"
+sidebar_label: "Delete Entity Record"
+sidebar_position: 5
+description: "Delete Entity Record activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [5] Delete Entity Record - akaBot Docs
 
 RCA.Activities.DataService.DeleteEntityRecord

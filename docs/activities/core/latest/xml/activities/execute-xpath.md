@@ -1,3 +1,11 @@
+---
+id: execute-xpath
+title: "Execute XPath"
+sidebar_label: "Execute XPath"
+sidebar_position: 2
+description: "Execute XPath activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Execute XPath - akaBot Docs
 
 RCA.Activities.Core.ExecuteXPath

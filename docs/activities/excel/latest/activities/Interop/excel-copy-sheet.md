@@ -1,3 +1,11 @@
+---
+id: excel-copy-sheet
+title: "Excel Copy Sheet"
+sidebar_label: "Excel Copy Sheet"
+sidebar_position: 5
+description: "Excel Copy Sheet activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Copy Sheet - akaBot Docs
 
 RCA.Activities.Excel.ExcelCopySheet

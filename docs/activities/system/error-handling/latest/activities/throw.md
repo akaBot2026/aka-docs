@@ -1,3 +1,11 @@
+---
+id: throw
+title: "Throw"
+sidebar_label: "Throw"
+sidebar_position: 2
+description: "Throw activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Throw - akaBot Docs
 
 System.Activities.Core.Throw

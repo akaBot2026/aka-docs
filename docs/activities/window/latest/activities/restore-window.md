@@ -1,3 +1,11 @@
+---
+id: restore-window
+title: "Restore Window"
+sidebar_label: "Restore Window"
+sidebar_position: 10
+description: "Restore Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [10]Restore Window - akaBot Docs
 
 RCA.Activities.Windows.RestoreWindow

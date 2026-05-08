@@ -1,3 +1,11 @@
+---
+id: type-into
+title: "Type Into"
+sidebar_label: "Type Into"
+sidebar_position: 15
+description: "Type Into activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [15]Type Into - akaBot Docs
 
 RCA.Activities.Windows.TypeInto

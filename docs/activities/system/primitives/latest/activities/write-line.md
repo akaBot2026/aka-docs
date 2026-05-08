@@ -1,3 +1,11 @@
+---
+id: write-line
+title: "Write Line"
+sidebar_label: "Write Line"
+sidebar_position: 4
+description: "Write Line activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Write Line - akaBot Docs
 
 System.Activities.Statements.WriteLine

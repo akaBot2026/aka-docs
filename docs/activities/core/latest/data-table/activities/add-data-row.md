@@ -1,3 +1,11 @@
+---
+id: add-data-row
+title: "Add Data Row"
+sidebar_label: "Add Data Row"
+sidebar_position: 2
+description: "Add Data Row activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Add Data Row - akaBot Docs
 
 RCA.Activities.Core.AddDataRow

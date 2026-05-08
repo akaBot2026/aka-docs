@@ -1,3 +1,11 @@
+---
+id: invoke-method
+title: "Invoke Method"
+sidebar_label: "Invoke Method"
+sidebar_position: 3
+description: "Invoke Method activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Invoke Method - akaBot Docs
 
 System.Activities.Statements.InvokeMethod

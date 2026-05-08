@@ -1,3 +1,11 @@
+---
+id: queues
+title: "Queues"
+sidebar_label: "Queues"
+sidebar_position: 1
+description: "Queues activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Queues - akaBot Docs
 
 A queue is a container that enables you to hold an unlimited number of items. Queue items can store multiple types of data, such as invoice information or customer details. This information can be processed in other systems - SAP or Salesforce, for instance.   

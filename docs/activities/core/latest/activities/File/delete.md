@@ -1,3 +1,11 @@
+---
+id: delete
+title: "Delete"
+sidebar_label: "Delete"
+sidebar_position: 5
+description: "Delete activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Delete - akaBot Docs
 
 RCA.Activities.Core.Delete

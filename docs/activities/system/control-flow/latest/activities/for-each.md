@@ -1,3 +1,11 @@
+---
+id: for-each
+title: "For Each"
+sidebar_label: "For Each"
+sidebar_position: 2
+description: "For Each activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # For Each - akaBot Docs
 
 RCA.Activities.Core.ForEach

@@ -1,3 +1,11 @@
+---
+id: delete-queue-items
+title: "Delete Queue Items"
+sidebar_label: "Delete Queue Items"
+sidebar_position: 4
+description: "Delete Queue Items activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Delete Queue Items - akaBot Docs
 
 RCA.Activities.Core.DeleteQueueItems

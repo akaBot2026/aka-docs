@@ -1,3 +1,11 @@
+---
+id: get-list-view-records
+title: "Get List View Records"
+sidebar_label: "Get List View Records"
+sidebar_position: 11
+description: "Get List View Records activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get List View Records - akaBot Docs
 
 Content

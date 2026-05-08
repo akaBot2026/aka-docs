@@ -1,3 +1,11 @@
+---
+id: while
+title: "While"
+sidebar_label: "While"
+sidebar_position: 8
+description: "While activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # While - akaBot Docs
 
 System.Activities.Statements.While

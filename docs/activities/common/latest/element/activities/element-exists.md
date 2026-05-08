@@ -1,3 +1,11 @@
+---
+id: element-exists
+title: "Element Exists"
+sidebar_label: "Element Exists"
+sidebar_position: 3
+description: "Element Exists activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Element Exists - akaBot Docs
 
 RCA.Activities.Common.UiElementExists

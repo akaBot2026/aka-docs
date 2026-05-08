@@ -1,3 +1,11 @@
+---
+id: parallel
+title: "Parallel"
+sidebar_label: "Parallel"
+sidebar_position: 5
+description: "Parallel activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Parallel - akaBot Docs
 
 System.Activities.Statements.Parallel

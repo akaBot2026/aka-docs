@@ -1,3 +1,11 @@
+---
+id: maximize-window
+title: "Maximize Window"
+sidebar_label: "Maximize Window"
+sidebar_position: 5
+description: "Maximize Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [05]Maximize Window - akaBot Docs
 
 RCA.Activities.Windows.MaximizeWindow

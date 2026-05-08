@@ -1,3 +1,11 @@
+---
+id: set-agent-asset
+title: "Set Agent Asset"
+sidebar_label: "Set Agent Asset"
+sidebar_position: 4
+description: "Set Agent Asset activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Set Agent Asset - akaBot Docs
 
 RCA.Core.Activities.SetAgentAsset

@@ -1,3 +1,11 @@
+---
+id: get-element
+title: "Get Element"
+sidebar_label: "Get Element"
+sidebar_position: 5
+description: "Get Element activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Element - akaBot Docs
 
 RCA.Activities.Java.GetElement

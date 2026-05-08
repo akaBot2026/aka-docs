@@ -1,3 +1,11 @@
+---
+id: build-data-table
+title: "Build Data Table"
+sidebar_label: "Build Data Table"
+sidebar_position: 3
+description: "Build Data Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Build Data Table - akaBot Docs
 
 RCA.Activities.Core.BuildDataTable

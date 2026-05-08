@@ -1,3 +1,11 @@
+---
+id: do-action
+title: "Do Actions"
+sidebar_label: "Do Actions"
+sidebar_position: 2
+description: "Do Actions activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Do Actions - akaBot Docs
 
 RCA.Activities.Java.DoActions

@@ -1,3 +1,11 @@
+---
+id: run-python-script
+title: "Run Python Script"
+sidebar_label: "Run Python Script"
+sidebar_position: 5
+description: "Run Python Script activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Run Python Script - akaBot Docs
 
 RCA.Activities.Python.RunScript

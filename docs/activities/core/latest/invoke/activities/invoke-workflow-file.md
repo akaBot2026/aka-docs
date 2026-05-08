@@ -1,3 +1,11 @@
+---
+id: invoke-workflow-file
+title: "Invoke Workflow File"
+sidebar_label: "Invoke Workflow File"
+sidebar_position: 3
+description: "Invoke Workflow File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [03]Invoke Workflow File - akaBot Docs
 
 RCA.Activities.Core.InvokeWorkflowFile

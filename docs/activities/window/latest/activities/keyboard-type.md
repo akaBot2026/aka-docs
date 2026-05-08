@@ -1,3 +1,11 @@
+---
+id: keyboard-type
+title: "Keyboard Type"
+sidebar_label: "Keyboard Type"
+sidebar_position: 31
+description: "Keyboard Type activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [31]Keyboard Type - akaBot Docs
 
 RCA.Activities.Windows.KeyboardType

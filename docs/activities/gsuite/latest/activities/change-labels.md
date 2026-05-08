@@ -1,3 +1,11 @@
+---
+id: change-labels
+title: "Change Labels"
+sidebar_label: "Change Labels"
+sidebar_position: 1
+description: "Change Labels activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Change Labels - akaBot Docs
 
 RCA.Activities.GSuite.ChangeLabels

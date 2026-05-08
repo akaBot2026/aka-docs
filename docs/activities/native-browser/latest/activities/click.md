@@ -1,3 +1,11 @@
+---
+id: click
+title: "Click (NB)"
+sidebar_label: "Click (NB)"
+sidebar_position: 3
+description: "Click (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Click (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.Click

@@ -1,3 +1,11 @@
+---
+id: move-file
+title: "Move File"
+sidebar_label: "Move File"
+sidebar_position: 8
+description: "Move File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Move File - akaBot Docs
 
 RCA.Activities.Core.MoveFile

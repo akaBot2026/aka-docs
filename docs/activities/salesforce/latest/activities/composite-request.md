@@ -1,3 +1,11 @@
+---
+id: composite-request
+title: "Composite Request"
+sidebar_label: "Composite Request"
+sidebar_position: 2
+description: "Composite Request activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Composite Request - akaBot Docs
 
 Content

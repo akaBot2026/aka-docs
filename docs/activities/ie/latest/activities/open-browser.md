@@ -1,3 +1,11 @@
+---
+id: open-browser
+title: "Open Browser"
+sidebar_label: "Open Browser"
+sidebar_position: 15
+description: "Open Browser activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Open Browser - akaBot Docs
 
 RCA.Activities.IE.OpenBrowser

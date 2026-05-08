@@ -1,3 +1,11 @@
+---
+id: bulk-add-queue-items
+title: "Bulk Add Queue Items"
+sidebar_label: "Bulk Add Queue Items"
+sidebar_position: 3
+description: "Bulk Add Queue Items activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Bulk Add Queue Items - akaBot Docs
 
 RCA.Activities.Core.BulkAddQueueItems

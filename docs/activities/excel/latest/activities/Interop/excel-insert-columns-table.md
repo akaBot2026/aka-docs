@@ -1,3 +1,11 @@
+---
+id: excel-insert-columns-table
+title: "Excel Insert Columns Table"
+sidebar_label: "Excel Insert Columns Table"
+sidebar_position: 9
+description: "Excel Insert Columns Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Insert Columns Table - akaBot Docs
 
 RCA.Activities.Excel.ExcelInsertColumnsTable

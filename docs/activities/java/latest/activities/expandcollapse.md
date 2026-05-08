@@ -1,3 +1,11 @@
+---
+id: expandcollapse
+title: "Expand/Collapse"
+sidebar_label: "Expand/Collapse"
+sidebar_position: 4
+description: "Expand/Collapse activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Expand/Collapse - akaBot Docs
 
 RCA.Activities.Java.ExpandCollapse

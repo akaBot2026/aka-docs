@@ -1,3 +1,11 @@
+---
+id: clear-collection
+title: "Clear Collection"
+sidebar_label: "Clear Collection"
+sidebar_position: 2
+description: "Clear Collection activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [02]Clear Collection - akaBot Docs
 
 System.Activities.Statements.ClearCollection<System.Int32>

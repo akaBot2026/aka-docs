@@ -1,3 +1,11 @@
+---
+id: copy-file
+title: "Copy File"
+sidebar_label: "Copy File"
+sidebar_position: 3
+description: "Copy File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Copy File - akaBot Docs
 
 RCA.Core.Activities.CopyFile

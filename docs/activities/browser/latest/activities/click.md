@@ -1,3 +1,11 @@
+---
+id: click
+title: "Click"
+sidebar_label: "Click"
+sidebar_position: 9
+description: "Click activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [09]Click - akaBot Docs
 
 RCA.Activities.Browser.Click

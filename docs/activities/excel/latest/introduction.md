@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "Excel Activities"
+sidebar_label: "Excel Activities"
+sidebar_position: 2
+description: "Excel Activities activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Activities - akaBot Docs
 
 Content

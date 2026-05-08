@@ -1,3 +1,11 @@
+---
+id: send-hot-keys
+title: "Send Hot Keys"
+sidebar_label: "Send Hot Keys"
+sidebar_position: 12
+description: "Send Hot Keys activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [12]Send Hot Keys - akaBot Docs
 
 RCA.Activities.Browser.SendHotKeys

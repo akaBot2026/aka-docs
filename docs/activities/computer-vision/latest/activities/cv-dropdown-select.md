@@ -1,3 +1,11 @@
+---
+id: cv-dropdown-select
+title: "CV Dropdown Select"
+sidebar_label: "CV Dropdown Select"
+sidebar_position: 3
+description: "CV Dropdown Select activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # CV Dropdown Select - akaBot Docs
 
 RCA.Activities.ComputerVision.CVDropdownSelect

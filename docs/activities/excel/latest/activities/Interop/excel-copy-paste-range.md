@@ -1,3 +1,11 @@
+---
+id: excel-copy-paste-range
+title: "Excel Copy Paste Range"
+sidebar_label: "Excel Copy Paste Range"
+sidebar_position: 4
+description: "Excel Copy Paste Range activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Copy Paste Range - akaBot Docs
 
 RCA.Activities.Excel.ExcelCopyPasteRange

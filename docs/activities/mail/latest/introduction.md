@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "Mail Activities"
+sidebar_label: "Mail Activities"
+sidebar_position: 2
+description: "Mail Activities activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Mail Activities - akaBot Docs
 
 The Mail Activities Package is designed to facilitate the automation of mail-related tasks.

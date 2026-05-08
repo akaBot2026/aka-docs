@@ -1,3 +1,11 @@
+---
+id: set-transaction-status
+title: "Set Transaction Status"
+sidebar_label: "Set Transaction Status"
+sidebar_position: 9
+description: "Set Transaction Status activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Set Transaction Status - akaBot Docs
 
 RCA.Activities.Core.SetTransactionStatus

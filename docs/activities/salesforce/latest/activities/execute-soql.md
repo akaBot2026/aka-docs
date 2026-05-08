@@ -1,3 +1,11 @@
+---
+id: execute-soql
+title: "Execute SOQL"
+sidebar_label: "Execute SOQL"
+sidebar_position: 7
+description: "Execute SOQL activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Execute SOQL - akaBot Docs
 
 Content

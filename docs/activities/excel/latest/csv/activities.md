@@ -1,3 +1,11 @@
+---
+id: activities
+title: "Activities"
+sidebar_label: "Activities"
+sidebar_position: 1
+description: "Activities activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Activities - akaBot Docs
 
 * [Append CSV File](//docs.akabot.io/bin/view/Activities/CSV%20Activities/Activities/Append%20CSV%20File/)

@@ -1,3 +1,11 @@
+---
+id: extract-data
+title: "Extract Data"
+sidebar_label: "Extract Data"
+sidebar_position: 16
+description: "Extract Data activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [16]Extract Data - akaBot Docs
 
 RCA.Activities.Browser.ExtractData

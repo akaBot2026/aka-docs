@@ -1,3 +1,11 @@
+---
+id: database-disconnect
+title: "Database Disconnect"
+sidebar_label: "Database Disconnect"
+sidebar_position: 2
+description: "Database Disconnect activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Database Disconnect - akaBot Docs
 
 RCA.Activities.Core.DatabaseDisconnect

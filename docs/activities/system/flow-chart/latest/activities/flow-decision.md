@@ -1,3 +1,11 @@
+---
+id: flow-decision
+title: "Flow Decision"
+sidebar_label: "Flow Decision"
+sidebar_position: 1
+description: "Flow Decision activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [01]Flow Decision - akaBot Docs
 
 System.Activities.Statements.FlowDecision

@@ -1,3 +1,11 @@
+---
+id: set-transaction-progress
+title: "Set Transaction Progress"
+sidebar_label: "Set Transaction Progress"
+sidebar_position: 8
+description: "Set Transaction Progress activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Set Transaction Progress - akaBot Docs
 
 RCA.Activities.Core.SetTransactionProgress

@@ -1,3 +1,11 @@
+---
+id: add-to-collection
+title: "Add To Collection"
+sidebar_label: "Add To Collection"
+sidebar_position: 1
+description: "Add To Collection activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [01]Add To Collection - akaBot Docs
 
 System.Activities.Statements.AddToCollection<System.Int32>

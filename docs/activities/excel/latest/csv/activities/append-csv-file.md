@@ -1,3 +1,11 @@
+---
+id: append-csv-file
+title: "Append CSV File"
+sidebar_label: "Append CSV File"
+sidebar_position: 1
+description: "Append CSV File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Append CSV File - akaBot Docs
 
 RCA.Activities.CSV.AppendCSVFile

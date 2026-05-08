@@ -1,3 +1,11 @@
+---
+id: postpone-transaction-item
+title: "Postpone Transaction Item"
+sidebar_label: "Postpone Transaction Item"
+sidebar_position: 7
+description: "Postpone Transaction Item activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Postpone Transaction Item - akaBot Docs
 
 RCA.Activities.Core.PostponeTransactionItem

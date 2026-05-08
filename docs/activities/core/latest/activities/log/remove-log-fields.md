@@ -1,3 +1,11 @@
+---
+id: remove-log-fields
+title: "Remove Log Fields"
+sidebar_label: "Remove Log Fields"
+sidebar_position: 3
+description: "Remove Log Fields activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Remove Log Fields - akaBot Docs
 
 RCA.Activities.Core.RemoveLogFields

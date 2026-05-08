@@ -1,3 +1,11 @@
+---
+id: get-files
+title: "Get Files"
+sidebar_label: "Get Files"
+sidebar_position: 6
+description: "Get Files activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Files - akaBot Docs
 
 RCA.Activities.Core.GetFiles

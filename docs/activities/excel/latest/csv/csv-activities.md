@@ -1,3 +1,11 @@
+---
+id: csv-activities
+title: "CSV Activities"
+sidebar_label: "CSV Activities"
+sidebar_position: 2
+description: "CSV Activities activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # CSV Activities - akaBot Docs
 
 Content

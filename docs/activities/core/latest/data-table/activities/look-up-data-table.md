@@ -1,3 +1,11 @@
+---
+id: look-up-data-table
+title: "Look Up Data Table"
+sidebar_label: "Look Up Data Table"
+sidebar_position: 10
+description: "Look Up Data Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Look Up Data Table - akaBot Docs
 
 RCA.Activities.Core.LookupDataTable

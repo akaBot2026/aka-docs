@@ -1,3 +1,11 @@
+---
+id: gsuite-application-scope
+title: "GSuite Application Scope"
+sidebar_label: "GSuite Application Scope"
+sidebar_position: 12
+description: "GSuite Application Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # GSuite Application Scope - akaBot Docs
 
 RCA.Activities.GSuite.GsuiteApplicationScope

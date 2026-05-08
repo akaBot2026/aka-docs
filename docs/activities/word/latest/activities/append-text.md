@@ -1,3 +1,11 @@
+---
+id: append-text
+title: "Append Text"
+sidebar_label: "Append Text"
+sidebar_position: 2
+description: "Append Text activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Append Text - akaBot Docs
 
 RCA.Activities.Word.AppendText

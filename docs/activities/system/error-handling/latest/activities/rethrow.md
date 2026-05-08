@@ -1,3 +1,11 @@
+---
+id: rethrow
+title: "Rethrow"
+sidebar_label: "Rethrow"
+sidebar_position: 1
+description: "Rethrow activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Rethrow - akaBot Docs
 
 System.Activities.Statements.Rethrow

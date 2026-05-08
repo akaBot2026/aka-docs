@@ -1,3 +1,11 @@
+---
+id: get-text
+title: "Get Text"
+sidebar_label: "Get Text"
+sidebar_position: 8
+description: "Get Text activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Text - akaBot Docs
 
 RCA.Activities.IE.GetText

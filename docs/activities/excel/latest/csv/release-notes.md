@@ -1,3 +1,11 @@
+---
+id: release-notes
+title: "Release Notes"
+sidebar_label: "Release Notes"
+sidebar_position: 3
+description: "Release Notes activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Release Notes - akaBot Docs
 
 ## **RCA.Activities.Excel Version 2.1.1.0**

@@ -1,3 +1,11 @@
+---
+id: write-csv-file
+title: "Write CSV File"
+sidebar_label: "Write CSV File"
+sidebar_position: 3
+description: "Write CSV File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Write CSV File - akaBot Docs
 
 RCA.Activities.CSV.WriteCSVFile

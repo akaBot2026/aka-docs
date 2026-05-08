@@ -1,3 +1,11 @@
+---
+id: create-bulk-api-job
+title: "Create Bulk API Job"
+sidebar_label: "Create Bulk API Job"
+sidebar_position: 3
+description: "Create Bulk API Job activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Create Bulk API Job - akaBot Docs
 
 Content

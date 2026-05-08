@@ -1,3 +1,11 @@
+---
+id: take-screenshot
+title: "Take Screenshot"
+sidebar_label: "Take Screenshot"
+sidebar_position: 10
+description: "Take Screenshot activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Take Screenshot - akaBot Docs
 
 RCA.Activities.Common.TakeScreenshot

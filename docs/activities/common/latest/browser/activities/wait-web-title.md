@@ -1,3 +1,11 @@
+---
+id: wait-web-title
+title: "Wait Web Title"
+sidebar_label: "Wait Web Title"
+sidebar_position: 15
+description: "Wait Web Title activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Wait Web Title - akaBot Docs
 
 RCA.Activities.Common.WaitWebTitle

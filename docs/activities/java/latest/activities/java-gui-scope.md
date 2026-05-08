@@ -1,3 +1,11 @@
+---
+id: java-gui-scope
+title: "Java Gui Scope"
+sidebar_label: "Java Gui Scope"
+sidebar_position: 7
+description: "Java Gui Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Java Gui Scope - akaBot Docs
 
 RCA.Activities.Java.JavaGuiScope

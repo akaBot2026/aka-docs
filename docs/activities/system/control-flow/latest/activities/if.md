@@ -1,3 +1,11 @@
+---
+id: if
+title: "If"
+sidebar_label: "If"
+sidebar_position: 3
+description: "If activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # If - akaBot Docs
 
 System.Activities.Statements.If

@@ -1,3 +1,11 @@
+---
+id: remove-data-row
+title: "Remove Data Row"
+sidebar_label: "Remove Data Row"
+sidebar_position: 14
+description: "Remove Data Row activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Remove Data Row - akaBot Docs
 
 RCA.Activities.Core.RemoveDataRow

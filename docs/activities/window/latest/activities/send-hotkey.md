@@ -1,3 +1,11 @@
+---
+id: send-hotkey
+title: "Send Hot Key"
+sidebar_label: "Send Hot Key"
+sidebar_position: 14
+description: "Send Hot Key activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [14]Send Hot Key - akaBot Docs
 
 RCA.Activities.Windows.SendHotKey

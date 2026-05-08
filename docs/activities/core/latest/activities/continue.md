@@ -1,3 +1,11 @@
+---
+id: continue
+title: "Continue"
+sidebar_label: "Continue"
+sidebar_position: 5
+description: "Continue activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Continue - akaBot Docs
 
 RCA.Activities.Core.Continue

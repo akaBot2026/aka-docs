@@ -1,3 +1,11 @@
+---
+id: handle-alert
+title: "Handle Alert"
+sidebar_label: "Handle Alert"
+sidebar_position: 33
+description: "Handle Alert activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [33]Handle Alert - akaBot Docs
 
 RCA.Activities.Browser.HandleAlert

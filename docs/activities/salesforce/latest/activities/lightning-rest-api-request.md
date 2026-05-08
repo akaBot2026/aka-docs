@@ -1,3 +1,11 @@
+---
+id: lightning-rest-api-request
+title: "Lightning REST API Request"
+sidebar_label: "Lightning REST API Request"
+sidebar_position: 14
+description: "Lightning REST API Request activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Lightning REST API Request - akaBot Docs
 
 Content

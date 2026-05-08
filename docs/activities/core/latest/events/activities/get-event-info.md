@@ -1,3 +1,11 @@
+---
+id: get-event-info
+title: "Get Event Info"
+sidebar_label: "Get Event Info"
+sidebar_position: 1
+description: "Get Event Info activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Event Info - akaBot Docs
 
 RCA.Activities.Core.GetEventInfo

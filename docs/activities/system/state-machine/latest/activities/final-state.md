@@ -1,3 +1,11 @@
+---
+id: final-state
+title: "Final State"
+sidebar_label: "Final State"
+sidebar_position: 1
+description: "Final State activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Final State - akaBot Docs
 
 System.Activities.Statements.State

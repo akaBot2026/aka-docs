@@ -1,3 +1,11 @@
+---
+id: invoke-powershell
+title: "Invoke PowerShell"
+sidebar_label: "Invoke PowerShell"
+sidebar_position: 4
+description: "Invoke PowerShell activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [04]Invoke PowerShell - akaBot Docs
 
 RCA.Activities.Core.InvokePowerShell

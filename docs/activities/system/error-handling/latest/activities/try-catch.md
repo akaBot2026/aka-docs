@@ -1,3 +1,11 @@
+---
+id: try-catch
+title: "Try Catch"
+sidebar_label: "Try Catch"
+sidebar_position: 3
+description: "Try Catch activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Try Catch - akaBot Docs
 
 System.Activities.Statements.TryCatch

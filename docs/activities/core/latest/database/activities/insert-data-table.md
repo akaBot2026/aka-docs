@@ -1,3 +1,11 @@
+---
+id: insert-data-table
+title: "Insert Data Table"
+sidebar_label: "Insert Data Table"
+sidebar_position: 6
+description: "Insert Data Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Insert Data Table - akaBot Docs
 
 RCA.Activities.Core.InsertDataTable

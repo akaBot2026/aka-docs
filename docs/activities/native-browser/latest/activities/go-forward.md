@@ -1,3 +1,11 @@
+---
+id: go-forward
+title: "Go Forward (NB)"
+sidebar_label: "Go Forward (NB)"
+sidebar_position: 11
+description: "Go Forward (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Go Forward (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.GoForward

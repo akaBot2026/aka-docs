@@ -1,3 +1,11 @@
+---
+id: monitor-events
+title: "Monitor Events"
+sidebar_label: "Monitor Events"
+sidebar_position: 2
+description: "Monitor Events activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Monitor Events - akaBot Docs
 
 RCA.Activitites.Core.MonitorEvents

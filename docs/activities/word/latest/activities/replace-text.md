@@ -1,3 +1,11 @@
+---
+id: replace-text
+title: "Replace Text"
+sidebar_label: "Replace Text"
+sidebar_position: 7
+description: "Replace Text activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Replace Text - akaBot Docs
 
 RCA.Activities.Word.ReplaceText

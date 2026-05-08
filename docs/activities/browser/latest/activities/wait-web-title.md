@@ -1,3 +1,11 @@
+---
+id: wait-web-title
+title: "Wait Page Title"
+sidebar_label: "Wait Page Title"
+sidebar_position: 30
+description: "Wait Page Title activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [30]Wait Page Title - akaBot Docs
 
 RCA.Activities.Browser.WaitWebTitle

@@ -1,3 +1,11 @@
+---
+id: wait-web-attribute
+title: "Wait Web Attribute (NB)"
+sidebar_label: "Wait Web Attribute (NB)"
+sidebar_position: 28
+description: "Wait Web Attribute (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Wait Web Attribute (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.WaitWebAttribute

@@ -1,3 +1,11 @@
+---
+id: clear-data-table
+title: "Clear Data Table"
+sidebar_label: "Clear Data Table"
+sidebar_position: 4
+description: "Clear Data Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Clear Data Table - akaBot Docs
 
 RCA.Activities.Core.ClearDataTable

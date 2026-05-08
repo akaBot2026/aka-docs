@@ -1,3 +1,11 @@
+---
+id: enumerate-files
+title: "Enumerate Files"
+sidebar_label: "Enumerate Files"
+sidebar_position: 5
+description: "Enumerate Files activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Enumerate Files - akaBot Docs
 
 RCA.Activities.FTP.EnumerateFiles

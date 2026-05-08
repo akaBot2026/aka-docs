@@ -1,3 +1,11 @@
+---
+id: attach-process
+title: "Attach Process"
+sidebar_label: "Attach Process"
+sidebar_position: 30
+description: "Attach Process activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [30]Attach Process - akaBot Docs
 
 RCA.Activities.Windows.AttachProcess

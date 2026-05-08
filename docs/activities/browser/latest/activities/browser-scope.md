@@ -1,3 +1,11 @@
+---
+id: browser-scope
+title: "Browser Scope"
+sidebar_label: "Browser Scope"
+sidebar_position: 4
+description: "Browser Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [04]Browser Scope - akaBot Docs
 
 RCA.Activities.Browser.BrowserScrope

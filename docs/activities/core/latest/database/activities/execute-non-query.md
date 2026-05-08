@@ -1,3 +1,11 @@
+---
+id: execute-non-query
+title: "Execute Non Query"
+sidebar_label: "Execute Non Query"
+sidebar_position: 4
+description: "Execute Non Query activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Execute Non Query - akaBot Docs
 
 RCA.Activities.Core.ExecuteNonQuery

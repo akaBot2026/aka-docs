@@ -1,3 +1,11 @@
+---
+id: Update Entity Record
+title: "Update Entity Record"
+sidebar_label: "Update Entity Record"
+sidebar_position: 4
+description: "Update Entity Record activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [4] Update Entity Record - akaBot Docs
 
 RCA.Activities.DataService.UpdateEntityRecord

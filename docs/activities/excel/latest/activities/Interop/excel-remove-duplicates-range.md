@@ -1,3 +1,11 @@
+---
+id: excel-remove-duplicates-range
+title: "Excel Remove Duplicates Range"
+sidebar_label: "Excel Remove Duplicates Range"
+sidebar_position: 16
+description: "Excel Remove Duplicates Range activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Remove Duplicates Range - akaBot Docs
 
 RCA.Activities.Excel.ExcelRemoveDuplicatesRange

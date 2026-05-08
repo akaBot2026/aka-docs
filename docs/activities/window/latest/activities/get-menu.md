@@ -1,3 +1,11 @@
+---
+id: get-menu
+title: "Get Menu"
+sidebar_label: "Get Menu"
+sidebar_position: 11
+description: "Get Menu activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [11]Get Menu - akaBot Docs
 
 RCA.Activities.Windows.GetMenu

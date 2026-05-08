@@ -1,3 +1,11 @@
+---
+id: merge-data-table
+title: "Merge Data Table"
+sidebar_label: "Merge Data Table"
+sidebar_position: 11
+description: "Merge Data Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Merge Data Table - akaBot Docs
 
 RCA.Activities.Core.MergeDataTable

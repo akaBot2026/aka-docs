@@ -1,3 +1,11 @@
+---
+id: custom-activity
+title: "Custom Activity"
+sidebar_label: "Custom Activity"
+sidebar_position: 1
+description: "Custom Activity activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Custom Activity - akaBot Docs
 
 Content

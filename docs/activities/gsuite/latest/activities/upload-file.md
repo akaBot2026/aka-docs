@@ -1,3 +1,11 @@
+---
+id: upload-file
+title: "Upload File"
+sidebar_label: "Upload File"
+sidebar_position: 16
+description: "Upload File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Upload File - akaBot Docs
 
 RCA.Activities.GSuite.UploadFile

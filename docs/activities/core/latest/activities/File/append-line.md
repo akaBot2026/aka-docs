@@ -1,3 +1,11 @@
+---
+id: append-line
+title: "Append Line"
+sidebar_label: "Append Line"
+sidebar_position: 1
+description: "Append Line activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Append Line - akaBot Docs
 
 RCA.Core.Activities.AppendLine

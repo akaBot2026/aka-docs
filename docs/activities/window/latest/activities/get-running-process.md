@@ -1,3 +1,11 @@
+---
+id: get-running-process
+title: "Get Running Process"
+sidebar_label: "Get Running Process"
+sidebar_position: 28
+description: "Get Running Process activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [28]Get Running Process - akaBot Docs
 
 RCA.Activities.Windows.GetRunningProcess

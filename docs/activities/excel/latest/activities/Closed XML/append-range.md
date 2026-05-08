@@ -1,3 +1,11 @@
+---
+id: append-range
+title: "Append Range"
+sidebar_label: "Append Range"
+sidebar_position: 1
+description: "Append Range activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Append Range - akaBot Docs
 
 RCA.Activities.Excel.AppendRange

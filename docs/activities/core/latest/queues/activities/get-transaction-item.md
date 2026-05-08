@@ -1,3 +1,11 @@
+---
+id: get-transaction-item
+title: "Get Transaction Item"
+sidebar_label: "Get Transaction Item"
+sidebar_position: 6
+description: "Get Transaction Item activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Transaction Item - akaBot Docs
 
 RCA.Activities.Core.GetTransactionItem

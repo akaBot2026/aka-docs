@@ -1,3 +1,11 @@
+---
+id: expand-collapse
+title: "Expand/Collapse"
+sidebar_label: "Expand/Collapse"
+sidebar_position: 18
+description: "Expand/Collapse activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [18]Expand/Collapse - akaBot Docs
 
 RCA.Activities.Windows.ExpandCollapse

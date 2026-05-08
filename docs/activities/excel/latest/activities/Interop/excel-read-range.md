@@ -1,3 +1,11 @@
+---
+id: excel-read-range
+title: "Excel Read Range"
+sidebar_label: "Excel Read Range"
+sidebar_position: 15
+description: "Excel Read Range activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Read Range - akaBot Docs
 
 RCA.Activities.Excel.ExcelReadRange

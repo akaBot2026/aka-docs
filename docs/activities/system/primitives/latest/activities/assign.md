@@ -1,3 +1,11 @@
+---
+id: assign
+title: "Assign"
+sidebar_label: "Assign"
+sidebar_position: 1
+description: "Assign activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Assign - akaBot Docs
 
 System.Activities.Statements.Assign

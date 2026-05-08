@@ -1,3 +1,11 @@
+---
+id: copy-directory
+title: "Copy Directory"
+sidebar_label: "Copy Directory"
+sidebar_position: 2
+description: "Copy Directory activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Copy Directory - akaBot Docs
 
 RCA.Activities.Core.CopyDirectory

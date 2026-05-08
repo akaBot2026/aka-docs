@@ -1,3 +1,11 @@
+---
+id: switch-to
+title: "Switch To"
+sidebar_label: "Switch To"
+sidebar_position: 20
+description: "Switch To activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Switch To - akaBot Docs
 
 RCA.Activities.IE.SwitchTo

@@ -1,3 +1,11 @@
+---
+id: send-email
+title: "Send Email"
+sidebar_label: "Send Email"
+sidebar_position: 14
+description: "Send Email activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Send Email - akaBot Docs
 
 RCA.Activities.GSuite.SendEmail

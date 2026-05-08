@@ -1,3 +1,11 @@
+---
+id: salesforce-application-scope
+title: "Salesforce Application Scope"
+sidebar_label: "Salesforce Application Scope"
+sidebar_position: 15
+description: "Salesforce Application Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Salesforce Application Scope - akaBot Docs
 
 Content

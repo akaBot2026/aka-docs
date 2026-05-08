@@ -1,3 +1,11 @@
+---
+id: get-row-item
+title: "Get Row Item"
+sidebar_label: "Get Row Item"
+sidebar_position: 8
+description: "Get Row Item activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Row Item - akaBot Docs
 
 RCA.Activities.Core.GetRowItem

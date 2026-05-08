@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "Window"
+sidebar_label: "Window"
+sidebar_position: 2
+description: "Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Window - akaBot Docs
 
 The **Windows activities** package contains all the **basic activities** used for creating **window application** automation projects.

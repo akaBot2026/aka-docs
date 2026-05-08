@@ -1,3 +1,11 @@
+---
+id: write-cell
+title: "Write Cell"
+sidebar_label: "Write Cell"
+sidebar_position: 5
+description: "Write Cell activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Write Cell - akaBot Docs
 
 RCA.Activities.Excel.WriteCell

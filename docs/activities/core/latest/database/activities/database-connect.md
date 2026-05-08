@@ -1,3 +1,11 @@
+---
+id: database-connect
+title: "Database Connect"
+sidebar_label: "Database Connect"
+sidebar_position: 1
+description: "Database Connect activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Database Connect - akaBot Docs
 
 RCA.Activities.Core.DatabaseConnect

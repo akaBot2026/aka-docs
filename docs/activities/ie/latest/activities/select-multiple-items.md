@@ -1,3 +1,11 @@
+---
+id: select-multiple-items
+title: "Select Multiple Items"
+sidebar_label: "Select Multiple Items"
+sidebar_position: 18
+description: "Select Multiple Items activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Select Multiple Items - akaBot Docs
 
 RCA.Activities.IE.SelectMultiple

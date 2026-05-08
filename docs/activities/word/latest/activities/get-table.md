@@ -1,3 +1,11 @@
+---
+id: get-table
+title: "Get Table"
+sidebar_label: "Get Table"
+sidebar_position: 4
+description: "Get Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Table - akaBot Docs
 
 RCA.Activities.Word.GetTable

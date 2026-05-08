@@ -1,3 +1,11 @@
+---
+id: excel-write-range
+title: "Excel Write Range"
+sidebar_label: "Excel Write Range"
+sidebar_position: 24
+description: "Excel Write Range activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Write Range - akaBot Docs
 
 RCA.Activities.Excel.ExcelWriteRange

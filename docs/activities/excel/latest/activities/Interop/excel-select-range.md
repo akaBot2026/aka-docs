@@ -1,3 +1,11 @@
+---
+id: excel-select-range
+title: "Excel Select Range"
+sidebar_label: "Excel Select Range"
+sidebar_position: 19
+description: "Excel Select Range activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Select Range - akaBot Docs
 
 RCA.Activities.Excel.ExcelSelectRange

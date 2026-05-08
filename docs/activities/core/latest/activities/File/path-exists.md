@@ -1,3 +1,11 @@
+---
+id: path-exists
+title: "Path Exists"
+sidebar_label: "Path Exists"
+sidebar_position: 9
+description: "Path Exists activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Path Exists - akaBot Docs
 
 RCA.Activities.Core.PathExists

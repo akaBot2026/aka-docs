@@ -1,3 +1,11 @@
+---
+id: excel-insert-or-delete-columns
+title: "Excel Insert Or Delete Columns"
+sidebar_label: "Excel Insert Or Delete Columns"
+sidebar_position: 10
+description: "Excel Insert Or Delete Columns activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Insert Or Delete Columns - akaBot Docs
 
 RCA.Activities.Excel.ExcelInsertOrDeleteColumns

@@ -1,3 +1,11 @@
+---
+id: get-xml-nodes
+title: "Get XML Nodes"
+sidebar_label: "Get XML Nodes"
+sidebar_position: 5
+description: "Get XML Nodes activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get XML Nodes - akaBot Docs
 
 RCA.Activities.Core.GetXMLNodes

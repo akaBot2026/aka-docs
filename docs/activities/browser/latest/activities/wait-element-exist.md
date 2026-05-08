@@ -1,3 +1,11 @@
+---
+id: wait-element-exist
+title: "Wait Element Exist"
+sidebar_label: "Wait Element Exist"
+sidebar_position: 25
+description: "Wait Element Exist activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [25]Wait Element Exist - akaBot Docs
 
 RCA.Activities.Browser.WaitElementExist

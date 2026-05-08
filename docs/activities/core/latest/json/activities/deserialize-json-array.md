@@ -1,3 +1,11 @@
+---
+id: deserialize-json-array
+title: "Deserialize JSON Array"
+sidebar_label: "Deserialize JSON Array"
+sidebar_position: 1
+description: "Deserialize JSON Array activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Deserialize JSON Array - akaBot Docs
 
 RCA.Activitites.Core.DeserializeJsonArray

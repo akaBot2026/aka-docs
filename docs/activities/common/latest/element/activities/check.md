@@ -1,3 +1,11 @@
+---
+id: check
+title: "Check"
+sidebar_label: "Check"
+sidebar_position: 1
+description: "Check activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Check - akaBot Docs
 
 RCA.Activities.Common.Check

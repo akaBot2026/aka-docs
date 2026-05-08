@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "Exchange"
+sidebar_label: "Exchange"
+sidebar_position: 2
+description: "Exchange activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Exchange - akaBot Docs
 
 Content

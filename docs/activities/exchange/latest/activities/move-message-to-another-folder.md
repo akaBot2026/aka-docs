@@ -1,3 +1,11 @@
+---
+id: move-message-to-another-folder
+title: "Move Message To Another Folder"
+sidebar_label: "Move Message To Another Folder"
+sidebar_position: 3
+description: "Move Message To Another Folder activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Move Message To Another Folder - akaBot Docs
 
 RCA.Activities.Mail.MoveMessageToFolder

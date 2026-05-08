@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "Runtime"
+sidebar_label: "Runtime"
+sidebar_position: 2
+description: "Runtime activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Runtime - akaBot Docs
 
 Content

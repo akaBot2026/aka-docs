@@ -1,3 +1,11 @@
+---
+id: get-ocr-text
+title: "Get OCR Text"
+sidebar_label: "Get OCR Text"
+sidebar_position: 1
+description: "Get OCR Text activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get OCR Text - akaBot Docs
 
 RCA.Activities.Core.GetOCRText

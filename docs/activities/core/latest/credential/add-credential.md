@@ -1,3 +1,11 @@
+---
+id: add-credential
+title: "Add Credential"
+sidebar_label: "Add Credential"
+sidebar_position: 1
+description: "Add Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [01]Add Credential - akaBot Docs
 
 RCA.Activities.Core.AddCredential

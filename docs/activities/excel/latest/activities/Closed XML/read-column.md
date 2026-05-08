@@ -1,3 +1,11 @@
+---
+id: read-column
+title: "Read Column"
+sidebar_label: "Read Column"
+sidebar_position: 2
+description: "Read Column activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Read Column - akaBot Docs
 
 RCA.Activities.Excel.ReadColumn

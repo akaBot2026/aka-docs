@@ -1,3 +1,11 @@
+---
+id: delay
+title: "Delay"
+sidebar_label: "Delay"
+sidebar_position: 2
+description: "Delay activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Delay - akaBot Docs
 
 System.Activities.Statements.Delay

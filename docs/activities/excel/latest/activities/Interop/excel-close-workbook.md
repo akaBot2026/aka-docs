@@ -1,3 +1,11 @@
+---
+id: excel-close-workbook
+title: "Excel Close Workbook"
+sidebar_label: "Excel Close Workbook"
+sidebar_position: 3
+description: "Excel Close Workbook activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Close Workbook - akaBot Docs
 
 RCA.Activities.Excel.ExcelCloseWorkbook

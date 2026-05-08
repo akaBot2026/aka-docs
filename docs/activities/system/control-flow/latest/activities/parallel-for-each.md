@@ -1,3 +1,11 @@
+---
+id: parallel-for-each
+title: "Parallel ForEach"
+sidebar_label: "Parallel ForEach"
+sidebar_position: 4
+description: "Parallel ForEach activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Parallel ForEach - akaBot Docs
 
 System.Activities.Statements.ParallelForEach

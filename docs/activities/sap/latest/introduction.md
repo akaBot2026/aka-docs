@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "SAP"
+sidebar_label: "SAP"
+sidebar_position: 2
+description: "SAP activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # SAP - akaBot Docs
 
 Content

@@ -1,3 +1,11 @@
+---
+id: open-window
+title: "Open Window"
+sidebar_label: "Open Window"
+sidebar_position: 20
+description: "Open Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Open Window
 
 ## RCA.Activities.Windows.OpenWindow

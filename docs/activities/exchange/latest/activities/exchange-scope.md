@@ -1,3 +1,11 @@
+---
+id: exchange-scope
+title: "Exchange Scope"
+sidebar_label: "Exchange Scope"
+sidebar_position: 1
+description: "Exchange Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Exchange Scope - akaBot Docs
 
 RCA.Activities.Mail.ExchangeScope

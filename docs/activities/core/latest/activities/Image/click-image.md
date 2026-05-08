@@ -1,3 +1,11 @@
+---
+id: click-image
+title: "Click Image"
+sidebar_label: "Click Image"
+sidebar_position: 1
+description: "Click Image activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Click Image - akaBot Docs
 
 RCA.Activities.Core.ClickImage

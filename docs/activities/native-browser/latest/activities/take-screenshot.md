@@ -1,3 +1,11 @@
+---
+id: take-screenshot
+title: "Take Screenshot (NB)"
+sidebar_label: "Take Screenshot (NB)"
+sidebar_position: 22
+description: "Take Screenshot (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Take Screenshot (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.TakeScreenshot

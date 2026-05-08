@@ -1,3 +1,11 @@
+---
+id: read-text-file
+title: "Read Text File"
+sidebar_label: "Read Text File"
+sidebar_position: 10
+description: "Read Text File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Read Text File - akaBot Docs
 
 RCA.Activities.Core.ReadTextFile

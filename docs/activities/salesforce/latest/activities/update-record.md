@@ -1,3 +1,11 @@
+---
+id: update-record
+title: "Update Record"
+sidebar_label: "Update Record"
+sidebar_position: 18
+description: "Update Record activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Update Record - akaBot Docs
 
 Content

@@ -1,3 +1,11 @@
+---
+id: add-data-column
+title: "Add Data Column"
+sidebar_label: "Add Data Column"
+sidebar_position: 1
+description: "Add Data Column activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Add Data Column - akaBot Docs
 
 RCA.Activities.Core.AddDataColumn

@@ -1,3 +1,11 @@
+---
+id: download-file
+title: "Download File"
+sidebar_label: "Download File"
+sidebar_position: 5
+description: "Download File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Download File - akaBot Docs
 
 Content

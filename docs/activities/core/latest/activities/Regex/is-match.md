@@ -1,3 +1,11 @@
+---
+id: is-match
+title: "Is Match"
+sidebar_label: "Is Match"
+sidebar_position: 1
+description: "Is Match activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Is Match - akaBot Docs
 
 RCA.Activities.Core.IsMatch

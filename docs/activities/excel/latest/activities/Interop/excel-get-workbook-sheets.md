@@ -1,3 +1,11 @@
+---
+id: excel-get-workbook-sheets
+title: "Excel Get Workbook Sheets"
+sidebar_label: "Excel Get Workbook Sheets"
+sidebar_position: 8
+description: "Excel Get Workbook Sheets activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Get Workbook Sheets - akaBot Docs
 
 RCA.Activities.Excel.ExcelGetWorkbookSheets

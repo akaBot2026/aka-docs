@@ -1,3 +1,11 @@
+---
+id: do-while
+title: "Do While"
+sidebar_label: "Do While"
+sidebar_position: 1
+description: "Do While activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Do While - akaBot Docs
 
 System.Activities.Statements.DoWhile

@@ -1,3 +1,11 @@
+---
+id: set-agent-credential
+title: "Set Agent Credential"
+sidebar_label: "Set Agent Credential"
+sidebar_position: 5
+description: "Set Agent Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Set Agent Credential - akaBot Docs
 
 RCA.Core.Activities.SetAgentCredential

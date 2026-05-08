@@ -1,3 +1,11 @@
+---
+id: excel-write-cell
+title: "Excel Write Cell"
+sidebar_label: "Excel Write Cell"
+sidebar_position: 23
+description: "Excel Write Cell activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Write Cell - akaBot Docs
 
 RCA.Activities.Excel.ExcelWriteCell

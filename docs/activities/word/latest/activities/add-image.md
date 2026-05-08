@@ -1,3 +1,11 @@
+---
+id: add-image
+title: "画像を追加"
+sidebar_label: "画像を追加"
+sidebar_position: 1
+description: "画像を追加 activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # 画像を追加 - akaBot Docs
 
 RCA.Activities.Word.AddImage

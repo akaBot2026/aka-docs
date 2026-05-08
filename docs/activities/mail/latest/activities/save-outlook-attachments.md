@@ -1,3 +1,11 @@
+---
+id: save-outlook-attachments
+title: "Save Outlook Attachments"
+sidebar_label: "Save Outlook Attachments"
+sidebar_position: 4
+description: "Save Outlook Attachments activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [04]Save Outlook Attachments - akaBot Docs
 
 RCA.Activities.Mail.SaveOutlookAttachments

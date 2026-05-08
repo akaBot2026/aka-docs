@@ -1,3 +1,11 @@
+---
+id: excel-select-sheet
+title: "Excel Select Sheet"
+sidebar_label: "Excel Select Sheet"
+sidebar_position: 20
+description: "Excel Select Sheet activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Select Sheet - akaBot Docs
 
 RCA.Activities.Excel.ExcelSelectSheet

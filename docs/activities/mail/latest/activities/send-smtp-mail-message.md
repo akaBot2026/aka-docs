@@ -1,3 +1,11 @@
+---
+id: send-smtp-mail-message
+title: "Send SMTP Mail Message"
+sidebar_label: "Send SMTP Mail Message"
+sidebar_position: 10
+description: "Send SMTP Mail Message activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Send SMTP Mail Message - akaBot Docs
 
 RCA.Activities.Mail.SendMail

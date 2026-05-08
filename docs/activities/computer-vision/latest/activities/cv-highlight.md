@@ -1,3 +1,11 @@
+---
+id: cv-highlight
+title: "CV Highlight"
+sidebar_label: "CV Highlight"
+sidebar_position: 6
+description: "CV Highlight activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # CV Highlight - akaBot Docs
 
 RCA.Activities.ComputerVision.CVHighlight

@@ -1,3 +1,11 @@
+---
+id: cv-check
+title: "CV Check"
+sidebar_label: "CV Check"
+sidebar_position: 1
+description: "CV Check activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # CV Check - akaBot Docs
 
 RCA.Activities.ComputerVision.CVCheck

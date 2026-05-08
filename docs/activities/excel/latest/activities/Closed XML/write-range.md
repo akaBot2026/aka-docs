@@ -1,3 +1,11 @@
+---
+id: write-range
+title: "Write Range"
+sidebar_label: "Write Range"
+sidebar_position: 6
+description: "Write Range activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Write Range - akaBot Docs
 
 RCA.Activities.Excel.WriteRange

@@ -1,3 +1,11 @@
+---
+id: close-window
+title: "Close Window"
+sidebar_label: "Close Window"
+sidebar_position: 3
+description: "Close Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [03]Close Window - akaBot Docs
 
 RCA.Activities.Windows.CloseWindow

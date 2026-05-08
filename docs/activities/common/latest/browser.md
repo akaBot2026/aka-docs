@@ -1,3 +1,11 @@
+---
+id: browser
+title: "Common Browser"
+sidebar_label: "Common Browser"
+sidebar_position: 1
+description: "Common Browser activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Common Browser - akaBot Docs
 
 The Common Browser Activities Pack contains all the activities used for creating automation projects. These activities enable the robots to:

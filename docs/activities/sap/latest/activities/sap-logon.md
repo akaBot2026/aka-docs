@@ -1,3 +1,11 @@
+---
+id: sap-logon
+title: "SAP Logon"
+sidebar_label: "SAP Logon"
+sidebar_position: 5
+description: "SAP Logon activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # SAP Logon - akaBot Docs
 
 Content

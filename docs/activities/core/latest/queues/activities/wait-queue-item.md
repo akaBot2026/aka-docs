@@ -1,3 +1,11 @@
+---
+id: wait-queue-item
+title: "Wait Queue Item"
+sidebar_label: "Wait Queue Item"
+sidebar_position: 10
+description: "Wait Queue Item activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Wait Queue Item - akaBot Docs
 
 RCA.Activities.Core.WaitQueueItem

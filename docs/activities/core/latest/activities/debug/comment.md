@@ -1,3 +1,11 @@
+---
+id: comment
+title: "Comment"
+sidebar_label: "Comment"
+sidebar_position: 2
+description: "Comment activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Comment - akaBot Docs
 
 RCA.Activities.Core.Comment

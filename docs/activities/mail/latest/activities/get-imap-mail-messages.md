@@ -1,3 +1,11 @@
+---
+id: get-imap-mail-messages
+title: "Get IMAP Mail Messages"
+sidebar_label: "Get IMAP Mail Messages"
+sidebar_position: 6
+description: "Get IMAP Mail Messages activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [06]Get IMAP Mail Messages - akaBot Docs
 
 RCA.Activities.Mail.GetIMAPMailMessages

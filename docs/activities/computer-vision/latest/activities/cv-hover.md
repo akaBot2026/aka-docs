@@ -1,3 +1,11 @@
+---
+id: cv-hover
+title: "CV Hover"
+sidebar_label: "CV Hover"
+sidebar_position: 7
+description: "CV Hover activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # CV Hover - akaBot Docs
 
 RCA.Activities.ComputerVision.CVHover

@@ -1,3 +1,11 @@
+---
+id: delete-file
+title: "Delete File"
+sidebar_label: "Delete File"
+sidebar_position: 6
+description: "Delete File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Delete File - akaBot Docs
 
 RCA.Activities.GSuite.DeleteFile

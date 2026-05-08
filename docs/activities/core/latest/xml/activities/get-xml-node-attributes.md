@@ -1,3 +1,11 @@
+---
+id: get-xml-node-attributes
+title: "Get XML Node Attributes"
+sidebar_label: "Get XML Node Attributes"
+sidebar_position: 4
+description: "Get XML Node Attributes activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get XML Node Attributes - akaBot Docs
 
 RCA.Activities.Core.GetXMLNodeAttributes

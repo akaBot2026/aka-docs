@@ -1,3 +1,11 @@
+---
+id: select-item
+title: "Select Item"
+sidebar_label: "Select Item"
+sidebar_position: 8
+description: "Select Item activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Select Item - akaBot Docs
 
 RCA.Activities.Java.SelectItem

@@ -1,3 +1,11 @@
+---
+id: get-agent-credential
+title: "Get Agent Credential"
+sidebar_label: "Get Agent Credential"
+sidebar_position: 2
+description: "Get Agent Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Agent Credential - akaBot Docs
 
 RCA.Core.Activities.GetAgentCredential

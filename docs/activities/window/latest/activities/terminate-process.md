@@ -1,3 +1,11 @@
+---
+id: terminate-process
+title: "Terminate Process"
+sidebar_label: "Terminate Process"
+sidebar_position: 29
+description: "Terminate Process activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [29]Terminate Process - akaBot Docs
 
 RCA.Activities.Windows.TerminateProcess

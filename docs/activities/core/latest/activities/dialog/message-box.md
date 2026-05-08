@@ -1,3 +1,11 @@
+---
+id: message-box
+title: "Message Box"
+sidebar_label: "Message Box"
+sidebar_position: 1
+description: "Message Box activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Message Box - akaBot Docs
 
 RCA.Activities.Core.MessageBox

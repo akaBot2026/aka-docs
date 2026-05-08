@@ -1,3 +1,11 @@
+---
+id: create-directory
+title: "Create Directory"
+sidebar_label: "Create Directory"
+sidebar_position: 1
+description: "Create Directory activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Create Directory - akaBot Docs
 
 RCA.Activities.FTP.CreateDirectory

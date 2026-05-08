@@ -1,3 +1,11 @@
+---
+id: select-item
+title: "Select Item (NB)"
+sidebar_label: "Select Item (NB)"
+sidebar_position: 18
+description: "Select Item (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Select Item (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.SelectItem

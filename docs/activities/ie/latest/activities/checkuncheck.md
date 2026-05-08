@@ -1,3 +1,11 @@
+---
+id: checkuncheck
+title: "Check/Uncheck"
+sidebar_label: "Check/Uncheck"
+sidebar_position: 2
+description: "Check/Uncheck activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Check/Uncheck - akaBot Docs
 
 RCA.Activities.IE.CheckUncheck

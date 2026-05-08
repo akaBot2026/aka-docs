@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "Native Browser"
+sidebar_label: "Native Browser"
+sidebar_position: 1
+description: "Native Browser activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Native Browser - akaBot Docs
 
 The Native Browser Activities Pack contains all the activities used for creating web automation projects. These activities enable the robots to:

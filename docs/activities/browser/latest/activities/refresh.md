@@ -1,3 +1,11 @@
+---
+id: refresh
+title: "Refresh"
+sidebar_label: "Refresh"
+sidebar_position: 8
+description: "Refresh activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [08]Refresh - akaBot Docs
 
 RCA.Activities.Browser.Refresh

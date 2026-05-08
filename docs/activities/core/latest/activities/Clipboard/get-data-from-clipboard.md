@@ -1,3 +1,11 @@
+---
+id: get-data-from-clipboard
+title: "Get Data from Clipboard"
+sidebar_label: "Get Data from Clipboard"
+sidebar_position: 1
+description: "Get Data from Clipboard activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Data from Clipboard - akaBot Docs
 
 RCA.Activities.Core.GetFromClipboard

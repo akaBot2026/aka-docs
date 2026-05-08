@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "Trigger & Invoke"
+sidebar_label: "Trigger & Invoke"
+sidebar_position: 2
+description: "Trigger & Invoke activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Trigger & Invoke - akaBot Docs
 
 **・ Invoke:**Synchronously invokes a specified **workflow** or **VB.NET**/ **C#** code or **executes** a akaBot **process**that is available for the local machine.

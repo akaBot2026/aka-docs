@@ -1,3 +1,11 @@
+---
+id: create-file-permission
+title: "Create File Permission"
+sidebar_label: "Create File Permission"
+sidebar_position: 3
+description: "Create File Permission activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Create File Permission - akaBot Docs
 
 RCA.Activities.GSuite.CreateFilePermission

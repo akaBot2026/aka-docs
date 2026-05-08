@@ -1,3 +1,11 @@
+---
+id: filter-datatable
+title: "Filter Data Table"
+sidebar_label: "Filter Data Table"
+sidebar_position: 5
+description: "Filter Data Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Filter Data Table - akaBot Docs
 
 RCA.Activities.Core.FilterDataTable

@@ -1,3 +1,11 @@
+---
+id: upload-files
+title: "Upload Files"
+sidebar_label: "Upload Files"
+sidebar_position: 7
+description: "Upload Files activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Upload Files - akaBot Docs
 
 RCA.Activities.FTP.UploadFiles

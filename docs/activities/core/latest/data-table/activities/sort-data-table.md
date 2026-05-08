@@ -1,3 +1,11 @@
+---
+id: sort-data-table
+title: "Sort Data Table"
+sidebar_label: "Sort Data Table"
+sidebar_position: 16
+description: "Sort Data Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Sort Data Table - akaBot Docs
 
 RCA.Activities.Core.SortDataTables

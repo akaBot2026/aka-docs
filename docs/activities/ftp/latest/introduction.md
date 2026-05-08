@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "FTP"
+sidebar_label: "FTP"
+sidebar_position: 2
+description: "FTP activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # FTP - akaBot Docs
 
 The FTP Activities Pack contains all the activities used for creating automation projects. These activities enable the robots to:

@@ -1,3 +1,11 @@
+---
+id: download-files
+title: "Download Files"
+sidebar_label: "Download Files"
+sidebar_position: 4
+description: "Download Files activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Download Files - akaBot Docs
 
 RCA.Activities.FTP.DownloadFiles

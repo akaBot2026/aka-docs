@@ -1,3 +1,11 @@
+---
+id: release-notes
+title: "Release Notes"
+sidebar_label: "Release Notes"
+sidebar_position: 1
+description: "Release Notes activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [1] Release Notes - akaBot Docs
 
 ## **RCA.Activities.Windows Version 2.1.2.1**

@@ -1,3 +1,11 @@
+---
+id: credential
+title: "Credentials"
+sidebar_label: "Credentials"
+sidebar_position: 2
+description: "Credentials activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Credentials - akaBot Docs
 
 The **Credentials activities** sub-package contains activities that work with [Windows Credential Manager](https://docs.microsoft.com/en-us/windows/win32/secauthn/credentials-management), enabling the adding and getting or deleting of **credentials**for specific Microsoft authentication packages.

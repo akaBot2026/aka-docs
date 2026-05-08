@@ -1,3 +1,11 @@
+---
+id: show-window
+title: "Show Window"
+sidebar_label: "Show Window"
+sidebar_position: 10
+description: "Show Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Show Window - akaBot Docs
 
 RCA.Activities.Common.ShowWindow

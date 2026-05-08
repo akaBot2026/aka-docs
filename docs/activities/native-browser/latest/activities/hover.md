@@ -1,3 +1,11 @@
+---
+id: hover
+title: "Hover (NB)"
+sidebar_label: "Hover (NB)"
+sidebar_position: 12
+description: "Hover (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Hover (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.Hover

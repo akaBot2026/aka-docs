@@ -1,3 +1,11 @@
+---
+id: upsert-record
+title: "Upsert Record"
+sidebar_label: "Upsert Record"
+sidebar_position: 20
+description: "Upsert Record activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Upsert Record - akaBot Docs
 
 Content

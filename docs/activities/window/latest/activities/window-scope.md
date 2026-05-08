@@ -1,3 +1,11 @@
+---
+id: window-scope
+title: "Window Scope"
+sidebar_label: "Window Scope"
+sidebar_position: 2
+description: "Window Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [02]Window Scope - akaBot Docs
 
 RCA.Activities.Windows.WindowScope

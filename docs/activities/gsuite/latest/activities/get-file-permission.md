@@ -1,3 +1,11 @@
+---
+id: get-file-permission
+title: "Get File Permission"
+sidebar_label: "Get File Permission"
+sidebar_position: 10
+description: "Get File Permission activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get File Permission - akaBot Docs
 
 RCA.Activities.GSuite.GetFilePermission

@@ -1,3 +1,11 @@
+---
+id: find-element
+title: "Find Element"
+sidebar_label: "Find Element"
+sidebar_position: 4
+description: "Find Element activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Find Element - akaBot Docs
 
 RCA.Activities.Common.FindElement

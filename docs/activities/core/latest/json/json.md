@@ -1,3 +1,11 @@
+---
+id: json
+title: "JSON"
+sidebar_label: "JSON"
+sidebar_position: 1
+description: "JSON activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # JSON - akaBot Docs
 
 The **XML Activities Pack** contains activities that enable you to manipulate XML files, such as deserializing documents so that data extraction is easier.

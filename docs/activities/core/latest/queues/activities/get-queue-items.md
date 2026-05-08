@@ -1,3 +1,11 @@
+---
+id: get-queue-items
+title: "Get Queue Items"
+sidebar_label: "Get Queue Items"
+sidebar_position: 5
+description: "Get Queue Items activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Queue Items - akaBot Docs
 
 RCA.Activities.Core.GetQueueItems

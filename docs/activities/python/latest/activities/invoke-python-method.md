@@ -1,3 +1,11 @@
+---
+id: invoke-python-method
+title: "Invoke Python Method"
+sidebar_label: "Invoke Python Method"
+sidebar_position: 2
+description: "Invoke Python Method activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Invoke Python Method - akaBot Docs
 
 RCA.Activities.Python.InvokeMethod

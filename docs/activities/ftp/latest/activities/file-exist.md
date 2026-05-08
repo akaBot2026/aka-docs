@@ -1,3 +1,11 @@
+---
+id: file-exist
+title: "File Exists"
+sidebar_label: "File Exists"
+sidebar_position: 6
+description: "File Exists activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # File Exists - akaBot Docs
 
 RCA.Activities.FTP.FileExists

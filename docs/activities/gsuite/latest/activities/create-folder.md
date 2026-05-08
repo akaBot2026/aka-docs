@@ -1,3 +1,11 @@
+---
+id: create-folder
+title: "Create Folder"
+sidebar_label: "Create Folder"
+sidebar_position: 4
+description: "Create Folder activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Create Folder - akaBot Docs
 
 RCA.Activities.GSuite.CreateFolder

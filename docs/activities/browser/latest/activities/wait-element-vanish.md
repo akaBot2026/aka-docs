@@ -1,3 +1,11 @@
+---
+id: wait-element-vanish
+title: "Wait Element Vanishes"
+sidebar_label: "Wait Element Vanishes"
+sidebar_position: 27
+description: "Wait Element Vanishes activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [27]Wait Element Vanishes - akaBot Docs
 
 RCA.Activities.Browser.WaitElementVanish

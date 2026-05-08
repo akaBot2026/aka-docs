@@ -1,3 +1,11 @@
+---
+id: extract-structured-data
+title: "Extract Structured Data"
+sidebar_label: "Extract Structured Data"
+sidebar_position: 4
+description: "Extract Structured Data activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Extract Structured Data - akaBot Docs
 
 RCA.Activities.Common.ExtractStructuredData

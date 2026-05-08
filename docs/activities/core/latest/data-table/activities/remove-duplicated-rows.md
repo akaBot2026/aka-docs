@@ -1,3 +1,11 @@
+---
+id: remove-duplicated-rows
+title: "Remove Duplicated Rows"
+sidebar_label: "Remove Duplicated Rows"
+sidebar_position: 15
+description: "Remove Duplicated Rows activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Remove Duplicated Rows - akaBot Docs
 
 RCA.Activities.Core.RemoveDuplicatedRows

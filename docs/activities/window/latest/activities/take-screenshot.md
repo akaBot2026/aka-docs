@@ -1,3 +1,11 @@
+---
+id: take-screenshot
+title: "Take Screenshot"
+sidebar_label: "Take Screenshot"
+sidebar_position: 27
+description: "Take Screenshot activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [27]Take Screenshot - akaBot Docs
 
 RCA.Activities.Windows.TakeScreenshot

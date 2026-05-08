@@ -1,3 +1,11 @@
+---
+id: inject-javascript
+title: "Inject Javascript"
+sidebar_label: "Inject Javascript"
+sidebar_position: 23
+description: "Inject Javascript activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [23]Inject Javascript - akaBot Docs
 
 RCA.Activities.Browser.InjectJs

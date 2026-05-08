@@ -1,3 +1,11 @@
+---
+id: invoke-code
+title: "Invoke Code"
+sidebar_label: "Invoke Code"
+sidebar_position: 2
+description: "Invoke Code activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [02]Invoke Code - akaBot Docs
 
 RCA.Activities.Core.InvokeCode

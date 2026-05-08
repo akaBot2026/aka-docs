@@ -1,3 +1,11 @@
+---
+id: select-menu-item
+title: "Select Menu Item"
+sidebar_label: "Select Menu Item"
+sidebar_position: 6
+description: "Select Menu Item activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Select Menu Item - akaBot Docs
 
 Content

@@ -1,3 +1,11 @@
+---
+id: flow-chart
+title: "Flow Chart"
+sidebar_label: "Flow Chart"
+sidebar_position: 2
+description: "Flow Chart activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [02]Flow Chart - akaBot Docs
 
 System.Activities.Statements.Flowchart

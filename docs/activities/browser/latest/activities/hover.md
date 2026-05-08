@@ -1,3 +1,11 @@
+---
+id: hover
+title: "Hover"
+sidebar_label: "Hover"
+sidebar_position: 21
+description: "Hover activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [21]Hover - akaBot Docs
 
 RCA.Activities.Browser.Hover

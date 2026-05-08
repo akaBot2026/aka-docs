@@ -1,3 +1,11 @@
+---
+id: switch
+title: "Switch"
+sidebar_label: "Switch"
+sidebar_position: 7
+description: "Switch activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Switch - akaBot Docs
 
 System.Activities.Statements.Switch

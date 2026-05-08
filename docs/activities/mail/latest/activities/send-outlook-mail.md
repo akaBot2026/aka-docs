@@ -1,3 +1,11 @@
+---
+id: send-outlook-mail
+title: "Send Outlook Mail"
+sidebar_label: "Send Outlook Mail"
+sidebar_position: 1
+description: "Send Outlook Mail activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [01]Send Outlook Mail - akaBot Docs
 
 RCA.Activities.Mail.SendOutlookMail

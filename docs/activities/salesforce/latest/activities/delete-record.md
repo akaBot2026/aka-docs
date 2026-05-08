@@ -1,3 +1,11 @@
+---
+id: delete-record
+title: "Delete Record"
+sidebar_label: "Delete Record"
+sidebar_position: 4
+description: "Delete Record activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Delete Record - akaBot Docs
 
 Content

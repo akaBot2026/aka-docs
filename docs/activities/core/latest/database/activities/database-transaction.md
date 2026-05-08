@@ -1,3 +1,11 @@
+---
+id: database-transaction
+title: "Database Transaction"
+sidebar_label: "Database Transaction"
+sidebar_position: 3
+description: "Database Transaction activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Database Transaction - akaBot Docs
 
 RCA.Activities.Core.DatabaseTransaction

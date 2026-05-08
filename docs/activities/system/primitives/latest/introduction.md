@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "Primitives"
+sidebar_label: "Primitives"
+sidebar_position: 2
+description: "Primitives activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Primitives - akaBot Docs
 
 The System Activities Pack contains the basic activities used for creating automation projects. These activities enable the robots to:

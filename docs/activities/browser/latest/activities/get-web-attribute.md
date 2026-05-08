@@ -1,3 +1,11 @@
+---
+id: get-web-attribute
+title: "Get Web Attribute"
+sidebar_label: "Get Web Attribute"
+sidebar_position: 13
+description: "Get Web Attribute activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [13]Get Web Attribute - akaBot Docs
 
 RCA.Activities.Browser.GetWebAttribute

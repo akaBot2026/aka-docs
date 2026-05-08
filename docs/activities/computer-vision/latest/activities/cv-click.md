@@ -1,3 +1,11 @@
+---
+id: cv-click
+title: "CV Click"
+sidebar_label: "CV Click"
+sidebar_position: 2
+description: "CV Click activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # CV Click - akaBot Docs
 
 RCA.Activities.ComputerVision.CVClick

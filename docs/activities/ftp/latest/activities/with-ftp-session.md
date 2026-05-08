@@ -1,3 +1,11 @@
+---
+id: with-ftp-session
+title: "With FTP Session"
+sidebar_label: "With FTP Session"
+sidebar_position: 8
+description: "With FTP Session activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # With FTP Session - akaBot Docs
 
 RCA.Activities.FTP.WithFTPSession

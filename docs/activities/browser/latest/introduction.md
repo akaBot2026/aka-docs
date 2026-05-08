@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "Browser Activities"
+sidebar_label: "Browser Activities"
+sidebar_position: 1
+description: "Browser Activities activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Browser Activities - akaBot Docs
 
 The **Browser activities** package contains all the **basic activities** used for creating **Web**automation projects.

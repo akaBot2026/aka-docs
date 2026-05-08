@@ -1,3 +1,11 @@
+---
+id: python-scope
+title: "Python Scope"
+sidebar_label: "Python Scope"
+sidebar_position: 4
+description: "Python Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Python Scope - akaBot Docs
 
 RCA.Activities.Python.PythonScope

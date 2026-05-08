@@ -1,3 +1,11 @@
+---
+id: cv-table-extract
+title: "CV Table Extract"
+sidebar_label: "CV Table Extract"
+sidebar_position: 9
+description: "CV Table Extract activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # CV Table Extract - akaBot Docs
 
 RCA.Activities.ComputerVision.CVTableExtract

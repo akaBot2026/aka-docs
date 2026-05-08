@@ -1,3 +1,11 @@
+---
+id: open-browser
+title: "Open Browser (NB)"
+sidebar_label: "Open Browser (NB)"
+sidebar_position: 15
+description: "Open Browser (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Open Browser (NB) - akaBot Docs
 
 RCA.Activities.NativeBrowser.OpenBrowser

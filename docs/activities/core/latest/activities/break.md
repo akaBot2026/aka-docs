@@ -1,3 +1,11 @@
+---
+id: break
+title: "Break"
+sidebar_label: "Break"
+sidebar_position: 2
+description: "Break activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Break - akaBot Docs
 
 RCA.Activities.Core.Break

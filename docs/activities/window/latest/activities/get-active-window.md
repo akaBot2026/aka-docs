@@ -1,3 +1,11 @@
+---
+id: get-active-window
+title: "Get Active Window"
+sidebar_label: "Get Active Window"
+sidebar_position: 4
+description: "Get Active Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [04]Get Active Window - akaBot Docs
 
 RCA.Activities.Windows.GetActiveWindow

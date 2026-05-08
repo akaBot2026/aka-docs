@@ -1,3 +1,11 @@
+---
+id: move-window
+title: "Move Window"
+sidebar_label: "Move Window"
+sidebar_position: 8
+description: "Move Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [08]Move Window - akaBot Docs
 
 RCA.Activities.Windows.MoveWindow

@@ -1,3 +1,11 @@
+---
+id: write-text-file
+title: "Write Text File"
+sidebar_label: "Write Text File"
+sidebar_position: 12
+description: "Write Text File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Write Text File - akaBot Docs
 
 RCA. Core.Activities.WriteTextFile

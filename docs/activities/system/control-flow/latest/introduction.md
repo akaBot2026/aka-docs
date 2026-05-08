@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "Flowcharts & Control Flow"
+sidebar_label: "Flowcharts & Control Flow"
+sidebar_position: 2
+description: "Flowcharts & Control Flow activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Flowcharts & Control Flow - akaBot Docs
 
 An important aspect of successfully working with **akaBot Studio** is understanding and knowing how to control your project.

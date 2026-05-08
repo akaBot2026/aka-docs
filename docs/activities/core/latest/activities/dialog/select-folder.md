@@ -1,3 +1,11 @@
+---
+id: select-folder
+title: "Select Folder"
+sidebar_label: "Select Folder"
+sidebar_position: 3
+description: "Select Folder activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Select Folder - akaBot Docs
 
 RCA.Activities.Core.SelectFolder

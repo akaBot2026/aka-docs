@@ -1,3 +1,11 @@
+---
+id: quit
+title: "Quit Browser"
+sidebar_label: "Quit Browser"
+sidebar_position: 15
+description: "Quit Browser activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [15]Quit Browser - akaBot Docs
 
 RCA.Activities.Browser.Quit

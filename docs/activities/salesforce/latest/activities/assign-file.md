@@ -1,3 +1,11 @@
+---
+id: assign-file
+title: "Assign File"
+sidebar_label: "Assign File"
+sidebar_position: 1
+description: "Assign File activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Assign File - akaBot Docs
 
 Content

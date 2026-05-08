@@ -1,3 +1,11 @@
+---
+id: excel-save-as-workbook
+title: "Excel Save As Workbook"
+sidebar_label: "Excel Save As Workbook"
+sidebar_position: 17
+description: "Excel Save As Workbook activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Save As Workbook - akaBot Docs
 
 RCA.Activities.Excel.ExcelSaveAsWorkbook

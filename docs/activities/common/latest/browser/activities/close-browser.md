@@ -1,3 +1,11 @@
+---
+id: close-browser
+title: "Close Browser"
+sidebar_label: "Close Browser"
+sidebar_position: 2
+description: "Close Browser activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Close Browser - akaBot Docs
 
 RCA.Activities.Common.CloseBrowser

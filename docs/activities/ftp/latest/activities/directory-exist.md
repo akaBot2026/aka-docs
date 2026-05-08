@@ -1,3 +1,11 @@
+---
+id: directory-exist
+title: "Directory Exists"
+sidebar_label: "Directory Exists"
+sidebar_position: 3
+description: "Directory Exists activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Directory Exists - akaBot Docs
 
 RCA.Activities.FTP.DirectoryExists

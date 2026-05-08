@@ -1,3 +1,11 @@
+---
+id: excel-read-cell
+title: "Excel Read Cell"
+sidebar_label: "Excel Read Cell"
+sidebar_position: 14
+description: "Excel Read Cell activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Read Cell - akaBot Docs
 
 RCA.Activities.Excel.ExcelReadCell

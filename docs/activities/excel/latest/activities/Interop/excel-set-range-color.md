@@ -1,3 +1,11 @@
+---
+id: excel-set-range-color
+title: "Excel Set Range Color"
+sidebar_label: "Excel Set Range Color"
+sidebar_position: 22
+description: "Excel Set Range Color activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel Set Range Color - akaBot Docs
 
 RCA.Activities.Excel.ExcelSetRangeColor

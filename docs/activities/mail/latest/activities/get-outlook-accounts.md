@@ -1,3 +1,11 @@
+---
+id: get-outlook-accounts
+title: "Get Outlook Account Information"
+sidebar_label: "Get Outlook Account Information"
+sidebar_position: 2
+description: "Get Outlook Account Information activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Outlook Account Information - akaBot Docs
 
 RCA.Activities.Mail.GetAccounts

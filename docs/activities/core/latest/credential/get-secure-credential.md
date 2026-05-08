@@ -1,3 +1,11 @@
+---
+id: get-secure-credential
+title: "Get Secure Credential"
+sidebar_label: "Get Secure Credential"
+sidebar_position: 4
+description: "Get Secure Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [04]Get Secure Credential - akaBot Docs
 
 RCA.Activities.Core.GetSecureCredential

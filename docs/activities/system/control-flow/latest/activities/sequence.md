@@ -1,3 +1,11 @@
+---
+id: sequence
+title: "Sequence"
+sidebar_label: "Sequence"
+sidebar_position: 6
+description: "Sequence activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Sequence - akaBot Docs
 
 System.Activities.Statements.Sequence

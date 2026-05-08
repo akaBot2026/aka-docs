@@ -1,3 +1,11 @@
+---
+id: execute-query
+title: "Execute Query"
+sidebar_label: "Execute Query"
+sidebar_position: 5
+description: "Execute Query activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Execute Query - akaBot Docs
 
 RCA.Activities.Core.ExecuteQuery

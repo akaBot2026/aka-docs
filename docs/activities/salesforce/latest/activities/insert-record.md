@@ -1,3 +1,11 @@
+---
+id: insert-record
+title: "Insert Record"
+sidebar_label: "Insert Record"
+sidebar_position: 13
+description: "Insert Record activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Insert Record - akaBot Docs
 
 Content

@@ -1,3 +1,11 @@
+---
+id: add-queue-item
+title: "Add Queue Item"
+sidebar_label: "Add Queue Item"
+sidebar_position: 1
+description: "Add Queue Item activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Add Queue Item - akaBot Docs
 
 RCA.Activities.Core.AddQueueItem

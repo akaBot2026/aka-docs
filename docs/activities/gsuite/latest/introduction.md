@@ -1,3 +1,11 @@
+---
+id: introduction
+title: "GSuite"
+sidebar_label: "GSuite"
+sidebar_position: 2
+description: "GSuite activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # GSuite - akaBot Docs
 
 The GSuite Activities Pack contains all the activities used for creating automation projects. These activities enable the robots to:

@@ -1,3 +1,11 @@
+---
+id: get-python-object
+title: "Get Python Object"
+sidebar_label: "Get Python Object"
+sidebar_position: 1
+description: "Get Python Object activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Python Object - akaBot Docs
 
 RCA.Activities.Python.GetObject

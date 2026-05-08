@@ -1,3 +1,11 @@
+---
+id: set-content-control
+title: "Set Content Control"
+sidebar_label: "Set Content Control"
+sidebar_position: 9
+description: "Set Content Control activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Set Content Control - akaBot Docs
 
 RCA.Activities.Word.SetContentControl

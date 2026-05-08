@@ -1,3 +1,11 @@
+---
+id: read-range
+title: "Read Range"
+sidebar_label: "Read Range"
+sidebar_position: 3
+description: "Read Range activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Read Range - akaBot Docs
 
 RCA.Activities.Excel.ReadRange

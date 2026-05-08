@@ -1,3 +1,11 @@
+---
+id: expand-tree
+title: "Expand Tree"
+sidebar_label: "Expand Tree"
+sidebar_position: 2
+description: "Expand Tree activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Expand Tree - akaBot Docs
 
 Content

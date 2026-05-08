@@ -1,3 +1,11 @@
+---
+id: excel-lookup-range
+title: "Excel LookUp Range"
+sidebar_label: "Excel LookUp Range"
+sidebar_position: 13
+description: "Excel LookUp Range activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Excel LookUp Range - akaBot Docs
 
 RCA.Activities.Excel.ExcelLookUpRange

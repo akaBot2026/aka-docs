@@ -1,3 +1,11 @@
+---
+id: terminate-workflow
+title: "Terminate Workflow"
+sidebar_label: "Terminate Workflow"
+sidebar_position: 1
+description: "Terminate Workflow activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Terminate Workflow - akaBot Docs
 
 System.Activities.Statements.TernimateWorkflow

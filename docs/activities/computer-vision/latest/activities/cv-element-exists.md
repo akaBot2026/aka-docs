@@ -1,3 +1,11 @@
+---
+id: cv-element-exists
+title: "CV Element Exists"
+sidebar_label: "CV Element Exists"
+sidebar_position: 4
+description: "CV Element Exists activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # CV Element Exists - akaBot Docs
 
 RCA.Activities.ComputerVision.CVElementExists

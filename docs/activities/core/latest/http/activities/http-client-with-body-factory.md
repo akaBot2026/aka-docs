@@ -1,3 +1,11 @@
+---
+id: http-client-with-body-factory
+title: "HTTP Client with Body Factory"
+sidebar_label: "HTTP Client with Body Factory"
+sidebar_position: 1
+description: "HTTP Client with Body Factory activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # HTTP Client with Body Factory - akaBot Docs
 
 Content

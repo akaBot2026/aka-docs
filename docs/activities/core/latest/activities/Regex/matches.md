@@ -1,3 +1,11 @@
+---
+id: matches
+title: "Matches"
+sidebar_label: "Matches"
+sidebar_position: 2
+description: "Matches activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Matches - akaBot Docs
 
 RCA.Activities.Core.Matches

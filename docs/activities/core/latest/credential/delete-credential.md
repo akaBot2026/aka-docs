@@ -1,3 +1,11 @@
+---
+id: delete-credential
+title: "Delete Credential"
+sidebar_label: "Delete Credential"
+sidebar_position: 2
+description: "Delete Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [02]Delete Credential - akaBot Docs
 
 RCA.Activities.Core.DeleteCredential

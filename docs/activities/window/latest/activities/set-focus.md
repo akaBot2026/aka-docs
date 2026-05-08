@@ -1,3 +1,11 @@
+---
+id: set-focus
+title: "Set Focus"
+sidebar_label: "Set Focus"
+sidebar_position: 26
+description: "Set Focus activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [26]Set Focus - akaBot Docs
 
 RCA.Activities.Windows.SetFocus

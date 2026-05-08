@@ -1,3 +1,11 @@
+---
+id: delete-files
+title: "Delete"
+sidebar_label: "Delete"
+sidebar_position: 2
+description: "Delete activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Delete - akaBot Docs
 
 RCA.Activities.FTP.Delete

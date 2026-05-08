@@ -1,3 +1,11 @@
+---
+id: move-outlook-message
+title: "Move Outlook Message"
+sidebar_label: "Move Outlook Message"
+sidebar_position: 5
+description: "Move Outlook Message activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # [05]Move Outlook Message - akaBot Docs
 
 RCA.Activities.Mail.MoveOutlookMessage
