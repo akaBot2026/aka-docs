@@ -12,8 +12,9 @@ The **Java Activities Pack** contains several activities that help you harness
 
 # Install and Enable Java Access Bridge
 
-## **1. Download Java Access Bridge 2.0.2 from the Java Access Bridge Home Page at the following URL:**
+## **1. Download Java Access Bridge**
 
+Download Java Access Bridge 2.0.2 from the Java Access Bridge Home Page at the following URL
 https://www.oracle.com/java/technologies/javase/javase-tech-access-bridge.html
 
 ## **2. Installing Java Access Bridge for Windows 64-Bit**

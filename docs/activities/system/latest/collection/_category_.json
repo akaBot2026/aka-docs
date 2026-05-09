@@ -2,5 +2,9 @@
   "label": "Collection",
   "position": 8,
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
 }
+

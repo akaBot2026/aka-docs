@@ -2,5 +2,8 @@
   "label": "Control Flow",
   "position": 4,
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
 }

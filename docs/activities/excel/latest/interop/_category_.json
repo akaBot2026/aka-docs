@@ -2,5 +2,8 @@
   "label": "Interop",
   "position": 3,
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
 }
