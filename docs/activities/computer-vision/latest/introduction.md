@@ -1,9 +1,9 @@
 ---
 id: introduction
-title: Introduction
-sidebar_label: Introduction
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: The introduction of the activity package.
+description: "Introduction to Computer Vision activity package"
 displayed_sidebar: activitiesSidebar
 ---
 

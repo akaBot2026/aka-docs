@@ -1,12 +1,12 @@
 ---
 id: introduction
-title: "Mail Activities"
-sidebar_label: "Mail Activities"
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "Mail Activities activity documentation."
+description: "Introduction to Mail activity package"
 displayed_sidebar: activitiesSidebar
 ---
-# Mail Activities
+# Introduction
 
 The Mail Activities Package is designed to facilitate the automation of mail-related tasks.
 

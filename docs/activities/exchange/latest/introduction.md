@@ -1,9 +1,9 @@
 ---
 id: introduction
-title: "Exchange"
-sidebar_label: "Exchange"
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "Exchange activity documentation."
+description: "Introduction to Exchange activity package"
 displayed_sidebar: activitiesSidebar
 ---
 # Exchange

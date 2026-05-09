@@ -1,11 +1,11 @@
 ---
 id: introduction
-title: "SAP"
-sidebar_label: "SAP"
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "SAP activity documentation."
+description: "Introduction to SAP activity package"
 displayed_sidebar: activitiesSidebar
 ---
-# SAP
+# Introduction
 
 The **SAP activities** sub-package contains activities that work with SAP Application. All of these activities can be found in the **Toolbox** panel, under **Common> SAP**.

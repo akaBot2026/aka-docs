@@ -3,7 +3,7 @@ id: introduction
 title: "Introduction"
 sidebar_label: "Introduction"
 sidebar_position: 1
-description: "Custom Activity activity documentation."
+description: "Introduction to Custom activity package"
 displayed_sidebar: activitiesSidebar
 ---
 # Introduction

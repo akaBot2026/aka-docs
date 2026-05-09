@@ -1,12 +1,12 @@
 ---
 id: introduction
-title: "Window"
-sidebar_label: "Window"
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "Window activity documentation."
+description: "Introduction to Window activity package"
 displayed_sidebar: activitiesSidebar
 ---
-# Window
+# Introduction
 
 The **Windows activities** package contains all the **basic activities** used for creating **window application** automation projects.
 

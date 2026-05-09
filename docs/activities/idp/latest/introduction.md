@@ -1,11 +1,11 @@
 ---
 id: introduction
-title: "IDP"
-sidebar_label: "IDP"
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "IDP activity documentation."
+description: "Introduction to IDP activity package"
 displayed_sidebar: activitiesSidebar
 ---
-# IDP
+# Introduction
 
 These activities belong to **IDP Activities Pack**

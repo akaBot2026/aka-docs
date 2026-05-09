@@ -1,9 +1,9 @@
 ---
-id: introductionjava
+id: introduction
 title: "Introduction"
 sidebar_label: "Introduction"
 sidebar_position: 1
-description: "Introduction to Java activity package."
+description: "Introduction to Java activity package"
 displayed_sidebar: activitiesSidebar
 ---
 # Introduction

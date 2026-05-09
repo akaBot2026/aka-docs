@@ -1,9 +1,9 @@
 ---
 id: introduction
-title: "Data Service Activities"
-sidebar_label: "Data Service Activities"
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "Data Service activity documentation."
+description: "Introduction to Data Service activity package"
 displayed_sidebar: activitiesSidebar
 ---
 # Data Service Activities

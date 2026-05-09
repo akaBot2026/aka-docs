@@ -1,12 +1,12 @@
 ---
 id: introduction
-title: "GSuite"
-sidebar_label: "GSuite"
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "GSuite activity documentation."
+description: "Introduction to GSuite activity package"
 displayed_sidebar: activitiesSidebar
 ---
-# GSuite
+# Introduction
 
 The GSuite Activities Pack contains all the activities used for creating automation projects. These activities enable the robots to:
 

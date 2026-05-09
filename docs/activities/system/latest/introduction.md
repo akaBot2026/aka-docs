@@ -1,11 +1,11 @@
 ---
 id: introduction
-title: "System"
-sidebar_label: "System"
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "System activity documentation"
+description: "Introduction to System activity package"
 displayed_sidebar: activitiesSidebar
 ---
-# System
+# Introduction
 
 TODO: add your content here

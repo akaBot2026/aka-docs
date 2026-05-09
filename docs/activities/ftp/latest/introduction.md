@@ -1,12 +1,12 @@
 ---
 id: introduction
-title: "FTP"
-sidebar_label: "FTP"
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "FTP activity documentation."
+description: "Introduction to FTP activity package"
 displayed_sidebar: activitiesSidebar
 ---
-# FTP
+# Introduction
 
 The FTP Activities Pack contains all the activities used for creating automation projects. These activities enable the robots to:
 

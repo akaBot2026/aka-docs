@@ -1,12 +1,12 @@
 ---
 id: introduction
-title: "Browser Activities"
-sidebar_label: "Browser Activities"
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "Browser Activities activity documentation."
+description: "Introduction to Browser activity package"
 displayed_sidebar: activitiesSidebar
 ---
-# Browser Activities
+# Introduction
 
 The **Browser activities** package contains all the **basic activities** used for creating **Web**automation projects.
 

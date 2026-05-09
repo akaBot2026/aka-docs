@@ -1,9 +1,9 @@
 ---
 id: introduction
-title: "Excel Activities"
-sidebar_label: "Excel Activities"
+title: "Introduction"
+sidebar_label: "Introduction"
 sidebar_position: 1
-description: "Excel Activities activity documentation."
+description: "Introduction to Excel activity package"
 displayed_sidebar: activitiesSidebar
 ---
 # Excel Activities
