@@ -6,7 +6,7 @@ sidebar_position: 2
 description: "About Desktop Trigger documentation."
 displayed_sidebar: agentSidebar
 ---
-# [2] About Desktop Trigger - akaBot Docs
+# About Desktop Trigger - akaBot Docs
 
 **Desktop Triggers** enable a task to run automatically in response to an event that occurs on the computer, such as a new window opening or a specific file created.
 
