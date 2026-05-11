@@ -1,4 +1,4 @@
-﻿---
+---
 id: http-client
 title: "HTTP Client"
 sidebar_label: "HTTP Client"
