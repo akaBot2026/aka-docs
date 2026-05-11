@@ -1,4 +1,4 @@
-﻿---
+---
 id: credential
 title: "Credentials"
 sidebar_label: "Credentials"
