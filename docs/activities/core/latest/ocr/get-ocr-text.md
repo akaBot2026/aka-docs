@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-ocr-text
 title: "Get OCR Text"
 sidebar_label: "Get OCR Text"
