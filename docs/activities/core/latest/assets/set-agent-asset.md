@@ -1,4 +1,4 @@
-﻿---
+---
 id: set-agent-asset
 title: "Set Agent Asset"
 sidebar_label: "Set Agent Asset"
