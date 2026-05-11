@@ -1,4 +1,4 @@
----
+﻿---
 id: select-file
 title: "Select File"
 sidebar_label: "Select File"
@@ -20,7 +20,7 @@ This activity opens a dialog, allows you to select a file and returns full path 
 
 **Input**
 
-* **Filter (String)**– Used to specify the type of file you want to select. This filter should contain a description of the filter and followed by a vertical bar (|) and the filter pattern. If you want to select multiple file types, separate them with a semicolon (“;”). Use Asterisk to get all files. The default value is: All files
+* **Filter (String)** – Used to specify the type of file you want to select. This filter should contain a description of the filter and followed by a vertical bar (|) and the filter pattern. If you want to select multiple file types, separate them with a semicolon (“;”). Use Asterisk to get all files. The default value is: All files
 
           E.g: Image files (.bmp, .jpg)|.bmp;.jpg| .Excel files (.xlsx)|.xlsx
 

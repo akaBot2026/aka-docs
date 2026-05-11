@@ -1,4 +1,4 @@
----
+﻿---
 id: cv-table-extract
 title: "CV Table Extract"
 sidebar_label: "CV Table Extract"
@@ -36,7 +36,7 @@ Extracts a table that is visible on the screen and stores it into a DataTable va
 
 **Input**
 
-* **Descriptor (String)** - The on-screen coordinates of the **Target**and each **Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the **Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
+* **Descriptor (String)** - The on-screen coordinates of the ** Target**and each ** Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the ** Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
 
 **Misc**
 

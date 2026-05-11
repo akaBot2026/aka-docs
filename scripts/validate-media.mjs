@@ -15,7 +15,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import {fileURLToPath} from 'node:url';
+import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
@@ -34,7 +34,7 @@ const MEDIA_EXTS = new Set([
 
 function walk(dir, results = []) {
   if (!fs.existsSync(dir)) return results;
-  for (const entry of fs.readdirSync(dir, {withFileTypes: true})) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) walk(full, results);
     else results.push(full);
@@ -76,7 +76,7 @@ for (const file of staticFiles) {
 }
 
 // ---------- 2. Validate media references in markdown ------------------------
-const MD_IMG_RE  = /!\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
+const MD_IMG_RE = /!\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
 const MD_LINK_RE = /(?<!!)\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
 const HTML_SRC_RE = /<(?:img|video|source|audio)\b[^>]*\bsrc=["']([^"']+)["']/gi;
 

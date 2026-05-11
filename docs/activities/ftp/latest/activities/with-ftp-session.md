@@ -1,4 +1,4 @@
----
+﻿---
 id: with-ftp-session
 title: "With FTP Session"
 sidebar_label: "With FTP Session"
@@ -34,7 +34,7 @@ This activity provides a container which connects to an FTP server and performs 
   E.g: “P@ssW0rd123”
 * **Use Anonymous Login (Checkbox)**- If the FTP server accepts the anonymous login, you may use this option, otherwise, you are unable to login to through anonymous login. This is uncheck by default.  
   E.g: Checked mean Yes
-* **Username (String) -**It is used to login to the FTP Server  
+* **Username (String) -** It is used to login to the FTP Server  
   E.g: “UserNameForFTPSite”
 
 **Misc**

@@ -1,4 +1,4 @@
----
+﻿---
 id: start-or-abort-bulk-api-job
 title: "Start or Abort Bulk API Job"
 sidebar_label: "Start or Abort Bulk API Job"
@@ -28,4 +28,4 @@ You may use this activity to start or abort a bulk API job in Salesforce.
 
 **Output**
 
-* **Salesforce Status**– The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.
+* **Salesforce Status** – The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.

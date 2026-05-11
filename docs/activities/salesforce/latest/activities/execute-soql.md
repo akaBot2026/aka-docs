@@ -1,4 +1,4 @@
----
+﻿---
 id: execute-soql
 title: "Execute SOQL"
 sidebar_label: "Execute SOQL"
@@ -16,7 +16,7 @@ You may use this activity to execute a Salesforce Object Query Language (SOQL) c
 
 **Input**
 
-* **SOQL Command**– The valid SOQL command that you want to run. Only strings and String variables supported.
+* **SOQL Command** – The valid SOQL command that you want to run. Only strings and String variables supported.
 
 **Note**: You may include the special characters in your SOQL command by using escape characters in your command. Please refer to the official guide for Escape sequence [here](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_quotedstringescapes.htm).
 
@@ -28,4 +28,4 @@ You may use this activity to execute a Salesforce Object Query Language (SOQL) c
 **Output**
 
 * **Result** - The result of running the SOQL command in Salesforce, stored in a DataTable variable. Only Data Table variable supported.
-* **Salesforce Status**– The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.
+* **Salesforce Status** – The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.

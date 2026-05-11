@@ -1,4 +1,4 @@
----
+﻿---
 id: execute-report
 title: "Execute Report"
 sidebar_label: "Execute Report"
@@ -16,7 +16,7 @@ You may use this activity to execute a report in Salesforce and store the report
 
 **Input**
 
-* **Report ID**–  ID of the report in Salesforce you want to execute. Only strings and String variables supported.
+* **Report ID** –  ID of the report in Salesforce you want to execute. Only strings and String variables supported.
 
 **Misc**
 
@@ -26,4 +26,4 @@ You may use this activity to execute a report in Salesforce and store the report
 **Output**
 
 * **Result** - The result of report execution, stored in a DataTable variable. Only DataTable variables supported.
-* **Salesforce Status**– The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.
+* **Salesforce Status** – The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.

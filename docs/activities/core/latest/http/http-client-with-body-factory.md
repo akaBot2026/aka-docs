@@ -1,4 +1,4 @@
----
+﻿---
 id: http-client-with-body-factory
 title: "HTTP Client with Body Factory"
 sidebar_label: "HTTP Client with Body Factory"
@@ -32,7 +32,7 @@ This HTTP Client with Body Factory activity enables you to perform HTTP requests
   ・JSON.
 * **End Point (String)**\* - The URL to which you want to make the request.  
   Ex: https://akabot.com/
-* **Method (Dropdown List)**– The request method to be used when calling the API. The following HTTP verbs are supported: **GET, POST, PUT, DELETE, HEAD, OPTIONS, PATCH** and **MERGE.**  
+* **Method (Dropdown List)** – The request method to be used when calling the API. The following HTTP verbs are supported: **GET, POST, PUT, DELETE, HEAD, OPTIONS, PATCH** and **MERGE.**  
   By default, the **GET** method is selected.
 
 **OAuth1**

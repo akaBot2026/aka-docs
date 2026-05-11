@@ -1,4 +1,4 @@
----
+﻿---
 id: excel-application-scope
 title: "Excel Application Scope"
 sidebar_label: "Excel Application Scope"
@@ -22,7 +22,7 @@ This activity allows to open an Excel workbook and provides a scope for Excel Ac
 
 * **Workbook Path (String)** - The path of the Excel file you want to read.  
   E.g: “C:\FolderName\Contacts.xlsx”
-* **“Do” -**The activities you want to execute within the application.
+* **“Do” -** The activities you want to execute within the application.
 
 ## **Properties**
 

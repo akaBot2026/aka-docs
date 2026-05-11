@@ -1,4 +1,4 @@
----
+﻿---
 id: close-tab
 title: "Close tab"
 sidebar_label: "Close tab"
@@ -51,8 +51,8 @@ The **Close Tab** activity closes the currently opened tab in the browser.
   + Positive value → scroll right
   + Negative value → scroll left
   + E.g: 200
-* **Scroll element to view (checkbox):**The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:**Enter a numeric value (pixels) to scroll vertically
+* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
+* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300

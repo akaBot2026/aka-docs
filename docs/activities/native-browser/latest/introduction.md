@@ -1,4 +1,4 @@
----
+﻿---
 id: introduction
 title: "Introduction"
 sidebar_label: "Introduction"
@@ -17,6 +17,6 @@ Please choose the right supported Manifest version corresponding to your Native 
 
 |  |  |
 | --- | --- |
-| **Version of Native Browser Package** | **Supported Manifest** |
+| **Version of Native Browser Package** | ** Supported Manifest** |
 | < 5.x.x.x | Manifest V2  ***Please note that:*** Manifest V2 will be deprecated in 2024 and will be deleted by Chrome. We recommend you to use the Manifest V3 to automate your workflow in the future. |
 | >= 5.x.x.x | Manifest V3 |

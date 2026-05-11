@@ -1,4 +1,4 @@
----
+﻿---
 id: Update Entity Record
 title: "Update Entity Record"
 sidebar_label: "Update Entity Record"
@@ -16,7 +16,7 @@ This activity allow to update an existing record for the selected Entity in Data
 
 ## **In the body of activity**
 
-* **Entity:**Select the entity you want to use with the activity. The property only supports entities imported from Data Service
+* **Entity:** Select the entity you want to use with the activity. The property only supports entities imported from Data Service
 * **Record Id**: Once you select an entity, the wizard asks you to provide the ID of the record you want to retrieve from the entity
 * **Switch to record view**: Click to switch the input method (Json object)
 * **Manage Properties**: To configure more fields, click Manage Properties, make your selection, then click Update fields/Save

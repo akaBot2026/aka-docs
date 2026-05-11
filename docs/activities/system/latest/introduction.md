@@ -8,4 +8,4 @@ displayed_sidebar: activitiesSidebar
 ---
 # Introduction
 
-TODO: add your content here
+TO DO: add your content here

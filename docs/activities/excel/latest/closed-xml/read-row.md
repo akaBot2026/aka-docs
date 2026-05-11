@@ -1,4 +1,4 @@
----
+﻿---
 id: read-row
 title: "Read Row"
 sidebar_label: "Read Row"
@@ -50,4 +50,4 @@ Reads the values from a row beginning with the cell specified in the StartingCel
 
 **Output**
 
-* **Result (IEnumerable) -**Stores the information from the specified spreadsheet row in an IEnumerable variable.
+* **Result (IEnumerable) -** Stores the information from the specified spreadsheet row in an IEnumerable variable.

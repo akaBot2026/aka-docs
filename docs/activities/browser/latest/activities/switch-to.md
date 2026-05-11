@@ -1,4 +1,4 @@
----
+﻿---
 id: switch-to
 title: "Switch To"
 sidebar_label: "Switch To"
@@ -56,4 +56,4 @@ The Switch To activity allows you to switch between different UI Elements within
 
 **Options**
 
-* **Wait Timeout MS:**Specifies the maximum time (in milliseconds) the system will wait for the target tab/window to be available before performing the switch. Enter a numeric value. E.g: 30000
+* **Wait Timeout MS:** Specifies the maximum time (in milliseconds) the system will wait for the target tab/window to be available before performing the switch. Enter a numeric value. E.g: 30000

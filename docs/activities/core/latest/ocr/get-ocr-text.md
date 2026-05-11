@@ -1,4 +1,4 @@
----
+﻿---
 id: get-ocr-text
 title: "Get OCR Text"
 sidebar_label: "Get OCR Text"
@@ -27,7 +27,7 @@ This activity allows you to get text from a UI element or image using the OCR sc
 **Input**
 
 * **Delay MS (Int32)** - The amount of time after the execution. The default value is 300 milliseconds.
-* **Image Path (String)**– The path of the image which the text will be attracted from.
+* **Image Path (String)** – The path of the image which the text will be attracted from.
 * **Template (String)** - Template-based systems come into play
 
 **Notes**: You can only choose to either input an Image Path or use the Image Selector.

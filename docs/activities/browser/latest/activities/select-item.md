@@ -1,4 +1,4 @@
----
+﻿---
 id: select-item
 title: "Select Item"
 sidebar_label: "Select Item"
@@ -53,14 +53,14 @@ The Select Item activity allows you to select an item from a combo box or list b
   E.g: [145364] Select Item
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is unchecked.
 
-**Scroll -**To control how the system scrolls the screen to make the target element visible before performing an action*.*
+**Scroll -** To control how the system scrolls the screen to make the target element visible before performing an action*.*
 
 * ​​​​​​​​​​​​​​**Horizontal scroll:** Enter a numeric value (pixels) to scroll horizontally.
   + Positive value → scroll right
   + Negative value → scroll left
   + E.g: 200
-* **Scroll element to view (checkbox):**The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:**Enter a numeric value (pixels) to scroll vertically
+* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
+* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300

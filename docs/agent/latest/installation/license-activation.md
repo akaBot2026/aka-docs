@@ -5,7 +5,8 @@ sidebar_label: "License Activation"
 sidebar_position: 4
 description: "License Activation documentation."
 displayed_sidebar: agentSidebar
----# License Activation
+---
+# License Activation
 
 ## **Before you start**
 
@@ -25,11 +26,11 @@ displayed_sidebar: agentSidebar
 ## **Online Activation**
 
 **Step 1** - Start the Agent. In installing windows, choose option “LMS (License Management System)” then hit button “Next”.
-
+/img/
 ![image-20230718223155-1.png](/img/cd14b4_image-20230718223155-1.png)
 
 **Step 2** – Select Online activation option then hit button “Next”.
-
+/img/
 ![image-20230718223155-2.png](/img/73e6b2_image-20230718223155-2.png)
 
 **Step 3** – Fill license information then hit button “Next”
@@ -39,15 +40,15 @@ displayed_sidebar: agentSidebar
 2 -**License Key**: Please enter the license key provided in the Licensing Email.
 
 3 -**Network Options (Optional)**: If you use Proxy Server, please fill in the Proxy Info under ***Network Options***.
-
+/img/
 ![image-20230718223155-3.png](/img/1f4322_image-20230718223155-3.png)
 
 **Step 4** - Hit button “**Activate”**. After **successful** activation, akaBot Agent shows below message.
-
+/img/
 ![image-20230718223155-4.png](/img/f7c766_image-20230718223155-4.png)
 
 If below error message appears, please check your network connection.
-
+/img/
 ![image-20230718223155-5.png](/img/e5aad4_image-20230718223155-5.png)
 
 ## **Offline Activation**
@@ -55,21 +56,21 @@ If below error message appears, please check your network connection.
 **On your akaBot Agent computer (device A):**
 
 **Step 1** - Start the Agent. In installing windows, choose option “LMS (License Management System)” then hit button “Next”.
-
+/img/
 ![image-20230718223155-6.png](/img/5911a7_image-20230718223155-6.png)
 
 **Step 2** – Select Offline activation option then hit button “Next”.
-
+/img/
 ![image-20230718223155-7.png](/img/ed8824_image-20230718223155-7.png)
 
 **Step 3 –** Enter the license key in the Licensing email then hit button “Next”
-
+/img/
 ![image-20230718223155-8.png](/img/46649e_image-20230718223155-8.png)
 
 **Step 4 - Copy**the **Activation Request**below and hit Next:
-
+/img/
 ![image-20230718223155-9.png](/img/272a55_image-20230718223155-9.png)
-
+/img/
 ![image-20230718223155-10.png](/img/c1d57c_image-20230718223155-10.png)
 
 **Step 5 –**Copy the Activation Request to an Internet Access Device (Device B).
@@ -78,7 +79,7 @@ If below error message appears, please check your network connection.
 
 **Step 6** - Go to [https://aegis.akabot.io/#/activation](https://aegis.akabot.io/#/activation).  
 **Paste**the **Activation Request** you have copied from AkaBot Agent computer (device A), select Captcha then **Download File**to download Activation Response file (named activate.txt).
-
+/img/
 ![image-20230718223155-11.png](/img/ab2866_image-20230718223155-11.png)
 
 **Step 7** – Copy the Activation Response file from device B to device A.
@@ -86,17 +87,17 @@ If below error message appears, please check your network connection.
 **On your akaBot Agent computer  (device A):**
 
 **Step 8 –** Browse to the Activation Response file or copy the Activation Response in the file into the Activation Box then hit button “Activate”
-
+/img/
 ![image-20230718223155-12.png](/img/2a654d_image-20230718223155-12.png)
 
 After **successful** activation, akaBot Agent shows below message.
-
+/img/
 ![image-20230718223155-13.png](/img/9790b8_image-20230718223155-13.png)
 
 ## **Activate through your akaBot Center**
 
 **Step 1** - Start the Agent. In installing windows, choose option “akaBot Center” then hit button “Next”.
-
+/img/
 ![image-20230718223155-14.png](/img/d49ed9_image-20230718223155-14.png)
 
 **Step 2** – Fill license information:
@@ -105,13 +106,13 @@ After **successful** activation, akaBot Agent shows below message.
 2. **License Key**: Please enter the license key provided in the Licensing Email.
 3. **Network Options (Optional)**: If you use Proxy Server, please fill in the Proxy Info under ***Network Options***.
 4. Hit button “Activate”
-
+/img/
 ![image-20230718223155-15.png](/img/2583d0_image-20230718223155-15.png)
 
 After **successful** activation, akaBot Agent shows below message:
-
+/img/
 ![image-20230718223155-16.png](/img/568bd1_image-20230718223155-16.png)
 
 If below error message appears, please check your network connection.
-
+/img/
 ![image-20230718223155-17.png](/img/6661dd_image-20230718223155-17.png)

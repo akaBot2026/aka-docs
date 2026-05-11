@@ -1,4 +1,4 @@
----
+﻿---
 id: delete-record
 title: "Delete Record"
 sidebar_label: "Delete Record"
@@ -24,7 +24,7 @@ You may use this activity to delete a record from Salesforce. This activity only
 
 **Advanced Property Group**
 
-* **Id -**The ID of the record you want to delete from Salesforce. Only strings and String variables supported.
+* **Id -** The ID of the record you want to delete from Salesforce. Only strings and String variables supported.
 
 **Misc**
 
@@ -33,4 +33,4 @@ You may use this activity to delete a record from Salesforce. This activity only
 
 **Output**
 
-* **Salesforce Status**– The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.
+* **Salesforce Status** – The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.

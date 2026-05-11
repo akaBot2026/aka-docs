@@ -1,4 +1,4 @@
----
+﻿---
 id: join-data-table
 title: "Join Data Tables"
 sidebar_label: "Join Data Tables"
@@ -20,7 +20,7 @@ This activity allows you to add different data from different tables using commo
 
 ## **In the body of activity**
 
-**Join Table Wizard -**set join condition and join type
+**Join Table Wizard -** set join condition and join type
 
 ![image-20230419151628-1.png](/img/a0e548_image-20230419151628-1.png)
 

@@ -1,4 +1,4 @@
----
+﻿---
 id: insert-record
 title: "Insert Record"
 sidebar_label: "Insert Record"
@@ -20,7 +20,7 @@ You may use this activity to insert a new record into Salesforce. This activity 
 
 **Advanced**
 
-* **Reference** – When this activity is used inside, you may use an optional Reference string. Its value is returned in the **Reference** column of the Result property of the Composite Request. Only strings and String variables supported.
+* **Reference** – When this activity is used inside, you may use an optional Reference string. Its value is returned in the ** Reference** column of the Result property of the Composite Request. Only strings and String variables supported.
 
 **Advanced Property Group**
 
@@ -35,4 +35,4 @@ You may use this activity to insert a new record into Salesforce. This activity 
 
 **Output**
 
-* **Salesforce Status**– The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.
+* **Salesforce Status** – The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.

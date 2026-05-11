@@ -1,4 +1,4 @@
----
+﻿---
 id: get-list-view-records
 title: "Get List View Records"
 sidebar_label: "Get List View Records"
@@ -28,4 +28,4 @@ You may use this activity to get the list of records of a Salesforce Object from
 **Output**
 
 * **Result** - The result of performing operation for each record, stored in a DataTable variable. The DataTable variable contains the following fields: Command, Id, Status, Error Message. Only DataTable variables supported.
-* **Salesforce Status**– The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.
+* **Salesforce Status** – The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.

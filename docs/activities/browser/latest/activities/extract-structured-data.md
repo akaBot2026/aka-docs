@@ -1,4 +1,4 @@
----
+﻿---
 id: extract-structured-data
 title: "Extract Structured Data"
 sidebar_label: "Extract Structured Data"
@@ -44,7 +44,7 @@ The Extract Structured Data allows you to extract structured data from a specifi
 
 **Options**
 
-* **Delay Between Page MS (Int32)**– The amount of time (in seconds) to wait until the next page is loaded. The default value is 1000 milliseconds. If the loading time of the page is longer, this value should be higher.  
+* **Delay Between Page MS (Int32)** – The amount of time (in seconds) to wait until the next page is loaded. The default value is 1000 milliseconds. If the loading time of the page is longer, this value should be higher.  
   E.g: 1000
 * **Max Number Of Result (Int32)** – The maximum number of results to be extracted. If the value is 0, all the identified elements are added to the output. The default value is 100.  
   E.g: 100

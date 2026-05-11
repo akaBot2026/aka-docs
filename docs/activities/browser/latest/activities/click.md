@@ -1,4 +1,4 @@
----
+﻿---
 id: click
 title: "Click"
 sidebar_label: "Click"
@@ -61,20 +61,20 @@ The Click activity is used to send a click action into a webpage.
 
 **Options**
 
-* **InputMethod (Dropdown List) -**Defines how the system performs the click action on the target element.
+* **InputMethod (Dropdown List) -** Defines how the system performs the click action on the target element.
   + Default: Automatically selects the best method based on the environment
   + Hardware: Simulates a real mouse click (requires visible UI and active screen).
   + Software: Performs a background click at system level (no physical mouse movement required).
 * **Key Modifier (KeyModifiers)** - Enables you to add a key modifier. The following options are available: Alt, Ctrl, Shift, Win
 
-**Scroll -**To control how the system scrolls the screen to make the target element visible before performing an action*.*
+**Scroll -** To control how the system scrolls the screen to make the target element visible before performing an action*.*
 
 * ​​​​​​​​​​​​​​**Horizontal scroll:** Enter a numeric value (pixels) to scroll horizontally.
   + Positive value → scroll right
   + Negative value → scroll left
   + E.g: 200
-* **Scroll element to view (checkbox):**The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:**Enter a numeric value (pixels) to scroll vertically
+* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
+* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300

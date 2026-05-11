@@ -1,4 +1,4 @@
----
+﻿---
 id: do-action
 title: "Do Actions"
 sidebar_label: "Do Actions"
@@ -45,4 +45,4 @@ Text
 
 **Output**
 
-* **Success (Boolean)**– Indicate if the action runs successfully.
+* **Success (Boolean)** – Indicate if the action runs successfully.

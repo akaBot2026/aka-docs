@@ -1,4 +1,4 @@
----
+﻿---
 id: wait-page-url
 title: "Wait Page Url"
 sidebar_label: "Wait Page Url"
@@ -20,7 +20,7 @@ The Wait Page URL verifies if the page URL has the requirement format according 
 
 * **Comparison Operator (Dropdown List)** - Allow mathematical calculation as well as basic operations to be performed with ease  
   **Equals** – The page title is exactly the same as the predefined value.  
-  **Contains**– The page title contains the predefined value.  
+  **Contains** – The page title contains the predefined value.  
   **Matches** – The page title has the same regular expression as the predefined value
 * **Value (String)**\* - The predefined value to verify the page title.
 
@@ -40,7 +40,7 @@ The Wait Page URL verifies if the page URL has the requirement format according 
 
 * **Comparison Operator (Dropdown List)** - Allow mathematical calculation as well as basic operations to be performed with ease  
   **Equals** – The page title is exactly the same as the predefined value.  
-  **Contains**– The page title contains the predefined value.  
+  **Contains** – The page title contains the predefined value.  
   **Matches** – The page title has the same regular expression as the predefined value
 * **Value (String)**\* - The predefined value to verify the page title.
 

@@ -28,4 +28,4 @@ This activity allows you to add items to an existing collection.
 * **Item (TypeArgument)**\* - The number of item you want to add to the collection.
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **TypeArgument (Dropdown List)** - The type argument of the collection and the item you want to add. You can select different options based on the data type of the collection you use.  
-  **Notes:**Once the TypeArgument is set, the Item and Collection properties' variable type will automatically updated accordingly and will only accept said variable type as input.
+  **Notes:** Once the TypeArgument is set, the Item and Collection properties' variable type will automatically updated accordingly and will only accept said variable type as input.

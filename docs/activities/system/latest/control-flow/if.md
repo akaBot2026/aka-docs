@@ -1,4 +1,4 @@
----
+﻿---
 id: if
 title: "If"
 sidebar_label: "If"
@@ -13,7 +13,7 @@ System.Activities.Statements.If
 ## **Description**
 
 This activity allows you to perform a simple decision based on a condition (True/False).  
-It consists of a condition (**IF**) and two branches:  
+It consists of a condition (**IF** ) and two branches:  
 - **THEN**: Executed if the condition is True  
 - **ELSE**: Executed if the condition is False
 

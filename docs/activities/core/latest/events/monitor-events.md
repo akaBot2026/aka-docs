@@ -1,4 +1,4 @@
----
+﻿---
 id: monitor-events
 title: "Monitor Events"
 sidebar_label: "Monitor Events"
@@ -35,4 +35,4 @@ This activity allows you to observe a set of activities (also known as triggers)
 
 **Options**
 
-* **Repeat Forever (Boolean)**– This option allows the True - the block executes every time the trigger is activated; this is the default value. False - the activity executes only one time.
+* **Repeat Forever (Boolean)** – This option allows the True - the block executes every time the trigger is activated; this is the default value. False - the activity executes only one time.

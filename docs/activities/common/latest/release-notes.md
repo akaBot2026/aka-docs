@@ -8,7 +8,7 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-TODO: add release note here
+TO DO: add release note here
 
 ### **How to install activity?**
 

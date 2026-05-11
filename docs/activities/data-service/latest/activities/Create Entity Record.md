@@ -1,4 +1,4 @@
----
+﻿---
 id: Create Entity Record
 title: "Create Entity Record"
 sidebar_label: "Create Entity Record"
@@ -16,7 +16,7 @@ This activity allow to create a new record for the selected Entity in Data Servi
 
 ## **In the body of activity**
 
-* **Entity:**Select the entity you want to use with the activity. The property only supports entities imported from Data Service
+* **Entity:** Select the entity you want to use with the activity. The property only supports entities imported from Data Service
 * **Switch to record view:** Click to change to other inputing data method (Json object) to create new record. After switching, the UI will change to:
 * **Manage Properties:** To configure more fields, click Manage Properties, make your selection, then click Update fields/Save
 

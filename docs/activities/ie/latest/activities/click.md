@@ -1,4 +1,4 @@
----
+﻿---
 id: click
 title: "Click"
 sidebar_label: "Click"
@@ -32,7 +32,7 @@ The Click activity is used to send a click action into a webpage.
 
 **Input**
 
-* **Mouse Button (Dropdown List)**– Select the action to click  
+* **Mouse Button (Dropdown List)** – Select the action to click  
   ・LEFT - Sets the action to click using the left mouse button.  
   ・RIGHT – Sets the action to click using the right mouse button.  
   ・MIDDLE – Sets the action to click using the middle mouse button.

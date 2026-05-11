@@ -1,4 +1,4 @@
----
+﻿---
 id: composite-request
 title: "Composite Request"
 sidebar_label: "Composite Request"
@@ -20,7 +20,7 @@ You may use this activity to provide a working scope for record manipulation ope
 
 **Advanced**
 
-* **AllOrNone** – Configure the way to handle the commitment if an error is thrown. If set to **True**, all of the operations in this scope are not committed. If set to **False**, all of the operations that throw errors are not committed but everything that works is. The status of each operation is logged in the output variable provided in the **Result** field.
+* **AllOrNone** – Configure the way to handle the commitment if an error is thrown. If set to **True**, all of the operations in this scope are not committed. If set to **False**, all of the operations that throw errors are not committed but everything that works is. The status of each operation is logged in the output variable provided in the **Result** field.
 
 **Misc**
 
@@ -30,4 +30,4 @@ You may use this activity to provide a working scope for record manipulation ope
 **Output**
 
 * **Result** - The result of performing operation for each record, stored in a DataTable variable. The DataTable variable contains the following fields: Command, Id, Status, Error Message. Only DataTable variables supported.
-* **Salesforce Status**– The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.
+* **Salesforce Status** – The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.

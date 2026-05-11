@@ -1,4 +1,4 @@
----
+﻿---
 id: introduction
 title: "Introduction"
 sidebar_label: "Introduction"
@@ -8,7 +8,7 @@ displayed_sidebar: activitiesSidebar
 ---
 # Introduction
 
-The **Java Activities Pack** contains several activities that help you harness the power of Java code. With the **Java Scope** activity, you can initialize a Java library, thus providing a scope for all subsequent activities. All activities in this pack must be run inside the aforementioned scope.
+The **Java Activities Pack** contains several activities that help you harness the power of Java code. With the ** Java Scope** activity, you can initialize a Java library, thus providing a scope for all subsequent activities. All activities in this pack must be run inside the aforementioned scope.
 
 # Install and Enable Java Access Bridge
 
@@ -28,7 +28,7 @@ Copy the following files to the specified destination directories:
 
 |  |  |
 | --- | --- |
-| **Java Access Bridge File** | **Destination Directory** |
+| **Java Access Bridge File** | ** Destination Directory** |
 | WindowsAccessBridge-32.dll | %WINDOWSHOME%\SYSWOW64 |
 | JavaAccessBridge-32.dll | %JAVAHOME32%\bin |
 | accessibility.properties | %JAVAHOME32%\lib |

@@ -1,4 +1,4 @@
----
+﻿---
 id: word-application-scope
 title: "Word Application Scope"
 sidebar_label: "Word Application Scope"
@@ -18,7 +18,7 @@ Word Application Scope activity provides a space for all other Word activities t
 
 **In the body of activity**
 
-* **Document Path (String)**– The path of the Word Document that will be processed. String variables and Strings are supported. If the specified file does not exist, a new document file is created.  
+* **Document Path (String)** – The path of the Word Document that will be processed. String variables and Strings are supported. If the specified file does not exist, a new document file is created.  
   E.g: “D:/input.docx”
 * **Do** - Drop activity would be processed in that Word file.
 

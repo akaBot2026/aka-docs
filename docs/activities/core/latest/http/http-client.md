@@ -1,4 +1,4 @@
----
+﻿---
 id: http-client
 title: "HTTP Client"
 sidebar_label: "HTTP Client"
@@ -32,7 +32,7 @@ This HTTP Client activity enables you to perform HTTP requests to a specified we
   ・JSON.
 * **End Point (String)**\* - The URL to which you want to make the request.  
   Ex: https://akabot.com/
-* **Method (Dropdown List)**– The request method to be used when calling the API. The following HTTP verbs are supported: **GET, POST, PUT, DELETE, HEAD, OPTIONS, PATCH** and **MERGE**.  
+* **Method (Dropdown List)** – The request method to be used when calling the API. The following HTTP verbs are supported: **GET, POST, PUT, DELETE, HEAD, OPTIONS, PATCH** and **MERGE**.  
   By default, the **GET** method is selected.
 
 **Misc**
@@ -45,7 +45,7 @@ This HTTP Client activity enables you to perform HTTP requests to a specified we
 
 * **Consumer Key (String)** - The consumer key to be used if the API you are making requests to is based on the OAuth1 authentication protocol.
 * **Consumer Secret (String)** - The consumer secret to be used if the API you are making requests to is based on the OAuth1 authentication protocol.
-* **OAuth1 Token (String)**- The access token to be used if the API you are making requests to is based on the OAuth1 authentication protocol, after an authorization request for the consumer has been approved.
+* **OAuth1 Token (String)**m - The access token to be used if the API you are making requests to is based on the OAuth1 authentication protocol, after an authorization request for the consumer has been approved.
 * **OAuth1Token Secret (String)**- The secret to be used if the API you are making requests to is based on the OAuth1 authentication protocol, after an authorization request for the consumer has been approved.
 
 **OAuth2**

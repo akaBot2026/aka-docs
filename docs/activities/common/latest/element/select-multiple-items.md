@@ -2,7 +2,7 @@
 id: select-multiple-items
 title: "Select Multiple Items"
 sidebar_label: "Select Multiple Items"
-sidebar_position: 8
+sidebar_position: 10
 description: "Select Multiple Items activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

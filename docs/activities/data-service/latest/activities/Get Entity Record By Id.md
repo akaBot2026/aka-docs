@@ -1,4 +1,4 @@
----
+﻿---
 id: Get Entity Record By Id
 title: "Get Entity Record By Id"
 sidebar_label: "Get Entity Record By Id"
@@ -16,7 +16,7 @@ This activity allow to retrieve an existing record for the selected Entity from 
 
 ## **In the body of activity**
 
-* **Entity:**Select the entity you want to use with the activity. The property only supports entities imported from Data Service
+* **Entity:** Select the entity you want to use with the activity. The property only supports entities imported from Data Service
 * **Record Id**: Once you select an entity, the wizard asks you to provide the ID of the record you want to retrieve from the entity
 
 ## **Properties**

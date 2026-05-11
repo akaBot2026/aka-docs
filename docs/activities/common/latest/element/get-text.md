@@ -2,7 +2,7 @@
 id: get-text
 title: "Get Text"
 sidebar_label: "Get Text"
-sidebar_position: 5
+sidebar_position: 7
 description: "Get Text activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

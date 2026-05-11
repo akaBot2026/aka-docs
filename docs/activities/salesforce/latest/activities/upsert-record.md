@@ -1,4 +1,4 @@
----
+﻿---
 id: upsert-record
 title: "Upsert Record"
 sidebar_label: "Upsert Record"
@@ -20,7 +20,7 @@ You may use this activity to upsert an existed record in Salesforce. This activi
 
 **Advanced**
 
-* **Additional Fields** – Additional set of fields to be set in Salesforce Objects, stored in a DataRow variable. If a field is configured in Salesforce Objects Configuration Wizard, that value will override the value specified in this field. **Note**: The column name must be valid in the Salesforce object you want to insert.
+* **Additional Fields** – Additional set of fields to be set in Salesforce Objects, stored in a DataRow variable. If a field is configured in Salesforce Objects Configuration Wizard, that value will override the value specified in this field. ** Note**: The column name must be valid in the Salesforce object you want to insert.
 
 **Misc**
 
@@ -35,4 +35,4 @@ You may use this activity to upsert an existed record in Salesforce. This activi
   + UPDATED: Returned in case of successful updating action
   + MULTIPLE: Returned in case that multiple records are found matching with the external ID field.
   + Empty: Returned in case that an error is thrown.
-* **Salesforce Status**– The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.
+* **Salesforce Status** – The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.

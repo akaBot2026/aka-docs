@@ -1,4 +1,4 @@
----
+﻿---
 id: open-browser
 title: "Open Browser"
 sidebar_label: "Open Browser"
@@ -69,13 +69,13 @@ Eg: [34235252] Open Browser
   + In case you need to pass input data (Direction = In) => Click "Create argument" => Fill in "Value" column: E.g: Value = https://akabot.com/
 * **Default Download Folder (String)**- Default folder to save file  
   E.g: “D:\Users\"
-* **Edge le Mode (Checkbox):**If the checkbox is selected, the browser will run in Internet Explorer (IE) mode, allowing compatibility with legacy websites that require IE rendering. Default value is unchecked.
+* **Edge le Mode (Checkbox):** If the checkbox is selected, the browser will run in Internet Explorer (IE) mode, allowing compatibility with legacy websites that require IE rendering. Default value is unchecked.
 * **Ensure Clean Session(Checkbox)** - Specifies whether the session would be cleaned before opening browser. Default value is unchecked.
 * **Hide Command Prompt Window (Checkbox)** - Hide Command Prompt window of the Web Driver. Default value is checked.
 * **Maximize (Checkbox)**- Maximizes the size of the browser. Default value is unchecked.
 * **Show Download Prompt (Checkbox)** - Show Command Prompt window of the Web Driver. Default value is checked.
 * **Use InitialBrowserUrl (Checkbox)** - It is used to start the browser with a specific url. Default value is unchecked.
-* **User Profile Preferences -**Allows users to configure the browser profile using arguments (Name, Direction, Type, Value). Click "create argument" => fill in 2 columns including "Name" and "Value". E.g: "Name" = "profile.name", "value" = "profile1"
+* **User Profile Preferences -** Allows users to configure the browser profile using arguments (Name, Direction, Type, Value). Click "create argument" => fill in 2 columns including "Name" and "Value". E.g: "Name" = "profile.name", "value" = "profile1"
 
 **Output**
 

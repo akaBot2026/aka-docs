@@ -1,4 +1,4 @@
----
+﻿---
 id: gsuite-application-scope
 title: "GSuite Application Scope"
 sidebar_label: "GSuite Application Scope"
@@ -26,7 +26,7 @@ This activity allows you to handle the connection client and authentication for 
 
 **Input**
 
-* **Authentication Type (Dropdown List)** - A drop-down list that specifies the type of authentication you want to use to access GSuite services. The available property values are: **ApiKey, OAuthClientID**, and **ServiceAccountKey**. Depending on the authentication type selection, additional property fields may be required.
+* **Authentication Type (Dropdown List)** - A drop-down list that specifies the type of authentication you want to use to access GSuite services. The available property values are: ** ApiKey, OAuthClientID**, and ** ServiceAccountKey**. Depending on the authentication type selection, additional property fields may be required.
 * **Services (GoogleServices)** - Available services including: Gmail and Drive. Choose a proper one to fit with activity purpose.
 
 **OAuth Client ID (\*only if AuthenticationType value is OAuthClientID)**

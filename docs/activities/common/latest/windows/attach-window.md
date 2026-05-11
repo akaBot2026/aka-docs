@@ -20,7 +20,7 @@ The Attach Window activity allows you to attach to an already opened window and 
 
 ## **In the body of activity**
 
-* **Indicate window on screen**- Allows you to automatically attach an application by selecting its window.
+* **Indicate window on screen** - Allows you to automatically attach an application by selecting its window.
 * **Do** - The activities you want to execute within the application.
 
 ## **Properties**

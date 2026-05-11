@@ -1,4 +1,4 @@
----
+﻿---
 id: open-window
 title: "Open Window"
 sidebar_label: "Open Window"
@@ -75,5 +75,5 @@ The **Open Window** activity allows you to open an application and execute multi
 ### Output
 
 - **Application Window (WindowApp)\*** – Output variable of type `WindowApp`.  
-  This variable can be used in other activities such as **Attach Window** or **Use Window**.  
+  This variable can be used in other activities such as **Attach Window** or ** Use Window**.  
   ⚠️ Do not include whitespace in the output variable name.

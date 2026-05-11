@@ -1,4 +1,4 @@
----
+﻿---
 id: wait-web-title
 title: "Wait Web Title"
 sidebar_label: "Wait Web Title"
@@ -22,7 +22,7 @@ The Wait Web Title verifies if the web title has the requirement format accordin
 
 * **Comparison Operator (Dropdown List)** - Allow mathematical calculation as well as basic operations to be performed with ease  
   **EQUALS** – The page title is exactly the same as the predefined value.  
-  **CONTAINS**– The page title contains the predefined value.  
+  **CONTAINS** – The page title contains the predefined value.  
   **MATCHES** – The page title has the same regular expression as the predefined value
 * **Value (String)**\* - The predefined value to verify the web title.
 
@@ -42,7 +42,7 @@ The Wait Web Title verifies if the web title has the requirement format accordin
 
 * **Comparison Operator (Dropdown List)** - Allow mathematical calculation as well as basic operations to be performed with ease  
   **EQUALS** – The page title is exactly the same as the predefined value.  
-  **CONTAINS**– The page title contains the predefined value.  
+  **CONTAINS** – The page title contains the predefined value.  
   **MATCHES** – The page title has the same regular expression as the predefined value
 * **Value (String)**\* - The predefined value to verify the web title.
 

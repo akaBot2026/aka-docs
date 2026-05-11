@@ -1,4 +1,4 @@
----
+﻿---
 id: take-screenshot
 title: "Take Screenshot"
 sidebar_label: "Take Screenshot"
@@ -53,8 +53,8 @@ The Take Screenshot takes screenshot of a UI Elements within a browser.
   + Positive value → scroll right
   + Negative value → scroll left
   + E.g: 200
-* **Scroll element to view (checkbox):**The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:**Enter a numeric value (pixels) to scroll vertically
+* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
+* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300

@@ -1,4 +1,4 @@
----
+﻿---
 id: update-record
 title: "Update Record"
 sidebar_label: "Update Record"
@@ -31,4 +31,4 @@ You may use this activity to update the details of an existed record in Salesfor
 
 **Output**
 
-* **Salesforce Status**– The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.
+* **Salesforce Status** – The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.

@@ -1,4 +1,4 @@
----
+﻿---
 id: wait-web-title
 title: "Wait Page Title"
 sidebar_label: "Wait Page Title"
@@ -24,7 +24,7 @@ value.
 * **Comparison Operator (Dropdown List)**- allow mathematical calculation as well as basic operations to be performed with ease  
   **・EQUALS** – The page title is exactly the same as the predefined value.  
   **・CONTAINS** – The page title contains the predefined value.  
-  **・MATCHES**– The page title has the same regular expression as the predefined value
+  **・MATCHES** – The page title has the same regular expression as the predefined value
 * **Value (String)**\* - The predefined value to verify the page title.
 
 ## **Properties**
