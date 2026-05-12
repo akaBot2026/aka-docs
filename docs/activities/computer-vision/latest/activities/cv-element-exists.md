@@ -1,4 +1,4 @@
-﻿---
+---
 id: cv-element-exists
 title: "CV Element Exists"
 sidebar_label: "CV Element Exists"

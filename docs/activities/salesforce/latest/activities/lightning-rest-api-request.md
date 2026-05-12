@@ -1,4 +1,4 @@
-﻿---
+---
 id: lightning-rest-api-request
 title: "Lightning REST API Request"
 sidebar_label: "Lightning REST API Request"

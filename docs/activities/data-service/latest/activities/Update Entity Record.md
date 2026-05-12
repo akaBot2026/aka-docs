@@ -1,4 +1,4 @@
-﻿---
+---
 id: Update Entity Record
 title: "Update Entity Record"
 sidebar_label: "Update Entity Record"

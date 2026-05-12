@@ -1,4 +1,4 @@
-﻿---
+---
 id: cv-get-text
 title: "CV Get Text"
 sidebar_label: "CV Get Text"

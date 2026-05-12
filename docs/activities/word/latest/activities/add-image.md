@@ -1,4 +1,4 @@
-﻿---
+---
 id: add-image
 title: "Add Image"
 sidebar_label: "Add Image"

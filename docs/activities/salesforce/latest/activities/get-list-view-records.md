@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-list-view-records
 title: "Get List View Records"
 sidebar_label: "Get List View Records"

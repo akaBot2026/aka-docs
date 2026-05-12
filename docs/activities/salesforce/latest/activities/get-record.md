@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-record
 title: "Get Record"
 sidebar_label: "Get Record"

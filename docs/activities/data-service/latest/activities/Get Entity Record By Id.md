@@ -1,4 +1,4 @@
-﻿---
+---
 id: Get Entity Record By Id
 title: "Get Entity Record By Id"
 sidebar_label: "Get Entity Record By Id"

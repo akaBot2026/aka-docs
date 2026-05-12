@@ -1,4 +1,4 @@
-﻿---
+---
 id: extract-structured-data
 title: "Extract Structured Data"
 sidebar_label: "Extract Structured Data"

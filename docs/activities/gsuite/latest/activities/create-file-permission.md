@@ -1,4 +1,4 @@
-﻿---
+---
 id: create-file-permission
 title: "Create File Permission"
 sidebar_label: "Create File Permission"

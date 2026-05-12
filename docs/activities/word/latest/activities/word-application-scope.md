@@ -1,4 +1,4 @@
-﻿---
+---
 id: word-application-scope
 title: "Word Application Scope"
 sidebar_label: "Word Application Scope"

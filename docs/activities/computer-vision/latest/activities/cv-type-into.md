@@ -1,4 +1,4 @@
-﻿---
+---
 id: cv-type-into
 title: "CV Type Into"
 sidebar_label: "CV Type Into"

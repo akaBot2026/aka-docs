@@ -1,4 +1,4 @@
-﻿---
+---
 id: execute-soql
 title: "Execute SOQL"
 sidebar_label: "Execute SOQL"

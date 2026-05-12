@@ -1,4 +1,4 @@
-﻿---
+---
 id: Data Service Scope
 title: "Data Service Scope"
 sidebar_label: "Data Service Scope"

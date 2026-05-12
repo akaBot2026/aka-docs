@@ -1,4 +1,4 @@
-﻿---
+---
 id: cv-table-extract
 title: "CV Table Extract"
 sidebar_label: "CV Table Extract"

@@ -1,4 +1,4 @@
-﻿---
+---
 id: upload-file
 title: "Upload File"
 sidebar_label: "Upload File"

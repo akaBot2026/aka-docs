@@ -1,4 +1,4 @@
-﻿---
+---
 id: insert-record
 title: "Insert Record"
 sidebar_label: "Insert Record"

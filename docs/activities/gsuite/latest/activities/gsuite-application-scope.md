@@ -1,4 +1,4 @@
-﻿---
+---
 id: gsuite-application-scope
 title: "GSuite Application Scope"
 sidebar_label: "GSuite Application Scope"

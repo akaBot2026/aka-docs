@@ -1,4 +1,4 @@
-﻿---
+---
 id: cv-click
 title: "CV Click"
 sidebar_label: "CV Click"

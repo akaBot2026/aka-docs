@@ -1,4 +1,4 @@
-﻿---
+---
 id: cv-hover
 title: "CV Hover"
 sidebar_label: "CV Hover"

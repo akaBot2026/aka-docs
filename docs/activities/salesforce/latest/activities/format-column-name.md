@@ -1,4 +1,4 @@
-﻿---
+---
 id: format-column-name
 title: "Format Column Names"
 sidebar_label: "Format Column Names"

@@ -1,4 +1,4 @@
-﻿---
+---
 id: salesforce-application-scope
 title: "Salesforce Application Scope"
 sidebar_label: "Salesforce Application Scope"

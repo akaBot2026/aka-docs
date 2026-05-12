@@ -1,4 +1,4 @@
-﻿---
+---
 id: download-file
 title: "Download File"
 sidebar_label: "Download File"

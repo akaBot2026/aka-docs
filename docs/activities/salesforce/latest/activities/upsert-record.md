@@ -1,4 +1,4 @@
-﻿---
+---
 id: upsert-record
 title: "Upsert Record"
 sidebar_label: "Upsert Record"

@@ -1,4 +1,4 @@
-﻿---
+---
 id: do-action
 title: "Do Actions"
 sidebar_label: "Do Actions"

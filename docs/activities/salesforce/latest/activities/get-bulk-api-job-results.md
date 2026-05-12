@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-bulk-api-job-results
 title: "Get Bulk API Job Results"
 sidebar_label: "Get Bulk API Job Results"

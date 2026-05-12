@@ -1,4 +1,4 @@
-﻿---
+---
 id: read-status-bar
 title: "Read Status Bar"
 sidebar_label: "Read Status Bar"

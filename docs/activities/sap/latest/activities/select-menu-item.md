@@ -1,4 +1,4 @@
-﻿---
+---
 id: select-menu-item
 title: "Select Menu Item"
 sidebar_label: "Select Menu Item"

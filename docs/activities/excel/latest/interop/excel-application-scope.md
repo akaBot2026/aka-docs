@@ -1,4 +1,4 @@
-﻿---
+---
 id: excel-application-scope
 title: "Excel Application Scope"
 sidebar_label: "Excel Application Scope"

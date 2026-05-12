@@ -1,4 +1,4 @@
-﻿---
+---
 id: element-exist
 title: "Element Exist"
 sidebar_label: "Element Exist"

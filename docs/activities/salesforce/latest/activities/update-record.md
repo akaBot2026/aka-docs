@@ -1,4 +1,4 @@
-﻿---
+---
 id: update-record
 title: "Update Record"
 sidebar_label: "Update Record"

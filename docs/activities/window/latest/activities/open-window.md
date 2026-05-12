@@ -1,4 +1,4 @@
-﻿---
+---
 id: open-window
 title: "Open Window"
 sidebar_label: "Open Window"

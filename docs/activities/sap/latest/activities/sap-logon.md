@@ -1,4 +1,4 @@
-﻿---
+---
 id: sap-logon
 title: "SAP Logon"
 sidebar_label: "SAP Logon"

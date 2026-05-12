@@ -1,4 +1,4 @@
-﻿---
+---
 id: open-browser
 title: "Open Browser"
 sidebar_label: "Open Browser"

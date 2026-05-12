@@ -1,4 +1,4 @@
-﻿---
+---
 id: click-toolbar-button
 title: "Click Toolbar button"
 sidebar_label: "Click Toolbar button"

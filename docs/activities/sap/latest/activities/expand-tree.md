@@ -1,4 +1,4 @@
-﻿---
+---
 id: expand-tree
 title: "Expand Tree"
 sidebar_label: "Expand Tree"

@@ -1,4 +1,4 @@
-﻿---
+---
 id: take-screenshot
 title: "Take Screenshot"
 sidebar_label: "Take Screenshot"

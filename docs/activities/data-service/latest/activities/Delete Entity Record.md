@@ -1,4 +1,4 @@
-﻿---
+---
 id: Delete Entity Record
 title: "Delete Entity Record"
 sidebar_label: "Delete Entity Record"

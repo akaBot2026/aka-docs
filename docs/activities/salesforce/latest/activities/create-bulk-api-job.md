@@ -1,4 +1,4 @@
-﻿---
+---
 id: create-bulk-api-job
 title: "Create Bulk API Job"
 sidebar_label: "Create Bulk API Job"

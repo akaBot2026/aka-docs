@@ -1,4 +1,4 @@
-﻿---
+---
 id: cv-highlight
 title: "CV Highlight"
 sidebar_label: "CV Highlight"

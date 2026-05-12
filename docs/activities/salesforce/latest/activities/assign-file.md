@@ -1,4 +1,4 @@
-﻿---
+---
 id: assign-file
 title: "Assign File"
 sidebar_label: "Assign File"

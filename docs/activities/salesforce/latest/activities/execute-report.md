@@ -1,4 +1,4 @@
-﻿---
+---
 id: execute-report
 title: "Execute Report"
 sidebar_label: "Execute Report"

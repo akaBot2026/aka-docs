@@ -1,4 +1,4 @@
-﻿---
+---
 id: delete-record
 title: "Delete Record"
 sidebar_label: "Delete Record"

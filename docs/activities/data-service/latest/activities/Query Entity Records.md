@@ -1,4 +1,4 @@
-﻿---
+---
 id: Query Entity Records
 title: "Query Entity Records"
 sidebar_label: "Query Entity Records"

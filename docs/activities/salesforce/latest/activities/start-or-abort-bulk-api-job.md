@@ -1,4 +1,4 @@
-﻿---
+---
 id: start-or-abort-bulk-api-job
 title: "Start or Abort Bulk API Job"
 sidebar_label: "Start or Abort Bulk API Job"

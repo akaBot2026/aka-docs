@@ -1,4 +1,4 @@
-﻿---
+---
 id: with-ftp-session
 title: "With FTP Session"
 sidebar_label: "With FTP Session"

@@ -1,4 +1,4 @@
-﻿---
+---
 id: composite-request
 title: "Composite Request"
 sidebar_label: "Composite Request"

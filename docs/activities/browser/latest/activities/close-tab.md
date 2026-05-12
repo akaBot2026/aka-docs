@@ -1,4 +1,4 @@
-﻿---
+---
 id: close-tab
 title: "Close tab"
 sidebar_label: "Close tab"

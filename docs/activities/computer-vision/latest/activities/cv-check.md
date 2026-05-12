@@ -1,4 +1,4 @@
-﻿---
+---
 id: cv-check
 title: "CV Check"
 sidebar_label: "CV Check"

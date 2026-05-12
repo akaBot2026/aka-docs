@@ -1,4 +1,4 @@
-﻿---
+---
 id: wait-element-vanish
 title: "Wait Element Vanishes"
 sidebar_label: "Wait Element Vanishes"

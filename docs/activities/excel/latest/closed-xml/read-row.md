@@ -1,4 +1,4 @@
-﻿---
+---
 id: read-row
 title: "Read Row"
 sidebar_label: "Read Row"

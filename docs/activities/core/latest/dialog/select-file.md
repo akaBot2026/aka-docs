@@ -1,4 +1,4 @@
-﻿---
+---
 id: select-file
 title: "Select File"
 sidebar_label: "Select File"

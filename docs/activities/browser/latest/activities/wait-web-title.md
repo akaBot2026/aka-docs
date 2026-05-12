@@ -1,4 +1,4 @@
-﻿---
+---
 id: wait-web-title
 title: "Wait Page Title"
 sidebar_label: "Wait Page Title"
