@@ -77,8 +77,8 @@ Here are the explanation for files in this folder:
 | yyyy-mm-dd\_BotAgent.log | This file contains application log of akaBot Agent UI |
 | yyyy-mm-dd\_BotExecutor.log | This file contains application log of akaBot Agent executor |
 | yyyy-mm-dd\_Studio.log | This file contains application log of akaBot Studio |
-| yyyy-mm-dd\_hhmmss\_Agent\_<projectName>.log | This file contains workflow logs that was run by akaBot Agent |
-| yyyy-mm-dd\_hhmmss\_Studio\_<projectName>.log | This file contains workflow logs that was run by akaBot Studio |
+| yyyy-mm-dd\_hhmmss\_Agent\_`<projectName>`.log | This file contains workflow logs that was run by akaBot Agent |
+| yyyy-mm-dd\_hhmmss\_Studio\_`<projectName>`.log | This file contains workflow logs that was run by akaBot Studio |
 
 **Machine logs**
 

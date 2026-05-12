@@ -35,7 +35,7 @@ displayed_sidebar: agentSidebar
 
 **Step 3** – Fill license information then hit button “Next”
 
-1 -**License Server**: <https://aegis.akabot.com/>
+1 -**License Server**: [https://aegis.akabot.com/](https://aegis.akabot.com/)
 
 2 -**License Key**: Please enter the license key provided in the Licensing Email.
 
@@ -77,7 +77,7 @@ If below error message appears, please check your network connection.
 
 **On the device B:**
 
-**Step 6** - Go to <https://aegis.akabot.io/#/activation>.  
+**Step 6** - Go to [https://aegis.akabot.io/#/activation](https://aegis.akabot.io/#/activation).
 **Paste**the **Activation Request** you have copied from AkaBot Agent computer (device A), select Captcha then **Download File** to download Activation Response file (named activate.txt).
 
 ![image-20230718223155-11.png](/img/ab2866_image-20230718223155-11.png)

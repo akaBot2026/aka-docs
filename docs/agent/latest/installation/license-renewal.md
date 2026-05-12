@@ -84,7 +84,7 @@ On the next page, hit button “Next”
 
 **On Device B:**
 
-**Step 4 –** Go to the akaBot License Management System at <https://aegis.akabot.io/#/deactivation>.
+**Step 4 –** Go to the akaBot License Management System at [https://aegis.akabot.io/#/deactivation](https://aegis.akabot.io/#/deactivation).
 
 1 – Paste the deactivation request in Deactivation file into the text box.
 
