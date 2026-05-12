@@ -1,4 +1,4 @@
-﻿---
+---
 id: Create Entity Record
 title: "Create Entity Record"
 sidebar_label: "Create Entity Record"
