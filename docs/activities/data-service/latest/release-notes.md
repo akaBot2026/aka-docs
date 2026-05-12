@@ -1,4 +1,12 @@
-# [1] Release Notes - akaBot Docs
+---
+id: release-notes
+title: "Release Notes"
+sidebar_label: "Release Notes"
+sidebar_position: 2
+description: "Release Notes activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Release Notes
 
 ## **Data Service 1.0.0**
 

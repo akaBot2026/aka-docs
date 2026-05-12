@@ -1,4 +1,12 @@
-# [05]Move Outlook Message - akaBot Docs
+---
+id: move-outlook-message
+title: "Move Outlook Message"
+sidebar_label: "Move Outlook Message"
+sidebar_position: 5
+description: "Move Outlook Message activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Move Outlook Message
 
 RCA.Activities.Mail.MoveOutlookMessage
 
@@ -24,8 +32,3 @@ This activity allows you to move Outlook messages to a specified folder.
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   **E.g**: Move Outlook Message
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

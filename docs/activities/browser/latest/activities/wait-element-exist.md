@@ -1,4 +1,12 @@
-# [25]Wait Element Exist - akaBot Docs
+﻿---
+id: wait-element-exist
+title: "Wait Element Exist"
+sidebar_label: "Wait Element Exist"
+sidebar_position: 25
+description: "Wait Element Exist activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Wait Element Exist
 
 RCA.Activities.Browser.WaitElementExist
 
@@ -45,14 +53,8 @@ The Wait Element Exist activity waits for a selected element to appear in a webp
   + Positive value → scroll right
   + Negative value → scroll left
   + E.g: 200
-* **Scroll element to view (checkbox):**The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:**Enter a numeric value (pixels) to scroll vertically
+* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
+* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

@@ -1,4 +1,12 @@
-# Type Into (NB) - akaBot Docs
+---
+id: type-into
+title: "Type Into (NB)"
+sidebar_label: "Type Into (NB)"
+sidebar_position: 23
+description: "Type Into (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Type Into (NB)
 
 RCA.Activities.NativeBrowser.TypeInto
 

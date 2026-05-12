@@ -1,8 +1,9 @@
 ---
 id: the-user-interface
-title: The User Interface
-sidebar_label: The User Interface
+title: "The User Interface"
+sidebar_label: "The User Interface"
 sidebar_position: 2
+description: "The User Interface documentation."
 displayed_sidebar: centerSidebar
 ---
 
@@ -14,11 +15,15 @@ The main content area adapts its layout depending on the active module. List vie
 
 ## UI Layout Overview
 
-| Area | Description |
-|---|---|
-| Left Sidebar | Main navigation menu with collapsible sections for each functional area |
-| Top Header | User profile, notifications, global search, and help links |
-| Breadcrumb Trail | Shows current location within the application hierarchy |
-| Main Content Area | Module-specific list views, detail forms, and dashboards |
-| Action Buttons | Context-sensitive buttons (Create, Edit, Delete, Run) near the top of each view |
-| Status Indicators | Color-coded badges showing Running, Idle, Failed, or Completed states |
+| No | Panel | Description |
+| --- | --- | --- |
+| 1 | **Feature menu** | Show all the main functionality of akaBot Center |
+| 2 | **Quick Navigation** | Easily navigate to page, package, agent, agent group, workflow, asset, queue, schedule,… |
+| 3 | **Main screen** | Display the details of each functionality |
+| 4 | **Quick create** | Quickly create a Task/ Schedule/Workflow/Trigger/Agent |
+| 5 | **Organization Unit Selection Menu** | Change the active Organization Unit |
+| 6 | **Language** | Change the display language of Akabot Center. Support English, Korean, Japanese, Vietnamese and Taiwanese. |
+| 7 | **User Menu** | Access the following options and pages: ***Settings**: On this page, you can change the user details such as First Name, Last Name, Email and the display language.* **Password**: On this page, you can change the password that used to log in to Center. \* **Sign out**: Click here to sign out. |
+| 8 | **Version** | Show the version of akaBot Center |
+
+![image-20221026094656-1.png](/img/8a09e5_image-20221026094656-1.png)

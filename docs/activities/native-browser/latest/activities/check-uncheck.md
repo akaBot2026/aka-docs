@@ -1,4 +1,12 @@
-# Check/Uncheck (NB) - akaBot Docs
+---
+id: check-uncheck
+title: "Check/Uncheck (NB)"
+sidebar_label: "Check/Uncheck (NB)"
+sidebar_position: 2
+description: "Check/Uncheck (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Check/Uncheck (NB)
 
 RCA.Activities.NativeBrowser.Check
 
@@ -45,9 +53,3 @@ The Check/Uncheck activity allows you to check or uncheck a Checkbox.
 * **Action (Dropdown List)** - Selects the action to perform  
   Check – Check to select a check box or radio button.  
   Uncheck – Uncheck to clear a check box.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

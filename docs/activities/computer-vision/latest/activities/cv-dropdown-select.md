@@ -1,4 +1,12 @@
-# CV Dropdown Select - akaBot Docs
+﻿---
+id: cv-dropdown-select
+title: "CV Dropdown Select"
+sidebar_label: "CV Dropdown Select"
+sidebar_position: 3
+description: "CV Dropdown Select activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# CV Dropdown Select
 
 RCA.Activities.ComputerVision.CVDropdownSelect
 
@@ -30,7 +38,7 @@ Selects a specified item from a drop-down list.
 **Input**
 
 * **CVDropdownSelect\_Text (String)**\*- The text to be written in the drop-down.
-* **Descriptor (String)**- The on-screen coordinates of the **Target**and each **Anchor**that is used, if any. These values are stored in a *CvDescriptor*proprietary object. Once the **Indicate On Screen** feature is used at runtime, the *CvDescriptor*is automatically generated in this field.
+* **Descriptor (String)**- The on-screen coordinates of the ** Target**and each ** Anchor**that is used, if any. These values are stored in a *CvDescriptor*proprietary object. Once the **Indicate On Screen** feature is used at runtime, the *CvDescriptor*is automatically generated in this field.
 * **Offset Point (String)**- The offset point for click-related activities.
 
 **Misc**
@@ -43,9 +51,3 @@ Selects a specified item from a drop-down list.
 
 * **InputRegion (Rectangle)** - Receives the target of another CV activity stored in a Rectangle variable, using it as a target for this activity. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier. If a variable is set to this field, the current target and anchor elements of the activity are disabled.
 * **OutputRegion (Rectangle)** - Saves the target of this activity as a Rectangle variable. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

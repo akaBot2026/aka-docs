@@ -1,92 +1,119 @@
 ---
 id: configure-vault
-title: Configure akaBot Center to use Vault
-sidebar_label: Configure akaBot Center to use Vault
-sidebar_position: 12
+title: "Configure akaBot Center to use Vault"
+sidebar_label: "Configure to use Vault"
+sidebar_position: 16
+description: "Configure akaBot Center to use Vault documentation."
 displayed_sidebar: centerSidebar
 ---
-
 # Configure akaBot Center to use Vault
 
-HashiCorp Vault integration allows akaBot Center to securely store and retrieve sensitive credentials such as database passwords, API keys, and robot credentials. This eliminates the need to store plain-text secrets in configuration files and provides centralized secret management with access auditing.
+# **1. Prerequisites**
 
-## Prerequisites
+* Windows OS.
 
-- akaBot Center 4.x installed and running
-- HashiCorp Vault 1.12 or later installed and initialized
-- Vault is unsealed and accessible from the akaBot Center server
-- A Vault token or AppRole credentials with read access to the required secret paths
-- Administrator access to both the akaBot Center server and the Vault instance
-- Network connectivity from the akaBot Center server to the Vault API (typically port 8200)
+* akaBot Center v2.2.x.x or newer version.
 
-## Configuration Steps
+* HashiCorp Vault software at link https://releases.hashicorp.com/vault
 
-1. **Create Secrets in Vault**
-   - Log in to Vault and enable the KV secrets engine:
-     ```bash
-     vault secrets enable -path=akabot kv-v2
-     ```
-   - Store the required secrets:
-     ```bash
-     vault kv put akabot/database username=akabot_user password=<db_password>
-     vault kv put akabot/activemq username=amq_user password=<amq_password>
-     ```
+# **2. Install akaBot Center**
 
-2. **Create a Vault Policy for akaBot**
-   - Create a policy file `akabot-policy.hcl`:
-     ```hcl
-     path "akabot/*" {
-       capabilities = ["read", "list"]
-     }
-     ```
-   - Apply the policy: `vault policy write akabot-policy akabot-policy.hcl`
+Follow the guideline in this link to install akaBot Center**[Instruction](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Installation/Basic%20installation%20guide%20for%20Akabot%20Center%20and%20MySQL/)**
 
-3. **Create an AppRole for akaBot Center**
-   - Enable AppRole auth: `vault auth enable approle`
-   - Create the role:
-     ```bash
-     vault write auth/approle/role/akabot-center policies="akabot-policy" ttl=1h
-     ```
-   - Retrieve the Role ID and Secret ID:
-     ```bash
-     vault read auth/approle/role/akabot-center/role-id
-     vault write -f auth/approle/role/akabot-center/secret-id
-     ```
+# **3. Install and Configure Vault**
 
-4. **Configure akaBot Center to Use Vault**
-   - Edit `conf/application.yml` (or `bootstrap.yml` if using Spring Cloud Config):
-     ```yaml
-     spring:
-       cloud:
-         vault:
-           host: <vault-server>
-           port: 8200
-           scheme: https
-           authentication: APPROLE
-           app-role:
-             role-id: <role_id>
-             secret-id: <secret_id>
-           kv:
-             enabled: true
-             backend: akabot
-     ```
+**3.1. Install HashiCorp Vault**
 
-5. **Update Configuration References**
-   - Replace plain-text credentials in `application.yml` with Vault property references:
-     ```yaml
-     spring:
-       datasource:
-         username: ${akabot.database.username}
-         password: ${akabot.database.password}
-     ```
+**Step 1:** Download Vault 1.8.8 from **[https://releases.hashicorp.com/vault/1.8.8/](https://releases.hashicorp.com/vault/1.8.8/)**
 
-6. **Restart akaBot Center**
-   - Restart the service and check the logs to confirm Vault secrets are being resolved successfully.
+**Step 2:** Extract the package to **C:\vault\**
 
-## Notes and Warnings
+**Step 3:**Add Vault to PATH environment variable
 
-> **Note:** Ensure the Vault instance is highly available in production. If Vault becomes unreachable, akaBot Center will be unable to retrieve secrets and may fail to start or reconnect to the database.
+setx PATH "%PATH%;C:\vault"
 
-> **Warning:** Protect the AppRole Secret ID as carefully as any other credential. Rotate the Secret ID regularly and use Vault's response wrapping feature to securely deliver it to the akaBot Center server.
+**Step 4:** Verify installation using command:
 
-> **Note:** If using Vault with TLS, import the Vault server's CA certificate into the Java truststore on the akaBot Center server to prevent SSL handshake failures.
+vault  version
+
+**Step 5:** Create configuration file **C:\vault\config.hcl** with content below:
+
+```hcl
+storage "file" { path = "C:/vault/data" }
+listener "tcp" { address = "127.0.0.1:8200" tls_disable = 1 }
+ui = true
+```
+
+**Step 6:** Start Vault server:
+
+vault server -config=C:\vault\config.hcl
+
+**Step 7:** Initialize Vault:
+
+set VAULT\_ADDR=http://127.0.0.1:8200   
+vault operator init
+
+**Step 8:** Unseal Vault using unseal keys:
+
+vault operator unseal (run 3 times with different keys)
+
+**Step 9:** Login using root token:
+
+vault login
+
+**3.2. Configure Vault and add some credentials.**
+
+**Step 1:** Enable KV secret engine:
+
+vault secrets enable -path=secret kv-v2
+
+![1774320665510-975.png](/img/737397_1774320665510-975.png)
+
+**Step 2:** Add sample credential:
+
+vault kv put secret/app/dev/db Username=dbuser Password=dbpass123
+
+![1774320731488-504.png](/img/08d11b_1774320731488-504.png)
+
+**Step 3:** Verify credential:
+
+vault kv get secret/app/dev/db
+
+**Step 4:** Enable AppRole authentication:
+
+vault auth enable approle
+
+**Step 5:** Create role:
+
+vault write auth/approle/role/akabot token\_policies="default" token\_ttl=1h token\_max\_ttl=4h
+
+**Step 6:**Get Role ID and Secret ID:
+
+vault read auth/approle/role/akabot/role-id   
+vault write -f auth/approle/role/akabot/secret-id
+
+# **4. Configure akaBot Center to use Vault**
+
+* Open and update **application.yml (**Path: C:\Program files\Apache Software Foundation\Tomcat 8.5\webapps\ROOT\WEB-INF\classes\config\application.yml) with Vault configuration:
+
+vault:   
+  enabled: true   
+  url: http://127.0.0.1:8200   
+  app-role:   
+    role-id: \<role-id\>   
+    secret-id: \<secret-id\>   
+  credential:   
+    user-mapping: Username   
+    pass-mapping: Password   
+  root-path-asset: secret/data/app/dev
+
+![1774322286585-674.png](/img/421075_1774322286585-674.png)
+
+* Access akaBot (local host) and navigate to Agent tab
+* Click "Create new" and choose path then click "Save"
+
+![1774323194905-839.png](/img/34a242_1774323194905-839.png)
+
+![1774323309236-613.png](/img/6dc0f7_1774323309236-613.png)
+
+![1774323324582-290.png](/img/84b288_1774323324582-290.png)

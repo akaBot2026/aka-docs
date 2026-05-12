@@ -1,4 +1,12 @@
-# CV Table Extract - akaBot Docs
+﻿---
+id: cv-table-extract
+title: "CV Table Extract"
+sidebar_label: "CV Table Extract"
+sidebar_position: 9
+description: "CV Table Extract activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# CV Table Extract
 
 RCA.Activities.ComputerVision.CVTableExtract
 
@@ -28,7 +36,7 @@ Extracts a table that is visible on the screen and stores it into a DataTable va
 
 **Input**
 
-* **Descriptor (String)** - The on-screen coordinates of the **Target**and each **Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the **Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
+* **Descriptor (String)** - The on-screen coordinates of the ** Target**and each ** Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the ** Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
 
 **Misc**
 
@@ -43,9 +51,3 @@ Extracts a table that is visible on the screen and stores it into a DataTable va
 **Reusable Region**
 
 * **OutputRegion (Rectangle)**- Saves the target of this activity as a Rectangle variable. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

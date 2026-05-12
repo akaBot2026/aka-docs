@@ -1,4 +1,12 @@
-# Type Into - akaBot Docs
+---
+id: type-into
+title: "Type Into"
+sidebar_label: "Type Into"
+sidebar_position: 21
+description: "Type Into activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Type Into
 
 RCA.Activities.IE.TypeInto
 
@@ -54,8 +62,3 @@ The Type Into activity allows you to type text into fields of an IE browser.
 * **Scroll IntoView (Checkbox)**- If selected, the screen will automatically scroll to the desired element on the screen.
 * **Scroll Width (Int32)**- Scroll before getting the element. To input a number equals to the amount of pixels to scroll horizontally. A negative value is to scroll to the leftwards, a positive value is to scroll rightwards.  
   Ex: 20
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

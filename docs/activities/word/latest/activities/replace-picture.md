@@ -1,4 +1,12 @@
-# Replace Picture - akaBot Docs
+---
+id: replace-picture
+title: "Replace Picture"
+sidebar_label: "Replace Picture"
+sidebar_position: 6
+description: "Replace Picture activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Replace Picture
 
 RCA.Activities.Word.ReplacePicture
 

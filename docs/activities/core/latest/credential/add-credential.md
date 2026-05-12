@@ -1,4 +1,12 @@
-# [01]Add Credential - akaBot Docs
+---
+id: add-credential
+title: "Add Credential"
+sidebar_label: "Add Credential"
+sidebar_position: 1
+description: "Add Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Add Credential
 
 RCA.Activities.Core.AddCredential
 
@@ -37,8 +45,3 @@ The activity allows you to stores a specified credential in the Windows Credenti
 **Output**
 
 * **Result (Boolean)** - A Boolean variable that indicates whether the given credentials were successfully stored in the Windows Credential Manager.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

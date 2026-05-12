@@ -1,4 +1,12 @@
-# Append Text - akaBot Docs
+---
+id: append-text
+title: "Append Text"
+sidebar_label: "Append Text"
+sidebar_position: 2
+description: "Append Text activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Append Text
 
 RCA.Activities.Word.AppendText
 
@@ -31,8 +39,3 @@ This activity allows writing text at the end of a document. This activity is wor
 * **Display Name (String)**- The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: Add new text to the file
 * **Public (Checkbox)** - If you check it, the data of this activity will be shown in the log. Be careful, consider data security before using it.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

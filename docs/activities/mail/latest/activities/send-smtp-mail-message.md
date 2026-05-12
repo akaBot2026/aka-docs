@@ -1,4 +1,12 @@
-# Send SMTP Mail Message - akaBot Docs
+---
+id: send-smtp-mail-message
+title: "Send SMTP Mail Message"
+sidebar_label: "Send SMTP Mail Message"
+sidebar_position: 10
+description: "Send SMTP Mail Message activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Send SMTP Mail Message
 
 RCA.Activities.Mail.SendMail
 
@@ -65,8 +73,3 @@ This activity allows you to send an email messages by using SMTP protocol.
 
 * **From (String)** - The email address of the sender
 * **Name (String)**- The name of the sender
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

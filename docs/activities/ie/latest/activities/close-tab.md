@@ -1,4 +1,12 @@
-# Close Tab - akaBot Docs
+---
+id: close-tab
+title: "Close Tab"
+sidebar_label: "Close Tab"
+sidebar_position: 4
+description: "Close Tab activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Close Tab
 
 RCA.Activities.IE.CloseTab
 
@@ -21,8 +29,3 @@ The Close Tab activity closes the currently displayed tab in an IE browser.
 * **Public (Checkbox)**- Check if you want to publicize it. Remember to consider data security requirements before using it.
 * **Display Name (String)**- The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   Ex: [345345346] Close Tab
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

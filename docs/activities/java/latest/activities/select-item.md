@@ -1,4 +1,12 @@
-# Select Item - akaBot Docs
+---
+id: select-item
+title: "Select Item"
+sidebar_label: "Select Item"
+sidebar_position: 8
+description: "Select Item activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Select Item
 
 RCA.Activities.Java.SelectItem
 
@@ -31,15 +39,10 @@ This Select Item activity allows you to select specific items from a Java file.
           Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)**- The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   Eg: Select Java Item
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

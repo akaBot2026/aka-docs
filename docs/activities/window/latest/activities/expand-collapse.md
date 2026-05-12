@@ -1,4 +1,12 @@
-# [18]Expand/Collapse - akaBot Docs
+---
+id: expand-collapse
+title: "Expand/Collapse"
+sidebar_label: "Expand/Collapse"
+sidebar_position: 18
+description: "Expand/Collapse activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Expand/Collapse
 
 RCA.Activities.Windows.ExpandCollapse
 
@@ -53,9 +61,3 @@ The Expand/Collapse activity allows you to appear or hide all the items of the i
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

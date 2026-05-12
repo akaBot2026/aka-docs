@@ -1,4 +1,12 @@
-# [12]Send Hot Keys - akaBot Docs
+﻿---
+id: send-hot-keys
+title: "Send Hot Keys"
+sidebar_label: "Send Hot Keys"
+sidebar_position: 12
+description: "Send Hot Keys activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Send Hot Keys
 
 RCA.Activities.Browser.SendHotKeys
 
@@ -51,14 +59,8 @@ The Send Hot Keys activity allows you to send a keyboard shortcut to a browser e
   + Positive value → scroll right
   + Negative value → scroll left
   + E.g: 200
-* **Scroll element to view (checkbox):**The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:**Enter a numeric value (pixels) to scroll vertically
+* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
+* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

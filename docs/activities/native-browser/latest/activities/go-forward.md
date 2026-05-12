@@ -1,4 +1,12 @@
-# Go Forward (NB) - akaBot Docs
+---
+id: go-forward
+title: "Go Forward (NB)"
+sidebar_label: "Go Forward (NB)"
+sidebar_position: 11
+description: "Go Forward (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Go Forward (NB)
 
 RCA.Activities.NativeBrowser.GoForward
 
@@ -25,8 +33,3 @@ The Go Forward activity goes forward to one URL in the history list of the curre
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: [2446667] Go Back
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is uncheck.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

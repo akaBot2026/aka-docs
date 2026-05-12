@@ -1,4 +1,12 @@
-# [06]Minimize Window - akaBot Docs
+---
+id: minimize-window
+title: "Minimize Window"
+sidebar_label: "Minimize Window"
+sidebar_position: 6
+description: "Minimize Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Minimize Window
 
 RCA.Activities.Windows.MinimizeWindow
 
@@ -50,9 +58,3 @@ The Minimize Window selects a window and minimizes it.
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)**- Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

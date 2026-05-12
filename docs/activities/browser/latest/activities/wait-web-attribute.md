@@ -1,4 +1,12 @@
-# [29]Wait Web Attribute - akaBot Docs
+﻿---
+id: wait-web-attribute
+title: "Wait Web Attribute"
+sidebar_label: "Wait Web Attribute"
+sidebar_position: 29
+description: "Wait Web Attribute activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Wait Web Attribute
 
 RCA.Activities.Browser.WaitWebAttribute
 
@@ -47,14 +55,8 @@ The Wait Web Attribute waits for the value of a specified web attribute to be en
   + Positive value → scroll right
   + Negative value → scroll left
   + E.g: 200
-* **Scroll element to view (checkbox):**The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:**Enter a numeric value (pixels) to scroll vertically
+* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
+* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

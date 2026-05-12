@@ -1,4 +1,12 @@
-# [31]Wait Page Url - akaBot Docs
+---
+id: wait-web-url
+title: "Wait Page Url"
+sidebar_label: "Wait Page Url"
+sidebar_position: 31
+description: "Wait Page Url activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Wait Page Url
 
 RCA.Activities.Browser.WaitPageUrl
 
@@ -50,9 +58,3 @@ The Wait Page URL verifies if the page URL has the requirement format according 
 * **Result (Boolean)** - A Boolean variable has two possible values: True or False.  
   **・True**- The page URL meet the requirement  
   **・False**- The page URL does not meet the requirement.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

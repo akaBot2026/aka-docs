@@ -7,7 +7,7 @@ description: The introduction of the activity package.
 displayed_sidebar: activitiesSidebar
 ---
 
-# Get Agent Asset - akaBot Docs
+# Get Agent Asset
 
 RCA.Core.Activities.GetAgentAsset
 
@@ -43,8 +43,3 @@ This activity allows you to retrieve a specific akaBot Center asset by using a p
 **Output**
 
 * **Asset Value (OutArgument)**: The retrieved asset stored in a variable.
-
-Table of Contents
-
-* [Description](#description)
-* [Properties](#properties)

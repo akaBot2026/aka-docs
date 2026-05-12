@@ -1,65 +1,67 @@
 ---
 id: upgrade-activemq
-title: Upgrade ActiveMQ Version in akaBot Center
-sidebar_label: Upgrade ActiveMQ Version in akaBot Center
-sidebar_position: 16
+title: "Upgrade ActiveMQ Version in akaBot Center"
+sidebar_label: "Upgrade ActiveMQ Version in akaBot Center"
+sidebar_position: 20
+description: "Upgrade ActiveMQ Version in akaBot Center documentation."
 displayed_sidebar: centerSidebar
 ---
 
 # Upgrade ActiveMQ Version in akaBot Center
 
-Apache ActiveMQ is the message broker bundled with akaBot Center for handling communication between the Center and robot agents. Upgrading ActiveMQ may be required to address security vulnerabilities, obtain bug fixes, or improve performance. This guide describes the safe procedure for upgrading the embedded ActiveMQ version within an existing akaBot Center installation.
+# **1. Download ActiveMQ**
 
-## Prerequisites
+- Go to link: [https://activemq.apache.org/download-archives](https://activemq.apache.org/components/classic/documentation/download-archives)
 
-- akaBot Center 4.x installed and running
-- The target ActiveMQ version package (downloaded from the Apache ActiveMQ website)
-- A maintenance window scheduled — akaBot Center must be stopped during the upgrade
-- A full backup of the `activemq-data` directory (contains persistent message queues)
-- Administrator or root access to the akaBot Center server
-- Confirmation that the target ActiveMQ version is compatible with your akaBot Center version (check the release notes)
+- Click version want to download (ActiveMQ 5.16.5 Release)
 
-## Upgrade Steps
+![1776064389132-176.png](/img/001aef_1776064389132-176.png)
 
-1. **Stop akaBot Center**
-   - Windows: `net stop akabotcenter`
-   - Linux: `systemctl stop akabotcenter`
-   - Verify all processes have stopped before proceeding.
+- Download jar file (apache-activemq-5.16.5-bin.zip)
 
-2. **Back Up the Existing ActiveMQ Data**
-   - Copy the `activemq-data` directory to a safe backup location:
-     - Windows: `C:\akabot\center4\data\activemq-data`
-     - Linux: `/opt/akabot/center/data/activemq-data`
+![1776064420865-217.png](/img/eb5caa_1776064420865-217.png)
 
-3. **Back Up the Existing ActiveMQ Configuration**
-   - Copy `conf\activemq.xml` (and any referenced files) to a backup location.
+# **2. Upgrade ActiveMQ**
 
-4. **Extract the New ActiveMQ Package**
-   - Download the target ActiveMQ release (e.g., 5.18.x).
-   - Extract it to a temporary directory.
+- Go to Services’ windows to get path installed ActiveMQ
 
-5. **Replace ActiveMQ Libraries**
-   - Navigate to the akaBot Center `lib` directory.
-   - Remove or rename the existing `activemq-*.jar` files.
-   - Copy the new `activemq-broker-*.jar`, `activemq-client-*.jar`, and related JARs from the new ActiveMQ distribution into the `lib` directory.
+* Go to Run and type services.msc
+* Find service name ActiveMQ and get path installed ActiveMQ (eg ACTIVEMQ\_PATH\_OLD: D:\Setups\Libs\apache-activemq-5.15.1"
 
-6. **Update the ActiveMQ Configuration (if required)**
-   - Compare the existing `activemq.xml` with the sample configuration from the new ActiveMQ version.
-   - Apply any required syntax or property changes as described in the ActiveMQ upgrade guide.
+![1776064525229-372.png](/img/7a6ff7_1776064525229-372.png)
 
-7. **Start akaBot Center**
-   - Windows: `net start akabotcenter`
-   - Linux: `systemctl start akabotcenter`
+- Uninstall old services ActiveMQ
 
-8. **Verify the Upgrade**
-   - Check the akaBot Center logs for ActiveMQ startup messages.
-   - Confirm the broker version in the logs matches the new version.
-   - Verify that robot agents reconnect successfully and jobs execute normally.
+* Go to ACTIVEMQ\_PATH\_OLD/bin/win64
+* Exec UninstallService.bat file by right click and Run as administrator
 
-## Notes and Warnings
+![1776064571299-447.png](/img/a463dd_1776064571299-447.png)
 
-> **Warning:** Do not upgrade ActiveMQ while robot jobs are running. Always stop all automation activity and take a maintenance window before performing the upgrade.
+- Extract zip new version ActiveMQ (eg. apache-activemq-5.16.5-bin.zip) to path you want to install (eg. ACTIVEMQ\_PATH\_OLD: D:\Setups\Libs\)
 
-> **Note:** ActiveMQ stores persistent messages in the `activemq-data` directory. Backing this up ensures that any messages queued at the time of upgrade are not lost.
+![1776064673129-770.png](/img/105b60_1776064673129-770.png)
 
-> **Warning:** ActiveMQ major version upgrades (e.g., 5.15 to 5.18) may include breaking changes in configuration syntax or network protocol. Review the ActiveMQ release notes and migration guide carefully before upgrading across major versions.
+![1776064698732-705.png](/img/f8b7a3_1776064698732-705.png)
+
+- Copy and replace (override) folder kahadb from old version to new version of ActiveMQ
+
+ACTIVEMQ\_PATH\_OLD/data/kahadb to ACTIVEMQ\_PATH\_NEW/data/kahadb
+
+![1776064775939-834.png](/img/e11bbe_1776064775939-834.png)
+
+- Intall new services ActiveMQ
+
+* Go to ACTIVEMQ\_PATH\_NEW/bin/win64
+* Exec InstallService.bat file by right click and *Run as administrator*
+
+![1776064857397-462.png](/img/2d3ccd_1776064857397-462.png)
+
+- Go to Services’ window to verify ActiveMQ’s version and start service ActiveMQ
+
+![1776064892294-791.png](/img/0a6986_1776064892294-791.png)
+
+- Ensure ActiveMQ’s service is *Running*
+
+![1776065051427-766.png](/img/449ebe_1776065051427-766.png)
+
+- Go to http://localhost:8161/ (account/pass: admin/admin) to verify ActiveMQ

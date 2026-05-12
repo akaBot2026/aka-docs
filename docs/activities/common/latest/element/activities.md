@@ -1,6 +1,0 @@
-# Activities - akaBot Docs
-
-Content
-:   |  |  |
-    | --- | --- |
-    | * [Check](https://docs.akabot.com/bin/view/Activities/Common%20Element/Activities/Check/) * [Click](https://docs.akabot.com/bin/view/Activities/Common%20Element/Activities/Click/) * [Element Exists](https://docs.akabot.com/bin/view/Activities/Common%20Element/Activities/Element%20Exists/) * [Find Element](https://docs.akabot.com/bin/view/Activities/Common%20Element/Activities/Find%20Element/) * [Get Text](https://docs.akabot.com/bin/view/Activities/Common%20Element/Activities/Get%20Text/) * [Hover](https://docs.akabot.com/bin/view/Activities/Common%20Element/Activities/Hover/) | * [Select Item](https://docs.akabot.com/bin/view/Activities/Common%20Element/Activities/Select%20Item/) * [Select Multiple Items](https://docs.akabot.com/bin/view/Activities/Common%20Element/Activities/Select%20Multiple%20Items/) * [Send Hotkey](https://docs.akabot.com/bin/view/Activities/Common%20Element/Activities/Send%20Hotkey/) * [Take Screenshot](https://docs.akabot.com/bin/view/Activities/Common%20Element/Activities/Take%20Screenshot/) * [Type Into](https://docs.akabot.com/bin/view/Activities/Common%20Element/Activities/Type%20Into/) |

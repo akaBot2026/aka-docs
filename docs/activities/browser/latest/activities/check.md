@@ -1,4 +1,12 @@
-# [18]Check/Uncheck - akaBot Docs
+﻿---
+id: check
+title: "Check/Uncheck"
+sidebar_label: "Check/Uncheck"
+sidebar_position: 18
+description: "Check/Uncheck activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Check/Uncheck
 
 RCA.Activities.Browser.Check
 
@@ -50,14 +58,8 @@ The Check/Uncheck activity allows you to check or uncheck a Checkbox.
   + Positive value → scroll right
   + Negative value → scroll left
   + E.g: 200
-* **Scroll element to view (checkbox):**The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:**Enter a numeric value (pixels) to scroll vertically
+* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
+* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

@@ -1,4 +1,12 @@
-# Navigate To - akaBot Docs
+---
+id: navigate-to
+title: "Navigate To"
+sidebar_label: "Navigate To"
+sidebar_position: 14
+description: "Navigate To activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Navigate To
 
 RCA.Activities.IE.NavigateTo
 
@@ -19,15 +27,10 @@ The Navigate To activity allows you to navigate to another URL on the current br
 **Input**
 
 * **Url (String)\***- The URL that you want to navigate to in the browser. The URL must be quoted.  
-  Ex: <https://akabot.com/>
+  Ex: https://akabot.com/
 
 **Misc**
 
 * **Public (Checkbox)**- Check if you want to publicize it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   Ex: [294859345] Navigate To.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

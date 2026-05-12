@@ -1,31 +1,35 @@
 ---
 id: trigger
-title: Trigger
-sidebar_label: Trigger
+title: "Trigger"
+sidebar_label: "Trigger"
 sidebar_position: 5
+description: "Trigger documentation."
 displayed_sidebar: centerSidebar
 ---
+# Trigger
 
-Triggers in akaBot Center provide event-driven execution of workflows, complementing the time-based Schedule feature. While Schedules run workflows at fixed calendar intervals, Triggers fire a workflow in response to a specific event — such as a new item arriving in a queue, a file being detected in a folder, or an external system sending an HTTP callback. This allows akaBot Center to integrate tightly with enterprise event streams and business processes, enabling automation workflows to start exactly when they are needed rather than on a polling cycle.
+Trigger can help you to run Bot automatically with some conditions/
 
-The most common trigger type is the **Queue Trigger**, which monitors a queue and automatically dispatches a workflow execution when new items are available. This pattern is used for real-time transactional processing — for example, when a customer places an order and the order data is added to a queue, the Queue Trigger immediately starts the order processing workflow on an available agent without any human intervention. This dramatically reduces processing latency compared to scheduled polling approaches.
+S1: Click in **Create New**button at the top right corner of the **Trigger**page to create a new trigger.
 
-akaBot Center also supports **Webhook Triggers**, which expose an HTTP endpoint that external systems can call to fire a workflow. This enables integration scenarios where a business application — such as an ERP, CRM, or ticketing system — can directly trigger an automation workflow as part of its own business process flow, passing structured data as the trigger payload. Webhook Triggers make akaBot Center a first-class participant in enterprise integration architectures.
+![image-20230528123104-2.png](/img/e28d03_image-20230528123104-2.png)
 
-## Trigger Types
+If you already have a **Trigger**, you can clic the 3 dots buttin at the trigger you want, click **Edit** button to update trigger as your wish.
 
-| Type | Description | Use Case |
-|---|---|---|
-| Queue Trigger | Fires when new items are added to a specified queue | Real-time transactional processing |
-| Webhook Trigger | Fires when an HTTP POST is received at the trigger endpoint | Integration with external business systems |
-| File Trigger | Fires when a file matching a pattern appears in a watched folder | File-based data ingestion workflows |
+![image-20230528123209-3.png](/img/163bf9_image-20230528123209-3.png)
 
-## Configuring a Queue Trigger
+S2: A form will appear for you to fill in. After fulfillment, please click **Save**to save your work.
 
-1. Navigate to **Automation > Trigger** and click **Create New Trigger**.
-2. Select **Queue Trigger** as the trigger type.
-3. Choose the Queue to monitor.
-4. Select the Workflow to execute when items arrive.
-5. Set the minimum number of queue items required to fire the trigger.
-6. Optionally set a maximum concurrent executions limit.
-7. Click **Save** and enable the trigger.
+![image-20230528123953-1.png](/img/69c064_image-20230528123953-1.png)
+
+|  |  |
+| --- | --- |
+| **Field** | **Description** |
+| Name | Enter the name of trigger |
+| Component | Choose option in the dropdown list |
+| Condition (click in “plus” button to add, or “Trash bin icon” button to delete) | |
+| When | Choose in the dropdown list:  - State: Status of task  - Agent  - Workflow  Then choose a value in the “Equal box” dropdown list |
+| And | Choose in the dropdown list:  - State: Status of task  - Agent  - Workflow  Then choose a value in the “Equal box” dropdown list |
+| Activities (click in “plus” button to add, or “Trash bin icon” button to delete) | |
+| Then | Choose in the dropdown list:  - Send Mail  - Start Task  - Stop Task  - Delete Task  - Start Process  - Stop Specific Task  - Retry  - Schedule |
+| And | Choose in the dropdown list:  - Send Mail  - Start Task  - Stop Task  - Start Process  - Stop Specific Task  - Delete Task  - Retry  - Schedule |

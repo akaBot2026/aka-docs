@@ -1,4 +1,12 @@
-# Extract Structured Data (NB) - akaBot Docs
+---
+id: extract-structured-data
+title: "Extract Structured Data (NB)"
+sidebar_label: "Extract Structured Data (NB)"
+sidebar_position: 6
+description: "Extract Structured Data (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Extract Structured Data (NB)
 
 RCA.Activities.NativeBrowser.ExtractStructuredData
 
@@ -47,9 +55,3 @@ The Extract Structured Data allows you to extract structured data from a specifi
 **Output**
 
 * **Result (Data Table)** - The outputted data with type = ‘DataTable’. Not allow white space in output’s name.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

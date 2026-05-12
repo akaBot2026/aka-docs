@@ -1,4 +1,12 @@
-# Get Element - akaBot Docs
+---
+id: get-element
+title: "Get Element"
+sidebar_label: "Get Element"
+sidebar_position: 5
+description: "Get Element activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Element
 
 RCA.Activities.Java.GetElement
 
@@ -26,7 +34,7 @@ This activity allows you to get elements from a Java file.
 Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 
@@ -37,8 +45,3 @@ Text
 **Output**
 
 * **Output Element (JavaElement)**- The element you get from the Java file. Output to JavaElement variable only.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

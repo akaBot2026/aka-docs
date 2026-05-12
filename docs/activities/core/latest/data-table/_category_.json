@@ -1,0 +1,9 @@
+{
+  "label": "Data Table",
+  "position": 21,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

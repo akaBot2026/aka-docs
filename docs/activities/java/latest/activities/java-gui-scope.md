@@ -1,4 +1,12 @@
-# Java Gui Scope - akaBot Docs
+---
+id: java-gui-scope
+title: "Java Gui Scope"
+sidebar_label: "Java Gui Scope"
+sidebar_position: 7
+description: "Java Gui Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Java Gui Scope
 
 RCA.Activities.Java.JavaGuiScope
 
@@ -20,7 +28,7 @@ This activity allows you to initialize a Java library and provide a scope for al
 
 Text
 
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 
@@ -35,8 +43,3 @@ Text
 **Output**
 
 * **Java Access Bridge (JavaElement)** : Object allow view and manipulate information about GUI elements in a Java application. Output in JavaElement variable only.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

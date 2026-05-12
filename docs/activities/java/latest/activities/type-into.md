@@ -1,4 +1,12 @@
-# Type Into - akaBot Docs
+---
+id: type-into
+title: "Type Into"
+sidebar_label: "Type Into"
+sidebar_position: 9
+description: "Type Into activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Type Into
 
 RCA.Activities.Java.TypeInto
 
@@ -36,7 +44,7 @@ This Type Into activity allows you to type into a specified Java file.
 **Eg**:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 * **Text (String)** - The text to enter.
 
@@ -54,8 +62,3 @@ Text
 **Output**
 
 * **Success (Boolean)**- Indicates whether all the actions have succeeded or not.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

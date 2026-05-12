@@ -1,4 +1,12 @@
-# Get Table - akaBot Docs
+---
+id: get-table
+title: "Get Table"
+sidebar_label: "Get Table"
+sidebar_position: 4
+description: "Get Table activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Table
 
 RCA.Activities.Word.GetTable
 
@@ -29,8 +37,3 @@ This activity allows you to retrieve a table from a Word Document and return it 
 **Output**
 
 * **Data Table (DataTable)**- The Table is extracted from the Word Document and stored in the DataTable variable.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

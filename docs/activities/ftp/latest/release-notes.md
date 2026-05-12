@@ -1,4 +1,12 @@
-# [1] Release Notes - akaBot Docs
+---
+id: release-notes
+title: "Release Notes"
+sidebar_label: "Release Notes"
+sidebar_position: 2
+description: "Release Notes activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Release Notes
 
 ## **RCA.Activities.FTP Version 2.1.0.3**
 
@@ -10,8 +18,3 @@
 * [Fixed] [DownloadFiles] Download file error when [Remote Path] is root directory
 * [Fixed] [UploadFiles] Cannot upload folder via IIS
 * [Fixed] [WithFTPSession] Error display when selecting option in property 'SSL protocol'
-
-Table of Content
-
-* [RCA.Activities.FTP Version 2.1.0.3](#HRCA.Activities.FTPVersion2.1.0.3)
-  + [Bugs fixed](#HBugsfixed)

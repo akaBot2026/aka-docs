@@ -1,4 +1,12 @@
-# [17]Extract Structured Data - akaBot Docs
+﻿---
+id: extract-structured-data
+title: "Extract Structured Data"
+sidebar_label: "Extract Structured Data"
+sidebar_position: 17
+description: "Extract Structured Data activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Extract Structured Data
 
 RCA.Activities.Browser.ExtractStructuredData
 
@@ -36,7 +44,7 @@ The Extract Structured Data allows you to extract structured data from a specifi
 
 **Options**
 
-* **Delay Between Page MS (Int32)**– The amount of time (in seconds) to wait until the next page is loaded. The default value is 1000 milliseconds. If the loading time of the page is longer, this value should be higher.  
+* **Delay Between Page MS (Int32)** – The amount of time (in seconds) to wait until the next page is loaded. The default value is 1000 milliseconds. If the loading time of the page is longer, this value should be higher.  
   E.g: 1000
 * **Max Number Of Result (Int32)** – The maximum number of results to be extracted. If the value is 0, all the identified elements are added to the output. The default value is 100.  
   E.g: 100
@@ -46,9 +54,3 @@ The Extract Structured Data allows you to extract structured data from a specifi
 **Output**
 
 * **Result (Data Table)\***- The outputted data with type = ‘DataTable’. Not allow white space in output’s name.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

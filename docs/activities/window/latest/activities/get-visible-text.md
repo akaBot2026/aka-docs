@@ -1,3 +1,11 @@
+---
+id: get-visible-text
+title: "Get Visible Text"
+sidebar_label: "Get Visible Text"
+sidebar_position: 13
+description: "Get Visible Text activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Get Visible Text
 
 ## RCA.Activities.Windows.GetVisibleText

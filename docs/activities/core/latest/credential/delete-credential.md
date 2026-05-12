@@ -1,4 +1,12 @@
-# [02]Delete Credential - akaBot Docs
+---
+id: delete-credential
+title: "Delete Credential"
+sidebar_label: "Delete Credential"
+sidebar_position: 2
+description: "Delete Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Delete Credential
 
 RCA.Activities.Core.DeleteCredential
 
@@ -25,8 +33,3 @@ The activity allows you to delete the credentials for a specified target from th
 **Output**
 
 * **Result (Boolean)** - A boolean variable that indicates whether the credentials of the given target were successfully deleted from the Windows Credential Manager.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

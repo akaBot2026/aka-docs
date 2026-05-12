@@ -1,4 +1,12 @@
-# Go Forward - akaBot Docs
+---
+id: go-forward
+title: "Go Forward"
+sidebar_label: "Go Forward"
+sidebar_position: 11
+description: "Go Forward activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Go Forward
 
 RCA.Activities.IE.GoForward
 
@@ -21,8 +29,3 @@ The Go Forward activity goes forward one URL in the history list of the current 
 * **Public (Checkbox)** - Check if you want to publicize it.
 * **Display Name (String)**- The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   Ex: [674892003] Go Forward
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

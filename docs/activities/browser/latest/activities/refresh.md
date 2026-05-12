@@ -1,4 +1,12 @@
-# [08]Refresh - akaBot Docs
+---
+id: refresh
+title: "Refresh"
+sidebar_label: "Refresh"
+sidebar_position: 8
+description: "Refresh activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Refresh
 
 RCA.Activities.Browser.Refresh
 
@@ -21,5 +29,3 @@ The Refresh reloads the tab that is currently displayed in a browser.
 * **Display Name (String)**- The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: [5666565] Refresh
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is un check.
-
-Table of Content

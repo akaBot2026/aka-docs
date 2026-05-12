@@ -1,4 +1,12 @@
-# [15]Quit Browser - akaBot Docs
+---
+id: quit
+title: "Quit Browser"
+sidebar_label: "Quit Browser"
+sidebar_position: 15
+description: "Quit Browser activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Quit Browser
 
 RCA.Activities.Browser.Quit
 
@@ -23,8 +31,3 @@ The Quit Browser closes the current browser. This will only close window Browser
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: [1232145] Quit
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is unchecked.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

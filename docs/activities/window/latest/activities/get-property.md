@@ -1,4 +1,12 @@
-# [24]Get Property - akaBot Docs
+---
+id: get-property
+title: "Get Property"
+sidebar_label: "Get Property"
+sidebar_position: 24
+description: "Get Property activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Property
 
 RCA.Activities.Windows.GetProperty
 
@@ -56,9 +64,3 @@ The Get Property activity allows you to retrieve the value of a specified proper
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)**- Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)**- Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

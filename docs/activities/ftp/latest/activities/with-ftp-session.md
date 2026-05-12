@@ -1,4 +1,12 @@
-# With FTP Session - akaBot Docs
+﻿---
+id: with-ftp-session
+title: "With FTP Session"
+sidebar_label: "With FTP Session"
+sidebar_position: 8
+description: "With FTP Session activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# With FTP Session
 
 RCA.Activities.FTP.WithFTPSession
 
@@ -26,7 +34,7 @@ This activity provides a container which connects to an FTP server and performs 
   E.g: “P@ssW0rd123”
 * **Use Anonymous Login (Checkbox)**- If the FTP server accepts the anonymous login, you may use this option, otherwise, you are unable to login to through anonymous login. This is uncheck by default.  
   E.g: Checked mean Yes
-* **Username (String) -**It is used to login to the FTP Server  
+* **Username (String) -** It is used to login to the FTP Server  
   E.g: “UserNameForFTPSite”
 
 **Misc**
@@ -52,9 +60,3 @@ This activity provides a container which connects to an FTP server and performs 
   E.g: “ftp.myhost.com” or “12.34.56.78”
 * **Port** - The port of the FTP server you want to connect to  
   E.g : 21
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

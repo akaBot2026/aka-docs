@@ -1,4 +1,12 @@
-# [1] Release Notes - akaBot Docs
+---
+id: release-notes
+title: "Release Notes"
+sidebar_label: "Release Notes"
+sidebar_position: 2
+description: "Release Notes activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Release Notes
 
 ## **RCA.Activities.ComputerVision Version 1.0.0.0**
 
@@ -15,8 +23,3 @@
   + CV Screen Scope
   + CV Table Extract
   + CV Type Into
-
-Table of Content
-
-* [RCA.Activities.ComputerVision Version 1.0.0.0](#HRCA.Activities.ComputerVisionVersion1.0.0.0)
-  + [Features added](#HFeaturesadded)

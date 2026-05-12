@@ -1,4 +1,12 @@
-# Download Files - akaBot Docs
+---
+id: download-files
+title: "Download Files"
+sidebar_label: "Download Files"
+sidebar_position: 4
+description: "Download Files activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Download Files
 
 RCA.Activities.FTP.DownloadFiles
 
@@ -39,8 +47,3 @@ This activity allows you to download a file on FTP server.
 
 * **Local Path (String)** - The local path for the files that are to be downloaded. This field supports only string variables.  
   E.g: “C:/Destinationfolder”
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

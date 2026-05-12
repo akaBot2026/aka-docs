@@ -1,4 +1,12 @@
-# [21]Wait Element Exist - akaBot Docs
+---
+id: wait-element-exist
+title: "Wait Element Exist"
+sidebar_label: "Wait Element Exist"
+sidebar_position: 21
+description: "Wait Element Exist activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Wait Element Exist
 
 RCA.Activities.Windows.WaitElementExist
 
@@ -44,9 +52,3 @@ A container that waits for a UI element to appear and enables you to perform mul
 **Output**
 
 * **Found Element (AutomationElement)** - The resulted UI element. This field supports only UiElement variables.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

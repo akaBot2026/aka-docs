@@ -1,12 +1,14 @@
-# [01]Open Browser - akaBot Docs
+﻿---
+id: open-browser
+title: "Open Browser"
+sidebar_label: "Open Browser"
+sidebar_position: 1
+description: "Open Browser activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Open Browser
 
 RCA.Activities.Browser.OpenBrowser
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)
 
 ## **Description**
 
@@ -42,7 +44,7 @@ The Open Browser activity allows you to navigate to a specified URL by launching
 * **Timeout MS (Int32)**- The maximum amount of time (in milliseconds) to wait for the activity to complete before an error is thrown. If the timeout expires, the activity will be terminated. Default value: 30000 (milliseconds).  
   Eg: 30000
 * **URL (String)**\* – Starting this destination URL when the browser is opened.  
-  E.g: "<https://akabot.com/>"
+  E.g: "https://akabot.com/"
 
 **Proxy**
 
@@ -64,16 +66,16 @@ Eg: [34235252] Open Browser
 
 * **Arguments:**
   + In case no data needs to be passed => Leave the field empty and click **OK**
-  + In case you need to pass input data (Direction = In) => Click "Create argument" => Fill in "Value" column: E.g: Value = <https://akabot.com/>
+  + In case you need to pass input data (Direction = In) => Click "Create argument" => Fill in "Value" column: E.g: Value = https://akabot.com/
 * **Default Download Folder (String)**- Default folder to save file  
   E.g: “D:\Users\"
-* **Edge le Mode (Checkbox):**If the checkbox is selected, the browser will run in Internet Explorer (IE) mode, allowing compatibility with legacy websites that require IE rendering. Default value is unchecked.
+* **Edge le Mode (Checkbox):** If the checkbox is selected, the browser will run in Internet Explorer (IE) mode, allowing compatibility with legacy websites that require IE rendering. Default value is unchecked.
 * **Ensure Clean Session(Checkbox)** - Specifies whether the session would be cleaned before opening browser. Default value is unchecked.
 * **Hide Command Prompt Window (Checkbox)** - Hide Command Prompt window of the Web Driver. Default value is checked.
 * **Maximize (Checkbox)**- Maximizes the size of the browser. Default value is unchecked.
 * **Show Download Prompt (Checkbox)** - Show Command Prompt window of the Web Driver. Default value is checked.
 * **Use InitialBrowserUrl (Checkbox)** - It is used to start the browser with a specific url. Default value is unchecked.
-* **User Profile Preferences -**Allows users to configure the browser profile using arguments (Name, Direction, Type, Value). Click "create argument" => fill in 2 columns including "Name" and "Value". E.g: "Name" = "profile.name", "value" = "profile1"
+* **User Profile Preferences -** Allows users to configure the browser profile using arguments (Name, Direction, Type, Value). Click "create argument" => fill in 2 columns including "Name" and "Value". E.g: "Name" = "profile.name", "value" = "profile1"
 
 **Output**
 

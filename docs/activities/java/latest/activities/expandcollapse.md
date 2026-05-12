@@ -1,4 +1,12 @@
-# Expand/Collapse - akaBot Docs
+---
+id: expandcollapse
+title: "Expand/Collapse"
+sidebar_label: "Expand/Collapse"
+sidebar_position: 4
+description: "Expand/Collapse activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Expand/Collapse
 
 RCA.Activities.Java.ExpandCollapse
 
@@ -28,15 +36,10 @@ This activity allows you to expand/collapse activities.
   Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 
 * **Public (Checkbox)**- Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   Eg: Expand Collapse
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

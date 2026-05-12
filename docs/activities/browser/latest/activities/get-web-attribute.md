@@ -1,4 +1,12 @@
-# [13]Get Web Attribute - akaBot Docs
+﻿---
+id: get-web-attribute
+title: "Get Web Attribute"
+sidebar_label: "Get Web Attribute"
+sidebar_position: 13
+description: "Get Web Attribute activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Web Attribute
 
 RCA.Activities.Browser.GetWebAttribute
 
@@ -47,14 +55,8 @@ The Get Web Attribute activity allows you to get the value of an attribute that 
   + Positive value → scroll right
   + Negative value → scroll left
   + E.g: 200
-* **Scroll element to view (checkbox):**The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:**Enter a numeric value (pixels) to scroll vertically
+* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
+* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

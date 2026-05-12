@@ -1,4 +1,12 @@
-# Invoke Python Method - akaBot Docs
+---
+id: invoke-python-method
+title: "Invoke Python Method"
+sidebar_label: "Invoke Python Method"
+sidebar_position: 2
+description: "Invoke Python Method activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Invoke Python Method
 
 RCA.Activities.Python.InvokeMethod
 
@@ -31,8 +39,3 @@ This activity allows you to run a specified method from a Python script directly
 **Options**
 
 * **Parameters (IEnumerable< Object >)** - A list of input parameters for the Python script that is to be invoked, if any.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

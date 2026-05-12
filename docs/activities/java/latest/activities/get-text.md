@@ -1,4 +1,12 @@
-# Get Text - akaBot Docs
+---
+id: get-text
+title: "Get Text"
+sidebar_label: "Get Text"
+sidebar_position: 6
+description: "Get Text activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Text
 
 RCA.Activities.Java.GetText
 
@@ -29,7 +37,7 @@ This activity allows you to get text from a Java file.
   Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 
@@ -40,8 +48,3 @@ Text
 **Output**
 
 * **Output Text (String)**- The element you get from the Java file. Output to a String variable.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

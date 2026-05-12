@@ -1,4 +1,12 @@
-# [28]Get Running Process - akaBot Docs
+---
+id: get-running-process
+title: "Get Running Process"
+sidebar_label: "Get Running Process"
+sidebar_position: 28
+description: "Get Running Process activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Running Process
 
 RCA.Activities.Windows.GetRunningProcess
 
@@ -27,8 +35,3 @@ The Get Running Process allows you to get the processes that are running in your
 **Output**
 
 * **Output processes (Collection)** - The output processes. This property supports variables with type =“Collection”. Not allow whitespace in the output’s name.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

@@ -1,4 +1,12 @@
-# CV Get Text - akaBot Docs
+﻿---
+id: cv-get-text
+title: "CV Get Text"
+sidebar_label: "CV Get Text"
+sidebar_position: 5
+description: "CV Get Text activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# CV Get Text
 
 RCA.Activities.ComputerVision.CVGetText
 
@@ -28,7 +36,7 @@ Extracts the text from a specified UI element.
 
 **Input**
 
-* **Descriptor (String)** - The on-screen coordinates of the **Target**and each **Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the **Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
+* **Descriptor (String)** - The on-screen coordinates of the ** Target**and each ** Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the ** Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
 * **GetTextMethod (Dropdown List)** - Specifies what method you want to use to retrieve the text. The following options are available:  
   **・OCR** - Uses the OCR engine specified in the parent CV Screen Scope activity to retrieve the text.  
   **・SelectAllText** - Copies the entire text by using the clipboard. This simulates a copy/paste action and can only be used on selectable text, on either local or remote sessions.  
@@ -48,9 +56,3 @@ Extracts the text from a specified UI element.
 
 * **InputRegion (Rectangle)**- Receives the target of another CV activity stored in a *Rectangle*variable, using it as a target for this activity. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier. If a variable is set to this field, the current target and anchor elements of the activity are disabled. This field supports only *Rectangle*variables.
 * **OutputRegion (Rectangle)**- Saves the target of this activity as a Rectangle variable. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

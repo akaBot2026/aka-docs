@@ -1,4 +1,12 @@
-# Select Multiple Items (NB) - akaBot Docs
+---
+id: select-multiple-items
+title: "Select Multiple Items (NB)"
+sidebar_label: "Select Multiple Items (NB)"
+sidebar_position: 19
+description: "Select Multiple Items (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Select Multiple Items (NB)
 
 RCA.Activities.NativeBrowser.SelectMultiple
 
@@ -40,9 +48,3 @@ The Select Multiple Items activity allows you to select many items from a combo 
 
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is uncheck.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

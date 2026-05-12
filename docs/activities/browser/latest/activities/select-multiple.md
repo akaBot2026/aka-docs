@@ -1,4 +1,12 @@
-# [22]Select Multiple Items - akaBot Docs
+﻿---
+id: select-multiple
+title: "Select Multiple Items"
+sidebar_label: "Select Multiple Items"
+sidebar_position: 22
+description: "Select Multiple Items activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Select Multiple Items
 
 RCA.Activities.Browser.SelectMultiple
 
@@ -34,7 +42,7 @@ The Select Multiple Items activity allows you to select many items from a combo 
   ・INDEX – Index of the item (Starting from 0).  
   ・VALUE – Value of the item.  
   ・TEXT – Text of the item.
-* **Select Value (String)\***- The value based on the type of selection you want to use. It has to be encased in quotation marks. Format: {“Value1”, “Value2”,…”ValueN”}
+* **Select Value (String)\***- The value based on the type of selection you want to use. It has to be encased in quotation marks. Format: `{“Value1”, “Value2”,…”ValueN”}`
 * **Selector (String)**\* - Text property used to find a particular UI element when the activity is executed. It is actually a XML fragment specifying attributes of the GUI element you are looking for and of some of its parents.
 * **Wait Visible (Checkbox)**- Check this box if you want the automation waits for the target to be visible before executing the activity. This is checked by default
 
@@ -44,20 +52,14 @@ The Select Multiple Items activity allows you to select many items from a combo 
   E.g: [564547] Select Multiple Items
 * **Public (Checkbox)**- Check if you want to public it. Remember to consider data security requirement before using it. Default is unchecked.
 
-**Scroll -**To control how the system scrolls the screen to make the target element visible before performing an action*.*
+**Scroll -** To control how the system scrolls the screen to make the target element visible before performing an action*.*
 
 * ​​​​​​​​​​​​​​**Horizontal scroll:** Enter a numeric value (pixels) to scroll horizontally.
   + Positive value → scroll right
   + Negative value → scroll left
   + E.g: 200
-* **Scroll element to view (checkbox):**The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:**Enter a numeric value (pixels) to scroll vertically
+* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
+* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

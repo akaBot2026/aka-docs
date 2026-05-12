@@ -1,4 +1,12 @@
-# Send Email - akaBot Docs
+---
+id: send-email
+title: "Send Email"
+sidebar_label: "Send Email"
+sidebar_position: 14
+description: "Send Email activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Send Email
 
 RCA.Activities.GSuite.SendEmail
 
@@ -47,9 +55,3 @@ This activity allows sending an email using Gmail platform
 
 * **IsDraft (Checkbox)** - If this is checked, Body is saved as a draft instead of being sent.
 * **IsHTML (Checkbox)** - If this is checked, Body is need to be valid with HTML.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

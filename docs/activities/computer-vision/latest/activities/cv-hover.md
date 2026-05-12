@@ -1,4 +1,12 @@
-# CV Hover - akaBot Docs
+﻿---
+id: cv-hover
+title: "CV Hover"
+sidebar_label: "CV Hover"
+sidebar_position: 7
+description: "CV Hover activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# CV Hover
 
 RCA.Activities.ComputerVision.CVHover
 
@@ -28,7 +36,7 @@ Hovers over a specified UI element which is targeted by using the Computer Visio
 
 **Input**
 
-* **Descriptor (String)** - The on-screen coordinates of the **Target**and each **Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the **Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
+* **Descriptor (String)** - The on-screen coordinates of the ** Target**and each ** Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the ** Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
 * **Offset Point(String)** - Offset point for click-related activities.
 
 **Misc**
@@ -41,9 +49,3 @@ Hovers over a specified UI element which is targeted by using the Computer Visio
 
 * **InputRegion (Rectangle)**- Receives the target of another CV activity stored in a *Rectangle*variable, using it as a target for this activity. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier. If a variable is set to this field, the current target and anchor elements of the activity are disabled. This field supports only *Rectangle*variables.
 * **OutputRegion (Rectangle)**- Saves the target of this activity as a Rectangle variable. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

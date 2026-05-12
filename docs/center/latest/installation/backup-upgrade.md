@@ -1,79 +1,60 @@
 ---
 id: backup-upgrade
-title: Backup and Upgrade
-sidebar_label: Backup and Upgrade
+title: "Backup and Upgrade"
+sidebar_label: "Backup and Upgrade"
 sidebar_position: 18
+description: "Backup and Upgrade documentation."
 displayed_sidebar: centerSidebar
 ---
-
 # Backup and Upgrade
 
-Regular backups and a well-defined upgrade process are essential for maintaining the reliability and continuity of your akaBot Center deployment. This guide describes the recommended backup strategy and general upgrade procedure that applies to all akaBot Center patch and minor version upgrades.
+As a general rule, we advise you to have the same Agent, Studio, and Center to take advantage of all the latest features. Studio and Agent must have the same version. This document aims to give you step-by-step instructions on how to update & backup akaBot Studio, Agent & Center.
 
-## Prerequisites
+## **1. akaBot Studio & Agent**
 
-- akaBot Center installed and operational
-- Sufficient disk space for backup files (at least 2x the size of the database and application directory)
-- Database backup tools: `mysqldump` (MySQL), `pg_dump` (PostgreSQL), or SQL Server Management Studio (MSSQL)
-- Administrator or root access to the akaBot Center server
-- The target upgrade package obtained from the akaBot support portal (for upgrade operations)
+* **Step 1:**
 
-## Backup Steps
+**Custom HTML / CSS** (JavaScript will be stripped, CSS will be scoped)
 
-1. **Schedule a Maintenance Window**
-   - Notify all stakeholders and robot operators of the planned downtime.
-   - Stop all running automation jobs before proceeding.
+Remove the previous version [**Uninstall akaBot**](https://docs.akabot.com/docs/uninstall-akabot).
 
-2. **Stop the akaBot Center Service**
-   - Windows: `net stop akabotcenter`
-   - Linux: `systemctl stop akabotcenter`
+* **Step 2:**Download the latest version of akaBot Platform from the link provided in Licensing email Run the installer and wait until the process is finished.
 
-3. **Back Up the Database**
-   - MySQL:
-     ```bash
-     mysqldump -u akabot -p akabot_center > akabot_backup_$(date +%Y%m%d).sql
-     ```
-   - PostgreSQL:
-     ```bash
-     pg_dump -U akabot_pg akabot_center > akabot_backup_$(date +%Y%m%d).sql
-     ```
-   - MSSQL: Use SQL Server Management Studio or `sqlcmd` to create a full backup.
+![uelcome akabot.png](/img/257532_uelcome-akabot.png)
 
-4. **Back Up the Application Directory**
-   - Copy the entire akaBot Center directory:
-     - Windows: `xcopy /E /I C:\akabot\center4 C:\akabot\backup\center4_<date>`
-     - Linux: `cp -r /opt/akabot/center /opt/akabot/backup/center_$(date +%Y%m%d)`
+## **2. akaBot Center**
 
-5. **Store Backups Securely**
-   - Transfer backup files to a remote storage location (e.g., network share, object storage, or tape).
-   - Verify backup integrity by checking file sizes and, periodically, performing test restores.
+* **Step 1:** Download the latest version of akaBot Center from the link provided in Licensing email.
+* **Step 2:**
 
-## Upgrade Steps
+Kindly follow all the steps to update [**akaBot Center**](https://docs.akabot.com/docs/network-installation#e-akabot-center-configuration).
 
-1. **Review the Release Notes**
-   - Read the target version's release notes for breaking changes, new prerequisites, or migration requirements.
+Make sure you create a backup that contains 2 files from old version : **application-dev.yml** and **application-prod.yml** so you don't have to re-edit
 
-2. **Restore from Backup if Needed Before Upgrade**
-   - Confirm you have a verified recent backup before starting the upgrade.
+* **Step 3:**Backup license file: Find the license.lic file via the directory below:
 
-3. **Extract the Upgrade Package**
-   - Extract the new akaBot Center package to a staging directory.
+C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps\ROOT\WEB-INF\classes\license
 
-4. **Apply the Upgrade**
-   - Run the provided upgrade script: `bin\upgrade.bat` (Windows) or `bin/upgrade.sh` (Linux).
-   - The script will update application files, run any required database migration scripts, and preserve your existing configuration.
+![image-20220825142739-1.png](/img/51f066_image-20220825142739-1.png)
 
-5. **Verify Configuration**
-   - Compare the upgraded `application.yml` with your backup to ensure no custom settings were overwritten.
+* **Step 4:** Backup Database: Open MySQL Export the old Database.
 
-6. **Start the Service and Validate**
-   - Start akaBot Center and monitor logs for errors.
-   - Log in to the portal, verify functionality, and confirm robot agents reconnect successfully.
+[![https://files.readme.io/b5f111f-Screenshot_90.png](/img/e1cd87_b5f111f-screenshot_90.png)](https://dash.readme.com/project/akabotlibraby/v2.0.55/docs/upgrade-akabot)
 
-## Notes and Warnings
+At Object Selection, select **aka\_orchestrator**. And then select **Export Progress** to Start Export.
 
-> **Note:** Automate regular database backups using scheduled tasks (Windows Task Scheduler or Linux cron) to ensure backups occur daily without manual intervention.
+![https://files.readme.io/bf9ae04-Capture.PNG](/img/36557a_bf9ae04-capture.png)
 
-> **Warning:** Never upgrade directly on the production system without first testing the upgrade procedure on a staging environment that mirrors your production configuration.
+[![https://files.readme.io/41697f5-cap2.PNG](/img/4904ca_41697f5-cap2.png)](https://dash.readme.com/project/akabotlibraby/v2.0.55/docs/upgrade-akabot)
 
-> **Note:** Keep at least three recent backup sets (daily/weekly rotation) to ensure you can roll back to a known-good state in case of upgrade failures or data corruption discovered after the upgrade.
+* **Step 5:** Stop **Tomcat** service and delete the old version of "ROOT" folder.
+
+[![https://files.readme.io/a6b28ce-Screenshot_2021-07-05_095021.jpg](/img/4b7ca2_a6b28ce-screenshot_2021-07-05_095021.jpg)](https://dash.readme.com/project/akabotlibraby/v2.0.55/docs/upgrade-akabot)
+
+**Step 6:**Copy the file war ( latest version of Center ) and Start **Tomcat**to proceed to upgrade Center.
+
+**Step 7:**Copy 2 files: **application-dev.yml** and **application-prod.yml**andpaste into the directory below after starting Tomcat (If you config these files).
+
+C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps\ROOT\WEB-INF\classes\config
+
+**Step 8:** Copy the backup license  and paste into the old folder. (Because the license would be disappeared after upgrading. If you follow this step, you don't need to activate the Center again).

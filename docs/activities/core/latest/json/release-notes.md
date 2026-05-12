@@ -1,5 +1,0 @@
-# [1] Release Notes - akaBot Docs
-
-## **RCA.Activities.Core Version 2.2.0.1**
-
-There is no update at Json activities

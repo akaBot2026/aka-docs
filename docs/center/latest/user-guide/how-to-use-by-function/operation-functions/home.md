@@ -1,24 +1,42 @@
 ---
 id: home
-title: Home
-sidebar_label: Home
+title: "Home"
+sidebar_label: "Home"
 sidebar_position: 1
+description: "Home documentation."
 displayed_sidebar: centerSidebar
 ---
+# Home
 
-The Home screen is the default landing page of akaBot Center and serves as the operational dashboard for your automation environment. It provides a real-time summary of the most important metrics and statuses across the entire platform, giving operators and managers an instant overview of automation health without needing to navigate into individual modules. The dashboard is designed to surface actionable information at a glance, making it easier to identify issues early and respond promptly.
+![image-20221027173807-2.png](/img/18ffb1_image-20221027173807-2.png)
 
-The Home dashboard is organized into several widget panels. The **Job Overview** panel shows counts of jobs by status (Running, Completed, Failed, Pending) over a configurable time window such as the last 24 hours or 7 days. The **Agent Status** panel displays the current connectivity and availability of all registered agents, helping operators quickly identify agents that are offline or in error state. Additional widgets may display upcoming scheduled executions, recent failed jobs requiring attention, and queue depth summaries.
+akaBot's home page is a dashboard that enables you to see all the statistical charts of a single Organizational Unit containing useful information for all the following components:
 
-For business users and management, the Home screen provides a non-technical view of automation throughput and reliability. The charts and counters on this page can be used during operational reviews to communicate the volume of automated work being processed and the overall system health. Administrators can configure which widgets appear on the Home screen based on the needs of different user roles.
+* Number of Agent (Available, Busy, Disconnected, Nonresponse)
+* Number of Task (Successful, Running, Stopped, Faulted)
+* Schedule (Calculated by Hour, Day, Week and Month basis)
+* Package (Active, Inactive)
+* Task Statistics (Daily, Weekly, Monthly, Yearly view available)
+* Upcoming Tasks
+* Recent Tasks
 
-## Home Dashboard Widgets
+![image-20221028092757-2.png](/img/ca0f55_image-20221028092757-2.png)
 
-| Widget | Description |
-|---|---|
-| Job Summary | Count of jobs by status (Running, Completed, Failed, Pending) |
-| Agent Status | Online/offline status for all registered agents |
-| Upcoming Schedules | Next scheduled workflow executions within the next 24 hours |
-| Recent Failures | Last 5–10 failed job executions with direct links to logs |
-| Queue Summary | Total pending work items across all active queues |
-| System Alerts | Critical notifications such as license expiry or agent disconnection |
+You can filter the data based on the Agent Group and Agent Name
+
+| No | Column/Label | Description | Type | Maximum | Input Requirement |
+| --- | --- | --- | --- | --- | --- |
+| 1 | **Select Agent Group** | Select the agent group of which you want to see statistics | Input searching | No limit (2,147,483,647 char) |  |
+| 2 | **Select Agent** | Select the agent of which you want to see statistics | Input searching | No limit |  |
+
+You can also view the Task Statistics by selecting the corresponding tab: Daily, Weekly, Monthly, Yearly.
+
+![image-20221028092657-1.png](/img/04cd91_image-20221028092657-1.png)
+
+| No | Column /Label | Description | Type | Maximum | Is Mandatory ? | Input Requirement |
+| --- | --- | --- | --- | --- | --- | --- |
+|  | Daily / Weekly / Monthly / Yearly | Select the type you want to see task statistics | Tab |  | Yes |  |
+|  | Choose Day | Select the day you want to see task statistics | Date & Time |  | Yes | Only available if you chose daily |
+|  | Choose Week | Select the week you want to see task statistics | Date & Time |  | Yes | Only available if you chose daily |
+|  | Choose Month | Select the month you want to see task statistics | Date & Time |  | Yes | Only available if you chose daily |
+|  | Choose Year | Select the year you want to see task statistics | Date & Time |  | Yes | Only available if you chose daily |

@@ -1,37 +1,41 @@
-# 画像を追加 - akaBot Docs
+﻿---
+id: add-image
+title: "Add Image"
+sidebar_label: "Add Image"
+sidebar_position: 1
+description: "Add Image activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Add Image
 
-RCA.Activities.Word.AddImage
+RCA.Activities.Common.AddImage
 
-## **説明**
+## **Description**
 
-このアクティビティでは、指定したWord文書の最後に画像を追加することができます。このアクティビティは、「Wordアプリケーションスコープ」アクティビティ内でのみ使用されます。
+This activity allows to add an image at the end of a specified Word document. This activity is used only within Word Application Scope activity
 
 ![image-20220506111624-1.png](/img/3bf854_image-20220506111624-1.png)
 
-\*は必須。
+(\* is mandatory)
 
-## **アクティビティの内容**
+## **In the body of activity**
 
-* **ファイルパス**\*：Word文書に追加する画像のパス。文字列と文字列変数のみがサポートされています。
+- **File Path** - Path to the image to be added in a Word document
 
-## **プロパティ**
+## **Properties**
 
-**共通**
+**Common**
 
-* **エラーでも処理を続ける（ブール）**：エラーが発生した場合でも、自動化を続行するか指定します。TrueまたはFalseの値のみあります。True：アクティビティ内でエラーが発生した場合でも、残りのプロセス実行が続行されるようにします。False（デフォルト）：プロセス実行が続行されるのをブロックします。
+- **Continue On Error (Boolean)** - A Boolean variable has two possible values: True or False
+  - **True** : allows the rest of the process to continue the execution even an error occurs within the activity.
+  - **False** : blocks the process from continuing the execution.
 
-**入力**
+**Input**
 
-* **画像ファイルパス（文字列）\***：Word文書に追加する画像のパス。文字列と文字列変数のみがサポートされています。
+- **File Path** - Path to the image to be added in a Word document
 
-**その他**
+**Misc**
 
-* **表示名（文字列）**：アクティビティ名。アクティビティ名を編集して、コードをより適切に整理および構造化で名称きます。  
-  例：画像を追加
-* **公開（チェックボックス）**：チェックすると、このアクティビティのデータがログに表示されます。データの機密性を考慮した上で使用してください。
-
-目次
-
-* [説明](#H8AAC660E)
-* [アクティビティの内容](#H30A230AF30C630A330D330C630A3306E51855BB9)
-* [プロパティ](#H30D730ED30D130C630A3)
+- **Public (Checkbox)** - Check if you want to public the activity. Remember to consider data security requirement before using this property.
+- **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
+  E.g: [3424325] Add Image

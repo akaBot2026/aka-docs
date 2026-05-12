@@ -1,4 +1,12 @@
-# Replace Text - akaBot Docs
+---
+id: replace-text
+title: "Replace Text"
+sidebar_label: "Replace Text"
+sidebar_position: 7
+description: "Replace Text activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Replace Text
 
 RCA.Activities.Word.ReplaceText
 
@@ -33,8 +41,3 @@ This activity allows when a string (under text format) occurs once or more than 
 **Result**
 
 * **Found (Boolean)**- Found information indicates whether the to-be-replaced text or keyword was found or not.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

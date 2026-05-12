@@ -1,4 +1,12 @@
-# Check True - akaBot Docs
+---
+id: check-true
+title: "Check True"
+sidebar_label: "Check True"
+sidebar_position: 3
+description: "Check True activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Check True
 
 RCA.Activities.Core.CheckTrue
 

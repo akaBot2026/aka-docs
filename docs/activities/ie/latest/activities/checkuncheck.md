@@ -1,4 +1,12 @@
-# Check/Uncheck - akaBot Docs
+---
+id: checkuncheck
+title: "Check/Uncheck"
+sidebar_label: "Check/Uncheck"
+sidebar_position: 2
+description: "Check/Uncheck activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Check/Uncheck
 
 RCA.Activities.IE.CheckUncheck
 
@@ -42,8 +50,3 @@ The Check/Uncheck activity allows you to check or uncheck a Checkbox.
 * **ScrollIntoView (Checkbox)** - If selected, the screen will automatically scroll to the desired element on the screen.
 * **Scroll Width (Int32)**\* - The minimum width of the element would require in order to fit all the content in the viewport. To input a number equals to the amount of pixels to scroll horizontally. A negative value is to scroll to the leftwards, a positive value is to scroll rightwards.  
   Ex: 20
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

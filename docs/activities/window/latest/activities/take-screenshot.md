@@ -1,4 +1,12 @@
-# [27]Take Screenshot - akaBot Docs
+---
+id: take-screenshot
+title: "Take Screenshot"
+sidebar_label: "Take Screenshot"
+sidebar_position: 27
+description: "Take Screenshot activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Take Screenshot
 
 RCA.Activities.Windows.TakeScreenshot
 
@@ -54,9 +62,3 @@ The Take Screenshot activity allows you to take a screenshot of a window.
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

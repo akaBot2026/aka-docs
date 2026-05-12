@@ -1,4 +1,12 @@
-# [16]Extract Data - akaBot Docs
+---
+id: extract-data
+title: "Extract Data"
+sidebar_label: "Extract Data"
+sidebar_position: 16
+description: "Extract Data activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Extract Data
 
 RCA.Activities.Browser.ExtractData
 
@@ -38,9 +46,3 @@ The Extract Data activity allows you to get data from a specified webpage.
 **Output**
 
 * **Output Json (String)\***- The outputted data with type = ‘String’. Not allow white space in output’s name.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

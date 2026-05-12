@@ -1,4 +1,12 @@
-# Get Exchange Email Messages - akaBot Docs
+---
+id: get-exchange-email-messages
+title: "Get Exchange Email Messages"
+sidebar_label: "Get Exchange Email Messages"
+sidebar_position: 2
+description: "Get Exchange Email Messages activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Exchange Email Messages
 
 RCA.Activities.Mail.GetExchangeEmailMessage
 
@@ -24,8 +32,8 @@ EWS
 
 Please refer to these link to know more about EWS
 
-1. <https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-set-the-ews-service-url-by-using-the-ews-managed-api>
-2. <https://docs.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2010/dd877045(v=exchg.140>)
+1. https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-set-the-ews-service-url-by-using-the-ews-managed-api
+2. https://docs.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2010/dd877045(v=exchg.140)
 
 **Host**
 
@@ -56,9 +64,4 @@ Please refer to these link to know more about EWS
 
 **Output**
 
-* **Messages (List< MailMessage >)** - The retrieved messages as a collection of MailMessage objects.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)
+* **Messages (`List<MailMessage>`)** - The retrieved messages as a collection of MailMessage objects.

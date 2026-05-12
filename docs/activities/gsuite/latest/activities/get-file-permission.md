@@ -1,4 +1,12 @@
-# Get File Permission - akaBot Docs
+---
+id: get-file-permission
+title: "Get File Permission"
+sidebar_label: "Get File Permission"
+sidebar_position: 10
+description: "Get File Permission activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get File Permission
 
 RCA.Activities.GSuite.GetFilePermission
 
@@ -33,9 +41,3 @@ This activity allows getting permission for a specified file if requested.
 **Ouput**
 
 * **Result (String)** - The permissions of the specified file. This property supports Google Permission array variables
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

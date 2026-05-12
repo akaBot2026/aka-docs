@@ -1,4 +1,12 @@
-# Set Web Attribute - akaBot Docs
+---
+id: set-web-attribute
+title: "Set Web Attribute"
+sidebar_label: "Set Web Attribute"
+sidebar_position: 19
+description: "Set Web Attribute activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Set Web Attribute
 
 RCA.Activities.IE.SetWebAttribute
 
@@ -46,8 +54,3 @@ Sets the value of a specified web attribute.
 * **Scroll Into View (Checkbox)**- If selected, the screen will automatically scroll to the desired element on the screen.
 * **Scroll Width (Int32)**- Scroll before getting the element. To input a number equals to the amount of pixels to scroll horizontally. A negative value is to scroll to the leftwards, a positive value is to scroll rightwards.  
   **Ex**: 20
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

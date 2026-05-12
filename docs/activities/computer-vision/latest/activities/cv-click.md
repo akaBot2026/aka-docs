@@ -1,4 +1,12 @@
-# CV Click - akaBot Docs
+﻿---
+id: cv-click
+title: "CV Click"
+sidebar_label: "CV Click"
+sidebar_position: 2
+description: "CV Click activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# CV Click
 
 RCA.Activities.ComputerVision.CVClick
 
@@ -29,7 +37,7 @@ Clicks a specified UI element which is targeted by using the Computer Vision neu
 **Input**
 
 * **Click Type (Dropdown List)** - Specifies the type of mouse click (single, double, up, down) used when simulating the click event. By default, single click is selected.
-* **Descriptor (String)** - The on-screen coordinates of the **Target**and each **Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the **Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
+* **Descriptor (String)** - The on-screen coordinates of the ** Target**and each ** Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the ** Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
 * **MouseButton (Dropdown List)** - The mouse button (left, right, middle) used for the click action. By default, the left mouse button is selected.
 * **Offset Point(String)** - Offset point for click-related activities.
 
@@ -43,9 +51,3 @@ Clicks a specified UI element which is targeted by using the Computer Vision neu
 
 * **InputRegion (Rectangle)**- Receives the target of another CV activity stored in a *Rectangle*variable, using it as a target for this activity. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier. If a variable is set to this field, the current target and anchor elements of the activity are disabled. This field supports only *Rectangle*variables.
 * **OutputRegion (Rectangle)**- Saves the target of this activity as a Rectangle variable. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

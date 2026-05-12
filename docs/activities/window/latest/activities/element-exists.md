@@ -1,4 +1,12 @@
-# [20]Element Exists - akaBot Docs
+---
+id: element-exists
+title: "Element Exists"
+sidebar_label: "Element Exists"
+sidebar_position: 20
+description: "Element Exists activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Element Exists
 
 RCA.Activities.Windows.ElementExists
 
@@ -56,9 +64,3 @@ The Element Exists activity allows you to verify whether a specified window elem
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

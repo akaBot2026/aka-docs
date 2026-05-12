@@ -1,4 +1,12 @@
-# Click - akaBot Docs
+﻿---
+id: click
+title: "Click"
+sidebar_label: "Click"
+sidebar_position: 3
+description: "Click activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Click
 
 RCA.Activities.IE.Click
 
@@ -24,7 +32,7 @@ The Click activity is used to send a click action into a webpage.
 
 **Input**
 
-* **Mouse Button (Dropdown List)**– Select the action to click  
+* **Mouse Button (Dropdown List)** – Select the action to click  
   ・LEFT - Sets the action to click using the left mouse button.  
   ・RIGHT – Sets the action to click using the right mouse button.  
   ・MIDDLE – Sets the action to click using the middle mouse button.
@@ -48,8 +56,3 @@ The Click activity is used to send a click action into a webpage.
 * **Scroll IntoView (Checkbox)** - If selected, the screen will automatically scroll to the desired element on the screen.
 * **Scroll Width (Number)**- Scroll before getting the element. To input a number equals to the amount of pixels to scroll horizontally. A negative value is to scroll to the leftwards, a positive value is to scroll rightwards.  
   Ex: 20
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@mdx-js/mdx": "^3.0.0"
+  }
+}

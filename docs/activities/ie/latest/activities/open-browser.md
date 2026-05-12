@@ -1,4 +1,12 @@
-# Open Browser - akaBot Docs
+---
+id: open-browser
+title: "Open Browser"
+sidebar_label: "Open Browser"
+sidebar_position: 15
+description: "Open Browser activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Open Browser
 
 RCA.Activities.IE.OpenBrowser
 
@@ -41,8 +49,3 @@ The Open Browser activity of IE allows you to navigate to a specified URL by lau
 **Output**
 
 * **IEBrowser (Browser)** - Output of activity in which Browser opens and interacts. All information as requested could be stored as browser session. Only the Browser variable type is supported.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)
