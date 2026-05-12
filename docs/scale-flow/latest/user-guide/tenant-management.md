@@ -31,7 +31,7 @@ If you only have `tenant.view`, the page is read-only.
 
 ## Open Tenant Management
 
-![Tenant Management overview](/img/tenant-management.png)
+![Tenant Management overview](/img/tenant-manage.png)
 
 1. In the left sidebar, open **Organization**.
 2. Select **Tenant Management**.
