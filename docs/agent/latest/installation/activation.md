@@ -6,16 +6,16 @@ sidebar_position: 4
 description: "Activation documentation."
 displayed_sidebar: agentSidebar
 ---
-# [4] Activation - akaBot Docs
+# Activation - akaBot Docs
 
 ## **Before you start**
 
 **Please choose activation method suitable for you as below:**
 
 1. **Standard (or Standalone) license:**
-   * If your akaBot Agent computer **(device A)** has an**active internet connection,**you can use **Online Activation** methodfor a convient and quick activation.
-   * If your akaBot Agent computer isunable to connect to the Internet, use **Offline activation** method. To activate successfully, you need to ensure:
-     1. Have another Internet-connected device**(device B)**to get license file from akaBot license management system.
+   * If your akaBot Agent computer **(device A)** has an **active internet connection,** you can use **Online Activation** methodfor a convient and quick activation.
+   * If your akaBot Agent computer is unable to connect to the Internet, use **Offline activation** method. To activate successfully, you need to ensure:
+     1. Have another Internet-connected device **(device B)** to get license file from akaBot license management system.
      2. Have connection between device A and device B to transfer license file from device B to device A.
 2. **Enterprise (or Network) license**   
    You can activate through **your own** **akaBot Center**. Please make sure that your akaBot Agent computer has an active connection to your akaBot Center.  
@@ -67,18 +67,18 @@ If below error message appears, please check your network connection.
 
 ![image-20230718223155-8.png](/img/46649e_image-20230718223155-8.png)
 
-**Step 4 - Copy**the **Activation Request**below and hit Next:
+**Step 4** - **Copy** the **Activation Request** below and hit Next:
 
 ![image-20230718223155-9.png](/img/272a55_image-20230718223155-9.png)
 
 ![image-20230718223155-10.png](/img/c1d57c_image-20230718223155-10.png)
 
-**Step 5 –**Copy the Activation Request to an Internet Access Device (Device B).
+**Step 5 –** Copy the Activation Request to an Internet Access Device (Device B).
 
 **On the device B:**
 
 **Step 6** - Go to <https://aegis.akabot.io/#/activation>.  
-**Paste**the **Activation Request** you have copied from AkaBot Agent computer (device A), select Captcha then **Download File**to download Activation Response file (named activate.txt).
+**Paste**the **Activation Request** you have copied from AkaBot Agent computer (device A), select Captcha then **Download File** to download Activation Response file (named activate.txt).
 
 ![image-20230718223155-11.png](/img/ab2866_image-20230718223155-11.png)
 
@@ -102,7 +102,7 @@ After **successful** activation, akaBot Agent shows below message.
 
 **Step 2** – Fill license information:
 
-1. **Center URL:**Your akaBot Center’s URL
+1. **Center URL:** Your akaBot Center’s URL
 2. **License Key**: Please enter the license key provided in the Licensing Email.
 3. **Network Options (Optional)**: If you use Proxy Server, please fill in the Proxy Info under ***Network Options***.
 4. Hit button “Activate”

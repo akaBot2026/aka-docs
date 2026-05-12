@@ -2,7 +2,7 @@
 id: setting-up-windows-server-for-high-density-agents
 title: "Setting Up Windows Server for High-Density Agents"
 sidebar_label: "Setting Up Windows Server for High-Density Agents"
-sidebar_position: 5
+sidebar_position: 3
 description: "Setting Up Windows Server for High-Density Agents documentation."
 displayed_sidebar: agentSidebar
 ---

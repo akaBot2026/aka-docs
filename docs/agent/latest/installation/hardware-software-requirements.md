@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "Hardware & Software Requirements documentation."
 displayed_sidebar: agentSidebar
 ---
-# [1] Hardware & Software Requirements - akaBot Docs
+# Hardware & Software Requirements - akaBot Docs
 
 ## **Hardware Requirements**
 

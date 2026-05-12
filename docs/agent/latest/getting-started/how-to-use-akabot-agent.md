@@ -6,7 +6,7 @@ sidebar_position: 2
 description: "How to use akaBot Agent documentation."
 displayed_sidebar: agentSidebar
 ---
-# [2] How to use akaBot Agent - akaBot Docs
+# How to use akaBot Agent - akaBot Docs
 
 ## **Introduction**
 
@@ -127,7 +127,7 @@ After choosing "Run in PiP", a new session opens and you can choose whether or n
 
 ![328420978_738762340828688_4227970519572779063_n.png](/img/e9d235_328420978_738762340828688_4227970519572779063_n.png)
 
-**Note:**After closing the PiP session, all the settings related to location, the session's size,  taking control, keeping on top, PiP Mode Resolution, Signing Off After Finish, and Closing PiP After Finish will be kept for the next running.
+**Note:** After closing the PiP session, all the settings related to location, the session's size,  taking control, keeping on top, PiP Mode Resolution, Signing Off After Finish, and Closing PiP After Finish will be kept for the next running.
 
 **Known Issues and Limitations**
 

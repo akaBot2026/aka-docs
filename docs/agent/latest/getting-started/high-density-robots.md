@@ -6,7 +6,7 @@ sidebar_position: 3
 description: "High-Density Agents documentation."
 displayed_sidebar: agentSidebar
 ---
-# [3]High-Density Agents - akaBot Docs
+# High-Density Agents - akaBot Docs
 
 For a better use of a machines's computing power, Agents can be configured in High-Density mode. This way, regardless of the machine's Windows Server version. If you have multiple users on it, a Agent can be registered under each user so that you can make the most out of the computing power available on that machine.
 

@@ -2,11 +2,11 @@
 id: how-to-use-desktop-trigger
 title: "How to use Desktop Trigger"
 sidebar_label: "How to use Desktop Trigger"
-sidebar_position: 3
+sidebar_position: 2
 description: "How to use Desktop Trigger documentation."
 displayed_sidebar: agentSidebar
 ---
-# [3] How to use Desktop Trigger - akaBot Docs
+# How to use Desktop Trigger - akaBot Docs
 
 ## **Desktop trigger Overview**
 

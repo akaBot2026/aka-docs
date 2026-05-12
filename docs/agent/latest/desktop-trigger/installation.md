@@ -2,7 +2,7 @@
 id: installation
 title: "Installation"
 sidebar_label: "Installation"
-sidebar_position: 4
+sidebar_position: 3
 description: "Installation documentation."
 displayed_sidebar: agentSidebar
 ---

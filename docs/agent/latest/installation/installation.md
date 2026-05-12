@@ -6,13 +6,13 @@ sidebar_position: 2
 description: "Installation documentation."
 displayed_sidebar: agentSidebar
 ---
-# [2] Installation - akaBot Docs
+# Installation - akaBot Docs
 
 ## **Before you Start**
 
 1. akaBot Studio & Agent are included in the **same** installer. This guideline is used for installing both components in both **Standard (or Standalone)** & **Enterprise (or Network) Edition.**
 
-2. Kindly make sure your computer fulfilling the **[hardware and software requirements](https://docs.akabot.com/bin/view/akaBot%20Studio/%5B3%5D%20Studio%20Installation/Installation/#)**before installing.
+2. Kindly make sure your computer fulfilling the **[hardware and software requirements](https://docs.akabot.com/bin/view/akaBot%20Studio/%5B3%5D%20Studio%20Installation/Installation/#)** before installing.
 
 3. Kindly make sure that you had an **akaBot licensing email** including the Installer download link. If not yet, **[request a 2-month trial license](https://akabot.com/request-trial/)** for temporary use.
 
@@ -26,7 +26,7 @@ Watch below video guide for more intuitive installing instruction:
 
 **Step 1** - Download the installer from the link provided in the Licensing Email
 
-**Step 2** - Extract the zipped file and run the setup*as Administrator*.
+**Step 2** - Extract the zipped file and run the setup as *Administrator*.
 
 ![1689060128056-950.png](/img/b326f1_1689060128056-950.png)
 
@@ -42,7 +42,7 @@ Go back to step 2 to re-start the installing.
 
 ![image-20230711142249-2.png](/img/a48464_image-20230711142249-2.png)
 
-**Step 5 –**Read the license agreement carefully. If you accept the terms, select “I agree” then “Next”, otherwise, hit “Cancel”.
+**Step 5 -** Read the license agreement carefully. If you accept the terms, select “I agree” then “Next”, otherwise, hit “Cancel”.
 
 ![image-20230711142249-3.png](/img/c6422c_image-20230711142249-3.png)
 
