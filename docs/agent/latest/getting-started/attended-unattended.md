@@ -1,12 +1,12 @@
 ---
 id: 
-title: "Attended vs Unattended Agent"
-sidebar_label: "Attended vs Unattended Agent"
+title: "attended-unattended"
+sidebar_label: "attended-unattended"
 sidebar_position: 6
-description: "Attended vs Unattended documentation."
+description: "attended-unattended documentation."
 displayed_sidebar: agentSidebar
 ---
-# Attended vs Unattended Agent
+# Attended - Unattended Agent
 
 ## Content
 

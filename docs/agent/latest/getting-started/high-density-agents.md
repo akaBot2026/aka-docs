@@ -1,5 +1,5 @@
 ---
-id: high-density-robots
+id: high-density-agents
 title: "High-Density Agents"
 sidebar_label: "High-Density Agents"
 sidebar_position: 3
