@@ -2,11 +2,11 @@
 id: uninstallation
 title: "Uninstallation"
 sidebar_label: "Uninstallation"
-sidebar_position: 6
+sidebar_position: 3
 description: "Uninstallation documentation."
 displayed_sidebar: agentSidebar
 ---
-# [6] Uninstallation - akaBot Docs
+# Uninstallation
 
 **Step 1:** To uninstall akaBot, we should open Control Panel by type in Search bar
 
