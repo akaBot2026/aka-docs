@@ -1,4 +1,12 @@
-# [11]Get Menu - akaBot Docs
+---
+id: get-menu
+title: "Get Menu"
+sidebar_label: "Get Menu"
+sidebar_position: 11
+description: "Get Menu activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Menu
 
 RCA.Activities.Windows.GetMenu
 
@@ -34,8 +42,3 @@ The Get Menu activity allows you to select the menu of a specified window elemen
 **Output**
 
 * **Output Menu (WindowApp)\***- The output menu. This property supports variable with type = ‘Menu’.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

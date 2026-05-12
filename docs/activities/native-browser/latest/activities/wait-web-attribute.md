@@ -1,4 +1,12 @@
-# Wait Web Attribute (NB) - akaBot Docs
+---
+id: wait-web-attribute
+title: "Wait Web Attribute (NB)"
+sidebar_label: "Wait Web Attribute (NB)"
+sidebar_position: 28
+description: "Wait Web Attribute (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Wait Web Attribute (NB)
 
 RCA.Activities.NativeBrowser.WaitWebAttribute
 
@@ -41,9 +49,3 @@ The Wait Web Attribute waits for the value of a specified web attribute to be en
 
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is uncheck.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

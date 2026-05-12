@@ -1,4 +1,12 @@
-# Get Python Object - akaBot Docs
+---
+id: get-python-object
+title: "Get Python Object"
+sidebar_label: "Get Python Object"
+sidebar_position: 1
+description: "Get Python Object activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Python Object
 
 RCA.Activities.Python.GetObject
 
@@ -26,8 +34,3 @@ This Invoke Python Method activity converts a Python. Object variable which retu
 **Output**
 
 * **Result (Object)** - The PythonObject variable converted to the .NET type variable selected in the TypeArgument property.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

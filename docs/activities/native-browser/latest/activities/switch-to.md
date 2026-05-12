@@ -1,4 +1,12 @@
-# Switch To (NB) - akaBot Docs
+---
+id: switch-to
+title: "Switch To (NB)"
+sidebar_label: "Switch To (NB)"
+sidebar_position: 21
+description: "Switch To (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Switch To (NB)
 
 RCA.Activities.NativeBrowser.SwitchTo
 

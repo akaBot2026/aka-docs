@@ -1,4 +1,12 @@
-# Change Labels - akaBot Docs
+---
+id: change-labels
+title: "Change Labels"
+sidebar_label: "Change Labels"
+sidebar_position: 1
+description: "Change Labels activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Change Labels
 
 RCA.Activities.GSuite.ChangeLabels
 
@@ -23,8 +31,3 @@ This activity allows you to update labels for specified email or overwrite exist
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   **E.g**: [91353453] Change Labels
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

@@ -1,4 +1,12 @@
-# Switch To - akaBot Docs
+---
+id: switch-to
+title: "Switch To"
+sidebar_label: "Switch To"
+sidebar_position: 20
+description: "Switch To activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Switch To
 
 RCA.Activities.IE.SwitchTo
 
@@ -27,8 +35,3 @@ The Switch To activity allows you to switch between different UI Elements within
 * **Public (Checkbox)**- Check if you want to publicize it. Remember to consider data security requirements before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   **Ex**: [333212312] Switch To
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

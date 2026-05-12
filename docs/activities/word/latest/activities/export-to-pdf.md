@@ -1,4 +1,12 @@
-# Export to PDF - akaBot Docs
+---
+id: export-to-pdf
+title: "Export to PDF"
+sidebar_label: "Export to PDF"
+sidebar_position: 3
+description: "Export to PDF activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Export to PDF
 
 RCA.Activities.Word.ExportToPDF
 
@@ -29,8 +37,3 @@ This activity allows exporting assigned documents in PDF format. This activity i
 **Common**
 
 * **Continue On Error (Boolean)**- This property specifies when the automation keeps going if it has an error. Only have two possible values: True or False. True - allows the rest of the process to continue the execution even an error occurs within the activity. False (default) - blocks the process from continuing the execution.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

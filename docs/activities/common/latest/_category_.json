@@ -1,0 +1,10 @@
+{
+  "label": "Common",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Common activity package that can automate browser (Chrome, Edge, Firefox), window, Java (64-bit), Internet Explorer, SAP applications"
+  }
+}

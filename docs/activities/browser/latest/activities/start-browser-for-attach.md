@@ -1,12 +1,14 @@
-# [02]Start Browser For Attach - akaBot Docs
+---
+id: start-browser-for-attach
+title: "Start Browser For Attach"
+sidebar_label: "Start Browser For Attach"
+sidebar_position: 2
+description: "Start Browser For Attach activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Start Browser For Attach
 
 RCA.Activities.Browser.StartBrowserForAttach
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)
 
 ## **Description**
 

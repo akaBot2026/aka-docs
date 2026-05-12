@@ -1,4 +1,12 @@
-# Inject JavaScript (NB) - akaBot Docs
+---
+id: inject-javascript
+title: "Inject JavaScript (NB)"
+sidebar_label: "Inject JavaScript (NB)"
+sidebar_position: 13
+description: "Inject JavaScript (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Inject JavaScript (NB)
 
 RCA.Activities.NativeBrowser.InjectJs
 
@@ -37,9 +45,3 @@ The Inject JavaScript allows you to inject JavaScript on a webpage.
 **Output**
 
 * **Script Output (String)** - The outputted Script File with type = ‘String’.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

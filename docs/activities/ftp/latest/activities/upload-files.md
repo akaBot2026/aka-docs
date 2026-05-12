@@ -1,4 +1,12 @@
-# Upload Files - akaBot Docs
+---
+id: upload-files
+title: "Upload Files"
+sidebar_label: "Upload Files"
+sidebar_position: 7
+description: "Upload Files activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Upload Files
 
 RCA.Activities.FTP.UploadFiles
 
@@ -38,8 +46,3 @@ This activity allows you to upload multiple files to FTP server
 
 * **Remote Path (String)\***- The path on the FTP server where the file is to be uploaded.  
   E.g: “/myftpurl.com/wwwroot/myRemoteFolder/”
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

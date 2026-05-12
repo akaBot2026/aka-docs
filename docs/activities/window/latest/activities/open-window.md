@@ -1,3 +1,11 @@
+﻿---
+id: open-window
+title: "Open Window"
+sidebar_label: "Open Window"
+sidebar_position: 20
+description: "Open Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
 # Open Window
 
 ## RCA.Activities.Windows.OpenWindow
@@ -67,5 +75,5 @@ The **Open Window** activity allows you to open an application and execute multi
 ### Output
 
 - **Application Window (WindowApp)\*** – Output variable of type `WindowApp`.  
-  This variable can be used in other activities such as **Attach Window** or **Use Window**.  
+  This variable can be used in other activities such as **Attach Window** or ** Use Window**.  
   ⚠️ Do not include whitespace in the output variable name.

@@ -1,32 +1,50 @@
 ---
 id: report
-title: Report
-sidebar_label: Report
+title: "Report"
+sidebar_label: "Report"
 sidebar_position: 2
+description: "Report documentation."
 displayed_sidebar: centerSidebar
 ---
+# Report
 
-The Report page in akaBot Center provides structured, exportable data summaries of automation execution activity. While the Productivity page offers live dashboards, this page focuses on generating historical data summaries that can be shared outside the platform — for example, with management, compliance teams, or external auditors. Data can be scoped to specific date ranges, workflows, agents, or organizational units, and can be exported in standard formats for further processing.
+**Report** provides activity statistic information about the **Agents & Workflows**which are currently being connected to Center. Here, you can get information such as the number of successful tasks, a number of tasks that are running, stopped, or faulted. You can also check the total number of task that was run by the selected Agent or Workflows
 
-Each record presents a tabular breakdown of execution entries including workflow name, agent, start time, end time, duration, final status, and any error messages. This level of detail is essential for troubleshooting recurring failures, auditing automation activity for regulatory compliance, or performing capacity planning. Teams can use this data to identify patterns such as consistently slow executions on certain machines or workflows that fail at high rates during specific time windows.
+You can get your reports by **Agent** and **Workflow**. To access the **Report** page, click on the **Report** tab in the left menu.
 
-akaBot Center allows users to save filter configurations as templates, making it easy to regenerate the same data view on a weekly or monthly basis without re-entering filter criteria. Scheduled delivery — where a data export is automatically generated and emailed to a distribution list — can be configured in conjunction with the Webhook feature to integrate this capability into existing business processes.
+## **a. Report for Agent**
 
-## Execution Record Fields
+Users can view Agent Report by going to **Report** tab > Select **Agent** tab.
 
-| Field | Description |
-|---|---|
-| Workflow Name | Name of the workflow that was executed |
-| Agent | Name of the agent that ran the job |
-| Start Time | Timestamp when execution began |
-| End Time | Timestamp when execution completed or failed |
-| Duration | Total elapsed time of the execution |
-| Status | Final execution status (Successful, Failed, Stopped) |
-| Error Message | Error details if the execution failed |
-| Organization Unit | The OU that the workflow belongs to |
+![image-20221101161308-7.png](/img/550df6_image-20221101161308-7.png)
 
-## Available Export Formats
+| No | Column | Description |
+| --- | --- | --- |
+| 1 | Agent Name | The name of the Agent which activities is reported |
+| 2 | Workflow Name | The name of the Workflow which activities is reported |
+| 3 | Task Successful | The total number of tasks that are successfully executed. |
+| 4 | Task Running | The total number of tasks that are currently executing |
+| 5 | Task Stopped | The total number of tasks that have been stopped |
+| 6 | Task Faulted | The total number of tasks that experienced errors during execution |
+| 7 | Total | The total number of tasks that are initiated until now. |
 
-- **CSV** — for analysis in Excel or BI tools
-- **PDF** — for formal documentation and archiving
-- **JSON** — for programmatic consumption by other systems
+To get the report, you can use the filter at the top of the page.
+
+![image-20221101161709-9.png](/img/5b079b_image-20221101161709-9.png)
+
+| No | Column /Label | Description | Type | Maximum | Input Requirement |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Start Date | From which date you want to get the agent’s activity statistics. | Date & Time |  |  |
+| 2 | End Date | To which date you want to get the agent’s activity statistics. | Date & Time |  |  |
+| 3 | Select Agent Group | Select the agent group in which you want to see activity statistics. | Input searching | No limit |  |
+| 4 | Select Agent | Select the agent of which you want to see activity statistics | Input searching | No limit |  |
+| 5 | View report | Click **View** for the report to be generated |  |  |  |
+| 6 | Export | Download the report |  |  |  |
+
+The Report will be downloaded to your local machine and shall be open:
+
+![image-20230704161007-1.png](/img/ee307e_image-20230704161007-1.png)
+
+## **b. Report for Workflow**
+
+Similar to Agent Report above. Please scroll up to read.

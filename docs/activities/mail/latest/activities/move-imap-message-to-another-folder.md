@@ -1,4 +1,12 @@
-# [07]Move IMAP Message To Another Folder - akaBot Docs
+---
+id: move-imap-message-to-another-folder
+title: "Move IMAP Message To Another Folder"
+sidebar_label: "Move IMAP Message To Another Folder"
+sidebar_position: 7
+description: "Move IMAP Message To Another Folder activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Move IMAP Message To Another Folder
 
 RCA.Activities.Mail.MoveIMAPMessageToFolder
 
@@ -49,8 +57,3 @@ This activity allows you to move an IMAP Message to an another folder.
 **Option**
 
 * **Secure Connection (DropDown List)** - Specifies when the SSL/TLS encryption are used. It contains: None, Auto, SslOnConnect, StartTls, StartTlsWhenAvailable
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

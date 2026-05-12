@@ -159,19 +159,42 @@ locales.
 
 ### Maintainer tools (`scripts/`)
 
-Two helpers run as plain Node scripts (Node 20+, no install needed):
+Three helpers live in `scripts/`. All require **Node 20+**.
+
+#### MDX compilation check (`validate-mdx.mjs`)
+
+Compiles every `.md` / `.mdx` file with the same MDX parser Docusaurus uses.
+Catches JSX syntax errors (unclosed tags, illegal characters in tag names, etc.)
+before they reach the build repo.
 
 ```bash
-# Validate before merging a PR — checks names, sizes, and broken refs.
-node scripts/validate-media.mjs
+# one-time setup
+cd scripts && npm install && cd ..
 
-# Find unused files in static/ and optionally delete them.
-node scripts/clean-media.mjs              # interactive
-node scripts/clean-media.mjs --dry-run    # report only
+# run the check (from repo root)
+node scripts/validate-mdx.mjs
 ```
 
-Maintainers should run **`validate-media.mjs`** on any PR that adds or moves
-media. CI can be wired up to run it automatically — ask the maintainer team.
+Also runs automatically on every PR and push to `main` via CI.
+
+#### Media validation (`validate-media.mjs`)
+
+Checks filenames, sizes, and broken image/file references. No install needed.
+
+```bash
+node scripts/validate-media.mjs
+```
+
+Run on any PR that adds, renames, or removes files under `static/`.
+
+#### Unused media cleanup (`clean-media.mjs`)
+
+Finds files in `static/` that no markdown page references.
+
+```bash
+node scripts/clean-media.mjs              # interactive
+node scripts/clean-media.mjs --dry-run    # report only, no deletions
+```
 
 ## Markdown frontmatter
 

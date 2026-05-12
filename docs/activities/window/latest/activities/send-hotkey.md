@@ -1,4 +1,12 @@
-# [14]Send Hot Key - akaBot Docs
+---
+id: send-hotkey
+title: "Send Hot Key"
+sidebar_label: "Send Hot Key"
+sidebar_position: 14
+description: "Send Hot Key activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Send Hot Key
 
 RCA.Activities.Windows.SendHotKey
 
@@ -61,9 +69,3 @@ The Send Hot Key activity allows you to send a keyboard shortcuts to a window el
 * **Wait For Disable (Checkbox)** - Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

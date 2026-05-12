@@ -1,4 +1,12 @@
-# Click (NB) - akaBot Docs
+---
+id: click
+title: "Click (NB)"
+sidebar_label: "Click (NB)"
+sidebar_position: 3
+description: "Click (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Click (NB)
 
 RCA.Activities.NativeBrowser.Click
 
@@ -50,9 +58,3 @@ The Click activity is used to send a click action into a webpage.
 * **Is Synchronous (Checkbox)** – A Boolean variable has two possible values: True or False. True - allows the click handlers to complete before continue with the execution of the activity. False (default) - blocks the process from continuing the execution.
 * **Key Modifier (KeyModifiers)** - Enables you to add a key modifier. The following options are available: Alt, Ctrl, Shift, Win.
 * **Simulate Click (Checkbox)** - If selected, it simulates the click by using the technology of the target application. This input method is the fastest of the three and works in the background. If not selected, the click will be performed using the hardware driver. This method is the slowest, it cannot work in the background, but it is compatible with all desktop apps. By default, this check box is selected.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

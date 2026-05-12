@@ -1,4 +1,12 @@
-# Select Item (NB) - akaBot Docs
+---
+id: select-item
+title: "Select Item (NB)"
+sidebar_label: "Select Item (NB)"
+sidebar_position: 18
+description: "Select Item (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Select Item (NB)
 
 RCA.Activities.NativeBrowser.SelectItem
 
@@ -45,9 +53,3 @@ The Select Item activity allows you to select an item from a combo box or list b
 
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is uncheck.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

@@ -1,4 +1,12 @@
-# Element Exists - akaBot Docs
+---
+id: element-exists
+title: "Element Exists"
+sidebar_label: "Element Exists"
+sidebar_position: 3
+description: "Element Exists activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Element Exists
 
 RCA.Activities.Java.ElementExists
 
@@ -30,7 +38,7 @@ This activity allows you to check if the element exists in a Java file
            Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 
@@ -41,8 +49,3 @@ Text
 **Output**
 
 * **Exist (Boolean)** - Check if the element exists in the file. Boolean supported only.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

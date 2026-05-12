@@ -1,4 +1,12 @@
-# Element Exist (NB) - akaBot Docs
+---
+id: element-exist
+title: "Element Exist (NB)"
+sidebar_label: "Element Exist (NB)"
+sidebar_position: 5
+description: "Element Exist (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Element Exist (NB)
 
 RCA.Activities.NativeBrowser.ElementExist
 
@@ -40,9 +48,3 @@ The Element Exist allows you to confirm whether an element exist.
 **Output**
 
 * **Exists (Boolean)** - Check if the element exists in the file. Boolean supported only.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

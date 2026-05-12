@@ -1,4 +1,12 @@
-# Set Content Control - akaBot Docs
+---
+id: set-content-control
+title: "Set Content Control"
+sidebar_label: "Set Content Control"
+sidebar_position: 9
+description: "Set Content Control activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Set Content Control
 
 RCA.Activities.Word.SetContentControl
 
@@ -30,8 +38,3 @@ This activity allows you to add content to a specific Content Control within the
 **Output**
 
 * **Result (Boolean)** – The result of the activity. Only returns two values: True or False. True- The value has been successfully added. False – The value has not been added successfully.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

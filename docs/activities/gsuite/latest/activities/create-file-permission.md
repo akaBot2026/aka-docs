@@ -1,4 +1,12 @@
-# Create File Permission - akaBot Docs
+﻿---
+id: create-file-permission
+title: "Create File Permission"
+sidebar_label: "Create File Permission"
+sidebar_position: 3
+description: "Create File Permission activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Create File Permission
 
 RCA.Activities.GSuite.CreateFilePermission
 
@@ -40,7 +48,7 @@ This activity allows you to create a permission for the specified file in Google
 
 **Options**
 
-* **Email Message (String)**- The message content that you want to send when there is an update to the file permissions. This property supports String variables and string formatted values. The default value is "A new permission has been created, and you are the recipient!". This property is only required if **SendNotificationEmail** is selected.  
+* **Email Message (String)**- The message content that you want to send when there is an update to the file permissions. This property supports String variables and string formatted values. The default value is "A new permission has been created, and you are the recipient!". This property is only required if ** SendNotificationEmail** is selected.  
   E.g: "A new permission has been created, and you are the recipient!"
 * **SendNotificationEmail (Checkbox)**- If selected, an email notification is sent to the entities with permission.
 * **UseDomainAdminAccess (Checkbox)** - If selected, the requester is granted access if they are an administrator of the domain to which the file belongs.
@@ -48,9 +56,3 @@ This activity allows you to create a permission for the specified file in Google
 **Output**
 
 * **Result (String)** - The granted permissions. This property supports Google Permission variables.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

@@ -1,8 +1,9 @@
 ---
 id: high-density-agents
-title: High-Density Agents Setup
-sidebar_label: High-Density Agents Setup
+title: "High-Density Agents Setup"
+sidebar_label: "High-Density Agents Setup"
 sidebar_position: 14
+description: "High-Density Agents Setup documentation."
 displayed_sidebar: centerSidebar
 ---
 
@@ -21,31 +22,72 @@ High-Density Agents (HDA) allow multiple robot sessions to run simultaneously on
 
 ## Setup Steps
 
-1. **Enable Remote Desktop Services**
-   - In Server Manager, add the **Remote Desktop Services** role.
-   - Configure **Session-Based Desktop Deployment** and install the RD Licensing role.
-   - Activate RDS CAL licenses through the RD Licensing Manager.
+**Step 1**: Login Center
 
-2. **Configure Session Limits**
-   - In Group Policy (`gpedit.msc`), navigate to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Remote Desktop Services**.
-   - Set the maximum number of allowed sessions to the desired concurrent agent count.
+**Step 2**: Choose the Agent tab
 
-3. **Install akaBot Agent for Each Session User**
-   - Create a dedicated Windows user account for each agent session (e.g., `agent01`, `agent02`).
-   - Log in as each user via RDP and install akaBot Agent to the user's profile directory.
-   - Configure `agent.properties` for each user with unique agent names.
+**Step 3**: Choose Agents that need to be run High-Density mode then click Edit
 
-4. **Register Agents with akaBot Center**
-   - Start each agent session. Each agent will register with akaBot Center as a separate robot.
-   - In the akaBot Center portal, navigate to **Robot Management** and assign each robot to the appropriate robot pool.
+**Step 4**: Choose and configure Agent Settings
 
-5. **Configure Robot Pools**
-   - Create a robot pool in akaBot Center to group all high-density agents on the same machine.
-   - Assign automation packages to the pool to enable load distribution across agents.
+![image-20221219091856-1.png](/img/975127_image-20221219091856-1.png)
 
-6. **Tune System Resources**
-   - Adjust Windows virtual memory settings to accommodate multiple simultaneous sessions.
-   - Monitor CPU, memory, and disk I/O during peak operation and adjust session limits accordingly.
+* **Windows Session**
+  + **Console**
+    - Choose the Console option if you want to run bot in Agent of physical machine which is used by human.
+    - In Console mode, instead of creating remote desktop session to target user, Agent will unlock the current lock screen in order to log in
+    - Screen resolution after login will have the same resolution as the current mornitor
+    - If the machine has no monitor, the activity which process image, OCR will be failed because the Windows doesn t export graphic in this case
+  + **RDP**
+    - Choose RDP option, if you want to run bots in Windows Servers with High-Density Agents. In this mode, whenever running task, Agent will create a remote desktop connection with parameters about resolution, color depth, and font smoothing to users who were defined in Agent Settings
+* **Login to Console**: Choose this option if you want bot to have permission to use mouse and keyboard.
+  + **Note**: In case there is more than 1 task running at the same time with the same request to use the mouse and keyboard, only 1 task can run successfully and the rest will be failed. Because at the same time, there is only one session have  Login to console  permission and we suggest that you should not choose this option
+* **Font Smoothing**: Make the text clearer and we recommend choosing this option
+* **Resolution width/height**: Set up the resolution width/height for session screen. This resolution should be the same as developer s screen resolution to ensure environmental uniformity. The reference value should be: width 1920, height 1080
+* **Resolution depth**: Color depth. The reference value should be: 16 or 32
+
+**Step 5**: Click Save button
+
+![image-20221219091927-2.png](/img/7318bd_image-20221219091927-2.png)
+
+**Other configuration parameters (optional)**
+
+/port:3389
+
+Remote Desktop port. Default value is 3389. If the remote desktop port has changed in your Windows machine, it s needed to specified that value.
+
+/clientType:[auto, aktsc, freerdp]
+
+Specify the client type that use to connect remote desktop session.
+
+aktsc is the application like mstsc (based on library of Microsoft).
+
+freerdp is the application that developed by open sources community.
+
+/cert-ignore
+
+Ignore remote desktop certificate warning.
+
++auto-reconnect
+
+Auto reconnect if connection is lost or not stable.
+
+/auto-reconnect-max-retries:20
+
+Maximum retry times.
+
+/rdp-timeout-sec:30
+
+Remote desktop connection timeout in seconds.
+
+/log-level:[ERROR, WARN, INFO, DEBUG]
+
+Set log level for aktsc, freerdp, AutoLogonTool applications.
+
+Example value:
+
+/port:5508 /cert-ignore +auto-reconnect /auto-reconnect-max-retries:20
+
 
 ## Notes and Warnings
 

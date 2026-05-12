@@ -1,4 +1,12 @@
-# [30]Wait Page Title - akaBot Docs
+﻿---
+id: wait-web-title
+title: "Wait Page Title"
+sidebar_label: "Wait Page Title"
+sidebar_position: 30
+description: "Wait Page Title activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Wait Page Title
 
 RCA.Activities.Browser.WaitWebTitle
 
@@ -16,7 +24,7 @@ value.
 * **Comparison Operator (Dropdown List)**- allow mathematical calculation as well as basic operations to be performed with ease  
   **・EQUALS** – The page title is exactly the same as the predefined value.  
   **・CONTAINS** – The page title contains the predefined value.  
-  **・MATCHES**– The page title has the same regular expression as the predefined value
+  **・MATCHES** – The page title has the same regular expression as the predefined value
 * **Value (String)**\* - The predefined value to verify the page title.
 
 ## **Properties**
@@ -51,9 +59,3 @@ value.
 * **Result (Boolean)** - A Boolean variable has two possible values: True or False  
   **・True** - The page title meets the requirement.  
   **・False** -The page does not meet the requirement.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

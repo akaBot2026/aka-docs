@@ -1,4 +1,12 @@
-# GSuite Application Scope - akaBot Docs
+﻿---
+id: gsuite-application-scope
+title: "GSuite Application Scope"
+sidebar_label: "GSuite Application Scope"
+sidebar_position: 12
+description: "GSuite Application Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# GSuite Application Scope
 
 RCA.Activities.GSuite.GsuiteApplicationScope
 
@@ -18,7 +26,7 @@ This activity allows you to handle the connection client and authentication for 
 
 **Input**
 
-* **Authentication Type (Dropdown List)** - A drop-down list that specifies the type of authentication you want to use to access GSuite services. The available property values are: **ApiKey, OAuthClientID**, and **ServiceAccountKey**. Depending on the authentication type selection, additional property fields may be required.
+* **Authentication Type (Dropdown List)** - A drop-down list that specifies the type of authentication you want to use to access GSuite services. The available property values are: ** ApiKey, OAuthClientID**, and ** ServiceAccountKey**. Depending on the authentication type selection, additional property fields may be required.
 * **Services (GoogleServices)** - Available services including: Gmail and Drive. Choose a proper one to fit with activity purpose.
 
 **OAuth Client ID (\*only if AuthenticationType value is OAuthClientID)**
@@ -42,8 +50,3 @@ This activity allows you to handle the connection client and authentication for 
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   **E.g**: [4523423424] GSuite Application Scope
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

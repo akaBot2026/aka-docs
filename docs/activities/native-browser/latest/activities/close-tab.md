@@ -1,4 +1,12 @@
-# Close Tab (NB) - akaBot Docs
+---
+id: close-tab
+title: "Close Tab (NB)"
+sidebar_label: "Close Tab (NB)"
+sidebar_position: 4
+description: "Close Tab (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Close Tab (NB)
 
 RCA.Activities.NativeBrowser.CloseTab
 
@@ -25,8 +33,3 @@ The Close Tab activity closes currently displayed tab in a browser.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: [23423423] Get Web Attribute
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is uncheck.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

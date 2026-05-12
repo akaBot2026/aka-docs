@@ -1,4 +1,12 @@
-# Click - akaBot Docs
+---
+id: click
+title: "Click"
+sidebar_label: "Click"
+sidebar_position: 1
+description: "Click activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Click
 
 RCA.Activities.Java.Click
 
@@ -25,7 +33,7 @@ This activity allows you to click a specified element.
   Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 
@@ -39,8 +47,3 @@ Text
 
 * **Animated Mouse (Checkbox)** - If you choose this, you can see animated mouse appear on the screen.
 * **Virtual Click (Checkbox)** - If you choose this, you can see the click when akaBot executes the action.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

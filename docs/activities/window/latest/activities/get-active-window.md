@@ -1,4 +1,12 @@
-# [04]Get Active Window - akaBot Docs
+---
+id: get-active-window
+title: "Get Active Window"
+sidebar_label: "Get Active Window"
+sidebar_position: 4
+description: "Get Active Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Active Window
 
 RCA.Activities.Windows.GetActiveWindow
 
@@ -35,9 +43,3 @@ The Get Active Window enables you to get the current active window and allows yo
 **Output**
 
 * **Output Window (WindowApp)**\* - Output of the activity with type = ‘WindowApp’. Output variable can be used in another Window Scope or Use Window property of other Window Activities. Not allow whitespace in the output’s name.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

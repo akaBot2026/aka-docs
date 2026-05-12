@@ -1,4 +1,12 @@
-# [1] Release Notes - akaBot Docs
+---
+id: release-notes
+title: "Release Notes"
+sidebar_label: "Release Notes"
+sidebar_position: 2
+description: "Release Notes activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Release Notes
 
 ## **RCA.Activities.Windows Version 2.1.2.1**
 
@@ -10,8 +18,3 @@
 * Fixed an issue in **High Light** activity when input [Duration] is nagetive integer.
 * Fixed an issue in **Get Active Window** activity which can not get active window.
 * Fixed an issue in **Move Window** activity which can't move when app can't resize.
-
-Table of Content
-
-* [RCA.Activities.Windows Version 2.1.2.1](#HRCA.Activities.WindowsVersion2.1.2.1)
-  + [Bug Fixes](#HBugFixes)

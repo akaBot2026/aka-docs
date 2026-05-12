@@ -1,4 +1,12 @@
-# Go Back (NB) - akaBot Docs
+---
+id: go-back
+title: "Go Back (NB)"
+sidebar_label: "Go Back (NB)"
+sidebar_position: 10
+description: "Go Back (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Go Back (NB)
 
 RCA.Activities.NativeBrowser.GoBack
 
@@ -25,8 +33,3 @@ The Go Back activity goes back to one URL in the history list of the current bro
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: [2446667] Go Back
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is uncheck.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

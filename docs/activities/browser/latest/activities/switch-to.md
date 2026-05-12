@@ -1,4 +1,12 @@
-# [20]Switch To - akaBot Docs
+﻿---
+id: switch-to
+title: "Switch To"
+sidebar_label: "Switch To"
+sidebar_position: 20
+description: "Switch To activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Switch To
 
 RCA.Activities.Browser.SwitchTo
 
@@ -48,10 +56,4 @@ The Switch To activity allows you to switch between different UI Elements within
 
 **Options**
 
-* **Wait Timeout MS:**Specifies the maximum time (in milliseconds) the system will wait for the target tab/window to be available before performing the switch. Enter a numeric value. E.g: 30000
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)
+* **Wait Timeout MS:** Specifies the maximum time (in milliseconds) the system will wait for the target tab/window to be available before performing the switch. Enter a numeric value. E.g: 30000

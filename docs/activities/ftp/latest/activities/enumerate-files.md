@@ -1,4 +1,12 @@
-# Enumerate Files - akaBot Docs
+---
+id: enumerate-files
+title: "Enumerate Files"
+sidebar_label: "Enumerate Files"
+sidebar_position: 5
+description: "Enumerate Files activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Enumerate Files
 
 RCA.Activities.FTP.EnumerateFiles
 
@@ -36,8 +44,3 @@ This activity allows you to get the list of files found at a specified FTP serve
 **Output**
 
 * **File (IEnumerable)** - IEnumerable variable to save the output.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

@@ -1,4 +1,12 @@
-# [05]Request Credential - akaBot Docs
+---
+id: request-credential
+title: "Request Credential"
+sidebar_label: "Request Credential"
+sidebar_position: 5
+description: "Request Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Request Credential
 
 RCA.Activities.Core.RequestCredential
 
@@ -30,8 +38,3 @@ The activity allows you to display a dialog box with a custom message and title 
 * **Password (String)**- The password added by the user, as a string variable.
 * **Username (String)** - The username added by the user, as a string variable.
 * **Result (Boolean)**- A boolean variable that lets you know if the user clicked OK or Cancel. Clicking OK returns true, while clicking Cancel returns false.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

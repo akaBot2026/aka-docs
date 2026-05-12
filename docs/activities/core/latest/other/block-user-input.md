@@ -1,4 +1,12 @@
-# Block User Input - akaBot Docs
+---
+id: block-user-input
+title: "Block User Input"
+sidebar_label: "Block User Input"
+sidebar_position: 1
+description: "Block User Input activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Block User Input
 
 RCA.Activities.Core.BlockUserInput
 

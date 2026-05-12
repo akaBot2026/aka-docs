@@ -1,70 +1,119 @@
 ---
 id: upgrade-tomcat
-title: How to Upgrade Apache Tomcat 10
-sidebar_label: How to Upgrade Apache Tomcat 10
-sidebar_position: 17
+title: "How to Upgrade Apache Tomcat 10"
+sidebar_label: "How to Upgrade Apache Tomcat 10"
+sidebar_position: 21
+description: "How to Upgrade Apache Tomcat 10 documentation."
 displayed_sidebar: centerSidebar
 ---
 
 # How to Upgrade Apache Tomcat 10
 
-Apache Tomcat is the web application server that hosts the akaBot Center application. Periodic upgrades of Tomcat are necessary to patch security vulnerabilities and maintain compatibility with the Java ecosystem. This guide explains how to safely upgrade the Tomcat instance bundled with akaBot Center to a newer Tomcat 10.x release.
+:   Upgrading Tomcat from 10 to the latest 10.1.x version (e.g., 10.1.54) is necessary to ensure system security, stability, and compatibility. Newer releases include critical security patches, bug fixes, performance improvements, and better support for modern Java versions and Jakarta EE standards, thereby reducing operational risks and improving system reliability.
 
-## Prerequisites
+### **Step 1: Stop Tomcat 10 & Back up Data**
 
-- akaBot Center installed with an embedded Apache Tomcat 10.x deployment
-- The target Tomcat 10.x release downloaded from the Apache Tomcat website (choose the same major version, e.g., 10.1.x)
-- A maintenance window scheduled — akaBot Center will be offline during the upgrade
-- A full backup of the current Tomcat `conf` directory and all custom configuration files
-- Administrator or root access to the server
+![1776754074431-378.png](/img/9be634_1776754074431-378.png)
 
-## Upgrade Steps
++ Open C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin\Tomcat10w.exe
 
-1. **Stop akaBot Center**
-   - Windows: `net stop akabotcenter`
-   - Linux: `systemctl stop akabotcenter`
-   - Confirm that the Tomcat process is no longer running.
+**+ Take a screenshot of the configuration before performing the backup.**
 
-2. **Back Up the Current Tomcat Installation**
-   - Copy the existing Tomcat directory to a backup location:
-     - e.g., `C:\akabot\center4\tomcat` → `C:\akabot\center4\tomcat_backup_<date>`
-   - Specifically ensure the following are backed up:
-     - `conf\server.xml`
-     - `conf\context.xml`
-     - `conf\web.xml`
-     - Any SSL keystore files referenced in `server.xml`
+![1776754130100-744.png](/img/7198ba_1776754130100-744.png)
 
-3. **Download and Extract the New Tomcat 10.x Release**
-   - Download the binary ZIP/tar.gz from https://tomcat.apache.org.
-   - Extract it to a temporary directory.
+![1776754151093-356.png](/img/744530_1776754151093-356.png)
 
-4. **Replace Tomcat Binaries**
-   - Copy the `bin\` and `lib\` directories from the new Tomcat release into the akaBot Center Tomcat directory, overwriting the existing files.
-   - Do NOT replace the `conf\`, `webapps\`, or `logs\` directories.
+**+ Save screenshots for later configuration.**
 
-5. **Verify Configuration Compatibility**
-   - Compare your existing `server.xml` and `web.xml` with the defaults from the new Tomcat release.
-   - Apply any required updates for removed or changed configuration elements (check the Tomcat 10.x migration notes).
+**+ Copy your current Tomcat folder to another location to create a backup before starting the upgrade.**
 
-6. **Update File Permissions (Linux Only)**
-   - Ensure the new `bin\` scripts are executable:
-     ```bash
-     chmod +x /opt/akabot/center/tomcat/bin/*.sh
-     ```
+![1776754316468-132.png](/img/1deebc_1776754316468-132.png)
 
-7. **Start akaBot Center**
-   - Windows: `net start akabotcenter`
-   - Linux: `systemctl start akabotcenter`
+Example: D:\backup\Tomcat 10.1
 
-8. **Verify the Upgrade**
-   - Check the Tomcat startup logs in the `logs\` directory.
-   - Confirm the new Tomcat version number appears in the startup log.
-   - Access the akaBot Center portal and verify it loads normally.
++ In Apps & features, search for Tomcat, select the existing version, and click **Uninstall.**
 
-## Notes and Warnings
+![1776754372540-847.png](/img/f24cde_1776754372540-847.png)
 
-> **Note:** Only upgrade within the same major version (e.g., 10.0.x to 10.1.x). Cross-major upgrades (e.g., Tomcat 9 to Tomcat 10) involve Jakarta EE namespace changes and require application code changes that must be coordinated with the akaBot product team.
+### **Step 2: Download and install Tomcat 10.1.54**
 
-> **Warning:** Do not overwrite the `conf\` directory with the new Tomcat defaults, as this would erase your custom `server.xml` settings including SSL/TLS configuration and connector ports.
+- Download Tomcat 10.1.54 (latest version 10.1.54) from the following link
 
-> **Note:** After the upgrade, test all akaBot Center functionality including robot connections, job scheduling, and the web portal to ensure no regressions were introduced by the Tomcat update.
+[https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.54/bin/apache-tomcat-10.1.54.exe](https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.54/bin/apache-tomcat-10.1.54.exe)
+
+- Install Tomcat 10.1.54, selecting the options as shown below:
+
+![1776754521478-550.png](/img/e4557d_1776754521478-550.png)
+
+### **Step 3: Configure Windows Service Name**
+
+**-** In the Apache Tomcat Setup – Configuration Options screen:
+
+* Locate the **Windows Service Name** field
+* Enter a new service name for the Tomcat 10.1.54 instance: Tomcat10
+
+![1776754787926-339.png](/img/808cb0_1776754787926-339.png)
+
+### **Step 4: Configure Java Version (JDK 17)**
+
+In case the server has multiple versions of JRE/JDK installed, make sure to select the correct JRE/JDK 17 (Java 17).
+
+If only one version is installed, you can **SKIP** this step, as the installer will automatically detect the path of the installed JRE/JDK.
+
+![1776754842694-999.png](/img/c3cd9e_1776754842694-999.png)
+
+### **Step 5: Set Destination Folder**
+
+In the **Destination Folder field**, update the folder name to a new value.
+
+![1776754901241-511.png](/img/407e5e_1776754901241-511.png)
+
+### **Step 6:** **Uncheck Run Apache Tomcat and Show Read Me**
+
+At the **Completing Apache Tomcat Setup**step, **uncheck** Run Apache Tomcatand Show Read Me
+
+![1776755733752-153.png](/img/62d447_1776755733752-153.png)
+
+### **Step 7:  Copy Required Data to New Tomcat**
+
+Navigate to the installation directory of the old Tomcat instance:
+
+* Locate the following folders:
+  + filestorage
+  + webapps
+  + indexes
+* Right-click and select Copy, then paste them into the corresponding directory of the new Tomcat 10.1.54
+
+![1776756760656-480.png](/img/40a919_1776756760656-480.png)
+
+- Example installation paths for Tomcat 10.1.54:
+
++ HOME\_TOMCAT\_10.1.54: C:\Program Files\Apache Software Foundation\Tomcat 10.1.54
+
+### **Step 8: Configure Tomcat 10.1.54**
+
+Open HOME\_TOMCAT\_10.1.54\BACKUP\_TOMCAT\_10\bin\Tomcat10w.exe
+
++ Configure the new Tomcat instance using the saved screenshots from Step 1 as reference.
+
+**+ Tab Logging**
+
+![1776756984077-742.png](/img/cc3088_1776756984077-742.png)
+
+**+ Tab Java**
+
+![1776757139240-119.png](/img/cfac52_1776757139240-119.png)
+
++ Use a file comparison tool (e.g., MobaDiff, WinMerge) to compare configuration files between the old and new Tomcat instances.
+
++ Ensure key configurations (e.g., port values in Connector) are consistent between the old and new files, especially the highlighted sections.
+
+![1776757773722-234.png](/img/65e305_1776757773722-234.png)
+
+![1776757794030-167.png](/img/dad40a_1776757794030-167.png)
+
+### **Step 9: Start Tomcat 10**
+
+![1776757846066-507.png](/img/094c0f_1776757846066-507.png)
+
+### **Step 10: Verify the result on Tomcat 10.1.54**

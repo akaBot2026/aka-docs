@@ -1,4 +1,12 @@
-# [4] Update Entity Record - akaBot Docs
+﻿---
+id: Update Entity Record
+title: "Update Entity Record"
+sidebar_label: "Update Entity Record"
+sidebar_position: 4
+description: "Update Entity Record activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Update Entity Record
 
 RCA.Activities.DataService.UpdateEntityRecord
 
@@ -8,7 +16,7 @@ This activity allow to update an existing record for the selected Entity in Data
 
 ## **In the body of activity**
 
-* **Entity:**Select the entity you want to use with the activity. The property only supports entities imported from Data Service
+* **Entity:** Select the entity you want to use with the activity. The property only supports entities imported from Data Service
 * **Record Id**: Once you select an entity, the wizard asks you to provide the ID of the record you want to retrieve from the entity
 * **Switch to record view**: Click to switch the input method (Json object)
 * **Manage Properties**: To configure more fields, click Manage Properties, make your selection, then click Update fields/Save
@@ -29,9 +37,3 @@ This activity allow to update an existing record for the selected Entity in Data
   + Output Record: The record created from the Data Service, stored in an Entity type object. This field only supports objects of types imported from Data Service and must be of the same type as the selected Entity Type.
 
 ![image-20230630131917-4.png](/img/689cfb_image-20230630131917-4.png)
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

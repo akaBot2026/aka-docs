@@ -1,4 +1,12 @@
-# [3] Get Entity Record By Id - akaBot Docs
+﻿---
+id: Get Entity Record By Id
+title: "Get Entity Record By Id"
+sidebar_label: "Get Entity Record By Id"
+sidebar_position: 3
+description: "Get Entity Record By Id activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Entity Record By Id
 
 RCA.Activities.DataService.GetEntityRecordById
 
@@ -8,7 +16,7 @@ This activity allow to retrieve an existing record for the selected Entity from 
 
 ## **In the body of activity**
 
-* **Entity:**Select the entity you want to use with the activity. The property only supports entities imported from Data Service
+* **Entity:** Select the entity you want to use with the activity. The property only supports entities imported from Data Service
 * **Record Id**: Once you select an entity, the wizard asks you to provide the ID of the record you want to retrieve from the entity
 
 ## **Properties**
@@ -27,9 +35,3 @@ This activity allow to retrieve an existing record for the selected Entity from 
   + Output Record: The record created from the Data Service, stored in an Entity type object. This field only supports objects of types imported from Data Service and must be of the same type as the selected Entity Type.
 
 ![image-20230630131859-3.png](/img/5935e4_image-20230630131859-3.png)
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

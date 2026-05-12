@@ -1,4 +1,12 @@
-# CV Screen Scope - akaBot Docs
+---
+id: cv-screen-scope
+title: "CV Screen Scope"
+sidebar_label: "CV Screen Scope"
+sidebar_position: 8
+description: "CV Screen Scope activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# CV Screen Scope
 
 RCA.Activities.ComputerVision.CVScreenScope
 
@@ -43,9 +51,3 @@ A container that enables Computer Vision on a window or element. Initializes the
 * **Api Key (String)**- The API key used for authenticating to the Computer Vision server. This field supports only strings or String variables. This property is synchronized across all CV Scopes in the workflow.
 * **Server URL (String)**- URL of the server that performs the analysis. This property is synchronized across all CV Scopes in the workflow.
 * **Use Local Server (Boolean)**- Determining if CV should use a local server.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

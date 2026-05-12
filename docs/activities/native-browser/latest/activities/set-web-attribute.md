@@ -1,4 +1,12 @@
-# Set Web Attribute (NB) - akaBot Docs
+---
+id: set-web-attribute
+title: "Set Web Attribute (NB)"
+sidebar_label: "Set Web Attribute (NB)"
+sidebar_position: 20
+description: "Set Web Attribute (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Set Web Attribute (NB)
 
 RCA.Activities.NativeBrowser.SetWebAttribute
 

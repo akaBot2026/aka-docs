@@ -1,4 +1,12 @@
-# Set Agent Credential - akaBot Docs
+---
+id: set-agent-credential
+title: "Set Agent Credential"
+sidebar_label: "Set Agent Credential"
+sidebar_position: 5
+description: "Set Agent Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Set Agent Credential
 
 RCA.Core.Activities.SetAgentCredential
 
@@ -33,9 +41,4 @@ This activity allows you to update a specified akaBot Center credential value th
 
 **Output**
 
-* **Set Success (Boolean)**– This property specifies the result of the action. Only have two possible values: True or False. Return True if the Agent Credential has been successfully set; Return False if the Agent Credential has not been set successfully.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)
+* **Set Success (Boolean)** – This property specifies the result of the action. Only have two possible values: True or False. Return True if the Agent Credential has been successfully set; Return False if the Agent Credential has not been set successfully.

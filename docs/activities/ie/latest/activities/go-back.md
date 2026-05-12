@@ -1,4 +1,12 @@
-# Go Back - akaBot Docs
+---
+id: go-back
+title: "Go Back"
+sidebar_label: "Go Back"
+sidebar_position: 10
+description: "Go Back activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Go Back
 
 RCA.Activities.IE.GoBack
 
@@ -19,10 +27,4 @@ The Go Back activity goes back to one URL in the history list of the current bro
 **Misc**
 
 * **Public (Checkbox)** - Check if you want to publicize it.
-* **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
-  Ex: [24234234] Go back
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)
+* **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better. Ex: [24234234] Go back

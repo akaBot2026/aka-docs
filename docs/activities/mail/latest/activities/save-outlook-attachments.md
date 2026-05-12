@@ -1,4 +1,12 @@
-# [04]Save Outlook Attachments - akaBot Docs
+---
+id: save-outlook-attachments
+title: "Save Outlook Attachments"
+sidebar_label: "Save Outlook Attachments"
+sidebar_position: 4
+description: "Save Outlook Attachments activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Save Outlook Attachments
 
 RCA.Activities.Mail.SaveOutlookAttachments
 
@@ -28,8 +36,3 @@ This activity allows you to save attachments from an email in Outlook
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   **E.g**: Save Outlook Attachments
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

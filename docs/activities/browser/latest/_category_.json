@@ -1,0 +1,10 @@
+{
+  "label": "Browser",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Browser (B) activity package that use Selenium as automation technology"
+  }
+}

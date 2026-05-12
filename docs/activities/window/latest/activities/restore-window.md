@@ -1,4 +1,12 @@
-# [10]Restore Window - akaBot Docs
+---
+id: restore-window
+title: "Restore Window"
+sidebar_label: "Restore Window"
+sidebar_position: 10
+description: "Restore Window activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Restore Window
 
 RCA.Activities.Windows.RestoreWindow
 
@@ -50,9 +58,3 @@ The Restore Window allows you to restore a window to its previous size and posit
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)**- Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

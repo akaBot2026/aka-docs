@@ -1,4 +1,12 @@
-# Navigate To (NB) - akaBot Docs
+---
+id: navigate-to
+title: "Navigate To (NB)"
+sidebar_label: "Navigate To (NB)"
+sidebar_position: 14
+description: "Navigate To (NB) activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Navigate To (NB)
 
 RCA.Activities.NativeBrowser.NavigateTo
 
@@ -27,15 +35,9 @@ The Navigate To activity allows you to navigate to another URL on the current br
 **Input**
 
 * **URL (String)**\* – Starting this destination URL when the browser is opened.  
-  E.g: "<https://www.google.com/>"
+  E.g: "https://www.google.com/"
 
 **Misc**
 
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is uncheck.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

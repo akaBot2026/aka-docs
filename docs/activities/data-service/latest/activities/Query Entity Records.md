@@ -1,4 +1,12 @@
-# [6] Query Entity Records - akaBot Docs
+﻿---
+id: Query Entity Records
+title: "Query Entity Records"
+sidebar_label: "Query Entity Records"
+sidebar_position: 6
+description: "Query Entity Records activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Query Entity Records
 
 RCA.Activities.DataService.QueryEntityRecords
 
@@ -8,7 +16,7 @@ This activity allows to retrieve a list of records for the selected Entity from 
 
 ## **In the body of activity**
 
-* **Entity:**Select the entity you want to use with the activity. The property only supports entities imported from Data Service.
+* **Entity:** Select the entity you want to use with the activity. The property only supports entities imported from Data Service.
 * Click to add filter, the Query Builder window opens
   + Choose the condition to query. User can choose AND or OR
   + From the first drop-down menu, select a field to filter by for the select entity type. You can select fields for any related entities as well.
@@ -29,16 +37,10 @@ This activity allows to retrieve a list of records for the selected Entity from 
   + Sort By Field: The name of the field you want to sort retrieved records by. The name has to be same as a valid field in the selected entity type and needs to have the same capitalization. By default, this field is set to **Id**.
   + Top: Specifies the maximum number of records retrieved out of total records. This property supports values from 1 to 1000. The default value for this field is **100**.
 * **Misc**
-  + **​​​​​​​​​​​​​​**Display Name: The display name of the activity.
+  + **​​​​​​​​​​​​​​** Display Name: The display name of the activity.
   + Public: If selected, the values of variables and arguments will be logged at Verbose level.
 * **Output​​​​​​​**
   + Output Records: The record created from the Data Service, stored in an Entity type object. This field only supports objects of types imported from Data Service and must be of the same type as the selected Entity Type
   + Total Records: The total number of records matching the specified query filters
 
 ![image-20230630131952-6.png](/img/d552b8_image-20230630131952-6.png)
-
-Table of Content
-
-* [Description](#HDescriptionA0)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

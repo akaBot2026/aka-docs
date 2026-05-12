@@ -1,4 +1,12 @@
-# CV Highlight - akaBot Docs
+﻿---
+id: cv-highlight
+title: "CV Highlight"
+sidebar_label: "CV Highlight"
+sidebar_position: 6
+description: "CV Highlight activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# CV Highlight
 
 RCA.Activities.ComputerVision.CVHighlight
 
@@ -28,7 +36,7 @@ Visually highlights a specified UI element. The element is identified by using t
 
 **Input**
 
-* **Descriptor (String)** - The on-screen coordinates of the **Target**and each **Anchor**that is used, if any. These values are stored in a *CvDescriptor*proprietary object. Once the **Indicate On Screen**feature is used at runtime, the *CvDescriptor*is automatically generated in this field.
+* **Descriptor (String)** - The on-screen coordinates of the ** Target**and each ** Anchor**that is used, if any. These values are stored in a *CvDescriptor*proprietary object. Once the **Indicate On Screen** feature is used at runtime, the *CvDescriptor*is automatically generated in this field.
 
 **Misc**
 
@@ -46,9 +54,3 @@ Visually highlights a specified UI element. The element is identified by using t
 
 * **InputRegion (Rectangle)**- Receives the target of another CV activity stored in a Rectangle variable, using it as a target for this activity. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier. If a variable is set to this field, the current target and anchor elements of the activity are disabled.
 * **OutputRegion (Rectangle)**- Saves the target of this activity as a Rectangle variable. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

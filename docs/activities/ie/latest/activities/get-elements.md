@@ -1,4 +1,12 @@
-# Get Elements - akaBot Docs
+---
+id: get-elements
+title: "Get Elements"
+sidebar_label: "Get Elements"
+sidebar_position: 7
+description: "Get Elements activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Elements
 
 RCA.Activities.IE.GetElements
 
@@ -38,8 +46,3 @@ Extracts the UI element on Internet Explorer. Activity is only valid inside Open
 **Output**
 
 * **Elements (IEElement)** - The output UI element returned from the activity. Only Array of IEElement variable type is supported to store the element.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

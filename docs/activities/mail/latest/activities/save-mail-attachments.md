@@ -1,4 +1,12 @@
-# [10]Save Mail Attachments - akaBot Docs
+---
+id: save-mail-attachments
+title: "Save Mail Attachments"
+sidebar_label: "Save Mail Attachments"
+sidebar_position: 10
+description: "Save Mail Attachments activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Save Mail Attachments
 
 RCA.Activities.Mail.SaveMailAttachements
 
@@ -29,9 +37,4 @@ This activity allows you to save mail attachments to specified folder. If there 
 
 **Output**
 
-* **Attachments (IEnumerable<String>)** - The attachments to be added to the email message.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)
+* **Attachments (`IEnumerable<String>`)** - The attachments to be added to the email message.

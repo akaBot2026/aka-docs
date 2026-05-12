@@ -1,12 +1,14 @@
 ---
 id: ha-model-windows-server
 title: Installation Guide For High Availability Model on Windows Server
-sidebar_label: Installation Guide For High Availability Model on Windows Server
-sidebar_position: 9
+sidebar_label: High Availability Model on Windows Server
+sidebar_position: 11
 displayed_sidebar: centerSidebar
 ---
 
 # Installation Guide For High Availability Model on Windows Server
+
+TODO: this page is not up to date
 
 This guide describes how to deploy akaBot Center in a High Availability (HA) configuration on Windows Server. The HA model uses multiple application nodes behind a load balancer with a shared external database, ensuring that automation continues uninterrupted even if one node experiences a failure.
 

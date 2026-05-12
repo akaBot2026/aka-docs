@@ -1,4 +1,12 @@
-# [11]Type Into - akaBot Docs
+﻿---
+id: type-into
+title: "Type Into"
+sidebar_label: "Type Into"
+sidebar_position: 11
+description: "Type Into activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Type Into
 
 RCA.Activities.Browser.TypeInto
 
@@ -45,7 +53,7 @@ The Type Into activity allows you to type texts into any text field within the w
 
 **Options**
 
-* **InputMethod (Dropdown List) -**Defines how the system performs the click action on the target element.
+* **InputMethod (Dropdown List) -** Defines how the system performs the click action on the target element.
   + Default: Automatically selects the best method based on the environment
   + Hardware: Simulates a real mouse click (requires visible UI and active screen).
   + Software: Performs a background click at system level (no physical mouse movement required).
@@ -56,14 +64,8 @@ The Type Into activity allows you to type texts into any text field within the w
   + Positive value → scroll right
   + Negative value → scroll left
   + E.g: 200
-* **Scroll element to view (checkbox):**The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:**Enter a numeric value (pixels) to scroll vertically
+* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
+* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

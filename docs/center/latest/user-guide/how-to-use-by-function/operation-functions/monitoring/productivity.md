@@ -1,24 +1,36 @@
 ---
 id: productivity
-title: Productivity
-sidebar_label: Productivity
+title: "Productivity"
+sidebar_label: "Productivity"
 sidebar_position: 1
+description: "Productivity documentation."
 displayed_sidebar: centerSidebar
 ---
+# Productivity
 
-The Productivity module in akaBot Center provides a high-level view of automation performance and efficiency across the organization. It aggregates execution data from all workflows and agents to present meaningful metrics such as the total number of jobs executed, success rates, average execution duration, and the estimated time saved compared to manual processing. This module is designed for both operational managers who need to justify RPA investments and operations teams who need to identify underperforming workflows.
+This page allows you to make the best use of your Agents by tracking and monitoring Agent's activities on a Calendar.
 
-Productivity data can be filtered by time range, agent, workflow, or agent group, allowing users to perform targeted analysis. For example, a team lead can filter by a specific workflow to see whether its performance has degraded over the past week, or compare productivity metrics between two different agent groups to evaluate hardware or configuration differences. Trend charts help visualize changes over time and support data-driven decisions about automation optimization and resource scaling.
+![image-20221101151901-1.png](/img/2be2de_image-20221101151901-1.png)
 
-The Productivity dashboard is especially valuable during periodic business reviews. The summary statistics — such as total hours saved by automation, peak execution times, and error hotspots — can be exported or shared with stakeholders to demonstrate the tangible value of the RPA program. Organizations often use these metrics as KPIs to track the maturity and impact of their automation initiatives.
+## **a. View Agents' activities.**
 
-## Key Productivity Metrics
+To view Agent's activities, please click Monitoring tab from the main menu. After clicking, you immediately see the view by week of all Agents' activities.
 
-| Metric | Description |
-|---|---|
-| Total Jobs Executed | Number of workflow executions in the selected period |
-| Success Rate | Percentage of jobs that completed without errors |
-| Average Duration | Mean execution time per workflow run |
-| Failure Rate | Percentage of jobs that ended in a failed state |
-| Estimated Time Saved | Projected manual hours replaced by automation |
-| Peak Execution Hour | Time of day with the highest job execution volume |
+![image-20221101154859-5.png](/img/6c9116_image-20221101154859-5.png)
+
+| No | Button | Description |
+| --- | --- | --- |
+| 1 | Today | Back to the Today's activities view |
+| 2 | Forward/Backward | Move to *the day before/ the day after* view |
+| 3 | Month and date | If you would like to show the activities in a time you consider, just click on the**Date and Month** button, then a small calendar will show up for you to choose the time you want. |
+| 4 | Day, week, month | change the view into Day/Week/ Month |
+
+## **b. Filter Agents' Activities**
+
+​​​​You can view the exact activities of Agents you want by selecting Agents' name and machine name at the corner of the calendar.![image-20221101154015-3.png](/img/5fcc23_image-20221101154015-3.png)
+
+## **c. Create a schedule**
+
+From here, you can see the free times of Agents. So you can quickly create a new schedule for an Agent by clicking on free time area on the calendar. Then, a form will show up for you to enter the necessary information. After clicking "Save" button, the new schedule will show up on the calendar.
+
+![image-20221101160835-6.png](/img/b36064_image-20221101160835-6.png)

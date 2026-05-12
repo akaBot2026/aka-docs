@@ -1,4 +1,12 @@
-# Attach Browser - akaBot Docs
+---
+id: attach-broswer
+title: "Attach Browser"
+sidebar_label: "Attach Browser"
+sidebar_position: 1
+description: "Attach Browser activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Attach Browser
 
 RCA.Activities.IE.AttachBrowser
 
@@ -29,8 +37,3 @@ A container that enables you to attach to an already opened internet explorer br
 **Output**
 
 * **IEBrowser (Browser)** - Output of the activity with type = ‘Browser’. Not allow whitespace in the output’s name.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

@@ -1,4 +1,12 @@
-# Create Directory - akaBot Docs
+---
+id: create-directory
+title: "Create Directory"
+sidebar_label: "Create Directory"
+sidebar_position: 1
+description: "Create Directory activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Create Directory
 
 RCA.Activities.FTP.CreateDirectory
 
@@ -30,8 +38,3 @@ This activity allows you to create a folder on FTP server.
 * **Public (Checkbox)**- Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: “FTP Create Directory”
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

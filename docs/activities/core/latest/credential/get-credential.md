@@ -1,4 +1,12 @@
-# [03]Get Credential - akaBot Docs
+---
+id: get-credential
+title: "Get Credential"
+sidebar_label: "Get Credential"
+sidebar_position: 3
+description: "Get Credential activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Credential
 
 RCA.Activities.Core.GetCredential
 
@@ -33,8 +41,3 @@ This activity allows you to retrieve the credentials from a specified target fro
 * **Password (String)**\* - The password retrieved for the specified target, as a secureString variable.
 * **Username (String)**\* - The username retrieved for the specified target, as a string variable.
 * **Result (Boolean)** - A Boolean variable that indicates whether the given credentials were successfully get from Windows Credential Manager.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

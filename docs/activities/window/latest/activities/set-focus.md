@@ -1,4 +1,12 @@
-# [26]Set Focus - akaBot Docs
+---
+id: set-focus
+title: "Set Focus"
+sidebar_label: "Set Focus"
+sidebar_position: 26
+description: "Set Focus activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Set Focus
 
 RCA.Activities.Windows.SetFocus
 
@@ -48,9 +56,3 @@ The Set Focus activity allows you to set keyboard focus to a specified window el
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)**- Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

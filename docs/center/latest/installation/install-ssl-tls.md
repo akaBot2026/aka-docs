@@ -1,67 +1,95 @@
 ---
 id: install-ssl-tls
-title: Install/Create an SSL/TLS Certificate for Center
-sidebar_label: Install/Create an SSL/TLS Certificate for Center
-sidebar_position: 6
+title: "Install/Create an SSL/TLS Certificate for Center"
+sidebar_label: "Install/Create an SSL/TLS Certificate for Center"
+sidebar_position: 13
+description: "Install/Create an SSL/TLS Certificate for Center documentation."
 displayed_sidebar: centerSidebar
 ---
 
 # Install/Create an SSL/TLS Certificate for Center
 
-Securing akaBot Center with an SSL/TLS certificate is essential for production deployments. HTTPS ensures that all communication between robot agents, client browsers, and the akaBot Center server is encrypted and protected against interception. This guide covers both creating a self-signed certificate for testing and installing a CA-signed certificate for production.
+What You'll Need
 
-## Prerequisites
+* Your server certificate (.crt)
+* Your private key (.key)
 
-- akaBot Center installed and running (Tomcat-based deployment)
-- Java JDK 17 installed (includes the `keytool` utility)
-- For production: a valid SSL certificate and private key from a trusted Certificate Authority (CA)
-- Administrator access to the akaBot Center server
-- OpenSSL installed (optional, for generating CSRs or converting certificate formats)
+            => Should receive it by the provider.
 
-## Installation Steps
+### **1. Convert your certificate files from PEM (.cer or .crt) to PKCS#12 (.p12) Format.**
 
-### Option A: Create a Self-Signed Certificate (Testing Only)
+You can easily do this on your own system by running below OpenSSL command.
 
-1. Open a command prompt and run the following `keytool` command:
-   ```
-   keytool -genkeypair -alias akabotcenter -keyalg RSA -keysize 2048 -validity 365 -keystore C:\akabot\center4\conf\keystore.jks -storepass <keystore_password>
-   ```
-2. Fill in the prompted information (organization, country, etc.).
-3. Note the keystore path and password for the next step.
+Note: Kindly copy the certificate files to the same folder of OpenSSL
 
-### Option B: Install a CA-Signed Certificate (Production)
+![image-20220506135312-1.png](/img/e4c6a5_image-20220506135312-1.png)
 
-1. Generate a Certificate Signing Request (CSR):
-   ```
-   keytool -certreq -alias akabotcenter -keystore C:\akabot\center4\conf\keystore.jks -file akabotcenter.csr
-   ```
-2. Submit the CSR to your CA and receive the signed certificate file (e.g., `akabotcenter.crt`).
-3. Import the CA chain certificates into the keystore:
-   ```
-   keytool -import -alias root -trustcacerts -file root-ca.crt -keystore C:\akabot\center4\conf\keystore.jks
-   ```
-4. Import the signed certificate:
-   ```
-   keytool -import -alias akabotcenter -file akabotcenter.crt -keystore C:\akabot\center4\conf\keystore.jks
-   ```
+JSON
 
-### Configure Tomcat for HTTPS
+$ openssl pkcs12 -export -in your\_crtfile.crt -inkey your\_key.key -out your\_domain.p12 -name "your\_domain" -passout pass:your\_pass
 
-5. Open `C:\akabot\center4\conf\server.xml`.
-6. Add or update the SSL Connector:
-   ```xml
-   <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
-              SSLEnabled="true" scheme="https" secure="true"
-              keystoreFile="conf/keystore.jks" keystorePass="<keystore_password>"
-              clientAuth="false" sslProtocol="TLS" />
-   ```
-7. Restart the akaBot Center service.
-8. Access the portal at `https://<server-ip>:8443/center` to verify HTTPS is working.
+### **2. Configuring SSL connector**
 
-## Notes and Warnings
+* Stop Tomcat service and navigate to this location:**(C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf)**
+* Open file server and add the code below
 
-> **Warning:** Self-signed certificates will trigger browser security warnings and are not suitable for production environments. Always use a CA-signed certificate in production.
+![image-20220506135319-2.png](/img/db4c27_image-20220506135319-2.png)
 
-> **Note:** To redirect all HTTP traffic to HTTPS, add a redirect rule in `server.xml` or configure your reverse proxy (e.g., Nginx, Apache HTTP Server) to enforce HTTPS.
+C++
 
-> **Note:** Keep the keystore file and password secure. Loss of the keystore prevents certificate renewal and may require regenerating the certificate.
+< Connector  
+port= your\_port   
+protocol= org.apache.coyote.http11.Http11NioProtocol   
+maxThreads= 200  scheme= https  secure= true   
+SSLEnabled= true   
+clientAuth= false   
+sslProtocol= TLS   
+keystoreType= pkcs12   
+keystoreFile= your\_path\your\_domain.p12   
+keystorePass= yourpass   
+keyAlias= your\_alias   
+/>
+
+* Finally, save your file and Start Tomcat service again. Open web browser and test
+
+## **Create an SSL/TLS Certificate for Local**
+
+* **Step 1** : Open CMD with with administrative privileges and type these command below:
+
+![image-20220506135327-3.png](/img/04658c_image-20220506135327-3.png)
+
+LESS
+
+keytool - genkey -alias youralias -keyalg RSA -keystore "your\_file\_path\yourfilnames.jks"
+
+After that, it will require to create password (keyStore), organization, name,....
+
+![image-20220506135333-4.png](/img/260e4a_image-20220506135333-4.png)
+
+Once you completed, it will generate a file type **"jks"** on your folder.
+
+* **Step 2** : Stop Tomcat and v o open server file via this location: ***C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf***
+
+![image-20220506135339-5.png](/img/a2fa97_image-20220506135339-5.png)
+
+* **Step 3** : Add the code below.
+
+![image-20220506135351-6.png](/img/3b9313_image-20220506135351-6.png)
+
+JSON
+
+< Connector  
+port= your\_port   
+protocol= org.apache.coyote.http11.Http11NioProtocol   
+maxThreads= 200   
+scheme= https   
+secure= true   
+SSLEnabled= true   
+clientAuth= false   
+sslProtocol= TLS   
+keystoreFile= your\_path\your\_domain.p12   
+/>
+
+**Note**: Please remember to replace**Keystorefile** and **Keystorepass** (which you created in CMD)
+
+* **Step 4**: Start the Tomcat service and access the website with HTTPs.

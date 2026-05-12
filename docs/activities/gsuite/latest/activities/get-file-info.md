@@ -1,4 +1,12 @@
-# Get File Info - akaBot Docs
+---
+id: get-file-info
+title: "Get File Info"
+sidebar_label: "Get File Info"
+sidebar_position: 9
+description: "Get File Info activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get File Info
 
 RCA.Activities.GSuite.GetFileInfo
 
@@ -29,9 +37,3 @@ This activity allows you to return information about a file, including its name,
 **Output**
 
 * **Result (File)** - The details of the file. This property supports Google 'File' variables
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

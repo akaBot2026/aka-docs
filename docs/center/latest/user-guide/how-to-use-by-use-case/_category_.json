@@ -1,6 +1,9 @@
 {
-  "label": "How to Use akaBot Center (by Use Case)",
-  "position": 3,
+  "label": "How to Use (by Use Case)",
+  "position": 5,
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
 }

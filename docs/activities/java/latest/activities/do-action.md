@@ -1,4 +1,12 @@
-# Do Actions - akaBot Docs
+﻿---
+id: do-action
+title: "Do Actions"
+sidebar_label: "Do Actions"
+sidebar_position: 2
+description: "Do Actions activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Do Actions
 
 RCA.Activities.Java.DoActions
 
@@ -27,7 +35,7 @@ This activity allows you to pick elements and execute other actions.
   Eg:
 
 Text  
-“<wnd app=’...’ ></wnd><java role=’...’ ></java>”
+`<wnd app="..." ></wnd><java role="..." ></java>`
 
 **Misc**
 
@@ -37,9 +45,4 @@ Text
 
 **Output**
 
-* **Success (Boolean)**– Indicate if the action runs successfully.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)
+* **Success (Boolean)** – Indicate if the action runs successfully.

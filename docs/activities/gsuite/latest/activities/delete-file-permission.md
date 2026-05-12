@@ -1,4 +1,12 @@
-# Delete File Permission - akaBot Docs
+---
+id: delete-file-permission
+title: "Delete File Permission"
+sidebar_label: "Delete File Permission"
+sidebar_position: 5
+description: "Delete File Permission activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Delete File Permission
 
 RCA.Activities.GSuite.DeleteFilePermission
 
@@ -31,9 +39,3 @@ This activity allows to delete permission to a file.
 **Options**
 
 * **Use Domain Admin Access (Checkbox)**- If selected, the requester is granted access if they are an administrator of the domain to which the file belongs.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

@@ -1,6 +1,9 @@
 {
-  "label": "akaBot Center API Guide",
+  "label": "API Guide",
   "position": 5,
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
 }

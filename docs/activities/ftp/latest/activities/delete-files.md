@@ -1,4 +1,12 @@
-# Delete - akaBot Docs
+---
+id: delete-files
+title: "Delete"
+sidebar_label: "Delete"
+sidebar_position: 2
+description: "Delete activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Delete
 
 RCA.Activities.FTP.Delete
 
@@ -28,8 +36,3 @@ This activity allows you to delete a folder on FTP server.
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: Delete Files
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

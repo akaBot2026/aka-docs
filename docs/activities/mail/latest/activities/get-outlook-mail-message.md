@@ -1,4 +1,12 @@
-# [03]Get Outlook Mail Message - akaBot Docs
+---
+id: get-outlook-mail-message
+title: "Get Outlook Mail Message"
+sidebar_label: "Get Outlook Mail Message"
+sidebar_position: 3
+description: "Get Outlook Mail Message activity documentation."
+displayed_sidebar: activitiesSidebar
+---
+# Get Outlook Mail Message
 
 RCA.Activities.Mail.GetOutlookMailMessages
 
@@ -37,8 +45,3 @@ This activity helps you to retrieve email messages from Outlook
 **Output**
 
 * **Messages (MailMessage)** - The retrieved messages as a collection of MailMessage objects.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)
