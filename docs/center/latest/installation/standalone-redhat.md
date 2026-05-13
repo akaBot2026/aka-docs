@@ -14,7 +14,7 @@ This document aims to guide you to install akaBot Center in **Standalone model**
 
 ![image-20230728180918-1.png](/img/429ab0_image-20230728180918-1.png)
 
-For other models, please contact the project coordinator (if have) or send email to [[email protected]](/cdn-cgi/l/email-protection#f88b8d8888978a8cb8999399ba978cd69b9795) to get the guidance. **akaBot team is always here to support your installation success**.
+For other models, please contact the project coordinator (if have) or send email to [[support@akaBot.com]](/cdn-cgi/l/email-protection#f88b8d8888978a8cb8999399ba978cd69b9795) to get the guidance. **akaBot team is always here to support your installation success**.
 
 Please read below sections **CAREFULLY** and prepare necessary resources/information before you start to achieve a successful installation.
 

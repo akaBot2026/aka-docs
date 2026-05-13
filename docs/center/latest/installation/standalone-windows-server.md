@@ -14,11 +14,11 @@ Note: Please read this section carefully before installation.
 
 ### **1.1. Installation Model**
 
-This guide provides instructions for installing akaBot Center in the installation model described below. For other installation models, please find in other pages or send an email to [[email protected]](/cdn-cgi/l/email-protection#74070104041b060034151f15361b005a171b19) for assistance.
+This guide provides instructions for installing akaBot Center in the installation model described below. For other installation models, please find in other pages or send an email to [[support@akaBot.com]](/cdn-cgi/l/email-protection#74070104041b060034151f15361b005a171b19) for assistance.
 
 ![1698741761870-882.png](/img/06bd5f_1698741761870-882.png)
 
-### **1.2.****Machine Configuration Requirements**
+### **1.2.Machine Configuration Requirements**
 
 To install and use akaBot Center on Windows server, please prepare your computer with the following requirements:
 
@@ -32,7 +32,7 @@ To install and use akaBot Center on Windows server, please prepare your computer
 
 The account performing the installation needs to have Admin (Root) privileges on the installation machine.
 
-### **1.4.****MSSQL Database Connection Requirements**
+### **1.4.MSSQL Database Connection Requirements**
 
 * The installation machine must have network connectivity to the pre-established MSSQL database.
 * The required configuration information for Center to connect to the database includes:
@@ -48,7 +48,7 @@ The account performing the installation needs to have Admin (Root) privileges on
 
 * If you are installing Collaboration Center, please prepare a separate database for Collaboration Center and have the connection information ready, similar to the database setup for Center. (*For more information about what Collaboration Center is, please read further at [Human-Bot Collaboration](/bin/view/akaBot%20Center/Human-Bot%20Collaboration/)*).
 
-### **1.5.****Prepare the Installation Package**
+### **1.5.Prepare the Installation Package**
 
 You need to prepare the installation package according to the following list.
 
@@ -124,7 +124,7 @@ In this document, some basic operations are repeated, and the writer will provid
 
 ![image-20220506134617-7.png](/img/86f152_image-20220506134617-7.png)
 
-**Step 2**- Run the installer and choose **Custom**option.
+**Step 2**- Run the installer and choose **Custom** option.
 
 ![image-20220506134622-8.png](/img/b461d3_image-20220506134622-8.png)
 
