@@ -16,8 +16,8 @@ After selecting the **License Management** tab, the system displays the follow
 
 * Add license
 
-[https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Activation/](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Activation/)
+[https://docs-v2.akabot.com/center/latest/installation/license-activation](https://docs-v2.akabot.com/center/latest/installation/license-activation)
 
 * Renew license
 
-[https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/%5B4%5D%20License%20Renewal/](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/%5B4%5D%20License%20Renewal/)
+[https://docs-v2.akabot.com/center/latest/installation/license-renewal](https://docs-v2.akabot.com/center/latest/installation/license-renewal)
