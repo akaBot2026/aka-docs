@@ -3,13 +3,17 @@ id: roles-permissions
 title: Roles & Permissions
 sidebar_label: Roles & Permissions
 sidebar_position: 11
-description: A non-technical guide to create roles, configure permissions, and assign access in ScaleFlow.
+description: Beginner-friendly guide to roles, permissions, and safe access control in ScaleFlow.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Roles & Permissions
 
-## What you can do on this page
+Roles decide what each user can see and do in ScaleFlow. Permissions are the individual access rules inside a role.
+
+Simple example: A support staff member may need Inbox and Tickets. A manager may also need Analytics and User Management. An owner may need everything.
+
+## What Roles & Permissions are used for
 
 In **Organization -> Roles & Permissions**, you can:
 
@@ -25,6 +29,7 @@ In **Organization -> Roles & Permissions**, you can:
 
 - If you cannot see this page, ask your admin to grant role view access.
 - If you can open the page but cannot save or delete, your account may be view-only.
+- Plan roles based on real job responsibilities, not individual preferences.
 
 ## Open Roles & Permissions
 
@@ -53,6 +58,8 @@ Important behavior in the current UI:
 
 ![Create role dialog](/img/create-role.png)
 
+Create a role when a group of users needs the same access.
+
 1. Click **Create new role**.
 2. In **Role details**:
    - Enter **Role name** (required)
@@ -69,6 +76,12 @@ Notes:
 
 - Role name cannot be changed after creation.
 - Copying permissions from an existing role helps speed up setup.
+
+Example roles:
+
+- `Support Agent`: Inbox, Contacts, and Tickets.
+- `Support Lead`: Support Agent access plus Analytics and team assignment.
+- `AI Manager`: AI Assistant, AI Agent, Knowledge, and Models.
 
 ## Edit an existing role
 
@@ -91,7 +104,7 @@ In the permissions step, you can:
 
 ### Automatic add/remove behavior
 
-When you select or unselect some permissions, the system may automatically add or remove related dependent permissions.
+When you select or unselect some permissions, ScaleFlow may automatically add or remove related permissions.
 
 This is expected behavior to prevent incomplete or conflicting access setups.
 
@@ -132,6 +145,14 @@ Notes:
 - Create custom roles based on real job responsibilities (for example: Support Agent, Team Lead, QA).
 - Start by copying a similar role, then remove unnecessary permissions.
 - Test with one user before applying to the full team.
+
+## Real-world setup example
+
+1. Admin creates a `Support Agent` role.
+2. Admin gives access to Inbox, Contacts, and Tickets.
+3. Admin assigns the role to five support staff in [User Management](./user-management).
+4. Admin creates a separate `AI Manager` role for the person who manages [AI Assistant](./ai-assistant), [AI Agent](./ai-agent-usage), and [Knowledge](./knowledge-usage).
+5. Staff only see the pages they need for their work.
 
 ## Troubleshooting
 
