@@ -62,7 +62,7 @@ Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that
 
 Download link:**[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-server-2025-download)**
 
-### **3.2.Setup MySQL**
+### **3.2.Setup MSSQL**
 
 **Step 1:** Install
 
@@ -89,7 +89,7 @@ Download link:**[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-serv
 
 ![1773028586816-796.png](/img/4024c0_1773028586816-796.png)
 
-* Click **Installation**-1and click **New SQL Server standalone installation or add features to an existing installation**-2
+* Click **Installation** -1 and click **New SQL Server standalone installation or add features to an existing installation** -2
 
 ![1773028679031-652.png](/img/8f5346_1773028679031-652.png)
 
@@ -350,7 +350,7 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ![1773045591703-739.png](/img/86c996_1773045591703-739.png)
 
-**Step 2: Delete** all folders in**%TOMCAT\_PATH%/webapps.**
+**Step 2: Delete** all folders in **%TOMCAT\_PATH%/webapps.**
 
 ![1773041052691-659.png](/img/14b8f4_1773041052691-659.png)
 
@@ -358,11 +358,11 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ![1773041088743-833.png](/img/7a8d43_1773041088743-833.png)
 
-* **Rename** it to**ROOT.war.**
+* **Rename** it to **ROOT.war.**
 
 ![1773041108270-318.png](/img/a4c57d_1773041108270-318.png)
 
-**Step 4: Restart** the Apache Tomcat service and wait for the**ROOT.war** to be extracted into the ROOT directory.
+**Step 4: Restart** the Apache Tomcat service and wait for the **ROOT.war** to be extracted into the ROOT directory.
 
 ![1773041152285-315.png](/img/dfef46_1773041152285-315.png)
 

@@ -40,7 +40,7 @@ You need to prepare the installation package according to the following list.
 
 ## **2. Java JDK 17 Installation**
 
-Run the installer -**openlogic-openjdk-17.0.16**you have downloaded. After that, click **"Next"** to proceed.
+Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that, click **"Next"** to proceed.
 
 ![1773026436457-662.png](/img/3ca271_1773026436457-662.png)
 
@@ -54,7 +54,7 @@ Run the installer -**openlogic-openjdk-17.0.16**you have downloaded. After that,
 
 ![1773026554098-998.png](/img/40c7a4_1773026554098-998.png)
 
-**Note**: Make sure that **JAVA\_HOME**presents in your environment variables by typing command **echo %JAVA\_HOME%**, the output should be a path that point to jdk 17 ex:**C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot**
+**Note**: Make sure that **JAVA\_HOME** presents in your environment variables by typing command **echo %JAVA\_HOME%**, the output should be a path that point to jdk 17 ex: **C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot**
 
 ## **3. PostgreSQL installation**
 
@@ -64,7 +64,7 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 
 **Step 1:** Open file
 
-* Opensetup file from your computer
+* Open setup file from your computer
 * Follow these steps below:
 
 ![1773111578739-129.png](/img/df9569_1773111578739-129.png)
@@ -144,15 +144,15 @@ Apache Tomcat installation:
 
 ![1773039436317-278.png](/img/fae530_1773039436317-278.png)
 
-The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\Apache Software Foundation\Tomcat 10.1**
+The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files\Apache Software Foundation\Tomcat 10.1**
 
 ### **4.2. Apache Tomcat Configuration**
 
-**4.2.1. Configure log setting**s
+**4.2.1. Configure log settings**
 
-**Step 1: **Open the file**%TOMCAT\_PATH%\conf\logging.properties**
+**Step 1: **Open the file **%TOMCAT\_PATH%\conf\logging.properties**
 
-**Step 2:** Add attribute **maxDay**s to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
+**Step 2:** Add attribute **maxDays** to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of -1 will be used which means never delete old files.
 
 * Example: keep 90 daysworth of history. Change the number at the end of the following rows:
   + 1catalina.org.apache.juli.AsyncFileHandler.maxDays = **90**
@@ -300,11 +300,11 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ![1773045591703-739.png](/img/636619_1773045591703-739.png)
 
-**Step 2: Delete** all folders in**%TOMCAT\_PATH%/webapps.**
+**Step 2: Delete** all folders in **%TOMCAT\_PATH%/webapps.**
 
 ![1773041052691-659.png](/img/26db12_1773041052691-659.png)
 
-**Step 3: Copy** the file akaBot-center-x.x.x.x.war to the**%TOMCAT\_PATH%/webapps/** directory
+**Step 3: Copy** the file akaBot-center-x.x.x.x.war to the **%TOMCAT\_PATH%/webapps/** directory
 
 ![1773041088743-833.png](/img/77d7ad_1773041088743-833.png)
 
@@ -336,7 +336,7 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 **Step 1**: Navigate to the path **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/**
 
-**Step 2**: Modify the configuration in **both files: ***application-dev.yml*** and ***application-prod.yml***
+**Step 2**: Modify the configuration in **both files:** ***application-dev.yml*** and ***application-prod.yml***
 
 **Remove** the # characters at the beginning of the lines to uncomment the configuration and enable **PostgreSQL** usage. Add the "#" characters at the beginning of the lines to comment out the configuration and disable MySQL, MSSQL,...
 

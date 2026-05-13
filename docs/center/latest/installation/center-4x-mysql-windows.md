@@ -54,13 +54,13 @@ Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that
 
 ![1772678676435-470.png](/img/898bcd_1772678676435-470.png)
 
-**Note**: Make sure that**JAVA\_HOME**presents in your environment variables by typing command**echo %JAVA\_HOME%**, the output should be a path that point to jdk 17 ex:**C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot**
+**Note**: Make sure that **JAVA\_HOME** presents in your environment variables by typing command **echo %JAVA\_HOME%**, the output should be a path that point to jdk 17 ex: **C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot**
 
 ## **3. MySQL installation**
 
 ### **3.1. Install MySQL**
 
-**Step 1**- Kindly download[**MySQL 8.0**](https://dev.mysql.com/downloads/installer/)
+**Step 1**- Kindly download [**MySQL 8.0**](https://dev.mysql.com/downloads/installer/)
 
 ![1772679894229-198.png](/img/6fedc5_1772679894229-198.png)
 
@@ -93,7 +93,7 @@ Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that
 
 ![1772680441382-833.png](/img/636706_1772680441382-833.png)
 
-* Click **"Execute"**and wait till everything is finished. Click **Finish.**
+* Click **"Execute"** and wait till everything is finished. Click **Finish.**
 
 ![1772680676937-347.png](/img/197a7f_1772680676937-347.png)
 
@@ -111,13 +111,13 @@ Follow these steps to know how to setup remote connection with MySQL. This will 
 
 ![1772680900409-828.png](/img/a21512_1772680900409-828.png)
 
-* Input IP address of MySQL that you want to test, explorer in **HostName"**
+* Input IP address of MySQL that you want to test, explorer in **"HostName"**
 * Input your SQLUsername: **root**
-* Click to **Test** **Connection** button
+* Click to **Test Connection** button
 
 ![1772680983582-429.png](/img/73674e_1772680983582-429.png)
 
-* After dialog **Connect** **to** **MySQL** **Server** appears, you enter **password** ***(you created in 3.1 >Step 2)*** for this account then hit **"Ok"** to test this connection
+* After dialog **"Connect to MySQL Server"** appears, you enter **password (you created in 3.1 >Step 2)** for this account then hit **"Ok"** to test this connection
 
 ![1772681048495-679.png](/img/985936_1772681048495-679.png)
 
@@ -140,7 +140,7 @@ Follow these steps to know how to setup remote connection with MySQL. This will 
 
 ![1772681325916-698.png](/img/d6ebe6_1772681325916-698.png)
 
-**Step 2**: Click to (1) to open **Create** **new** **database** **dialog**
+**Step 2**: Click to (1) to open **Create new database dialog**
 
 ![1772681367826-951.png](/img/14d5de_1772681367826-951.png)
 
@@ -189,7 +189,7 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 **Step 1:** Open the file **%TOMCAT\_PATH%\conf\logging.properties**
 
-**Step 2:** Add attribute **maxDay**s to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
+**Step 2:** Add attribute **maxDays** to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
 
 * Example: keep 90 daysworth of history. Change the number at the end of the following rows:
   + 1catalina.org.apache.juli.AsyncFileHandler.maxDays = **90**
@@ -250,7 +250,7 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 ![1772683067655-799.png](/img/996e64_1772683067655-799.png)
 
-**Step 4**: On the **Java**tab
+**Step 4**: On the **Java** tab
 
 a. Adjust the Java Heap configuration:
 
@@ -355,7 +355,7 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ![1772684035957-533.png](/img/a29a1a_1772684035957-533.png)
 
-**Step 2: Delete** all folders in**%TOMCAT\_PATH%/webapps.**
+**Step 2: Delete** all folders in **%TOMCAT\_PATH%/webapps.**
 
 ![1772684090590-522.png](/img/7ca112_1772684090590-522.png)
 
@@ -389,9 +389,9 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 **Step 1**: Navigate to the path **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/**
 
-**Step 2**: Modify the configuration in **both files:*****application-dev.yml*** and ***application-prod.yml***
+**Step 2**: Modify the configuration in **both files:** ***application-dev.yml*** and ***application-prod.yml***
 
-**Remove** the # characters at the beginning of the lines to uncomment the configuration and enable**MySQL** usage. Add the "#" characters at the beginning of the lines to comment out the configuration and disable MSSQL.
+**Remove** the # characters at the beginning of the lines to uncomment the configuration and enable **MySQL** usage. Add the "#" characters at the beginning of the lines to comment out the configuration and disable MSSQL.
 
 * ***application-dev.yml***
 

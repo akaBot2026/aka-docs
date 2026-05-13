@@ -40,11 +40,11 @@ You need to prepare the installation package according to the following list.
 | 2 | Java Developer Kit | openlogic-openjdk-11.0.20 | 11.0.20 | Open logic JDK 11.0.20 | **[Download](https://builds.openlogic.com/downloadJDK/openlogic-openjdk/11.0.20+8/openlogic-openjdk-11.0.20+8-windows-x64.msi)** |
 | 3 | Apache tomcat | apache-tomcat- 8.5.89.exe | 8.5.59 | Web server Apache Tomcat | **[Download](https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89.exe)** |
 | 4 | ActiveMQ | apache-activemq- 5.15.1-bin.zip | 5.15.1 | ActiveMQ for Queue functionality in akaBot Center | **[Download](https://archive.apache.org/dist/activemq/5.15.1/apache-activemq-5.15.1-bin.zip)** |
-| 5 | MySQL | Windows (x86, 32-bit), MSI Installer | 8.0.45 | The database engine of akaBot Center | Read**Section 3.1**for more details |
+| 5 | MySQL | Windows (x86, 32-bit), MSI Installer | 8.0.45 | The database engine of akaBot Center | Read **Section 3.1**for more details |
 
 ## **2. Java JDK 11 Installation**
 
-Run the installer -**openlogic-openjdk-11.0.20**you have downloaded. After that, click **"Next"** to proceed.
+Run the installer -**openlogic-openjdk-11.0.20** you have downloaded. After that, click **"Next"** to proceed.
 
 ![1693904663056-588.png](/img/ec5495_1693904663056-588.png)
 
@@ -73,7 +73,7 @@ Run the installer -**openlogic-openjdk-11.0.20**you have downloaded. After that,
 * To run akaBot Center, you will need MySQL Server and MySQL Workbench.
 * Under:  
   + **MySQL Servers > MySQL Server**, choose **the newest** for **MySQL Server.**  
-  + **Application > MySQL Workbench**, choose**the newest** version for **MySQL Workbench**
+  + **Application > MySQL Workbench**, choose **the newest** version for **MySQL Workbench**
 
 ![Screenshot_1.png](/img/caa6b7_screenshot_1.png)
 
@@ -109,14 +109,14 @@ Follow these steps to know how to setup remote connection with MySQL. This will 
 
 **Test your MySQL from remote client using MySQL Workbench**
 
-* Open MySQL Workbench in other computer, click to the **add connection button** (see picture bellowed) to open**Setup** **New** **Connection** window.
+* Open MySQL Workbench in other computer, click to the **add connection button** (see picture bellowed) to open **Setup New Connection** window.
 
 ![1706867096054-795.png](/img/793985_1706867096054-795.png)
 
 * Input IP address of MySQL that you want to test, explorer in **"HostName"**
 * Input your SQLUsername: **root**
 * Click to **Test** **Connection** button
-* After dialog **Connect** **to** **MySQL** **Server** appears, you enter **password** ***(you created in 3.1 >Step 2)*** for this account then hit ok totest this connection
+* After dialog **Connect to MySQL Server** appears, you enter **password** ***(you created in 3.1 >Step 2)*** for this account then hit ok totest this connection
 
 ![1772524392234-168.png](/img/5a867f_1772524392234-168.png)
 
@@ -400,7 +400,7 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 1. Open the file **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/logback-spring.xml**
 
-2. Change the **log level**to ERROR
+2. Change the **log level** to ERROR
 
 3. Change the setting in rolling log file as below:
 

@@ -100,7 +100,7 @@ After activation, your akaBot Agents have to be connected with akaBot Center to 
 
 After activating your akaBot Agent, please follow the steps below to connect it with akaBot Center
 
-**Step 1** - Open your browser. Navigate to akaBot Center using **your Center URL** or **localhost:8080**. After successful login, choose**Agent** on the left menu bar -> Choose **Agent** option and click **Create New.**
+**Step 1** - Open your browser. Navigate to akaBot Center using **your Center URL** or **localhost:8080**. After successful login, choose **Agent** on the left menu bar -> Choose **Agent** option and click **Create New.**
 
 ![1698998855183-732.png](/img/a2f411_1698998855183-732.png)
 
