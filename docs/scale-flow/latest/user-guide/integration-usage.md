@@ -3,19 +3,25 @@ id: integration-usage
 title: Integration Usage
 sidebar_label: Integration Usage
 sidebar_position: 13
-description: Practical guide to connect and manage integrations in ScaleFlow.
+description: Beginner-friendly guide to connect external business tools to ScaleFlow.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Integration Usage
 
-## What this feature is for
+Integrations connect ScaleFlow to other tools your business already uses, such as HubSpot, Google Drive, and Google Sheets.
 
-Use **Integrations** to connect external tools so your team can:
+Use integrations when you want ScaleFlow, [Knowledge](./knowledge-usage), or [AI Agent](./ai-agent-usage) to work with information stored outside ScaleFlow.
 
-- Bring CRM or spreadsheet data into workflows
-- Let AI agents use provider actions safely
-- Monitor connection health in one place
+## What integrations are used for
+
+- Connect customer data from HubSpot.
+- Use files from Google Drive as Knowledge.
+- Work with data in Google Sheets.
+- Let approved AI Agents use selected connected tools.
+- Check whether a connection is healthy.
+
+Example: Your company stores support documents in Google Drive. Connect Google Drive, create Knowledge from selected files, then let Smart Assistant answer customers using that information.
 
 ## Where to open integrations
 
@@ -30,16 +36,9 @@ There are 2 places in the left menu:
 
 ![Integrations provider list](/img/list-integration.png)
 
-## Permissions you need
-
-- **View integrations**: `integration.view`
-- **Create/update/disconnect/delete connections**: `integration.manage`
-
-If you do not have the required permission, the page will show an access denied flow.
+If you cannot connect or edit integrations, ask your admin to grant integration management access.
 
 ## Providers currently available in UI
-
-From the current implementation, these providers can be connected now:
 
 - **HubSpot**
 - **Google Sheets**
@@ -62,6 +61,8 @@ Other providers in the grid may show **Coming soon** and cannot be connected yet
 6. Complete authorization in provider popup.
 7. Return to ScaleFlow and verify the connection appears in the provider page.
 
+Authorization means you approve ScaleFlow to connect to that tool. Only approve accounts that belong to your business.
+
 ## Manage connections for one provider
 
 Open one provider page (for example **Integrations -> HubSpot**) to:
@@ -73,7 +74,7 @@ Open one provider page (for example **Integrations -> HubSpot**) to:
 Each connection row also supports quick actions:
 
 - **Test connection** (refresh icon)
-- **Reconnect** (key icon, shown for OAuth2 when status is not active)
+- **Reconnect** (key icon, shown when ScaleFlow needs you to sign in again)
 - **Disconnect** (unplug icon, shown when status is active)
 - **Delete** (trash icon, with confirmation dialog)
 
@@ -98,44 +99,49 @@ You may see these statuses:
 
 If status is not healthy (for example **Error** or **Reauth required**), use **Reconnect** or **Test connection** first.
 
-## What you can configure inside a connection
+## What you can do with each provider
 
 ### HubSpot connection
 
-Inside one HubSpot connection, there are 3 tabs:
+Use HubSpot when your sales or support team stores customer records in HubSpot.
 
-- **Display**: rename connection and view read-only metadata (company, company ID, environment)
-- **AI and Automation**: review actions and start AI agent setup
-- **Data sync**:
-  - trigger **Sync now** (manual sync)
-  - review sync metrics and recent sync activity
-  - open field mapping dialogs for contact and ticket data
+Inside one HubSpot connection, you can rename the connection, review available AI actions, and sync customer or ticket data when your setup supports it.
 
 ### Google Sheets connection
 
-Inside one Google Sheets connection:
+Use Google Sheets when your team manages simple tables, lead lists, price tables, or tracking sheets.
 
-- **Display**: rename connection and review linked Google account metadata
-- **AI and Automation**: review available actions and recommended AI flow templates
+Inside one Google Sheets connection, you can review the linked account and available automation ideas.
 
 ### Google Drive connection
 
-Inside one Google Drive connection:
+Use Google Drive when your team stores documents that AI should read.
 
-- **Display**: rename connection and review linked Google account metadata
-- **AI and Automation**: review available actions and recommended AI flow templates
+After connecting, you can create [Knowledge](./knowledge-usage) from selected Drive files.
+
+## Real-world workflow
+
+1. Admin connects Google Drive in Integrations.
+2. Admin creates a Knowledge base from the company's FAQ folder.
+3. Admin connects that Knowledge to an AI Agent.
+4. Smart Assistant answers customers in Inbox using the FAQ.
+5. When the FAQ changes, the admin syncs Knowledge again.
+
+## What to read next
+
+- Want AI to read Google Drive files? Go to [Knowledge Usage](./knowledge-usage).
+- Want AI to use connected tools? Go to [AI Agent Usage](./ai-agent-usage).
+- Want AI to answer customers in Inbox? Go to [AI Assistant](./ai-assistant).
 
 ## Quick troubleshooting
 
 ### I cannot see Integrations menu
 
-- Your account may not include `integration.view`.
-- Ask an admin to grant integration view permission.
+- Ask an admin to grant integration view access.
 
 ### I can view but cannot connect or edit
 
-- You likely have view-only access.
-- Ask for `integration.manage` permission.
+- You likely have view-only access. Ask for integration management access.
 
 ### My connection shows error or reauth required
 
@@ -153,8 +159,8 @@ Inside one Google Drive connection:
 ## Best practices for non-technical teams
 
 - Use clear connection names (example: `HubSpot Production`, `Google Drive - Marketing`).
-- Keep production and sandbox connections separate when available.
 - Validate new connections with **Test connection** right after setup.
 - Remove unused connections to reduce confusion and permission risk.
+- Connect only business accounts that your organization approves.
 
 ![Delete connection confirmation dialog](/img/delete-connection.png)

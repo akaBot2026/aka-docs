@@ -3,20 +3,28 @@ id: ai-agent-usage
 title: AI Agent Usage
 sidebar_label: AI Agent Usage
 sidebar_position: 14
-description: Practical guide to create, configure, test, and publish AI Agents using the current UI.
+description: Beginner-friendly guide to create, teach, test, and publish an AI Agent for ScaleFlow.
 displayed_sidebar: scaleFlowSidebar
 ---
 
-## What AI Agent is for
+# AI Agent Usage
 
-Use **AI Agent** to:
+An **AI Agent** is the AI worker behind your [AI Assistant](./ai-assistant). It follows your instructions, reads your [Knowledge](./knowledge-usage), and helps customers in Inbox.
 
-- Build AI assistants for customer support workflows
-- Configure knowledge, integrations, and response behavior
-- Test safely before going live
-- Manage versions for controlled updates
+You can think of an AI Agent as a trained support teammate. It does not replace your staff. It handles simple questions, gathers basic information, and passes complex cases to humans.
 
-## Open AI Agent from the menu
+## When to use an AI Agent
+
+Use an AI Agent when:
+
+- Customers ask repeat questions such as price, opening hours, warranty, delivery, or return policy.
+- You want consistent answers from approved business information.
+- You want AI to create tickets or support staff with basic tasks.
+- You want to test AI behavior safely before using it with real customers.
+
+Example: A school creates an AI Agent called `Admissions Assistant`. It answers questions about tuition, documents, deadlines, and office hours. When a parent asks for a special scholarship review, the agent creates a ticket for the admissions team.
+
+## Open AI Agent
 
 1. In the left sidebar, open **AI Agent**.
 2. Select **Agents**.
@@ -24,36 +32,9 @@ Use **AI Agent** to:
 
 ![AI Agent list page](/img/list-agent.png)
 
-## Required permissions
+If you cannot see action buttons such as **Add Agent**, **Import Agent**, or **Save Draft**, ask your admin to update your access.
 
-In the current UI, actions depend on permissions:
-
-- **View agent list/detail**: `AI Agent -> View`
-- **Create, edit, publish, delete agents**: `AI Agent -> Manage`
-- **Import Agent (upload JSON file)**: `File Storage -> Manage`
-- **Add knowledge to an agent**: requires both agent and knowledge management permissions
-
-If you cannot see action buttons (for example **Add Agent**, **Import Agent**, **Save Draft**), ask your admin to update your permissions.
-
-## Agents list page
-
-On the **Agents** page, you can:
-
-- Search with **Search agents...**
-- Filter by status using **All statuses**
-- Open an agent detail page by clicking an agent card
-- If authorized, use:
-  - **Import Agent**
-  - **Add Agent**
-
-Available status filters:
-
-- `all`
-- `published`
-- `draft`
-- `archived`
-
-## Create a new agent
+## Create your first AI Agent
 
 ![Create agent](/img/create-agent.png)
 
@@ -68,161 +49,173 @@ Available status filters:
 4. Click **Create**.
 5. The system redirects you to the agent detail page for setup.
 
-Note: every new agent follows a section-by-section configuration flow.
+Choose **Basic support** if you are unsure. It is the easiest starting point for beginner teams.
 
-## Import an agent from JSON
+## Understand the setup sections
+
+The agent detail page is organized into simple setup sections.
+
+### 1. Basic information
+
+![Basic information section](/img/basic-information.png)
+
+Use this section to name the agent and choose the AI model it will use.
+
+- **Agent Name**: choose a clear name, such as `Customer Support Assistant`.
+- **Description**: explain what this agent should help with.
+- **Model**: choose the AI brain. If you are unsure, use the model recommended by your admin.
+
+Simple description example:
+
+> Helps customers with common product, delivery, warranty, and return questions. Creates a ticket when staff need to review the case.
+
+### 2. Knowledge
+
+![Knowledge section](/img/knowledge.png)
+
+Knowledge is the information the agent can use to answer correctly. Add FAQs, policies, product details, documents, or website pages.
+
+1. On the agent detail page, in the **Knowledge** section, click **Add Knowledge**.
+2. In the **Add knowledge base** dialog, choose how to proceed:
+   - **Create new**: start a new knowledge base and add sources (files, Drive, or web) in the flow that opens. See [Knowledge Usage](./knowledge-usage) for creating and syncing documents.
+   - **Choose existing**: pick one or more knowledge bases you already created in the library.
+3. Click **Next** to continue (or **Cancel** to close without changes).
+
+![Add knowledge base: Create new or Choose existing](/img/add-knowledge-agent.png)
+
+4. If you chose **Choose existing**, the **Select existing knowledge** screen opens. Use **Search knowledge bases...** if the list is long. Click each row to select or deselect it. The footer shows how many are selected.
+5. Click **Add selected** to attach them to this agent (or **Cancel** to go back).
+
+![Select existing knowledge and Add selected](/img/select-knowledge-agent.png)
+
+6. Confirm the chosen knowledge bases appear in the **Knowledge** section on the agent page. You can repeat **Add Knowledge** to attach more bases over time.
+
+If you have not created Knowledge yet, follow [Knowledge Usage](./knowledge-usage) first.
+
+### 3. Integrations
+
+![Integration section](/img/integration.png)
+
+Integrations let the agent work with connected business tools, such as HubSpot, Google Drive, or Google Sheets.
+
+Use this only when the agent needs information from those tools or needs to perform an approved action. Beginners can start without integrations, then add them later.
+
+Learn more in [Integration Usage](./integration-usage).
+
+### 4. Instructions
+
+Instructions tell the agent how to behave.
+
+![How to respond](/img/instruction-1.png)
+
+Write rules in simple language:
+
+- Be polite and short.
+- Use only approved Knowledge.
+- Ask one question at a time.
+- Do not guess prices, policies, or promises.
+- Transfer to staff for complaints, refunds, legal questions, or sensitive information.
+
+![What to avoid](/img/instruction-2.png)
+
+Use the "avoid" section for topics the agent should not handle alone.
+
+![Exiting a conversation](/img/instruction-3.png)
+
+Use the handoff section to explain when a human should continue.
+
+### 5. Advanced actions
+
+![Advanced actions](/img/advanced.png)
+
+Advanced actions are tasks the agent can perform when allowed, such as:
+
+- Send a text message.
+- Assign a conversation.
+- Search or add a contact.
+- Create or update a ticket.
+
+Start with fewer actions. Add more only after testing.
+
+## Test before publishing
+
+![Action agent](/img/action-agent.png)
+
+Use this safe workflow:
+
+1. Configure the sections you need.
+2. Click **Save Draft**.
+3. Click **Test Version**.
+4. Ask real customer questions.
+5. Improve Knowledge or instructions if the answers are not good.
+6. Click **Publish Version** only when you are satisfied.
+
+Testing does not affect real customers. It helps you catch unclear instructions before the agent is used in Inbox.
+
+## Connect the AI Agent to AI Assistant
+
+After publishing:
+
+1. Open [AI Assistant](./ai-assistant).
+2. Select **Smart Assistant**.
+3. Choose this agent.
+4. Decide when it should run.
+5. Turn **Enabled** on and save.
+
+## Real-world workflow
+
+1. Admin creates Knowledge with FAQs, shipping policy, and return policy.
+2. Admin creates an AI Agent named `Shop Support Assistant`.
+3. Admin connects the Knowledge to the agent.
+4. Admin tests questions like "How long does delivery take?"
+5. Admin publishes the agent.
+6. Admin turns on Smart Assistant in [AI Assistant](./ai-assistant).
+7. Customers receive faster answers in [Inbox](./inbox-usage).
+8. Complicated issues become [Tickets](./ticket-usage) for staff.
+
+## Import an existing agent
 
 ![Import agent](/img/import-agent.png)
 
-1. On the list page, click **Import Agent**.
-2. Select a previously exported `.json` file.
+Use import only if your team already has an exported agent file.
+
+1. On the agent list page, click **Import Agent**.
+2. Select the exported file.
 3. In the **Import agent** dialog, review the imported information.
 4. Update **Name** and **Description** if needed.
 5. Click **Import Agent**.
 
-If the file format is invalid, the UI shows **Invalid import file**.
-
-## Configure the agent by sections
-
-In the agent detail screen, the left panel shows these steps:
-
-- **Basic information**
-- **Knowledge**
-- **Integrations**
-- **Instructions**
-- **Advanced actions**
-- **Performance testing** (currently a placeholder)
-- **Flow deployment** (currently a placeholder)
-
-### 1) Basic information
-
-![Basic information section](/img/basic-information.png)
-
-Configure:
-
-- **Agent Name**
-- **Description**
-- **Model** (choose the AI model)
-
-This section defines the agent identity and purpose.
-
-### 2) Knowledge
-
-![Knowledge section](/img/knowledge.png)
-
-Add knowledge sources so the agent can answer more accurately:
-
-1. Click **Add Knowledge**.
-2. Select an existing knowledge base or create a new one.
-3. Added knowledge appears as cards in this section.
-4. Remove a knowledge source from the agent with **Remove**.
-
-Without proper permissions, add/remove actions are unavailable.
-
-### 3) Integrations
-
-![Integration section](/img/integration.png)
-
-This section controls which integration connections the agent can use:
-
-1. Review available connections.
-2. Click each row to select or unselect.
-3. Each selected connection grants access to resources and actions from that integration.
-
-If the workspace has no connections, the UI shows **No connections yet**.
-
-### 4) Instructions
-
-This section defines agent behavior in 3 groups:
-
-- **How to respond**: response style and behavior
-
-![How to respond](/img/instruction-1.png)
-
-- **What to avoid**: guardrails and restricted content
-
-![What to avoid](/img/instruction-2.png)
-
-- **Exiting a conversation**: conditions for handoff or exit
-
-![Exiting a conversation](/img/instruction-3.png)
-
-This is where you train the agent's tone, safety rules, and handoff logic.
-
-### 5) Advanced actions
-
-![Advanced actions](/img/advanced.png)
-
-Enable or disable advanced actions by group:
-
-- **Conversation actions**
-- **Contact actions**
-- **Ticket actions**
-
-Examples available in the current UI:
-
-- Send text message
-- Assign conversation
-- Add contact / Search contacts
-- Create ticket / Get ticket / Update ticket status
-
-Each action includes fields like trigger condition and guidelines so the agent knows when to execute it.
-
-## Save, publish, test, and manage versions
-
-![Action agent](/img/action-agent.png)
-
-At the top-right of the detail page, use version controls:
-
-- Main button:
-  - **Save Draft** (when viewing a draft)
-  - **Create Draft** (when viewing a published version)
-- Menu **More actions**:
-  - **Publish Version** (shown only for draft versions)
-  - **Test Version**
-  - **Export Agent**
-  - **Execution tasks** (for published versions only)
-  - **Delete Draft Version** (draft only)
-  - **Delete This Agent**
-
-Recommended safe workflow:
-
-1. Configure all relevant sections.
-2. Click **Save Draft**.
-3. Use **Test Version** to verify responses.
-4. If results are good, click **Publish Version** to go live.
-
-## Track execution tasks
+## Review AI activity
 
 For published versions, open **Execution tasks** to:
 
-- Review run history (Running/Success/Failed)
-- Inspect input, start/end time, token usage, and cost
-- Open **View trace** for detailed execution flow
+- Review when the agent ran.
+- Check whether the run succeeded or failed.
+- Understand why an answer was produced.
 
-This is useful when investigating why an agent response was correct or incorrect.
+This is useful when a customer asks, "Why did AI answer that way?"
 
 ## Best practices
 
-- Use clear agent names by team or purpose (for example: `Support - VN`, `Sales FAQ Bot`)
-- Keep **Description** specific so the agent stays in scope
-- Always run **Test Version** before publishing
-- For major updates, create a new draft and retest
-- If key buttons are missing, verify permissions first
+- Use clear agent names by purpose, such as `Support Assistant` or `Sales FAQ Assistant`.
+- Keep the agent focused. One agent should not handle every possible business process at once.
+- Test with real questions before publishing.
+- Update Knowledge first when answers are missing.
+- Use tickets for work that needs staff follow-up.
 
 ## Quick troubleshooting
 
 ### I cannot see Agents or open agent details
 
-- Check `AI Agent -> View`.
+- Ask your admin for AI Agent view access.
 
 ### I can view but cannot create/edit/publish/delete
 
-- Check `AI Agent -> Manage`.
+- Ask your admin for AI Agent management access.
 
 ### I cannot use Import Agent
 
-- Check `File Storage -> Manage`.
+- Ask your admin whether you have file upload access.
 
 ### I cannot see execution tasks
 

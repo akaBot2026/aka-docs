@@ -3,15 +3,17 @@ id: user-management
 title: User Management
 sidebar_label: User Management
 sidebar_position: 4
-description: A practical guide to manage users, invitations, roles, and access in ScaleFlow.
+description: Beginner-friendly guide to invite users, manage accounts, and assign roles in ScaleFlow.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # User Management
 
-This guide explains how to use the **User Management** page in ScaleFlow to find users, invite members, create users, edit user profiles, assign roles, and remove users.
+User Management is where admins add people to ScaleFlow and manage their access.
 
-## What you can do on this page
+Use it when a new teammate joins, someone changes teams, or a user should no longer access the workspace.
+
+## What User Management is used for
 
 In **Organization -> User Management**, you can:
 
@@ -26,12 +28,6 @@ In **Organization -> User Management**, you can:
 - Delete a user
 
 ## Access and permissions
-
-Your visible actions depend on your permissions:
-
-- **View page**: requires user view access
-- **Invite / Add / Edit / Delete**: requires user management access
-- **Assign roles**: requires role assignment access
 
 If a button is missing, contact your workspace admin to update your permissions.
 
@@ -61,6 +57,8 @@ The table uses pagination. You can change page and page size from the table cont
 
 ## Invite users by email
 
+Invitation is the easiest option when adding teammates.
+
 1. Click **Invite Users**.
 2. Enter one or more email addresses.
 3. You can add emails by:
@@ -77,8 +75,11 @@ Important:
 
 - Invalid or duplicate emails are blocked in the dialog.
 - Invitation links are valid for **7 days**.
+- After accepting the invitation, the user can sign in. If your company uses SSO, they should use the SSO option explained in [Account Registration](./account-registration).
 
 ## Add a user manually
+
+Use manual creation only when your organization wants an admin to create the account directly.
 
 1. Click **+ Add User**.
 2. Fill in required fields:
@@ -121,6 +122,7 @@ Notes:
 
 - Role assignment is handled in a dedicated dialog.
 - For owner accounts, role assignment is disabled from the list.
+- If you are unsure which role to choose, review [Roles & Permissions](./roles-permissions).
 
 ## Open user detail page
 
@@ -143,6 +145,22 @@ You can review:
 3. The user is removed after successful confirmation.
 
 Use this action carefully because it can affect access and workflow ownership.
+
+## Real-world onboarding example
+
+1. A new support staff member joins the company.
+2. Admin invites the user by work email.
+3. The user signs in with SSO from [Account Registration](./account-registration).
+4. Admin assigns the `Support Agent` role.
+5. Admin adds the user to the right team in [Team Management](./team-management).
+6. The user starts handling conversations in [Inbox](./inbox-usage).
+
+## Offboarding example
+
+1. A staff member leaves the company.
+2. Admin removes or disables their access.
+3. Admin checks open tickets assigned to that user.
+4. Tickets and conversations are reassigned to another user or team.
 
 ## Troubleshooting
 

@@ -3,20 +3,26 @@ id: model-usage
 title: Model Usage
 sidebar_label: Model Usage
 sidebar_position: 16
-description: Practical guide to create providers, create models, and select models in AI Agent using the current UI.
+description: Beginner-friendly guide to understand and manage AI models for ScaleFlow.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Model Usage
 
-## What Models are for
+Models are the AI engines that power [AI Agents](./ai-agent-usage) and [AI Assistant](./ai-assistant). A model is what reads the conversation and writes an answer.
+
+Most everyday users do not need to manage models. This page is mainly for admins or AI setup owners.
+
+## What Models are used for
 
 Use **Models** to:
 
-- Connect your AI provider (for example OpenAI, Anthropic, Google)
-- Configure API keys and connection settings for each provider
-- Create and manage models that AI Agents can use
-- Let users choose model behavior in agent setup
+- Connect an AI provider, such as OpenAI, Anthropic, Google, or another approved provider.
+- Decide which models your AI Agents can use.
+- Turn models on or off.
+- Keep AI setup organized for your workspace.
+
+An **API key** is like a private password that lets ScaleFlow use an AI provider account. Only admins should handle it. Never share it in chat, email, or documents.
 
 ## Open Models from the menu
 
@@ -24,14 +30,7 @@ Use **Models** to:
 2. Select **Models**.
 3. You will see the provider list page.
 
-## Required permissions
-
-In the current UI:
-
-- **View Models pages**: `AI Model -> View`
-- **Create/update/delete provider or model**: `AI Model -> Manage`
-
-If you can open the page but cannot see buttons such as **Create**, **New Model**, or **Settings**, ask your admin to review your permissions.
+If you can open the page but cannot see buttons such as **Create**, **New Model**, or **Settings**, ask your admin to review your model management access.
 
 ## Models page (provider list)
 
@@ -53,6 +52,8 @@ Each provider card shows:
 
 ## Create a provider
 
+Create a provider when your organization wants to use an AI service account in ScaleFlow.
+
 1. Click **Create** on the provider list page.
 2. Fill in the dialog:
    - **Provider Type** (OpenAI, Anthropic, DeepSeek, Google, Mistral AI, Amazon Bedrock, Microsoft Azure OpenAI, Alibaba Cloud Model Studio, Hugging Face, Ollama)
@@ -66,6 +67,8 @@ Each provider card shows:
 
 3. Click **Create**.
 4. Open the created provider card to view details.
+
+Beginner tip: Use a clear provider name, such as `OpenAI - Company Account`, so teammates know which account is being used.
 
 ## Provider detail page
 
@@ -97,6 +100,8 @@ You can also see:
 ![Provider settings dialog](/img/setting-provider.png)
 
 ## Create a model
+
+Create a model when the provider is connected but the exact AI model is not available yet.
 
 1. In provider detail, click **New Model**.
 2. Fill required fields:
@@ -139,7 +144,7 @@ This is expected behavior to protect system-managed configuration.
 
 ## Use a model in AI Agent
 
-After models are configured, users can select them in AI Agent:
+After models are configured, users can select them in [AI Agent](./ai-agent-usage):
 
 1. Open **AI Agent** > **Agents**.
 2. Open an agent.
@@ -149,7 +154,9 @@ After models are configured, users can select them in AI Agent:
 
 ## Advanced Model Settings (in agent form)
 
-In the model settings dialog, users can adjust:
+Advanced settings change how the model writes. Beginners should keep defaults unless an admin gives instructions.
+
+The dialog may include:
 
 - **Temperature**
 - **Top P**
@@ -163,25 +170,40 @@ Then click **Save**.
 Important:
 
 - Some model families do not support temperature control, so temperature will be locked.
-- These settings tune the agent response style and length, not provider connection setup.
+- These settings affect response style and length, not the business Knowledge itself.
+
+Simple explanation:
+
+- Lower randomness usually means more consistent answers.
+- Higher randomness can sound more creative but may be less predictable.
+- Maximum length controls how long an answer can be.
 
 ## Recommended workflow
 
-1. Create one provider with a valid API key.
+1. Ask your admin which AI provider your company approved.
+2. Create one provider with a valid API key.
 2. Ensure the provider is **Enabled**.
-3. Create 1-3 models your team needs.
+3. Create only the models your team actually needs.
 4. Open an agent and select the target model.
 5. Test responses before publishing agent changes.
+
+## Real-world example
+
+1. Admin connects the company's approved AI provider.
+2. Admin creates a model named `Support Model`.
+3. The support manager selects this model in an AI Agent.
+4. The AI Agent is tested with real customer questions.
+5. Smart Assistant uses that agent to answer in Inbox.
 
 ## Quick troubleshooting
 
 ### I cannot see the Models menu
 
-- Check `AI Model -> View`.
+- Ask your admin for model view access.
 
 ### I can view but cannot create or edit provider/model
 
-- Check `AI Model -> Manage`.
+- Ask your admin for model management access.
 
 ### Provider is created but model list is empty
 
