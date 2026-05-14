@@ -15,11 +15,9 @@ This document provides instructions for configuring LDAP/AD authentication withi
 - Open file **application-prod.yml** file
 
 ![1773906808885-411.png](/static/img/1773906808885-411.png)
-![1773906808885-411.png](/static/img/1773906808885-411.png)
 
 - An example setting and formatting Configuration properties in the file: Setting for login of users in FSOFT  
 
-![1773906973195-639.png](/static/img/1773906973195-639.png)
 ![1773906973195-639.png](/static/img/1773906973195-639.png)
 
 # **2. Setting Configuration properties ldap-server-list**
@@ -58,23 +56,19 @@ The system supports multiple LDAP/AD server configurations. Each server in the l
 - Stop the **Apache Tomcat** service before making changes.
 
 ![1773907295241-448.png](/static/img/1773907295241-448.png)
-![1773907295241-448.png](/static/img/1773907295241-448.png)
 
 **Step 2: Use Active Directory Administrative Center tool to get information for setting ldap-server-list**
 
 - Open Start menu => Windows Administrative tools => Open **Active Directory Administrative Center** tool
 
 ![1773907432579-484.png](/static/img/1773907432579-484.png)
-![1773907432579-484.png](/static/img/1773907432579-484.png)
 
 - Assume that we have had an AD/LDAP already with many users in the Users distinguished name. Get value of **distinguishedName** to fill in the baseDn:
 
 ![1773907511728-165.png](/static/img/1773907511728-165.png)
-![1773907511728-165.png](/static/img/1773907511728-165.png)
 
 **Step 3: Get values to fill in value of userDn, emailUserMapping, firstNameUserMapping, flastNameUserMapping:**
 
-![1773907578318-182.png](/static/img/1773907578318-182.png)
 ![1773907578318-182.png](/static/img/1773907578318-182.png)
 
 ![1773907593968-692.png](/static/img/87fc84_1773907593968-692.png)
@@ -82,9 +76,7 @@ The system supports multiple LDAP/AD server configurations. Each server in the l
 **Step 4: Get values to fill in value of masterUserDn, masterUserDnValue and masterBaseDn**
 
 ![1773907657385-440.png](/static/img/1773907657385-440.png)
-![1773907657385-440.png](/static/img/1773907657385-440.png)
 
-![1773907673752-986.png](/static/img/1773907673752-986.png)
 ![1773907673752-986.png](/static/img/1773907673752-986.png)
 
 - You should set default as example table for other values of ldap-server-list setting.
@@ -97,7 +89,6 @@ The system supports multiple LDAP/AD server configurations. Each server in the l
 
 - Start Apache Tomcat
 
-![1773907757297-552.png](/static/img/1773907757297-552.png)
 ![1773907757297-552.png](/static/img/1773907757297-552.png)
 
 # 
