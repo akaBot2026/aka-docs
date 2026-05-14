@@ -14,7 +14,7 @@ RCA.Activities.Core.ClickImage
 
 This activity allows you to search for an image and click it within a UI element.
 
-![image-20220505092211-1.jpeg](/img/54acdd_image-20220505092211-1.jpeg)
+![image-20220505092211-1.jpeg](/static/img/54acdd_image-20220505092211-1.jpeg)
 
 (\* for Mandatory)
 

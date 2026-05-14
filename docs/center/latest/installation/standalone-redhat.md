@@ -12,7 +12,7 @@ displayed_sidebar: centerSidebar
 
 This document aims to guide you to install akaBot Center in **Standalone model** (all-in-one” model) which means that all necessary packages will be installed in only one machine as below image:
 
-![image-20230728180918-1.png](/img/429ab0_image-20230728180918-1.png)
+![image-20230728180918-1.png](/static/img/429ab0_image-20230728180918-1.png)
 
 For other models, please contact the project coordinator (if have) or send email to [[support@akaBot.com]](/cdn-cgi/l/email-protection#f88b8d8888978a8cb8999399ba978cd69b9795) to get the guidance. **akaBot team is always here to support your installation success**.
 
@@ -89,7 +89,7 @@ sudo yum install openlogic-openjdk-11.0.16+8-linux-x64-el.rpm
 
 java -version
 
-![image-20230728180918-2.png](/img/064dc2_image-20230728180918-2.png)
+![image-20230728180918-2.png](/static/img/064dc2_image-20230728180918-2.png)
 
 ***Note: Please upgrade Java version to Java 11 if former Java version has been installed.***
 
@@ -131,7 +131,7 @@ sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 
             tomcat ALL= NOPASSWD: ALL
 
-![image-20230728180918-3.png](/img/43b286_image-20230728180918-3.png)
+![image-20230728180918-3.png](/static/img/43b286_image-20230728180918-3.png)
 
 * Save changes and exit vi editor.
 
@@ -151,7 +151,7 @@ sudo chown tomcat:tomcat tomcat
 
 ls -l
 
-![image-20230728180918-4.png](/img/15dbc7_image-20230728180918-4.png)
+![image-20230728180918-4.png](/static/img/15dbc7_image-20230728180918-4.png)
 
 2. Configure access permission on Tomcat folder:
 
@@ -167,7 +167,7 @@ sudo chown -R tomcat webapps/ work/ temp/ logs/
 
 ls -l
 
-![image-20230728180918-5.png](/img/ba1b66_image-20230728180918-5.png)
+![image-20230728180918-5.png](/static/img/ba1b66_image-20230728180918-5.png)
 
 ### **2.1.4 Step 4: Configure Tomcat service running**
 
@@ -175,7 +175,7 @@ ls -l
 
 sudo update-alternatives --list | grep java
 
-![image-20230728180918-6.png](/img/0ac965_image-20230728180918-6.png)
+![image-20230728180918-6.png](/static/img/0ac965_image-20230728180918-6.png)
 
 --> %JAVA\_HOME% = /usr/lib/jvm/openlogic-openjdk-11-hotspot **(WITHOUT /bin/java)**
 
@@ -263,7 +263,7 @@ Example:
 
 *4host-manager.apache.juli.AsyncFileHandler.maxDays = 10*
 
-![1714726922102-116.png](/img/9bd3fd_1714726922102-116.png)
+![1714726922102-116.png](/static/img/9bd3fd_1714726922102-116.png)
 
 3. Save changes and exit.
 
@@ -275,7 +275,7 @@ Example:
 
 Ex: *maxDays="10"*
 
-![1714726968776-214.png](/img/3ac628_1714726968776-214.png)
+![1714726968776-214.png](/static/img/3ac628_1714726968776-214.png)
 
 7. Save changes and exit.
 
@@ -297,11 +297,11 @@ sudo systemctl enable tomcat
 
 sudo systemctl status tomcat
 
-![image-20230728180918-7.png](/img/938ee2_image-20230728180918-7.png)
+![image-20230728180918-7.png](/static/img/938ee2_image-20230728180918-7.png)
 
 curl localhost:8080
 
-![image-20230728180918-8.png](/img/fe5d0d_image-20230728180918-8.png)
+![image-20230728180918-8.png](/static/img/fe5d0d_image-20230728180918-8.png)
 
 12. Change owner and group ownership to logs folder.
 
@@ -393,7 +393,7 @@ sudo systemctl enable activemq
 
 sudo systemctl status activemq
 
-![image-20230728180918-9.png](/img/9b33d8_image-20230728180918-9.png)
+![image-20230728180918-9.png](/static/img/9b33d8_image-20230728180918-9.png)
 
 ### **2.2.4. Step 4 - Configure Java Heap Memory of ActiveMQ Service**
 
@@ -421,7 +421,7 @@ sudo systemctl stop activemq
 
                        Ex: If your akaBot Center machine’s RAM = 4G, then set -Xms2G.
 
-![image-20230728180918-10.png](/img/5e80fc_image-20230728180918-10.png)
+![image-20230728180918-10.png](/static/img/5e80fc_image-20230728180918-10.png)
 
 * Save changes and exit
 
@@ -435,7 +435,7 @@ sudo systemctl stop activemq
 
 `sudo systemctl status activemq`
 
-![image-20230728180918-11.png](/img/cdbedd_image-20230728180918-11.png)
+![image-20230728180918-11.png](/static/img/cdbedd_image-20230728180918-11.png)
 
 ## **2.4. Install akaBot Center**
 
@@ -481,11 +481,11 @@ Note: x.x.x.x is akaBot Center version
 
 * Comment out the line of default MySQL Delegate setting:
 
-![image-20230728180918-12.png](/img/981df3_image-20230728180918-12.png)
+![image-20230728180918-12.png](/static/img/981df3_image-20230728180918-12.png)
 
 * Uncomment out to turn on the setting of Oracle Delegate:
 
-![image-20230728180918-13.png](/img/3f0b0d_image-20230728180918-13.png)
+![image-20230728180918-13.png](/static/img/3f0b0d_image-20230728180918-13.png)
 
 * Save changes and exit
 
@@ -525,7 +525,7 @@ To:
 
 Press ESC then type: :wq
 
-![1714722756676-901.png](/img/ce135d_1714722756676-901.png)
+![1714722756676-901.png](/static/img/ce135d_1714722756676-901.png)
 
 #### 2.4.2.3. Configure Oracle Database connection
 
@@ -539,7 +539,7 @@ Press ESC then type: :wq
 
 * Comment out the MySQL database’s URL setting.
 
-![image-20230728180918-15.png](/img/212be9_image-20230728180918-15.png)
+![image-20230728180918-15.png](/static/img/212be9_image-20230728180918-15.png)
 
 * Uncomment Oracle database’s URL and update database connection info as below:
   1. JDBC URL
@@ -548,26 +548,26 @@ Press ESC then type: :wq
 
 `url: jdbc:oracle:thin:@<DB-SERVER>:<DB-PORT>:<DB-SID>`
 
-![image-20230728180918-16.png](/img/31840d_image-20230728180918-16.png)
+![image-20230728180918-16.png](/static/img/31840d_image-20230728180918-16.png)
 
                   + If you use service’s name, then JDBC URL format should be:
 
 `url: jdbc:oracle:thin:@//<HOST>:<PORT>/<SERVICE NAME>`
 
-![image-20230728180918-17.png](/img/bb5292_image-20230728180918-17.png)
+![image-20230728180918-17.png](/static/img/bb5292_image-20230728180918-17.png)
 
                   2. Database’s username & password
 
-![image-20230728180918-18.png](/img/2ade7f_image-20230728180918-18.png)
+![image-20230728180918-18.png](/static/img/2ade7f_image-20230728180918-18.png)
 
 * Comment out MariaDB’s driver.
 * Uncomment Oracle database’s driver.
 * Comment out MySQL Dialect & database name setting
 * Uncomment Oracle Dialect & database name settting
 
-![image-20230728180918-19.png](/img/5e15fb_image-20230728180918-19.png)
+![image-20230728180918-19.png](/static/img/5e15fb_image-20230728180918-19.png)
 
-![image-20230728180918-20.png](/img/ce977e_image-20230728180918-20.png)
+![image-20230728180918-20.png](/static/img/ce977e_image-20230728180918-20.png)
 
 3. Save changes and exit
 
@@ -593,7 +593,7 @@ b. **Repeat the same from step 2 to step 3** to configure the file ***applicatio
 
 **Success case:**
 
-![image-20230728180918-21.png](/img/c2be5b_image-20230728180918-21.png)
+![image-20230728180918-21.png](/static/img/c2be5b_image-20230728180918-21.png)
 
 If not success, please follow [section 3. Troubleshoot issue](#_3._Troubleshooting_installation) to self-troubleshoot issues.
 
@@ -619,7 +619,7 @@ By default, Tomcat will write out the logs into *catalina.out* file which may ca
 
 Press ESC then type: “:wq”
 
-![image-20230728180918-22.png](/img/ceb131_image-20230728180918-22.png)
+![image-20230728180918-22.png](/static/img/ceb131_image-20230728180918-22.png)
 
 **DONE!!!** You have successfully completed the akaBot Center installation and configuration in Standalone model.
 
@@ -652,7 +652,7 @@ Please use the logs to detect the issue.
 
 **Issue:** Could not commit with auto-commit as below image:
 
-![image-20230728180918-23.png](/img/3dbee7_image-20230728180918-23.png)
+![image-20230728180918-23.png](/static/img/3dbee7_image-20230728180918-23.png)
 
 **Solution:**
 
@@ -660,6 +660,6 @@ Please use the logs to detect the issue.
 
 *-Doracle.jdbc.autoCommitSpecCompliant=false*
 
-![image-20230728180918-24.png](/img/d23ee6_image-20230728180918-24.png)
+![image-20230728180918-24.png](/static/img/d23ee6_image-20230728180918-24.png)
 
 2. Continue to follow the next steps in the guide.

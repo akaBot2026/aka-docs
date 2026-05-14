@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExelSetBorder
 
 The activity allows you to set the borders through different ranges in Excel. This only can be used in Excel Application Scope Activity.
 
-![image-20220505133607-1.jpeg](/img/707809_image-20220505133607-1.jpeg)
+![image-20220505133607-1.jpeg](/static/img/707809_image-20220505133607-1.jpeg)
 
 (\* is mandatory)
 

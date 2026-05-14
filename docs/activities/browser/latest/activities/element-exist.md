@@ -14,7 +14,7 @@ RCA.Activities.Browser.ElementExist
 
 The Element Exist allows you to confirm whether an element exist.
 
-![image-20220505140211-2.png](/img/e335a9_image-20220505140211-2.png)
+![image-20220505140211-2.png](/static/img/e335a9_image-20220505140211-2.png)
 
 (\* For Mandatory)
 

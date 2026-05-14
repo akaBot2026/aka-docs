@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.SwitchTo
 
 The Switch To activity allows you to switch between different UI elements within a browser.
 
-![image-20220505151447-1.png](/img/image-20220505151447-1.png)
+![image-20220505151447-1.png](/static/img/image-20220505151447-1.png)
 
 \* indicates required fields.
 

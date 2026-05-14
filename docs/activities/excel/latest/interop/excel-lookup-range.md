@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelLookUpRange
 
 Searches in a specified range for the coordinates of a cell with a certain value and returns them as String variables.
 
-![image-20220505142148-1.png](/img/c5b6ab_image-20220505142148-1.png)
+![image-20220505142148-1.png](/static/img/c5b6ab_image-20220505142148-1.png)
 
 (\* for mandatory)
 

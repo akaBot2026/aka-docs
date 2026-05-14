@@ -14,7 +14,7 @@ RCA.Activities.Common.AddImage
 
 This activity allows to add an image at the end of a specified Word document. This activity is used only within Word Application Scope activity
 
-![image-20220506111624-1.png](/img/3bf854_image-20220506111624-1.png)
+![image-20220506111624-1.png](/static/img/3bf854_image-20220506111624-1.png)
 
 (\* is mandatory)
 

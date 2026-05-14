@@ -14,7 +14,7 @@ RCA.Activities.Word.ReplaceText
 
 This activity allows when a string (under text format) occurs once or more than once, it could be replaced at every pages its occurrences. This activity only is used in the Word Application Scope activity.
 
-![image-20220506111907-1.png](/img/47c77c_image-20220506111907-1.png)
+![image-20220506111907-1.png](/static/img/47c77c_image-20220506111907-1.png)
 
 **In the body of activity**
 

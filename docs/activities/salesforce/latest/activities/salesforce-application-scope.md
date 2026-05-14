@@ -14,17 +14,17 @@ It initiates a connection to a designated Salesforce Organization and provides t
 
 Firstly, you need to configure the connection parameters to connect to Salesforce Organization by using Configure button.
 
-![1715509316358-757.png](/img/f708ac_1715509316358-757.png)
+![1715509316358-757.png](/static/img/f708ac_1715509316358-757.png)
 
 Then, start to drop your activities to make the workflow.
 
-![1715509336328-842.png](/img/6935db_1715509336328-842.png)
+![1715509336328-842.png](/static/img/6935db_1715509336328-842.png)
 
 1. **Configure the connection**
 
 When selecting Configure on the body of the activity, a connection wizard will shown up allowing to configure the connection in an easy way.
 
-![1715509378485-784.png](/img/af8989_1715509378485-784.png)
+![1715509378485-784.png](/static/img/af8989_1715509378485-784.png)
 
 * **Server** – The type of server instance you want to connect to. The three supported values for this field are ** Live** (https://login.salesforce.com), **Test** (https://test.salesforce.com), and ** Custom**. Only strings and String variables supported.
 * **ConsumerKey** - The consumer key of your Salesforce Connected App. Only strings and String variables supported.

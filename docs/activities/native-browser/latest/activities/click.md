@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.Click
 
 The Click activity is used to send a click action into a webpage.
 
-![image-20220505145431-1.png](/img/deaa58_image-20220505145431-1.png)
+![image-20220505145431-1.png](/static/img/deaa58_image-20220505145431-1.png)
 
 (\*For mandatory)
 

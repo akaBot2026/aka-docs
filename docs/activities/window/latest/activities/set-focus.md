@@ -14,7 +14,7 @@ RCA.Activities.Windows.SetFocus
 
 The Set Focus activity allows you to set keyboard focus to a specified window element.
 
-![image-20220505171141-1.png](/img/43aa65_image-20220505171141-1.png)
+![image-20220505171141-1.png](/static/img/43aa65_image-20220505171141-1.png)
 
 (\*For mandatory)
 

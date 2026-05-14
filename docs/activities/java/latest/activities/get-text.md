@@ -14,7 +14,7 @@ RCA.Activities.Java.GetText
 
 This activity allows you to get text from a Java file.
 
-[![get text.png](/img/60fecf_get-text.png)](/bin/download/Activities/Java/Activities/Get%20Text/WebHome/get%20text.png?rev=1.1)
+[![get text.png](/static/img/60fecf_get-text.png)](/bin/download/Activities/Java/Activities/Get%20Text/WebHome/get%20text.png?rev=1.1)
 
 (\* is mandatory)
 

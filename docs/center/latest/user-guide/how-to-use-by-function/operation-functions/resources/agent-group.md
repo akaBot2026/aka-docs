@@ -10,7 +10,7 @@ displayed_sidebar: centerSidebar
 
 An Agent Group is a grouping of agents that is used to deploy processes. The **Agent Group** page displays all previously created groups and enables you to manage Agents within them. The **Agent Group** page allows you to search and filter agent groups by name and description.
 
-![image-20221031161241-16.png](/img/9a4345_image-20221031161241-16.png)
+![image-20221031161241-16.png](/static/img/9a4345_image-20221031161241-16.png)
 
 | No | Column/Label | Description |
 | --- | --- | --- |
@@ -21,7 +21,7 @@ An Agent Group is a grouping of agents that is used to deploy processes. The **
 
 To view the details of the Agent Group, click eye button.
 
-![image-20221031161320-17.png](/img/d8243b_image-20221031161320-17.png)
+![image-20221031161320-17.png](/static/img/d8243b_image-20221031161320-17.png)
 
 | No | Column/Label | Description |
 | --- | --- | --- |
@@ -34,15 +34,15 @@ To view the details of the Agent Group, click eye button.
 
 To create a new agent group, you should click “Create New” button on the top right corner of the screen.
 
-![image-20221031161529-18.png](/img/1baa08_image-20221031161529-18.png)
+![image-20221031161529-18.png](/static/img/1baa08_image-20221031161529-18.png)
 
 When you want to edit the Agent Group information, click the Edit button:
 
-![image-20221031161612-19.png](/img/65f66d_image-20221031161612-19.png)
+![image-20221031161612-19.png](/static/img/65f66d_image-20221031161612-19.png)
 
 When you click on Create New/Edit button, the system will show a form for you to fill in. Details are in the table below.
 
-![image-20221031161704-20.png](/img/fed62b_image-20221031161704-20.png)
+![image-20221031161704-20.png](/static/img/fed62b_image-20221031161704-20.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -56,6 +56,6 @@ Once all information is filled, hit **Save**.
 
 To delete an agent group, you should click the Delete button of the agent group you want to remove from the Agent Group list.
 
-![image-20221031162101-21.png](/img/c06301_image-20221031162101-21.png)
+![image-20221031162101-21.png](/static/img/c06301_image-20221031162101-21.png)
 
 Alternatively, you can hit the checkbox before each Agent and the Delete option will appear next to the Filter option at the top. Click the Checkbox next to Action will allow you to select all Agents for deletion.

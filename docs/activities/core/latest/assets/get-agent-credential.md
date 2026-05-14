@@ -14,7 +14,7 @@ RCA.Core.Activities.GetAgentCredential
 
 This activity allows you to get a specified akaBot Center credential by using a provided Asset Name and returns a username and a secure password.
 
-![image-20220506112654-1.png](/img/6ac24b_image-20220506112654-1.png)
+![image-20220506112654-1.png](/static/img/6ac24b_image-20220506112654-1.png)
 
 (\* for Mandatory)
 

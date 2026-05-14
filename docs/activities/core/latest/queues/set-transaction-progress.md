@@ -14,7 +14,7 @@ RCA.Activities.Core.SetTransactionProgress
 
 This activity allows you to create custom progress statuses for your In Progress transaction.
 
-![image-20220506113615-1.png](/img/17265d_image-20220506113615-1.png)
+![image-20220506113615-1.png](/static/img/17265d_image-20220506113615-1.png)
 
 (\* for Mandatory)
 

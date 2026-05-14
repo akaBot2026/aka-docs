@@ -14,7 +14,7 @@ RCA.Activities.Core.AddQueueItem
 
 This activity enables you to add a new item to the queue. The status of the item will be new.
 
-![image-20220506113229-1.png](/img/257b51_image-20220506113229-1.png)
+![image-20220506113229-1.png](/static/img/257b51_image-20220506113229-1.png)
 
 (\* for Mandatory)
 

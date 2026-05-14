@@ -14,7 +14,7 @@ RCA.Activities.Browser.NavigateTo
 
 The Navigate To activity allows you to navigate to another URL on the current browser.
 
-![Browser_NavigateTo](/img/00ebcd_896cc4b-screenshot_2021-05-25_154828.jpg)
+![Browser_NavigateTo](/static/img/00ebcd_896cc4b-screenshot_2021-05-25_154828.jpg)
 
 (\* For Mandatory)
 

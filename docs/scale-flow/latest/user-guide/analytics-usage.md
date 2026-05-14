@@ -3,13 +3,23 @@ id: analytics-usage
 title: Analytics Usage
 sidebar_label: Analytics Usage
 sidebar_position: 18
-description: Practical guide to use Analytics based on the current UI.
+description: Beginner-friendly guide to understand customer support activity through Analytics.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Analytics Usage
 
-## What Analytics is for
+Analytics helps you understand what is happening in your customer support operation. It shows message, conversation, ticket, and contact activity over time.
+
+Use Analytics when you want to answer questions such as:
+
+- Are we receiving more customer messages this week?
+- Which channel is busiest?
+- How many tickets were created or resolved?
+- Are many customers waiting for support?
+- Are contacts growing over time?
+
+## What Analytics tracks
 
 Analytics helps you track operational activity over time, including:
 
@@ -30,13 +40,7 @@ Analytics helps you track operational activity over time, including:
    - **Ticket**
    - **Contact**
 
-## Required permissions
-
-Based on the current route guard, users need:
-
-- `agent_registry.view` to open `AI > Analytics`
-
-If you cannot see Analytics, ask your admin to review your role permissions.
+If you cannot see Analytics, ask your admin to review your role access.
 
 ## Use the toolbar (top of page)
 
@@ -61,12 +65,12 @@ You can choose:
 ### 3) Export (Excel)
 
 - In tabs **Conversation / Message / Ticket / Contact**, click **Export**.
-- The system downloads an `.xlsx` file automatically.
+- The system downloads an Excel file automatically.
 - Export is not shown in **Overview**.
 
 ## Understand each Analytics tab
 
-## 1) Overview
+### 1. Overview
 
 Overview shows high-level cards and trend charts:
 
@@ -75,7 +79,7 @@ Overview shows high-level cards and trend charts:
 - **New Conversations** (includes top channel)
 - **Tickets** (resolved + reopened/new)
 
-![Overview analytics tab](/img/overview.png)
+![Overview analytics tab](/static/img/overview.png)
 
 Below the cards, you will see 4 trend charts:
 
@@ -84,15 +88,17 @@ Below the cards, you will see 4 trend charts:
 - New Conversations
 - Tickets (New, Reopened, Resolved)
 
-## 2) Conversation
+### 2. Conversation
 
-Charts available:
+Use this tab to understand conversation volume and ownership.
+
+Charts include:
 
 - **Conversation Created**
 - **Conversation Status Changed**
 - **Conversation Assigned**
 
-![Conversation analytics tab](/img/conversation.png)
+![Conversation analytics tab](/static/img/conversation.png)
 
 Each chart may include filter controls:
 
@@ -104,23 +110,27 @@ If you select **All** on enum-type dimensions, you can switch chart display:
 - **Grouped**
 - **Stacked**
 
-## 3) Message
+### 3. Message
 
-Charts available:
+Use this tab to understand incoming and outgoing message activity.
+
+Charts include:
 
 - **Message Received**
 - **Message Sent**
 
-![Message analytics tab](/img/message.png)
+![Message analytics tab](/static/img/message.png)
 
 You can filter by dimensions such as:
 
 - Channel type
 - Channel
 
-## 4) Ticket
+### 4. Ticket
 
-Charts available:
+Use this tab to understand support workload and issue resolution.
+
+Charts include:
 
 - **Ticket Created**
 - **Ticket Resolved**
@@ -128,7 +138,7 @@ Charts available:
 - **Ticket Assigned**
 - **Ticket Priority Changed**
 
-![Ticket analytics tab](/img/ticket.png)
+![Ticket analytics tab](/static/img/ticket.png)
 
 Common dimensions include:
 
@@ -137,14 +147,16 @@ Common dimensions include:
 - Assignee
 - New priority
 
-## 5) Contact
+### 5. Contact
 
-Charts available:
+Use this tab to understand customer growth and contact changes.
+
+Charts include:
 
 - **Contact Created**
 - **Contact Identity Linked**
 
-![Contact analytics tab](/img/contact.png)
+![Contact analytics tab](/static/img/contact.png)
 
 Common dimension:
 
@@ -157,6 +169,24 @@ Common dimension:
 - Hover on bars/lines to see exact values
 - Use **Dimension + Value** to answer specific questions (for example "How many tickets were reopened for one ticket type?")
 
+## Real-world examples
+
+### Weekly support review
+
+1. Open **Overview**.
+2. Choose **Last 7 days**.
+3. Check whether messages or tickets increased.
+4. Open **Ticket** to see resolved and reopened cases.
+5. Export the report for the weekly team meeting.
+
+### Channel performance check
+
+1. Open **Message**.
+2. Choose **Last 30 days**.
+3. Filter by channel type.
+4. Compare Zalo, Facebook, WhatsApp, or Telegram activity.
+5. Decide where staff coverage is needed most.
+
 ## Suggested workflow
 
 1. Start with **Overview** to detect unusual changes.
@@ -165,11 +195,18 @@ Common dimension:
 4. Use dimension filters to isolate one channel/team/status.
 5. Export Excel when you need to share with managers or weekly reports.
 
+## How Analytics connects to other features
+
+- [Inbox](./inbox-usage) creates conversation and message activity.
+- [Tickets](./ticket-usage) create ticket activity.
+- [Contacts](./contact-management) create contact activity.
+- [AI Assistant](./ai-assistant) can reduce manual workload, and Analytics helps you monitor the operational impact.
+
 ## Quick troubleshooting
 
 ### Cannot see Analytics menu
 
-- Check your permission: `agent_registry.view`.
+- Ask your admin for Analytics access.
 
 ### Export button not visible
 

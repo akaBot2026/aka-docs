@@ -42,17 +42,17 @@ You need to prepare the installation package according to the following list.
 
 Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that, click **"Next"** to proceed.
 
-![1773026436457-662.png](/img/3ca271_1773026436457-662.png)
+![1773026436457-662.png](/static/img/3ca271_1773026436457-662.png)
 
-![1773026455322-826.png](/img/9663dd_1773026455322-826.png)
+![1773026455322-826.png](/static/img/9663dd_1773026455322-826.png)
 
-![1773026480063-797.png](/img/b3970d_1773026480063-797.png)
+![1773026480063-797.png](/static/img/b3970d_1773026480063-797.png)
 
-![1773026504396-498.png](/img/2a61e6_1773026504396-498.png)
+![1773026504396-498.png](/static/img/2a61e6_1773026504396-498.png)
 
 * After Installation is complete, you will see the Complete Notification below. Simply click **Finish**. You have successfully installed JDK.
 
-![1773026554098-998.png](/img/40c7a4_1773026554098-998.png)
+![1773026554098-998.png](/static/img/40c7a4_1773026554098-998.png)
 
 **Note**: Make sure that **JAVA\_HOME** presents in your environment variables by typing command **echo %JAVA\_HOME%**, the output should be a path that point to jdk 17 ex: **C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot**
 
@@ -67,53 +67,53 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 * Open setup file from your computer
 * Follow these steps below:
 
-![1773111578739-129.png](/img/df9569_1773111578739-129.png)
+![1773111578739-129.png](/static/img/df9569_1773111578739-129.png)
 
-![1773114333220-825.png](/img/364270_1773114333220-825.png)
+![1773114333220-825.png](/static/img/364270_1773114333220-825.png)
 
-![1773114368791-509.png](/img/1a0991_1773114368791-509.png)
+![1773114368791-509.png](/static/img/1a0991_1773114368791-509.png)
 
-![1773114465751-567.png](/img/359d26_1773114465751-567.png)
+![1773114465751-567.png](/static/img/359d26_1773114465751-567.png)
 
 **Step 2:** Set up your password
 
 * Note: This password will be used in next steps, thus remember this one.
 
-![1773114546424-196.png](/img/d99807_1773114546424-196.png)
+![1773114546424-196.png](/static/img/d99807_1773114546424-196.png)
 
 **Step 3:** Install
 
 * Use default port code
 
-![1773114627305-610.png](/img/c0b53b_1773114627305-610.png)
+![1773114627305-610.png](/static/img/c0b53b_1773114627305-610.png)
 
-![1773114687711-726.png](/img/8772a1_1773114687711-726.png)
+![1773114687711-726.png](/static/img/8772a1_1773114687711-726.png)
 
 * Click button **"Next"** to install
 
-![1773114744583-571.png](/img/44c563_1773114744583-571.png)
+![1773114744583-571.png](/static/img/44c563_1773114744583-571.png)
 
 * Here is the successful screen. Click **"Finish"** to close the window.
 
-![1773114856970-621.png](/img/5db87e_1773114856970-621.png)
+![1773114856970-621.png](/static/img/5db87e_1773114856970-621.png)
 
 **3.2.Setup Stack builder**
 
 * Click **"Next"**
 
-![1773131442848-150.png](/img/39dc2b_1773131442848-150.png)
+![1773131442848-150.png](/static/img/39dc2b_1773131442848-150.png)
 
-![1773131458317-548.png](/img/1984cb_1773131458317-548.png)
+![1773131458317-548.png](/static/img/1984cb_1773131458317-548.png)
 
-![1773115130094-189.png](/img/a431c2_1773115130094-189.png)
+![1773115130094-189.png](/static/img/a431c2_1773115130094-189.png)
 
 * Here is the screen announcing that all the installation files have now been successfully downloaded. Click **"Next"** and **"Finish"**
 
-![1773130004131-273.png](/img/d1a8f1_1773130004131-273.png)
+![1773130004131-273.png](/static/img/d1a8f1_1773130004131-273.png)
 
 * You can double check whether PostgreSQL is running through Services.
 
-![1773130089004-725.png](/img/924bea_1773130089004-725.png)
+![1773130089004-725.png](/static/img/924bea_1773130089004-725.png)
 
 **3.3. Create database**
 
@@ -121,13 +121,13 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 
 **Step 2:** Right click **"Databases"** > Create > Database...
 
-![1773128994191-351.png](/img/cba5e5_1773128994191-351.png)
+![1773128994191-351.png](/static/img/cba5e5_1773128994191-351.png)
 
 * Input new database: **aka\_orchestrator** in **General**tab, then click **"Save"**
 
-![1773129095687-215.png](/img/ebca57_1773129095687-215.png)
+![1773129095687-215.png](/static/img/ebca57_1773129095687-215.png)
 
-![1773129157904-918.png](/img/c58482_1773129157904-918.png)
+![1773129157904-918.png](/static/img/c58482_1773129157904-918.png)
 
 ## **4. Apache Tomcat installation**
 
@@ -138,11 +138,11 @@ Apache Tomcat installation:
 -Uncheck "Show Readme"  
 -Click the "Finish" button to complete the installation.pe your information message here.
 
-![1773039471617-579.png](/img/a53804_1773039471617-579.png)
+![1773039471617-579.png](/static/img/a53804_1773039471617-579.png)
 
-![1773039448180-898.png](/img/b428d6_1773039448180-898.png)
+![1773039448180-898.png](/static/img/b428d6_1773039448180-898.png)
 
-![1773039436317-278.png](/img/fae530_1773039436317-278.png)
+![1773039436317-278.png](/static/img/fae530_1773039436317-278.png)
 
 The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files\Apache Software Foundation\Tomcat 10.1**
 
@@ -162,13 +162,13 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 **Step 3:** Save changes and close the file.
 
-![1773039597849-397.png](/img/b3e77f_1773039597849-397.png)
+![1773039597849-397.png](/static/img/b3e77f_1773039597849-397.png)
 
 **Step 4:** Open the file **%TOMCAT\_PATH%\conf\server.xml**
 
 **Step 5:** Un-Comment the line of log setting to turn on the log and add attribute **maxDays** as below:
 
-![1773039659797-700.png](/img/140d78_1773039659797-700.png)
+![1773039659797-700.png](/static/img/140d78_1773039659797-700.png)
 
 **Step 6:** Save changes and close the file
 
@@ -176,14 +176,14 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 **Step 1:** Navigate to the path **%TOMCAT\_PATH%\bin** and double-click the file **Tomcat10w.exe** to open the Apache Tomcat Service configuration.
 
-![1773039700842-636.png](/img/504895_1773039700842-636.png)
+![1773039700842-636.png](/static/img/504895_1773039700842-636.png)
 
 **Step 2**: On the **General** tab
 
 * Select Startup type: **Automatic**
 * Choose **Apply** to apply the configuration changes.
 
-![1773039738250-351.png](/img/ae3bbb_1773039738250-351.png)
+![1773039738250-351.png](/static/img/ae3bbb_1773039738250-351.png)
 
 **Step 3:** On the **Logging** tab
 
@@ -195,7 +195,7 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 (4) Choose **Apply** to apply the configuration changes.
 
-![1773039839582-669.png](/img/d5f78c_1773039839582-669.png)
+![1773039839582-669.png](/static/img/d5f78c_1773039839582-669.png)
 
 **Step 4:** On the **Java** tab
 
@@ -213,13 +213,13 @@ Example: Server RAM = 32 GB -> Maximum memory pool should be \<=  \* 16 \* 1024 
 
 b. Choose **Apply** to apply the configuration changes.
 
-![1773039888230-493.png](/img/9e0c8a_1773039888230-493.png)
+![1773039888230-493.png](/static/img/9e0c8a_1773039888230-493.png)
 
 **Step 5:** Start the Tomcat Service
 
 On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
-![1773044980268-508.png](/img/ff6bab_1773044980268-508.png)
+![1773044980268-508.png](/static/img/ff6bab_1773044980268-508.png)
 
 ### **4.3. Check Apache Tomcat Installation**
 
@@ -228,11 +228,11 @@ On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 * If the Status is not Running, start the Apache Tomcat service.
 * If the Status is Running, proceed to step 2.
 
-![1773045039977-189.png](/img/72426f_1773045039977-189.png)
+![1773045039977-189.png](/static/img/72426f_1773045039977-189.png)
 
 **Step 2:** Access the URL [http://localhost:8080](http://localhost:8080/) in Chrome to verify the successful installation of Apache Tomcat:
 
-![1773040793096-753.png](/img/0b321f_1773040793096-753.png)
+![1773040793096-753.png](/static/img/0b321f_1773040793096-753.png)
 
 ## **5. ActiveMQ installation**
 
@@ -244,21 +244,21 @@ For example: **ACTIVEMQ\_PATH = C:\akaBot\apache-activemq-5.15.1**
 
 Note: The installation path should not contain any spaces.
 
-![1773042407269-516.png](/img/398a8d_1773042407269-516.png)
+![1773042407269-516.png](/static/img/398a8d_1773042407269-516.png)
 
 **Step 2:** Open Command Prompt with Administrator privileges.
 
-![1773042420627-885.png](/img/9e3df4_1773042420627-885.png)
+![1773042420627-885.png](/static/img/9e3df4_1773042420627-885.png)
 
 **Step 3:** Run the file %ACTIVEMQ\_PATH%\bin\win64\InstallService.bat to install the ActiveMQ service.
 
 Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\InstallService.bat**
 
-![1773042444158-931.png](/img/9c9449_1773042444158-931.png)
+![1773042444158-931.png](/static/img/9c9449_1773042444158-931.png)
 
 **Step 4**: Start the ActiveMQ service.
 
-![1773042459471-219.png](/img/5f7cff_1773042459471-219.png)
+![1773042459471-219.png](/static/img/5f7cff_1773042459471-219.png)
 
 ### **5.2. Java Heap Configuration**
 
@@ -274,21 +274,21 @@ For example, if the server has 32 GB of RAM, you can enter 1024.
 
 For example, with a server having 32 GB of RAM, you can enter 4096.
 
-![1773040188173-944.png](/img/d71f72_1773040188173-944.png)
+![1773040188173-944.png](/static/img/d71f72_1773040188173-944.png)
 
 **Step 3:** Start ActiveMQ Service
 
-![1773045637327-680.png](/img/4220b9_1773045637327-680.png)
+![1773045637327-680.png](/static/img/4220b9_1773045637327-680.png)
 
 ### **5.3.Check ActiveMQ Installation**
 
 **Step 1**: Check the Running status of the ActiveMQ service. If it is not running, start the service.
 
-![1773040234841-235.png](/img/cf8369_1773040234841-235.png)
+![1773040234841-235.png](/static/img/cf8369_1773040234841-235.png)
 
 **Step 2**: Access the URL [http://localhost:8161](http://localhost:8161/) to verify the successful installation of ActiveMQ.
 
-![1773040248186-927.png](/img/dbc1ce_1773040248186-927.png)
+![1773040248186-927.png](/static/img/dbc1ce_1773040248186-927.png)
 
 ## **6. akaBot Center Installation**
 
@@ -298,23 +298,23 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 **Step 1: Stop** Apache Tomcat service
 
-![1773045591703-739.png](/img/636619_1773045591703-739.png)
+![1773045591703-739.png](/static/img/636619_1773045591703-739.png)
 
 **Step 2: Delete** all folders in **%TOMCAT\_PATH%/webapps.**
 
-![1773041052691-659.png](/img/26db12_1773041052691-659.png)
+![1773041052691-659.png](/static/img/26db12_1773041052691-659.png)
 
 **Step 3: Copy** the file akaBot-center-x.x.x.x.war to the **%TOMCAT\_PATH%/webapps/** directory
 
-![1773041088743-833.png](/img/77d7ad_1773041088743-833.png)
+![1773041088743-833.png](/static/img/77d7ad_1773041088743-833.png)
 
 * **Rename** it to **ROOT.war.**
 
-![1773041108270-318.png](/img/e682b5_1773041108270-318.png)
+![1773041108270-318.png](/static/img/e682b5_1773041108270-318.png)
 
 **Step 4: Restart** the Apache Tomcat service and wait for the **ROOT.war** to be extracted into the ROOT directory.
 
-![1773041152285-315.png](/img/24ad6e_1773041152285-315.png)
+![1773041152285-315.png](/static/img/24ad6e_1773041152285-315.png)
 
 **Step 5**: Stop the Apache Tomcat service.
 
@@ -330,7 +330,7 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ***2. Remove the "#" character at the beginning of the line for the jobstore configuration for PostgreSQL to uncomment it.***
 
-![1773125144942-717.png](/img/ab5dc3_1773125144942-717.png)
+![1773125144942-717.png](/static/img/ab5dc3_1773125144942-717.png)
 
 **6.2.2.Configure the PostgreSQL Database Connection**
 
@@ -344,17 +344,17 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 * ***application-dev.yml***
 
-![1773125613939-709.png](/img/b5165a_1773125613939-709.png)
+![1773125613939-709.png](/static/img/b5165a_1773125613939-709.png)
 
-![1773128009161-558.png](/img/d45143_1773128009161-558.png)
+![1773128009161-558.png](/static/img/d45143_1773128009161-558.png)
 
-![1773125955638-262.png](/img/057954_1773125955638-262.png)
+![1773125955638-262.png](/static/img/057954_1773125955638-262.png)
 
 * ***application-prod.yml***
 
-![1773126830845-429.png](/img/51b325_1773126830845-429.png)
+![1773126830845-429.png](/static/img/51b325_1773126830845-429.png)
 
-![1773126055777-449.png](/img/14e767_1773126055777-449.png)
+![1773126055777-449.png](/static/img/14e767_1773126055777-449.png)
 
 * **Save** files after configuring.
 
@@ -370,15 +370,15 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 * **maxHistory**: The optional maxHistory property controls the maximum number of archive files to keep. Ex: 20
 * **totalSizeCap:** The optional totalSizeCap property controls the total size of all archive files. Ex: 20GB
 
-![1773126136316-429.png](/img/c4aa14_1773126136316-429.png)
+![1773126136316-429.png](/static/img/c4aa14_1773126136316-429.png)
 
 4. Save changes and close file
 
 5. **Start the Apache Tomcat** service and access **[http://localhost:8080/](http://localhost:8080/)** to verify the installation of akaBot Center.
 
-![1773045819506-903.png](/img/8b4b2a_1773045819506-903.png)
+![1773045819506-903.png](/static/img/8b4b2a_1773045819506-903.png)
 
-![1773044661288-968.png](/img/a0dabd_1773044661288-968.png)
+![1773044661288-968.png](/static/img/a0dabd_1773044661288-968.png)
 
 6. Log in using the following credentials:
 
@@ -386,7 +386,7 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 * password:  **admin**
 * You will be redirected to the dashboard as shown below.
 
-![1773044690105-331.png](/img/3b4910_1773044690105-331.png)
+![1773044690105-331.png](/static/img/3b4910_1773044690105-331.png)
 
 ## **7. Troubleshooting**
 

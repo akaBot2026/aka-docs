@@ -14,7 +14,7 @@ RCA.Activities.IE.CheckUncheck
 
 The Check/Uncheck activity allows you to check or uncheck a Checkbox.
 
-![image-20220506110038-1.png](/img/416927_image-20220506110038-1.png)
+![image-20220506110038-1.png](/static/img/416927_image-20220506110038-1.png)
 
 (\* for Mandatory)
 

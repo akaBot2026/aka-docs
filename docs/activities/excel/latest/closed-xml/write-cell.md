@@ -15,7 +15,7 @@ RCA.Activities.Excel.WriteCell
 This activity allows you to write a value or formula into a specified spreadsheet cell or range.  
 If the sheet does not exist, a new one is created.
 
-![image-20220505135743-1.jpeg](/img/image-20220505135743-1.jpeg)
+![image-20220505135743-1.jpeg](/static/img/image-20220505135743-1.jpeg)
 
 \* indicates required fields.
 

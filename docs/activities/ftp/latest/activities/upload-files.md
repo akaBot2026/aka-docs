@@ -14,7 +14,7 @@ RCA.Activities.FTP.UploadFiles
 
 This activity allows you to upload multiple files to FTP server
 
-![image-20220505152410-1.png](/img/9bd378_image-20220505152410-1.png)
+![image-20220505152410-1.png](/static/img/9bd378_image-20220505152410-1.png)
 
 (\* is mandatory)
 

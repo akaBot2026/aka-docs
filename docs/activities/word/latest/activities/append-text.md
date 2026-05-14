@@ -14,7 +14,7 @@ RCA.Activities.Word.AppendText
 
 This activity allows writing text at the end of a document. This activity is worked only in Word Application Scope activity.
 
-![image-20220506111658-1.png](/img/8129f3_image-20220506111658-1.png)
+![image-20220506111658-1.png](/static/img/8129f3_image-20220506111658-1.png)
 
 (\* for Mandatory)
 

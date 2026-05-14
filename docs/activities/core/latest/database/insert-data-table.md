@@ -14,7 +14,7 @@ RCA.Activities.Core.InsertDataTable
 
 This activity allows you to insert a compatible DataTable variable in an existing Table. Returns the number of rows affected. If the constraints on the table aren't met, the activity will fail and all the written rows will be saved.
 
-![image-20220506105511-1.png](/img/bcb9f9_image-20220506105511-1.png)
+![image-20220506105511-1.png](/static/img/bcb9f9_image-20220506105511-1.png)
 
 (\* for Mandatory)
 
@@ -22,7 +22,7 @@ This activity allows you to insert a compatible DataTable variable in an existin
 
 * **Configure Connection**- Set connection string, data source, data provider.
 
-![image-20230419153435-1.png](/img/3e2525_image-20230419153435-1.png)
+![image-20230419153435-1.png](/static/img/3e2525_image-20230419153435-1.png)
 
 * **Data Table** - The DataTable variable that will be inserted into the Table. The DataTable columns' names and descriptions must match the ones from the database table.
 * **Table Name**- The SQL table in which the data is to be inserted.  

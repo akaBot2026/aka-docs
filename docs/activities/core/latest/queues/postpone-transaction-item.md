@@ -14,7 +14,7 @@ RCA.Activities.Core.PostponeTransactionItem
 
 This activity allows you to add time parameters between which a transaction must be processed.
 
-![image-20220506113548-1.png](/img/886660_image-20220506113548-1.png)
+![image-20220506113548-1.png](/static/img/886660_image-20220506113548-1.png)
 
 (\* for Mandatory)
 

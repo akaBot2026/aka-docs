@@ -14,7 +14,7 @@ RCA.Activities.Core.RemoveDataRow
 
 This activity allows you to remove a Data Row to a specified DataTable.
 
-![remove data row.jpg](/img/28cc5b_remove-data-row.jpg)
+![remove data row.jpg](/static/img/28cc5b_remove-data-row.jpg)
 
 (\* is mandatory)
 

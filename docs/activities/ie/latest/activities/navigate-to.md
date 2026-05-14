@@ -14,7 +14,7 @@ RCA.Activities.IE.NavigateTo
 
 The Navigate To activity allows you to navigate to another URL on the current browser.
 
-![image-20220506110824-1.png](/img/a8d4dd_image-20220506110824-1.png)
+![image-20220506110824-1.png](/static/img/a8d4dd_image-20220506110824-1.png)
 
 (\* for Mandatory)
 

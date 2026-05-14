@@ -14,7 +14,7 @@ RCA.Activities.Core.CreateDirectory
 
 This activity allows you to create a folder in a specific location.
 
-![image-20220513103756-1.png](/img/300467_image-20220513103756-1.png)
+![image-20220513103756-1.png](/static/img/300467_image-20220513103756-1.png)
 
 (\* for Mandatory)
 

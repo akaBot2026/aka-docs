@@ -14,7 +14,7 @@ RCA.Activities.Java.TypeInto
 
 This Type Into activity allows you to type into a specified Java file.
 
-[![type into.jpg](/img/ea68b0_type-into.jpg)](/bin/download/Activities/Java/Activities/Type%20Into/WebHome/type%20into.jpg?rev=1.1)
+[![type into.jpg](/static/img/ea68b0_type-into.jpg)](/bin/download/Activities/Java/Activities/Type%20Into/WebHome/type%20into.jpg?rev=1.1)
 
 (\* is mandatory)
 

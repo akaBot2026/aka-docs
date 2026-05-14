@@ -14,7 +14,7 @@ RCA.Activities.Browser.GetText
 
 The Get Text activity extracts on a webpage and saves it in a String variable.
 
-![Browser_GetText](/img/cfa416_5e63ba9-screenshot_2021-05-25_155057.jpg)
+![Browser_GetText](/static/img/cfa416_5e63ba9-screenshot_2021-05-25_155057.jpg)
 
 (\* For Mandatory)
 

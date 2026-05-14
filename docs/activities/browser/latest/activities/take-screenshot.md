@@ -14,7 +14,7 @@ RCA.Activities.Browser.TakeScreenshot
 
 The Take Screenshot takes screenshot of a UI Elements within a browser.
 
-![image-20220505142230-1.png](/img/d33e82_image-20220505142230-1.png)
+![image-20220505142230-1.png](/static/img/d33e82_image-20220505142230-1.png)
 
 (\* For Mandatory)
 

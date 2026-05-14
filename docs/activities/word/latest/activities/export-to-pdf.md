@@ -14,7 +14,7 @@ RCA.Activities.Word.ExportToPDF
 
 This activity allows exporting assigned documents in PDF format. This activity is worked only under the Word Application Scope activity.
 
-![image-20220506111729-1.png](/img/d9440b_image-20220506111729-1.png)
+![image-20220506111729-1.png](/static/img/d9440b_image-20220506111729-1.png)
 
 **In the body of activity**
 

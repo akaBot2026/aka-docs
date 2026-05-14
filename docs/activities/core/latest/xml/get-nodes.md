@@ -14,7 +14,7 @@ RCA.Activities.Core.GetNodes
 
 The Get XML Nodes activity allows you to retrieve a list of first-level XML Nodes from a XML document.
 
-[![get nodes.jpg](/img/eb2f92_get-nodes.jpg)](/bin/download/Activities/XML/Activities/Get%20Nodes/WebHome/get%20nodes.jpg?rev=1.1)
+[![get nodes.jpg](/static/img/eb2f92_get-nodes.jpg)](/bin/download/Activities/XML/Activities/Get%20Nodes/WebHome/get%20nodes.jpg?rev=1.1)
 
 (\* for Mandatory)
 

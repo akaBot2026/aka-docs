@@ -14,7 +14,7 @@ RCA.Activities.IE.CloseTab
 
 The Close Tab activity closes the currently displayed tab in an IE browser.
 
-![image-20220506110220-1.png](/img/88d1d0_image-20220506110220-1.png)
+![image-20220506110220-1.png](/static/img/88d1d0_image-20220506110220-1.png)
 
 (\* for Mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelExportChart
 
 This activity allows you to export charts or graphs from a specified Excel file as images.
 
-![image-20220505134428-1.jpeg](/img/019cc6_image-20220505134428-1.jpeg)
+![image-20220505134428-1.jpeg](/static/img/019cc6_image-20220505134428-1.jpeg)
 
 (\* for mandatory)
 

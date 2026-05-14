@@ -14,7 +14,7 @@ RCA.Activities.Common.HideWindow
 
 The Hide Window activity allows you to make a window completely invisible.
 
-![image-20230417162304-1.png](/img/image-20230417162304-1.png)
+![image-20230417162304-1.png](/static/img/image-20230417162304-1.png)
 
 \* indicates required fields.
 

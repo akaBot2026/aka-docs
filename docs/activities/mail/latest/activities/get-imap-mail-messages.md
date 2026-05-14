@@ -14,7 +14,7 @@ RCA.Activities.Mail.GetIMAPMailMessages
 
 This activity allows you to retrieve an IMAP email message from a specified server.
 
-![image-20220505162545-1.png](/img/b9eea9_image-20220505162545-1.png)  
+![image-20220505162545-1.png](/static/img/b9eea9_image-20220505162545-1.png)  
 (\* is mandatory)
 
 ## **Properties**
@@ -27,7 +27,7 @@ This activity allows you to retrieve an IMAP email message from a specified serv
 * **Server (String)**\* - The email server host that is to be used.  
   E.g: “Mail.MyDomain.com”
 
-![e8b4de9-imap.png](/img/f640f5_3195a31-imap.png)
+![e8b4de9-imap.png](/static/img/f640f5_3195a31-imap.png)
 
 **Logon**
 

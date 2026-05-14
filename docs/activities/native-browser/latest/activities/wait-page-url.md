@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.WaitPageUrl
 
 The Wait Page URL activity verifies whether the page URL matches a predefined condition.
 
-![image-20220505151834-1.png](/img/image-20220505151834-1.png)
+![image-20220505151834-1.png](/static/img/image-20220505151834-1.png)
 
 \* indicates required fields.
 

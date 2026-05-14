@@ -14,7 +14,7 @@ RCA.Activities.Browser.WaitPageLoadComplete
 
 The Wait Page Load Complete allows you to waits until a webpage is fully loaded.
 
-![image-20220505140621-1.png](/img/9d1869_image-20220505140621-1.png)
+![image-20220505140621-1.png](/static/img/9d1869_image-20220505140621-1.png)
 
 (\* For Mandatory)
 

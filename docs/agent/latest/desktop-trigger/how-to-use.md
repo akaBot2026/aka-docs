@@ -12,7 +12,7 @@ displayed_sidebar: agentSidebar
 
 After installing, and opening Desktop Trigger, the home screen will be shown as below:
 
-![image-20230602170429-1.png](/img/c63230_image-20230602170429-1.png)
+![image-20230602170429-1.png](/static/img/c63230_image-20230602170429-1.png)
 
 | No | Panel | Description |
 | --- | --- | --- |
@@ -28,15 +28,15 @@ After installing, and opening Desktop Trigger, the home screen will be shown as 
 
 **Step 1**: At the home screen, click the "New Trigger" button. The list of trigger types will be shown as below:
 
-![image-20230421172542-2.png](/img/0b2120_image-20230421172542-2.png)
+![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
 **Step 2**: Choose the **File trigger** option, the configuration screen of**file trigger** will be open as below:
 
-![image-20230421172821-3.png](/img/64a00a_image-20230421172821-3.png)
+![image-20230421172821-3.png](/static/img/64a00a_image-20230421172821-3.png)
 
 **Step 3**: Fill the information in the tab: Basic
 
-![image-20230421172821-3.png](/img/64a00a_image-20230421172821-3.png)
+![image-20230421172821-3.png](/static/img/64a00a_image-20230421172821-3.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -46,7 +46,7 @@ After installing, and opening Desktop Trigger, the home screen will be shown as 
 
 **Step 4**: Fill the information in the tab: Action
 
-![image-20230421175951-2.png](/img/2992ab_image-20230421175951-2.png)
+![image-20230421175951-2.png](/static/img/2992ab_image-20230421175951-2.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -56,7 +56,7 @@ After installing, and opening Desktop Trigger, the home screen will be shown as 
 
 **Step 5**: Fill the information in the tab: Detail
 
-![image-20230421181312-4.png](/img/036e8a_image-20230421181312-4.png)
+![image-20230421181312-4.png](/static/img/036e8a_image-20230421181312-4.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -71,15 +71,15 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 1**: At the home screen, click the "New Trigger" button. The list of trigger types will be shown as below:
 
-![image-20230421172542-2.png](/img/0b2120_image-20230421172542-2.png)
+![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
 **Step 2**: Choose the **Folder trigger** option, the configuration screen of**Folder trigger** will be opened as below:
 
-![image-20230424111816-1.png](/img/57bb81_image-20230424111816-1.png)
+![image-20230424111816-1.png](/static/img/57bb81_image-20230424111816-1.png)
 
 **Step 3**: Fill the information in the tab: Basic
 
-![image-20230424153942-3.png](/img/5651c1_image-20230424153942-3.png)
+![image-20230424153942-3.png](/static/img/5651c1_image-20230424153942-3.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -89,7 +89,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 4**: Fill the information in the tab: Action
 
-![image-20230421175951-2.png](/img/2992ab_image-20230421175951-2.png)
+![image-20230421175951-2.png](/static/img/2992ab_image-20230421175951-2.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -99,7 +99,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 5**: Fill the information in the tab: Detail
 
-![image-20230424152633-1.png](/img/1cd8d5_image-20230424152633-1.png)
+![image-20230424152633-1.png](/static/img/1cd8d5_image-20230424152633-1.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -113,15 +113,15 @@ After filling all the mandatory field, click **OK** button to save the trigger.
 
 **Step 1**: At the home screen, click the "New Trigger" button. The list of trigger types will be shown as below:
 
-![image-20230421172542-2.png](/img/0b2120_image-20230421172542-2.png)
+![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
 **Step 2**: Choose the **Hotkey trigger** option, the configuration screen of**Hotkey trigger** will be open as below:
 
-![image-20230424154102-4.png](/img/decfc1_image-20230424154102-4.png)
+![image-20230424154102-4.png](/static/img/decfc1_image-20230424154102-4.png)
 
 **Step 3**: Fill the information in the tab: Basic
 
-![image-20230424154102-4.png](/img/decfc1_image-20230424154102-4.png)
+![image-20230424154102-4.png](/static/img/decfc1_image-20230424154102-4.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -131,7 +131,7 @@ After filling all the mandatory field, click **OK** button to save the trigger.
 
 **Step 4**: Fill the information in the tab: Action
 
-![image-20230421175951-2.png](/img/2992ab_image-20230421175951-2.png)
+![image-20230421175951-2.png](/static/img/2992ab_image-20230421175951-2.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -141,7 +141,7 @@ After filling all the mandatory field, click **OK** button to save the trigger.
 
 **Step 5**: Fill the information in the tab: Detail
 
-![image-20230424154146-5.png](/img/69d4d3_image-20230424154146-5.png)
+![image-20230424154146-5.png](/static/img/69d4d3_image-20230424154146-5.png)
 
 Use the checkbox and drop-down menu to select key from the keyboard.
 
@@ -151,15 +151,15 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 1**: At the home screen, click the "New Trigger" button. The list of trigger types will be shown as below:
 
-![image-20230421172542-2.png](/img/0b2120_image-20230421172542-2.png)
+![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
 **Step 2**: Choose the **Email trigger** option, the configuration screen of**Email trigger** will be open as below:
 
-![image-20230424154602-7.png](/img/486fc7_image-20230424154602-7.png)
+![image-20230424154602-7.png](/static/img/486fc7_image-20230424154602-7.png)
 
 **Step 3**: Fill the information in the tab: Basic
 
-![image-20230424154619-8.png](/img/397fd0_image-20230424154619-8.png)
+![image-20230424154619-8.png](/static/img/397fd0_image-20230424154619-8.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -169,7 +169,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 4**: Fill the information in the tab: Action
 
-![image-20230421175951-2.png](/img/2992ab_image-20230421175951-2.png)
+![image-20230421175951-2.png](/static/img/2992ab_image-20230421175951-2.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -179,7 +179,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 5**: Fill the information in the tab: Detail
 
-![image-20230424163718-9.png](/img/cd44f4_image-20230424163718-9.png)
+![image-20230424163718-9.png](/static/img/cd44f4_image-20230424163718-9.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -195,15 +195,15 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 1**: At the home screen, click the "New Trigger" button. The list of trigger types will be shown as below:
 
-![image-20230421172542-2.png](/img/0b2120_image-20230421172542-2.png)
+![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
 **Step 2**: Choose the **Window trigger** option, the configuration screen of**window trigger** will be open as below:
 
-![image-20230425095458-1.png](/img/9e827c_image-20230425095458-1.png)
+![image-20230425095458-1.png](/static/img/9e827c_image-20230425095458-1.png)
 
 **Step 3**: Fill the information in the tab: Basic
 
-![image-20230425095512-2.png](/img/2686f0_image-20230425095512-2.png)
+![image-20230425095512-2.png](/static/img/2686f0_image-20230425095512-2.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -213,7 +213,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 4**: Fill the information in the tab: Action
 
-![image-20230421175951-2.png](/img/2992ab_image-20230421175951-2.png)F
+![image-20230421175951-2.png](/static/img/2992ab_image-20230421175951-2.png)F
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -223,7 +223,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 5**: Fill the information in the tab: Detail
 
-![image-20230425095629-3.png](/img/2c004a_image-20230425095629-3.png)
+![image-20230425095629-3.png](/static/img/2c004a_image-20230425095629-3.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -237,15 +237,15 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 1**: At the home screen, click the "New Trigger" button. The list of trigger types will be shown as below:
 
-![image-20230421172542-2.png](/img/0b2120_image-20230421172542-2.png)
+![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
 **Step 2**: Choose the **Service trigger** option, the configuration screen of **Service trigger** will be open as below:
 
-![image-20230425100909-4.png](/img/699d05_image-20230425100909-4.png)
+![image-20230425100909-4.png](/static/img/699d05_image-20230425100909-4.png)
 
 **Step 3**: Fill the information in the tab: Basic
 
-![image-20230425100915-5.png](/img/a7d83d_image-20230425100915-5.png)
+![image-20230425100915-5.png](/static/img/a7d83d_image-20230425100915-5.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -255,7 +255,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 4**: Fill the information in the tab: Action
 
-![image-20230421175951-2.png](/img/2992ab_image-20230421175951-2.png)
+![image-20230421175951-2.png](/static/img/2992ab_image-20230421175951-2.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -265,7 +265,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 **Step 5**: Fill the information in the tab: Detail
 
-![image-20230425100951-6.png](/img/19a72e_image-20230425100951-6.png)
+![image-20230425100951-6.png](/static/img/19a72e_image-20230425100951-6.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -280,13 +280,13 @@ Note: This feature is currently in beta, which means it is not yet fully stable.
 
 **Step 1**: At the home screen, click the "New Trigger" button. The list of trigger types will be shown as below:
 
-![image-20230421172542-2.png](/img/0b2120_image-20230421172542-2.png)
+![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
 **Step 2**: Choose the **Process trigger** option, the configuration screen of **Process trigger** will be open as below:
 
 **Step 3**: Fill the information in the tab: Basic
 
-![image-20230425101502-8.png](/img/82ab84_image-20230425101502-8.png)
+![image-20230425101502-8.png](/static/img/82ab84_image-20230425101502-8.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -296,7 +296,7 @@ Note: This feature is currently in beta, which means it is not yet fully stable.
 
 **Step 4**: Fill the information in the tab: Action
 
-![image-20230421175951-2.png](/img/2992ab_image-20230421175951-2.png)
+![image-20230421175951-2.png](/static/img/2992ab_image-20230421175951-2.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -306,7 +306,7 @@ Note: This feature is currently in beta, which means it is not yet fully stable.
 
 **Step 5**: Fill the information in the tab: Detail
 
-![image-20230425101609-10.png](/img/bedaa0_image-20230425101609-10.png)
+![image-20230425101609-10.png](/static/img/bedaa0_image-20230425101609-10.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -322,15 +322,15 @@ Note: This feature is currently in beta, which means it is not yet fully stable.
 
 **Step 1**: At the home screen, click the "New Trigger" button. The list of trigger types will be shown as below:
 
-![image-20230421172542-2.png](/img/0b2120_image-20230421172542-2.png)
+![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
 **Step 2**: Choose the **Interface trigger** option, the configuration screen of **Interface trigger** will be open as below:
 
-![image-20230425102150-12.png](/img/e98b37_image-20230425102150-12.png)
+![image-20230425102150-12.png](/static/img/e98b37_image-20230425102150-12.png)
 
 **Step 3**: Fill the information in the tab: Basic
 
-![image-20230425102139-11.png](/img/4f8827_image-20230425102139-11.png)
+![image-20230425102139-11.png](/static/img/4f8827_image-20230425102139-11.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -340,7 +340,7 @@ Note: This feature is currently in beta, which means it is not yet fully stable.
 
 **Step 4**: Fill the information in the tab: Action
 
-![image-20230421175951-2.png](/img/2992ab_image-20230421175951-2.png)
+![image-20230421175951-2.png](/static/img/2992ab_image-20230421175951-2.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
@@ -350,7 +350,7 @@ Note: This feature is currently in beta, which means it is not yet fully stable.
 
 **Step 5**: Fill the information in the tab: Detail
 
-![image-20230425102404-13.png](/img/7ad6ad_image-20230425102404-13.png)
+![image-20230425102404-13.png](/static/img/7ad6ad_image-20230425102404-13.png)
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |

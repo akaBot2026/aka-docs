@@ -14,7 +14,7 @@ RCA.Activities.Core.RemoveDataColumn
 
 This activity allows you to remove a Data Column to a specified DataTable.
 
-[![remove data column.jpg](/img/3567e7_remove-data-column.jpg)](/bin/download/Activities/Data%20Table/Activities/Remove%20Data%20Column/WebHome/remove%20data%20column.jpg?rev=1.1)
+[![remove data column.jpg](/static/img/3567e7_remove-data-column.jpg)](/bin/download/Activities/Data%20Table/Activities/Remove%20Data%20Column/WebHome/remove%20data%20column.jpg?rev=1.1)
 
 (\* is mandatory)
 

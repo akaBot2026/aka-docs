@@ -14,7 +14,7 @@ RCA.Activities.Core.DatabaseDisconnect
 
 This activity allows you to close a connection to a database.
 
-![image-20220506105152-1.png](/img/3518fd_image-20220506105152-1.png)
+![image-20220506105152-1.png](/static/img/3518fd_image-20220506105152-1.png)
 
 (\* for Mandatory)
 

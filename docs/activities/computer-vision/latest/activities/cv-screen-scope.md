@@ -14,7 +14,7 @@ RCA.Activities.ComputerVision.CVScreenScope
 
 A container that enables Computer Vision on a window or element. Initializes the akaBot Computer Vision neural network, performing an analysis of the indicated window and provides a scope for all subsequent Computer Vision activities.
 
-![image-20220505132346-1.png](/img/a524fe_image-20220505132346-1.png)
+![image-20220505132346-1.png](/static/img/a524fe_image-20220505132346-1.png)
 
 (\*For mandatory)
 

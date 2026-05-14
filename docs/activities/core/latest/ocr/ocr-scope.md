@@ -14,7 +14,7 @@ RCA.Activities.Core.OCRScope
 
 This activity allows you to create a scope for you to do with OCR activities.
 
-![image-20230417095210-1.png](/img/ebba26_image-20230417095210-1.png)
+![image-20230417095210-1.png](/static/img/ebba26_image-20230417095210-1.png)
 
 ## **In the body of activity**
 

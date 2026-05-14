@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelInsertOrDeleteRows
 
 Adds or removes a specified number of rows at a certain position.
 
-![image-20220505140814-1.png](/img/16ee74_image-20220505140814-1.png)
+![image-20220505140814-1.png](/static/img/16ee74_image-20220505140814-1.png)
 
 (\* for mandatory)
 

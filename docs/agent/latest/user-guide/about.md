@@ -14,7 +14,7 @@ It can act as the personal assistant of an end-user *(HR Personnel, Call Center
 
 **Main features**
 
-![agent.png](/img/c668d5_agent.png)
+![agent.png](/static/img/c668d5_agent.png)
 
 **Get started with akaBot Agent**
 

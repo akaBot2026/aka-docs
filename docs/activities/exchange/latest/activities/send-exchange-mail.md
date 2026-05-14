@@ -14,7 +14,7 @@ RCA.Activities.Mail.SendExchangeMail
 
 This activity allows you to send email messages from Exchange.
 
-![image-20220505161016-1.png](/img/30f03f_image-20220505161016-1.png)
+![image-20220505161016-1.png](/static/img/30f03f_image-20220505161016-1.png)
 
 (\* is mandatory)
 

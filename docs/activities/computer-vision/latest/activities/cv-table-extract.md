@@ -14,7 +14,7 @@ RCA.Activities.ComputerVision.CVTableExtract
 
 Extracts a table that is visible on the screen and stores it into a DataTable variable.
 
-![image-20220505132448-2.png](/img/0be4bc_image-20220505132448-2.png)
+![image-20220505132448-2.png](/static/img/0be4bc_image-20220505132448-2.png)
 
 (\*For mandatory)
 

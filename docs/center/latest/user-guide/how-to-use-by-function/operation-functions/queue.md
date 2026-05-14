@@ -12,7 +12,7 @@ A **Queue** in simple terms is a container that holds a set of items that you 
 
 Queues enable you to create large automation projects underlined by complex logic. New queues created in **akaBot Center** are empty by default. To populate queues with items, to change their status and process them, you have to use Studio activities. As soon as queue items are processed, they become transactions. To access the **Queue** page, you click **Queue** tab in the left menu. After clicking, the system opens **Queue Listing Page** where all the **Queues** are located.
 
-![image-20221101110036-8.png](/img/809199_image-20221101110036-8.png)
+![image-20221101110036-8.png](/static/img/809199_image-20221101110036-8.png)
 
 | No | Column | Description |
 | --- | --- | --- |
@@ -30,11 +30,11 @@ Queues enable you to create large automation projects underlined by complex logi
 
 To view a Queue, you click E**ye** button.
 
-![image-20221101110141-9.png](/img/72316f_image-20221101110141-9.png)
+![image-20221101110141-9.png](/static/img/72316f_image-20221101110141-9.png)
 
 The system shows the details of the queue as below:
 
-![image-20221101110211-10.png](/img/70baa1_image-20221101110211-10.png)
+![image-20221101110211-10.png](/static/img/70baa1_image-20221101110211-10.png)
 
 | No | Column | Description |
 | --- | --- | --- |
@@ -71,15 +71,15 @@ queue items in the details of the queue.
 
 In order to create a Queue, on the **Queue Listing** page, click **Create new**
 
-![image-20221101110414-11.png](/img/1b9813_image-20221101110414-11.png)
+![image-20221101110414-11.png](/static/img/1b9813_image-20221101110414-11.png)
 
 To edit an existing Queue, select the Edit button corresponding to the Queue you want to edit:
 
-![image-20221101110501-12.png](/img/a01555_image-20221101110501-12.png)
+![image-20221101110501-12.png](/static/img/a01555_image-20221101110501-12.png)
 
 The system will display the form for you to create/edit a Queue
 
-![image-20221101110535-13.png](/img/a10826_image-20221101110535-13.png)
+![image-20221101110535-13.png](/static/img/a10826_image-20221101110535-13.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -98,8 +98,8 @@ After filling the form, click the **Save** button to save it, and the Queue is
 
 To delete a queue, you click the Delete button of the corresponding Queue.
 
-![image-20221101111838-14.png](/img/871198_image-20221101111838-14.png)
+![image-20221101111838-14.png](/static/img/871198_image-20221101111838-14.png)
 
 Alternatively, you can select the checkbox before each Queue and the **Delete** button will show up next to the **Filter** button. Tick the Checkbox next to **Action** will allow users to select all displayed Queue for bulk delete.
 
-![image-20221101111942-15.png](/img/11f4cb_image-20221101111942-15.png)
+![image-20221101111942-15.png](/static/img/11f4cb_image-20221101111942-15.png)

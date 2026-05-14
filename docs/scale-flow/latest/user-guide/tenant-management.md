@@ -3,35 +3,33 @@ id: tenant-management
 title: Tenant Management
 sidebar_label: Tenant Management
 sidebar_position: 12
-description: A practical, non-technical guide to view and update tenant profile information in ScaleFlow.
+description: Beginner-friendly guide to understand and update your ScaleFlow workspace information.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Tenant Management
 
-## What you can do on this page
+A tenant is your company's ScaleFlow workspace. It is the shared space where your users, channels, AI setup, conversations, contacts, and tickets belong.
+
+Most users do not need to manage tenant settings every day. This page is mainly for workspace owners and admins.
+
+## What Tenant Management is used for
 
 In **Organization -> Tenant Management**, you can:
 
-- View tenant identity details
-- View tenant ownership details
-- Copy IDs to clipboard for sharing
-- Update **Company Name** (if you have edit permission)
-- Review tenant status and timestamps
+- View workspace identity details.
+- View owner information.
+- Update **Company Name** if you have permission.
+- Review workspace status.
+- Copy IDs when support asks for them.
 
-## Access and permissions
+An ID is a unique code ScaleFlow uses to identify your workspace. You usually only need it when contacting support.
 
-Your visible actions depend on your permissions:
-
-- **Open page and view data**: requires `tenant.view`
-- **Edit Company Name and save**: requires `tenant.manage`
-
-If you do not have `tenant.view`, the page is blocked with an access denied flow.
-If you only have `tenant.view`, the page is read-only.
+If the page is read-only or blocked, ask your admin to review your organization access.
 
 ## Open Tenant Management
 
-![Tenant Management overview](/img/tenant-manage.png)
+![Tenant Management overview](/static/img/tenant-manage.png)
 
 1. In the left sidebar, open **Organization**.
 2. Select **Tenant Management**.
@@ -41,17 +39,17 @@ If you only have `tenant.view`, the page is read-only.
 
 ## Understand the information on screen
 
-### Identity section
+### Identity
 
 You can review:
 
 - **Tenant Name** (read-only)
 - **Tenant ID** (read-only, copy icon available)
 - **Company Name**
-  - Editable when you have `tenant.manage`
-  - Read-only when you do not have `tenant.manage`
+  - Editable when you have management access
+  - Read-only when you do not
 
-### Ownership section
+### Ownership
 
 You can review:
 
@@ -62,7 +60,7 @@ You can review:
   - `Pending`
   - `Disabled`
 
-### Metadata section
+### Dates
 
 At the bottom of the page, you can review:
 
@@ -73,39 +71,47 @@ These are informational fields and cannot be edited.
 
 ## Update Company Name
 
-If you have `tenant.manage`:
-
 1. In the **Company Name** field, enter the new value.
 2. Click **Save**.
 3. Wait for the success notification: **Tenant updated successfully**.
 
 If the update fails, you will see: **Failed to update tenant**.
 
-## Discard unsaved changes
+## Discard changes
 
 If you changed **Company Name** but do not want to save:
 
 1. Click **Discard Changes**.
 2. The field resets to the latest saved value from the server.
 
-## Notes about current UI behavior
+## Real-world example
+
+Your company changes its public brand name from "ABC Services" to "ABC Care". The workspace owner opens Tenant Management, updates **Company Name**, and saves it so the organization information stays current.
+
+## How this connects to other setup pages
+
+- Use [User Management](./user-management) to add people to the workspace.
+- Use [Team Management](./team-management) to organize staff.
+- Use [Roles & Permissions](./roles-permissions) to control access.
+- Use [Channel Integration](./channel-integration) to connect customer message channels.
+
+## Notes
 
 - This page does not create or delete tenants.
 - Only **Company Name** is editable from this screen.
-- Save and discard action buttons are shown only to users with `tenant.manage`.
-- Copy icon appears for ID fields to help sharing technical identifiers safely.
+- Save and discard action buttons are shown only to users with management access.
+- Copy icon appears for ID fields to help when support asks for workspace details.
 
 ## Troubleshooting
 
 ### I cannot see Tenant Management in Organization
 
-- Your account may not have `tenant.view`.
-- Ask your admin to grant tenant view permission.
+- Ask your admin to grant tenant view access.
 
 ### I can open the page but cannot edit anything
 
-- You likely have view-only access (`tenant.view` without `tenant.manage`).
-- Ask your admin for tenant management permission if updates are required.
+- You likely have view-only access.
+- Ask your admin for tenant management access if updates are required.
 
 ### I clicked Save but changes are not visible
 
@@ -115,6 +121,5 @@ If you changed **Company Name** but do not want to save:
 
 ### I see "Failed to load tenant information."
 
-- This usually means the tenant data request failed.
 - Refresh the page and try again.
-- If the issue persists, contact support with tenant ID for faster troubleshooting.
+- If the issue continues, contact support and share the Tenant ID if available.

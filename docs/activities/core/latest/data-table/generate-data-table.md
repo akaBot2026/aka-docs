@@ -14,7 +14,7 @@ RCA.Activities.Core.GenerateDataTable
 
 Generates a DataTable variable from the structured text. This activity enables you to select column and row separators according to which the table is generated.
 
-[![generate data table.jpg](/img/aca851_generate-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Generate%20Data%20Table/WebHome/generate%20data%20table.jpg?rev=1.1)
+[![generate data table.jpg](/static/img/aca851_generate-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Generate%20Data%20Table/WebHome/generate%20data%20table.jpg?rev=1.1)
 
 (\* is mandatory)
 

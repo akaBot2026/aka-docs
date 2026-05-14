@@ -14,7 +14,7 @@ RCA.Activities.GSuite.DeleteFile
 
 This activity allows you to delete a file located on Google Drive.
 
-![image-20220505155255-1.png](/img/17f323_image-20220505155255-1.png)
+![image-20220505155255-1.png](/static/img/17f323_image-20220505155255-1.png)
 
 (\*For mandatory)
 

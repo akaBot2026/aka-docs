@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.GetWebAttribute
 
 The Get Web Attribute activity allows you to get the value of an attribute that belongs to the native browser element.
 
-![image-20220505150017-1.png](/img/8e8af8_image-20220505150017-1.png)
+![image-20220505150017-1.png](/static/img/8e8af8_image-20220505150017-1.png)
 
 (\*For Mandatory)
 

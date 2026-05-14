@@ -14,7 +14,7 @@ RCA.Activities.Windows.HighLight
 
 The High Light activity allows you to visually highlight a specified window element.
 
-![image-20220505171100-1.png](/img/136c33_image-20220505171100-1.png)
+![image-20220505171100-1.png](/static/img/136c33_image-20220505171100-1.png)
 
 (\*For mandatory)
 

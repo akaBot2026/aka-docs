@@ -14,7 +14,7 @@ RCA.Activities.Common.SetWebAttribute
 
 The Set Web Attribute sets the value for an attribute of a web element.
 
-![image-20220505135026-1.png](/img/37bb66_image-20220505135026-1.png)
+![image-20220505135026-1.png](/static/img/37bb66_image-20220505135026-1.png)
 
 (\*For Mandatory)
 

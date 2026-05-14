@@ -14,7 +14,7 @@ RCA.Activities.Mail.GetOutlookMailMessages
 
 This activity helps you to retrieve email messages from Outlook
 
-![image-20220505162407-1.png](/img/32e0c2_image-20220505162407-1.png)
+![image-20220505162407-1.png](/static/img/32e0c2_image-20220505162407-1.png)
 
 (\* is mandatory)
 

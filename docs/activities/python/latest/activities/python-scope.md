@@ -14,7 +14,7 @@ RCA.Activities.Python.PythonScope
 
 A container that gives you the scope for Python activities and initializes the specified Python environment. When this activity ends, all objects loaded up to that point are deleted.
 
-[![python scope.jpg](/img/510fa7_python_scope.jpg)](/bin/download/Activities/Python/Activities/Python%20Scope/WebHome/python%20scope.jpg?rev=1.1)
+[![python scope.jpg](/static/img/510fa7_python_scope.jpg)](/bin/download/Activities/Python/Activities/Python%20Scope/WebHome/python%20scope.jpg?rev=1.1)
 
 (\* is mandatory)
 

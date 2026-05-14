@@ -14,7 +14,7 @@ RCA.Activities.FTP.Delete
 
 This activity allows you to delete a folder on FTP server.
 
-![image-20220505152123-1.png](/img/bf476f_image-20220505152123-1.png)
+![image-20220505152123-1.png](/static/img/bf476f_image-20220505152123-1.png)
 
 (\* is mandatory)
 

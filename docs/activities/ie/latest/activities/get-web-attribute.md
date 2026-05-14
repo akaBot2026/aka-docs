@@ -14,7 +14,7 @@ RCA.Activities.IE.GetWebAttribute
 
 The Get Web Attribute activity allows you to get the value of an attribute that belongs to an Internet Explorer browser element.
 
-![image-20220506110533-1.png](/img/34345f_image-20220506110533-1.png)
+![image-20220506110533-1.png](/static/img/34345f_image-20220506110533-1.png)
 
 (\* for Mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.IE.AttachBrowser
 
 A container that enables you to attach to an already opened internet explorer browser and perform multiple actions within it.
 
-![image-20220506105906-1.png](/img/b3f16b_image-20220506105906-1.png)
+![image-20220506105906-1.png](/static/img/b3f16b_image-20220506105906-1.png)
 
 (\* for Mandatory)
 

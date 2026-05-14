@@ -14,7 +14,7 @@ RCA.Activities.GSuite.CreateFolder
 
 This activity allows you to create a new folder in Google Drive.
 
-![image-20220505155144-1.png](/img/f40f41_image-20220505155144-1.png)
+![image-20220505155144-1.png](/static/img/f40f41_image-20220505155144-1.png)
 
 (\*For mandatory)
 

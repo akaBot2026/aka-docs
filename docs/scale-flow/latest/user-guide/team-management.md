@@ -3,15 +3,17 @@ id: team-management
 title: Team Management
 sidebar_label: Team Management
 sidebar_position: 10
-description: A practical guide to create teams, manage members, and maintain team structure in ScaleFlow.
+description: Beginner-friendly guide to create teams and organize staff work in ScaleFlow.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Team Management
 
-This guide explains how to use **Team Management** in ScaleFlow to organize users into teams and manage team members.
+Teams help organize users into working groups, such as Support, Sales, Admissions, Billing, or Technical Support.
 
-## What you can do on this page
+Use teams when conversations or tickets should be assigned to a group instead of one person.
+
+## What Team Management is used for
 
 In **Organization -> Team Management**, you can:
 
@@ -23,12 +25,6 @@ In **Organization -> Team Management**, you can:
 - Delete a team when it is no longer needed
 
 ## Access and permissions
-
-Your visible actions depend on your permissions:
-
-- **View page and team list**: requires view
-- **Create / Edit / Delete teams**: requires manage
-- **Manage members in Add/Edit dialog**: also requires manage
 
 If a button is missing, contact your workspace admin to update your permissions.
 
@@ -44,9 +40,11 @@ If a button is missing, contact your workspace admin to update your permissions.
    - Created date
    - Actions (if you have manage)
 
-![Team list overview](/img/list-team.png)
+![Team list overview](/static/img/list-team.png)
 
 ## Create a new team
+
+Create a team when several users share the same responsibility.
 
 1. Click **+ Add Team**.
 2. Fill in required fields:
@@ -55,7 +53,7 @@ If a button is missing, contact your workspace admin to update your permissions.
    - Description
    - Initial members
 
-   ![Add team dialog](/img/add-team.png)
+   ![Add team dialog](/static/img/add-team.png)
 
 4. Click **Create Team**.
 
@@ -76,6 +74,8 @@ Notes:
 - A user can be moved between teams based on your organization policy.
 - Update members whenever responsibility changes.
 
+Example: If one support staff member moves to the Billing team, remove them from `Customer Support` and add them to `Billing Support`.
+
 ## Edit team details
 
 1. In the team row, click the **Edit** icon.
@@ -84,7 +84,7 @@ Notes:
    - Description
    - Members
 
-   ![Edit team confirmation dialog](/img/edit-team.png)
+   ![Edit team confirmation dialog](/static/img/edit-team.png)
 
 3. Click **Save Changes**.
 
@@ -93,11 +93,25 @@ Notes:
 1. In the team row, click the **Delete** icon.
 2. Confirm the action in the dialog.
 
-![Delete team confirmation dialog](/img/delete-team.png)
+![Delete team confirmation dialog](/static/img/delete-team.png)
 
 3. The team is removed after successful confirmation.
 
 Use this action carefully. Before deletion, make sure members are reassigned to another team if required by your workflow.
+
+## How teams connect to Inbox and Tickets
+
+- In [Inbox](./inbox-usage), conversations can be assigned to a team when anyone in that group can help.
+- In [Tickets](./ticket-usage), tickets can be assigned to a team when the next step belongs to that group.
+- In [User Management](./user-management), users must exist before they can be added to teams.
+
+## Real-world workflow
+
+1. Admin creates a team called `Refund Support`.
+2. Admin adds staff who can review refund requests.
+3. Smart Assistant creates a ticket when a customer asks for a refund.
+4. The ticket is assigned to `Refund Support`.
+5. Any team member can pick it up and resolve it.
 
 ## Notes about current UI behavior
 

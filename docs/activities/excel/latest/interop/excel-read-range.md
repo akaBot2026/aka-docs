@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelReadRange
 
 This activity allows you to read the value of an Excel range and store it in a DataTable variable. If the range is not specified, the whole spreadsheet is read. If the range is specified as a cell, the whole spreadsheet starting from that cell is read. Can only be used in the Excel Application Scope activity.
 
-![image-20220505113128-1.jpeg](/img/d727f3_image-20220505113128-1.jpeg)
+![image-20220505113128-1.jpeg](/static/img/d727f3_image-20220505113128-1.jpeg)
 
 (\* is mandatory)
 

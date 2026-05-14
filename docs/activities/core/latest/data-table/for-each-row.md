@@ -14,7 +14,7 @@ RCA.Activities.Core.ForEachRow
 
 This activity allows you to execute an action once for each row in a specified DataTable variable.
 
-[![for each row.jpg](/img/b95036_for-each-row.jpg)](/bin/download/Activities/Data%20Table/Activities/For%20Each%20Row/WebHome/for%20each%20row.jpg?rev=1.1)
+[![for each row.jpg](/static/img/b95036_for-each-row.jpg)](/bin/download/Activities/Data%20Table/Activities/For%20Each%20Row/WebHome/for%20each%20row.jpg?rev=1.1)
 
 (\* is mandatory)
 

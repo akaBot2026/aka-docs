@@ -14,7 +14,7 @@ RCA.Activities.Windows.SendHotKey
 
 The Send Hot Key activity allows you to send a keyboard shortcuts to a window element
 
-![image-20220505170329-1.png](/img/9fa4fe_image-20220505170329-1.png)
+![image-20220505170329-1.png](/static/img/9fa4fe_image-20220505170329-1.png)
 
 (\*For mandatory)
 

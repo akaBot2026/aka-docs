@@ -14,7 +14,7 @@ RCA.Activities.Word.SetContentControl
 
 This activity allows you to add content to a specific Content Control within the Word document. Currently we are support CheckBox(Boolean), TextBox (String) với Combo box(int). When you select the activity, you will be asked for the type of value that the Content Control allows.
 
-![image-20230421110354-1.png](/img/735f2b_image-20230421110354-1.png)
+![image-20230421110354-1.png](/static/img/735f2b_image-20230421110354-1.png)
 
 ## **Properties**
 

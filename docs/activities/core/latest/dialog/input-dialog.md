@@ -15,7 +15,7 @@ RCA.Activities.Core.InputDialog
 
 This activity displays a dialog box that prompts you with a label message and an input field.
 
-![image-input-dialog.png](/img/image-input-dialog.png)
+![image-input-dialog.png](/static/img/image-input-dialog.png)
 
 (\* is mandatory)
 

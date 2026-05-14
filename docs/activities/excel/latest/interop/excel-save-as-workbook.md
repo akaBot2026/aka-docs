@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelSaveAsWorkbook
 
 The activity allows you to save changes as a new file. This only can be used in Excel Application Scope Activity.
 
-![image-20220505135028-1.jpeg](/img/8ba165_image-20220505135028-1.jpeg)
+![image-20220505135028-1.jpeg](/static/img/8ba165_image-20220505135028-1.jpeg)
 
 (\* for mandatory)
 

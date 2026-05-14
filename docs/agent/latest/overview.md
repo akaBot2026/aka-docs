@@ -11,7 +11,7 @@ displayed_sidebar: agentSidebar
 
 Akabot Agent is the runtime component that lives on a machine — desktop or server — and executes automation workflows dispatched by Akabot Center or triggered locally. Agents can run attended (alongside a human user) or unattended (fully automated, 24/7).
 
-![Akabot Agent architecture: Center dispatches workflows over an encrypted, token-authenticated channel to attended, unattended, and testing agents.](/img/agent-architecture.svg)
+![Akabot Agent architecture: Center dispatches workflows over an encrypted, token-authenticated channel to attended, unattended, and testing agents.](/static/img/agent-architecture.svg)
 
 ## Agent types
 

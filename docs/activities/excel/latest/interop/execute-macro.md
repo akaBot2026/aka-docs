@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExecuteMacro
 
 This activity allows you to execute the macro within a workbook. The Workbook file needs to be a Macro-Enabled Workbook. Changes are immediately saved. Can only be used in the Excel Application Scope activity.
 
-![image-20220505134614-1.jpeg](/img/460a39_image-20220505134614-1.jpeg)
+![image-20220505134614-1.jpeg](/static/img/460a39_image-20220505134614-1.jpeg)
 
 (\* for mandatory)
 

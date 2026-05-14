@@ -14,7 +14,7 @@ RCA.Activities.Core.DeserializeXML
 
 The Deserialize XML activity allows you to deserialize an XML to an XDocument object.
 
-[![deserialize.jpg](/img/db9ffc_deserialize.jpg)](/bin/download/Activities/XML/Activities/Deserialize%20XML/WebHome/deserialize.jpg?rev=1.1)
+[![deserialize.jpg](/static/img/db9ffc_deserialize.jpg)](/bin/download/Activities/XML/Activities/Deserialize%20XML/WebHome/deserialize.jpg?rev=1.1)
 
 (\* for Mandatory)
 

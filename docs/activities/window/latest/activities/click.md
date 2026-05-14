@@ -14,7 +14,7 @@ RCA.Activities.Windows.Click
 
 The Click activity allows you to click a specified UI element.
 
-![image-20220505170535-1.png](/img/501ae9_image-20220505170535-1.png)
+![image-20220505170535-1.png](/static/img/501ae9_image-20220505170535-1.png)
 
 (\*For mandatory)
 

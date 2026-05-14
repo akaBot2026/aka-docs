@@ -14,7 +14,7 @@ RCA.Activities.Browser.WaitElementExist
 
 The Wait Element Exist activity waits for a selected element to appear in a webpage and throws an error (if required) if the desired element still is not visible after a specified time.
 
-![image-20220505135459-1.png](/img/2069cf_image-20220505135459-1.png)
+![image-20220505135459-1.png](/static/img/2069cf_image-20220505135459-1.png)
 
 (\* For Mandatory)
 

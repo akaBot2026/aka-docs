@@ -25,4 +25,4 @@ Beyond execution management, akaBot Center offers robust administrative capabili
 | Administration | Control users, roles, organization units, licenses, and API tokens |
 | Reporting | Generate productivity and execution reports for stakeholders and audit purposes |
 
-![2024-04-17_9-32-22.png](/img/8c0985_2024-04-17_9-32-22.png)
+![2024-04-17_9-32-22.png](/static/img/8c0985_2024-04-17_9-32-22.png)

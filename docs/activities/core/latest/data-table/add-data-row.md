@@ -14,7 +14,7 @@ RCA.Activities.Core.AddDataRow
 
 This activity allows you to add a Data Row to a specified DataTable.
 
-[![add data row.jpg](/img/32fa4e_add-data-row.jpg)](/bin/download/Activities/Data%20Table/Activities/Add%20Data%20Row/WebHome/add%20data%20row.jpg?rev=1.1)
+[![add data row.jpg](/static/img/32fa4e_add-data-row.jpg)](/bin/download/Activities/Data%20Table/Activities/Add%20Data%20Row/WebHome/add%20data%20row.jpg?rev=1.1)
 
 (\* is mandatory)
 

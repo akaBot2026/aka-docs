@@ -34,7 +34,7 @@ akaBot incorporates a role and permission-based access-control framework. Roles 
 
 This Role Management page displays all available roles and allows admin to add or delete, as well as update roles’ information. After selecting the **Role Management** tab, the system displays the following page:
 
-![image-20221101164359-16.png](/img/d407b3_image-20221101164359-16.png)
+![image-20221101164359-16.png](/static/img/d407b3_image-20221101164359-16.png)
 
 | No | Column | Description |
 | --- | --- | --- |
@@ -57,26 +57,26 @@ By default, the role has all the rights to all resources and this cannot be chan
 **ROLE\_USER**  
 By default, the role has the following rights, but they can be edited.
 
-![image-20230704162245-1.png](/img/27201e_image-20230704162245-1.png)
+![image-20230704162245-1.png](/static/img/27201e_image-20230704162245-1.png)
 
 **ROLE\_ROBOT**  
 By default, the role has the following rights, but they can be edited:
 
-![image-20230704162317-2.png](/img/50ea0e_image-20230704162317-2.png)
+![image-20230704162317-2.png](/static/img/50ea0e_image-20230704162317-2.png)
 
 ## **a. Create/Edit a Role**
 
 To create a new Role for your Center, click the Create New button at the top of the page:
 
-![image-20221101164549-17.png](/img/aacffe_image-20221101164549-17.png)
+![image-20221101164549-17.png](/static/img/aacffe_image-20221101164549-17.png)
 
 To edit an existing Role, click the Edit button corresponding to the Role in the Action column.
 
-![image-20221101164638-18.png](/img/c7556f_image-20221101164638-18.png)
+![image-20221101164638-18.png](/static/img/c7556f_image-20221101164638-18.png)
 
 When you click on**Create New/Edit** button, the system will show a form for you to fill in. Details in the table below
 
-![image-20230704162458-3.png](/img/96e8d2_image-20230704162458-3.png)
+![image-20230704162458-3.png](/static/img/96e8d2_image-20230704162458-3.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -87,6 +87,6 @@ When you click on**Create New/Edit** button, the system will show a form for yo
 
 To delete a role, you click the Delete button of the corresponding role.
 
-![image-20221101164723-19.png](/img/f253ab_image-20221101164723-19.png)
+![image-20221101164723-19.png](/static/img/f253ab_image-20221101164723-19.png)
 
 A confirming pop-up will display. Hit Delete to complete the operation.

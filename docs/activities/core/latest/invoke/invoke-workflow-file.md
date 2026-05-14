@@ -14,7 +14,7 @@ RCA.Activities.Core.InvokeWorkflowFile
 
 With this activity, you can call the specified workflow synchronously, optionally passing it a list of input arguments. Arguments can be imported from a specified workflow with this activity by using the Import Arguments button in the body of the activity.
 
-![image-20220505161118-3.png](/img/ac80db_image-20220505161118-3.png)
+![image-20220505161118-3.png](/static/img/ac80db_image-20220505161118-3.png)
 
 (\* for Mandatory)
 

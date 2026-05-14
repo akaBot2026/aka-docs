@@ -14,7 +14,7 @@ RCA.Activities.Common.ExtractStructuredData
 
 The Extract Structured Data allows you to extract structured data from a specified webpage.
 
-![image-20220505134517-1.png](/img/04d80e_image-20220505134517-1.png)
+![image-20220505134517-1.png](/static/img/04d80e_image-20220505134517-1.png)
 
 (\*For mandatory)
 

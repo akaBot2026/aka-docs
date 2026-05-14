@@ -15,7 +15,7 @@ System.Activities.Statements.DoWhile
 This activity allows you to create a loop that executes a series of activities as long as a condition is met.  
 The activities in the **Body** are executed first, and then the condition is evaluated. The loop continues until the condition is no longer satisfied.
 
-![Core_DoWhile](/img/do-while.png)
+![Core_DoWhile](/static/img/do-while.png)
 
 \* indicates required fields.
 

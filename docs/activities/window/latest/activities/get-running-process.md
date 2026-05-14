@@ -14,7 +14,7 @@ RCA.Activities.Windows.GetRunningProcess
 
 The Get Running Process allows you to get the processes that are running in your Windows computer.
 
-![image-20220505171317-1.png](/img/a2092b_image-20220505171317-1.png)
+![image-20220505171317-1.png](/static/img/a2092b_image-20220505171317-1.png)
 
 (\*For mandatory)
 

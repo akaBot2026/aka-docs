@@ -14,7 +14,7 @@ RCA.Activities.Core.AddCredential
 
 The activity allows you to stores a specified credential in the Windows Credential Manager with a custom persistence type, and returns a boolean value to let you know if the process was successful or not.
 
-![image-20220505151253-1.png](/img/651c75_image-20220505151253-1.png)
+![image-20220505151253-1.png](/static/img/651c75_image-20220505151253-1.png)
 
 (\* for Mandatory)
 

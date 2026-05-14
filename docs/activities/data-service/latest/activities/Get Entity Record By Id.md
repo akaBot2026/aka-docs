@@ -34,4 +34,4 @@ This activity allow to retrieve an existing record for the selected Entity from 
 * **Output**
   + Output Record: The record created from the Data Service, stored in an Entity type object. This field only supports objects of types imported from Data Service and must be of the same type as the selected Entity Type.
 
-![image-20230630131859-3.png](/img/5935e4_image-20230630131859-3.png)
+![image-20230630131859-3.png](/static/img/5935e4_image-20230630131859-3.png)

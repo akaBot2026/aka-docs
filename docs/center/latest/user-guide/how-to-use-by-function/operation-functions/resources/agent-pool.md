@@ -16,11 +16,11 @@ Step 1: Create a Workflow that the Agents in the "pool" will have to execute: Op
 
 Step 2: Create an Agent pool: Open **Resources** tab -> Click **Agent Pool** tab -> **Click Create New** (As the picture below):
 
-![image-20221031170544-22.png](/img/165fc9_image-20221031170544-22.png)
+![image-20221031170544-22.png](/static/img/165fc9_image-20221031170544-22.png)
 
 Then a form will show up for you to fill:
 
-![image-20221031170959-23.png](/img/4fb8d8_image-20221031170959-23.png)
+![image-20221031170959-23.png](/static/img/4fb8d8_image-20221031170959-23.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -31,7 +31,7 @@ Then a form will show up for you to fill:
 
 Next to general tab, there is **Callback Setup**. This feature allows you to send the output to a third party when the Agents in this pool complete a task.
 
-![image-20221031171615-24.png](/img/dd3eef_image-20221031171615-24.png)
+![image-20221031171615-24.png](/static/img/dd3eef_image-20221031171615-24.png)
 
 There are 3 sending options:
 
@@ -39,8 +39,8 @@ There are 3 sending options:
 
 **Restful API (POST Method)**: Send the output through the API you insert.
 
-![image-20221101104556-1.png](/img/839f13_image-20221101104556-1.png)
+![image-20221101104556-1.png](/static/img/839f13_image-20221101104556-1.png)
 
 **Webhook**: Send the output to the Webhook address
 
-![image-20221101104633-2.png](/img/b0d4b5_image-20221101104633-2.png)
+![image-20221101104633-2.png](/static/img/b0d4b5_image-20221101104633-2.png)

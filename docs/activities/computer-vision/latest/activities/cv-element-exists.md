@@ -14,7 +14,7 @@ RCA.Activities.ComputerVision.CVElementExists
 
 Searches for a specified UI element on the screen in the foreground by using the Computer Vision neural network and returns a Boolean variable that states whether it was found or not.
 
-![image-20220505132102-1.png](/img/8d73fa_image-20220505132102-1.png)
+![image-20220505132102-1.png](/static/img/8d73fa_image-20220505132102-1.png)
 
 (\*For mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.GSuite.FindFileFolder
 
 This activity allows you to look for file or folder located on Google Drive. Then return file information including: name, size, and ID.
 
-![image-20220505155537-1.png](/img/af53b1_image-20220505155537-1.png)
+![image-20220505155537-1.png](/static/img/af53b1_image-20220505155537-1.png)
 
 (\*For mandatory)
 

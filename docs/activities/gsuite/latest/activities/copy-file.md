@@ -14,7 +14,7 @@ RCA.Activities.Gsuite.CopyFile
 
 This activity allows you to copy a file on Google Drive
 
-![image-20220505155012-1.png](/img/c03b32_image-20220505155012-1.png)
+![image-20220505155012-1.png](/static/img/c03b32_image-20220505155012-1.png)
 
 (\*For mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.WaitPageTitle
 
 The Wait Page Title activity verifies whether the page title matches a predefined condition.
 
-![image-20220505151755-1.png](/img/image-20220505151755-1.png)
+![image-20220505151755-1.png](/static/img/image-20220505151755-1.png)
 
 \* indicates required fields.
 

@@ -12,7 +12,7 @@ Token page allows you simply create a new token to access the API without sendin
 
 From the dash board, you click Administration tab, then choose Token tab. Once clicking, the list of created tokens will be shown.
 
-![image-20221101170819-30.png](/img/284198_image-20221101170819-30.png)
+![image-20221101170819-30.png](/static/img/284198_image-20221101170819-30.png)
 
 | No | Column /Label | Description |
 | --- | --- | --- |

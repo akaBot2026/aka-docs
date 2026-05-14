@@ -14,7 +14,7 @@ RCA.Activities.Common.TakeScreenshot
 
 The Take Screenshot allows you to take screenshot of a UI Elements within a browser or window application.
 
-![image-20220505133457-1.png](/img/08d8cd_image-20220505133457-1.png)
+![image-20220505133457-1.png](/static/img/08d8cd_image-20220505133457-1.png)
 
 (\* is mandatory)
 

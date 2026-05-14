@@ -14,7 +14,7 @@ RCA.Activities.Browser.GetWebAttribute
 
 The Get Web Attribute activity allows you to get the value of an attribute that belongs to the native browser element.
 
-![Browser_GetWebAttribute](/img/c88dc1_71d320f-screenshot_2021-05-25_155928.jpg)
+![Browser_GetWebAttribute](/static/img/c88dc1_71d320f-screenshot_2021-05-25_155928.jpg)
 
 (\* For Mandatory)
 

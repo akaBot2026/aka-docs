@@ -15,7 +15,7 @@ RCA.Activities.Word.SetBookmarkContent
 This activity allows you to add text or content to a specified bookmark location in a document.  
 This activity can only be used within a **Word Application Scope** activity.
 
-![image-20220506111935-1.png](/img/18e34e_image-20220506111935-1.png)
+![image-20220506111935-1.png](/static/img/18e34e_image-20220506111935-1.png)
 
 ## **In the Body of Activity**
 

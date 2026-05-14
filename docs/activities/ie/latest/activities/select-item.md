@@ -14,7 +14,7 @@ RCA.Activities.IE.SelectItem
 
 The Select Item activity allows you to select an item from a combo box or dropdown list from IE browser.
 
-![image-20220506111011-1.png](/img/1f6857_image-20220506111011-1.png)
+![image-20220506111011-1.png](/static/img/1f6857_image-20220506111011-1.png)
 
 **In the body of the activity**
 

@@ -12,7 +12,7 @@ Agent/Studio license is accessible on Organization Unit based on the License pag
 
 After selecting the **License Management** tab, the system displays the following page:
 
-![image-20221101170138-29.png](/img/29f2d4_image-20221101170138-29.png)
+![image-20221101170138-29.png](/static/img/29f2d4_image-20221101170138-29.png)
 
 * Add license
 

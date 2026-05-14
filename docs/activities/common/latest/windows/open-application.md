@@ -14,7 +14,7 @@ RCA.Activities.Common.OpenApplication
 
 The Open Application activity allows you to open an application and execute multiple activities within it.
 
-![image-20230417163220-1.png](/img//image-20230417163220-1.png)
+![image-20230417163220-1.png](/static/img//image-20230417163220-1.png)
 
 \* indicates required fields.
 

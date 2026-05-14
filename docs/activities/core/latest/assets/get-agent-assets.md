@@ -15,7 +15,7 @@ RCA.Core.Activities.GetAgentAsset
 
 This activity allows you to retrieve a specific akaBot Center asset by using a provided Asset Name.
 
-![image-20220506112627-1.png](/img/abb503_image-20220506112627-1.png)
+![image-20220506112627-1.png](/static/img/abb503_image-20220506112627-1.png)
 
 \* indicates required fields.
 

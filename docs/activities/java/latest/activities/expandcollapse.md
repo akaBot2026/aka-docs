@@ -14,7 +14,7 @@ RCA.Activities.Java.ExpandCollapse
 
 This activity allows you to expand/collapse activities.
 
-[![expand_collapse.jpg](/img/49b0a4_expand_collapse.jpg)](/bin/download/Activities/Java/Activities/ExpandCollapse/WebHome/expand_collapse.jpg?rev=1.1)  
+[![expand_collapse.jpg](/static/img/49b0a4_expand_collapse.jpg)](/bin/download/Activities/Java/Activities/ExpandCollapse/WebHome/expand_collapse.jpg?rev=1.1)  
 (\* is mandatory)
 
 **In the body of the activity**

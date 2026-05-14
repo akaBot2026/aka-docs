@@ -14,7 +14,7 @@ RCA.Activities.GSuite.ChangeLabels
 
 This activity allows you to update labels for specified email or overwrite existing labels.
 
-![image-20220505154935-1.png](/img/30bfc5_image-20220505154935-1.png)
+![image-20220505154935-1.png](/static/img/30bfc5_image-20220505154935-1.png)
 
 (\*For mandatory)
 

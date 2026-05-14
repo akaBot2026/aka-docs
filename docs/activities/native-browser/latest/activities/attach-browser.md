@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.AttachBrowser
 
 A container that enables you to attach to an already opened native browser and perform multiple actions within it.
 
-![image-20220505145300-1.png](/img/b198e6_image-20220505145300-1.png)
+![image-20220505145300-1.png](/static/img/b198e6_image-20220505145300-1.png)
 
 (\*For mandatory)
 

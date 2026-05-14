@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.OpenBrowser
 
 The Open Browser (NB) activity allows you to navigate to a specified URL by launching a browser and executing multiple activities within it
 
-![image-20220505150847-1.png](/img/c5eb05_image-20220505150847-1.png)
+![image-20220505150847-1.png](/static/img/c5eb05_image-20220505150847-1.png)
 
 (\*For mandatory)
 

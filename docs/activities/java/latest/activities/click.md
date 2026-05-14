@@ -14,7 +14,7 @@ RCA.Activities.Java.Click
 
 This activity allows you to click a specified element.
 
-[![https://files.readme.io/4d8c2a8-Screenshot_2021-06-03_102748.jpg](/img/037630_click.jpg)](/bin/download/Activities/Java/Activities/Click/WebHome/click.jpg?rev=1.1)  
+[![https://files.readme.io/4d8c2a8-Screenshot_2021-06-03_102748.jpg](/static/img/037630_click.jpg)](/bin/download/Activities/Java/Activities/Click/WebHome/click.jpg?rev=1.1)  
 (\* is mandatory)
 
 ## **Properties**

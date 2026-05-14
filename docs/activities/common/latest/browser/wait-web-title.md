@@ -14,7 +14,7 @@ RCA.Activities.Common.WaitWebTitle
 
 The Wait Web Title verifies if the web title has the requirement format according to the predefined value.
 
-![image-20220505135325-1.png](/img/a4f8fb_image-20220505135325-1.png)
+![image-20220505135325-1.png](/static/img/a4f8fb_image-20220505135325-1.png)
 
 (\*For mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.Core.DeserializeJson
 
 This activity allows you to deserialize the JSON string to a JObject.
 
-![image-20220505145828-1.png](/img/916ee2_image-20220505145828-1.png)
+![image-20220505145828-1.png](/static/img/916ee2_image-20220505145828-1.png)
 
 (\* for Mandatory)
 

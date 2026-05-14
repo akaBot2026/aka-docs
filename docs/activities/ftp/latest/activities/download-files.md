@@ -14,7 +14,7 @@ RCA.Activities.FTP.DownloadFiles
 
 This activity allows you to download a file on FTP server.
 
-![image-20220505152223-1.png](/img/fc347d_image-20220505152223-1.png)
+![image-20220505152223-1.png](/static/img/fc347d_image-20220505152223-1.png)
 
 (\* is mandatory)
 

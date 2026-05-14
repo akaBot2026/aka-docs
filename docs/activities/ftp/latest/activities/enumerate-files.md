@@ -14,7 +14,7 @@ RCA.Activities.FTP.EnumerateFiles
 
 This activity allows you to get the list of files found at a specified FTP server path and save it under a DataTable variable.
 
-![image-20220505152257-1.png](/img/e04ad9_image-20220505152257-1.png)
+![image-20220505152257-1.png](/static/img/e04ad9_image-20220505152257-1.png)
 
 (\* is mandatory)
 

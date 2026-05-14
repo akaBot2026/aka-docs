@@ -14,7 +14,7 @@ RCA.Activities.Windows.MoveWindow
 
 The Move Window manipulates the position of the selected window.
 
-![image-20220505165811-1.png](/img/9fbdfe_image-20220505165811-1.png)
+![image-20220505165811-1.png](/static/img/9fbdfe_image-20220505165811-1.png)
 
 (\*For mandatory)
 

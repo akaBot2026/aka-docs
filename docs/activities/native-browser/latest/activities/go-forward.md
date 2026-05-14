@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.GoForward
 
 The Go Forward activity goes forward to one URL in the history list of the current browser.
 
-![image-20220505150257-1.png](/img/2a006f_image-20220505150257-1.png)
+![image-20220505150257-1.png](/static/img/2a006f_image-20220505150257-1.png)
 
 (\*For Mandatory)
 

@@ -43,4 +43,4 @@ This activity allows to retrieve a list of records for the selected Entity from 
   + Output Records: The record created from the Data Service, stored in an Entity type object. This field only supports objects of types imported from Data Service and must be of the same type as the selected Entity Type
   + Total Records: The total number of records matching the specified query filters
 
-![image-20230630131952-6.png](/img/d552b8_image-20230630131952-6.png)
+![image-20230630131952-6.png](/static/img/d552b8_image-20230630131952-6.png)

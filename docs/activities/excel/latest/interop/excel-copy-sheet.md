@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelCopySheet
 
 This activity allows you to copy a sheet from a specified workbook and paste it into another specified workbook.
 
-![image-20220505131921-1.jpeg](/img/8a46c2_image-20220505131921-1.jpeg)
+![image-20220505131921-1.jpeg](/static/img/8a46c2_image-20220505131921-1.jpeg)
 
 (\* for mandatory)
 

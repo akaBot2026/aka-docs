@@ -3,13 +3,17 @@ id: contact-management
 title: Contact Management
 sidebar_label: Contact Management
 sidebar_position: 8
-description: A simple user guide to create, import, organize, and manage contacts in ScaleFlow.
+description: Beginner-friendly guide to create, organize, import, and use customer contacts in ScaleFlow.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Contact Management
 
-## What you can do in Contacts
+Contacts are customer profiles. A contact keeps important customer information in one place, such as name, phone number, email, labels, lifecycle stage, and conversation history.
+
+Use Contacts when you want your team to understand who the customer is before replying in [Inbox](./inbox-usage) or handling a [Ticket](./ticket-usage).
+
+## What Contacts are used for
 
 In the **Contacts** area, you can:
 
@@ -22,14 +26,16 @@ In the **Contacts** area, you can:
 - Open a contact detail page and update contact properties
 - Organize contacts with tags (labels, lists, lead/lifecycle tags)
 
+Example: A customer messages through Zalo today and Facebook next week. Contact information helps your team recognize that both conversations belong to the same person.
+
 ## Open the Contacts workspace
 
 1. In the left menu, open **Contacts**.
 2. You will see:
-   - **All Contacts** (`/contacts/list`)
-   - **Tags** (`/contacts/tags`)
-   - **New contact** (`/contacts/new`, if your role can manage contacts)
-   - **Import contacts** (`/contacts/import`, if your role can manage contacts)
+   - **All Contacts**
+   - **Tags**
+   - **New contact** if your role can manage contacts
+   - **Import contacts** if your role can manage contacts
 
 If buttons such as **New contact**, **Import contacts**, or tag edit/remove actions are missing, ask your admin to grant contact management permissions.
 
@@ -37,7 +43,7 @@ If buttons such as **New contact**, **Import contacts**, or tag edit/remove acti
 
 1. Go to **Contacts** -> **New contact**.
 
-![New contact screen](/img/new-contact.png)
+![New contact screen](/static/img/new-contact.png)
 
 2. Fill in contact information:
    - First name / Last name
@@ -58,13 +64,15 @@ If buttons such as **New contact**, **Import contacts**, or tag edit/remove acti
 
 Important: at least one of these must be entered: **First name** or **Last name**.
 
+Use manual creation when you are adding one customer at a time, such as a VIP customer, partner, or lead from a phone call.
+
 ## Find contacts quickly
 
 On the **All Contacts** page:
 
 - Use the search box to find by name, email, or phone.
 
-![Contact filters on All Contacts](/img/list-contact.png)
+![Contact filters on All Contacts](/static/img/list-contact.png)
 
 - Use filter chips to narrow down results:
   - Label
@@ -96,6 +104,8 @@ You can also:
 
 ## Import contacts in bulk (CSV/XLSX)
 
+Use import when you already have many contacts in a spreadsheet.
+
 Go to **Contacts** -> **Import contacts** and follow 4 steps:
 
 1. **Prepare**
@@ -116,6 +126,8 @@ Go to **Contacts** -> **Import contacts** and follow 4 steps:
 
 After import, ScaleFlow shows how many contacts were created and how many were updated.
 
+Simple example: Your sales team has 500 leads in Excel. Import the file, match columns like name, phone, and email, then place all imported contacts into a list called `May Campaign`.
+
 ## Export contacts
 
 From **All Contacts**:
@@ -133,19 +145,35 @@ Note: some contacts cannot be deleted yet if they already have conversations.
 
 Go to **Contacts** -> **Tags** to:
 
-![Tags management with type filter](/img/list-tags-contact.png)
+![Tags management with type filter](/static/img/list-tags-contact.png)
 
 - Search tags
 - Filter by tag type
 - Create new tags
 
-![Create new tag dialog](/img/create-tag.png)
+![Create new tag dialog](/static/img/create-tag.png)
 
 - Edit tag name/color
 - Delete tags
 - Reorder tags by drag-and-drop
 
-## Current page limitations (important)
+## How Contacts connect to other features
+
+- [Inbox](./inbox-usage): staff see contact information while replying.
+- [Tickets](./ticket-usage): tickets can be linked to the customer.
+- [Analytics](./analytics-usage): contact activity helps managers understand growth and customer movement.
+- [AI Assistant](./ai-assistant): AI can use conversation context and contact details when your setup allows it.
+
+## Practical workflow
+
+1. A new customer sends a message from Facebook.
+2. ScaleFlow creates or links the contact.
+3. Staff open the contact panel in Inbox.
+4. Staff add a label such as `Interested in premium plan`.
+5. If follow-up is needed, staff create a ticket.
+6. The next teammate can see the contact history before replying.
+
+## Current page limitations
 
 In contact detail, these center tabs are currently placeholder sections:
 - Associations

@@ -14,7 +14,7 @@ RCA.Activties.Core.OutputDataTable
 
 This activity allows you to write a Data Table to a string using the CSV format.
 
-![ouput data table.jpg](/img/7cc429_ouput-data-table.jpg)
+![ouput data table.jpg](/static/img/7cc429_ouput-data-table.jpg)
 
 (\* is mandatory)
 

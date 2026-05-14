@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.SelectMultiple
 
 The Select Multiple Items activity allows you to select many items from a combo box or list box.
 
-![image-20220505151329-1.png](/img/8f199c_image-20220505151329-1.png)
+![image-20220505151329-1.png](/static/img/8f199c_image-20220505151329-1.png)
 
 (\*For Mandatory)
 

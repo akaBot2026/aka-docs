@@ -14,7 +14,7 @@ RCA.Activities.IE.InjectJs
 
 The Inject Javascript allows you to inject Javascript on a webpage.
 
-![image-20220506110747-1.png](/img/be951a_image-20220506110747-1.png)
+![image-20220506110747-1.png](/static/img/be951a_image-20220506110747-1.png)
 
 (\* for Mandatory)
 

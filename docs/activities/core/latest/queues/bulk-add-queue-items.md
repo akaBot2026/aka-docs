@@ -14,7 +14,7 @@ RCA.Activities.Core.BulkAddQueueItems
 
 This Bulk Add Queue Items activity enables you to add a collection of items to a data table to a specific queue. Once it is added to the queue, the items’ status is changed to new.
 
-![image-20220506113338-1.png](/img/993a2c_image-20220506113338-1.png)
+![image-20220506113338-1.png](/static/img/993a2c_image-20220506113338-1.png)
 
 (\* for Mandatory)
 

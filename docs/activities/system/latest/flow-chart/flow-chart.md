@@ -14,7 +14,7 @@ System.Activities.Statements.Flowchart
 
 You can use flowchart for many different activities, from large to small and also apply to other projects if needed. From the start button, you can add activities to create the work flow.
 
-![1697771490677-388.png](/img/0d1255_1697771490677-388.png)
+![1697771490677-388.png](/static/img/0d1255_1697771490677-388.png)
 
 (\* for Mandatory)
 

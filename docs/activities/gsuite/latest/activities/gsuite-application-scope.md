@@ -14,7 +14,7 @@ RCA.Activities.GSuite.GsuiteApplicationScope
 
 This activity allows you to handle the connection client and authentication for GSuite activities. The GSuite activities work with the account specified in the Application Scope. Multiple authentication types are available.
 
-![image-20220505160344-1.png](/img/a63f7e_image-20220505160344-1.png)
+![image-20220505160344-1.png](/static/img/a63f7e_image-20220505160344-1.png)
 
 (\*For mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.Common.TypeInto
 
 The Type Into activity allows you to type texts into any text field within the webpage or window application.
 
-![image-20220505133529-1.png](/img/fcd9f6_image-20220505133529-1.png)
+![image-20220505133529-1.png](/static/img/fcd9f6_image-20220505133529-1.png)
 
 (\* is mandatory)
 

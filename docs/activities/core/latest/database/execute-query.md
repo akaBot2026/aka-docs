@@ -16,7 +16,7 @@ RCA.Activities.Core.ExecuteQuery
 
 This activity allows you to execute a query on a database and returns the query result in a Datatable.
 
-![image-20220506105340-1.png](/img/18223c_image-20220506105340-1.png)
+![image-20220506105340-1.png](/static/img/18223c_image-20220506105340-1.png)
 
  (\* for Mandatory)
 
@@ -24,7 +24,7 @@ This activity allows you to execute a query on a database and returns the query 
 
 * **Configure Connection**- Set connection string, data source, data provider.
 
-![image-20230419153435-1.png](/img/3e2525_image-20230419153435-1.png)
+![image-20230419153435-1.png](/static/img/3e2525_image-20230419153435-1.png)
 
 * **Edit Query** - SQL command to be executed. This field must be completed according to the selection from the CommandType property.  
   E.g: “SELECT \* FROM ContactList”

@@ -14,7 +14,7 @@ RCA.Activities.Core.SaveImage
 
 This activity allows you to save an image to your disk.
 
-![image-20220513111129-1.png](/img/a26eec_image-20220513111129-1.png)
+![image-20220513111129-1.png](/static/img/a26eec_image-20220513111129-1.png)
 
 (\* for Mandatory)
 

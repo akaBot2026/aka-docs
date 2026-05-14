@@ -14,7 +14,7 @@ RCA.Activities.Browser.HandleAlert
 
 The Handle Alert activity allows you to handle alert popup box in various ways.
 
-![image-20220505142619-1.png](/img/7116a9_image-20220505142619-1.png)
+![image-20220505142619-1.png](/static/img/7116a9_image-20220505142619-1.png)
 
 (\* For Mandatory)
 

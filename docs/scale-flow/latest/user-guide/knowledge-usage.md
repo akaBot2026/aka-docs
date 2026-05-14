@@ -3,19 +3,26 @@ id: knowledge-usage
 title: Knowledge Usage
 sidebar_label: Knowledge Usage
 sidebar_position: 15
-description: Practical guide to create, sync, test, and manage Knowledge Bases using the current UI.
+description: Beginner-friendly guide to create Knowledge so AI can answer from trusted business information.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Knowledge Usage
 
-## What Knowledge is for
+Knowledge is the trusted information your AI uses to answer customers. It can include FAQs, product details, delivery rules, refund policy, warranty policy, price lists, help documents, or website pages.
 
-Use **Knowledge** to:
+Without good Knowledge, AI may not know your business. With good Knowledge, your [AI Agent](./ai-agent-usage) can answer more accurately and your [AI Assistant](./ai-assistant) can support customers in Inbox.
 
-- Store business documents and reference data for AI
-- Keep data updated by syncing from connected sources
-- Test answers before linking knowledge to an AI Agent
+## When to use Knowledge
+
+Use Knowledge when:
+
+- Customers often ask questions that already have standard answers.
+- Your team wants AI to answer from approved company information.
+- You need AI to follow business rules, such as return windows or delivery timelines.
+- You want staff to find answers faster.
+
+Example: A store uploads a return policy PDF, a delivery FAQ, and a product catalog. When a customer asks, "Can I return an item after 10 days?" AI checks the return policy before answering.
 
 ## Open Knowledge from the menu
 
@@ -23,19 +30,11 @@ Use **Knowledge** to:
 2. Select **Knowledge**.
 3. You will see the knowledge base list page.
 
-## Permissions you need
-
-In the current UI, actions are controlled by permissions:
-
-- **View Knowledge list/detail**: `knowledge.view`
-- **Create/Edit/Delete Knowledge and Upload files**: `knowledge.manage`
-- **Run sync/crawl/test actions**: `knowledge.update` (or permissions that imply it, such as `knowledge.manage`)
-
-If action buttons are missing (for example **Add knowledge**, **Upload**, **Synchronize**, **Crawl Web**, **Test Knowledge**), ask your admin to review your permissions.
+If action buttons such as **Add knowledge**, **Upload**, **Synchronize**, **Crawl Web**, or **Test Knowledge** are missing, ask your admin to check your Knowledge access.
 
 ## Knowledge list page
 
-![Knowledge list page](/img/list-knowledge.png)
+![Knowledge list page](/static/img/list-knowledge.png)
 
 On the **Knowledge** page, you can:
 
@@ -45,16 +44,11 @@ On the **Knowledge** page, you can:
 - Open one knowledge base by clicking its card
 - Create a new knowledge base with **Add knowledge** (if authorized)
 
-Knowledge cards display:
+Each card shows the name, source type, current status, and last update time.
 
-- Name
-- Source type (File Upload, Google Drive, or Crawl Web)
-- Current status (`Ready`, `Syncing`, `Pending`, `Failed`)
-- Last update date
+## Create a Knowledge base
 
-## Create a new knowledge base
-
-![Create a new knowledge](/img/create-knowledge.png)
+![Create a new knowledge](/static/img/create-knowledge.png)
 
 1. Click **Add knowledge**.
 2. Enter:
@@ -69,44 +63,45 @@ Knowledge cards display:
 
 After creation, the UI opens the knowledge detail page automatically.
 
-## Source type setup (what users will see)
+## Choose the right source type
 
-### 1) File Upload
+### File Upload
 
-![Create a new knowledge](/img/create-knowledge.png)
+![Create a new knowledge](/static/img/create-knowledge.png)
 
-- Best for manual document uploads
-- No connection setup is required in the create dialog
-- After creation, use **Upload** to add files
+Use **File Upload** when your information is in documents on your computer.
 
-Supported upload formats in the current UI:
+Good examples:
 
-- `.pdf`, `.docx`, `.txt`, `.csv`, `.json`, `.xlsx`, `.xls`
+- FAQ PDF
+- Product catalog
+- Price list spreadsheet
+- Warranty document
+- Store policy document
 
-### 2) Google Drive
+After creating the Knowledge base, click **Upload** and add files. Supported file types include PDF, Word, text, CSV, JSON, and Excel files.
 
-![Google Drive](/img/knowledge-google-drive.png)
+After files appear in the document list, run **Sync knowledge** (or **Synchronize** from the actions menu) so ScaleFlow ingests them. Until sync finishes successfully, AI may not use the new content. See [Upload documents](#upload-documents) for step-by-step flow and a screenshot of the sync control.
 
-- Requires an active Google Drive connection
-- You select:
-  - Google Drive account connection
-  - Specific files to sync
-- If no active connection exists, the UI asks you to add one in **Integrations** first
+### Google Drive
 
-### 3) Crawl Web
+![Google Drive](/static/img/knowledge-google-drive.png)
 
-![Crawl Web](/img/web-crawl.png)
+Use **Google Drive** when your team already keeps business documents in Google Drive.
 
-- Enter a target URL (for example documentation or help center pages)
-- You can configure crawl behavior, including:
-  - Crawl mode
-  - Include/Exclude URL filters
-  - Max pages and timeout
-- Main action button on detail page becomes **Crawl Web**
+Before using it, connect Google Drive in [Integration Usage](./integration-usage). Then choose the files you want ScaleFlow to read.
+
+### Crawl Web
+
+![Crawl Web](/static/img/web-crawl.png)
+
+Use **Crawl Web** when your information is already published on a website, such as a help center or policy page.
+
+Enter the page address and let ScaleFlow read the selected website pages. Start with a small set of pages first so you can check the results easily.
 
 ## Knowledge detail page
 
-![Knowledge detail page](/img/edit-document.png)
+![Knowledge detail page](/static/img/edit-document.png)
 
 Inside one knowledge base, you can:
 
@@ -117,88 +112,62 @@ Inside one knowledge base, you can:
 - Delete documents (if authorized)
 - Open action menu for edit/test/delete options
 
-The page also shows an ingestion notice when a sync job is running or queued. While active, the page auto-refreshes and you can cancel the job.
+When ScaleFlow is reading or updating documents, you may see a progress notice. Wait until the work is finished before testing.
 
-## Main actions by source type
+## Upload, sync, or crawl
 
-### File Upload knowledge
+Depending on the source type, you will see one of these main actions:
 
-- Primary button: **Upload**
-- More actions:
-  - **Edit knowledge**
-  - **Synchronize**
-  - **Test Knowledge**
-  - **Delete**
+- **Upload**: add files from your computer.
+- **Sync knowledge** or **Synchronize**: refresh information from the selected source.
+- **Crawl Web**: read or refresh website pages.
 
-### Google Drive knowledge
+Use these actions whenever your business information changes.
 
-- Primary button: **Sync knowledge**
-- More actions:
-  - **Edit knowledge**
-  - **Test Knowledge**
-  - **Delete**
+## Upload documents
 
-### Crawl Web knowledge
-
-- Primary button: **Crawl Web**
-- More actions:
-  - **Edit knowledge**
-  - **Test Knowledge**
-  - **Delete**
-
-## Upload documents (File Upload flow)
-
-![Upload documents](/img/upload-document.png)
+![Upload documents](/static/img/upload-document.png)
 
 1. Open a File Upload knowledge base.
 2. Click **Upload**.
 3. Choose one or more files.
 4. Click **Upload** in the dialog.
-5. Wait for upload to complete and review rows in document table.
+5. Wait for upload to complete and review rows in the document table.
+6. Click **Sync knowledge** on the knowledge detail page (or open the actions menu and choose **Synchronize**) so uploaded files are processed and become available to AI. Watch the status column until documents move out of **Pending** / **Syncing** into **Ready** when processing succeeds.
 
-If a file fails, the UI shows an error toast and file-level status feedback.
+![Sync knowledge after uploading documents](/static/img/sync-document.png)
 
-## Sync and recrawl behavior
+If a file fails, check the file type and try again.
 
-- **Synchronize** starts ingestion for selected documents or all pending documents.
-- If another ingestion is already running, the UI shows a conflict dialog:
-  - **Wait**
-  - **Cancel and Restart**
-- For Crawl Web, a similar conflict case allows **Force recrawl**.
+## Test Knowledge before using it with AI
 
-## Test Knowledge before real usage
+![Test Knowledge](/static/img/test-document.png)
 
-![Test Knowledge](/img/test-document.png)
+Use **Test Knowledge** to ask sample questions before connecting the Knowledge to an AI Agent.
 
-Use **Test Knowledge** to validate data quality before connecting to AI Agent flows.
+Practical test questions:
 
-Inside the test dialog, you can:
+- "What is our refund policy?"
+- "How long does delivery take?"
+- "What documents are needed for registration?"
+- "What warranty do we offer?"
 
-- Ask questions in a chat-style test panel
-- Toggle **RAG Query**
-- Toggle **With Metadata**
-- Select model (required when **RAG Query** is enabled)
-- Clear test history with the trash icon
+If answers are missing or unclear, update the document, upload a better file, or improve the website page, then sync again.
 
-Practical tip: ask 3-5 real customer questions and verify responses before go-live.
+## Understand document statuses
 
-## Document table and statuses
+You may see statuses such as:
 
-The table includes columns such as:
+- **Ready**: AI can use this information.
+- **Pending**: waiting to be processed.
+- **Syncing**: ScaleFlow is reading or updating the content.
+- **Failed**: something went wrong and needs attention.
 
-- Name
-- Size
-- Source Type
-- Status
-- Last Synced
-- Uploaded At
-- Sync Error (shown when there are sync errors)
-
-When a web-crawl knowledge base has no documents yet, the empty state shows **Crawl and Sync Now**.
+For best results, connect only Knowledge that is ready and accurate.
 
 ## Delete a knowledge base
 
-![Delete Knowledge](/img/action-knowledge.png)
+![Delete Knowledge](/static/img/action-knowledge.png)
 
 1. Open the knowledge detail page.
 2. Open the action menu.
@@ -207,27 +176,46 @@ When a web-crawl knowledge base has no documents yet, the empty state shows **Cr
 
 This removes the knowledge source from the library. Confirm carefully before deleting.
 
-## Recommended workflow for non-technical teams
+## Connect Knowledge to AI
 
-1. Create the knowledge base with a clear name.
-2. Add or sync data from one source type.
-3. Wait until status is healthy (`Ready` when possible).
-4. Use **Test Knowledge** with real business questions.
-5. Update data regularly (Upload/Sync/Crawl) to keep answers fresh.
+After your Knowledge is ready:
+
+1. Open [AI Agent Usage](./ai-agent-usage).
+2. Create or open an agent.
+3. Add this Knowledge in the agent's **Knowledge** section.
+4. Test the agent.
+5. Publish the agent.
+6. Turn it on in [AI Assistant](./ai-assistant).
+
+## Real-world workflow
+
+1. A clinic uploads an appointment FAQ and pricing document.
+2. The manager tests: "How do I book an appointment?"
+3. The answer is clear, so the manager connects the Knowledge to an AI Agent.
+4. Smart Assistant starts answering appointment questions in Inbox.
+5. If a customer asks for a doctor recommendation, AI creates a ticket for staff.
+
+## Recommended beginner checklist
+
+1. Start with one Knowledge base.
+2. Add only the most important documents first.
+3. Test with real customer questions.
+4. Fix unclear documents before publishing AI.
+5. Review Knowledge monthly or whenever policies change.
 
 ## Quick troubleshooting
 
 ### I cannot see the Knowledge page
 
-- Check `Knowledge -> View` permission.
+- Ask your admin for Knowledge view access.
 
 ### I can view but cannot create/edit/upload/delete
 
-- Check `Knowledge -> Manage` permission.
+- Ask your admin for Knowledge management access.
 
 ### I cannot run Sync, Crawl, or Test
 
-- Check `Knowledge -> Update` permission (or `Knowledge -> Manage`, which can imply it).
+- Ask your admin to allow Knowledge updates.
 
 ### Sync stays in progress too long
 

@@ -14,7 +14,7 @@ RCA.Activities.Common.ShowWindow
 
 The Show Window activity allows you to bring a specified window to the front.
 
-![image-20230417163559-1.png](/img/image-20230417163559-1.png)
+![image-20230417163559-1.png](/static/img/image-20230417163559-1.png)
 
 \* indicates required fields.
 

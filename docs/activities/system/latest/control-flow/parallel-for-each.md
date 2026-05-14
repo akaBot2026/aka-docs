@@ -14,7 +14,7 @@ System.Activities.Statements.ParallelForEach
 
 Enables you to iterate through all elements of a collection and execute a set of activities for each element in parallel.
 
-![Core_ParallelForEach](/img/parallel.png)
+![Core_ParallelForEach](/static/img/parallel.png)
 
 \* indicates required fields.
 

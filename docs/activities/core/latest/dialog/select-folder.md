@@ -14,7 +14,7 @@ RCA.Activities.Core.SelectFolder
 
 This activity opens a dialog, allows you to select a folder and returns full path of the selected folder.
 
-![image-20220505093358-1.jpeg](/img/e2ca08_image-20220505093358-1.jpeg)
+![image-20220505093358-1.jpeg](/static/img/e2ca08_image-20220505093358-1.jpeg)
 
 ## **Properties**
 

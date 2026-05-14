@@ -14,7 +14,7 @@ RCA.Activities.Browser.SelectItem
 
 The Select Item activity allows you to select an item from a combo box or list box.
 
-![image-20220505133407-1.png](/img/f540d7_image-20220505133407-1.png)
+![image-20220505133407-1.png](/static/img/f540d7_image-20220505133407-1.png)
 
 (\*For Mandatory)
 

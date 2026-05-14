@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelInsertColumnsTable
 
 Adds a specified column at a certain position in the table.
 
-![image-20220505141633-1.png](/img/d68299_image-20220505141633-1.png)
+![image-20220505141633-1.png](/static/img/d68299_image-20220505141633-1.png)
 
 (\* for mandatory)
 

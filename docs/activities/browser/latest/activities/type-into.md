@@ -14,7 +14,7 @@ RCA.Activities.Browser.TypeInto
 
 The Type Into activity allows you to type texts into any text field within the webpage.
 
-![Browser_TypeInto](/img/877e21_63d6a4a-screenshot_2021-05-25_155118.jpg)
+![Browser_TypeInto](/static/img/877e21_63d6a4a-screenshot_2021-05-25_155118.jpg)
 
 (\*For mandatory)
 

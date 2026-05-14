@@ -14,7 +14,7 @@ RCA.Activities.Core.SelectFile
 
 This activity opens a dialog, allows you to select a file and returns full path of the selected file.
 
-![image-20220505093334-1.jpeg](/img/ed0879_image-20220505093334-1.jpeg)
+![image-20220505093334-1.jpeg](/static/img/ed0879_image-20220505093334-1.jpeg)
 
 ## **Properties**
 

@@ -14,7 +14,7 @@ RCA.Activities.Windows.FindControl
 
 Finds a Window element and stores it as an AutomationElement variable.
 
-![image-20220505170658-1.png](/img/ff44ba_image-20220505170658-1.png)
+![image-20220505170658-1.png](/static/img/ff44ba_image-20220505170658-1.png)
 
 (\*For mandatory)
 

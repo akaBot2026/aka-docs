@@ -14,7 +14,7 @@ System.Activities.Core.FileChangeTrigger
 
 This activity allows you to get the change information of a file. This can only be used in monitoring events.
 
-![image-20220505160559-1.png](/img/a03576_image-20220505160559-1.png)
+![image-20220505160559-1.png](/static/img/a03576_image-20220505160559-1.png)
 
 (\* for Mandatory)
 

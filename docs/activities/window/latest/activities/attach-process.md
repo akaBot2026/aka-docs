@@ -14,7 +14,7 @@ RCA.Activities.Windows.AttachProcess
 
 This activity will allow running apps or multiple processes simultaneously. After getting the process name, it will take action.
 
-![image-20220505171448-1.png](/img/1c1837_image-20220505171448-1.png)
+![image-20220505171448-1.png](/static/img/1c1837_image-20220505171448-1.png)
 
 (\*For Mandatory)
 

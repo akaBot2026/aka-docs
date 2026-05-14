@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelSelectRange
 
 The activity allows you to select and execute a specified range from an Excel spreadsheet, in order to perform further actions.
 
-![image-20220505133120-1.jpeg](/img/bc8598_image-20220505133120-1.jpeg)
+![image-20220505133120-1.jpeg](/static/img/bc8598_image-20220505133120-1.jpeg)
 
 (\* for mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.Windows.GetMenu
 
 The Get Menu activity allows you to select the menu of a specified window element.
 
-![image-20220505170004-1.png](/img/1d8327_image-20220505170004-1.png)
+![image-20220505170004-1.png](/static/img/1d8327_image-20220505170004-1.png)
 
 (\*For mandatory)
 

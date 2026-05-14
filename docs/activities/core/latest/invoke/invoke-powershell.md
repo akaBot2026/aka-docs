@@ -14,7 +14,7 @@ RCA.Activities.Core.InvokePowerShell
 
 With this activity, you can synchronously invoke Powershell Command, optionally passing it a list of input arguments.
 
-![image-20220505161911-1.png](/img/101339_image-20220505161911-1.png)
+![image-20220505161911-1.png](/static/img/101339_image-20220505161911-1.png)
 
 (\* for Mandatory)
 

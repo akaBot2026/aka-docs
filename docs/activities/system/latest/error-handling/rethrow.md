@@ -14,7 +14,7 @@ System.Activities.Statements.Rethrow
 
 The Rethrow activity allows you to re-throw the type of exception you are finding if it does not pop out the first time. This activity can be used in the Catch block of the Try Catch activity.
 
-![https://files.readme.io/490ac01-Screenshot_2021-06-01_165846.jpg](/img/bcc71f_490ac01-screenshot_2021-06-01_165846.jpg)
+![https://files.readme.io/490ac01-Screenshot_2021-06-01_165846.jpg](/static/img/bcc71f_490ac01-screenshot_2021-06-01_165846.jpg)
 
 ## **Properties**
 

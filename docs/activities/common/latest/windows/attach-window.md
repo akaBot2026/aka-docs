@@ -14,7 +14,7 @@ RCA.Activities.Common.AttachWindow
 
 The Attach Window activity allows you to attach to an already opened window and execute activities within the window.
 
-![image-20220505133620-1.png](/img/7cbd35_image-20220505133620-1.png)
+![image-20220505133620-1.png](/static/img/7cbd35_image-20220505133620-1.png)
 
 (\* is mandatory)
 

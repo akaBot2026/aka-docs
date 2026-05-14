@@ -14,7 +14,7 @@ RCA.Activities.Core.MergeDataTable
 
 This activity allows you to merge DataTable with the current DataTable whether to preserve changes or handle missing schema in the current DataTable.
 
-[![merge data table.jpg](/img/eeb7af_merge-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Merge%20Data%20Table/WebHome/merge%20data%20table.jpg?rev=1.1)
+[![merge data table.jpg](/static/img/eeb7af_merge-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Merge%20Data%20Table/WebHome/merge%20data%20table.jpg?rev=1.1)
 
 (\* is mandatory)
 

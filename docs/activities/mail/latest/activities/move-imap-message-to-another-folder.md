@@ -14,7 +14,7 @@ RCA.Activities.Mail.MoveIMAPMessageToFolder
 
 This activity allows you to move an IMAP Message to an another folder.
 
-![image-20220505162857-1.png](/img/24564c_image-20220505162857-1.png)
+![image-20220505162857-1.png](/static/img/24564c_image-20220505162857-1.png)
 
 (\* is mandatory)
 
@@ -38,7 +38,7 @@ This activity allows you to move an IMAP Message to an another folder.
 * **Server (String)**\* - The email server host that is to be used.  
   E.g: “mail.mydomain.com”
 
-![993-imap.png](/img/5cf416_993-imap.png)
+![993-imap.png](/static/img/5cf416_993-imap.png)
 
 * **Enable SSL (Checkbox)** - If you choose this you will use the SSL encryption.
 

@@ -14,7 +14,7 @@ RCA.Activities.Gsuite.MoveFile
 
 This activity allows you to move a file on Google Drive
 
-![image-20220505160420-1.png](/img/13f180_image-20220505160420-1.png)
+![image-20220505160420-1.png](/static/img/13f180_image-20220505160420-1.png)
 
 (\*For mandatory)
 

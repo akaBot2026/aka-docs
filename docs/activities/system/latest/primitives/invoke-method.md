@@ -14,7 +14,7 @@ System.Activities.Statements.InvokeMethod
 
 The InvokeMethod activity is another way to implement a code that is outside of the standard built-in activities. You can use this activity to invoke a method of a class.
 
-![image-20220506113031-1.png](/img/3282fc_image-20220506113031-1.png)
+![image-20220506113031-1.png](/static/img/3282fc_image-20220506113031-1.png)
 
 **In the body of activity**
 

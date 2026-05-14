@@ -14,7 +14,7 @@ RCA.Activities.FTP.CreateDirectory
 
 This activity allows you to create a folder on FTP server.
 
-![image-20220505152047-1.png](/img/a25e9b_image-20220505152047-1.png)
+![image-20220505152047-1.png](/static/img/a25e9b_image-20220505152047-1.png)
 
 (\* is mandatory)
 

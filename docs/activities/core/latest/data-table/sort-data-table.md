@@ -14,7 +14,7 @@ RCA.Activities.Core.SortDataTables
 
 This activity allows you to sort data tables in ascending or descending order, based on the values of a specified column.
 
-[![sort data table.jpg](/img/d4f5f2_sort-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Sort%20Data%20Table/WebHome/sort%20data%20table.jpg?rev=1.1)
+[![sort data table.jpg](/static/img/d4f5f2_sort-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Sort%20Data%20Table/WebHome/sort%20data%20table.jpg?rev=1.1)
 
 (\* is mandatory)
 

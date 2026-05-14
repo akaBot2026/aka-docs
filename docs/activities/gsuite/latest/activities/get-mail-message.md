@@ -14,7 +14,7 @@ RCA.Activities.GSuite.GetMailMessages
 
 This activity allows you to search for and get emails from a specified Gmail account.
 
-![image-20220505160309-1.png](/img/65d081_image-20220505160309-1.png)
+![image-20220505160309-1.png](/static/img/65d081_image-20220505160309-1.png)
 
 (\*For mandatory)
 

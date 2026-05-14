@@ -14,7 +14,7 @@ RCA.Activities.IE.WaitBrowserComplete
 
 To wait for the browser to complete loading a page.
 
-![image-20220506111359-1.png](/img/d57b6f_image-20220506111359-1.png)
+![image-20220506111359-1.png](/static/img/d57b6f_image-20220506111359-1.png)
 
 (\* for Mandatory)
 

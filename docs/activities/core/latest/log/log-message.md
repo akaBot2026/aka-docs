@@ -14,7 +14,7 @@ RCA.Activities.Core.LogMessage
 
 This activity allows you to write the specified diagnostic message at the specified level. These messages are also sent to Center and displayed on the Logs page.
 
-![image-20220505092805-1.jpeg](/img/b26e3e_image-20220505092805-1.jpeg)
+![image-20220505092805-1.jpeg](/static/img/b26e3e_image-20220505092805-1.jpeg)
 
 (\* for Mandatory)
 

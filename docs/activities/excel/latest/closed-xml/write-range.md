@@ -15,7 +15,7 @@ RCA.Activities.Excel.WriteRange
 This activity allows you to write data from a DataTable variable into a spreadsheet, starting from the cell specified in the Starting Cell field.  
 If the starting cell is not specified, the data is written starting from cell `A1`.
 
-![image-20220505135914-1.jpeg](/img/image-20220505135914-1.jpeg)
+![image-20220505135914-1.jpeg](/static/img/image-20220505135914-1.jpeg)
 
 \* indicates required fields.
 

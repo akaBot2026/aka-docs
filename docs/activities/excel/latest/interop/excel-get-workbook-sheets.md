@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelGetWorkbookSheets
 
 This activity allows you to look for a sheet based on its index and returns its name as a String variable. This only can be used in Excel Application Scope Activity.
 
-![image-20220505132503-1.jpeg](/img/b08820_image-20220505132503-1.jpeg)
+![image-20220505132503-1.jpeg](/static/img/b08820_image-20220505132503-1.jpeg)
 
 (\* for mandatory)
 

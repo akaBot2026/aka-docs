@@ -14,7 +14,7 @@ RCA.Activities.Core.BlockUserInput
 
 This activity allows you to block user input from the mouse and keyboard while activities are running. You can configure it to block the mouse, keyboard, or both, and define a hotkey combination to re-enable them.
 
-![image-20220505100618-1.jpeg](/img/image-20220505100618-1.jpeg)
+![image-20220505100618-1.jpeg](/static/img/image-20220505100618-1.jpeg)
 
 \* indicates required fields.
 

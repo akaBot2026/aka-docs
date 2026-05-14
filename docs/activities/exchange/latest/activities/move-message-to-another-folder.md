@@ -14,7 +14,7 @@ RCA.Activities.Mail.MoveMessageToFolder
 
 This activity allows you to move an email message from Exchange to another folder.
 
-![image-20220505160936-1.png](/img/98f075_image-20220505160936-1.png)
+![image-20220505160936-1.png](/static/img/98f075_image-20220505160936-1.png)
 
 (\* is mandatory)
 

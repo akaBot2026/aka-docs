@@ -16,7 +16,7 @@ This activity allows you to read data from an Excel range and store it in a Data
 If the range is not specified, the entire worksheet starting from the first cell is read.  
 This activity uses the ClosedXML library.
 
-![image-20220505135434-1.jpeg](/img/image-20220505135434-1.jpeg)
+![image-20220505135434-1.jpeg](/static/img/image-20220505135434-1.jpeg)
 
 \* indicates required fields.
 

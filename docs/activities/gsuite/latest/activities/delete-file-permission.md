@@ -14,7 +14,7 @@ RCA.Activities.GSuite.DeleteFilePermission
 
 This activity allows to delete permission to a file.
 
-![image-20220505155423-1.png](/img/d19794_image-20220505155423-1.png)
+![image-20220505155423-1.png](/static/img/d19794_image-20220505155423-1.png)
 
 (\*For mandatory)
 

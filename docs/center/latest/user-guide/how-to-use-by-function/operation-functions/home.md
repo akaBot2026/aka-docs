@@ -8,7 +8,7 @@ displayed_sidebar: centerSidebar
 ---
 # Home
 
-![image-20221027173807-2.png](/img/18ffb1_image-20221027173807-2.png)
+![image-20221027173807-2.png](/static/img/18ffb1_image-20221027173807-2.png)
 
 akaBot's home page is a dashboard that enables you to see all the statistical charts of a single Organizational Unit containing useful information for all the following components:
 
@@ -20,7 +20,7 @@ akaBot's home page is a dashboard that enables you to see all the statistical ch
 * Upcoming Tasks
 * Recent Tasks
 
-![image-20221028092757-2.png](/img/ca0f55_image-20221028092757-2.png)
+![image-20221028092757-2.png](/static/img/ca0f55_image-20221028092757-2.png)
 
 You can filter the data based on the Agent Group and Agent Name
 
@@ -31,7 +31,7 @@ You can filter the data based on the Agent Group and Agent Name
 
 You can also view the Task Statistics by selecting the corresponding tab: Daily, Weekly, Monthly, Yearly.
 
-![image-20221028092657-1.png](/img/04cd91_image-20221028092657-1.png)
+![image-20221028092657-1.png](/static/img/04cd91_image-20221028092657-1.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory ? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |

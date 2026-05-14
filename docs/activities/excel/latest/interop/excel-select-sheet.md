@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelSelectSheet
 
 The activity allows you to select and execute a specified sheet, in order to perform further actions.
 
-![image-20220505132753-1.jpeg](/img/140f12_image-20220505132753-1.jpeg)
+![image-20220505132753-1.jpeg](/static/img/140f12_image-20220505132753-1.jpeg)
 
 (\* for mandatory)
 

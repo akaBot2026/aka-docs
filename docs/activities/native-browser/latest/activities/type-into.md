@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.TypeInto
 
 The Type Into activity allows you to type text into any text field within a webpage.
 
-![image-20220505151551-1.png](/img/image-20220505151551-1.png)
+![image-20220505151551-1.png](/static/img/image-20220505151551-1.png)
 
 \* indicates required fields.
 

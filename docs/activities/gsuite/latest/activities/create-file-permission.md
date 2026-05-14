@@ -14,7 +14,7 @@ RCA.Activities.GSuite.CreateFilePermission
 
 This activity allows you to create a permission for the specified file in Google Drive.
 
-![image-20220505155108-1.png](/img/00cbf7_image-20220505155108-1.png)
+![image-20220505155108-1.png](/static/img/00cbf7_image-20220505155108-1.png)
 
 (\*For mandatory)
 

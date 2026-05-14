@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelCopyPasteRange
 
 This activity allows to copy a range or sheet (including values, formulas, table format, and cell format) and pastes it to another location in the current workbook or to a different workbook.
 
-![image-20220505131502-1.jpeg](/img/711470_image-20220505131502-1.jpeg)
+![image-20220505131502-1.jpeg](/static/img/711470_image-20220505131502-1.jpeg)
 
 (\* for mandatory)
 

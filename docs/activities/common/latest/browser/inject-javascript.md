@@ -14,7 +14,7 @@ RCA.Activities.Common.InjectJavascript
 
 The Inject JavaScript allows you to inject JavaScript on a webpage.
 
-![image-20220505134722-1.png](/img/5af07a_image-20220505134722-1.png)
+![image-20220505134722-1.png](/static/img/5af07a_image-20220505134722-1.png)
 
 (\*For mandatory)
 

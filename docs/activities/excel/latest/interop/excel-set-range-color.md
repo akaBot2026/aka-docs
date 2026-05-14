@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelSetRangeColor
 
 This activity allows changing color of a specified cell or cell range using a Color variable. Can only be used within the Excel Application Scope activity.
 
-![image-20220505133337-1.jpeg](/img/2cff03_image-20220505133337-1.jpeg)
+![image-20220505133337-1.jpeg](/static/img/2cff03_image-20220505133337-1.jpeg)
 
 (\* for mandatory)
 

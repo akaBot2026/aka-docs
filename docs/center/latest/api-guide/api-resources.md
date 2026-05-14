@@ -29,11 +29,11 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/roles/{name} URL
 
-![image-20230307144502-1.png](/img/73971b_image-20230307144502-1.png)
+![image-20230307144502-1.png](/static/img/73971b_image-20230307144502-1.png)
 
 Headers:
 
-![image-20230307144502-2.png](/img/23952b_image-20230307144502-2.png)
+![image-20230307144502-2.png](/static/img/23952b_image-20230307144502-2.png)
 
 Response:
 
@@ -60,19 +60,19 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/users URL
 
-![image-20230307144502-4.png](/img/e78ea6_image-20230307144502-4.png)
+![image-20230307144502-4.png](/static/img/e78ea6_image-20230307144502-4.png)
 
 Params:
 
-![image-20230307144502-5.png](/img/e394c8_image-20230307144502-5.png)
+![image-20230307144502-5.png](/static/img/e394c8_image-20230307144502-5.png)
 
 Headers:
 
-![image-20230307144502-6.png](/img/e3a2d7_image-20230307144502-6.png)
+![image-20230307144502-6.png](/static/img/e3a2d7_image-20230307144502-6.png)
 
 Response:
 
-![image-20230307144502-7.png](/img/a6189a_image-20230307144502-7.png)
+![image-20230307144502-7.png](/static/img/a6189a_image-20230307144502-7.png)
 
 ## **3. CreateUser**
 
@@ -93,23 +93,23 @@ Example:
 
 Make a POST request to the http://botcenter.akabot.io/api/users URL
 
-![image-20230307144502-8.png](/img/cea544_image-20230307144502-8.png)
+![image-20230307144502-8.png](/static/img/cea544_image-20230307144502-8.png)
 
 Headers:
 
-![image-20230307144502-9.png](/img/f84255_image-20230307144502-9.png)
+![image-20230307144502-9.png](/static/img/f84255_image-20230307144502-9.png)
 
 Request:
 
-![image-20230307144502-10.png](/img/091d5d_image-20230307144502-10.png)
+![image-20230307144502-10.png](/static/img/091d5d_image-20230307144502-10.png)
 
-![image-20230307144502-11.png](/img/df4f55_image-20230307144502-11.png)
+![image-20230307144502-11.png](/static/img/df4f55_image-20230307144502-11.png)
 
 Response:
 
-![image-20230307144502-12.png](/img/b86a28_image-20230307144502-12.png)
+![image-20230307144502-12.png](/static/img/b86a28_image-20230307144502-12.png)
 
-![image-20230307144502-13.png](/img/7b2a3d_image-20230307144502-13.png)
+![image-20230307144502-13.png](/static/img/7b2a3d_image-20230307144502-13.png)
 
 
 
@@ -132,21 +132,21 @@ Example:
 
 Make a PUT request to the http://botcenter.akabot.io/api/user-add-role URL
 
-![image-20230307144502-14.png](/img/177b1f_image-20230307144502-14.png)
+![image-20230307144502-14.png](/static/img/177b1f_image-20230307144502-14.png)
 
 Headers:
 
-![image-20230307144502-15.png](/img/57ef5e_image-20230307144502-15.png)
+![image-20230307144502-15.png](/static/img/57ef5e_image-20230307144502-15.png)
 
 Request:
 
-![image-20230307144502-16.png](/img/1b0b3a_image-20230307144502-16.png)
+![image-20230307144502-16.png](/static/img/1b0b3a_image-20230307144502-16.png)
 
-![image-20230307144502-17.png](/img/88ba04_image-20230307144502-17.png)
+![image-20230307144502-17.png](/static/img/88ba04_image-20230307144502-17.png)
 
 Response:
 
-![image-20230307144502-18.png](/img/022227_image-20230307144502-18.png)
+![image-20230307144502-18.png](/static/img/022227_image-20230307144502-18.png)
 
 Response Code: 200
 
@@ -169,21 +169,21 @@ Example:
 
 Make a PUT request to the http://botcenter.akabot.io/api/user-remove-role URL
 
-![image-20230307144502-19.png](/img/abe9d7_image-20230307144502-19.png)
+![image-20230307144502-19.png](/static/img/abe9d7_image-20230307144502-19.png)
 
 Headers:
 
-![image-20230307144502-20.png](/img/816215_image-20230307144502-20.png)
+![image-20230307144502-20.png](/static/img/816215_image-20230307144502-20.png)
 
 Request:
 
-![image-20230307144502-21.png](/img/f1b9be_image-20230307144502-21.png)
+![image-20230307144502-21.png](/static/img/f1b9be_image-20230307144502-21.png)
 
-![image-20230307144502-22.png](/img/d84f61_image-20230307144502-22.png)
+![image-20230307144502-22.png](/static/img/d84f61_image-20230307144502-22.png)
 
 Response:
 
-![image-20230307144502-23.png](/img/1d053f_image-20230307144502-23.png)
+![image-20230307144502-23.png](/static/img/1d053f_image-20230307144502-23.png)
 
 Response Code: 200
 
@@ -206,21 +206,21 @@ Example:
 
 Make a PUT request to the http://botcenter.akabot.io/api/user-add-organizationUnit URL
 
-![image-20230307144502-24.png](/img/4b0733_image-20230307144502-24.png)
+![image-20230307144502-24.png](/static/img/4b0733_image-20230307144502-24.png)
 
 Headers:
 
-![image-20230307144502-25.png](/img/f3ee64_image-20230307144502-25.png)
+![image-20230307144502-25.png](/static/img/f3ee64_image-20230307144502-25.png)
 
 Request:
 
-![image-20230307144502-26.png](/img/b7ac05_image-20230307144502-26.png)
+![image-20230307144502-26.png](/static/img/b7ac05_image-20230307144502-26.png)
 
-![image-20230307144502-27.png](/img/cf4972_image-20230307144502-27.png)
+![image-20230307144502-27.png](/static/img/cf4972_image-20230307144502-27.png)
 
 Response:
 
-![image-20230307144502-28.png](/img/b1166c_image-20230307144502-28.png)
+![image-20230307144502-28.png](/static/img/b1166c_image-20230307144502-28.png)
 
 Response Code: 200
 
@@ -243,21 +243,21 @@ Example:
 
 Make a PUT request to the http://botcenter.akabot.io/api/user-remove-organizationUnit URL
 
-![image-20230307144502-29.png](/img/371ff7_image-20230307144502-29.png)
+![image-20230307144502-29.png](/static/img/371ff7_image-20230307144502-29.png)
 
 Headers:
 
-![image-20230307144502-30.png](/img/2db809_image-20230307144502-30.png)
+![image-20230307144502-30.png](/static/img/2db809_image-20230307144502-30.png)
 
 Request:
 
-![image-20230307144502-31.png](/img/863477_image-20230307144502-31.png)
+![image-20230307144502-31.png](/static/img/863477_image-20230307144502-31.png)
 
-![image-20230307144502-32.png](/img/f6070d_image-20230307144502-32.png)
+![image-20230307144502-32.png](/static/img/f6070d_image-20230307144502-32.png)
 
 Response:
 
-![image-20230307144502-33.png](/img/4409b9_image-20230307144502-33.png)
+![image-20230307144502-33.png](/static/img/4409b9_image-20230307144502-33.png)
 
 Response Code: 200
 
@@ -282,15 +282,15 @@ Make a PUT request to the http://botcenter.akabot.io/api/users URL
 
 Request:
 
-![image-20230307144502-34.png](/img/340fd9_image-20230307144502-34.png)
+![image-20230307144502-34.png](/static/img/340fd9_image-20230307144502-34.png)
 
-![image-20230307144502-35.png](/img/755477_image-20230307144502-35.png)
+![image-20230307144502-35.png](/static/img/755477_image-20230307144502-35.png)
 
 Response:
 
-![image-20230307144502-36.png](/img/29dbf1_image-20230307144502-36.png)
+![image-20230307144502-36.png](/static/img/29dbf1_image-20230307144502-36.png)
 
-![image-20230307144502-37.png](/img/8fbdd4_image-20230307144502-37.png)
+![image-20230307144502-37.png](/static/img/8fbdd4_image-20230307144502-37.png)
 
 ## **9. ActivatedUser**
 
@@ -311,21 +311,21 @@ Example:
 
 Make a PUT request to the http://botcenter.akabot.io/api/user-activated URL
 
-![image-20230307144502-38.png](/img/f758dc_image-20230307144502-38.png)
+![image-20230307144502-38.png](/static/img/f758dc_image-20230307144502-38.png)
 
 Headers:
 
-![image-20230307144502-39.png](/img/0a6d35_image-20230307144502-39.png)
+![image-20230307144502-39.png](/static/img/0a6d35_image-20230307144502-39.png)
 
 Request:
 
-![image-20230307144502-40.png](/img/ed0a24_image-20230307144502-40.png)
+![image-20230307144502-40.png](/static/img/ed0a24_image-20230307144502-40.png)
 
-![image-20230307144502-41.png](/img/0dec4c_image-20230307144502-41.png)
+![image-20230307144502-41.png](/static/img/0dec4c_image-20230307144502-41.png)
 
 Response:
 
-![image-20230307144502-42.png](/img/343066_image-20230307144502-42.png)
+![image-20230307144502-42.png](/static/img/343066_image-20230307144502-42.png)
 
 Response Code: 200
 
@@ -348,19 +348,19 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/robotsservice/GetAssociatedProcesses URL
 
-![image-20230307144502-43.png](/img/93e78e_image-20230307144502-43.png)
+![image-20230307144502-43.png](/static/img/93e78e_image-20230307144502-43.png)
 
 Params:
 
-![image-20230307144502-44.png](/img/47ff18_image-20230307144502-44.png)
+![image-20230307144502-44.png](/static/img/47ff18_image-20230307144502-44.png)
 
 Headers:
 
-![image-20230307144502-45.png](/img/7dbf8e_image-20230307144502-45.png)
+![image-20230307144502-45.png](/static/img/7dbf8e_image-20230307144502-45.png)
 
 Response:
 
-![image-20230307144502-46.png](/img/c474f4_image-20230307144502-46.png)
+![image-20230307144502-46.png](/static/img/c474f4_image-20230307144502-46.png)
 
 
 
@@ -390,19 +390,19 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/work-flows URL
 
-![image-20230307144502-47.png](/img/bcc9fa_image-20230307144502-47.png)
+![image-20230307144502-47.png](/static/img/bcc9fa_image-20230307144502-47.png)
 
 Params:
 
-![image-20230307144502-48.png](/img/4c591d_image-20230307144502-48.png)
+![image-20230307144502-48.png](/static/img/4c591d_image-20230307144502-48.png)
 
 Headers:
 
-![image-20230307144502-49.png](/img/077d74_image-20230307144502-49.png)
+![image-20230307144502-49.png](/static/img/077d74_image-20230307144502-49.png)
 
 Response:
 
-![image-20230307144502-50.png](/img/2f5f40_image-20230307144502-50.png)
+![image-20230307144502-50.png](/static/img/2f5f40_image-20230307144502-50.png)
 
 ## **12. WorkFlowVersion**
 
@@ -423,15 +423,15 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/workflowversion URL
 
-![image-20230307144502-51.png](/img/4c3828_image-20230307144502-51.png)
+![image-20230307144502-51.png](/static/img/4c3828_image-20230307144502-51.png)
 
 Params:
 
-![image-20230307144502-52.png](/img/7641f4_image-20230307144502-52.png)
+![image-20230307144502-52.png](/static/img/7641f4_image-20230307144502-52.png)
 
 Headers:
 
-![image-20230307144502-53.png](/img/f89582_image-20230307144502-53.png)
+![image-20230307144502-53.png](/static/img/f89582_image-20230307144502-53.png)
 
 Response:
 
@@ -457,15 +457,15 @@ Example:
 
 Make a PUT request to the http://botcenter.akabot.io/api/work-flows/{id}/version URL
 
-![image-20230307144502-54.png](/img/af9cf4_image-20230307144502-54.png)
+![image-20230307144502-54.png](/static/img/af9cf4_image-20230307144502-54.png)
 
 Headers:
 
-![image-20230307144502-55.png](/img/728ccb_image-20230307144502-55.png)
+![image-20230307144502-55.png](/static/img/728ccb_image-20230307144502-55.png)
 
 Response
 
-![image-20230307144502-56.png](/img/2072c6_image-20230307144502-56.png)
+![image-20230307144502-56.png](/static/img/2072c6_image-20230307144502-56.png)
 
 ## **14. UploadPackage**
 
@@ -487,15 +487,15 @@ Example:
 
 Make a POST request to the http://botcenter.akabot.io/api/packageupload URL
 
-![image-20230307144502-57.png](/img/72996b_image-20230307144502-57.png)
+![image-20230307144502-57.png](/static/img/72996b_image-20230307144502-57.png)
 
 Params:
 
-![image-20230307144502-58.png](/img/e279d7_image-20230307144502-58.png)
+![image-20230307144502-58.png](/static/img/e279d7_image-20230307144502-58.png)
 
 Headers:
 
-![image-20230307144502-59.png](/img/fd5196_image-20230307144502-59.png)
+![image-20230307144502-59.png](/static/img/fd5196_image-20230307144502-59.png)
 
 Response
 
@@ -522,19 +522,19 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/environments URL
 
-![image-20230307144502-61.png](/img/23f73a_image-20230307144502-61.png)
+![image-20230307144502-61.png](/static/img/23f73a_image-20230307144502-61.png)
 
 Params:
 
-![image-20230307144502-62.png](/img/dea7e3_image-20230307144502-62.png)
+![image-20230307144502-62.png](/static/img/dea7e3_image-20230307144502-62.png)
 
 Headers:
 
-![image-20230307144502-63.png](/img/1670a1_image-20230307144502-63.png)
+![image-20230307144502-63.png](/static/img/1670a1_image-20230307144502-63.png)
 
 Response:
 
-![image-20230307144502-64.png](/img/73ad73_image-20230307144502-64.png)
+![image-20230307144502-64.png](/static/img/73ad73_image-20230307144502-64.png)
 
 ## **16. StartJob**
 
@@ -555,23 +555,23 @@ Example:
 
 Make a POST request to the http://botcenter.akabot.io/api/jobs-processing URL
 
-![image-20230307144502-65.png](/img/7f67f2_image-20230307144502-65.png)
+![image-20230307144502-65.png](/static/img/7f67f2_image-20230307144502-65.png)
 
 Headers:
 
-![image-20230307144502-66.png](/img/a9924e_image-20230307144502-66.png)
+![image-20230307144502-66.png](/static/img/a9924e_image-20230307144502-66.png)
 
 Request:
 
-![image-20230307144502-67.png](/img/1734bd_image-20230307144502-67.png)
+![image-20230307144502-67.png](/static/img/1734bd_image-20230307144502-67.png)
 
-![image-20230307144502-68.png](/img/160073_image-20230307144502-68.png)
+![image-20230307144502-68.png](/static/img/160073_image-20230307144502-68.png)
 
 Response:
 
-![image-20230307144502-69.png](/img/43cfbf_image-20230307144502-69.png)
+![image-20230307144502-69.png](/static/img/43cfbf_image-20230307144502-69.png)
 
-![image-20230307144502-70.png](/img/8250e5_image-20230307144502-70.png)StopJob
+![image-20230307144502-70.png](/static/img/8250e5_image-20230307144502-70.png)StopJob
 
 Cancels or terminates the specified job. Supported methods: Put
 
@@ -591,15 +591,15 @@ Example:
 
 Make a PUT request to the http://botcenter.akabot.io/api/jobs-processing/{id}/{value} URL
 
-![image-20230307144502-71.png](/img/4a4775_image-20230307144502-71.png)
+![image-20230307144502-71.png](/static/img/4a4775_image-20230307144502-71.png)
 
 Headers:
 
-![image-20230307144502-72.png](/img/e05927_image-20230307144502-72.png)
+![image-20230307144502-72.png](/static/img/e05927_image-20230307144502-72.png)
 
 Response
 
-![image-20230307144502-73.png](/img/3c13ff_image-20230307144502-73.png)
+![image-20230307144502-73.png](/static/img/3c13ff_image-20230307144502-73.png)
 
 ## **17. GetJob**
 
@@ -620,15 +620,15 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/jobs/{id} URL
 
-![image-20230307144502-74.png](/img/577af8_image-20230307144502-74.png)
+![image-20230307144502-74.png](/static/img/577af8_image-20230307144502-74.png)
 
 Headers:
 
-![image-20230307144502-75.png](/img/d380cc_image-20230307144502-75.png)
+![image-20230307144502-75.png](/static/img/d380cc_image-20230307144502-75.png)
 
 Response
 
-![image-20230307144502-76.png](/img/049f65_image-20230307144502-76.png)
+![image-20230307144502-76.png](/static/img/049f65_image-20230307144502-76.png)
 
 ## **18. GetJobs**
 
@@ -656,19 +656,19 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/jobs URL
 
-![image-20230307144502-77.png](/img/0c091e_image-20230307144502-77.png)
+![image-20230307144502-77.png](/static/img/0c091e_image-20230307144502-77.png)
 
 Params:
 
-![image-20230307144502-78.png](/img/85ca89_image-20230307144502-78.png)
+![image-20230307144502-78.png](/static/img/85ca89_image-20230307144502-78.png)
 
 Headers:
 
-![image-20230307144502-79.png](/img/b98b63_image-20230307144502-79.png)
+![image-20230307144502-79.png](/static/img/b98b63_image-20230307144502-79.png)
 
 Response:
 
-![image-20230307144502-80.png](/img/a47747_image-20230307144502-80.png)
+![image-20230307144502-80.png](/static/img/a47747_image-20230307144502-80.png)
 
 ## **19. GetRobotMapping**
 
@@ -690,19 +690,19 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/robotsservice/GetRobotMappings URL
 
-![image-20230307144502-81.png](/img/0a259c_image-20230307144502-81.png)
+![image-20230307144502-81.png](/static/img/0a259c_image-20230307144502-81.png)
 
 Params:
 
-![image-20230307144502-82.png](/img/cefdc8_image-20230307144502-82.png)
+![image-20230307144502-82.png](/static/img/cefdc8_image-20230307144502-82.png)
 
 Headers:
 
-![image-20230307144502-83.png](/img/fbe98f_image-20230307144502-83.png)
+![image-20230307144502-83.png](/static/img/fbe98f_image-20230307144502-83.png)
 
 Response:
 
-![image-20230307144502-84.png](/img/3f2fa0_image-20230307144502-84.png)
+![image-20230307144502-84.png](/static/img/3f2fa0_image-20230307144502-84.png)
 
 ## **20. GetRobots**
 
@@ -731,19 +731,19 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/robots URL
 
-![image-20230307144502-85.png](/img/c87f06_image-20230307144502-85.png)
+![image-20230307144502-85.png](/static/img/c87f06_image-20230307144502-85.png)
 
 Params:
 
-![image-20230307144502-86.png](/img/f14fd3_image-20230307144502-86.png)
+![image-20230307144502-86.png](/static/img/f14fd3_image-20230307144502-86.png)
 
 Headers:
 
-![image-20230307144502-87.png](/img/110df4_image-20230307144502-87.png)
+![image-20230307144502-87.png](/static/img/110df4_image-20230307144502-87.png)
 
 Response:
 
-![image-20230307144502-88.png](/img/00d468_image-20230307144502-88.png)
+![image-20230307144502-88.png](/static/img/00d468_image-20230307144502-88.png)
 
 ## **21. SubmitHeartbeat**
 
@@ -764,21 +764,21 @@ Example:
 
 Make a POST request to the http://botcenter.akabot.io/api/robotsservice/SubmitHeartbeat URL
 
-![image-20230307144502-89.png](/img/8b9457_image-20230307144502-89.png)
+![image-20230307144502-89.png](/static/img/8b9457_image-20230307144502-89.png)
 
 Request:
 
-![image-20230307144502-90.png](/img/c1efdd_image-20230307144502-90.png)
+![image-20230307144502-90.png](/static/img/c1efdd_image-20230307144502-90.png)
 
-![image-20230307144502-91.png](/img/18fa72_image-20230307144502-91.png)
+![image-20230307144502-91.png](/static/img/18fa72_image-20230307144502-91.png)
 
 Headers:
 
-![image-20230307144502-92.png](/img/9f0bfa_image-20230307144502-92.png)
+![image-20230307144502-92.png](/static/img/9f0bfa_image-20230307144502-92.png)
 
 Response:
 
-![image-20230307144502-93.png](/img/d41905_image-20230307144502-93.png)
+![image-20230307144502-93.png](/static/img/d41905_image-20230307144502-93.png)
 
 ## **22. SubmitJobState**
 
@@ -797,17 +797,17 @@ Example:
 
 Make a POST request to the http://botcenter.akabot.io/api/robotsservice/SubmitJobState URL
 
-![image-20230307144502-94.png](/img/b06782_image-20230307144502-94.png)
+![image-20230307144502-94.png](/static/img/b06782_image-20230307144502-94.png)
 
 Request:
 
-![image-20230307144502-95.png](/img/6cd63d_image-20230307144502-95.png)
+![image-20230307144502-95.png](/static/img/6cd63d_image-20230307144502-95.png)
 
-![image-20230307144502-96.png](/img/a4ef07_image-20230307144502-96.png)
+![image-20230307144502-96.png](/static/img/a4ef07_image-20230307144502-96.png)
 
 Headers:
 
-![image-20230307144502-97.png](/img/4faca5_image-20230307144502-97.png)
+![image-20230307144502-97.png](/static/img/4faca5_image-20230307144502-97.png)
 
 Response:
 
@@ -831,17 +831,17 @@ Example:
 
 Make a POST request to the http://botcenter.akabot.io/api/logs/v1 URL
 
-![image-20230307144502-98.png](/img/3d3203_image-20230307144502-98.png)
+![image-20230307144502-98.png](/static/img/3d3203_image-20230307144502-98.png)
 
 Request:
 
-![image-20230307144502-99.png](/img/963904_image-20230307144502-99.png)
+![image-20230307144502-99.png](/static/img/963904_image-20230307144502-99.png)
 
-![image-20230307144502-100.png](/img/4e8e9d_image-20230307144502-100.png)
+![image-20230307144502-100.png](/static/img/4e8e9d_image-20230307144502-100.png)
 
 Headers:
 
-![image-20230307144502-101.png](/img/5d70ca_image-20230307144502-101.png)
+![image-20230307144502-101.png](/static/img/5d70ca_image-20230307144502-101.png)
 
 Response:
 
@@ -873,19 +873,19 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/logs URL
 
-![image-20230307144502-102.png](/img/0b0ee4_image-20230307144502-102.png)
+![image-20230307144502-102.png](/static/img/0b0ee4_image-20230307144502-102.png)
 
 Params:
 
-![image-20230307144502-103.png](/img/abf1ff_image-20230307144502-103.png)
+![image-20230307144502-103.png](/static/img/abf1ff_image-20230307144502-103.png)
 
 Headers:
 
-![image-20230307144502-104.png](/img/9c736d_image-20230307144502-104.png)
+![image-20230307144502-104.png](/static/img/9c736d_image-20230307144502-104.png)
 
 Response:
 
-![image-20230307144502-105.png](/img/08d7b3_image-20230307144502-105.png)
+![image-20230307144502-105.png](/static/img/08d7b3_image-20230307144502-105.png)
 
 ## **25. GetAsset**
 
@@ -907,19 +907,19 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/studioservice/GetAsset URL
 
-![image-20230307144502-106.png](/img/ebe957_image-20230307144502-106.png)
+![image-20230307144502-106.png](/static/img/ebe957_image-20230307144502-106.png)
 
 Params:
 
-![image-20230307144502-107.png](/img/26245e_image-20230307144502-107.png)
+![image-20230307144502-107.png](/static/img/26245e_image-20230307144502-107.png)
 
 Headers:
 
-![image-20230307144502-108.png](/img/1e6509_image-20230307144502-108.png)
+![image-20230307144502-108.png](/static/img/1e6509_image-20230307144502-108.png)
 
 Response:
 
-![image-20230307144502-109.png](/img/4346fb_image-20230307144502-109.png)
+![image-20230307144502-109.png](/static/img/4346fb_image-20230307144502-109.png)
 
 ## **26. SetAsset**
 
@@ -940,17 +940,17 @@ Example:
 
 Make a POST request to the [http://botcenter.akabot.io/api/studioservice/SetAsset](http://botcenter.akabot.io/api/studioservice/SetAsset) URL
 
-![image-20230307144502-110.png](/img/278012_image-20230307144502-110.png)
+![image-20230307144502-110.png](/static/img/278012_image-20230307144502-110.png)
 
 Request:
 
-![image-20230307144502-111.png](/img/e8a0ee_image-20230307144502-111.png)
+![image-20230307144502-111.png](/static/img/e8a0ee_image-20230307144502-111.png)
 
-![image-20230307144502-112.png](/img/037f0c_image-20230307144502-112.png)
+![image-20230307144502-112.png](/static/img/037f0c_image-20230307144502-112.png)
 
 Headers:
 
-![image-20230307144502-113.png](/img/d52589_image-20230307144502-113.png)
+![image-20230307144502-113.png](/static/img/d52589_image-20230307144502-113.png)
 
 Response:
 
@@ -979,15 +979,15 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/queue URL
 
-![image-20230307144502-114.png](/img/7e0814_image-20230307144502-114.png)
+![image-20230307144502-114.png](/static/img/7e0814_image-20230307144502-114.png)
 
 Params:
 
-![image-20230307144502-115.png](/img/a9ae8f_image-20230307144502-115.png)
+![image-20230307144502-115.png](/static/img/a9ae8f_image-20230307144502-115.png)
 
 Headers:
 
-![image-20230307144502-116.png](/img/4a4002_image-20230307144502-116.png)
+![image-20230307144502-116.png](/static/img/4a4002_image-20230307144502-116.png)
 
 Response:
 
@@ -1017,21 +1017,21 @@ Example:
 
 Make a POST request to the http://botcenter.akabot.io/api/queue/getQueueItems URL
 
-![image-20230307144502-118.png](/img/ecf214_image-20230307144502-118.png)
+![image-20230307144502-118.png](/static/img/ecf214_image-20230307144502-118.png)
 
 Request:
 
-![image-20230307144502-119.png](/img/ff76e6_image-20230307144502-119.png)
+![image-20230307144502-119.png](/static/img/ff76e6_image-20230307144502-119.png)
 
-![image-20230307144502-120.png](/img/4788e6_image-20230307144502-120.png)
+![image-20230307144502-120.png](/static/img/4788e6_image-20230307144502-120.png)
 
 Headers:
 
-![image-20230307144502-121.png](/img/4bb6d5_image-20230307144502-121.png)
+![image-20230307144502-121.png](/static/img/4bb6d5_image-20230307144502-121.png)
 
 Response:
 
-![image-20230307144502-122.png](/img/14ae1d_image-20230307144502-122.png)
+![image-20230307144502-122.png](/static/img/14ae1d_image-20230307144502-122.png)
 
 ## **29. GetQueueDetails**
 
@@ -1062,19 +1062,19 @@ Example:
 
 Make a GET request to the http://botcenter.akabot.io/api/queue/{id}/detail URL
 
-![image-20230307144502-123.png](/img/c06335_image-20230307144502-123.png)
+![image-20230307144502-123.png](/static/img/c06335_image-20230307144502-123.png)
 
 Params:
 
-![image-20230307144502-124.png](/img/badddb_image-20230307144502-124.png)
+![image-20230307144502-124.png](/static/img/badddb_image-20230307144502-124.png)
 
 Headers:
 
-![image-20230307144502-125.png](/img/a3e03a_image-20230307144502-125.png)
+![image-20230307144502-125.png](/static/img/a3e03a_image-20230307144502-125.png)
 
 Response:
 
-![image-20230307144502-126.png](/img/1ceb4d_image-20230307144502-126.png)
+![image-20230307144502-126.png](/static/img/1ceb4d_image-20230307144502-126.png)
 
 ## **30. AddQueueItem**
 
@@ -1101,12 +1101,12 @@ Example:
 
 Make a POST request to the http://botcenter.akabot.io/api/queue/addQueueItem URL
 
-![image-20230307144502-127.png](/img/1e5308_image-20230307144502-127.png)
+![image-20230307144502-127.png](/static/img/1e5308_image-20230307144502-127.png)
 
 Headers:
 
-![image-20230307144502-128.png](/img/651874_image-20230307144502-128.png)
+![image-20230307144502-128.png](/static/img/651874_image-20230307144502-128.png)
 
 Request:
 
-![image-20230307144502-129.png](/img/e845af_image-20230307144502-129.png)
+![image-20230307144502-129.png](/static/img/e845af_image-20230307144502-129.png)

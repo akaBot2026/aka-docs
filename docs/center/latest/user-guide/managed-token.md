@@ -19,21 +19,21 @@ A managed token is a predefined authentication token that can be used to authent
 
 To create a managed token in Akabot Center, navigate to: **Administration > Token > Create New.**
 
-![1770877756557-535.png](/img/ef09e4_1770877756557-535.png)
+![1770877756557-535.png](/static/img/ef09e4_1770877756557-535.png)
 
 Complete the token information form by entering the token name, assigning roles, setting the expiration date, and configuring the active status.
 
-![1770877781800-192.png](/img/c29bcb_1770877781800-192.png)
+![1770877781800-192.png](/static/img/c29bcb_1770877781800-192.png)
 
 After creation, a list of tokens will be displayed in the management panel, showing token information such as status, assigned roles, and last access time.
 
 Administrators have the authority to edit or remove tokens as needed. When a token is removed or expired, any client using this token will not have permissions to invoke akaBot Center api.
 
-![1770877801041-618.png](/img/74eeaa_1770877801041-618.png)
+![1770877801041-618.png](/static/img/74eeaa_1770877801041-618.png)
 
 Users can click on a token to view its details and copy the token value for use in third-party systems.
 
-![1770877817340-258.png](/img/4c5d5c_1770877817340-258.png)
+![1770877817340-258.png](/static/img/4c5d5c_1770877817340-258.png)
 
 # 3. Use Managed Token
 
@@ -48,7 +48,7 @@ Steps to use the managed token:
 
 The response should contain an array of agents, as shown in the image below.
 
-![1770877836675-429.png](/img/d03392_1770877836675-429.png)
+![1770877836675-429.png](/static/img/d03392_1770877836675-429.png)
 
 Alternatively, you can create a custom application to send the request programmatically. Below is an example implementation in C#:
 

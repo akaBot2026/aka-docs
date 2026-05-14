@@ -14,7 +14,7 @@ RCA.Activities.Mail.GetPOP3MailMessages
 
 This activity allows you to retrieve a POP3 email from a specified server.
 
-![image-20220505163009-1.png](/img/440180_image-20220505163009-1.png)  
+![image-20220505163009-1.png](/static/img/440180_image-20220505163009-1.png)  
 (\* is mandatory)
 
 ## **Properties**
@@ -26,7 +26,7 @@ This activity allows you to retrieve a POP3 email from a specified server.
 * **Server**\* - The email server host that is to be used.  
   E.g: “Mail.MyDomain.com”
 
-![995-pop.png](/img/5f438c_995-pop.png)
+![995-pop.png](/static/img/5f438c_995-pop.png)
 
 **Logon**
 

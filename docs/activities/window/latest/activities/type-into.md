@@ -14,7 +14,7 @@ RCA.Activities.Windows.TypeInto
 
 The Type Into activity allows you to type into a text field of an indicated window.
 
-![image-20220505170410-1.png](/img/491ac1_image-20220505170410-1.png)
+![image-20220505170410-1.png](/static/img/491ac1_image-20220505170410-1.png)
 
 (\*For mandatory)
 

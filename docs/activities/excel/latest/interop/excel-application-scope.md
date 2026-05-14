@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelApplicationScope
 
 This activity allows to open an Excel workbook and provides a scope for Excel Activities.
 
-![image-20220505111836-1.jpeg](/img/9060a7_image-20220505111836-1.jpeg)
+![image-20220505111836-1.jpeg](/static/img/9060a7_image-20220505111836-1.jpeg)
 
 (\* for mandatory)
 

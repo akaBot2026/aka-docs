@@ -14,7 +14,7 @@ System.Activities.Statements.TernimateWorkflow
 
 This activity allows you to terminate a workflow.
 
-![image-20220505152950-1.jpeg](/img/12e0bd_image-20220505152950-1.jpeg)
+![image-20220505152950-1.jpeg](/static/img/12e0bd_image-20220505152950-1.jpeg)
 
 ## **Properties**
 

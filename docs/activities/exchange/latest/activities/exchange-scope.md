@@ -14,7 +14,7 @@ RCA.Activities.Mail.ExchangeScope
 
 Connects to Exchange and provides a scope for other Exchange activities.
 
-![image-20220505160823-1.png](/img/5d0b4d_image-20220505160823-1.png)
+![image-20220505160823-1.png](/static/img/5d0b4d_image-20220505160823-1.png)
 
 (\* is mandatory)
 

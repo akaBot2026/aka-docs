@@ -14,7 +14,7 @@ RCA.Activities.Core.GetQueueItems
 
 This activity allows you to retrieve a list of transactions up to 100 from an indicated queue according to multiple filters such as creation date, priority state, and reference.
 
-![image-20220506113443-1.png](/img/9c8ca1_image-20220506113443-1.png)
+![image-20220506113443-1.png](/static/img/9c8ca1_image-20220506113443-1.png)
 
 (\* for Mandatory)
 

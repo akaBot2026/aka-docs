@@ -14,7 +14,7 @@ RCA.Activities.FTP.DirectoryExists
 
 This activity allows you to check whether the directory has been existed in FTP server or not.
 
-![image-20220505152153-1.png](/img/5f4c3a_image-20220505152153-1.png)
+![image-20220505152153-1.png](/static/img/5f4c3a_image-20220505152153-1.png)
 
 (\* is mandatory)
 

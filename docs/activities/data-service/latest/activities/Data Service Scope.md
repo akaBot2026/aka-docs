@@ -27,4 +27,4 @@ This scope helps to run Data Service activities
 * **Output**
   + **Out Data Service Client:** The DataService Scope activities following this activity attempt to use this output to avoid re-authentication
 
-![image-20230630131823-1.png](/img/d58a92_image-20230630131823-1.png)
+![image-20230630131823-1.png](/static/img/d58a92_image-20230630131823-1.png)

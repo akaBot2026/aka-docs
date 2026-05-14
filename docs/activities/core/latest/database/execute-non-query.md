@@ -14,7 +14,7 @@ RCA.Activities.Core.ExecuteNonQuery
 
 This activity allows you to execute a non-query statement on a database. For UPDATE, INSERT, and DELETE statements, the return value is the number of rows affected by the command. For all other types of statements, the return value is -1.
 
-![image-20220506105309-1.png](/img/fe1566_image-20220506105309-1.png)
+![image-20220506105309-1.png](/static/img/fe1566_image-20220506105309-1.png)
 
 (\* for Mandatory)
 
@@ -22,7 +22,7 @@ This activity allows you to execute a non-query statement on a database. For UPD
 
 * **Configure Connection**- Set connection string, data source, data provider.
 
-![image-20230419153435-1.png](/img/3e2525_image-20230419153435-1.png)
+![image-20230419153435-1.png](/static/img/3e2525_image-20230419153435-1.png)
 
 * **Edit Query** - SQL command to be executed. This field must be completed according to the selection from the CommandType property.  
   E.g: “DELETE \* FROM ContactList”

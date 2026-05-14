@@ -116,13 +116,13 @@ static/
 Markdown references media with an **absolute path** rooted at `static/`:
 
 ```markdown
-![Setup screenshot](/img/setup-windows.png)
-[API reference (PDF)](/pdf/api-reference.pdf)
+![Setup screenshot](/static/img/setup-windows.png)
+[API reference (PDF)](/static/pdf/api-reference.pdf)
 <video controls src="/video/walkthrough.mp4"></video>
 ```
 
 > The leading `/` is required. The site serves everything under `static/` at
-> the URL root, so `static/img/foo.png` becomes `/img/foo.png` in markdown.
+> the URL root.
 > Don't use relative paths like `./foo.png` — the validator will reject them.
 
 ### Filename and size rules

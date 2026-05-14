@@ -72,20 +72,20 @@ To package your activity, please complete the following steps:
 
 * Open command prompt at your project folder
 
-![image-20230427181814-5.png](/img/58878f_image-20230427181814-5.png)
+![image-20230427181814-5.png](/static/img/58878f_image-20230427181814-5.png)
 
 *Figure 1 Click on address bar -> type 'cmd' -> press Enter*
 
 * Use following command to generate **.nuspec** file : **%PATH%\nuget spec** (**%PATH%** is the directory where ** nuget.exe** file is placed).
 * Open created **.nuspec** file, remove all example data and input at least **Author, Description**
 
-![image-20230427181835-6.png](/img/f56d6c_image-20230427181835-6.png)
+![image-20230427181835-6.png](/static/img/f56d6c_image-20230427181835-6.png)
 
 *Figure 2 Edit Author, Description*
 
 * Add file element for any file the user desires to be copied
 
-![image-20230427181849-7.png](/img/85d7ca_image-20230427181849-7.png)
+![image-20230427181849-7.png](/static/img/85d7ca_image-20230427181849-7.png)
 
 *Figure 3 Add additional files to be copied*
 
@@ -101,20 +101,20 @@ To install your package, please complete the following steps:
 
 1. Open Package Manager
 
-![image-20230427181917-8.png](/img/0ac700_image-20230427181917-8.png)
+![image-20230427181917-8.png](/static/img/0ac700_image-20230427181917-8.png)
 
 *Figure 4 Open Package Manager*
 
 2. Select your package from Local tab -> select version -> click install -> click save
 
-![image-20230427181932-9.png](/img/c8f0d4_image-20230427181932-9.png)
+![image-20230427181932-9.png](/static/img/c8f0d4_image-20230427181932-9.png)
 
 *Figure 5 Choose Package from list -> select version -> click install -> click save*
 
 3. Confirm restart studio
 
-![image-20230427182048-10.png](/img/c588a3_image-20230427182048-10.png)
+![image-20230427182048-10.png](/static/img/c588a3_image-20230427182048-10.png)
 
 4. Custom activities would appear in the toolbox
 
-![image-20230427182135-11.png](/img/f16aab_image-20230427182135-11.png)
+![image-20230427182135-11.png](/static/img/f16aab_image-20230427182135-11.png)

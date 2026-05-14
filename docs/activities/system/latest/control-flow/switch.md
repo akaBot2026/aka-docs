@@ -22,7 +22,7 @@ For example, when comparing two Int32 variables **A** and **B**, there can be th
 You can use the Switch activity to define different actions for each outcome.  
 The expression is typically an integer, but you can change the type in the properties.
 
-![Core_Switch](/img/switch.png)
+![Core_Switch](/static/img/switch.png)
 
 \* indicates required fields.
 

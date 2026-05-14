@@ -14,7 +14,7 @@ RCA.Activities.Java.SelectItem
 
 This Select Item activity allows you to select specific items from a Java file.
 
-[![select item.jpg](/img/05fa78_select-item.jpg)](/bin/download/Activities/Java/Activities/Select%20Item/WebHome/select%20item.jpg?rev=1.1)
+[![select item.jpg](/static/img/05fa78_select-item.jpg)](/bin/download/Activities/Java/Activities/Select%20Item/WebHome/select%20item.jpg?rev=1.1)
 
 (\* is mandatory)
 

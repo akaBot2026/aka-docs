@@ -14,7 +14,7 @@ RCA.Activities.IE.Refresh
 
 The Refresh reloads the tab that is currently displayed in a browser.
 
-![image-20220506110936-1.png](/img/481f60_image-20220506110936-1.png)
+![image-20220506110936-1.png](/static/img/481f60_image-20220506110936-1.png)
 
 (\* for Mandatory)
 

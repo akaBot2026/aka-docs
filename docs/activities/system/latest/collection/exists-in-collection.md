@@ -14,7 +14,7 @@ displayed_sidebar: activitiesSidebar
 
 This activity allows you to check whether the item exists in a collection or not.
 
-![image-20220505155730-1.png](/img/2cd127_image-20220505155730-1.png)
+![image-20220505155730-1.png](/static/img/2cd127_image-20220505155730-1.png)
 
 (\* for Mandatory)
 

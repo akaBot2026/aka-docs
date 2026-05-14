@@ -14,7 +14,7 @@ RCA.Activities.Core.DatabaseConnect
 
 This activity allows you to connect to a database by using a standard connection string.
 
-![https://files.readme.io/609ba23-DB.PNG](/img/56d212_609ba23-db.png)
+![https://files.readme.io/609ba23-DB.PNG](/static/img/56d212_609ba23-db.png)
 
 (\* for Mandatory)
 
@@ -22,7 +22,7 @@ This activity allows you to connect to a database by using a standard connection
 
 **Configure Connection**- Set connection string, data source, data provider.
 
-![image-20230419153435-1.png](/img/3e2525_image-20230419153435-1.png)
+![image-20230419153435-1.png](/static/img/3e2525_image-20230419153435-1.png)
 
 ## **Properties**
 

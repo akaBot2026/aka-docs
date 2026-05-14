@@ -14,7 +14,7 @@ RCA.Activities.Windows.KeyboardType
 
 This activity allows you type text with special keyboard keys by selecting in dropdown list.
 
-![image-20220505171530-1.png](/img/c733ee_image-20220505171530-1.png)
+![image-20220505171530-1.png](/static/img/c733ee_image-20220505171530-1.png)
 
 (\*For Mandatory)
 

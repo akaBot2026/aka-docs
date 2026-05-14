@@ -14,7 +14,7 @@ RCA.Activities.GSuite.UpdateFilePermission
 
 This activity allows you to update the permission of a specified file.
 
-![image-20220505160539-1.png](/img/ce3b36_image-20220505160539-1.png)
+![image-20220505160539-1.png](/static/img/ce3b36_image-20220505160539-1.png)
 
 (\*For mandatory)
 

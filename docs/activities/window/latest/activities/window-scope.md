@@ -14,7 +14,7 @@ RCA.Activities.Windows.WindowScope
 
 The Window Scope activity allows you to attach to an already opened window and execute activities within the window.
 
-![image-20220505165322-1.png](/img/68deb8_image-20220505165322-1.png)
+![image-20220505165322-1.png](/static/img/68deb8_image-20220505165322-1.png)
 
 (\*For mandatory)
 

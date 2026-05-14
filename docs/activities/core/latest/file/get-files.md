@@ -14,7 +14,7 @@ RCA.Activities.Core.GetFiles
 
 This activity allows you to return the names of files (including their paths) in a specified directory.
 
-![image-20220513104343-1.png](/img/9d351e_image-20220513104343-1.png)
+![image-20220513104343-1.png](/static/img/9d351e_image-20220513104343-1.png)
 
 (\* for Mandatory)
 

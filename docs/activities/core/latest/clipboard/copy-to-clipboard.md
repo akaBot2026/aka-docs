@@ -15,7 +15,7 @@ RCA.Activities.Core.SetToClipboard
 
 This activity allows you to copy data to clipboard and stored for other use
 
-![image-setoclipboard.png](/img/image-setoclipboard.png)
+![image-setoclipboard.png](/static/img/image-setoclipboard.png)
 
 (\* is mandatory)
 

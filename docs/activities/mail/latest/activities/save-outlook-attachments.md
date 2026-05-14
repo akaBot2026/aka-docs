@@ -14,7 +14,7 @@ RCA.Activities.Mail.SaveOutlookAttachments
 
 This activity allows you to save attachments from an email in Outlook
 
-![image-20220505162439-1.png](/img/f6680f_image-20220505162439-1.png)
+![image-20220505162439-1.png](/static/img/f6680f_image-20220505162439-1.png)
 
 (\* is mandatory)
 

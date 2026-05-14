@@ -14,7 +14,7 @@ RCA.Activities.Windows.Check
 
 The Check/Uncheck activity allows you to check or uncheck a Checkbox.
 
-![image-20220505170455-1.png](/img/fdecd3_image-20220505170455-1.png)
+![image-20220505170455-1.png](/static/img/fdecd3_image-20220505170455-1.png)
 
 (\*For mandatory)
 

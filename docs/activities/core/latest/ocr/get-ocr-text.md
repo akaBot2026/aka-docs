@@ -14,7 +14,7 @@ RCA.Activities.Core.GetOCRText
 
 This activity allows you to get text from a UI element or image using the OCR screen scraping method. This activity is valid inside “OCR Scope” only.
 
-![image-20220513104515-1.png](/img/252a2f_image-20220513104515-1.png)
+![image-20220513104515-1.png](/static/img/252a2f_image-20220513104515-1.png)
 
 (\* for Mandatory)
 

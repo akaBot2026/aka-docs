@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelRemoveDuplicatesRange
 
 Deletes all the rows that are duplicated in a specified range.
 
-![image-20220505141832-1.png](/img/1a55d0_image-20220505141832-1.png)
+![image-20220505141832-1.png](/static/img/1a55d0_image-20220505141832-1.png)
 
 (\*for mandatory)
 

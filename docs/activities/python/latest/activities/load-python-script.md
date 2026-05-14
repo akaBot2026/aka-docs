@@ -14,7 +14,7 @@ RCA.Activities.Python.LoadScript
 
 This activity enables you to store the handlers of a Python script in a PythonObject variable. You can use the resulting variable to invoke the methods within the code. This activity only can be used in Python Scope activity.
 
-[![load script.jpg](/img/ed452c_load-script.jpg)](/bin/download/Activities/Python/Activities/Load%20Python%20Script/WebHome/load%20script.jpg?rev=1.1)
+[![load script.jpg](/static/img/ed452c_load-script.jpg)](/bin/download/Activities/Python/Activities/Load%20Python%20Script/WebHome/load%20script.jpg?rev=1.1)
 
 (\* is mandatory)
 

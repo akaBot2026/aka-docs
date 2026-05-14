@@ -14,7 +14,7 @@ System.Activities.Statements.State
 
 This activity is used in State Machine, contains 3 sections, entry, exits and transitions. Double click to add activities.
 
-![image-20220506144248-1.png](/img/edecc8_image-20220506144248-1.png)
+![image-20220506144248-1.png](/static/img/edecc8_image-20220506144248-1.png)
 
 (\* for Mandatory)
 

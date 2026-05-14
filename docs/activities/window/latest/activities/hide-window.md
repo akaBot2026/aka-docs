@@ -14,7 +14,7 @@ RCA.Activities.Windows.HideWindow
 
 The Hide Window activity allows you to make a window completely invisible.
 
-![image-20220505165854-1.png](/img/7ab73b_image-20220505165854-1.png)
+![image-20220505165854-1.png](/static/img/7ab73b_image-20220505165854-1.png)
 
 (\*For mandatory)
 

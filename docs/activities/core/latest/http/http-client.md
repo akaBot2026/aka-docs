@@ -12,7 +12,7 @@ displayed_sidebar: activitiesSidebar
 
 This HTTP Client activity enables you to perform HTTP requests to a specified web API.
 
-[![HTTP Client.jpg](/img/5b2825_http-client.jpg)](/bin/download/Activities/HTTP/Activities/HTTP%20Client/WebHome/HTTP%20Client.jpg?rev=1.1)
+[![HTTP Client.jpg](/static/img/5b2825_http-client.jpg)](/bin/download/Activities/HTTP/Activities/HTTP%20Client/WebHome/HTTP%20Client.jpg?rev=1.1)
 
 (\* for Mandatory)
 

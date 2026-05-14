@@ -14,7 +14,7 @@ This page displays all available users and allows admin to add or delete, as wel
 
 After selecting the **User management** tab, the system displays the following page:
 
-![image-20221101163259-10.png](/img/348667_image-20221101163259-10.png)
+![image-20221101163259-10.png](/static/img/348667_image-20221101163259-10.png)
 
 | No | Column | Description |
 | --- | --- | --- |
@@ -32,9 +32,9 @@ After selecting the **User management** tab, the system displays the following
 
 To view a user’s details, click on the **eye** button.
 
-![image-20221101163356-11.png](/img/7501e4_image-20221101163356-11.png)
+![image-20221101163356-11.png](/static/img/7501e4_image-20221101163356-11.png)
 
-![image-20221101163519-12.png](/img/579bc1_image-20221101163519-12.png)
+![image-20221101163519-12.png](/static/img/579bc1_image-20221101163519-12.png)
 
 | No | Column | Description |
 | --- | --- | --- |
@@ -54,11 +54,11 @@ To view a user’s details, click on the **eye** button.
 
 To create a new user, click the **Create new** at the top of the **User** page.
 
-![image-20221101163616-13.png](/img/36cead_image-20221101163616-13.png)
+![image-20221101163616-13.png](/static/img/36cead_image-20221101163616-13.png)
 
 When you click on**Create New/Edit** button, the system will show a form for you to fill in. Details in the table below.
 
-![image-20221101163638-14.png](/img/5d2288_image-20221101163638-14.png)
+![image-20221101163638-14.png](/static/img/5d2288_image-20221101163638-14.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -78,6 +78,6 @@ After filling the form, click the **Save** button to save it, and the User is 
 
 To delete a User, you click the Delete button of the corresponding User.
 
-![image-20221101163711-15.png](/img/c91ba3_image-20221101163711-15.png)
+![image-20221101163711-15.png](/static/img/c91ba3_image-20221101163711-15.png)
 
 A confirming pop-up will display. Hit **Delete** to complete the operation.

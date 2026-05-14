@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelInsertOrDeleteColumns
 
 Adds or removes a specified number of columns at a certain position.
 
-![image-20220505141134-1.png](/img/74b4c9_image-20220505141134-1.png)
+![image-20220505141134-1.png](/static/img/74b4c9_image-20220505141134-1.png)
 
 (\* for mandatory)
 

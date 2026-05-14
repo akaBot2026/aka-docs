@@ -14,7 +14,7 @@ RCA.Activities.IE.GoForward
 
 The Go Forward activity goes forward one URL in the history list of the current browser.
 
-![image-20220506110641-1.png](/img/c5f696_image-20220506110641-1.png)
+![image-20220506110641-1.png](/static/img/c5f696_image-20220506110641-1.png)
 
 (\* for Mandatory)
 

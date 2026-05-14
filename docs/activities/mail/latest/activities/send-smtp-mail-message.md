@@ -14,7 +14,7 @@ RCA.Activities.Mail.SendMail
 
 This activity allows you to send an email messages by using SMTP protocol.
 
-![image-20220505163134-1.png](/img/23be67_image-20220505163134-1.png)
+![image-20220505163134-1.png](/static/img/23be67_image-20220505163134-1.png)
 
 (\* is mandatory)
 
@@ -40,7 +40,7 @@ This activity allows you to send an email messages by using SMTP protocol.
 * **Server (String)**\* - The email server host that is to be used.  
   E.g: “Mail.MyDomain.com”
 
-![587-smtp.png](/img/ee78d3_587-smtp.png)
+![587-smtp.png](/static/img/ee78d3_587-smtp.png)
 
 **Logon**
 

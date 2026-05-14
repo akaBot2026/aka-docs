@@ -14,7 +14,7 @@ RCA.Activities.Core.Break
 
 This activity allows you to break the execution of the current workflow. This only can be used in a “For each” loop.
 
-![image-20220505092118-1.jpeg](/img/98a2d1_image-20220505092118-1.jpeg)
+![image-20220505092118-1.jpeg](/static/img/98a2d1_image-20220505092118-1.jpeg)
 
 ## **Properties**
 

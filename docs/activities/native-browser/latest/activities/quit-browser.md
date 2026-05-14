@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.QuitBrowser
 
 The Quit Browser closes the current browser. This will only close window Browser opened by Open Browser (NB) activity.
 
-![image-20220505151210-1.png](/img/8da77f_image-20220505151210-1.png)
+![image-20220505151210-1.png](/static/img/8da77f_image-20220505151210-1.png)
 
 (\*For Mandatory)
 

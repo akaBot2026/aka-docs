@@ -14,7 +14,7 @@ System.Activities.Statements.TryCatch
 
 The Try Catch activity allows you to catch a certain type of exception in the activity and either shows you an error notification or dismisses it and continues the program.
 
-![image-20220506112458-1.png](/img/1da425_image-20220506112458-1.png)
+![image-20220506112458-1.png](/static/img/1da425_image-20220506112458-1.png)
 
 (\* for Mandatory)
 

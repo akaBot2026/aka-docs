@@ -14,7 +14,7 @@ RCA.Activities.Core.GetFromClipboard
 
 This activity allows you to get data from Clipboard for further execution
 
-![image-20220505092631-1.jpeg](/img/a2e9c6_image-20220505092631-1.jpeg)
+![image-20220505092631-1.jpeg](/static/img/a2e9c6_image-20220505092631-1.jpeg)
 
 (\* for Mandatory)
 

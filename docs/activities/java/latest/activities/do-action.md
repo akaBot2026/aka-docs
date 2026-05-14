@@ -14,7 +14,7 @@ RCA.Activities.Java.DoActions
 
 This activity allows you to pick elements and execute other actions.
 
-[![do actions.jpg](/img/5a177e_do-actions.jpg)](/bin/download/Activities/Java/Activities/Do%20Action/WebHome/do%20actions.jpg?rev=1.1)
+[![do actions.jpg](/static/img/5a177e_do-actions.jpg)](/bin/download/Activities/Java/Activities/Do%20Action/WebHome/do%20actions.jpg?rev=1.1)
 
 (\* is mandatory)
 

@@ -17,7 +17,7 @@ It consists of a condition (**IF** ) and two branches:
 - **THEN**: Executed if the condition is True  
 - **ELSE**: Executed if the condition is False
 
-![image-20220513134317-1.png](/img/if.png)
+![image-20220513134317-1.png](/static/img/if.png)
 
 \* indicates required fields.
 

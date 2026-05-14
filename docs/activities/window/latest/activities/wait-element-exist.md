@@ -14,7 +14,7 @@ RCA.Activities.Windows.WaitElementExist
 
 A container that waits for a UI element to appear and enables you to perform multiple actions within it.
 
-![image-20220505170814-1.png](/img/656128_image-20220505170814-1.png)
+![image-20220505170814-1.png](/static/img/656128_image-20220505170814-1.png)
 
 ## **In the body of activity**
 

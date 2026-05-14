@@ -3,13 +3,13 @@ id: profile-usage
 title: Profile Usage
 sidebar_label: Profile Usage
 sidebar_position: 9
-description: A practical guide to view and update your personal profile in ScaleFlow.
+description: Beginner-friendly guide to view and update your personal ScaleFlow profile.
 displayed_sidebar: scaleFlowSidebar
 ---
 
 # Profile Usage
 
-This guide explains how to open, review, and update your personal profile in ScaleFlow.
+Your Profile is your personal account information in ScaleFlow. Keeping it updated helps teammates identify you when conversations, tickets, or internal notes are assigned to you.
 
 ## What you can do in Profile
 
@@ -21,6 +21,8 @@ In the **Profile** area, you can:
 - Check your current role and account status
 - Save changes to keep your profile information up to date
 
+Example: If your display name is clear, teammates can easily assign a customer conversation or ticket to you.
+
 ## Open your Profile page
 
 1. In the top-right corner, click your avatar or account menu.
@@ -30,7 +32,7 @@ In the **Profile** area, you can:
    - Contact information
    - Account details
 
-![Profile page overview](/img/profile.png)
+![Profile page overview](/static/img/profile.png)
 
 ## Update your basic information
 
@@ -52,6 +54,13 @@ In the **Profile** area, you can:
 - Keep your phone number updated for faster coordination.
 - Save each section after editing to avoid losing changes.
 - Refresh the page if your latest updates are not shown immediately.
+
+## How Profile connects to daily work
+
+- Your name can appear in [Inbox](./inbox-usage) assignments.
+- Your user account can be added to teams in [Team Management](./team-management).
+- Your role is managed by admins in [Roles & Permissions](./roles-permissions).
+- Tickets can be assigned to you in [Ticket Usage](./ticket-usage).
 
 ## Troubleshooting
 

@@ -14,7 +14,7 @@ RCA.Activities.Windows.TerminateProcess
 
 The Terminate Process activity allows you to cause a process to exit.
 
-![image-20220505171406-1.png](/img/f2b58d_image-20220505171406-1.png)
+![image-20220505171406-1.png](/static/img/f2b58d_image-20220505171406-1.png)
 
 (\*For mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.WaitPageLoadComplete
 
 The Wait Page Load Complete activity allows you to wait until a webpage is fully loaded.
 
-![image-20220505151720-1.png](/img/image-20220505151720-1.png)
+![image-20220505151720-1.png](/static/img/image-20220505151720-1.png)
 
 \* indicates required fields.
 

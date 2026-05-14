@@ -14,13 +14,13 @@ RCA.Activities.Core.BuildDataTable
 
 This activity allows you to create a new Data Table with different settings.
 
-[![build data table.jpg](/img/e93ec6_build-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Build%20Data%20Table/WebHome/build%20data%20table.jpg?rev=1.1)
+[![build data table.jpg](/static/img/e93ec6_build-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Build%20Data%20Table/WebHome/build%20data%20table.jpg?rev=1.1)
 
 ## **In the body of activity**
 
 **Data Table**- Click to add/ remove columns, update column name/ column type
 
-![image-20230419142900-1.png](/img/bfa8cf_image-20230419142900-1.png)
+![image-20230419142900-1.png](/static/img/bfa8cf_image-20230419142900-1.png)
 
 ## **Properties**
 

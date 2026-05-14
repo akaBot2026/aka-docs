@@ -12,7 +12,7 @@ displayed_sidebar: activitiesSidebar
 
 This HTTP Client with Body Factory activity enables you to perform HTTP requests to a specified web API. When first dragging this activity to the Designer panel, the HTTP Request Wizard window is displayed, providing an easier way of building requests and previewing server responses.
 
-[![HTTP Client with.jpg](/img/63bea1_http-client-with.jpg)](/bin/download/Activities/HTTP/Activities/HTTP%20Client%20with%20Body%20Factory/WebHome/HTTP%20Client%20with.jpg?rev=1.1)
+[![HTTP Client with.jpg](/static/img/63bea1_http-client-with.jpg)](/bin/download/Activities/HTTP/Activities/HTTP%20Client%20with%20Body%20Factory/WebHome/HTTP%20Client%20with.jpg?rev=1.1)
 
 (\* for Mandatory)
 

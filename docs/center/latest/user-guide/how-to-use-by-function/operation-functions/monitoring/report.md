@@ -16,7 +16,7 @@ You can get your reports by **Agent** and **Workflow**. To access the **Repo
 
 Users can view Agent Report by going to **Report** tab > Select **Agent** tab.
 
-![image-20221101161308-7.png](/img/550df6_image-20221101161308-7.png)
+![image-20221101161308-7.png](/static/img/550df6_image-20221101161308-7.png)
 
 | No | Column | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ Users can view Agent Report by going to **Report** tab > Select **Agent** ta
 
 To get the report, you can use the filter at the top of the page.
 
-![image-20221101161709-9.png](/img/5b079b_image-20221101161709-9.png)
+![image-20221101161709-9.png](/static/img/5b079b_image-20221101161709-9.png)
 
 | No | Column /Label | Description | Type | Maximum | Input Requirement |
 | --- | --- | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ To get the report, you can use the filter at the top of the page.
 
 The Report will be downloaded to your local machine and shall be open:
 
-![image-20230704161007-1.png](/img/ee307e_image-20230704161007-1.png)
+![image-20230704161007-1.png](/static/img/ee307e_image-20230704161007-1.png)
 
 ## **b. Report for Workflow**
 

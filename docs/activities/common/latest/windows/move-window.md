@@ -14,7 +14,7 @@ RCA.Activities.Common.MoveWindow
 
 The Move Window activity allows you to change the position and size of a selected window.
 
-![image-20230417163133-1.png](/img/image-20230417163133-1.png)
+![image-20230417163133-1.png](/static/img/image-20230417163133-1.png)
 
 \* indicates required fields.
 

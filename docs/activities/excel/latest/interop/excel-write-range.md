@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelWriteRange
 
 This activity allows you to write the data from a DataTable variable in a spreadsheet starting with the cell indicated in the StartingCell field. If the starting cell isn't specified, the data is written starting from the A1 cell. If the sheet does not exist, a new one is created with the value specified in the Sheetname property. All cells within the specified range are overwritten. Changes are immediately saved. Can only be used in the Excel Application Scope activities.
 
-![image-20220505114134-2.jpeg](/img/46cc2c_image-20220505114134-2.jpeg)
+![image-20220505114134-2.jpeg](/static/img/46cc2c_image-20220505114134-2.jpeg)
 
 (\* is mandatory)
 

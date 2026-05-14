@@ -14,7 +14,7 @@ RCA.Activities.Core.DatabaseTransaction
 
 This activity allows you to connect to a database and features a Sequence that can perform multiple transactions with the database. If UseTransaction is set to true, the contained operations are executed in a single transaction and applied at the end if none of them failed. If UseTransaction is set false, all operations are committed individually. When this activity ends, the connection to the database is closed. This activity returns a DatabaseConnection variable.
 
-![image-20220506105232-1.png](/img/0a60cb_image-20220506105232-1.png)
+![image-20220506105232-1.png](/static/img/0a60cb_image-20220506105232-1.png)
 
 (\* for Mandatory)
 
@@ -22,7 +22,7 @@ This activity allows you to connect to a database and features a Sequence that c
 
 * **Configure Connection**- Set connection string, data source, data provider.
 
-![image-20230419153435-1.png](/img/3e2525_image-20230419153435-1.png)
+![image-20230419153435-1.png](/static/img/3e2525_image-20230419153435-1.png)
 
 * **Do** - The activities you want to execute within the application
 

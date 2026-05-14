@@ -14,7 +14,7 @@ RCA.Activities.Core.DeleteCredential
 
 The activity allows you to delete the credentials for a specified target from the Windows Credential Manager, and returns a boolean value to let you know if the process was successful or not.
 
-![image-20220505151543-1.png](/img/3994b3_image-20220505151543-1.png)
+![image-20220505151543-1.png](/static/img/3994b3_image-20220505151543-1.png)
 
 (\* for Mandatory)
 

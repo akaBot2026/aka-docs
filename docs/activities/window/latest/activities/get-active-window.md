@@ -14,7 +14,7 @@ RCA.Activities.Windows.GetActiveWindow
 
 The Get Active Window enables you to get the current active window and allows you to execute multiple activities inside it.
 
-![image-20220505165437-1.png](/img/5c849a_image-20220505165437-1.png)
+![image-20220505165437-1.png](/static/img/5c849a_image-20220505165437-1.png)
 
 (\*For mandatory)
 

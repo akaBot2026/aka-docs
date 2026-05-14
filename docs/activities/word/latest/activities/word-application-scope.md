@@ -14,7 +14,7 @@ RCA.Activities.Word.WordApplicationScope
 
 Word Application Scope activity provides a space for all other Word activities to interact with a specific Word document that is indicated in the Input of this activity. No Word Activities works outside of Word Application Scope. The Word Documents and the Word application will be closed once the activity is finished.
 
-![image-20220506112026-1.png](/img/7c8057_image-20220506112026-1.png)
+![image-20220506112026-1.png](/static/img/7c8057_image-20220506112026-1.png)
 
 **In the body of activity**
 

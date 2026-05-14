@@ -14,7 +14,7 @@ System.Activities.Core.Throw
 
 The Throw activity allows you to throw and find an exception providing you enter the type of exception. This activity can be used in the Catch block and the Try block in the Try Catch activity.
 
-![image-20220506112428-1.png](/img/41b49d_image-20220506112428-1.png)  
+![image-20220506112428-1.png](/static/img/41b49d_image-20220506112428-1.png)  
 (\* for Mandatory)
 
 ## **Properties**

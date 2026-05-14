@@ -14,7 +14,7 @@ RCA.Activities.Mail.SaveMailAttachements
 
 This activity allows you to save mail attachments to specified folder. If there is no folder with given name, akaBot will create new file. Files with the same name in one folder are overwritten.
 
-![image-20220505163054-1.png](/img/d2b96c_image-20220505163054-1.png)
+![image-20220505163054-1.png](/static/img/d2b96c_image-20220505163054-1.png)
 
 (\* is mandatory)
 

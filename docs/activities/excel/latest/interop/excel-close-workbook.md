@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelCloseWorkbook
 
 The activity allows you to close an open Workbook. This only can be used in Excel Application Scope Activity.
 
-![image-20220505135216-1.jpeg](/img/b207ba_image-20220505135216-1.jpeg)
+![image-20220505135216-1.jpeg](/static/img/b207ba_image-20220505135216-1.jpeg)
 
 (\* for mandatory)
 

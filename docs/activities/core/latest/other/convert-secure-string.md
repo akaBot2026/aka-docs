@@ -14,7 +14,7 @@ RCA.Activities.Core.ConvertSecureString
 
 This activity allows you to convert a SecureString to a String.
 
-![image-20220505103002-1.jpeg](/img/image-20220505103002-1.jpeg)
+![image-20220505103002-1.jpeg](/static/img/image-20220505103002-1.jpeg)
 
 \* indicates required fields.
 

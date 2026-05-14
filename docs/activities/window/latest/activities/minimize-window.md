@@ -14,7 +14,7 @@ RCA.Activities.Windows.MinimizeWindow
 
 The Minimize Window selects a window and minimizes it.
 
-![image-20220505165547-1.png](/img/ca0388_image-20220505165547-1.png)
+![image-20220505165547-1.png](/static/img/ca0388_image-20220505165547-1.png)
 
 (\*For mandatory)
 

@@ -8,8 +8,10 @@
 //   1. Every file under static/ has a clean name (lowercase, digits,
 //      hyphens; no spaces, no uppercase) and is < 5 MB.
 //   2. Every media reference in docs/ and i18n/ markdown points to
-//      an absolute path (/img/..., /pdf/..., etc.) that resolves
-//      to an actual file under static/.
+//      an absolute path that resolves to an actual file under static/.
+//      Both `/img/foo.png` (the URL Docusaurus serves) and
+//      `/static/img/foo.png` (preview-friendly: resolves against the
+//      repo root in editor markdown previews) are accepted.
 //
 // Exit code: 0 = clean, 1 = at least one violation.
 
@@ -105,12 +107,19 @@ for (const mdFile of mdFiles) {
     if (!ref.startsWith('/')) {
       errors.push(
         `BAD-PATH    ${mdRel}\n` +
-        `            "${ref}" — use an absolute path like /img/foo.png`
+        `            "${ref}" — use an absolute path like /img/foo.png ` +
+        `or /static/img/foo.png`
       );
       continue;
     }
 
-    const target = path.join(STATIC_DIR, ref.slice(1));
+    // `/static/img/foo.png` is the preview-friendly form (resolves against
+    // the repo root in editors); `/img/foo.png` is the served URL. Both
+    // point at the same file inside static/.
+    const relUnderStatic = ref.startsWith('/static/')
+      ? ref.slice('/static/'.length)
+      : ref.slice(1);
+    const target = path.join(STATIC_DIR, relUnderStatic);
     if (!fs.existsSync(target)) {
       errors.push(
         `BROKEN      ${mdRel}\n` +

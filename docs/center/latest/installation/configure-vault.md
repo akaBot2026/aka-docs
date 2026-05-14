@@ -67,13 +67,13 @@ vault login
 
 vault secrets enable -path=secret kv-v2
 
-![1774320665510-975.png](/img/737397_1774320665510-975.png)
+![1774320665510-975.png](/static/img/737397_1774320665510-975.png)
 
 **Step 2:** Add sample credential:
 
 vault kv put secret/app/dev/db Username=dbuser Password=dbpass123
 
-![1774320731488-504.png](/img/08d11b_1774320731488-504.png)
+![1774320731488-504.png](/static/img/08d11b_1774320731488-504.png)
 
 **Step 3:** Verify credential:
 
@@ -107,13 +107,13 @@ vault:
     pass-mapping: Password   
   root-path-asset: secret/data/app/dev
 
-![1774322286585-674.png](/img/421075_1774322286585-674.png)
+![1774322286585-674.png](/static/img/421075_1774322286585-674.png)
 
 * Access akaBot (local host) and navigate to Agent tab
 * Click "Create new" and choose path then click "Save"
 
-![1774323194905-839.png](/img/34a242_1774323194905-839.png)
+![1774323194905-839.png](/static/img/34a242_1774323194905-839.png)
 
-![1774323309236-613.png](/img/6dc0f7_1774323309236-613.png)
+![1774323309236-613.png](/static/img/6dc0f7_1774323309236-613.png)
 
-![1774323324582-290.png](/img/84b288_1774323324582-290.png)
+![1774323324582-290.png](/static/img/84b288_1774323324582-290.png)

@@ -14,7 +14,7 @@ RCA.Activities.Common.CloseBrowser
 
 The Close Browser closes the current browser. This will only close window Browser opened by Open Browser activity.
 
-![image-20220505134350-1.png](/img/e6be53_image-20220505134350-1.png)
+![image-20220505134350-1.png](/static/img/e6be53_image-20220505134350-1.png)
 
 (\*For Mandatory)
 

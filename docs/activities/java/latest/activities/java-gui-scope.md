@@ -14,7 +14,7 @@ RCA.Activities.Java.JavaGuiScope
 
 This activity allows you to initialize a Java library and provide a scope for all subsequent activities.
 
-[![java gui scope.png](/img/e5212f_java-gui-scope.png)](/bin/download/Activities/Java/Activities/Java%20Gui%20Scope/WebHome/java%20gui%20scope.png?rev=1.1)  
+[![java gui scope.png](/static/img/e5212f_java-gui-scope.png)](/bin/download/Activities/Java/Activities/Java%20Gui%20Scope/WebHome/java%20gui%20scope.png?rev=1.1)  
 (\* is mandatory)
 
 ## **Properties**

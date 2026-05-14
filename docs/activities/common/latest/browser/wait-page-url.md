@@ -14,7 +14,7 @@ RCA.Activities.Common.WaitPageUrl
 
 The Wait Page URL verifies if the page URL has the requirement format according to the predefined value
 
-![image-20220505135155-1.png](/img/00f44e_image-20220505135155-1.png)
+![image-20220505135155-1.png](/static/img/00f44e_image-20220505135155-1.png)
 
 ## **In the body of activity**
 

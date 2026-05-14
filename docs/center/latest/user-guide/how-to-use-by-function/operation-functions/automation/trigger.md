@@ -12,15 +12,15 @@ Trigger can help you to run Bot automatically with some conditions/
 
 S1: Click in **Create New**button at the top right corner of the **Trigger**page to create a new trigger.
 
-![image-20230528123104-2.png](/img/e28d03_image-20230528123104-2.png)
+![image-20230528123104-2.png](/static/img/e28d03_image-20230528123104-2.png)
 
 If you already have a **Trigger**, you can clic the 3 dots buttin at the trigger you want, click **Edit** button to update trigger as your wish.
 
-![image-20230528123209-3.png](/img/163bf9_image-20230528123209-3.png)
+![image-20230528123209-3.png](/static/img/163bf9_image-20230528123209-3.png)
 
 S2: A form will appear for you to fill in. After fulfillment, please click **Save**to save your work.
 
-![image-20230528123953-1.png](/img/69c064_image-20230528123953-1.png)
+![image-20230528123953-1.png](/static/img/69c064_image-20230528123953-1.png)
 
 |  |  |
 | --- | --- |

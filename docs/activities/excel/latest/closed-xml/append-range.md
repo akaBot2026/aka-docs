@@ -15,7 +15,7 @@ RCA.Activities.Excel.AppendRange
 This activity allows you to append data from a DataTable variable to the end of a specified Excel worksheet.  
 If the sheet does not exist, a new one is created with the name specified in the Sheet Name field.
 
-![image-20220505140101-1.jpeg](/img/image-20220505140101-1.jpeg)
+![image-20220505140101-1.jpeg](/static/img/image-20220505140101-1.jpeg)
 
 \* indicates required fields.
 

@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelInsertRows
 
 This activity allows you to add more rows to insert one or more rows in a table, range, or sheet at the specified location. This only can be used in Excel Application Scope Activity.
 
-![image-20220505133835-1.jpeg](/img/b06091_image-20220505133835-1.jpeg)
+![image-20220505133835-1.jpeg](/static/img/b06091_image-20220505133835-1.jpeg)
 
 (\* for mandatory)
 

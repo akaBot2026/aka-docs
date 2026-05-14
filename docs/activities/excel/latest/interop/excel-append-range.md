@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelAppendRange
 
 This activity allows adding information stored in a Data Table variable to the end of a specified Excel spreadsheet.
 
-![image-20220505131238-1.jpeg](/img/ef8ea0_image-20220505131238-1.jpeg)
+![image-20220505131238-1.jpeg](/static/img/ef8ea0_image-20220505131238-1.jpeg)
 
 (\* is mandatory)
 

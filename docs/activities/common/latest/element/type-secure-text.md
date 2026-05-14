@@ -15,7 +15,7 @@ RCA.Activities.Common.TypeSecureText
 
 This activity is used to type into a text field of an indicated window.
 
-![image-20230419123015-1.png](/img/image-20230419123015-1.png)
+![image-20230419123015-1.png](/static/img/image-20230419123015-1.png)
 
 (\* is mandatory)
 

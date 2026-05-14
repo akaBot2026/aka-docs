@@ -14,7 +14,7 @@ RCA.Activities.Core.InvokeCode
 
 With this activity, you can synchronously invoke VB.NET or C# code, optionally passing it a list of input arguments. This activity can also return out arguments to the caller workflow.
 
-![image-20220505160824-1.png](/img/bdc644_image-20220505160824-1.png)
+![image-20220505160824-1.png](/static/img/bdc644_image-20220505160824-1.png)
 
 (\* for Mandatory)
 

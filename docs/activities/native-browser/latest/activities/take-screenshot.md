@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.TakeScreenshot
 
 The Take Screenshot activity captures a screenshot of a UI element within a browser.
 
-![image-20220505151520-1.png](/img/image-20220505151520-1.png)
+![image-20220505151520-1.png](/static/img/image-20220505151520-1.png)
 
 \* indicates required fields.
 

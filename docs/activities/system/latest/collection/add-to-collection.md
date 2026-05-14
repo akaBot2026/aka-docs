@@ -14,7 +14,7 @@ displayed_sidebar: activitiesSidebar
 
 This activity allows you to add items to an existing collection.
 
-![image-20220505155447-1.png](/img/5a4939_image-20220505155447-1.png)
+![image-20220505155447-1.png](/static/img/5a4939_image-20220505155447-1.png)
 
 (\* for Mandatory)
 

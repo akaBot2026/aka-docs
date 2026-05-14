@@ -14,7 +14,7 @@ displayed_sidebar: activitiesSidebar
 
 This activity allows to clear a specified collection of all items
 
-![image-20220505152501-1.png](/img/9d9c08_image-20220505152501-1.png)  
+![image-20220505152501-1.png](/static/img/9d9c08_image-20220505152501-1.png)  
 (\* for Mandatory)
 
 ## **Properties**

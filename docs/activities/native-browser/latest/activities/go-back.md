@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.GoBack
 
 The Go Back activity goes back to one URL in the history list of the current browser.
 
-![image-20220505150220-1.png](/img/e1a23f_image-20220505150220-1.png)
+![image-20220505150220-1.png](/static/img/e1a23f_image-20220505150220-1.png)
 
 (\*For Mandatory)
 

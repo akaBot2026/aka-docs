@@ -14,7 +14,7 @@ RCA.Activities.ComputerVision.CVDropdownSelect
 
 Selects a specified item from a drop-down list.
 
-![image-20220505132014-1.png](/img/939b62_image-20220505132014-1.png)
+![image-20220505132014-1.png](/static/img/939b62_image-20220505132014-1.png)
 
 (\*For mandatory)
 

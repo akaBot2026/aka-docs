@@ -14,7 +14,7 @@ RCA.Activities.Core.AddDataColumn
 
 This activity allows you to add a DataColumn to a specified DataTable.
 
-![add data column.jpg](/img/b21ad7_add-data-column.jpg)
+![add data column.jpg](/static/img/b21ad7_add-data-column.jpg)
 
 (\* is mandatory)
 

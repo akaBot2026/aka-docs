@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.SetWebAttribute
 
 The Set Web Attribute activity sets the value of a specified attribute for a web element.
 
-![image-20220505151410-1.png](/img/image-20220505151410-1.png)
+![image-20220505151410-1.png](/static/img/image-20220505151410-1.png)
 
 \* indicates required fields.
 

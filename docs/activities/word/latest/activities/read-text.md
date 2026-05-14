@@ -14,7 +14,7 @@ RCA.Activities.Word.ReadText
 
 This activity allows to read all or specified context or characters from a file and then store it in a String variable.
 
-![image-20220506111840-1.png](/img/3e7f3a_image-20220506111840-1.png)
+![image-20220506111840-1.png](/static/img/3e7f3a_image-20220506111840-1.png)
 
 ## **Properties**
 

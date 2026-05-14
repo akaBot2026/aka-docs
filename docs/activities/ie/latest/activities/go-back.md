@@ -14,7 +14,7 @@ RCA.Activities.IE.GoBack
 
 The Go Back activity goes back to one URL in the history list of the current browser.
 
-![image-20220506110611-1.png](/img/9c6fe4_image-20220506110611-1.png)
+![image-20220506110611-1.png](/static/img/9c6fe4_image-20220506110611-1.png)
 
 (\* for Mandatory)
 

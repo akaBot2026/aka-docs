@@ -14,7 +14,7 @@ RCA.Activities.Common.FindElement
 
 The Find Element activity allows you to verify whether a specified element exists or not.
 
-![image-20220505133141-1.png](/img/4aa131_image-20220505133141-1.png)
+![image-20220505133141-1.png](/static/img/4aa131_image-20220505133141-1.png)
 
 (\* is mandatory)
 

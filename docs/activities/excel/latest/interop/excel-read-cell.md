@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelReadCell
 
 This activity allows to read value of an Excel cell and store it in a variable. It is only be used inside the Excel Application Scope activity.
 
-![image-20220505112903-1.jpeg](/img/600d8a_image-20220505112903-1.jpeg)
+![image-20220505112903-1.jpeg](/static/img/600d8a_image-20220505112903-1.jpeg)
 
 (\* is mandatory)
 

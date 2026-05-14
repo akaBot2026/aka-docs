@@ -28,23 +28,23 @@ Watch below video guide for more intuitive installing instruction:
 
 **Step 2** - Extract the zipped file and run the setup as *Administrator*.
 
-![1689060128056-950.png](/img/b326f1_1689060128056-950.png)
+![1689060128056-950.png](/static/img/b326f1_1689060128056-950.png)
 
 If your computer has already had akaBot platform, go to step 3, otherwise, go to step 4.
 
 **Step 3 –** Select Remove akaBot Plaform option then hit Finish button to remove the previous akaBot edition.
 
-![image-20230711142249-1.png](/img/fede95_image-20230711142249-1.png)
+![image-20230711142249-1.png](/static/img/fede95_image-20230711142249-1.png)
 
 Go back to step 2 to re-start the installing.
 
 **Step 4 -** Hit Next button to start the installing.
 
-![image-20230711142249-2.png](/img/a48464_image-20230711142249-2.png)
+![image-20230711142249-2.png](/static/img/a48464_image-20230711142249-2.png)
 
 **Step 5 -** Read the license agreement carefully. If you accept the terms, select “I agree” then “Next”, otherwise, hit “Cancel”.
 
-![image-20230711142249-3.png](/img/c6422c_image-20230711142249-3.png)
+![image-20230711142249-3.png](/static/img/c6422c_image-20230711142249-3.png)
 
 **Step 6 – Select installation folder.**
 
@@ -54,21 +54,21 @@ Go back to step 2 to re-start the installing.
 
 3 – Hit “Next”
 
-![image-20230711142249-4.png](/img/bae35f_image-20230711142249-4.png)
+![image-20230711142249-4.png](/static/img/bae35f_image-20230711142249-4.png)
 
 **Step 7**– Confirm the installation setting by hitting “Next” button.
 
-![image-20230711142249-5.png](/img/344399_image-20230711142249-5.png)
+![image-20230711142249-5.png](/static/img/344399_image-20230711142249-5.png)
 
 **Step 8 -** Wait 1-2 minutes for installation to progress.
 
 After successfully installing, hit “Close” button to exit.
 
-![image-20230711142249-6.png](/img/0b4a7f_image-20230711142249-6.png)
+![image-20230711142249-6.png](/static/img/0b4a7f_image-20230711142249-6.png)
 
 Now you should have the shortcuts for **akaBot Studio** & **Agent** presenting on your computer.
 
-![image-20230711142249-7.png](/img/9d6c2a_image-20230711142249-7.png)
+![image-20230711142249-7.png](/static/img/9d6c2a_image-20230711142249-7.png)
 
 ## **Next Steps**
 

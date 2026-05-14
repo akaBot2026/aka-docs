@@ -14,7 +14,7 @@ RCA.Activities.Core.GetRowItem
 
 This activity allows you to get a value from a DataRow variable according to a specified column.
 
-[![get row item.jpg](/img/c01fdd_get-row-item.jpg)](/bin/download/Activities/Data%20Table/Activities/Get%20Row%20Item/WebHome/get%20row%20item.jpg?rev=1.1)
+[![get row item.jpg](/static/img/c01fdd_get-row-item.jpg)](/bin/download/Activities/Data%20Table/Activities/Get%20Row%20Item/WebHome/get%20row%20item.jpg?rev=1.1)
 
 (\* is mandatory)
 

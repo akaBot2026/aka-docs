@@ -14,7 +14,7 @@ RCA.Activities.Mail.MoveOutlookMessage
 
 This activity allows you to move Outlook messages to a specified folder.
 
-![image-20220505162512-1.png](/img/2c85f9_image-20220505162512-1.png)
+![image-20220505162512-1.png](/static/img/2c85f9_image-20220505162512-1.png)
 
 (\* is mandatory)
 

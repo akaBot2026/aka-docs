@@ -14,7 +14,7 @@ RCA.Activities.GSuite.SendEmail
 
 This activity allows sending an email using Gmail platform
 
-![image-20220505160452-1.png](/img/3873e9_image-20220505160452-1.png)
+![image-20220505160452-1.png](/static/img/3873e9_image-20220505160452-1.png)
 
 (\*For mandatory)
 

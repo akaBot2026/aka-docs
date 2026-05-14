@@ -14,7 +14,7 @@ System.Activities.Statements.Assign
 
 The Assign activity allows you to assign a value to a variable or an argument. This is used quite often in the loop for increment, to assign a sum value of 2 or more variables to a new variable, or to assign to an array.
 
-![image-20220506112928-1.png](/img/fe4e42_image-20220506112928-1.png)
+![image-20220506112928-1.png](/static/img/fe4e42_image-20220506112928-1.png)
 
 (\* for Mandatory)
 

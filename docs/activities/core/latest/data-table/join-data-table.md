@@ -14,7 +14,7 @@ RCA.Activities.Core.JoinDataTables
 
 This activity allows you to add different data from different tables using common values with each other.
 
-[![join data table.jpg](/img/432c4f_join-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Join%20Data%20Table/WebHome/join%20data%20table.jpg?rev=1.1)
+[![join data table.jpg](/static/img/432c4f_join-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Join%20Data%20Table/WebHome/join%20data%20table.jpg?rev=1.1)
 
 (\* is mandatory)
 
@@ -22,7 +22,7 @@ This activity allows you to add different data from different tables using commo
 
 **Join Table Wizard -** set join condition and join type
 
-![image-20230419151628-1.png](/img/a0e548_image-20230419151628-1.png)
+![image-20230419151628-1.png](/static/img/a0e548_image-20230419151628-1.png)
 
 ## **Properties**
 

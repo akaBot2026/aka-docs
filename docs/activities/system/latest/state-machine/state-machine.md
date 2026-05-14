@@ -14,7 +14,7 @@ System.Activities.Statements.StateMachine
 
 A state machine is a type of automation that uses a finite number of states in its execution. It can go into a state when it is triggered by an activity, and it exits that state when another activity is triggered.
 
-![image-20220506144320-1.png](/img/f4a242_image-20220506144320-1.png)
+![image-20220506144320-1.png](/static/img/f4a242_image-20220506144320-1.png)
 
 ## **Properties**
 

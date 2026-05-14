@@ -14,7 +14,7 @@ RCA.Activities.Core.CheckTrue
 
 This activity allows you to check whether a given expression evaluates to True.
 
-![image-20220505095635-1.jpeg](/img/image-20220505095635-1.jpeg)
+![image-20220505095635-1.jpeg](/static/img/image-20220505095635-1.jpeg)
 
 \* indicates required fields.
 

@@ -14,7 +14,7 @@ RCA.Activities.Core.GetEventInfo
 
 This activity allows extracting different types of information related to a trigger. This can be used only inside the Monitor Events activity.
 
-![image-20220506112201-1.png](/img/4adde3_image-20220506112201-1.png)
+![image-20220506112201-1.png](/static/img/4adde3_image-20220506112201-1.png)
 
 (\* for Mandatory)
 

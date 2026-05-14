@@ -14,7 +14,7 @@ RCA.Activities.Core.LookupDataTable
 
 This activity enables you to search for a provided value in a specified DataTable and return the RowIndex at which it was found. This activity can also help you return the value found in the cell that has the row specified in the RowIndex property and the column specified in the Target Column property category.
 
-[![look up data table.jpg](/img/864a58_look-up-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Look%20Up%20Data%20Table/WebHome/look%20up%20data%20table.jpg?rev=1.1)
+[![look up data table.jpg](/static/img/864a58_look-up-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Look%20Up%20Data%20Table/WebHome/look%20up%20data%20table.jpg?rev=1.1)
 
 (\* is mandatory)
 

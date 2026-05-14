@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.GetText
 
 The Get Text activity extracts on a webpage and saves it in a String variable.
 
-![image-20220505145945-1.png](/img/b73a2f_image-20220505145945-1.png)
+![image-20220505145945-1.png](/static/img/b73a2f_image-20220505145945-1.png)
 
 (\*For mandatory)
 

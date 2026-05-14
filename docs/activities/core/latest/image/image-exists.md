@@ -14,7 +14,7 @@ RCA.Activities.Core.ImageFound
 
 This activity allows you to check if an image exists or not
 
-![image-20220505093941-1.jpeg](/img/3fd041_image-20220505093941-1.jpeg)
+![image-20220505093941-1.jpeg](/static/img/3fd041_image-20220505093941-1.jpeg)
 
 (\* for Mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.WaitElementVanish
 
 The Wait Element Vanishes (NB) activity waits for a selected element to disappear from a webpage.
 
-![image-20220505151644-1.png](/img/image-20220505151644-1.png)
+![image-20220505151644-1.png](/static/img/image-20220505151644-1.png)
 
 \* indicates required fields.
 

@@ -14,7 +14,7 @@ displayed_sidebar: activitiesSidebar
 
 This activity allows you to remove item in a specified collection
 
-![image-20220505155850-1.png](/img/2bcb2f_image-20220505155850-1.png)
+![image-20220505155850-1.png](/static/img/2bcb2f_image-20220505155850-1.png)
 
 (\* for Mandatory)
 

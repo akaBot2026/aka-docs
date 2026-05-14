@@ -14,7 +14,7 @@ RCA.Activities.Common.SAPLogin
 
 You may use this activity to directly log into an SAP system.
 
-![1714793840785-992.png](/img/1d2608_1714793840785-992.png)
+![1714793840785-992.png](/static/img/1d2608_1714793840785-992.png)
 
 **In the body of activity:**
 

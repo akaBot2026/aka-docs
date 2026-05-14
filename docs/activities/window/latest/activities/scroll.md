@@ -14,7 +14,7 @@ RCA.Activities.Windows.Scroll
 
 The scroll activity allows you to scroll up & down
 
-![image-20220505170247-1.png](/img/408093_image-20220505170247-1.png)
+![image-20220505170247-1.png](/static/img/408093_image-20220505170247-1.png)
 
 (\*For mandatory)
 

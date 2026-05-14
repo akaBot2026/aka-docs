@@ -14,7 +14,7 @@ RCA.Activities.IE.TypeInto
 
 The Type Into activity allows you to type text into fields of an IE browser.
 
-![image-20220506111327-1.png](/img/d6966f_image-20220506111327-1.png)
+![image-20220506111327-1.png](/static/img/d6966f_image-20220506111327-1.png)
 
 (\* for Mandatory)
 

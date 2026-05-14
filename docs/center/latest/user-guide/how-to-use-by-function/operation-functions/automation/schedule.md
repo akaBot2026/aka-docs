@@ -9,7 +9,7 @@ displayed_sidebar: centerSidebar
 
 Scheduling allows us to perform tasks in a preplanned way. You can execute tasks by commanding Agents to perform different schedules and times according to your needs. The Schedule page enables us to create new schedules. It also displays all previously created schedules, which can be further edited, enabled, or disabled. To access the Schedule page, click the Schedule tab in the left menu. After clicking, the system opens the Schedule Listing page that included all schedules we have created previously.
 
-![image-20221028105802-35.png](/img/ee8f63_image-20221028105802-35.png)
+![image-20221028105802-35.png](/static/img/ee8f63_image-20221028105802-35.png)
 
 | No | Column | Description |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ Scheduling allows us to perform tasks in a preplanned way. You can execute tasks
 
 ## **a. View a schedule**
 
-![image-20221028111221-36.png](/img/8fa96a_image-20221028111221-36.png)
+![image-20221028111221-36.png](/static/img/8fa96a_image-20221028111221-36.png)
 
 Besides the General information above, the **Details** page also shows the **Parameters**and**Holiday settings** of said **Schedule**.
 
@@ -40,7 +40,7 @@ Besides the General information above, the **Details** page also shows the **
 
 To search for the **Schedule** you need, you have some options as below:
 
-![image-20221028111813-37.png](/img/63ffef_image-20221028111813-37.png)
+![image-20221028111813-37.png](/static/img/63ffef_image-20221028111813-37.png)
 
 | No | Column /Label | Description | Type | Maximum | Input Requirement |
 | --- | --- | --- | --- | --- | --- |
@@ -52,19 +52,19 @@ To search for the **Schedule** you need, you have some options as below:
 
 To create a schedule, you click Create New button.
 
-![image-20221028112517-41.png](/img/f8cd80_image-20221028112517-41.png)
+![image-20221028112517-41.png](/static/img/f8cd80_image-20221028112517-41.png)
 
 When you want to edit the Schedule information, click the Edit button in the Action column.
 
-![image-20221028112242-39.png](/img/f953ac_image-20221028112242-39.png)
+![image-20221028112242-39.png](/static/img/f953ac_image-20221028112242-39.png)
 
 Alternatively, you can access the Details page of said schedule and select the Edit button.
 
-![image-20221028112318-40.png](/img/c03872_image-20221028112318-40.png)
+![image-20221028112318-40.png](/static/img/c03872_image-20221028112318-40.png)
 
 When you click Create new/ Edit, a form will be shown up:
 
-![image-20221028112620-42.png](/img/76ff3f_image-20221028112620-42.png)
+![image-20221028112620-42.png](/static/img/76ff3f_image-20221028112620-42.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -119,33 +119,33 @@ After filling the form, click the **Save** button to save it, and the schedule
 
 To disable a schedule, click corresponding Action button and then select Disable.
 
-![image-20221028143344-1.png](/img/5bdb2c_image-20221028143344-1.png)
+![image-20221028143344-1.png](/static/img/5bdb2c_image-20221028143344-1.png)
 
 After clicking, the system will ask for your confirmation to switch status:
 
-![image-20221028143400-2.png](/img/9494f7_image-20221028143400-2.png)
+![image-20221028143400-2.png](/static/img/9494f7_image-20221028143400-2.png)
 
 When the schedule is disabled, the status of said schedule changes to **Disable**.
 
 Similarly, to enable a schedule, click the corresponding **Action** button and then select **Enable**.
 
-![image-20221028143503-3.png](/img/b2ba03_image-20221028143503-3.png)
+![image-20221028143503-3.png](/static/img/b2ba03_image-20221028143503-3.png)
 
 ## **d.Delete a Schedule**
 
 To delete, you need to click The Action button of the corresponding Schedule and select the Delete button.
 
-![image-20221028143538-4.png](/img/f0cd15_image-20221028143538-4.png)
+![image-20221028143538-4.png](/static/img/f0cd15_image-20221028143538-4.png)
 
 Alternatively, you can hit the checkbox before each **Schedule** and the **Delete** option will appear next to the  
 **Filter** option at the top. Click the **Checkbox** next to **Action** will allow you to select all displayed Schedule  
 for delete.
 
-![image-20221028143725-5.png](/img/337d8f_image-20221028143725-5.png)
+![image-20221028143725-5.png](/static/img/337d8f_image-20221028143725-5.png)
 
 After clicking, the system will allow you to delete and need your confirmation before deleting.
 
-![image-20221028143745-6.png](/img/155ffd_image-20221028143745-6.png)
+![image-20221028143745-6.png](/static/img/155ffd_image-20221028143745-6.png)
 
 Hit **Delete** to complete the operation.
 
@@ -153,8 +153,8 @@ Hit **Delete** to complete the operation.
 
 Holiday setting allows us to set Holiday for agents.
 
-![image-20221028170141-8.png](/img/95d7ea_image-20221028170141-8.png)
+![image-20221028170141-8.png](/static/img/95d7ea_image-20221028170141-8.png)
 
 After setting holidays, when you create a new schedule, in Holiday settings tab of this form, you can choose a running option in Holiday for agents as below:
 
-![image-20221028170318-9.png](/img/b1d2c8_image-20221028170318-9.png)
+![image-20221028170318-9.png](/static/img/b1d2c8_image-20221028170318-9.png)

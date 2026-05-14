@@ -14,7 +14,7 @@ RCA.Activities.Common.Click
 
 The Click activity is used to send a click action into a webpage or window application.
 
-![image-20220505132717-1.png](/img/787290_image-20220505132717-1.png)
+![image-20220505132717-1.png](/static/img/787290_image-20220505132717-1.png)
 
 (\* is mandatory)
 

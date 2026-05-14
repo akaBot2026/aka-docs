@@ -14,7 +14,7 @@ RCA.Activities.Windows.CloseWindow
 
 The Close Window activity allows you to close an application window on the screen.
 
-![image-20220505165356-1.png](/img/394c41_image-20220505165356-1.png)
+![image-20220505165356-1.png](/static/img/394c41_image-20220505165356-1.png)
 
 (\*For mandatory)
 

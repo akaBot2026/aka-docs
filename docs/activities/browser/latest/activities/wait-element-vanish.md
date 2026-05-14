@@ -14,7 +14,7 @@ RCA.Activities.Browser.WaitElementVanish
 
 The Wait Element Vanishes activity waits for a selected element to disappear from a webpage.
 
-![image-20220505140424-1.png](/img/856fc1_image-20220505140424-1.png)
+![image-20220505140424-1.png](/static/img/856fc1_image-20220505140424-1.png)
 
 (\* For Mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.Core.RemoveDuplicatedRows
 
 This activity allows you to remove duplicate rows in the data table.
 
-[![remove duplicate rows.jpg](/img/93189c_remove-duplicate-rows.jpg)](/bin/download/Activities/Data%20Table/Activities/Remove%20Duplicated%20Rows/WebHome/remove%20duplicate%20rows.jpg?rev=1.1)
+[![remove duplicate rows.jpg](/static/img/93189c_remove-duplicate-rows.jpg)](/bin/download/Activities/Data%20Table/Activities/Remove%20Duplicated%20Rows/WebHome/remove%20duplicate%20rows.jpg?rev=1.1)
 
 (\* is mandatory)
 

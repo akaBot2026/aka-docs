@@ -14,7 +14,7 @@ RCA.Activities.Core.GetXMLNodeAttributes
 
 The Get XMLNode Attributes activity allows you to retrieve the attributes of an XML Node.
 
-[![get xml node attributes.jpg](/img/73e5f8_get-xml-node-attributes.jpg)](/bin/download/Activities/XML/Activities/Get%20XML%20Node%20Attributes/WebHome/get%20xml%20node%20attributes.jpg?rev=1.1)
+[![get xml node attributes.jpg](/static/img/73e5f8_get-xml-node-attributes.jpg)](/bin/download/Activities/XML/Activities/Get%20XML%20Node%20Attributes/WebHome/get%20xml%20node%20attributes.jpg?rev=1.1)
 
 (\* for Mandatory)
 

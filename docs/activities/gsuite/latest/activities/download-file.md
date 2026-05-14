@@ -14,7 +14,7 @@ RCA.Activities.GSuite.DownloadFile
 
 This activity is specified for Google Drive to download file.
 
-![image-20220505155459-1.png](/img/de3c0d_image-20220505155459-1.png)
+![image-20220505155459-1.png](/static/img/de3c0d_image-20220505155459-1.png)
 
 (\*For mandatory)
 

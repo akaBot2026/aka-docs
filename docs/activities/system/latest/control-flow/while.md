@@ -15,7 +15,7 @@ System.Activities.Statements.While
 Allows you to execute a set of activities repeatedly while a specified condition is True.  
 This activity is useful when you need to perform an action multiple times based on a condition.
 
-![image-20220513134736-1.png](/img/while.png)
+![image-20220513134736-1.png](/static/img/while.png)
 
 \* indicates required fields.
 

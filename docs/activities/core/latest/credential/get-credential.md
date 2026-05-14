@@ -14,7 +14,7 @@ RCA.Activities.Core.GetCredential
 
 This activity allows you to retrieve the credentials from a specified target from the Windows Credential Manager as a secure string (password) and a string (username). Additionally, a boolean value is returned to let you know if the process was successful or not.
 
-![image-20220505151742-1.png](/img/4e589c_image-20220505151742-1.png)
+![image-20220505151742-1.png](/static/img/4e589c_image-20220505151742-1.png)
 
 (\* for Mandatory)
 

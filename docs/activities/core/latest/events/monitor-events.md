@@ -14,7 +14,7 @@ RCA.Activitites.Core.MonitorEvents
 
 This activity allows you to observe a set of activities (also known as triggers) and when triggered, executes the activities specified in the Event Handler container.
 
-![image-20220506112234-1.png](/img/02df6e_image-20220506112234-1.png)
+![image-20220506112234-1.png](/static/img/02df6e_image-20220506112234-1.png)
 
 (\* for Mandatory)
 

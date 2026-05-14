@@ -16,7 +16,7 @@ RCA.Activities.IE.OpenBrowser
 
 The Open Browser activity of IE allows you to navigate to a specified URL by launching an IE browser and executing multiple activities within it.
 
-![image-20220506110901-1.png](/img/204732_image-20220506110901-1.png)
+![image-20220506110901-1.png](/static/img/204732_image-20220506110901-1.png)
 
 (\* for Mandatory)
 

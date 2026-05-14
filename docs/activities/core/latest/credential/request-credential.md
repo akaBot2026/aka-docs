@@ -14,7 +14,7 @@ RCA.Activities.Core.RequestCredential
 
 The activity allows you to display a dialog box with a custom message and title that prompts a user to add application credentials, and store the username and password that can be later used to log into applications.
 
-![image-20220505152134-1.png](/img/7febcb_image-20220505152134-1.png)
+![image-20220505152134-1.png](/static/img/7febcb_image-20220505152134-1.png)
 
 (\* for Mandatory)
 

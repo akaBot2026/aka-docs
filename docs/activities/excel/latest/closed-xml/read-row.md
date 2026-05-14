@@ -14,7 +14,7 @@ RCA.Activities.Excel.ReadRow
 
 Reads the values from a row beginning with the cell specified in the StartingCell field, and stores it in an IEnumerable variable.
 
-![image-20220505140253-1.png](/img/e22348_image-20220505140253-1.png)
+![image-20220505140253-1.png](/static/img/e22348_image-20220505140253-1.png)
 
 (\*for mandatory)
 

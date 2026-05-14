@@ -14,7 +14,7 @@ RCA.Activities.Common.Check
 
 The Check activity allow you to check or uncheck a checkbox.
 
-![image-20220505132645-1.png](/img/4f0aa1_image-20220505132645-1.png)
+![image-20220505132645-1.png](/static/img/4f0aa1_image-20220505132645-1.png)
 
 (\* is mandatory)
 

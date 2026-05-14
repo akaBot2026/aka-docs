@@ -18,7 +18,7 @@ When the activity runs, a separate job is created for each child activity.
 If a child process is invoked but not found, an error is logged with the process name.  
 If an error occurs within a child process after it has started, the parent process is not affected and continues execution.
 
-![Core_Parallel](/img/parallel-foreach.png)
+![Core_Parallel](/static/img/parallel-foreach.png)
 
 \* indicates required fields.
 

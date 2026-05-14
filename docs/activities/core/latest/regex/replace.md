@@ -14,7 +14,7 @@ RCA.Activities.Core.Replace
 
 This activity allows you to replace a match by a regular expression pattern with a specified replacement string.
 
-![image-20220513111007-1.png](/img/c4c8e2_image-20220513111007-1.png)
+![image-20220513111007-1.png](/static/img/c4c8e2_image-20220513111007-1.png)
 
 (\* for Mandatory)
 

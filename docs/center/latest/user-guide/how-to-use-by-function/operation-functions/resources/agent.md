@@ -14,7 +14,7 @@ The Agents page allows you to add Agents, edit them, and examine their status as
 
 **Note:** When the status of an Agent is busy (executing a process), you cannot edit the Username, Machine, or Type. To access the Agent page, click “Agent” tab in the left menu. After clicking, the system shows the Agent page listing all existed Agents as below.
 
-![image-20221031154319-2.png](/img/b8b026_image-20221031154319-2.png)
+![image-20221031154319-2.png](/static/img/b8b026_image-20221031154319-2.png)
 
 | No | Column/Label | Description |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ The Agents page allows you to add Agents, edit them, and examine their status as
 
 You can view the details of the Agent by clicking the **eye** button.
 
-![image-20221031154549-3.png](/img/b28d65_image-20221031154549-3.png)
+![image-20221031154549-3.png](/static/img/b28d65_image-20221031154549-3.png)
 
 | No | Column/Label | Description |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ Besides details regarding the Agent, all the tasks, logs, and connection verific
 
 At the bottom of the Details page, you can see a list of all the tasks that are executed by this specific Agent.
 
-![image-20221031154931-5.png](/img/61d3b2_image-20221031154931-5.png)
+![image-20221031154931-5.png](/static/img/61d3b2_image-20221031154931-5.png)
 
 Details regarding Tasks shall be explained in the Task sections.
 
@@ -60,17 +60,17 @@ Details regarding Tasks shall be explained in the Task sections.
 
 To view the Agent’s logs from the Agent Details page, click the Log tab next to the Task tab to switch the view.
 
-![image-20221031155216-6.png](/img/6634c9_image-20221031155216-6.png)
+![image-20221031155216-6.png](/static/img/6634c9_image-20221031155216-6.png)
 
 You can also Export Log for further investigation by clicking the **Export Log** option next to the **Filter** button. You can export all Logs or specific filtered Log Items.
 
-![image-20221031155405-7.png](/img/ee2568_image-20221031155405-7.png)
+![image-20221031155405-7.png](/static/img/ee2568_image-20221031155405-7.png)
 
 * Verify the Agent Connection
 
 To make sure the Center and Agent are correctly connected with a valid username and password, you can click on the **Verify** button.
 
-![image-20221031155517-8.png](/img/d5e373_image-20221031155517-8.png)
+![image-20221031155517-8.png](/static/img/d5e373_image-20221031155517-8.png)
 
 If the user clicks this button when the Agent is connected, an ID/Password authentication check will be performed to determine if the ID/Password is correct and can be logged in.
 
@@ -85,7 +85,7 @@ When the user clicks on verify button, the verification tab will be opened autom
 
 To view all the Verification requests created, go to the **Agent tab > View agent** **detail** > Select **Verification** tab.
 
-![image-20221031155727-9.png](/img/076928_image-20221031155727-9.png)
+![image-20221031155727-9.png](/static/img/076928_image-20221031155727-9.png)
 
 ## **d. Create/Update an Agent**
 
@@ -93,15 +93,15 @@ The first step of connecting an Agent to the Center is to create an Agent in the
 
 **Notes**: You are unable to edit an Agent with status = BUSY (executing a task). To create a new Agent, you should click the “Create New” button on the top right corner of the screen
 
-![image-20221031155823-10.png](/img/474aef_image-20221031155823-10.png)
+![image-20221031155823-10.png](/static/img/474aef_image-20221031155823-10.png)
 
 To edit an Agent, you should click the Edit button of one Agent in the list. Alternatively, you can click the Edit button on the Detail Page of the Agent.
 
-![image-20221031155905-11.png](/img/5dd967_image-20221031155905-11.png)
+![image-20221031155905-11.png](/static/img/5dd967_image-20221031155905-11.png)
 
 After clicking, the system shows a popup allowing you to fill properties to create/edit a new Agent. You need to fill in all the necessary info in the form below.
 
-![image-20221031155928-12.png](/img/941015_image-20221031155928-12.png)
+![image-20221031155928-12.png](/static/img/941015_image-20221031155928-12.png)
 
 Agent tab
 
@@ -132,14 +132,14 @@ Follow the instruction to connect the Agent to the Center using the Agent Key to
 
 To search for the Agents you need, insert Agent name to search box of select Agent group, Status to find:
 
-![image-20221031160353-13.png](/img/b24682_image-20221031160353-13.png)
+![image-20221031160353-13.png](/static/img/b24682_image-20221031160353-13.png)
 
 ## **e. Delete an Agent**
 
 To delete, you need to click the **Delete** button.
 
-![image-20221031160620-14.png](/img/6be193_image-20221031160620-14.png)
+![image-20221031160620-14.png](/static/img/6be193_image-20221031160620-14.png)
 
 Alternatively, you can select the checkbox before each Agent and the Delete button will show up next to the Create Newr button. Tick the Checkbox next to Action will allow users to select all displayed Agent for bulk delete.
 
-![image-20221031160701-15.png](/img/f5ef98_image-20221031160701-15.png)
+![image-20221031160701-15.png](/static/img/f5ef98_image-20221031160701-15.png)

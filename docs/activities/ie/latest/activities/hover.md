@@ -14,7 +14,7 @@ RCA.Activities.IE.Hover
 
 The Hover activity will move the mouse pointer to a specified element without clicking.
 
-![image-20220506110715-1.png](/img/8fba3d_image-20220506110715-1.png)
+![image-20220506110715-1.png](/static/img/8fba3d_image-20220506110715-1.png)
 
 (\* for Mandatory)
 

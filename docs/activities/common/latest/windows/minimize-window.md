@@ -14,7 +14,7 @@ RCA.Activities.Common.MinimizeWindow
 
 The Minimize Window activity allows you to select a window and minimize it.
 
-![image-20230417162811-1.png](/img/image-20230417162811-1.png)
+![image-20230417162811-1.png](/static/img/image-20230417162811-1.png)
 
 \* indicates required fields.
 

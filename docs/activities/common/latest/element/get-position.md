@@ -15,7 +15,7 @@ RCA.Activities.Common.GetPosition
 
 This activity is used to retrieve the bounding rectangle of a specified UI element.
 
-![image-20230419125632-1.png](/img/image-20230419125632-1.png)
+![image-20230419125632-1.png](/static/img/image-20230419125632-1.png)
 
 (\* is mandatory)
 

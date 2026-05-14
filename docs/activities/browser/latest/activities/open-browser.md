@@ -14,7 +14,7 @@ RCA.Activities.Browser.OpenBrowser
 
 The Open Browser activity allows you to navigate to a specified URL by launching a browser and executing multiple activities within it.
 
-![1774410564895-514.png](/img/a4dc32_1774410564895-514.png)
+![1774410564895-514.png](/static/img/a4dc32_1774410564895-514.png)
 
 (\* for Mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.Mail.GetAccounts
 
 This activity returns a list of Outlook accounts currently logged in on the machine.
 
-![image-20220505162330-1.png](/img/4595ad_image-20220505162330-1.png)
+![image-20220505162330-1.png](/static/img/4595ad_image-20220505162330-1.png)
 
 \* indicates required fields.
 

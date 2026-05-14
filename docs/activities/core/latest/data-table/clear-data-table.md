@@ -14,7 +14,7 @@ RCA.Activities.Core.ClearDataTable
 
 This activity allows you to clear a specified DataTable.
 
-[![clear data table.jpg](/img/445457_clear-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Clear%20Data%20Table/WebHome/clear%20data%20table.jpg?rev=1.1)
+[![clear data table.jpg](/static/img/445457_clear-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Clear%20Data%20Table/WebHome/clear%20data%20table.jpg?rev=1.1)
 
 (\* is mandatory)
 

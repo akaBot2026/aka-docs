@@ -27,11 +27,11 @@ A user with no assigned Organization Unit does not have access to any type of re
 The same agent cannot be provisioned on two different Organization Units. Resources cannot be moved from one organization unit to another.  
 A drop-down list displays all of the units assigned to a user located at the header of the page, available at all times. User can also use this to switch between OU.
 
-![image-20221101164936-20.png](/img/1d8887_image-20221101164936-20.png)
+![image-20221101164936-20.png](/static/img/1d8887_image-20221101164936-20.png)
 
 To access the OU page, click on the Administration tab in the left menu, then click Organization Unit tab. All previously created OU shall be in display there as below:
 
-![image-20221101165208-21.png](/img/682836_image-20221101165208-21.png)
+![image-20221101165208-21.png](/static/img/682836_image-20221101165208-21.png)
 
 As an Admin, you may view the details of specific OU, create, update, or remove or filter the OU, as well as manage the users that are allocated to them.
 
@@ -41,7 +41,7 @@ In order to view all the details of an OU, you can click the **eye** button.
 
 Once clicking, you will be redirected to the Details page.
 
-![image-20221101165318-22.png](/img/445096_image-20221101165318-22.png)
+![image-20221101165318-22.png](/static/img/445096_image-20221101165318-22.png)
 
 | No | Column/Label | Description |
 | --- | --- | --- |
@@ -53,11 +53,11 @@ Once clicking, you will be redirected to the Details page.
 
 To create a new organization unit, you click **"Create New”** button. If you want to edit an OU, select the edit option from Action next to the corresponding OU Name.
 
-![image-20221101165443-23.png](/img/654459_image-20221101165443-23.png)
+![image-20221101165443-23.png](/static/img/654459_image-20221101165443-23.png)
 
 After clicking, the system shows a pop-up form for you to fill the information:
 
-![image-20221101165552-24.png](/img/acd773_image-20221101165552-24.png)
+![image-20221101165552-24.png](/static/img/acd773_image-20221101165552-24.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory ? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -71,6 +71,6 @@ If you want to unassign a user from an organization unit, open the Edit windows 
 
 **Important!** Delete an Organization Unit will delete all resources within the unit. To remove an OU, click the corresponding **Delete**button next to the Organization Unit name on the Organization Unit page.Type your warning message here.
 
-![image-20221101165636-25.png](/img/d1ec82_image-20221101165636-25.png)
+![image-20221101165636-25.png](/static/img/d1ec82_image-20221101165636-25.png)
 
 A confirmation pop-up will appear. Select Delete to finish the operation.

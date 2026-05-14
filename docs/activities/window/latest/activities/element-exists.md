@@ -14,7 +14,7 @@ RCA.Activities.Windows.ElementExists
 
 The Element Exists activity allows you to verify whether a specified window element exists or not.
 
-![image-20220505170736-1.png](/img/6bcb00_image-20220505170736-1.png)
+![image-20220505170736-1.png](/static/img/6bcb00_image-20220505170736-1.png)
 
 (\*For mandatory)
 

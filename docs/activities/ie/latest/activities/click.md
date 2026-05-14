@@ -14,7 +14,7 @@ RCA.Activities.IE.Click
 
 The Click activity is used to send a click action into a webpage.
 
-![image-20220506110125-1.png](/img/a909be_image-20220506110125-1.png)
+![image-20220506110125-1.png](/static/img/a909be_image-20220506110125-1.png)
 
 (\* for Mandatory)
 

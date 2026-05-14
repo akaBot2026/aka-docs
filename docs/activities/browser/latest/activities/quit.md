@@ -14,7 +14,7 @@ RCA.Activities.Browser.Quit
 
 The Quit Browser closes the current browser. This will only close window Browser opened by Open Browser activity.
 
-![Browser_Quit](/img/ca06b2_ef854ca-screenshot_2021-05-25_155954.jpg)
+![Browser_Quit](/static/img/ca06b2_ef854ca-screenshot_2021-05-25_155954.jpg)
 
 (\* For Mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.IE.GetElement
 
 Extracts multiple UI elements on Internet Explorer. Activity is only valid inside Open Browser activity under the Internet Explorer category.
 
-![image-20220506110339-1.png](/img/908bf9_image-20220506110339-1.png)
+![image-20220506110339-1.png](/static/img/908bf9_image-20220506110339-1.png)
 
 (\* for Mandatory)
 

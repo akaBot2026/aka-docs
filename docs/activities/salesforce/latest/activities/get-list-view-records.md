@@ -16,7 +16,7 @@ You may use this activity to get the list of records of a Salesforce Object from
 
 * **Configure** – Configures the Salesforce Object and the list view to retrieve the records by using Salesforce Object Configuration wizard.
 
-![1715142092864-482.png](/img/d561c7_1715142092864-482.png)
+![1715142092864-482.png](/static/img/d561c7_1715142092864-482.png)
 
 ​**Properties**
 

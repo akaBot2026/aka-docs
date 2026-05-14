@@ -14,7 +14,7 @@ RCA.Activities.Core.GetSecureCredential
 
 The Get Secure Credential activity allows you to retrieve the credentials from a specified target from the Windows Credential Manager based on Credential and Persistence Type. As it is a Secure Credential, it always retrieves a secure string password and a string username. And it stores the success/fail result along with the username and password.
 
-![image-20220505152006-1.png](/img/561e25_image-20220505152006-1.png)
+![image-20220505152006-1.png](/static/img/561e25_image-20220505152006-1.png)
 
 (\* for Mandatory)
 

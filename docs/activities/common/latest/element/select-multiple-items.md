@@ -14,7 +14,7 @@ RCA.Activities.Common.SelectMultipleItems
 
 The Select Multiple Items activity allows you to select many items from a combo box or list box.
 
-![image-20220505133354-1.png](/img/fe49d4_image-20220505133354-1.png)
+![image-20220505133354-1.png](/static/img/fe49d4_image-20220505133354-1.png)
 
 (\* is mandatory)
 

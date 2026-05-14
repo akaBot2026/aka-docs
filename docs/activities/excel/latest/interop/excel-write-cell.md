@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelWriteCell
 
 This activity allows writing a value or formula into a specified spreadsheet cell or a range. If the sheet does not exist, a new one is created with the name specified in the Sheet Name property. If a value exists, it is overwritten. Changes are immediately saved. Can only be used in the Excel Application Scope activities.
 
-![image-20220505113619-1.jpeg](/img/3ef866_image-20220505113619-1.jpeg)
+![image-20220505113619-1.jpeg](/static/img/3ef866_image-20220505113619-1.jpeg)
 
 (\* is mandatory)
 

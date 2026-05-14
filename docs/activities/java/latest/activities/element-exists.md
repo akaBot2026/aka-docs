@@ -14,7 +14,7 @@ RCA.Activities.Java.ElementExists
 
 This activity allows you to check if the element exists in a Java file
 
-[![element exist.jpg](/img/5cab0f_element-exist.jpg)](/bin/download/Activities/Java/Activities/Element%20Exists/WebHome/element%20exist.jpg?rev=1.1)
+[![element exist.jpg](/static/img/5cab0f_element-exist.jpg)](/bin/download/Activities/Java/Activities/Element%20Exists/WebHome/element%20exist.jpg?rev=1.1)
 
 (\* is mandatory)
 

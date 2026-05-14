@@ -14,7 +14,7 @@ RCA.Activities.Core.Delete
 
 This activity allows you to delete the file or folder in the specified location. If a folder that contains multiple files or folders is specified, they are all deleted.
 
-![image-20220513104159-1.png](/img/5f00c6_image-20220513104159-1.png)
+![image-20220513104159-1.png](/static/img/5f00c6_image-20220513104159-1.png)
 
 (\* for Mandatory)
 

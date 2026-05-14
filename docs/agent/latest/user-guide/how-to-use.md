@@ -28,7 +28,7 @@ To open the akaBot Agent, you need to:
 – Right click akaBot icon.  
 – Select Show akaBot Agent.
 
-![image-20220505174101-1.png](/img/d5b6ed_image-20220505174101-1.png)
+![image-20220505174101-1.png](/static/img/d5b6ed_image-20220505174101-1.png)
 
 After that, akaBot Agent program is displayed on screen as below:
 
@@ -38,7 +38,7 @@ If your network requires the proxy to get access to the Bot Center, you need to 
 
 **Step 1:** In Settings screen ( if in the List Workflows screen then select Settings button at the right upper corner).
 
-![image-20221117102945-5.png](/img/2d6c9f_image-20221117102945-5.png)
+![image-20221117102945-5.png](/static/img/2d6c9f_image-20221117102945-5.png)
 
 **Step 2:** Choose Network tab and fill information into Network Configuration form.
 
@@ -50,7 +50,7 @@ If select Manual proxy option, you need to specify the proxy setting:
 * Fill proxy port.
 * If the proxy requires the authentication, check option Required Authentication then fill user name, password to authenticate.
 
-![image-20221117102229-3.png](/img/5d0ea0_image-20221117102229-3.png)
+![image-20221117102229-3.png](/static/img/5d0ea0_image-20221117102229-3.png)
 
 ## **Configure bot setting & connect to Bot Center**
 
@@ -72,7 +72,7 @@ After having the Agent Key, you can perform below actions to connect to the akaB
 
 After connecting successfully, status of akaBot Center turns to be Connected.
 
-![image-20221117102433-4.png](/img/fabb7a_image-20221117102433-4.png)
+![image-20221117102433-4.png](/static/img/fabb7a_image-20221117102433-4.png)
 
 If the bot is already connected to the akaBot Center, you can disconnect at any time by clicking Disconnect button.
 
@@ -96,7 +96,7 @@ To pull a version of package, you need to click on "Down Arrow" symbol. The akaB
 
 After downloading, the changes in new version will be automatically applied in the next running.
 
-![image-20221117102945-5.png](/img/2d6c9f_image-20221117102945-5.png)
+![image-20221117102945-5.png](/static/img/2d6c9f_image-20221117102945-5.png)
 
 ### **2. Start a process**
 
@@ -109,7 +109,7 @@ For a new process, you need to full the package to the local machine firstly the
 
 After clicking "Play" symbol, the process starts to act as defined in the workflow. And while running, the bot status turns to be Busy.
 
-![image-20221117103154-6.png](/img/119849_image-20221117103154-6.png)
+![image-20221117103154-6.png](/static/img/119849_image-20221117103154-6.png)
 
 **Run process in Picture in Picture mode**
 
@@ -117,15 +117,15 @@ Picture-in-Picture allows you to run attended automations without having to inte
 
 To start a process in Picture in Picture mode, you need to click to 3 dots icon then choose "Run workflow in PiP" symbol
 
-![image-20221117135605-8.png](/img/d21165_image-20221117135605-8.png)
+![image-20221117135605-8.png](/static/img/d21165_image-20221117135605-8.png)
 
 For the first-time running process in PiP mode, user has to supply credential information for bot to unlock the screen and start process in case your machine is sleeping.
 
-![image-20221117140949-9.png](/img/b6ccf9_image-20221117140949-9.png)
+![image-20221117140949-9.png](/static/img/b6ccf9_image-20221117140949-9.png)
 
 After choosing "Run in PiP", a new session opens and you can choose whether or not you can control it with your mouse and your keyboard by turning on/off toggle "Take control" on the top of the session or can keep it on top in case you want to keep an eyes over the running process while you are working on something else by turning on/off the toggle "Keep on top"
 
-![328420978_738762340828688_4227970519572779063_n.png](/img/e9d235_328420978_738762340828688_4227970519572779063_n.png)
+![328420978_738762340828688_4227970519572779063_n.png](/static/img/e9d235_328420978_738762340828688_4227970519572779063_n.png)
 
 **Note:**After closing the PiP session, all the settings related to location, the session's size,  taking control, keeping on top, PiP Mode Resolution, Signing Off After Finish, and Closing PiP After Finish will be kept for the next running.
 
@@ -148,4 +148,4 @@ There are a few things to consider when using the Picture-in-Picture feature:
 While a process is running, you can stop it manually by clicking "Stop" symbol   
 After stopped, robot status turns to be Available and all related programs while running will be closed.
 
-![image-20221117103353-7.png](/img/1cd410_image-20221117103353-7.png)
+![image-20221117103353-7.png](/static/img/1cd410_image-20221117103353-7.png)

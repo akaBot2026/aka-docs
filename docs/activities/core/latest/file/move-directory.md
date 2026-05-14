@@ -14,7 +14,7 @@ RCA.Activities.Core.MoveDirectory
 
 This activity allows you to move a folder to another location.
 
-![image-20220513105013-1.png](/img/95d686_image-20220513105013-1.png)
+![image-20220513105013-1.png](/static/img/95d686_image-20220513105013-1.png)
 
 (\* for Mandatory)
 

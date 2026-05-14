@@ -20,13 +20,13 @@ If you want to take advantage of the **High-Density Agents** feature on a Wind
 3. Follow the wizard (click **Next**) until you reach the **Select Server Roles** step.
 4. In the **Roles** section, select the **Remote Desktop Services** option and click **Next**.
 
-![image-20221208171529-1.png](/img/be880f_image-20221208171529-1.png)
+![image-20221208171529-1.png](/static/img/be880f_image-20221208171529-1.png)
 
        5. Follow the wizard until you reach the **Select Role Services** step, without changing the displayed settings.
 
        6. In the **Role Services** section, select the **Remote Desktop Session Host** option. A dialog box is displayed prompting you regarding some required features.
 
-![image-20221208171636-2.png](/img/2c4e42_image-20221208171636-2.png)
+![image-20221208171636-2.png](/static/img/2c4e42_image-20221208171636-2.png)
 
        7. Click **Add Features**. You are returned to the wizard.
 
@@ -44,4 +44,4 @@ You need to add the users that can connect to that machine (they do not need adm
 6. Click **OK**. The configuration is saved and the **Select Users, Computers, Service Accounts, or Groups** window closes.
 7. In the **Remote Desktop Users Properties** window, click **Apply** and **OK**. Your settings are saved and the users you just added will now be able to login to the Windows Server machine.
 
-![image-20221213162428-1.png](/img/e169d2_image-20221213162428-1.png)
+![image-20221213162428-1.png](/static/img/e169d2_image-20221213162428-1.png)

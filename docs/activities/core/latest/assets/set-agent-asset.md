@@ -14,7 +14,7 @@ RCA.Core.Activities.SetAgentAsset
 
 This activity allows you to update a specified Asset value that is already available on the Center by using a provided Asset Name. Notes that the Agent needs to have Edit permission to perform this activity when Set Agent Asset is triggered, the authentication context of the Agent under which it runs is being used.
 
-![image-20220506112725-1.png](/img/6097d3_image-20220506112725-1.png)
+![image-20220506112725-1.png](/static/img/6097d3_image-20220506112725-1.png)
 
 (\* for Mandatory)
 

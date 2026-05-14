@@ -14,7 +14,7 @@ RCA.Activities.Core.AddTransactionItem
 
 This Add Transaction Item activity allows you to add an item in the queue, start the transaction, and sets the status to In Progress. It can also be configured to add a custom reference to each transaction.
 
-![image-20220506113254-1.png](/img/fe03a7_image-20220506113254-1.png)
+![image-20220506113254-1.png](/static/img/fe03a7_image-20220506113254-1.png)
 
 (\* for Mandatory)
 

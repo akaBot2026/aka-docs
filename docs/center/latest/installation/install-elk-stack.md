@@ -18,15 +18,15 @@ Download and Install Java ([https://www.java.com/en/](https://www.java.com/en/))
 
 Take note of the installation path during the install, you ll need to know that for the next step. It should be something like C:\Program Files\Java\jre1.8\_xxx:
 
-![1776051365761-131.png](/img/1124ca_1776051365761-131.png)
+![1776051365761-131.png](/static/img/1124ca_1776051365761-131.png)
 
-![1776051391450-311.png](/img/e0cb95_1776051391450-311.png)
+![1776051391450-311.png](/static/img/e0cb95_1776051391450-311.png)
 
 Create a system variable named JAVA\_HOME
 
 Open  System Properties  ->  Environment Variables  and create a new  System variable  named as JAVA\_HOME with a value of the path from the Java install.
 
-![1776051433497-983.png](/img/67b98f_1776051433497-983.png)
+![1776051433497-983.png](/static/img/67b98f_1776051433497-983.png)
 
 ## **1.2 Elasticsearch**
 
@@ -34,7 +34,7 @@ Elasticsearch is the core of the ELK stack and is where all of the data will be 
 
 - Download package ([https://www.elastic.co/downloads/elasticsearch](https://www.elastic.co/downloads/elasticsearch)) - version 7.9.3
 
-![1776051583607-548.png](/img/8fe54a_1776051583607-548.png)
+![1776051583607-548.png](/static/img/8fe54a_1776051583607-548.png)
 
 - Extract the downloaded package into a designated folder in your file system (e.g. c:\elk).
 
@@ -46,11 +46,11 @@ Elasticsearch is the core of the ELK stack and is where all of the data will be 
 
 ` Invoke-Expression -command  c:\ELK\elasticsearch\bin\elasticsearch-service manager `
 
-![1776052277687-801.png](/img/5a5435_1776052277687-801.png)
+![1776052277687-801.png](/static/img/5a5435_1776052277687-801.png)
 
 - Running browse to [http://localhost:9200](http://localhost:9200)
 
-![1776052395005-832.png](/img/5c8496_1776052395005-832.png)
+![1776052395005-832.png](/static/img/5c8496_1776052395005-832.png)
 
 - Open port 9200(default port elasticsearch)
 
@@ -62,7 +62,7 @@ Logstash is responsible for receiving the data from the remote clients and then 
 
 [(https://www.elastic.co/downloads/logstash)](https://www.elastic.co/downloads/logstash) - version 7.9.3
 
-![1776052537954-605.png](/img/48c296_1776052537954-605.png)
+![1776052537954-605.png](/static/img/48c296_1776052537954-605.png)
 
 - Unzipped Logstash folder (e.g. c:\elk).
 
@@ -127,7 +127,7 @@ Invoke-Expression -command  c:\ELK\nssm\win64\nssm install Logstash
 * Startup directory: C:\ELK\logstash\bin
 * Arguments: -f C:\ELK\logstash\config\logstash.conf
 
-![1776052883129-476.png](/img/46a82b_1776052883129-476.png)
+![1776052883129-476.png](/static/img/46a82b_1776052883129-476.png)
 
 **c.** In Details Tab, set the following:
 
@@ -135,14 +135,14 @@ Invoke-Expression -command  c:\ELK\nssm\win64\nssm install Logstash
 * Description: Logstash Service
 * Startup type: Automatic
 
-![1776053004190-976.png](/img/19497e_1776053004190-976.png)
+![1776053004190-976.png](/static/img/19497e_1776053004190-976.png)
 
 **d.** In Dependencies Tab, set the following:
 
 * This service depends  : elasticsearch-service-x64
 * Click  Install Service 
 
-![1776053063612-117.png](/img/2ee080_1776053063612-117.png)
+![1776053063612-117.png](/static/img/2ee080_1776053063612-117.png)
 
 **e**. Open port 5044
 
@@ -154,7 +154,7 @@ Kibana is the web based front end that will be used to search the data stored in
 
 ([https://www.elastic.co/downloads/kibana](https://www.elastic.co/downloads/kibana))   version 7.9.3
 
-![1776053215456-145.png](/img/d766ab_1776053215456-145.png)
+![1776053215456-145.png](/static/img/d766ab_1776053215456-145.png)
 
 - Unzipped Kibana folder (e.g. c:\elk).
 
@@ -169,7 +169,7 @@ Invoke-Expression -command  c:\ELK\nssm\win64\nssm install Kibana
 * Path: C:\ELK\kibana\bin\kibana.bat
 * Startup directory: C:\ELK\kibana\bin
 
-![1776053341012-491.png](/img/0505c1_1776053341012-491.png)
+![1776053341012-491.png](/static/img/0505c1_1776053341012-491.png)
 
 **c.** In Details Tab, set the following:
 
@@ -177,20 +177,20 @@ Invoke-Expression -command  c:\ELK\nssm\win64\nssm install Kibana
 * Description: KibanaService
 * Startup type: Automatic
 
-![1776053406326-710.png](/img/83f7b7_1776053406326-710.png)
+![1776053406326-710.png](/static/img/83f7b7_1776053406326-710.png)
 
 **d.** In Dependencies Tab, set the following:
 
 * This service depends  : elasticsearch-service-x64, Logstash
 * Click  Install Service 
 
-![1776053464604-547.png](/img/819051_1776053464604-547.png)
+![1776053464604-547.png](/static/img/819051_1776053464604-547.png)
 
 - Navigate to the Kibana configuration file, found in the config directory, which in this case is C:\ELK\kibana\config\kibana.yml
 
 Open the file in notepad and uncomment/edit the following lines:
 
-![1776053524831-555.png](/img/652264_1776053524831-555.png)
+![1776053524831-555.png](/static/img/652264_1776053524831-555.png)
 
 Change server.port (recommend port 5601) and open port (5601)
 
@@ -198,7 +198,7 @@ Open services.msc and verify the service starts: Elasticsearch, Logstash, Kibana
 
 - Verify Kibana is accessible: [http://localhost:5601](http://localhost:5601)
 
-![1776053596498-662.png](/img/9afc4d_1776053596498-662.png)
+![1776053596498-662.png](/static/img/9afc4d_1776053596498-662.png)
 
 ## **1.5 Filebeat**
 
@@ -208,17 +208,17 @@ Filebeat is used for collecting and shipping log files to logstash.
 
 ([https://www.elastic.co/fr/downloads/beats/filebeat](https://www.elastic.co/fr/downloads/beats/filebeat))   version 7.9.3
 
-![1776053705946-185.png](/img/8f84fa_1776053705946-185.png)
+![1776053705946-185.png](/static/img/8f84fa_1776053705946-185.png)
 
 - Unzipped Filebeat folder (e.g. c:\elk\filebeat).
 
 - Edit the filebeat.yml configuration file, commenting out the Elasticsearch output and uncommenting the Logstash section setting the host to the IP of the ELK server: (e.g. localhost:5044)
 
-![1776063183004-113.png](/img/5ebb4a_1776063183004-113.png)
+![1776063183004-113.png](/static/img/5ebb4a_1776063183004-113.png)
 
 Set Directory contains log file: C:\Program Files\Apache Software Foundation\Tomcat 8.5\logs\agents\\*\\*.log
 
-![1776063218105-229.png](/img/cf1f74_1776063218105-229.png)
+![1776063218105-229.png](/static/img/cf1f74_1776063218105-229.png)
 
 - Now to install beats, open a Windows PowerShell prompt (Run as Administrator) and type the following commands:
 
@@ -226,7 +226,7 @@ PowerShell.exe -ExecutionPolicy UnRestricted -File C:\ELK\filebeat\.\install-ser
 
 - Open services.msc and verify the service starts: Filebeat
 
-![1776063272337-445.png](/img/929e81_1776063272337-445.png)
+![1776063272337-445.png](/static/img/929e81_1776063272337-445.png)
 
 ## **1.6 Creating an index pattern in kibana**
 
@@ -234,27 +234,27 @@ Index patterns tell Kibana what Elasticsearch indices we want to search, so now 
 
 - Access Kibana at http://localhost:5601 and click on Explore on my own.
 
-![1776063338436-767.png](/img/237352_1776063338436-767.png)
+![1776063338436-767.png](/static/img/237352_1776063338436-767.png)
 
 - Click on Management (Gear Icon) on the left hand menu
 
-![1776063365041-358.png](/img/e2b9da_1776063365041-358.png)
+![1776063365041-358.png](/static/img/e2b9da_1776063365041-358.png)
 
 - Click on Kibana > Index Patterns and then Create an Index pattern using filebeat-\* as the pattern
 
-![1776063403706-761.png](/img/8836bf_1776063403706-761.png)
+![1776063403706-761.png](/static/img/8836bf_1776063403706-761.png)
 
 - For the Time Filter field name use @timestamp and then click Create index pattern
 
-![1776063506491-523.png](/img/4baa59_1776063506491-523.png)
+![1776063506491-523.png](/static/img/4baa59_1776063506491-523.png)
 
-![1776063532613-669.png](/img/569e85_1776063532613-669.png)
+![1776063532613-669.png](/static/img/569e85_1776063532613-669.png)
 
 - The File Logs are now flowing into the ELK stack from the ELK server itself.
 
 And under  Discover .
 
-![1776063579362-885.png](/img/c498f1_1776063579362-885.png)
+![1776063579362-885.png](/static/img/c498f1_1776063579362-885.png)
 
 ## **2. CONFIG ON CENTER**
 
@@ -262,6 +262,6 @@ And under  Discover .
 
 - Update elasticsearch properties: enabled=true,..
 
-![1776063661414-996.png](/img/a78199_1776063661414-996.png)
+![1776063661414-996.png](/static/img/a78199_1776063661414-996.png)
 
 - Restart tomcat service

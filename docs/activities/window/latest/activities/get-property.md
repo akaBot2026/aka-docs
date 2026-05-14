@@ -14,7 +14,7 @@ RCA.Activities.Windows.GetProperty
 
 The Get Property activity allows you to retrieve the value of a specified property of a window element.
 
-![image-20220505171020-1.png](/img/61bf81_image-20220505171020-1.png)
+![image-20220505171020-1.png](/static/img/61bf81_image-20220505171020-1.png)
 
 (\*For mandatory)
 

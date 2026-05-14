@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.Hover
 
 The Hover activity will move the mouse pointer to a specified element without clicking.
 
-![image-20220505150347-1.png](/img/acd813_image-20220505150347-1.png)
+![image-20220505150347-1.png](/static/img/acd813_image-20220505150347-1.png)
 
 (\*For Mandatory)
 

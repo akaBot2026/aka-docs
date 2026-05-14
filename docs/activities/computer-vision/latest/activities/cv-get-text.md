@@ -14,7 +14,7 @@ RCA.Activities.ComputerVision.CVGetText
 
 Extracts the text from a specified UI element.
 
-![image-20220505132150-1.png](/img/3f8f40_image-20220505132150-1.png)
+![image-20220505132150-1.png](/static/img/3f8f40_image-20220505132150-1.png)
 
 (\*For mandatory)
 

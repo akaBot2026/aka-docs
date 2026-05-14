@@ -14,7 +14,7 @@ RCA.Activities.Common.Hover
 
 The Hover activity will move the mouse pointer to a specified element without clicking.
 
-![image-20220505133248-1.png](/img/e9bb36_image-20220505133248-1.png)
+![image-20220505133248-1.png](/static/img/e9bb36_image-20220505133248-1.png)
 
 (\* is mandatory)
 

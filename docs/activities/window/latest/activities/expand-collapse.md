@@ -14,7 +14,7 @@ RCA.Activities.Windows.ExpandCollapse
 
 The Expand/Collapse activity allows you to appear or hide all the items of the items’ tree in a window element.
 
-![image-20220505170619-1.png](/img/134a25_image-20220505170619-1.png)
+![image-20220505170619-1.png](/static/img/134a25_image-20220505170619-1.png)
 
 (\*For mandatory)
 

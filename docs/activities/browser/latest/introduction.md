@@ -27,10 +27,10 @@ You have to **[Install web extension](/bin/view/akaBot%20Studio/%5B3%5D%20Studio
 
 Click the **Pick target element** button opens **Selector Editor** wizard.
 
-![image-20220509131533-1.png](/img/20dec3_image-20220509131533-1.png)
+![image-20220509131533-1.png](/static/img/20dec3_image-20220509131533-1.png)
 
 After click **Pick target element** button, the **Indicate** field specifies what you are indicating at the moment. When the wizard is opened for the first time, the **Target** needs to be indicated. For each possible target, the wizard automatically selects an anchor, if one is available.
 
 Here is an example result after indicate element on web:
 
-![image-20220509131542-2.png](/img/23460f_image-20220509131542-2.png)
+![image-20220509131542-2.png](/static/img/23460f_image-20220509131542-2.png)

@@ -14,7 +14,7 @@ RCA.Activities.FTP.WithFTPSession
 
 This activity provides a container which connects to an FTP server and performs multiple actions within it. Moreover, this activity helps you to establish the FTP session by specifying the connection details & validating it.
 
-![image-20220505152445-1.png](/img/ef84d5_image-20220505152445-1.png)
+![image-20220505152445-1.png](/static/img/ef84d5_image-20220505152445-1.png)
 
 (\* is mandatory)
 

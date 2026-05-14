@@ -14,7 +14,7 @@ RCA.Activities.Common.CloseTab
 
 The Close Tab activity closes currently displayed tab in a browser.
 
-![image-20220505134436-1.png](/img/554f93_image-20220505134436-1.png)
+![image-20220505134436-1.png](/static/img/554f93_image-20220505134436-1.png)
 
 (\*For Mandatory)
 

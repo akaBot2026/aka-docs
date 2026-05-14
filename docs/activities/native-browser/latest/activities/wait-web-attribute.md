@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.WaitWebAttribute
 
 The Wait Web Attribute waits for the value of a specified web attribute to be enabled.
 
-![image-20220505151917-1.png](/img/ee8d45_image-20220505151917-1.png)
+![image-20220505151917-1.png](/static/img/ee8d45_image-20220505151917-1.png)
 
 (\*For mandatory)
 

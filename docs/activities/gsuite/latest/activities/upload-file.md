@@ -14,7 +14,7 @@ RCA.Activities.GSuite.UploadFile
 
 This activity is specified for Google Drive to upload file.
 
-![image-20220505160610-1.png](/img/3bd52f_image-20220505160610-1.png)
+![image-20220505160610-1.png](/static/img/3bd52f_image-20220505160610-1.png)
 
 (\*For mandatory)
 

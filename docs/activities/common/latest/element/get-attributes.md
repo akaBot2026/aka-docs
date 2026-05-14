@@ -15,7 +15,7 @@ RCA.Activities.Common.GetAttribute
 
 This activity is used to retrieve the value of a specified attribute of an UI element.
 
-![image-20230419124053-1.png](/img/image-20230419124053-1.png)
+![image-20230419124053-1.png](/static/img/image-20230419124053-1.png)
 
 (\* is mandatory)
 

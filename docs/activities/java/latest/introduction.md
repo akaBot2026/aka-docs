@@ -39,25 +39,25 @@ Copy the following files to the specified destination directories:
 
 * ### **Go to Control Panel, choose Optimize Visual Display**
 
-![1776220943601-655.png](/img/79537f_1776220943601-655.png)
+![1776220943601-655.png](/static/img/79537f_1776220943601-655.png)
 
 * ### **Check Enable Java Access Bridge**
 
-![1776220993577-455.png](/img/81c1a7_1776220993577-455.png)
+![1776220993577-455.png](/static/img/81c1a7_1776220993577-455.png)
 
 #### ***If it does not work then:***
 
 **Step 1:** Open Java app, open Task Manager
 
-![1776221297870-213.png](/img/bbfeaa_1776221297870-213.png)
+![1776221297870-213.png](/static/img/bbfeaa_1776221297870-213.png)
 
 **Step 2:** Right click the Java app, then choose Properties
 
-![1776221348602-229.png](/img/684624_1776221348602-229.png)
+![1776221348602-229.png](/static/img/684624_1776221348602-229.png)
 
 **Step 3:** Copy the location
 
-![1776221446698-706.png](/img/0ea230_1776221446698-706.png)
+![1776221446698-706.png](/static/img/0ea230_1776221446698-706.png)
 
 **Step 4:** From Control Panel > choose Edit system environment variables.
 
@@ -65,7 +65,7 @@ Copy the following files to the specified destination directories:
 
 **Step 6:** Add the Location above to Path
 
-![1776221690665-464.png](/img/8f880b_1776221690665-464.png)
+![1776221690665-464.png](/static/img/8f880b_1776221690665-464.png)
 
 **Step 7:** Go to Command line,
 
@@ -73,4 +73,4 @@ Copy the following files to the specified destination directories:
 
 **Step 9:** Run command: “jabswitch –enable”
 
-![1776221749325-594.png](/img/9a8d8a_1776221749325-594.png)
+![1776221749325-594.png](/static/img/9a8d8a_1776221749325-594.png)

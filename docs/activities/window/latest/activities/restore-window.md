@@ -14,7 +14,7 @@ RCA.Activities.Windows.RestoreWindow
 
 The Restore Window allows you to restore a window to its previous size and position (the size it was before it was minimized or maximized).
 
-![image-20220505165927-1.png](/img/14690d_image-20220505165927-1.png)
+![image-20220505165927-1.png](/static/img/14690d_image-20220505165927-1.png)
 
 (\*For mandatory)
 

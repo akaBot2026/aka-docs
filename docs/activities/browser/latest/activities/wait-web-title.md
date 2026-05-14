@@ -15,7 +15,7 @@ RCA.Activities.Browser.WaitWebTitle
 The Wait Page Title verifies if the page title has the requirement format according to the predefined  
 value.
 
-![image-20220505141738-1.png](/img/73bc4f_image-20220505141738-1.png)
+![image-20220505141738-1.png](/static/img/73bc4f_image-20220505141738-1.png)
 
 (\* For Mandatory)
 

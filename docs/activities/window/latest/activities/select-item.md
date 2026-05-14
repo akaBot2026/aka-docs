@@ -14,7 +14,7 @@ RCA.Activities.Windows.SelectItem
 
 The Select Item activity allows you to select an item from a combo box or list box.
 
-![image-20220505170054-1.png](/img/3441ed_image-20220505170054-1.png)
+![image-20220505170054-1.png](/static/img/3441ed_image-20220505170054-1.png)
 
 (\*For mandatory)
 

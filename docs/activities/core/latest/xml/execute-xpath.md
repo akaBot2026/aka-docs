@@ -14,7 +14,7 @@ RCA.Activities.Core.ExecuteXPath
 
 The Execute XPath activity allows you to execute the specified XPath expression on a given XML document.
 
-[![execute path.jpg](/img/8f4688_execute-path.jpg)](/bin/download/Activities/XML/Activities/Execute%20XPath/WebHome/execute%20path.jpg?rev=1.1)
+[![execute path.jpg](/static/img/8f4688_execute-path.jpg)](/bin/download/Activities/XML/Activities/Execute%20XPath/WebHome/execute%20path.jpg?rev=1.1)
 
 (\* for Mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.Excel.ReadColumn
 
 Reads the values from a column beginning with the cell specified in the StartingCell field, and stores it in an IEnumerable variable.
 
-![image-20220505140503-2.png](/img/b6579d_image-20220505140503-2.png)
+![image-20220505140503-2.png](/static/img/b6579d_image-20220505140503-2.png)
 
 (\* for mandatory)
 

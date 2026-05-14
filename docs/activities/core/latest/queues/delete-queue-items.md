@@ -14,7 +14,7 @@ RCA.Activities.Core.DeleteQueueItems
 
 This activity allows you to delete items in a specific queue. Notes: In order to use this activity in Studio, the Agent has to be connected to akaBot Center and it needs to edit, create and delete permissions on queue and delete permissions on transactions.
 
-![image-20220506113413-1.png](/img/a347ce_image-20220506113413-1.png)
+![image-20220506113413-1.png](/static/img/a347ce_image-20220506113413-1.png)
 
 (\* for Mandatory)
 

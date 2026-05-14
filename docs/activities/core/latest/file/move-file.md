@@ -14,7 +14,7 @@ RCA.Activities.Core.MoveFile
 
 This activity allows you to move a file from a specified location to another.
 
-![image-20220513105249-1.png](/img/62cc32_image-20220513105249-1.png)
+![image-20220513105249-1.png](/static/img/62cc32_image-20220513105249-1.png)
 
 (\* for Mandatory)
 

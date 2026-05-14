@@ -14,7 +14,7 @@ displayed_sidebar: activitiesSidebar
 Extracts text values and their metadata from a window element.  
 This activity is automatically generated when using the **Native Screen Scraping** method.
 
-![image-20220505170937-1.png](/img/get-visible-text.png)
+![image-20220505170937-1.png](/static/img/get-visible-text.png)
 
 ---
 

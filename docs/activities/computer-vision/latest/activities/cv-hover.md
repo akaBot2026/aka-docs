@@ -14,7 +14,7 @@ RCA.Activities.ComputerVision.CVHover
 
 Hovers over a specified UI element which is targeted by using the Computer Vision neural network.
 
-![image-20220505132314-1.png](/img/4341fa_image-20220505132314-1.png)
+![image-20220505132314-1.png](/static/img/4341fa_image-20220505132314-1.png)
 
 (\*For mandatory)
 

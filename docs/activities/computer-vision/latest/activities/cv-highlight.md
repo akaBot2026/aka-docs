@@ -14,7 +14,7 @@ RCA.Activities.ComputerVision.CVHighlight
 
 Visually highlights a specified UI element. The element is identified by using the Computer Vision neural network.
 
-![image-20220505132226-1.png](/img/4fc8ed_image-20220505132226-1.png)
+![image-20220505132226-1.png](/static/img/4fc8ed_image-20220505132226-1.png)
 
 (\*For mandatory)
 

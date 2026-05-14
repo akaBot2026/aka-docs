@@ -14,7 +14,7 @@ RCA.Activities.Java.GetElement
 
 This activity allows you to get elements from a Java file.
 
-[![get element.png](/img/b3bf86_get-element.png)](/bin/download/Activities/Java/Activities/Get%20Element/WebHome/get%20element.png?rev=1.1)
+[![get element.png](/static/img/b3bf86_get-element.png)](/bin/download/Activities/Java/Activities/Get%20Element/WebHome/get%20element.png?rev=1.1)
 
 (\* is mandatory)
 

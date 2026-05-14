@@ -11,7 +11,7 @@ displayed_sidebar: visionSidebar
 
 Akabot Vision is the intelligent document processing (IDP) module that reads, classifies, and extracts structured data from unstructured sources — scanned invoices, contracts, forms, emails, and images. It combines OCR, machine learning, and configurable extraction templates to turn paper-based and digital documents into actionable data for your workflows.
 
-![Akabot Vision](/img/akabot-vision-01.png)
+![Akabot Vision](/static/img/akabot-vision-01.png)
 
 ## Key features
 

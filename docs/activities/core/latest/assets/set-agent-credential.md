@@ -14,7 +14,7 @@ RCA.Core.Activities.SetAgentCredential
 
 This activity allows you to update a specified akaBot Center credential value that is already available on the Center by using a provided Asset Name. Notes that the Agent needs to have Edit permission.
 
-![image-20220506112758-1.png](/img/86f21c_image-20220506112758-1.png)
+![image-20220506112758-1.png](/static/img/86f21c_image-20220506112758-1.png)
 
 (\* for Mandatory)
 

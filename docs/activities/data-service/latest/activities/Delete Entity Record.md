@@ -34,4 +34,4 @@ This activity allows to delete a specified record for the selected Entity from t
 * **Output​​​​​​​**
   + Output Record: The record created from the Data Service, stored in an Entity type object. This field only supports objects of types imported from Data Service and must be of the same type as the selected Entity Type.
 
-![image-20230630131938-5.png](/img/32dec1_image-20230630131938-5.png)
+![image-20230630131938-5.png](/static/img/32dec1_image-20230630131938-5.png)

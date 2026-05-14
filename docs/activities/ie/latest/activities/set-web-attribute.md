@@ -14,7 +14,7 @@ RCA.Activities.IE.SetWebAttribute
 
 Sets the value of a specified web attribute.
 
-![image-20220506111217-1.png](/img/f12f3d_image-20220506111217-1.png)  
+![image-20220506111217-1.png](/static/img/f12f3d_image-20220506111217-1.png)  
 (\* for Mandatory)
 
 **In the body of the activity**

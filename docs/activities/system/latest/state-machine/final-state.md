@@ -14,7 +14,7 @@ System.Activities.Statements.State
 
 This activity is used when you finish and you want to end the execution.
 
-![image-20220506144216-1.png](/img/64bf70_image-20220506144216-1.png)
+![image-20220506144216-1.png](/static/img/64bf70_image-20220506144216-1.png)
 
 (\* for Mandatory)
 

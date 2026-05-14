@@ -14,7 +14,7 @@ RCA.Activities.GSuite.GetFilePermission
 
 This activity allows getting permission for a specified file if requested.
 
-![image-20220505160123-1.png](/img/4706f3_image-20220505160123-1.png)
+![image-20220505160123-1.png](/static/img/4706f3_image-20220505160123-1.png)
 
 (\*For mandatory)
 

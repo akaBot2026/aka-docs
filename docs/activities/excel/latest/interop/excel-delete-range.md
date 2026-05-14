@@ -14,7 +14,7 @@ RCA.Activities.Excel.ExcelDeleteRange
 
 This activity allows deleting a specified range in an Excel workbook. Can also be used to shift an entire row or column by using the ShiftCells and ShiftOption property fields.
 
-![image-20220505131710-1.jpeg](/img/62cc1a_image-20220505131710-1.jpeg)
+![image-20220505131710-1.jpeg](/static/img/62cc1a_image-20220505131710-1.jpeg)
 
 (\* for mandatory)
 

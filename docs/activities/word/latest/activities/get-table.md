@@ -14,7 +14,7 @@ RCA.Activities.Word.GetTable
 
 This activity allows you to retrieve a table from a Word Document and return it as a DataTable Variable for future use. The activity can only be used inside a Word Application Scope activity.
 
-![image-20220506111810-1.png](/img/98c634_image-20220506111810-1.png)
+![image-20220506111810-1.png](/static/img/98c634_image-20220506111810-1.png)
 
 (\* for Mandatory)
 

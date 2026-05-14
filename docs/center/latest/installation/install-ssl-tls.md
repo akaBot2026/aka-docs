@@ -22,7 +22,7 @@ You can easily do this on your own system by running below OpenSSL command.
 
 Note: Kindly copy the certificate files to the same folder of OpenSSL
 
-![image-20220506135312-1.png](/img/e4c6a5_image-20220506135312-1.png)
+![image-20220506135312-1.png](/static/img/e4c6a5_image-20220506135312-1.png)
 
 JSON
 
@@ -33,7 +33,7 @@ $ openssl pkcs12 -export -in your\_crtfile.crt -inkey your\_key.key -out your\_d
 * Stop Tomcat service and navigate to this location:**(C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf)**
 * Open file server and add the code below
 
-![image-20220506135319-2.png](/img/db4c27_image-20220506135319-2.png)
+![image-20220506135319-2.png](/static/img/db4c27_image-20220506135319-2.png)
 
 C++
 
@@ -56,7 +56,7 @@ keyAlias= your\_alias
 
 * **Step 1** : Open CMD with with administrative privileges and type these command below:
 
-![image-20220506135327-3.png](/img/04658c_image-20220506135327-3.png)
+![image-20220506135327-3.png](/static/img/04658c_image-20220506135327-3.png)
 
 LESS
 
@@ -64,17 +64,17 @@ keytool - genkey -alias youralias -keyalg RSA -keystore "your\_file\_path\yourfi
 
 After that, it will require to create password (keyStore), organization, name,....
 
-![image-20220506135333-4.png](/img/260e4a_image-20220506135333-4.png)
+![image-20220506135333-4.png](/static/img/260e4a_image-20220506135333-4.png)
 
 Once you completed, it will generate a file type **"jks"** on your folder.
 
 * **Step 2** : Stop Tomcat and v o open server file via this location: ***C:\Program Files\Apache Software Foundation\Tomcat 8.5\conf***
 
-![image-20220506135339-5.png](/img/a2fa97_image-20220506135339-5.png)
+![image-20220506135339-5.png](/static/img/a2fa97_image-20220506135339-5.png)
 
 * **Step 3** : Add the code below.
 
-![image-20220506135351-6.png](/img/3b9313_image-20220506135351-6.png)
+![image-20220506135351-6.png](/static/img/3b9313_image-20220506135351-6.png)
 
 JSON
 

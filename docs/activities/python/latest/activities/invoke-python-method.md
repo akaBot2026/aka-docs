@@ -14,7 +14,7 @@ RCA.Activities.Python.InvokeMethod
 
 This activity allows you to run a specified method from a Python script directly in a workflow. The script contains the method that needs to be loaded into the environment first by using the Load Python Script activity.
 
-[![invoke.jpg](/img/d9b21e_invoke.jpg)](/bin/download/Activities/Python/Activities/Invoke%20Python%20Method/WebHome/invoke.jpg?rev=1.1)
+[![invoke.jpg](/static/img/d9b21e_invoke.jpg)](/bin/download/Activities/Python/Activities/Invoke%20Python%20Method/WebHome/invoke.jpg?rev=1.1)
 
 (\* is mandatory)
 

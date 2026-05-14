@@ -14,7 +14,7 @@ RCA.Activities.Core.FilterDataTable
 
 This activity allows you to filter a DataTable variable by specifying conditions in the Filter Wizard window. The activity can keep or delete rows or columns according to the logical conditions that are specified in the wizard. The body of the activity contains a Filter Wizard button so that you can access the wizard and customize your settings at any time.
 
-[![filter data table.jpg](/img/2e3424_filter-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Filter%20DataTable/WebHome/filter%20data%20table.jpg?rev=1.1)
+[![filter data table.jpg](/static/img/2e3424_filter-data-table.jpg)](/bin/download/Activities/Data%20Table/Activities/Filter%20DataTable/WebHome/filter%20data%20table.jpg?rev=1.1)
 
 (\* is mandatory)
 
@@ -22,7 +22,7 @@ This activity allows you to filter a DataTable variable by specifying conditions
 
 **Filter Wizard**- Set filter for rows, set output columns
 
-![image-20230419143358-1.png](/img/4cae76_image-20230419143358-1.png)
+![image-20230419143358-1.png](/static/img/4cae76_image-20230419143358-1.png)
 
 ## **Properties**
 

@@ -14,7 +14,7 @@ System.Activities.Statements.WriteLine
 
 Enables you to print string values to the Output panel2
 
-![image-20220506113102-1.png](/img/37c8c9_image-20220506113102-1.png)
+![image-20220506113102-1.png](/static/img/37c8c9_image-20220506113102-1.png)
 
 (\* for Mandatory)
 

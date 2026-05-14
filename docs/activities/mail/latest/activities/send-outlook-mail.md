@@ -14,7 +14,7 @@ RCA.Activities.Mail.SendOutlookMail
 
 This activity allows you to send email messages from Outlook.
 
-![image-20220505162242-1.png](/img/6f58bd_image-20220505162242-1.png)
+![image-20220505162242-1.png](/static/img/6f58bd_image-20220505162242-1.png)
 
 (\* is mandatory)
 

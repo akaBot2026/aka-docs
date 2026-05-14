@@ -14,7 +14,7 @@ RCA.Activities.ComputerVision.CVCheck
 
 Selects, clears, or toggles check boxes. This activity can only interact with check boxes.
 
-![image-20220505131636-1.png](/img/e763b8_image-20220505131636-1.png)
+![image-20220505131636-1.png](/static/img/e763b8_image-20220505131636-1.png)
 
 (\*For mandatory)
 

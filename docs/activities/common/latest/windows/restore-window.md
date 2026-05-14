@@ -14,7 +14,7 @@ RCA.Activities.Common.RestoreWindow
 
 The Restore Window activity allows you to restore a window to its previous size and position (the size before it was minimized or maximized).
 
-![image-20230417163410-1.png](/img/image-20230417163410-1.png)
+![image-20230417163410-1.png](/static/img/image-20230417163410-1.png)
 
 \* indicates required fields.
 

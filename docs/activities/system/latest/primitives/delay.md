@@ -14,7 +14,7 @@ System.Activities.Statements.Delay
 
 Enables you to wait for a specific amount of time before continuing with the workflow.
 
-![image-20220506113006-1.png](/img/c869ac_image-20220506113006-1.png)
+![image-20220506113006-1.png](/static/img/c869ac_image-20220506113006-1.png)
 
 (\* for Mandatory)
 

@@ -36,4 +36,4 @@ This activity allow to update an existing record for the selected Entity in Data
 * **Output​​​​​​​**
   + Output Record: The record created from the Data Service, stored in an Entity type object. This field only supports objects of types imported from Data Service and must be of the same type as the selected Entity Type.
 
-![image-20230630131917-4.png](/img/689cfb_image-20230630131917-4.png)
+![image-20230630131917-4.png](/static/img/689cfb_image-20230630131917-4.png)

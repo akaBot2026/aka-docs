@@ -23,7 +23,7 @@ Logs in akaBot can be categorized into 2 groups:
 
 In akaBot Studio, we can view the loggings in Output panel:
 
-![image-20230414102256-3.png](/img/fea036_image-20230414102256-3.png)
+![image-20230414102256-3.png](/static/img/fea036_image-20230414102256-3.png)
 
 ## **Logging levels**
 
@@ -43,7 +43,7 @@ By default, we can view the logs down to Info level; that means, only the logs w
 1. Open akaBot Agent, choose Setting button
 2. In Setting screen, select Center tab and change the Logging level:
 
-![image-20230414104336-4.png](/img/6f4e32_image-20230414104336-4.png)
+![image-20230414104336-4.png](/static/img/6f4e32_image-20230414104336-4.png)
 
 How details the logs are showed:
 

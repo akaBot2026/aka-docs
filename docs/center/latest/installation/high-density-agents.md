@@ -30,7 +30,7 @@ High-Density Agents (HDA) allow multiple robot sessions to run simultaneously on
 
 **Step 4**: Choose and configure Agent Settings
 
-![image-20221219091856-1.png](/img/975127_image-20221219091856-1.png)
+![image-20221219091856-1.png](/static/img/975127_image-20221219091856-1.png)
 
 * **Windows Session**
   + **Console**
@@ -48,7 +48,7 @@ High-Density Agents (HDA) allow multiple robot sessions to run simultaneously on
 
 **Step 5**: Click Save button
 
-![image-20221219091927-2.png](/img/7318bd_image-20221219091927-2.png)
+![image-20221219091927-2.png](/static/img/7318bd_image-20221219091927-2.png)
 
 **Other configuration parameters (optional)**
 

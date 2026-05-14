@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.Check
 
 The Check/Uncheck activity allows you to check or uncheck a Checkbox.
 
-![image-20220505145345-1.png](/img/3c41a3_image-20220505145345-1.png)
+![image-20220505145345-1.png](/static/img/3c41a3_image-20220505145345-1.png)
 
 (\*For mandatory)
 

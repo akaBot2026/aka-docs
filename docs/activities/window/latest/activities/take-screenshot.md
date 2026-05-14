@@ -14,7 +14,7 @@ RCA.Activities.Windows.TakeScreenshot
 
 The Take Screenshot activity allows you to take a screenshot of a window.
 
-![image-20220505171229-1.png](/img/ed6028_image-20220505171229-1.png)
+![image-20220505171229-1.png](/static/img/ed6028_image-20220505171229-1.png)
 
 (\*For mandatory)
 

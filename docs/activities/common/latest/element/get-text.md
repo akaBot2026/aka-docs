@@ -14,7 +14,7 @@ RCA.Activities.Common.GetText
 
 The Get Text activity allows you to get text from webpage or windows application.
 
-![image-20220505133216-1.png](/img/795ac7_image-20220505133216-1.png)
+![image-20220505133216-1.png](/static/img/795ac7_image-20220505133216-1.png)
 
 (\* is mandatory)
 

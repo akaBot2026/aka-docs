@@ -14,7 +14,7 @@ RCA.Activities.ComputerVision.CVTypeInto
 
 Sends keystrokes to a UI element. The UI element is identified by using the Computer Vision neural network.
 
-![image-20220505132534-1.png](/img/7191a2_image-20220505132534-1.png)
+![image-20220505132534-1.png](/static/img/7191a2_image-20220505132534-1.png)
 
 (\*For mandatory)
 

@@ -14,7 +14,7 @@ Notes: Your application must be web-hooked and compatible with akaBot.
 
 After selecting the **Webhook** tab, the system displays the following page.
 
-![image-20221101165929-27.png](/img/96aed6_image-20221101165929-27.png)
+![image-20221101165929-27.png](/static/img/96aed6_image-20221101165929-27.png)
 
 | No | Column | Description |
 | --- | --- | --- |
@@ -27,7 +27,7 @@ After selecting the **Webhook** tab, the system displays the following page.
 
 To create a webhook
 
-![image-20221101165953-28.png](/img/5d5b4c_image-20221101165953-28.png)
+![image-20221101165953-28.png](/static/img/5d5b4c_image-20221101165953-28.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |

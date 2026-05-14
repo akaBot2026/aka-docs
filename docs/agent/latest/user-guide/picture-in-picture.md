@@ -12,15 +12,15 @@ Picture-in-Picture allows you to run attended automation without having to inter
 
 To start a process in Picture in Picture mode, you need to click to 3 dots icon then choose "Run workflow in PiP" symbol
 
-![Run workflow in PiP](/img/image-20221117135605-8.png)
+![Run workflow in PiP](/static/img/image-20221117135605-8.png)
 
 For the first time running  process in PiP mode, users has to supply credential information for bot to unlock the screen and start process in case your machine is sleeping. 
 
-![PiP credential](/img/image-20221117140949-9.png)
+![PiP credential](/static/img/image-20221117140949-9.png)
 
 After choosing "Run in PiP", a new session opens and you can choose whether or not you can control it with your mouse and your keyboard by turning on/off toggle "Take control" on the top of the session or can keep it on top in case you want to keep an eyes over the running process while you are working on something else by turning on/off the toggle "Keep on top" 
 
-![PiP session](/img/328420978_738762340828688_4227970519572779063_n.png)
+![PiP session](/static/img/328420978_738762340828688_4227970519572779063_n.png)
 
 **Note**: After closing the PiP session, all the settings related to location, the session's size,  taking control, keeping on top, PiP Mode Resolution, Signing Off After Finish, and Closing PiP After Finish will be kept for the next running.
 

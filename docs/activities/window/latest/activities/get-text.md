@@ -14,7 +14,7 @@ RCA.Activities.Windows.GetText
 
 This activity allows you to get text from Windows application.
 
-![image-20220505170858-1.png](/img/408b9e_image-20220505170858-1.png)
+![image-20220505170858-1.png](/static/img/408b9e_image-20220505170858-1.png)
 
 (\* for Mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.Common.SendHotkey
 
 The Send Hot Key activity allows you to send a keyboard shortcuts to a webpage element or window application element.
 
-![image-20220505133424-1.png](/img/923771_image-20220505133424-1.png)
+![image-20220505133424-1.png](/static/img/923771_image-20220505133424-1.png)
 
 (\* is mandatory)
 

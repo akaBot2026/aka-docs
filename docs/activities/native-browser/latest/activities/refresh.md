@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.Refresh
 
 The Refresh reloads the tab that is currently displayed in a browser.
 
-![image-20220505151059-1.png](/img/b39258_image-20220505151059-1.png)
+![image-20220505151059-1.png](/static/img/b39258_image-20220505151059-1.png)
 
 (\*For mandatory)
 

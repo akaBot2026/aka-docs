@@ -14,7 +14,7 @@ RCA. Core.Activities.WriteTextFile
 
 This activity allows you to write the specified text into a file. If the file already exists, the pre-existing text is overwritten. If the file does not exist, it is created.
 
-![image-20220513111351-1.png](/img/2fbe16_image-20220513111351-1.png)
+![image-20220513111351-1.png](/static/img/2fbe16_image-20220513111351-1.png)
 
 (\* for Mandatory)
 

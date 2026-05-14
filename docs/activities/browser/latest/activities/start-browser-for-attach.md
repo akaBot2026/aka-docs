@@ -14,7 +14,7 @@ RCA.Activities.Browser.StartBrowserForAttach
 
 A container that enables you to attach to a browser which is already running
 
-![Browser_StartBrowserForAttach](/img/554b0d_bdb1dad-screenshot_2021-05-25_173342.jpg)
+![Browser_StartBrowserForAttach](/static/img/554b0d_bdb1dad-screenshot_2021-05-25_173342.jpg)
 
 (\* for Mandatory)
 

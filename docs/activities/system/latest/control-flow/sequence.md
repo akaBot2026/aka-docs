@@ -14,7 +14,7 @@ System.Activities.Statements.Sequence
 
 Sequence is a container used to organize a series of activities that are executed sequentially in a predefined order.
 
-![image-20230417141912-1.png](/img/sequence.png)
+![image-20230417141912-1.png](/static/img/sequence.png)
 
 \* indicates required fields.
 

@@ -14,7 +14,7 @@ RCA.Activities.Mail.GetExchangeEmailMessage
 
 Retrieves an email message from Exchange.
 
-![image-20220505160859-1.png](/img/34f167_image-20220505160859-1.png)
+![image-20220505160859-1.png](/static/img/34f167_image-20220505160859-1.png)
 
 (\* is mandatory)
 

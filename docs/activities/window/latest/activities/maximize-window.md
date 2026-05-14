@@ -14,7 +14,7 @@ RCA.Activities.Windows.MaximizeWindow
 
 The Maximize Window selects a window and maximizes it.
 
-![image-20220505165512-1.png](/img/e01126_image-20220505165512-1.png)
+![image-20220505165512-1.png](/static/img/e01126_image-20220505165512-1.png)
 
 (\*For mandatory)
 

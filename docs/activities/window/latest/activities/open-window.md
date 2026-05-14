@@ -13,7 +13,7 @@ displayed_sidebar: activitiesSidebar
 ## Description
 The **Open Window** activity allows you to open an application and execute multiple activities within it.
 
-![image-20220505165249-1.png](/img/open-window.png)
+![image-20220505165249-1.png](/static/img/open-window.png)
 
 \* is mandatory.
 

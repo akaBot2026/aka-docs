@@ -14,7 +14,7 @@ RCA.Activities.Core.SetTransactionStatus
 
 You can set the status of a transaction item to Failed or Successful.
 
-![image-20220506113646-1.png](/img/ae433c_image-20220506113646-1.png)
+![image-20220506113646-1.png](/static/img/ae433c_image-20220506113646-1.png)
 
 (\* for Mandatory)
 

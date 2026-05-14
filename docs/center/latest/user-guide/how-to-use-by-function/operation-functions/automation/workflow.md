@@ -12,7 +12,7 @@ A **Workflow** represents the association between a **Package** and an **Ag
 
 The Workflows page enables you to deploy an uploaded package to Agent Groups, manage previously created associations and keep all your workflows up to date. This helps you distribute packages on the Agent machines and execute works faster from the Tasks page. To access the Workflows page, you click the Workflow tab at the left menu. After clicking, the system shows the Workflow page listing all existed Workflow as below:
 
-![image-20221028093815-5.png](/img/image-20221028093815-5.png)
+![image-20221028093815-5.png](/static/img/image-20221028093815-5.png)
 
 | No | Column/Label | Description |
 | --- | --- | --- |
@@ -28,25 +28,25 @@ The Workflows page enables you to deploy an uploaded package to Agent Groups, ma
 
 To view a workflow, you can click the eye button.
 
-![image-20221028095243-9.png](/img/image-20221028095243-9.png)
+![image-20221028095243-9.png](/static/img/image-20221028095243-9.png)
 
 Besides all the general information displayed on the **Workflow Listing** page, the **Workflow Details** page also included Parameters and Machine Environment information generated when creating/editing the Workflow.
 
 Furthermore, you can see the update history as well as a list of Tasks executed by said Workflow. Details regarding Tasks shall be explained in the Tasks section.
 
-![image-20221028094255-6.png](/img/image-20221028094255-6.png)
+![image-20221028094255-6.png](/static/img/image-20221028094255-6.png)
 
 Here, you can search the Task list by **Time, Name, State, Agent** of the tasks.
 
-![image-20221028094515-7.png](/img/image-20221028094515-7.png)
+![image-20221028094515-7.png](/static/img/image-20221028094515-7.png)
 
 Users can also delete executed instances of this Workflow by selecting the **Checkbox** at the beginning of each Task. The **Delete** button will show up.
 
-![image-20221028094854-8.png](/img/image-20221028094854-8.png)
+![image-20221028094854-8.png](/static/img/image-20221028094854-8.png)
 
 ## **b. Search a Workflow**
 
-![image-20221028095456-10.png](/img/image-20221028095456-10.png)
+![image-20221028095456-10.png](/static/img/image-20221028095456-10.png)
 
 | No | Column /Label | Description | Type | Maximum | Input Requirement |
 | --- | --- | --- | --- | --- | --- |
@@ -58,11 +58,11 @@ Users can also delete executed instances of this Workflow by selecting the **Ch
 
 To create a workflow, you click the **“Create New”** button at the top of the page.
 
-![image-20221028095700-11.png](/img/image-20221028095700-11.png)
+![image-20221028095700-11.png](/static/img/image-20221028095700-11.png)
 
 After clicking, the system shows a form allowing you to create the workflow.
 
-![image-20221028100318-14.png](/img/image-20221028100318-14.png)
+![image-20221028100318-14.png](/static/img/image-20221028100318-14.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -73,7 +73,7 @@ After clicking, the system shows a form allowing you to create the workflow.
 
 Once filled in all the General information, you can add further **Parameters** and **Machine Environment** variables to the Workflow. You can add multiple variables, but you can only add one by one.
 
-![image-20221028101129-17.png](/img/image-20221028101129-17.png)
+![image-20221028101129-17.png](/static/img/image-20221028101129-17.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory ? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -84,7 +84,7 @@ Once filled in all the General information, you can add further **Parameters**�
 |  |  | If you chose bool | Boolean, SingleChoice |  | Yes |  |
 |  |  | If you chose integer | Int32 | 500 char | Yes |  |
 
-![image-20221028101149-18.png](/img/image-20221028101149-18.png)
+![image-20221028101149-18.png](/static/img/image-20221028101149-18.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -99,11 +99,11 @@ Once filled in all the General information, you can add further **Parameters**�
 
 To edit a workflow, you click the **Three dots** button, then click **Edit.**
 
-![image-20221028095829-12.png](/img/image-20221028095829-12.png)
+![image-20221028095829-12.png](/static/img/image-20221028095829-12.png)
 
 After clicking, the system shows a form allowing you to edit the info of the workflow.
 
-![image-20221028100409-15.png](/img/image-20221028100409-15.png)
+![image-20221028100409-15.png](/static/img/image-20221028100409-15.png)
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -117,12 +117,12 @@ Once edit package version, you can edit further **Parameters** and **Machine
 
 To delete, you click the **Three dots** button, then click Delete**.**
 
-![image-20221028101551-19.png](/img/image-20221028101551-19.png)
+![image-20221028101551-19.png](/static/img/image-20221028101551-19.png)
 
 Alternatively, you can select the checkbox before each Workflow and the Delete button will show up next to the Filter button. Tick the Checkbox next to Action will allow the user to select all displayed Agent for bulk delete.
 
-![image-20221028101717-20.png](/img/image-20221028101717-20.png)
+![image-20221028101717-20.png](/static/img/image-20221028101717-20.png)
 
 After clicking, a system will show a confirmation message for you to confirm.
 
-![image-20221028101740-21.png](/img/image-20221028101740-21.png)
+![image-20221028101740-21.png](/static/img/image-20221028101740-21.png)

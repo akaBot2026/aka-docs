@@ -14,7 +14,7 @@ RCA.Core.Activities.AppendLine
 
 This activity allows you to append the specified string to a file, creating the file if it does not already exist.
 
-![image-20220513103343-1.png](/img/3a0ad0_image-20220513103343-1.png)
+![image-20220513103343-1.png](/static/img/3a0ad0_image-20220513103343-1.png)
 
 (\* for Mandatory)
 

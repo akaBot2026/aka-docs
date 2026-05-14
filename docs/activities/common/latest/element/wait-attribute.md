@@ -15,7 +15,7 @@ RCA.Activities.Common.WaitAttribute
 
 This activity is used to wait for the value of the specified UI element's attribute to be equal to an object.
 
-![image-20230419124551-1.png](/img/image-20230419124551-1.png)
+![image-20230419124551-1.png](/static/img/image-20230419124551-1.png)
 
 (\* is mandatory)
 

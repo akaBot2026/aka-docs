@@ -14,7 +14,7 @@ RCA.Activities.GSuite.GetFileInfo
 
 This activity allows you to return information about a file, including its name, size, and type.
 
-![image-20220505155834-1.png](/img/7c4f84_image-20220505155834-1.png)
+![image-20220505155834-1.png](/static/img/7c4f84_image-20220505155834-1.png)
 
 (\*For mandatory)
 

@@ -14,7 +14,7 @@ RCA.Activities.Core.WaitQueueItem
 
 This activity allows you to retrieve a queue item from a specified queue and stored it in a QueueItem variable. At run time, if the queue is empty, it sends a message to Center starting it is ready to receive a queue item and then wait for a new one to be added.
 
-![image-20220506113715-1.png](/img/75b8ab_image-20220506113715-1.png)
+![image-20220506113715-1.png](/static/img/75b8ab_image-20220506113715-1.png)
 
 (\* for mandatory)
 

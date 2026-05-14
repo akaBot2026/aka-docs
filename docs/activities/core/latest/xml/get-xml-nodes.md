@@ -14,7 +14,7 @@ RCA.Activities.Core.GetXMLNodes
 
 The Get Nodes activity allows you to retrieve an XML Node from a XML document.
 
-![get xml nodes.jpg](/img/8d91ed_get-xml-nodes.jpg)
+![get xml nodes.jpg](/static/img/8d91ed_get-xml-nodes.jpg)
 
 (\* for Mandatory)
 

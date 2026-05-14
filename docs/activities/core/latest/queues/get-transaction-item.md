@@ -14,7 +14,7 @@ RCA.Activities.Core.GetTransactionItem
 
 This activity allows you to get an item from the queue so that you can process and sets its status to In Progress. Note: the bot needs to have Edit permissions on queues.
 
-![image-20220506113519-1.png](/img/3b0665_image-20220506113519-1.png)
+![image-20220506113519-1.png](/static/img/3b0665_image-20220506113519-1.png)
 
 (\* for Mandatory)
 

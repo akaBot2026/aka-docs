@@ -14,7 +14,7 @@ RCA.Activities.NativeBrowser.GetElement
 
 Waits for the specified UI element to appear on the screen (to be in the foreground) and returns it as an element variable.
 
-![image-20220505145915-1.png](/img/eaf2c2_image-20220505145915-1.png)
+![image-20220505145915-1.png](/static/img/eaf2c2_image-20220505145915-1.png)
 
 (\*For mandatory)
 
