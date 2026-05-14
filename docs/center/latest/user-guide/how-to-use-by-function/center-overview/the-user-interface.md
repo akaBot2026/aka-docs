@@ -26,4 +26,4 @@ The main content area adapts its layout depending on the active module. List vie
 | 7 | **User Menu** | Access the following options and pages: ***Settings**: On this page, you can change the user details such as First Name, Last Name, Email and the display language.* **Password**: On this page, you can change the password that used to log in to Center. \* **Sign out**: Click here to sign out. |
 | 8 | **Version** | Show the version of akaBot Center |
 
-![image-20221026094656-1.png](/img/8a09e5_image-20221026094656-1.png)
+![image-20221026094656-1.png](/static/img/8a09e5_image-20221026094656-1.png)

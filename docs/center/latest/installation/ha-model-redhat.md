@@ -12,7 +12,7 @@ displayed_sidebar: centerSidebar
 # 1. Before you start
 This document aims to guide you to install new akaBot Center in High Availability model (“Fail Over” model) as below:
 
-![Architecture](/img/high-availability.png)
+![Architecture](/static/img/high-availability.png)
 
 ### Model Components:
 
@@ -117,7 +117,7 @@ sudo rpm -ivh <package name>
 rpm -q redis
 rpm -qi redis
 ```
-![image-20230804101914-2](/img/high-ava.png)
+![image-20230804101914-2](/static/img/high-ava.png)
 
 4. Start and enable Redis service:
 ```bash
@@ -129,7 +129,7 @@ sudo systemctl enable redis
 ```bash
 sudo systemctl status redis
 ```
-![image-20230804101914-3](/img/status.png)
+![image-20230804101914-3](/static/img/status.png)
 
 ### 2.1.2. Step 2 – Configure Redis Remote Access
 1. Turn off Redis service (if running)
@@ -143,7 +143,7 @@ sudo vi /etc/redis.conf
 ```
 
 3. Search and update the `bind` parameter value from `127.0.0.1` to `0.0.0.0`
-![image-20230804101914-4](/img/bind.png)
+![image-20230804101914-4](/static/img/bind.png)
 
 4. Save changes and exit: Press `ESC` then type: `:wq`
 
@@ -164,7 +164,7 @@ sudo vi /etc/redis.conf
 ```
 
 3. Search and uncomment the `requirepass` parameter:
-![image-20230804101914-5](/img/vie.png)
+![image-20230804101914-5](/static/img/vie.png)
 
 4. Save changes and exit: Press `ESC` then type: `:wq`
 
@@ -255,7 +255,7 @@ sudo systemctl enable activemq
 ```bash
 sudo systemctl status activemq
 ```
-![image-20230804101914-6](/img/studio.png)
+![image-20230804101914-6](/static/img/studio.png)
 
 ### 2.2.4. Step 4 - Configure Java Heap Memory of ActiveMQ Service
 1. Stop ActiveMQ service
@@ -277,7 +277,7 @@ ACTIVEMQ_OPTS_MEMORY="-Xms1G -Xmx2G"
 - Parameter `-Xms`: minimum Java heap size. Please set the number \<= ¼ RAM capacity. (Ex: RAM = 4G, set -Xms1G).
 - Parameter `-Xmx`: maximum Java heap size. Please set the number \<= ½ RAM capacity. (Ex: RAM = 4G, set -Xmx2G).
 
-![image-20230804101914-7](/img/xmx.png)
+![image-20230804101914-7](/static/img/xmx.png)
 
 3. Save changes and exit: Press `ESC` then type: `:wq`
 
@@ -290,7 +290,7 @@ sudo systemctl start activemq
 ```bash
 sudo systemctl status activemq
 ```
-![image-20230804101914-8](/img/active.png)
+![image-20230804101914-8](/static/img/active.png)
 
 ### 2.2.5. Step 5 – Configure ActiveMQ service.
 1. Stop activemq service
@@ -310,7 +310,7 @@ sudo vi /opt/activemq/conf/activemq.xml
 ```
 
 - Change broker name (optional)
-![image-20230804101914-9](/img/change.png)
+![image-20230804101914-9](/static/img/change.png)
 
 - Add below code section at the end of file to configure Oracle DataSource:
 ```xml
@@ -322,7 +322,7 @@ sudo vi /opt/activemq/conf/activemq.xml
       <property name="poolPreparedStatements" value="true"/>
 </bean>
 ```
-![image-20230804101914-10](/img/bean.png)
+![image-20230804101914-10](/static/img/bean.png)
 
 **Note:**
 - If your database uses SID then: `DB_URL = jdbc:oracle:thin:@<DB-SERVER>:<DB-PORT>:<DB-SID>`
@@ -332,7 +332,7 @@ sudo vi /opt/activemq/conf/activemq.xml
 ```xml
 <jdbcPersistenceAdapter dataSource="#oracle-ds" createTablesOnStartup="true" />
 ```
-![image-20230804101914-11](/img/adapter.png)
+![image-20230804101914-11](/static/img/adapter.png)
 
 5. Save changes and exit: Press `ESC` key and type `:wq!`
 
@@ -578,7 +578,7 @@ sudo yum install openlogic-openjdk-11.0.16+8-linux-x64-el.rpm
 ```bash
 java -version
 ```
-![image-20230804101914-12](/img/java.png)
+![image-20230804101914-12](/static/img/java.png)
 
 ### 2.4.2. Step 2 - Install Apache Tomcat Web Server
 
@@ -617,7 +617,7 @@ Add below line at the end:
 ```text
 tomcat ALL= NOPASSWD: ALL
 ```
-![image-20230804101914-13](/img/all.png)
+![image-20230804101914-13](/static/img/all.png)
 
 Save changes: Press `ESC` key and type: `:wq`
 
@@ -633,7 +633,7 @@ cd /opt
 sudo chown tomcat:tomcat tomcat
 ls -l
 ```
-![image-20230804101914-14](/img/is.png)
+![image-20230804101914-14](/static/img/is.png)
 
 2. Configure permissions:
 ```bash
@@ -644,14 +644,14 @@ sudo chmod g+x conf
 sudo chown -R tomcat webapps/ work/ temp/ logs/
 ls -l
 ```
-![image-20230804101914-15](/img/sudo.png)
+![image-20230804101914-15](/static/img/sudo.png)
 
 #### 2.4.2.4 Step 4: Configure Tomcat service running
 1. Get Java Installation folder:
 ```bash
 sudo update-alternatives --list | grep java
 ```
-![image-20230804101914-16](/img/grep.png)
+![image-20230804101914-16](/static/img/grep.png)
 `%JAVA_HOME% = /usr/lib/jvm/openlogic-openjdk-11-hotspot`
 
 2. Create `tomcat.service` file:
@@ -716,7 +716,7 @@ Environment='CATALINA_OPTS=-Xms1G -Xmx2G -server -XX:+UseParallelGC'
 3manager.org.apache.juli.AsyncFileHandler.maxDays = 10
 4host-manager.apache.juli.AsyncFileHandler.maxDays = 10
 ```
-![1714726922102-116](/img/manager.png)
+![1714726922102-116](/static/img/manager.png)
 
 3. Save changes and exit.
 
@@ -726,7 +726,7 @@ Environment='CATALINA_OPTS=-Xms1G -Xmx2G -server -XX:+UseParallelGC'
 
 Ex: maxDays="10" 
 
-![1714726968776-214](/img/maxdays.png)
+![1714726968776-214](/static/img/maxdays.png)
 7. Save changes and exit
 
 8. Reload Daemon:
@@ -748,12 +748,12 @@ sudo systemctl enable tomcat
 ```bash
 sudo systemctl status tomcat
 ```
-![image-20230804101914-17](/img/hi.png)
+![image-20230804101914-17](/static/img/hi.png)
 
 ```bash
 curl localhost:8080
 ```
-![image-20230804101914-18](/img/owner.png)
+![image-20230804101914-18](/static/img/owner.png)
 
 11. Change owner/group for logs:
 ```bash
@@ -808,10 +808,10 @@ sudo vi /opt/tomcat/webapps/ROOT/WEB-INF/classes/quartz.properties
 
    Ex: You use Oracle database, then uncomment the line of Oracle:
 
-![image-20230804101914-19](/img/data.png)
+![image-20230804101914-19](/static/img/data.png)
 * Disable other database type's setting by commenting out the lines of `driverDelegateClass` variable other database types: 
 
-![image-20230804101914-20](/img/qua.png)
+![image-20230804101914-20](/static/img/qua.png)
 
 3. Save changes and exit: Press `ESC` then type: `:wq`
 
@@ -840,7 +840,7 @@ ${application.home:-.}/logs/agents/${agentName}/BotAgent.%d{yyyy-MM-dd}.%i.log
 6. Save changes and exit: 
 
 Press `ESC` then type: `:wq`
-![1714722756676-901](/img/log.png)
+![1714722756676-901](/static/img/log.png)
 
 #### C. Configure Database connection
 1. Open the file application-prod.yml
@@ -861,12 +861,12 @@ a. Update database URL
 * If you use service’s SID, then URL format should be:
 
   `url: jdbc:oracle:thin:@<DB-SERVER>:<DB-PORT>:<DB-SID>`
-![image-20230804101914-23](/img/orcl.png)
+![image-20230804101914-23](/static/img/orcl.png)
 
 * If you use service’s name, then JDBC URL format should be:
  
   `url: jdbc:oracle:thin:@//<DB-SERVER>:<PORT>/<SERVICE NAME>`
-![image-20230804101914-24](/img/oracle.png)
+![image-20230804101914-24](/static/img/oracle.png)
 
 MSSQL URL format:
 
@@ -884,7 +884,7 @@ c. Update driverClassName variable:
 
 + Comment out the line of driverClassName variable of other database types.
 
-![drive](/img/drive.png)
+![image-20230804101914-26.png](/static/img/image-20230804101914-26.png)
 
 d. Update database-platform and database variable
 
@@ -892,7 +892,7 @@ d. Update database-platform and database variable
 
 + Comment the lines of database-platform and database variables of other database types.
 
-![drive](/img/fl.png)
+![image-20230804101914-27.png](/static/img/image-20230804101914-27.png)
 
 e. Save changes and exit
 
@@ -923,7 +923,7 @@ in which:
 + \<IP-ACTIVEMQ-01\>: the IP address of ActiveMQ server 01
 
 + \<IP-ACTIVEMQ-02\>: the IP address of ActiveMQ server 02
-![image-20230804101914-28](/img/mq.png)
+![image-20230804101914-28](/static/img/mq.png)
 
 3. Save changes and exit.
 Press ESC then type:wq
@@ -939,7 +939,7 @@ sudo vi application-prod.yml
 
 * Update `mode` to `1` and `server` URL:
 
-![image-20230804101914-30](/img/redis.png)
+![image-20230804101914-30](/static/img/redis.png)
 
 * Update server variable’s value:
 ```yaml
@@ -1072,7 +1072,7 @@ sudo systemctl start tomcat
 ```bash
 curl localhost:8080
 ```
-![image-20230804101914-33](image-20230804101914-33.png)
+![image-20230804101914-33](/static/img/image-20230804101914-33.png)
 
 ---
 
@@ -1096,7 +1096,9 @@ sudo systemctl start nginx
 nginx -v
 sudo systemctl status nginx
 ```
-![image-20230804101914-35](image-20230804101914-35.png)
+![image-20230804101914-34](/static/img/image-20230804101914-34.png)
+
+![image-20230804101914-35](/static/img/image-20230804101914-35.png)
 
 ### 2.5.2. Step 2 - Configure Nginx service
 
@@ -1145,13 +1147,18 @@ sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 ---
 
 ## 2.6. Configure Catalina.out
-Stop Tomcat from writing large logs to `catalina.out`:
-1. Open `/opt/tomcat/bin/catalina.sh`
-2. Comment out line 229: `#CATALINA_OUT="$CATALINA_BASE"/logs/catalina.out`
-3. Add: `CATALINA_OUT=/dev/null`
-4. Save and restart Tomcat.
+By default, Tomcat will write out the logs into catalina.out file which may cause dramatic increasing of the file size and decrease the performance. To stop this, change the configuration in Catalina.out as below:
 
-![image-20230804101914-36](image-20230804101914-36.png)
+1. Open the file `/opt/tomcat/bin/catalina.sh`
+
+2. Press ESC then type: “:229” to the line 229
+3. Comment out this line to stop writing log to catalina.out.: `#CATALINA_OUT="$CATALINA_BASE"/logs/catalina.out`
+4. Add below line affer the commented line.: `CATALINA_OUT=/dev/null`
+5. Save changes and close the file.
+
+    Press ESC then type: “:wq”
+
+![image-20230804101914-36](/static/img/image-20230804101914-36.png)
 
 **DONE!!!** You have successfully completed the akaBot Center installation and configuration in High Availability model.
 
@@ -1160,12 +1167,30 @@ Stop Tomcat from writing large logs to `catalina.out`:
 # 3. Troubleshoot issues
 
 ## 3.1. Self-Troubleshoot
-
+If any raised issue during your installation, please follow below actions to self-troubleshoot.
 ### 3.1.1 Step 1 - Detect issue
-- Tomcat service issues: `/opt/tomcat/logs/catalina.out`
-- akaBot Center issues: `/opt/tomcat/logs/center/akaCenter.yyyy-mm-dd.0.log`
+Please use the logs to detect the issue.
 
-### 3.1.2 Step 2 – Troubleshoot typical issues
+Issues related to Tomcat service start, please use Tomcat log file: `/opt/tomcat/logs/catalina.out`
+Issues related to akaBot Center, please use Center log file: /opt/tomcat/logs/center/akaCenter.yyyy—mm-dd.0.log
+1. Remove the log of previous run by navigating to log folder then remove all the log files.
+
+2. Start service again to generate log.
+
+3. Open the log file to detect the issue.
+
+
+### 3.1.2 Step 2 – Troubleshoot  issues
 #### Issue 1: Could not commit with auto-commit
-**Solution:** Add `-Doracle.jdbc.autoCommitSpecCompliant=false` to `JAVA_OPTS` in `tomcat.service`.
-![image-20230804101914-38](image-20230804101914-38.png)
+
+Issue: Could not commit with auto-commit as below image:
+
+![image-20230804101914-37](/static/img/image-20230804101914-37.png)
+
+**Solution:** 
+1. At step 2.2.4 Step 4: Configure Tomcat service, please add below option into the JAVA-OPTS variable into service configuration file.
+`-Doracle.jdbc.autoCommitSpecCompliant=false` 
+
+![image-20230804101914-38](/static/img/image-20230804101914-38.png)
+
+2. Continue to follow the next steps in the guide

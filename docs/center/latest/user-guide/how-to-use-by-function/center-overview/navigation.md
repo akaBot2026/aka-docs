@@ -25,4 +25,4 @@ Breadcrumb navigation at the top of the main content area always shows where you
 | 6 | Monitoring | Place to control and track Agent's activities and view some reports. |
 | 13 | Administration | *User Management* Role Management: Authorization based on access rights mapping *License: Activate, renew, remove, and allocate licenses and view historical licensing data.* Webhook: allow external systems to subscribe and listen to Akabot Center |
 
-![image-20221027172247-1.png](/img/ec2673_image-20221027172247-1.png)
+![image-20221027172247-1.png](/static/img/ec2673_image-20221027172247-1.png)

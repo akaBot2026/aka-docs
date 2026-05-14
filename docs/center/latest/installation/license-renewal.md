@@ -18,27 +18,27 @@ This document aims to give you step-by-step instructions on how to renew a licen
 * Access to your akaBot Center via the web browser.
 * Select the License option.
 
-![1695699090252-386.png](/img/1a43fc_1695699090252-386.png)
+![1695699090252-386.png](/static/img/1a43fc_1695699090252-386.png)
 
 **Step 2:** Click the **Renew License** option on the license you want to renew.
 
-![1695699157651-425.png](/img/66a519_1695699157651-425.png)
+![1695699157651-425.png](/static/img/66a519_1695699157651-425.png)
 
 **Step 3:** Insert the license key you received before (in the license email), then click "Generate".
 
-![1695699235091-617.png](/img/ed9bd2_1695699235091-617.png)
+![1695699235091-617.png](/static/img/ed9bd2_1695699235091-617.png)
 
 **Step 4:** Copy the **Activation Request** below and open the link: **https:aegis.akabot.com/#/activation**
 
-![1695699317528-675.png](/img/ed9bd2_1695699317528-675.png)
+![1695699317528-675.png](/static/img/1695699317528-675.png)
 
 **Step 5**:  Paste it into the box -> Click **download file**
 
-![1695699508304-280.png](/img/1ca059_1695699508304-280.png)
+![1695699508304-280.png](/static/img/1ca059_1695699508304-280.png)
 
 **Step 6**: Back to your akaBot Center, please upload the file you've downloaded in the **Activate tab** in Center -> Click **Activate.**
 
-![1695699642889-537.png](/img/4e9f2d_1695699642889-537.png)
+![1695699642889-537.png](/static/img/4e9f2d_1695699642889-537.png)
 
 You have completed all the steps to renew a license. If you followed all the steps, but it's not successful, feel free to reach us at the email address: [[support@akaBot.com]]
 
