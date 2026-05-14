@@ -12,7 +12,7 @@ An Agent is an execution host that runs processes that are built in akaBot Studi
 
 The Agents page allows you to add Agents, edit them, and examine their status as well as the change runtime settings and the Agent Group to which they are assigned.
 
-**Note:**When the status of an Agent is busy (executing a process), you cannot edit the Username, Machine, or Type. To access the Agent page, click “Agent” tab in the left menu. After clicking, the system shows the Agent page listing all existed Agents as below.
+**Note:** When the status of an Agent is busy (executing a process), you cannot edit the Username, Machine, or Type. To access the Agent page, click “Agent” tab in the left menu. After clicking, the system shows the Agent page listing all existed Agents as below.
 
 ![image-20221031154319-2.png](/static/img/b8b026_image-20221031154319-2.png)
 
@@ -30,7 +30,7 @@ The Agents page allows you to add Agents, edit them, and examine their status as
 
 ## **a. View an Agent**
 
-You can view the details of the Agent by clicking the**eye** button.
+You can view the details of the Agent by clicking the **eye** button.
 
 ![image-20221031154549-3.png](/static/img/b28d65_image-20221031154549-3.png)
 

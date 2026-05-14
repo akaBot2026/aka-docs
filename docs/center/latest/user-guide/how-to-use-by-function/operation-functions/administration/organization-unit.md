@@ -37,7 +37,7 @@ As an Admin, you may view the details of specific OU, create, update, or remove 
 
 ## **a. View an OU**
 
-In order to view all the details of an OU, you can click the**eye** button.
+In order to view all the details of an OU, you can click the **eye** button.
 
 Once clicking, you will be redirected to the Details page.
 
@@ -69,7 +69,7 @@ If you want to unassign a user from an organization unit, open the Edit windows 
 
 ## **c. Remove an OU**
 
-**Important!**Delete an Organization Unit will delete all resources within the unit. To remove an OU, click the corresponding **Delete**button next to the Organization Unit name on the Organization Unit page.Type your warning message here.
+**Important!** Delete an Organization Unit will delete all resources within the unit. To remove an OU, click the corresponding **Delete**button next to the Organization Unit name on the Organization Unit page.Type your warning message here.
 
 ![image-20221101165636-25.png](/static/img/d1ec82_image-20221101165636-25.png)
 

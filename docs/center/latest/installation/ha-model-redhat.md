@@ -841,6 +841,7 @@ ${application.home:-.}/logs/agents/${agentName}/BotAgent.%d{yyyy-MM-dd}.%i.log
 
 Press `ESC` then type: `:wq`
 ![1714722756676-901](/static/img/log.png)
+![1714722756676-901](/static/img/log.png)
 
 #### C. Configure Database connection
 1. Open the file application-prod.yml
@@ -884,7 +885,7 @@ c. Update driverClassName variable:
 
 + Comment out the line of driverClassName variable of other database types.
 
-![drive](/static/img/drive.png)
+![image-20230804101914-26.png](/static/img/image-20230804101914-26.png)
 
 d. Update database-platform and database variable
 
@@ -892,7 +893,7 @@ d. Update database-platform and database variable
 
 + Comment the lines of database-platform and database variables of other database types.
 
-![drive](/static/img/fl.png)
+![image-20230804101914-27.png](/static/img/image-20230804101914-27.png)
 
 e. Save changes and exit
 
@@ -1096,6 +1097,8 @@ sudo systemctl start nginx
 nginx -v
 sudo systemctl status nginx
 ```
+![image-20230804101914-34](/static/img/image-20230804101914-34.png)
+
 ![image-20230804101914-35](/static/img/image-20230804101914-35.png)
 
 ### 2.5.2. Step 2 - Configure Nginx service
@@ -1145,11 +1148,16 @@ sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 ---
 
 ## 2.6. Configure Catalina.out
-Stop Tomcat from writing large logs to `catalina.out`:
-1. Open `/opt/tomcat/bin/catalina.sh`
-2. Comment out line 229: `#CATALINA_OUT="$CATALINA_BASE"/logs/catalina.out`
-3. Add: `CATALINA_OUT=/dev/null`
-4. Save and restart Tomcat.
+By default, Tomcat will write out the logs into catalina.out file which may cause dramatic increasing of the file size and decrease the performance. To stop this, change the configuration in Catalina.out as below:
+
+1. Open the file `/opt/tomcat/bin/catalina.sh`
+
+2. Press ESC then type: “:229” to the line 229
+3. Comment out this line to stop writing log to catalina.out.: `#CATALINA_OUT="$CATALINA_BASE"/logs/catalina.out`
+4. Add below line affer the commented line.: `CATALINA_OUT=/dev/null`
+5. Save changes and close the file.
+
+    Press ESC then type: “:wq”
 
 ![image-20230804101914-36](/static/img/image-20230804101914-36.png)
 
@@ -1160,12 +1168,30 @@ Stop Tomcat from writing large logs to `catalina.out`:
 # 3. Troubleshoot issues
 
 ## 3.1. Self-Troubleshoot
-
+If any raised issue during your installation, please follow below actions to self-troubleshoot.
 ### 3.1.1 Step 1 - Detect issue
-- Tomcat service issues: `/opt/tomcat/logs/catalina.out`
-- akaBot Center issues: `/opt/tomcat/logs/center/akaCenter.yyyy-mm-dd.0.log`
+Please use the logs to detect the issue.
 
-### 3.1.2 Step 2 – Troubleshoot typical issues
+Issues related to Tomcat service start, please use Tomcat log file: `/opt/tomcat/logs/catalina.out`
+Issues related to akaBot Center, please use Center log file: /opt/tomcat/logs/center/akaCenter.yyyy—mm-dd.0.log
+1. Remove the log of previous run by navigating to log folder then remove all the log files.
+
+2. Start service again to generate log.
+
+3. Open the log file to detect the issue.
+
+
+### 3.1.2 Step 2 – Troubleshoot  issues
 #### Issue 1: Could not commit with auto-commit
-**Solution:** Add `-Doracle.jdbc.autoCommitSpecCompliant=false` to `JAVA_OPTS` in `tomcat.service`.
+
+Issue: Could not commit with auto-commit as below image:
+
+![image-20230804101914-37](/static/img/image-20230804101914-37.png)
+
+**Solution:** 
+1. At step 2.2.4 Step 4: Configure Tomcat service, please add below option into the JAVA-OPTS variable into service configuration file.
+`-Doracle.jdbc.autoCommitSpecCompliant=false` 
+
 ![image-20230804101914-38](/static/img/image-20230804101914-38.png)
+
+2. Continue to follow the next steps in the guide

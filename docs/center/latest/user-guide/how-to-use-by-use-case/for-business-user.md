@@ -20,9 +20,9 @@ In the top of center, enter the workflow, agent group, agent … what you are lo
 
 *(If you don’t need modify assets, please click*[*here*](#_Running_bot)*to find the way to run Bot)*
 
-S1: To access Asset page, click **Asset**in the left menu
+S1: To access Asset page, click **Asset** in the left menu
 
-S2: Find name of asset you want to edit, or quickly search by the **Search**tab on the top of the page
+S2: Find name of asset you want to edit, or quickly search by the **Search** tab on the top of the page
 
 ![image-20230425134819-2.png](/static/img/df4224_image-20230425134819-2.png)
 
@@ -36,7 +36,7 @@ Choose **Edit** button in the Action column
 
 ***Option 2:***
 
-Alternatively, when you click the “**eye**” icon, details page of asset will appear > select **Edit**button
+Alternatively, when you click the “**eye**” icon, details page of asset will appear > select **Edit** button
 
 ![image-20230425134819-4.png](/static/img/e3ce63_image-20230425134819-4.png)
 
@@ -46,13 +46,13 @@ S4: You can edit the asset in Value(\*) and **Save**
 
 2.1. Run manually
 
-S1: In **Automation**menu > the **Task**tab will show up automatically
+S1: In **Automation** menu > the **Task** tab will show up automatically
 
 ![image-20230425134819-5.png](/static/img/075119_image-20230425134819-5.png)
 
 ***Option 1:***
 
-S2: Click **Create New**button on the top right of page to create a new task.
+S2: Click **Create New** button on the top right of page to create a new task.
 
 ![image-20230425134819-6.png](/static/img/885e05_image-20230425134819-6.png)
 
@@ -60,11 +60,18 @@ S3: A form will pop-up for you to fill in
 
 |  |  |
 | --- | --- |
-| * **Workflow:**Select the workflow for the task you want to create * **Search:**Enter the name of the agent you want to search * **Agent:**Depends on the workflow that you chose, select agents you want to run the task you are creating   Click **Save** | image-20230425134819-7.png |
+| 
+* **Workflow:** Select the workflow for the task you want to create 
+*  **Search:** Enter the name of the agent you want to search 
+*  **Agent:** Depends on the workflow that you chose, select agents you want to run the task you are creating   
+
+* Click **Save** 
+
+| image-20230425134819-7.png |
 
 ***Option 2:***
 
-B2: *Alternatively*, you can click**“triple dot” icon**in Action column next to the task > Then a dropdown list is shown up > choose **Clone**
+B2: *Alternatively*, you can click **“triple dot” icon** in Action column next to the task > Then a dropdown list is shown up > choose **Clone**
 
 ![image-20230425134819-8.png](/static/img/585d3a_image-20230425134819-8.png)
 
@@ -76,7 +83,7 @@ B3: A form will show up, feel free to modify it if needed > Click **Save**
 
 *If you have not set up schedule for bot, you need to create it before run schedule, look up [here](#_Use_case_2:) to know how to create.*
 
-In case you already have schedule, you can click in **Schedule**tab > choose the task you want to run > then click **Clone**button in the dropdown list
+In case you already have schedule, you can click in **Schedule** tab > choose the task you want to run > then click **Clone** button in the dropdown list
 
 ![image-20230425134819-10.png](/static/img/6c90bd_image-20230425134819-10.png)
 
@@ -88,7 +95,7 @@ In case you already have schedule, you can click in **Schedule**tab > choose the
 
 ***Option 1:***
 
-S1: In **Automation**menu, you click the **Schedule** tab to show all the schedule
+S1: In **Automation** menu, you click the **Schedule** tab to show all the schedule
 
 S2: Choose workflow that needs to be viewed then click in “**eye**” icon
 
@@ -96,7 +103,7 @@ S2: Choose workflow that needs to be viewed then click in “**eye**” icon
 
 ***Option 2:***
 
- S1: In **Monitoring**menu, click **Productivity**tab. You can see all schedule of each agent in a calendar. Or choose agent/ machine in dropdown lists to see schedule of a particular agent/ machine
+ S1: In **Monitoring** menu, click **Productivity** tab. You can see all schedule of each agent in a calendar. Or choose agent/ machine in dropdown lists to see schedule of a particular agent/ machine
 
 ![image-20230425134819-12.png](/static/img/728e6e_image-20230425134819-12.png)
 
@@ -122,7 +129,23 @@ S3: Now, you need to fill in the pop-up form
 
 |  |  |
 | --- | --- |
-| * **Name (\*):**Name of the schedule * **Workflow (\*):**Select the workflow you want to create schedule * **Time Zone (\*):**Select the time zone you want the schedule will follow   **Trigger tab:**   * **Recurrence:**Select the cycle for the schedule: Minutes/ Hourly/ Daily/ Weekly/ Monthly/ Advance * **Start Date (\*):**select the time at which the schedule will start and * **End Date:**select the time at which the schedule will end   **Execution Target tab:**depends on the workflow you chose, tick the suitable agent  **Parameters tab:**  **Holiday settings tab**: single choice   * Run continuously (default) * Bypass holiday * Postpone until the next workday   ***Note: (\*) is required*** | image-20230425134819-16.png |
+| 
+* **Name (\*):** Name of the schedule 
+* **Workflow (\*):** Select the workflow you want to create schedule 
+* **Time Zone (\*):** Select the time zone you want the schedule will follow   
+**Trigger tab:**   
+* **Recurrence:** Select the cycle for the schedule: Minutes/ Hourly/ Daily/ Weekly/ Monthly/ Advance 
+* **Start Date (\*):** select the time at which the schedule will start and 
+* **End Date:** select the time at which the schedule will end   
+**Execution Target tab:** depends on the workflow you chose, tick the suitable agent  
+**Parameters tab:**  
+**Holiday settings tab**: single choice   
+* Run continuously (default) 
+* Bypass holiday 
+* Postpone until the next workday   
+***Note: (\*) is required*** 
+
+| image-20230425134819-16.png |
 
 If you choose **Once**
 
@@ -196,7 +219,6 @@ S1: To disable a schedule, click corresponding Action button and then select **D
 S2: After clicking, the system will ask for your confirmation to switch status , then click **OK**
 
 ![image-20230425134819-18.png](/static/img/37bfb4_image-20230425134819-18.png)
-
 S3: When the schedule is disabled, the status of said schedule changes to **Disable**.
 
 4. Enable schedule
@@ -204,24 +226,23 @@ S3: When the schedule is disabled, the status of said schedule changes to **Dis
 S1: To disable a schedule, click corresponding Action and then select **Enable**.
 
 ![image-20230425134819-19.png](/static/img/97747d_image-20230425134819-19.png)
-
 ## **Use case 4: Set up holiday settings**
 
-S1: To create a new holiday, choose **Automation**menu > click tab **Schedule >**then click subtab **Holiday settings**
+S1: To create a new holiday, choose **Automation** menu > click tab **Schedule >** then click subtab **Holiday settings**
 
 ![image-20230425134819-20.png](/static/img/4a6383_image-20230425134819-20.png)
 
-S2: Click **Create New**button on the top right corner of the page > then a form will pop-up
+S2: Click **Create New** button on the top right corner of the page > then a form will pop-up
 
 ![image-20230425134819-21.png](/static/img/e065e1_image-20230425134819-21.png)
 
-**Holiday name:**Enter the name of holiday
+**Holiday name:** Enter the name of holiday
 
-**Date:**choose the date you want
+**Date:** choose the date you want
 
 Click **Save**
 
-S3: Assign the holiday setting to the agent you want *(find in*[*here*](#_Create/_edit_a)*)*
+S3: Assign the holiday setting to the agent you want *(find in *[*here*](#_Create/_edit_a)*)*
 
 ## 
 
@@ -229,7 +250,7 @@ S3: Assign the holiday setting to the agent you want *(find in*[*here*](#_Create
 
 1. View the result and running time bot
 
-**S1: From the Task tab:** choose **Historical**subtab
+**S1: From the Task tab:** choose **Historical** subtab
 
 ![image-20230425134819-22.png](/static/img/5660ba_image-20230425134819-22.png)
 
@@ -249,11 +270,13 @@ S1: From the Task tab: choose **Historical**subtab
 
 S2: Once clicking “eye” icon, you will be redirected to the **Detail** page. Details can be viewed below:
 
-![image-20230425140027-2.png](/static/img/3b7172_image-20230425140027-2.png)
+![image-20230425140027-2.png](/static/img/image-20230425140027-2.png)
 
 S3: To see the logbug > click **Log Detail**
 
-## image-20230425140027-3.png **Use case 6: Monitor status of bot**
+![image-20230425140027-3.png](/static/img/image-20230425140027-3.png) 
+
+## **Use case 6: Monitor status of bot**
 
 S1: In the left menu, click Agent tab
 

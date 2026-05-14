@@ -9,14 +9,14 @@ displayed_sidebar: centerSidebar
 
 ## **1. Activate akaBot Center**
 
-**Step 1** - Open your browser. Navigate to akaBot Center using **your Center URL** or **localhost:8080**. After successful login, choose**Administration** on the left menu bar -> Choose **License** option and click **Add License.**
+**Step 1** - Open your browser. Navigate to akaBot Center using **your Center URL** or **localhost:8080**. After successful login, choose **Administration** on the left menu bar -> Choose **License** option and click **Add License.**
 
 ![1698997596149-505.png](/static/img/f952ee_1698997596149-505.png)
 
 **Step 2:**
 
 * Fill in the License Key field with the License Key you received from the licensing email.
-* Click**Generate.**
+* Click **Generate.**
 
 ![1695699235091-617.png](/static/img/ed9bd2_1695699235091-617.png)
 
@@ -51,7 +51,7 @@ After activating your akaBot Center, please follow the steps below to activate y
 
 **Step 2** – Fill license information:
 
-1. **Center URL:**Your akaBot Center’s URL
+1. **Center URL:** Your akaBot Center’s URL
 2. **License Key**: Please enter the license key automatically generated after activating akaBot Center. (**At Step 6, Part 1** - Activate akaBot Center)
 3. **Network Options (Optional)**: If you use Proxy Server, please fill in the Proxy Info under ***Network Options***.
 4. Hit button “Activate”
@@ -79,8 +79,8 @@ If your network requires you to connect to the Internet or akaBot Center through
 
 **Step 2** – Fill license information:
 
-1. **Center URL:**Your akaBot Center’s URL
-2. **License Key**: **License Key**: Please enter the license key automatically generated after activating akaBot Center. (**At Step 6, Part 1** - Activate akaBot Center)
+1. **Center URL:** Your akaBot Center’s URL
+2. **License Key**: Please enter the license key automatically generated after activating akaBot Center. (**At Step 6, Part 1** - Activate akaBot Center)
 3. **Network Options (Optional)**: If you use Proxy Server, please fill in the Proxy Info under ***Network Options***.
 4. Hit button “Activate”
 
@@ -100,7 +100,7 @@ After activation, your akaBot Agents have to be connected with akaBot Center to 
 
 After activating your akaBot Agent, please follow the steps below to connect it with akaBot Center
 
-**Step 1** - Open your browser. Navigate to akaBot Center using **your Center URL** or **localhost:8080**. After successful login, choose**Agent** on the left menu bar -> Choose **Agent** option and click **Create New.**
+**Step 1** - Open your browser. Navigate to akaBot Center using **your Center URL** or **localhost:8080**. After successful login, choose **Agent** on the left menu bar -> Choose **Agent** option and click **Create New.**
 
 ![1698998855183-732.png](/static/img/a2f411_1698998855183-732.png)
 

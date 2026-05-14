@@ -36,11 +36,11 @@ You need to prepare the installation package according to the following list.
 | 2 | Java Developer Kit | openlogic-openjdk-17.0.16 | 17.0.16 | Open logic JDK 17.0.16 | **[Download](https://builds.openlogic.com/downloadJDK/openlogic-openjdk/17.0.16+8/openlogic-openjdk-17.0.16+8-windows-x64.msi)** |
 | 3 | Apache tomcat | apache-tomcat-\*.exe | 10.1.54 | Web server Apache Tomcat | **[Download](https://tomcat.apache.org/download-10.cgi)** |
 | 4 | ActiveMQ | apache-activemq- 5.15.1-bin.zip | 5.15.1 | ActiveMQ for Queue functionality in akaBot Center | **[Download](https://archive.apache.org/dist/activemq/5.15.1/apache-activemq-5.15.1-bin.zip)** |
-| 5 | MS SQL Server | SQL2025-SSEI-Eval | 2025 | The database engine of akaBot Center | Read**Section 3.1**for more details |
+| 5 | MS SQL Server | SQL2025-SSEI-Eval | 2025 | The database engine of akaBot Center | Read **Section 3.1** for more details |
 
 ## **2. Java JDK 17 Installation**
 
-Run the installer -**openlogic-openjdk-17.0.16**you have downloaded. After that, click**"Next"**to proceed.
+Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that, click **"Next"** to proceed.
 
 ![1773026436457-662.png](/static/img/8350c5_1773026436457-662.png)
 
@@ -54,7 +54,7 @@ Run the installer -**openlogic-openjdk-17.0.16**you have downloaded. After that,
 
 ![1773026554098-998.png](/static/img/a9f0ae_1773026554098-998.png)
 
-**Note**: Make sure that**JAVA\_HOME**presents in your environment variables by typing command**echo %JAVA\_HOME%**, the output should be a path that point to jdk 17 ex:**C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot**
+**Note**: Make sure that **JAVA\_HOME** presents in your environment variables by typing command **echo %JAVA\_HOME%**, the output should be a path that point to jdk 17 ex:**C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot**
 
 ## **3. MSSQL installation**
 
@@ -64,10 +64,10 @@ Download link:**[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-serv
 
 ### **3.2.Setup MSSQL**
 
-**Step 1:**Install
+**Step 1:** Install
 
 * Opensetup file from your computer
-* Select**"Download media"**option
+* Select **"Download media"** option
 
 ![1773030397244-318.png](/static/img/a90e6a_1773030397244-318.png)
 
@@ -89,7 +89,7 @@ Download link:**[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-serv
 
 ![1773028586816-796.png](/static/img/4024c0_1773028586816-796.png)
 
-* Click **Installation**-1and click **New SQL Server standalone installation or add features to an existing installation**-2
+* Click **Installation** -1 and click **New SQL Server standalone installation or add features to an existing installation** -2
 
 ![1773028679031-652.png](/static/img/8f5346_1773028679031-652.png)
 
@@ -107,7 +107,7 @@ Download link:**[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-serv
 
 ![1773029024745-193.png](/static/img/39e006_1773029024745-193.png)
 
-* Tick box **"Database Engine Services"**then click button **"Next"**
+* Tick box **"Database Engine Services"** then click button **"Next"**
 
 ![1773029187897-154.png](/static/img/620a6b_1773029187897-154.png)
 
@@ -131,7 +131,7 @@ Download link:**[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-serv
 
 ### **3.3. Enable Remote Connection**
 
-**Step 1**: Open**SQL Server Management Studio**and connectto server.
+**Step 1**: Open **SQL Server Management Studio** and connectto server.
 
 ![1773030202982-413.png](/static/img/86174f_1773030202982-413.png)
 
@@ -139,27 +139,27 @@ Download link:**[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-serv
 
 ![1773030281640-990.png](/static/img/2bfb8a_1773030281640-990.png)
 
-(2) Input password that you created in**3.2 > Step 3**
+(2) Input password that you created in **3.2 > Step 3**
 
 (3) Tick **"Trust Server certificate"**
 
 (4) Click **"Connect"**
 
-**Step 2**:Open**Properties**SQLServer.
+**Step 2**: Open **Properties** SQLServer.
 
 ![1773030536288-582.png](/static/img/4df08e_1773030536288-582.png)
 
-* Select **Security** and tick**SQL Server and Windows Authentication mode.**
+* Select **Security** and tick **SQL Server and Windows Authentication mode.**
 
 ![1773044861324-448.png](/static/img/f0e482_1773044861324-448.png)
 
-**Step 3:**Open **SQL Server Configuration Manager.**
+**Step 3:** Open **SQL Server Configuration Manager.**
 
-* Selected**Protocols for MSSQLSERVER** -> Enabled**Named Pipes and TCP/IP**
+* Selected **Protocols for MSSQLSERVER** -> Enabled **Named Pipes and TCP/IP**
 
 ![1773030823282-463.png](/static/img/b3cc79_1773030823282-463.png)
 
-**Step 4**: Click**"Restart"** MSSQL Server Service.
+**Step 4**: Click **"Restart"** MSSQL Server Service.
 
 ![1773030965635-479.png](/static/img/abd354_1773030965635-479.png)
 
@@ -167,11 +167,11 @@ Download link:**[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-serv
 
 **Step 1**:Open **SQL Server Management Studio**
 
-**Step 2:**Right**Click Databases** -1 & click**New Database**-2
+**Step 2:** Right **Click Databases** -1 & click **New Database**-2
 
 ![1773031162079-136.png](/static/img/dea9cd_1773031162079-136.png)
 
-**Step 3:**Enter Database Name -1, click**OK** -2
+**Step 3:** Enter Database Name -1, click **OK** -2
 
 * Ex: database name aka\_orchestrator
 
@@ -186,7 +186,7 @@ Download link:**[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-serv
 Apache Tomcat installation:  
 -Uncheck "Run Apache Tomcat"  
 -Uncheck "Show Readme"  
-- Click the "Finish" button to complete the installation.pe your information message here.
+-Click the "Finish" button to complete the installation.pe your information message here.
 
 ![1773039471617-579.png](/static/img/28a716_1773039471617-579.png)
 
@@ -194,7 +194,7 @@ Apache Tomcat installation:
 
 ![1773039436317-278.png](/static/img/9a9700_1773039436317-278.png)
 
-The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\Apache Software Foundation\Tomcat 10.1**
+The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files\Apache Software Foundation\Tomcat 10.1**
 
 ### **4.2. Apache Tomcat Configuration**
 
@@ -202,7 +202,7 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 **Step 1:**Open the file**%TOMCAT\_PATH%\conf\logging.properties**
 
-**Step 2:** Add attribute**maxDay**s to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
+**Step 2:** Add attribute **maxDay**s to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
 
 * Example: keep 90 daysworth of history. Change the number at the end of the following rows:
   + 1catalina.org.apache.juli.AsyncFileHandler.maxDays = **90**
@@ -214,17 +214,17 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 ![1773039597849-397.png](/static/img/b6cfba_1773039597849-397.png)
 
-**Step 4:** Open the file**%TOMCAT\_PATH%\conf\server.xml**
+**Step 4:** Open the file *%TOMCAT\_PATH%\conf\server.xml**
 
-**Step 5:** Un-Comment the line of log setting to turn on the log and add attribute**maxDays** as below:
+**Step 5:** Un-Comment the line of log setting to turn on the log and add attribute **maxDays** as below:
 
 ![1773039659797-700.png](/static/img/0de343_1773039659797-700.png)
 
-**Step 6:**Save changes and close the file
+**Step 6:** Save changes and close the file
 
 **4.2.2. Other settings**
 
-**Step 1:**Navigate to the path **%TOMCAT\_PATH%\bin** and double-click the file **Tomcat10w.exe** to open the Apache Tomcat Service configuration.
+**Step 1:** Navigate to the path **%TOMCAT\_PATH%\bin** and double-click the file **Tomcat10w.exe** to open the Apache Tomcat Service configuration.
 
 ![1773039700842-636.png](/static/img/25160e_1773039700842-636.png)
 
@@ -235,9 +235,9 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 ![1773039738250-351.png](/static/img/d37ef5_1773039738250-351.png)
 
-**Step 3:**On the **Logging** tab
+**Step 3:** On the **Logging** tab
 
-(1) Log prefix:**Remove "commons-daemon"**
+(1) Log prefix: **Remove "commons-daemon"**
 
 (2) Redirect Stdout: **Remove "auto"**
 
@@ -247,7 +247,7 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 ![1773039839582-669.png](/static/img/af673e_1773039839582-669.png)
 
-**Step 4**: On the **Java**tab
+**Step 4**: On the **Java** tab
 
 a. Adjust the Java Heap configuration:
 
@@ -265,7 +265,7 @@ b.Choose **Apply**to apply the configuration changes.
 
 ![1773039888230-493.png](/static/img/65d78f_1773039888230-493.png)
 
-**Step 5:**Start the Tomcat Service
+**Step 5:** Start the Tomcat Service
 
 On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
@@ -273,14 +273,14 @@ On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
 ### **4.3. Check Apache Tomcat Installation**
 
-**Step 1:**After installation and configuration, go to the Services screen and check the status of the Apache Tomcat service.
+**Step 1:** After installation and configuration, go to the Services screen and check the status of the Apache Tomcat service.
 
 * If the Status is not Running, start the Apache Tomcat service.
 * If the Status is Running, proceed to step 2.
 
 ![1773045039977-189.png](/static/img/e819f0_1773045039977-189.png)
 
-**Step 2:**Access the URL [http://localhost:8080](http://localhost:8080/) in Chrome to verify the successful installation of Apache Tomcat:
+**Step 2:** Access the URL [http://localhost:8080](http://localhost:8080/) in Chrome to verify the successful installation of Apache Tomcat:
 
 ![1773040793096-753.png](/static/img/0a10a3_1773040793096-753.png)
 
@@ -288,7 +288,7 @@ On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
 ### **5.1. Install ActiveMQ**
 
-**Step 1:**Extract the file "apache-activemq-5.15.1-bin.zip" to the desired installation path.
+**Step 1:** Extract the file "apache-activemq-5.15.1-bin.zip" to the desired installation path.
 
 For example: **ACTIVEMQ\_PATH = C:\akaBot\apache-activemq-5.15.1**
 
@@ -312,11 +312,11 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ### **5.2. Java Heap Configuration**
 
-**Step 1:**Stop service ActiveMQ
+**Step 1:** Stop service ActiveMQ
 
 **Step 2**: Open the file **%ACTIVEMQ\_PATH%\bin\win64\wrapper.conf** and configure the parameters:
 
-* ***wrapper.java.initmemory:***Enter the initial value for the Java Heap memory.
+* ***wrapper.java.initmemory:*** Enter the initial value for the Java Heap memory.
 
 For example, if the server has 32 GB of RAM, you can enter 1024.
 
@@ -346,11 +346,11 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ### **6.1. Copy and extract war file**
 
-**Step 1: Stop**Apache Tomcat service
+**Step 1: Stop** Apache Tomcat service
 
 ![1773045591703-739.png](/static/img/86c996_1773045591703-739.png)
 
-**Step 2: Delete**all folders in**%TOMCAT\_PATH%/webapps.**
+**Step 2: Delete** all folders in **%TOMCAT\_PATH%/webapps.**
 
 ![1773041052691-659.png](/static/img/14b8f4_1773041052691-659.png)
 
@@ -358,11 +358,11 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ![1773041088743-833.png](/static/img/7a8d43_1773041088743-833.png)
 
-* **Rename** it to**ROOT.war.**
+* **Rename** it to **ROOT.war.**
 
 ![1773041108270-318.png](/static/img/a4c57d_1773041108270-318.png)
 
-**Step 4: Restart** the Apache Tomcat service and wait for the**ROOT.war** to be extracted into the ROOT directory.
+**Step 4: Restart** the Apache Tomcat service and wait for the **ROOT.war** to be extracted into the ROOT directory.
 
 ![1773041152285-315.png](/static/img/dfef46_1773041152285-315.png)
 
@@ -370,11 +370,11 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ### **6.2. akaBot Center configuration**
 
-**6.2.1. Configquartz.properties**
+**6.2.1. Config quartz.properties**
 
 **Step 1:** Stop the Apache Tomcat service (if the Apache Tomcat service is currently running).
 
-**Step 2:** Modify the configuration in the file**%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/quartz.properties** as follows:
+**Step 2:** Modify the configuration in the file **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/quartz.properties** as follows:
 
 ***1. Comment out the jobstore configuration for MySQL.***
 
@@ -384,15 +384,15 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ![1773041651589-503.png](/static/img/ac0096_1773041651589-503.png)
 
-**6.2.2.Configure the MSSQL Database Connection**
+**6.2.2. Configure the MSSQL Database Connection**
 
-**Step 1**: Navigate to the path**%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/**
+**Step 1**: Navigate to the path **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/**
 
-**Step 2**: Modify the configuration in **both files:*****application-dev.yml*** and ***application-prod.yml***
+**Step 2**: Modify the configuration in **both files:** ***application-dev.yml*** and ***application-prod.yml***
 
-**Remove**the # characters at the beginning of the lines to uncomment the configuration and enable**MSSQL** usage. Add the "#" characters at the beginning of the lines to comment out the configuration and disable MySQL.
+**Remove**the # characters at the beginning of the lines to uncomment the configuration and enable **MSSQL** usage. Add the "#" characters at the beginning of the lines to comment out the configuration and disable MySQL.
 
-**Input** your username and password that you created in**3.2>Step 3.**
+**Input** your username and password that you created in **3.2>Step 3.**
 
 * ***application-dev.yml***
 
@@ -412,9 +412,9 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 **6.2.3. Log setting**
 
-1. Open the file**%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/logback-spring.xml**
+1. Open the file **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/logback-spring.xml**
 
-2. Change the **log level**to ERROR
+2. Change the **log level** to ERROR
 
 3. Change the setting in rolling log file as below:
 
@@ -468,4 +468,4 @@ Information to be backed up for disaster recovery scenarios:
 
 **9. Activate Licenses**
 
-Please follow the instruction via **[Activation](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Activation/)**
+Please follow the instruction via **[Activation](https://docs-v2.akabot.com/center/latest/installation/license-activation)**

@@ -18,7 +18,7 @@ As a general rule, we advise you to have the same Agent, Studio, and Center to t
 
 Remove the previous version [**Uninstall akaBot**](https://docs.akabot.com/docs/uninstall-akabot).
 
-* **Step 2:**Download the latest version of akaBot Platform from the link provided in Licensing email Run the installer and wait until the process is finished.
+* **Step 2:** Download the latest version of akaBot Platform from the link provided in Licensing email Run the installer and wait until the process is finished.
 
 ![uelcome akabot.png](/static/img/257532_uelcome-akabot.png)
 
@@ -26,12 +26,11 @@ Remove the previous version [**Uninstall akaBot**](https://docs.akabot.com/docs/
 
 * **Step 1:** Download the latest version of akaBot Center from the link provided in Licensing email.
 * **Step 2:**
-
 Kindly follow all the steps to update [**akaBot Center**](https://docs.akabot.com/docs/network-installation#e-akabot-center-configuration).
 
 Make sure you create a backup that contains 2 files from old version : **application-dev.yml** and **application-prod.yml** so you don't have to re-edit
 
-* **Step 3:**Backup license file: Find the license.lic file via the directory below:
+* **Step 3:** Backup license file: Find the license.lic file via the directory below:
 
 C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps\ROOT\WEB-INF\classes\license
 
@@ -51,9 +50,9 @@ At Object Selection, select **aka\_orchestrator**. And then select **Export Prog
 
 [![https://files.readme.io/a6b28ce-Screenshot_2021-07-05_095021.jpg](/static/img/4b7ca2_a6b28ce-screenshot_2021-07-05_095021.jpg)](https://dash.readme.com/project/akabotlibraby/v2.0.55/docs/upgrade-akabot)
 
-**Step 6:**Copy the file war ( latest version of Center ) and Start **Tomcat**to proceed to upgrade Center.
+**Step 6:** Copy the file war ( latest version of Center ) and Start **Tomcat** to proceed to upgrade Center.
 
-**Step 7:**Copy 2 files: **application-dev.yml** and **application-prod.yml**andpaste into the directory below after starting Tomcat (If you config these files).
+**Step 7:** Copy 2 files: **application-dev.yml** and **application-prod.yml** and paste them into the directory below after starting Tomcat (If you config these files).
 
 C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps\ROOT\WEB-INF\classes\config
 

@@ -14,7 +14,7 @@ This document aims to guide you to install akaBot Center in **Standalone model**
 
 ![image-20230728180918-1.png](/static/img/429ab0_image-20230728180918-1.png)
 
-For other models, please contact the project coordinator (if have) or send email to [[email protected]](/cdn-cgi/l/email-protection#f88b8d8888978a8cb8999399ba978cd69b9795) to get the guidance. **akaBot team is always here to support your installation success**.
+For other models, please contact the project coordinator (if have) or send email to [[support@akaBot.com]](/cdn-cgi/l/email-protection#f88b8d8888978a8cb8999399ba978cd69b9795) to get the guidance. **akaBot team is always here to support your installation success**.
 
 Please read below sections **CAREFULLY** and prepare necessary resources/information before you start to achieve a successful installation.
 
@@ -413,11 +413,11 @@ sudo systemctl stop activemq
 
            Note:
 
-* + **Parameter -Xms:** minimum Java heap size. Please set the number \<= ¼ RAM capacity.
+* **Parameter -Xms:** minimum Java heap size. Please set the number \<= ¼ RAM capacity.
 
                        Ex: If your akaBot Center machine’s RAM = 4G, then set -Xms1G.
 
-* + **Parameter -Xmx:** maximum Java heap size. Please set the number \<= ½ RAM capacity.
+* **Parameter -Xmx:** maximum Java heap size. Please set the number \<= ½ RAM capacity.
 
                        Ex: If your akaBot Center machine’s RAM = 4G, then set -Xms2G.
 
@@ -429,11 +429,11 @@ sudo systemctl stop activemq
 
 3. Start again ActiveMQ service
 
-sudo systemctl start activemq
+`sudo systemctl start activemq`
 
 4. Verify ActiveMQ service’s status
 
-sudo systemctl status activemq
+`sudo systemctl status activemq`
 
 ![image-20230728180918-11.png](/static/img/cdbedd_image-20230728180918-11.png)
 
@@ -443,33 +443,33 @@ sudo systemctl status activemq
 
 1. Stop Tomcat service (if running)
 
-sudo systemctl stop tomcat
+`sudo systemctl stop tomcat`
 
 2. Remove all folders inside /opt/tomcat/webapps
 
-sudo rm -rf /opt/tomcat/webapps/\*
+`sudo rm -rf /opt/tomcat/webapps/`
 
 3. Copy akaBot-center-x.x.x.x.war into /opt/tomcat/webapps/ then change its name to ROOT.war.
 
 Note: x.x.x.x is akaBot Center version
 
-cd ~/apps
-
-sudo cp akaBot-center-3.0.1.2.war /opt/tomcat/webapps/ROOT.war
+`cd ~/apps`
+  
+`sudo cp akaBot-center-3.0.1.2.war /opt/tomcat/webapps/ROOT.war`
 
 4. Start Tomcat service and wait for Tomcat running to extract the file ROOT.war out to ROOT folder.
 
-sudo systemctl start tomcat
+`sudo systemctl start tomcat`
 
-cd /opt/tomcat/webapps
+`cd /opt/tomcat/webapps`
 
-ls –l
+`ls –l`
 
 5. Stop Tomcat service and delete ROOT.war file.
 
-sudo systemctl stop tomcat
+`sudo systemctl stop tomcat`
 
-sudo rm /opt/tomcat/webapps/ROOT.war
+`sudo rm /opt/tomcat/webapps/ROOT.war`
 
 ### **2.4.2 Step 2 - Configure akaBot Center**
 
@@ -477,7 +477,7 @@ sudo rm /opt/tomcat/webapps/ROOT.war
 
 * Open file quartz.properties
 
-           sudo vi /opt/tomcat/webapps/ROOT/WEB-INF/classes/quartz.properties
+`sudo vi /opt/tomcat/webapps/ROOT/WEB-INF/classes/quartz.properties`
 
 * Comment out the line of default MySQL Delegate setting:
 
@@ -495,7 +495,7 @@ sudo rm /opt/tomcat/webapps/ROOT.war
 
 1. Open the logback setting file
 
-sudo vi /opt/tomcat/webapps/ROOT/WEB-INF/classes/logback-spring.xml
+`sudo vi /opt/tomcat/webapps/ROOT/WEB-INF/classes/logback-spring.xml`
 
 2. Update the line:
 
@@ -531,9 +531,9 @@ Press ESC then type: :wq
 
 1. Open the file application-prod.yml
 
-cd /opt/tomcat/webapps/ROOT/WEB-INF/classes/config/
+`cd /opt/tomcat/webapps/ROOT/WEB-INF/classes/config/`
 
-sudo vi application-prod.yml
+`sudo vi application-prod.yml`
 
 2. Update the file as below image:
 
@@ -577,7 +577,7 @@ Press ESC then type: “:wq”
 
 a. Open the file application-dev.yml
 
-sudo vi application-dev.yml
+`sudo vi application-dev.yml`
 
 b. **Repeat the same from step 2 to step 3** to configure the file ***application-dev.yml***
 
@@ -585,11 +585,11 @@ b. **Repeat the same from step 2 to step 3** to configure the file ***applicatio
 
 1. Start Tomcat service
 
-sudo systemctl start tomcat
+`sudo systemctl start tomcat`
 
 2. Test to see if akaBot Center is running successfully.
 
-curl localhost:8080
+`curl localhost:8080`
 
 **Success case:**
 
@@ -603,7 +603,7 @@ By default, Tomcat will write out the logs into *catalina.out* file which may ca
 
 1. Open the file
 
-sudo vi /opt/tomcat/bin/catalina.sh
+`sudo vi /opt/tomcat/bin/catalina.sh`
 
 2. Press ESC then type: “:229” to the line
 

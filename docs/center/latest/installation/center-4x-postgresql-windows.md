@@ -40,7 +40,7 @@ You need to prepare the installation package according to the following list.
 
 ## **2. Java JDK 17 Installation**
 
-Run the installer -**openlogic-openjdk-17.0.16**you have downloaded. After that, click**"Next"**to proceed.
+Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that, click **"Next"** to proceed.
 
 ![1773026436457-662.png](/static/img/3ca271_1773026436457-662.png)
 
@@ -54,7 +54,7 @@ Run the installer -**openlogic-openjdk-17.0.16**you have downloaded. After that,
 
 ![1773026554098-998.png](/static/img/40c7a4_1773026554098-998.png)
 
-**Note**: Make sure that**JAVA\_HOME**presents in your environment variables by typing command**echo %JAVA\_HOME%**, the output should be a path that point to jdk 17 ex:**C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot**
+**Note**: Make sure that **JAVA\_HOME** presents in your environment variables by typing command **echo %JAVA\_HOME%**, the output should be a path that point to jdk 17 ex: **C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot**
 
 ## **3. PostgreSQL installation**
 
@@ -64,7 +64,7 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 
 **Step 1:** Open file
 
-* Opensetup file from your computer
+* Open setup file from your computer
 * Follow these steps below:
 
 ![1773111578739-129.png](/static/img/df9569_1773111578739-129.png)
@@ -89,7 +89,7 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 
 ![1773114687711-726.png](/static/img/8772a1_1773114687711-726.png)
 
-* Click button**"Next"** to install
+* Click button **"Next"** to install
 
 ![1773114744583-571.png](/static/img/44c563_1773114744583-571.png)
 
@@ -107,7 +107,7 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 
 ![1773115130094-189.png](/static/img/a431c2_1773115130094-189.png)
 
-* Here is the screen announcing that all the installation files have now been successfully downloaded. Click**"Next"**and**"Finish"**
+* Here is the screen announcing that all the installation files have now been successfully downloaded. Click **"Next"** and **"Finish"**
 
 ![1773130004131-273.png](/static/img/d1a8f1_1773130004131-273.png)
 
@@ -117,13 +117,13 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 
 **3.3. Create database**
 
-**Step 1:** Open**pgAdmin4**
+**Step 1:** Open **pgAdmin4**
 
-**Step 2:**Right click**"Databases"** > Create > Database...
+**Step 2:** Right click **"Databases"** > Create > Database...
 
 ![1773128994191-351.png](/static/img/cba5e5_1773128994191-351.png)
 
-* Input new database:**aka\_orchestrator**in **General**tab, then click **"Save"**
+* Input new database: **aka\_orchestrator** in **General**tab, then click **"Save"**
 
 ![1773129095687-215.png](/static/img/ebca57_1773129095687-215.png)
 
@@ -136,7 +136,7 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 Apache Tomcat installation:  
 -Uncheck "Run Apache Tomcat"  
 -Uncheck "Show Readme"  
-- Click the "Finish" button to complete the installation.pe your information message here.
+-Click the "Finish" button to complete the installation.pe your information message here.
 
 ![1773039471617-579.png](/static/img/a53804_1773039471617-579.png)
 
@@ -144,15 +144,15 @@ Apache Tomcat installation:
 
 ![1773039436317-278.png](/static/img/fae530_1773039436317-278.png)
 
-The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\Apache Software Foundation\Tomcat 10.1**
+The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files\Apache Software Foundation\Tomcat 10.1**
 
 ### **4.2. Apache Tomcat Configuration**
 
-**4.2.1. Configure log setting**s
+**4.2.1. Configure log settings**
 
-**Step 1:**Open the file**%TOMCAT\_PATH%\conf\logging.properties**
+**Step 1: **Open the file **%TOMCAT\_PATH%\conf\logging.properties**
 
-**Step 2:** Add attribute**maxDay**s to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
+**Step 2:** Add attribute **maxDays** to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of -1 will be used which means never delete old files.
 
 * Example: keep 90 daysworth of history. Change the number at the end of the following rows:
   + 1catalina.org.apache.juli.AsyncFileHandler.maxDays = **90**
@@ -164,17 +164,17 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 ![1773039597849-397.png](/static/img/b3e77f_1773039597849-397.png)
 
-**Step 4:** Open the file**%TOMCAT\_PATH%\conf\server.xml**
+**Step 4:** Open the file **%TOMCAT\_PATH%\conf\server.xml**
 
-**Step 5:** Un-Comment the line of log setting to turn on the log and add attribute**maxDays** as below:
+**Step 5:** Un-Comment the line of log setting to turn on the log and add attribute **maxDays** as below:
 
 ![1773039659797-700.png](/static/img/140d78_1773039659797-700.png)
 
-**Step 6:**Save changes and close the file
+**Step 6:** Save changes and close the file
 
 **4.2.2. Other settings**
 
-**Step 1:**Navigate to the path **%TOMCAT\_PATH%\bin** and double-click the file **Tomcat10w.exe** to open the Apache Tomcat Service configuration.
+**Step 1:** Navigate to the path **%TOMCAT\_PATH%\bin** and double-click the file **Tomcat10w.exe** to open the Apache Tomcat Service configuration.
 
 ![1773039700842-636.png](/static/img/504895_1773039700842-636.png)
 
@@ -185,19 +185,19 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 ![1773039738250-351.png](/static/img/ae3bbb_1773039738250-351.png)
 
-**Step 3:**On the **Logging** tab
+**Step 3:** On the **Logging** tab
 
-(1) Log prefix:**Remove "commons-daemon"**
+(1) Log prefix: **Remove "commons-daemon"**
 
 (2) Redirect Stdout: **Remove "auto"**
 
 (3) Redirect Stderror: **Remove "auto"**
 
-(4) Choose**Apply** to apply the configuration changes.
+(4) Choose **Apply** to apply the configuration changes.
 
 ![1773039839582-669.png](/static/img/d5f78c_1773039839582-669.png)
 
-**Step 4**: On the **Java**tab
+**Step 4:** On the **Java** tab
 
 a. Adjust the Java Heap configuration:
 
@@ -211,11 +211,11 @@ Example: Server RAM = 32 GB -> Maximum memory pool should be \<=  \* 16 \* 1024 
 
 **Note**: If you enter a value that is too large, it may prevent Apache Tomcat service from starting and result in errors.
 
-b.Choose **Apply**to apply the configuration changes.
+b. Choose **Apply** to apply the configuration changes.
 
 ![1773039888230-493.png](/static/img/9e0c8a_1773039888230-493.png)
 
-**Step 5:**Start the Tomcat Service
+**Step 5:** Start the Tomcat Service
 
 On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
@@ -223,14 +223,14 @@ On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
 ### **4.3. Check Apache Tomcat Installation**
 
-**Step 1:**After installation and configuration, go to the Services screen and check the status of the Apache Tomcat service.
+**Step 1:** After installation and configuration, go to the Services screen and check the status of the Apache Tomcat service.
 
 * If the Status is not Running, start the Apache Tomcat service.
 * If the Status is Running, proceed to step 2.
 
 ![1773045039977-189.png](/static/img/72426f_1773045039977-189.png)
 
-**Step 2:**Access the URL [http://localhost:8080](http://localhost:8080/) in Chrome to verify the successful installation of Apache Tomcat:
+**Step 2:** Access the URL [http://localhost:8080](http://localhost:8080/) in Chrome to verify the successful installation of Apache Tomcat:
 
 ![1773040793096-753.png](/static/img/0b321f_1773040793096-753.png)
 
@@ -238,7 +238,7 @@ On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
 ### **5.1. Install ActiveMQ**
 
-**Step 1:**Extract the file "apache-activemq-5.15.1-bin.zip" to the desired installation path.
+**Step 1:** Extract the file "apache-activemq-5.15.1-bin.zip" to the desired installation path.
 
 For example: **ACTIVEMQ\_PATH = C:\akaBot\apache-activemq-5.15.1**
 
@@ -262,11 +262,11 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ### **5.2. Java Heap Configuration**
 
-**Step 1:**Stop service ActiveMQ
+**Step 1:** Stop service ActiveMQ
 
 **Step 2**: Open the file **%ACTIVEMQ\_PATH%\bin\win64\wrapper.conf** and configure the parameters:
 
-* ***wrapper.java.initmemory:***Enter the initial value for the Java Heap memory.
+* ***wrapper.java.initmemory:*** Enter the initial value for the Java Heap memory.
 
 For example, if the server has 32 GB of RAM, you can enter 1024.
 
@@ -296,23 +296,23 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ### **6.1. Copy and extract war file**
 
-**Step 1: Stop**Apache Tomcat service
+**Step 1: Stop** Apache Tomcat service
 
 ![1773045591703-739.png](/static/img/636619_1773045591703-739.png)
 
-**Step 2: Delete**all folders in**%TOMCAT\_PATH%/webapps.**
+**Step 2: Delete** all folders in **%TOMCAT\_PATH%/webapps.**
 
 ![1773041052691-659.png](/static/img/26db12_1773041052691-659.png)
 
-**Step 3: Copy** the file akaBot-center-x.x.x.x.war to the**%TOMCAT\_PATH%/webapps/** directory
+**Step 3: Copy** the file akaBot-center-x.x.x.x.war to the **%TOMCAT\_PATH%/webapps/** directory
 
 ![1773041088743-833.png](/static/img/77d7ad_1773041088743-833.png)
 
-* **Rename** it to**ROOT.war.**
+* **Rename** it to **ROOT.war.**
 
 ![1773041108270-318.png](/static/img/e682b5_1773041108270-318.png)
 
-**Step 4: Restart** the Apache Tomcat service and wait for the**ROOT.war** to be extracted into the ROOT directory.
+**Step 4: Restart** the Apache Tomcat service and wait for the **ROOT.war** to be extracted into the ROOT directory.
 
 ![1773041152285-315.png](/static/img/24ad6e_1773041152285-315.png)
 
@@ -324,7 +324,7 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 **Step 1:** Stop the Apache Tomcat service (if the Apache Tomcat service is currently running).
 
-**Step 2:** Modify the configuration in the file**%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/quartz.properties** as follows:
+**Step 2:** Modify the configuration in the file **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/quartz.properties** as follows:
 
 ***1. Comment out the jobstore configuration for MySQL, MSSQL, Oracle.***
 
@@ -334,13 +334,13 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 **6.2.2.Configure the PostgreSQL Database Connection**
 
-**Step 1**: Navigate to the path**%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/**
+**Step 1**: Navigate to the path **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/**
 
-**Step 2**: Modify the configuration in **both files:*****application-dev.yml*** and ***application-prod.yml***
+**Step 2**: Modify the configuration in **both files:** ***application-dev.yml*** and ***application-prod.yml***
 
-**Remove**the # characters at the beginning of the lines to uncomment the configuration and enable**PostgreSQL** usage. Add the "#" characters at the beginning of the lines to comment out the configuration and disable MySQL, MSSQL,...
+**Remove** the # characters at the beginning of the lines to uncomment the configuration and enable **PostgreSQL** usage. Add the "#" characters at the beginning of the lines to comment out the configuration and disable MySQL, MSSQL,...
 
-**Input** your username and password that you created in**3.2>Step 3.**
+**Input** your username and password that you created in **3.2>Step 3.**
 
 * ***application-dev.yml***
 
@@ -360,9 +360,9 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 **6.2.3. Log setting**
 
-1. Open the file**%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/logback-spring.xml**
+1. Open the file **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/logback-spring.xml**
 
-2. Change the **log level**to ERROR
+2. Change the **log level** to ERROR
 
 3. Change the setting in rolling log file as below:
 
@@ -382,8 +382,8 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 6. Log in using the following credentials:
 
-* username:**admin**
-* password: **admin**
+* username: **admin**
+* password:  **admin**
 * You will be redirected to the dashboard as shown below.
 
 ![1773044690105-331.png](/static/img/3b4910_1773044690105-331.png)
@@ -416,4 +416,4 @@ Information to be backed up for disaster recovery scenarios:
 
 **9. Activate Licenses**
 
-Please follow the instruction via **[Activation](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Activation/)**
+Please follow the instruction via **[Activation](https://docs-v2.akabot.com/center/latest/installation/license-activation)**

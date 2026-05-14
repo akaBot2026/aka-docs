@@ -14,7 +14,7 @@ S1: To access the **Organization Unit page**,click on the **Administration tab**
 
 ![image-20230308181201-1.png](/static/img/5660d8_image-20230308181201-1.png)
 
-S2: In order to view all the details of an OU, you can click the**eye** button
+S2: In order to view all the details of an OU, you can click the **eye** button
 
 ![image-20230308181201-2.png](/static/img/c4be5a_image-20230308181201-2.png)
 
@@ -49,7 +49,7 @@ S4: After clicking, a pop-up form shows up for you to fill in the information
 
 Roles are sets of permission, which means that the permissions required to access and control specific Center resources are assigned to roles
 
-S1: In the menu, choose **Administration,**thenchoose **Role Management**tabtosee the decentralization of each role.
+S1: In the menu, choose **Administration,** then choose **Role Management** tabtosee the decentralization of each role.
 
 ![image-20230308181201-6.png](/static/img/b29d3c_image-20230308181201-6.png)
 
@@ -78,7 +78,7 @@ S5: To edit an existing Role, click the **Edit** button corresponding to the Ro
 
 ## **Use case 3: View/ create/ edit a new account**
 
-S1: Click **Administration**in the left menu**>**Choose **Users**tab, then you will see detail page as below:
+S1: Click **Administration**in the left menu **>** Choose **Users** tab, then you will see detail page as below:
 
 ![image-20230308181201-10.png](/static/img/b4e50b_image-20230308181201-10.png)
 
@@ -100,7 +100,7 @@ S3: To create/edit account, click **Create New** on the right
 
 ![image-20230308181254-13.png](/static/img/fb55a2_image-20230308181254-13.png)
 
-When you click on**Create New/ Edit** button, the system will show a form for you to fill in. Details in the table below:
+When you click on **Create New/ Edit** button, the system will show a form for you to fill in. Details in the table below:
 
 ![image-20230308181254-14.png](/static/img/23f3a5_image-20230308181254-14.png)
 
@@ -120,7 +120,7 @@ A confirming pop-up will display. Hit **Delete** to complete the operation.
 
 ![image-20230308181254-16.png](/static/img/c37388_image-20230308181254-16.png)
 
-S2**:**To view package, the user can click the**Eye**button. On the detail page, you will see a list containing all versions of the selected package which were uploaded/published to the Center.
+S2: To view package, the user can click the **Eye** button. On the detail page, you will see a list containing all versions of the selected package which were uploaded/published to the Center.
 
 ![image-20230308181254-17.png](/static/img/e496af_image-20230308181254-17.png)
 
@@ -152,7 +152,7 @@ S2: Select **Delete** action corresponding with the version of the package you
 
 **Option 1:**
 
-**S1:**Choose Resource in the left menu > click **Agent Group tab**then screen will show as below
+**S1:** Choose Resource in the left menu > click **Agent Group tab** then screen will show as below
 
 ![image-20230308181334-23.png](/static/img/031641_image-20230308181334-23.png)
 
@@ -160,7 +160,7 @@ S2: Select **Delete** action corresponding with the version of the package you
 
 ![image-20230308181334-24.png](/static/img/e3cb97_image-20230308181334-24.png)
 
-**Option 2**: In case, you just want to edit Agent Group information, click **Edit**in Action column
+**Option 2**: In case, you just want to edit Agent Group information, click **Edit** in Action column
 
 ![image-20230308181334-25.png](/static/img/e591ed_image-20230308181334-25.png)
 
@@ -177,7 +177,7 @@ S3: When you click on **Create New/ Edit** button, the system will show a form f
 
 ## **Use case 8: View/ Create / Edit Agent**
 
-S1: To view Agent, You can view the details of the Agent by clicking the**eye** button.
+S1: To view Agent, You can view the details of the Agent by clicking the **eye** button.
 
 ![image-20230308181334-27.png](/static/img/193af0_image-20230308181334-27.png)
 
@@ -207,7 +207,7 @@ S5: After clicking, the system shows a popup allowing you to fill properties to 
 
 ## **Use case 9: View/ Create/ Edit a workflow**
 
-S1: Choose Automation in the left menu > click **Workflow**tab
+S1: Choose Automation in the left menu > click **Workflow** tab
 
 ![image-20230308181423-34.png](/static/img/08dc03_image-20230308181423-34.png)
 
@@ -251,11 +251,11 @@ S7: After clicking, the system shows a form allowing you to edit the info of the
 
 S1:
 
-**Optionn 1:**In **Asset**tab, choose **Create New**to create a new asset
+**Optionn 1:** In **Asset** tab, choose **Create New** to create a new asset
 
 ![image-20230308181423-42.png](/static/img/4b0a7f_image-20230308181423-42.png)
 
-**Option 2:**you can access the Details page of said Asset and select the Edit button.
+**Option 2:** you can access the Details page of said Asset and select the Edit button.
 
 ![image-20230308181710-43.png](/static/img/68a65d_image-20230308181710-43.png)
 
@@ -279,19 +279,19 @@ S1: From Agent in the left menu, choose agent name that you want to change passw
 
 ![image-20230308181710-45.png](/static/img/4b45f0_image-20230308181710-45.png)
 
-S2: When the pop-up form appears > fill new password in **Machine password >**click **Save***(for more information, click*[*here*](#_Use_case_11:)*)*
+S2: When the pop-up form appears > fill new password in **Machine password >** click **Save** *(for more information, click*[*here*](#_Use_case_11:)*)*
 
 ![image-20230308181710-46.png](/static/img/f7c85b_image-20230308181710-46.png)
 
 **Option 2:**
 
-S1: In **Asset**tab, choose Name of agent you want to change passwork, then click Edit button
+S1: In **Asset** tab, choose Name of agent you want to change passwork, then click Edit button
 
 ![image-20230308181710-47.png](/static/img/a4b019_image-20230308181710-47.png)
 
 S2: Fill in the tab:
 
-**Type:**choose **CREDENTIAL**
+**Type:** choose **CREDENTIAL**
 
 * Click **OK**
 
@@ -303,15 +303,15 @@ S2: Fill in the tab:
 
 **Option 1:**
 
-S1:Click Automation in the leftmenu > Click **Task**tab
+S1: Click Automation in the leftmenu > Click **Task** tab
 
 ![image-20230308181710-49.png](/static/img/b6ae38_image-20230308181710-49.png)
 
-**S2:**Choose workflow that needs to run manually, then **save**
+**S2:** Choose workflow that needs to run manually, then **save**
 
 ![image-20230308181710-50.png](/static/img/949358_image-20230308181710-50.png)
 
-**Option 2:***Alternatively*, you can click **Action**in Action column next to the task > Then a dropdown list is shown up > choose **Clone**> Click **Save**
+**Option 2:** *Alternatively*, you can click **Action** in Action column next to the task > Then a dropdown list is shown up > choose **Clone**> Click **Save**
 
 ![image-20230308181710-51.png](/static/img/1e574d_image-20230308181710-51.png)
 
@@ -319,7 +319,7 @@ S1:Click Automation in the leftmenu > Click **Task**tab
 
 **2.1. Create / Edit Schedule:**
 
-S1: In menu choose **Automation** then click **Schedule tab >**Click **Create New**
+S1: In menu choose **Automation** then click **Schedule tab >** Click **Create New**
 
 ![image-20230308181710-52.png](/static/img/af3a69_image-20230308181710-52.png)
 
@@ -327,7 +327,22 @@ S2: Fill in the pop-up form
 
 |  |  |
 | --- | --- |
-| * **Name (\*):**Name of the schedule * **Workflow (\*):**Select the workflow you want to create schedule * **Time Zone (\*):**Select the time zone you want the schedule will follow   **Trigger tab:**   * **Recurrence:**Select the cycle for the schedule: Minutes/ Hourly/ Daily/ Weekly/ Monthly/ Advance * **Start Date (\*):**select the time at which the schedule will start and * **End Date:**select the time at which the schedule will end   **Execution Target tab:**depends on the workflow you chose, tick the suitable agent  **Parameters tab:**  **Holiday settings tab**: single choice   * Run continuously (default) * Bypass holiday * Postpone until the next workday   ***Note: (\*) is required*** | image-20230308181710-53.png |
+| 
+* **Name (\*):** Name of the schedule 
+* **Workflow (\*):** Select the workflow you want to create schedule 
+* **Time Zone (\*):** Select the time zone you want the schedule will follow   
+**Trigger tab:**   
+* **Recurrence:** Select the cycle for the schedule: Minutes/ Hourly/ Daily/ Weekly/ Monthly/ Advance 
+* **Start Date (\*):** select the time at which the schedule will start and 
+* **End Date:** select the time at which the schedule will end   
+**Execution Target tab:** depends on the workflow you chose, tick the suitable agent  **Parameters tab:**  
+**Holiday settings tab**: single choice   
+* Run continuously (default) 
+* Bypass holiday 
+* Postpone until the next workday   
+***Note: (\*) is required*** 
+
+![image-20230308181710-53.png](/static/img/image-20230308181710-53.png)
 
 If you choose **Once**
 
@@ -422,7 +437,7 @@ S1: To delete, you need to click The Action button of the corresponding Schedule
 
 2. Stop Bot
 
-S1: To stop a running Bot, in **Task**tab > click **Action**in Action column next to the task > Then a dropdown list is shown up > choose **Stop**
+S1: To stop a running Bot, in **Task** tab > click **Action** in Action column next to the task > Then a dropdown list is shown up > choose **Stop**
 
 ![image-20230308181710-59.png](/static/img/d92652_image-20230308181710-59.png)
 

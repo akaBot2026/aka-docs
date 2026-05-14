@@ -40,11 +40,11 @@ Elasticsearch is the core of the ELK stack and is where all of the data will be 
 
 - To install Elasticsearch open a Windows PowerShell prompt (Run as Administrator) and type the following commands:
 
-*Invoke-Expression -command  c:\ELK\elasticsearch\bin\elasticsearch-service install *
+`Invoke-Expression -command  c:\ELK\elasticsearch\bin\elasticsearch-service install `
 
 - After Elasticsearch installed, open the Elasticsearch service properties with below command, change Startup type to Automatic and start the service.
 
-*Invoke-Expression -command  c:\ELK\elasticsearch\bin\elasticsearch-service manager *
+` Invoke-Expression -command  c:\ELK\elasticsearch\bin\elasticsearch-service manager `
 
 ![1776052277687-801.png](/static/img/5a5435_1776052277687-801.png)
 

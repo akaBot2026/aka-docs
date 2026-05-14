@@ -145,7 +145,7 @@ Notes:
 
 => **The most common case**: Upgrade platform on Windows Server
 
-![:white-check-mark:](/static/img/919366_white-check-mark.png) **Solution**: Kindly close all the applications and restart Windows. Once the system is rebooted, the console screen of akaBot will appear and notify us about replacing akaBotCredentialProvider.dll file and disabling the auto-logon feature.
+**Solution**: Kindly close all the applications and restart Windows. Once the system is rebooted, the console screen of akaBot will appear and notify us about replacing akaBotCredentialProvider.dll file and disabling the auto-logon feature.
 
 ![image-20220506133834-11.png](/static/img/af1f8b_image-20220506133834-11.png)
 
@@ -159,26 +159,21 @@ Notes:
 ![image-20220506133850-13.png](/static/img/448d53_image-20220506133850-13.png)
 
 **Auto-logon module is enabled but still unlocks failed**  
-![:white-check-mark:](/static/img/919366_white-check-mark.png) **Solution**: Please be ensure that you install VC++ Redist x64/x86 v14.16.27029
 
 ![image-20220506133859-14.png](/static/img/961bca_image-20220506133859-14.png)
-
 **Multiple sessions of the same user**
 
 * akaBot platform only supports 1 session of 1 user at a point.
 * Therefore, if there is more than one user session at a time, akaBot service mistakenly identifies that user's state as locked or active.
 
-![:white-check-mark:](/static/img/919366_white-check-mark.png) **Solution**: To allow 1 session for 1 user, please follow the configuration:
 
-**Step 1** - Open Start Menu > type**Group Policy** or **gpedit.msc**
+**Step 1** - Open Start Menu > type **Group Policy** or **gpedit.msc**
 
 **Step 2** - Navigate to: **Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host> Connections** => *Restrict Remote Desktop Services users to a single Remote Desktop Services Session = Not Configured or Enabled*
 
 ![image-20220506133907-15.png](/static/img/da6afa_image-20220506133907-15.png)
 
 **Unlock fails because of legal disclaimer enabled**
-
-![:white-check-mark:](/static/img/919366_white-check-mark.png) **Solution**: Please follow these steps:
 
 **Step 1** - Switch to RDP mode  
 **Step 2** - Add parameter to **Center** > **Agent**> **Agent Settings** > **Others**: */kb:\{Enter\}*
@@ -201,9 +196,8 @@ The server authentication policy does not allow connection requests using saved 
 
 ![image-20220506134104-17.png](/static/img/b4577c_image-20220506134104-17.png)
 
-![:white-check-mark:](/static/img/919366_white-check-mark.png) **Solution**: Please follow these steps below:
 
-**Step 1**- Open Start Menu > type**Group Policy** or **gpedit.msc**
+**Step 1**- Open Start Menu > type **Group Policy** or **gpedit.msc**
 
 **Step 2** - Navigate to: **Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host > Security** => *Always prompt for password upon connection = Not Configured or Enabled*
 

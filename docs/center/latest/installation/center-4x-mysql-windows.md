@@ -40,7 +40,7 @@ You need to prepare the installation package according to the following list.
 
 ## **2. Java JDK 17 Installation**
 
-Run the installer -**openlogic-openjdk-17.0.16**you have downloaded. After that, click**"Next"**to proceed.
+Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that, click **"Next"** to proceed.
 
 ![1772678336700-443.png](/static/img/76eafc_1772678336700-443.png)
 
@@ -54,13 +54,13 @@ Run the installer -**openlogic-openjdk-17.0.16**you have downloaded. After that,
 
 ![1772678676435-470.png](/static/img/898bcd_1772678676435-470.png)
 
-**Note**: Make sure that**JAVA\_HOME**presents in your environment variables by typing command**echo %JAVA\_HOME%**, the output should be a path that point to jdk 17 ex:**C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot**
+**Note**: Make sure that **JAVA\_HOME** presents in your environment variables by typing command **echo %JAVA\_HOME%**, the output should be a path that point to jdk 17 ex: **C:\Program Files\OpenLogic\jdk-17.0.16.8-hotspot**
 
 ## **3. MySQL installation**
 
 ### **3.1. Install MySQL**
 
-**Step 1**- Kindly download[**MySQL 8.0**](https://dev.mysql.com/downloads/installer/)
+**Step 1**- Kindly download [**MySQL 8.0**](https://dev.mysql.com/downloads/installer/)
 
 ![1772679894229-198.png](/static/img/6fedc5_1772679894229-198.png)
 
@@ -72,28 +72,28 @@ Run the installer -**openlogic-openjdk-17.0.16**you have downloaded. After that,
 
 * To run akaBot Center, you will need MySQL Server and MySQL Workbench.
 * Under:  
-  +**MySQL Servers > MySQL Server**, choose **the newest**for**MySQL Server.**  
-  +**Application > MySQL Workbench**, choose**the newest** version for**MySQL Workbench**
+  +**MySQL Servers > MySQL Server**, choose **the newest** for **MySQL Server.**  
+  +**Application > MySQL Workbench**, choose **the newest** version for **MySQL Workbench**
 
 ![1772680062957-574.png](/static/img/62134b_1772680062957-574.png)
 
-* Click button**"Next"**
+* Click button **"Next"**
 
 ![1772680106676-150.png](/static/img/e8e1be_1772680106676-150.png)
 
-* After that, kindly click "**Execute"**and hit**"Next"**
+* After that, kindly click **"Execute"** and hit **"Next"**
 
 ![1772680183433-519.png](/static/img/309ba6_1772680183433-519.png)
 
-* After products are successfully installed, click**"Next**" to continue process
+* After products are successfully installed, click **"Next**" to continue process
 
 ![1772680302561-505.png](/static/img/30c53e_1772680302561-505.png)
 
-* When you at the**Accounts and Roles**page, it is recommended you set it to the defaultpassword***"*sis@12345"**to avoid having to update the config file later. Click**Next"**
+* When you at the **Accounts and Roles** page, it is recommended you set it to the default password **"sis@12345"** to avoid having to update the config file later. Click **Next"**
 
 ![1772680441382-833.png](/static/img/636706_1772680441382-833.png)
 
-* Click**"Execute"**and wait till everything is finished. Click**Finish.**
+* Click **"Execute"** and wait till everything is finished. Click **Finish.**
 
 ![1772680676937-347.png](/static/img/197a7f_1772680676937-347.png)
 
@@ -107,17 +107,17 @@ Follow these steps to know how to setup remote connection with MySQL. This will 
 
 **Test your MySQL from remote client using MySQL Workbench**
 
-* Open MySQL Workbench in other computer, click to the **add connection button** (see picture bellowed) to open**Setup** **New** **Connection** window.
+* Open MySQL Workbench in other computer, click to the **add connection button** (see picture bellowed) to open **Setup** **New** **Connection** window.
 
 ![1772680900409-828.png](/static/img/a21512_1772680900409-828.png)
 
-* Input IP address of MySQL that you want to test, explorer in **HostName"**
-* Input your SQLUsername:**root**
-* Click to **Test** **Connection** button
+* Input IP address of MySQL that you want to test, explorer in **"HostName"**
+* Input your SQLUsername: **root**
+* Click to **Test Connection** button
 
 ![1772680983582-429.png](/static/img/73674e_1772680983582-429.png)
 
-* After dialog **Connect** **to** **MySQL** **Server** appears, you enter**password** ***(you created in 3.1 >Step 2)*** for this account then hit **"Ok"**totest this connection
+* After dialog **"Connect to MySQL Server"** appears, you enter **password (you created in 3.1 >Step 2)** for this account then hit **"Ok"** to test this connection
 
 ![1772681048495-679.png](/static/img/985936_1772681048495-679.png)
 
@@ -140,7 +140,7 @@ Follow these steps to know how to setup remote connection with MySQL. This will 
 
 ![1772681325916-698.png](/static/img/d6ebe6_1772681325916-698.png)
 
-**Step 2**: Click to (1) to open **Create** **new** **database** **dialog**
+**Step 2**: Click to (1) to open **Create new database dialog**
 
 ![1772681367826-951.png](/static/img/14d5de_1772681367826-951.png)
 
@@ -169,7 +169,7 @@ Hit **Finish**
 Apache Tomcat installation:  
 -Uncheck "Run Apache Tomcat"  
 -Uncheck "Show Readme"  
-- Click the "Finish" button to complete the installation.
+-Click the "Finish" button to complete the installation.
 
 ![1772681812071-644.png](/static/img/fb53d4_1772681812071-644.png)
 
@@ -187,9 +187,9 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 **4.2.1. Configure log setting**s
 
-**Step 1:**Open the file**%TOMCAT\_PATH%\conf\logging.properties**
+**Step 1:** Open the file **%TOMCAT\_PATH%\conf\logging.properties**
 
-**Step 2:** Add attribute**maxDay**s to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
+**Step 2:** Add attribute **maxDays** to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
 
 * Example: keep 90 daysworth of history. Change the number at the end of the following rows:
   + 1catalina.org.apache.juli.AsyncFileHandler.maxDays = **90**
@@ -201,9 +201,9 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 **Step 3:** Save changes and close the file.
 
-**Step 4:** Open the file**%TOMCAT\_PATH%\conf\server.xml**
+**Step 4:** Open the file **%TOMCAT\_PATH%\conf\server.xml**
 
-**Step 5:** Un-Comment the line of log setting to turn on the log and add attribute**maxDays** as below:
+**Step 5:** Un-Comment the line of log setting to turn on the log and add attribute **maxDays** as below:
 
 ![1772682631349-450.png](/static/img/2081bb_1772682631349-450.png)
 
@@ -223,11 +223,11 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 ![1772682840226-911.png](/static/img/b23ad0_1772682840226-911.png)
 
-**Step 6:**Save changes and close the file
+**Step 6:** Save changes and close the file
 
 **4.2.2. Other settings**
 
-**Step 1:**Navigate to the path **%TOMCAT\_PATH%\bin** and double-click the file **Tomcat10w.exe** to open the Apache Tomcat Service configuration.
+**Step 1:** Navigate to the path **%TOMCAT\_PATH%\bin** and double-click the file **Tomcat10w.exe** to open the Apache Tomcat Service configuration.
 
 ![1772682897309-350.png](/static/img/bc9234_1772682897309-350.png)
 
@@ -238,23 +238,23 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\
 
 ![1772683028183-225.png](/static/img/d95fe8_1772683028183-225.png)
 
-**Step 3:**On the **Logging** tab
+**Step 3:** On the **Logging** tab
 
-(1) Log prefix:**Remove "commons-daemon"**
+(1) Log prefix: **Remove "commons-daemon"**
 
 (2) Redirect Stdout: **Remove "auto"**
 
 (3) Redirect Stderror: **Remove "auto"**
 
-(4) Choose**Apply** to apply the configuration changes.
+(4) Choose **Apply** to apply the configuration changes.
 
 ![1772683067655-799.png](/static/img/996e64_1772683067655-799.png)
 
-**Step 4**: On the **Java**tab
+**Step 4**: On the **Java** tab
 
 a. Adjust the Java Heap configuration:
 
-* Initial memory pool: **Enter a value \<= 1/4of the server's RAM.**
+* Initial memory pool: **Enter a value \<= 1/4 of the server's RAM.**
 
 Example: Server RAM = 32 GB -> Initial memory pool should be \<= 1/4 \* 16 \* 1024 MB
 
@@ -264,11 +264,11 @@ Example: Server RAM = 32 GB -> Maximum memory pool should be \<=  \* 16 \* 1024 
 
 **Note**: If you enter a value that is too large, it may prevent Apache Tomcat service from starting and result in errors.
 
-b.Choose **Apply**to apply the configuration changes.
+b.Choose **Apply** to apply the configuration changes.
 
 ![1772683124013-819.png](/static/img/18c571_1772683124013-819.png)
 
-**Step 5:**Start the Tomcat Service
+**Step 5:** Start the Tomcat Service
 
 On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
@@ -276,14 +276,14 @@ On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
 ### **4.3. Check Apache Tomcat Installation**
 
-**Step 1:**After installation and configuration, go to the Services screen and check the status of the Apache Tomcat service.
+**Step 1:** After installation and configuration, go to the Services screen and check the status of the Apache Tomcat service.
 
 * If the Status is not Running, start the Apache Tomcat service.
 * If the Status is Running, proceed to step 2.
 
 ![1772683257050-138.png](/static/img/ca3bc4_1772683257050-138.png)
 
-**Step 2:**Access the URL [http://localhost:8080](http://localhost:8080/) in Chrome to verify the successful installation of Apache Tomcat:
+**Step 2:** Access the URL [http://localhost:8080](http://localhost:8080/) in Chrome to verify the successful installation of Apache Tomcat:
 
 ![1772683276276-714.png](/static/img/77415f_1772683276276-714.png)
 
@@ -291,7 +291,7 @@ On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
 ### **5.1. Install ActiveMQ**
 
-**Step 1:**Extract the file "apache-activemq-5.15.1-bin.zip" to the desired installation path.
+**Step 1:** Extract the file "apache-activemq-5.15.1-bin.zip" to the desired installation path.
 
 For example: **ACTIVEMQ\_PATH = C:\akaBot\apache-activemq-5.15.1**
 
@@ -315,13 +315,13 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ### **5.2. Java Heap Configuration**
 
-**Step 1:**Stop service ActiveMQ
+**Step 1:** Stop service ActiveMQ
 
 ![1772683757268-489.png](/static/img/5539ff_1772683757268-489.png)
 
 **Step 2**: Open the file **%ACTIVEMQ\_PATH%\bin\win64\wrapper.conf** and configure the parameters:
 
-* ***wrapper.java.initmemory:***Enter the initial value for the Java Heap memory.
+* ***wrapper.java.initmemory:*** Enter the initial value for the Java Heap memory.
 
 For example, if the server has 32 GB of RAM, you can enter 1024.
 
@@ -351,19 +351,19 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ### **6.1. Copy and extract war file**
 
-**Step 1: Stop**Apache Tomcat service
+**Step 1: Stop** Apache Tomcat service
 
 ![1772684035957-533.png](/static/img/a29a1a_1772684035957-533.png)
 
-**Step 2: Delete**all folders in**%TOMCAT\_PATH%/webapps.**
+**Step 2: Delete** all folders in **%TOMCAT\_PATH%/webapps.**
 
 ![1772684090590-522.png](/static/img/7ca112_1772684090590-522.png)
 
-**Step 3: Copy** the file akaBot-center-x.x.x.x.war to the**%TOMCAT\_PATH%/webapps/** directory and**rename** it to**ROOT.war.**
+**Step 3: Copy** the file akaBot-center-x.x.x.x.war to the **%TOMCAT\_PATH%/webapps/** directory and **rename** it to **ROOT.war.**
 
 ![1772684241741-811.png](/static/img/7d371d_1772684241741-811.png)
 
-**Step 4: Restart** the Apache Tomcat service and wait for the**ROOT.war** to be extracted into the ROOT directory.
+**Step 4: Restart** the Apache Tomcat service and wait for the **ROOT.war** to be extracted into the ROOT directory.
 
 ![1772684338178-158.png](/static/img/875d26_1772684338178-158.png)
 
@@ -371,11 +371,11 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 ### **6.2. akaBot Center configuration**
 
-**6.2.1. Configquartz.properties**
+**6.2.1. Config quartz.properties**
 
 **Step 1:** Stop the Apache Tomcat service (if the Apache Tomcat service is currently running).
 
-**Step 2:** Modify the configuration in the file**%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/quartz.properties** as follows:
+**Step 2:** Modify the configuration in the file **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/quartz.properties** as follows:
 
 ***1. Comment out the jobstore configuration for MySSQL.***
 
@@ -387,11 +387,11 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 **6.2.2.Configure the MySQL Database Connection**
 
-**Step 1**: Navigate to the path**%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/**
+**Step 1**: Navigate to the path **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/**
 
-**Step 2**: Modify the configuration in **both files:*****application-dev.yml*** and ***application-prod.yml***
+**Step 2**: Modify the configuration in **both files:** ***application-dev.yml*** and ***application-prod.yml***
 
-**Remove**the # characters at the beginning of the lines to uncomment the configuration and enable**MySQL** usage. Add the "#" characters at the beginning of the lines to comment out the configuration and disable MSSQL.
+**Remove** the # characters at the beginning of the lines to uncomment the configuration and enable **MySQL** usage. Add the "#" characters at the beginning of the lines to comment out the configuration and disable MSSQL.
 
 * ***application-dev.yml***
 
@@ -409,9 +409,9 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 **6.2.3. Log setting**
 
-1. Open the file**%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/logback-spring.xml**
+1. Open the file **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/logback-spring.xml**
 
-2. Change the **log level**to ERROR
+2. Change the **log level** to ERROR
 
 3. Change the setting in rolling log file as below:
 
@@ -429,8 +429,8 @@ For example, with a server having 32 GB of RAM, you can enter 4096.
 
 6. Log in using the following credentials:
 
-* username:**admin**
-* password: **admin**
+* username: **admin**
+* password:  **admin**
 * You will be redirected to the dashboard as shown below.
 
 ![1772692638876-773.png](/static/img/ad042c_1772692638876-773.png)
@@ -465,4 +465,4 @@ Information to be backed up for disaster recovery scenarios:
 
 **9. Activate Licenses**
 
-Please follow the instruction via **[Activation](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Activation/)**
+Please follow the instruction via **[Activation](https://docs-v2.akabot.com/center/latest/installation/license-activation)**

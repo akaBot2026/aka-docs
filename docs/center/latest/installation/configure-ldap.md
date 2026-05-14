@@ -12,7 +12,7 @@ This document provides instructions for configuring LDAP/AD authentication withi
 
 # **1. Overview**
 
-# - Open file **application-prod.yml** file
+- Open file **application-prod.yml** file
 
 ![1773906808885-411.png](/static/img/1773906808885-411.png)
 
@@ -47,7 +47,7 @@ The system supports multiple LDAP/AD server configurations. Each server in the l
 | masterUserPassword | Character | Password of master user |  secretAdmin  |
 | masterBaseDn | Character | Absolute path DN to master user | "ou=system,dc=Company, dc=vn" |
 
-# **3. Make real setting LDAP/AD Configuration properties**
+**3. Make real setting LDAP/AD Configuration properties**
 
 **Step 1: Stop Services**
 
@@ -71,7 +71,7 @@ The system supports multiple LDAP/AD server configurations. Each server in the l
 
 ![1773907578318-182.png](/static/img/1773907578318-182.png)
 
-![1773907593968-692.png](/static/img/1773907593968-692.png)
+![1773907593968-692.png](/static/img/87fc84_1773907593968-692.png)
 
 **Step 4: Get values to fill in value of masterUserDn, masterUserDnValue and masterBaseDn**
 
@@ -93,7 +93,7 @@ The system supports multiple LDAP/AD server configurations. Each server in the l
 
 # 
 
-# **4. LDAP/AD User Authentication: Standard Conditions and Exceptional Cases**
+**4. LDAP/AD User Authentication: Standard Conditions and Exceptional Cases**
 
 **4.1. Standard Conditions for LDAP/AD User Mapping**
 

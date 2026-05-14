@@ -10,11 +10,11 @@ displayed_sidebar: centerSidebar
 
 ## **Use case 1: Create / Edit an OU**
 
-S1: To access the **Organization Unit page,**click on the Administration tab in the left menu, then click Organization Unit tab
+S1: To access the **Organization Unit page,** click on the Administration tab in the left menu, then click Organization Unit tab
 
 ![image-20230425154231-1.png](/static/img/8c5b48_image-20230425154231-1.png)
 
-S2: In order to view all the details of an OU, you can click the**eye** button
+S2: In order to view all the details of an OU, you can click the **eye** button
 
 ![image-20230425154231-2.png](/static/img/f81b09_image-20230425154231-2.png)
 
@@ -47,7 +47,7 @@ S4: After clicking, a pop-up form shows up for you to fill in the information
 
 ## **Use case 2: Remove an OU**
 
-In **Organization Unit**menu > click **Delete**button next to the OU name on the page to remove an OU
+In **Organization Unit**menu > click **Delete** button next to the OU name on the page to remove an OU
 
 ***Note: Delete an OU will delete all resources within the unit***
 
@@ -57,7 +57,7 @@ In **Organization Unit**menu > click **Delete**button next to the OU name on the
 
 Roles are sets of permission, which means that the permissions required to access and control specific Center resources are assigned to roles
 
-S1: In the menu, choose **Administration,**thenchoose **Role Management**tabtosee the decentralization of each role.
+S1: In the menu, choose **Administration,** then choose **Role Management** tab to see the decentralization of each role.
 
 ![image-20230425154231-7.png](/static/img/d44c49_image-20230425154231-7.png)
 
@@ -98,7 +98,7 @@ S2: A confirming pop-up will display > Click **Delete** to complete the operatio
 
 ## **Use case 5:  View/ Edit/ Create a new account**
 
-S1: Click **Administration**in the left menu**>**Choose **Users**tab, then you will see detail page as below:
+S1: Click **Administration**in the left menu **>** Choose **Users** tab, then you will see detail page as below:
 
 ![image-20230425154231-13.png](/static/img/c775ef_image-20230425154231-13.png)
 
@@ -120,7 +120,7 @@ S3: To create/edit account, click create new on the right
 
 ![image-20230425154231-16.png](/static/img/1ee1eb_image-20230425154231-16.png)
 
-When you click on**Create New/Edit** button, the system will show a form for you to fill in. Details in the table below
+When you click on **Create New/Edit** button, the system will show a form for you to fill in. Details in the table below
 
 ![image-20230425154231-17.png](/static/img/6a800f_image-20230425154231-17.png)
 
@@ -146,7 +146,7 @@ S1: In the left menu, choose Homepage. This page shows you all information inclu
 * Upcoming Tasks
 * Recent Tasks
 
-S2: You can use **Filter**button to view the tasks based on Agent Group, Agent Name.
+S2: You can use **Filter** button to view the tasks based on Agent Group, Agent Name.
 
 ![image-20230425154231-19.png](/static/img/3e7b8e_image-20230425154231-19.png)
 
@@ -158,7 +158,7 @@ S3: To quickly create tasks, click this **“Plus”** button
 
 **Option 1:**
 
-S1: Choose Resource in the left menu > click **Agent Group tab**then screen will show as below
+S1: Choose Resource in the left menu > click **Agent Group tab** then screen will show as below
 
 ![image-20230425154754-21.png](/static/img/8dc1e5_image-20230425154754-21.png)
 
@@ -166,7 +166,7 @@ S2: Click **“Create New”** button on the right corner of the screen
 
 ![image-20230425154754-22.png](/static/img/3daf86_image-20230425154754-22.png)
 
-**Option 2**: In case, you just want to edit Agent Group information, click **Edit**in Action column
+**Option 2**: In case, you just want to edit Agent Group information, click **Edit** in Action column
 
 ![image-20230425154754-23.png](/static/img/0d7486_image-20230425154754-23.png)
 
@@ -191,7 +191,7 @@ S1:
 
 **Option 2**: You can hit the checkbox before each Agent and the Delete option will appear next to the Filter option at the top. Click the Checkbox next to Action will allow you to select all Agents for deletion
 
-S2: To confirm your action > Hit **Delete**in pop-up windows
+S2: To confirm your action > Hit **Delete** in pop-up windows
 
 ![image-20230425154754-26.png](/static/img/a1d748_image-20230425154754-26.png)
 
@@ -216,7 +216,7 @@ S1: Click Resource in the left menu, then choose Agent tab, you can see the deta
 
 ## **Use case 11: View/ Create / Edit Agent**
 
-S1: To view Agent, You can view the details of the Agent by clicking the**eye** button.
+S1: To view Agent, You can view the details of the Agent by clicking the **eye** button.
 
 ![image-20230425155109-28.png](/static/img/6417df_image-20230425155109-28.png)
 
@@ -235,7 +235,6 @@ You can also Export Log for further investigation by clicking the **Export Log*
 S4: To create/ edit an Agent, click **Create New** button on the right corner
 
 ![image-20230425155109-32.png](/static/img/0943e5_image-20230425155109-32.png)
-
 Or you could choose edit button of one Agent in the list. Alternatively, you can click the **Edit** button on the Detail Page of the Agent.
 
 ![image-20230425155109-33.png](/static/img/8df416_image-20230425155109-33.png)
@@ -248,15 +247,17 @@ S5: After clicking, the system shows a popup allowing you to fill properties to 
 
 S1:
 
-**Option 1:**you need to click the **Delete** button.
+**Option 1:** you need to click the **Delete** button.
 
 ![image-20230425155109-35.png](/static/img/8c962d_image-20230425155109-35.png)
 
-**Option 2:** Alternatively, you can select the checkbox before each Agent and the **Delete**button will show up next to the **Create New** button. Tick the Checkbox next to Action will allow users to select all displayed Agent for bulk delete.![image-20230425155109-36.png](/static/img/9abf81_image-20230425155109-36.png)
+**Option 2:** Alternatively, you can select the checkbox before each Agent and the **Delete** button will show up next to the **Create New** button. Tick the Checkbox next to Action will allow users to select all displayed Agent for bulk delete. 
+
+![image-20230425155109-36.png](/static/img/9abf81_image-20230425155109-36.png)
 
 S2: A pop-up window appears to take your confirmation.
 
-If you want to delete Agent information in Agent Group, Tasks, Schedule, Queue, and Logs > tick the box **Delete related items >**hit **Delete**
+If you want to delete Agent information in Agent Group, Tasks, Schedule, Queue, and Logs > tick the box **Delete related items >** hit **Delete**
 
 ![image-20230425155109-37.png](/static/img/bd2dfd_image-20230425155109-37.png)
 
@@ -267,44 +268,43 @@ If you want to delete Agent information in Agent Group, Tasks, Schedule, Queue, 
 S1: From Agent in the left menu, choose agent name that you want to change passwork, then click **Edit**
 
 ![image-20230425155109-38.png](/static/img/a14740_image-20230425155109-38.png)
-
-S2: When the pop-up form appears > fill new password in **Machine password >**click **Save***(for more information, click*[*here*](#_Use_case_11:)*)*
+S2: When the pop-up form appears > fill new password in **Machine password >** click **Save** *(for more information, click* [*here*](#_Use_case_11:)*)*
 
 ![image-20230425155109-39.png](/static/img/d5b185_image-20230425155109-39.png)
 
 **Option 2**:
 
-S1: In **Asset**tab, choose Name of agent you want to change password, then click **Edit** button
+S1: In **Asset** tab, choose Name of agent you want to change password, then click **Edit** button
 
 ![image-20230425155109-40.png](/static/img/702e80_image-20230425155109-40.png)
 
 S2: Fill in the tab:
 
-**Type:**choose **CREDENTIAL**
+**Type:** choose **CREDENTIAL**
 
 * Click **OK**
 
-## image-20230425155109-41.png **Use case 14: Add/ Renew/ De-active license**
+![image-20230425155109-41.png](/static/img/image-20230425155109-41.png) 
+
+## **Use case 14: Add/ Renew/ De-active license**
 
 1. Add license
 
-S1: In **Administration**> Choose **License**tab> Click **Add License**>Fill in the License Key field with the license key you received from the licensing email
+S1: In **Administration**> Choose **License** tab> Click **Add License**>Fill in the License Key field with the license key you received from the licensing email
 
 ![image-20230425155109-42.png](/static/img/691241_image-20230425155109-42.png)
 
 2.  Renew license
 
-S1: In **Administration**> Choose **License**in the left menu
+S1: In **Administration**> Choose **License** in the left menu
 
 ![image-20230425155109-43.png](/static/img/4f0348_image-20230425155109-43.png)
-
 S2: Click **Renew license**> Then enter your license key to renew
 
 ![image-20230425155109-44.png](/static/img/dfc56e_image-20230425155109-44.png)
-
 3. De-active license
 
-In **Administration**> Choose **License**> Click **Deactivate license**to deactivate license
+In **Administration**> Choose **License**> Click **Deactivate license** to deactivate license
 
 ![image-20230425155109-45.png](/static/img/a40cae_image-20230425155109-45.png)
 
@@ -314,17 +314,19 @@ In **Administration**> Choose **License**> Click **Deactivate license**to deacti
 
 **Option 1:**
 
-S1:Click Automation in the leftmenu > Click **Task**tab
+S1: Click Automation in the leftmenu > Click **Task** tab
 
 ![image-20230425155109-46.png](/static/img/2e05ac_image-20230425155109-46.png)
 
-S2:Choose workflow that needs to run manually, then **save**
+S2: Choose workflow that needs to run manually, then **save**
 
 ![image-20230425155109-47.png](/static/img/d5c239_image-20230425155109-47.png)
 
-**Option 2:**Alternatively, you can click **Action**in Action column next to the task > Then a dropdown list is shown up > choose **Clone**> Click **Save**
+**Option 2:** Alternatively, you can click **Action** in Action column next to the task > Then a dropdown list is shown up > choose **Clone**> Click **Save**
 
-![image-20230425155109-48.png](/static/img/1f0ac2_image-20230425155109-48.png) 2. Run Bot Schedule (set up schedule, disable schedule)
+![image-20230425155109-48.png](/static/img/1f0ac2_image-20230425155109-48.png) 
+
+2. Run Bot Schedule (set up schedule, disable schedule)
 
 **2.1. Create / Edit Schedule:**
 
@@ -336,7 +338,23 @@ S2: Fill in the pop-up form
 
 |  |  |
 | --- | --- |
-| * **Name (\*):**Name of the schedule * **Workflow (\*):**Select the workflow you want to create schedule * **Time Zone (\*):**Select the time zone you want the schedule will follow   **Trigger tab:**   * **Recurrence:**Select the cycle for the schedule: Minutes/ Hourly/ Daily/ Weekly/ Monthly/ Advance * **Start Date (\*):**select the time at which the schedule will start and * **End Date:**select the time at which the schedule will end   **Execution Target tab:**depends on the workflow you chose, tick the suitable agent  **Parameters tab:**  **Holiday settings tab**: single choice   * Run continuously (default) * Bypass holiday * Postpone until the next workday   ***Note: (\*) is required*** | image-20230425155109-50.png |
+| 
+* **Name (\*):** Name of the schedule 
+* **Workflow (\*):** Select the workflow you want to create schedule 
+* **Time Zone (\*):** Select the time zone you want the schedule will follow   
+**Trigger tab:**   
+* **Recurrence:** Select the cycle for the schedule: Minutes/ Hourly/ Daily/ Weekly/ Monthly/ Advance 
+* **Start Date (\*):** select the time at which the schedule will start and 
+* **End Date:** select the time at which the schedule will end   
+**Execution Target tab:** depends on the workflow you chose, tick the suitable agent  
+**Parameters tab:**  
+**Holiday settings tab**: single choice   
+* Run continuously (default) 
+* Bypass holiday 
+* Postpone until the next workday   
+***Note: (\*) is required*** 
+
+![image-20230425155109-50.png](/static/img/image-20230425155109-50.png)
 
 If you choose **Once**
 
@@ -431,8 +449,10 @@ B1: To delete, you need to click The Action button of the corresponding Schedule
 
 3. Stop Bot
 
-S1: To stop a running Bot, in **Task**tab > click **Action**in Action column next to the task > Then a dropdown list is shown up > choose **Stop**
+S1: To stop a running Bot, in **Task** tab > click **Action** in Action column next to the task > Then a dropdown list is shown up > choose **Stop**
 
 ![image-20230425155109-56.png](/static/img/0b6352_image-20230425155109-56.png)
 
-S2: The System will show a message to get your confirmation. Hit **Confirm** to remove the task. ![image-20230425155109-57.png](/static/img/2a65ce_image-20230425155109-57.png)
+S2: The System will show a message to get your confirmation. Hit **Confirm** to remove the task. 
+
+![image-20230425155109-57.png](/static/img/2a65ce_image-20230425155109-57.png)

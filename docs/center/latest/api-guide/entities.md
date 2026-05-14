@@ -8,7 +8,7 @@ displayed_sidebar: centerSidebar
 ---
 # Entities
 
-## 1**.  User**
+## **1.User**
 
 |  |  |  |
 | --- | --- | --- |
@@ -73,7 +73,7 @@ displayed_sidebar: centerSidebar
 | fileName | String |  |
 | status | Bool |  |
 
-## **6.****WorkFlowParameter**
+## **6. WorkFlowParameter**
 
 |  |  |  |
 | --- | --- | --- |
