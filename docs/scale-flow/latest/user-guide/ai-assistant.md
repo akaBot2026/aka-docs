@@ -13,6 +13,14 @@ AI Assistant is the main AI area for Inbox. It helps your team reply faster, sum
 
 Think of AI Assistant as a helpful team member that can read the recent conversation, use your business Knowledge, and support customers based on the rules you set.
 
+## AI Assistant vs Inbox Assistant vs Inbox Copilot
+
+In this guide, **AI Assistant** is the overall name for every inbox-related AI helper (Smart Assistant, Smart Reply, Smart Summary, Smart Writing, and Follow-up Assistant). We use one clear label so readers know all of these features belong to the same “AI help for conversations” area.
+
+In ScaleFlow’s interface, you open these settings under **AI** → **Inbox Assistant**. That menu name is the product label for the same capability set.
+
+You may still see **Inbox Copilot** in a few places—most often as an internal name in the app URL (for example `/ai/inbox-copilot`), in engineering identifiers, or in older screenshots and filenames. **Inbox Copilot and Inbox Assistant refer to the same settings pages**, not two different products. If the wording differs, follow **AI** → **Inbox Assistant** and you are in the right place.
+
 ## What AI Assistant can do
 
 AI Assistant includes several helpers:
@@ -48,7 +56,7 @@ For the best results, prepare these first:
 
 ## Open AI Assistant settings
 
-![Inbox Assistant list](/static/img/list-inbox-copilot.png)
+![Inbox Assistant list](/static/img/open-ai-assistant.png)
 
 1. In the left sidebar, open **AI**.
 2. Select **Inbox Assistant**.
@@ -66,7 +74,7 @@ Smart Assistant uses an AI Agent to answer customers automatically.
 1. Open **AI** -> **Inbox Assistant**.
 2. Select **Smart Assistant**.
 3. Choose the **Agent** that should answer customers.
-4. Choose an **Agent version**. Beginners can use **Latest** after the agent has been tested and published.
+4. Choose an **Agent version**. After your agent is tested and published, **prefer the newest version**: pick **Latest** (or the highest published version number) so customer replies use your latest instructions, Knowledge links, and fixes. Pinning an old version can leave Smart Assistant on outdated behavior until someone updates this setting.
 5. Choose when Smart Assistant should run:
    - **Always**: AI can respond at any time.
    - **Outside working hours**: AI responds when staff are not working.
@@ -83,6 +91,8 @@ Simple instruction example:
 ## Set up Smart Reply
 
 Smart Reply is for assisted human replies. It does not send messages automatically. It generates a draft in the Inbox composer so staff can review, edit, and send.
+
+![Smart Reply settings page](/static/img/setup-smart-reply.png)
 
 1. Open **AI** -> **Inbox Assistant**.
 2. Select **Smart Reply**.
@@ -150,7 +160,9 @@ AI can help, but staff should still review important replies, especially for ref
 ### Case 3: Smart Assistant is enabled, but no published agent version is selected
 
 - Auto-reply may not run as expected for customer conversations.
-- Publish a tested [AI Agent](./ai-agent-usage) version, then select that version (or Latest of published) in Smart Assistant settings.
+- Publish a tested [AI Agent](./ai-agent-usage) version, then select that version (or **Latest**) in Smart Assistant settings.
+- If you recently improved the agent but replies still feel old, confirm you are not stuck on an older pinned version—choose **Latest** or the newest published version.
+
 
 ### Case 4: Customer messages during non-configured runtime
 
@@ -191,7 +203,7 @@ Use the **Enabled** switch on each assistant settings page.
 
 - Make sure **Enabled** is turned on.
 - Make sure an AI Agent is selected.
-- Make sure the selected agent has a published version.
+- Make sure the selected agent has a published version, and that **Agent version** is **Latest** or the specific new version you expect (not an old pin).
 - Check whether the schedule allows AI to run at the current time.
 - Confirm the conversation falls into the runtime window when using **Outside working hours** or **Custom**.
 
@@ -206,7 +218,7 @@ Use the **Enabled** switch on each assistant settings page.
 
 - Update the instructions in Smart Assistant.
 - Improve the source information in [Knowledge](./knowledge-usage).
-- Test and republish the related [AI Agent](./ai-agent-usage).
+- Test and republish the related [AI Agent](./ai-agent-usage), then in Smart Assistant set **Agent version** to **Latest** (or the newest published version) so Inbox uses the update.
 
 ### AI should not answer a certain topic
 

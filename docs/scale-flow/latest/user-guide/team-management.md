@@ -29,7 +29,7 @@ In **Organization -> Team Management**, you can:
 If a button is missing, contact your workspace admin to update your permissions.
 
 ## Open Team Management
-
+![Open team](/static/img/open-team.png)
 1. In the left sidebar, open **Organization**.
 2. Select **Team Management**.
 3. You will see the team list with key information such as:
@@ -45,6 +45,8 @@ If a button is missing, contact your workspace admin to update your permissions.
 ## Create a new team
 
 Create a team when several users share the same responsibility.
+
+ ![Add team button](/static/img/add-team-1.png)
 
 1. Click **+ Add Team**.
 2. Fill in required fields:
@@ -78,6 +80,8 @@ Example: If one support staff member moves to the Billing team, remove them from
 
 ## Edit team details
 
+  ![Edit team button](/static/img/edit-team-1.png)
+
 1. In the team row, click the **Edit** icon.
 2. Update fields such as:
    - Team name
@@ -89,6 +93,8 @@ Example: If one support staff member moves to the Billing team, remove them from
 3. Click **Save Changes**.
 
 ## Delete a team
+
+![Delete team confirmation dialog](/static/img/delete-team-1.png)
 
 1. In the team row, click the **Delete** icon.
 2. Confirm the action in the dialog.

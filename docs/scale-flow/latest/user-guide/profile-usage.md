@@ -25,6 +25,8 @@ Example: If your display name is clear, teammates can easily assign a customer c
 
 ## Open your Profile page
 
+![Profile page overview](/static/img/open-profile.png)
+
 1. In the top-right corner, click your avatar or account menu.
 2. Select **Profile**.
 3. Review your profile sections, including:
@@ -32,15 +34,17 @@ Example: If your display name is clear, teammates can easily assign a customer c
    - Contact information
    - Account details
 
-![Profile page overview](/static/img/profile.png)
-
 ## Update your basic information
+
+![Update profile](/static/img/edit-profile-1.png)
 
 1. On the **Profile** page, click **Edit** (or the pencil icon) in the basic information section.
 2. Update fields such as:
    - First name
    - Last name
 3. Click **Save Changes**.
+
+![Dialog update profile](/static/img/dialog-edit-profile.png)
 
 ## Update contact information
 

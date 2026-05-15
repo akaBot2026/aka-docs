@@ -30,7 +30,9 @@ Example: A customer messages through Zalo today and Facebook next week. Contact 
 
 ## Open the Contacts workspace
 
-1. In the left menu, open **Contacts**.
+1. In the left menu, click **Contacts** to open the Contacts page.
+
+![Open the Contacts page from navigation](/static/img/open-contact.png)
 2. You will see:
    - **All Contacts**
    - **Tags**
@@ -39,20 +41,32 @@ Example: A customer messages through Zalo today and Facebook next week. Contact 
 
 If buttons such as **New contact**, **Import contacts**, or tag edit/remove actions are missing, ask your admin to grant contact management permissions.
 
-## Create a contact manually
 
-1. Go to **Contacts** -> **New contact**.
+You can open the **New contact** form in two ways. Both paths lead to the same screen.
 
-![New contact screen](/static/img/new-contact.png)
+**Option 1 — from All Contacts**
 
-2. Fill in contact information:
+1. Go to **Contacts** → **All Contacts**.
+2. Click **Add contact** in the page toolbar (above the contacts table).
+
+![Add contact from All Contacts](/static/img/add-contact.png)
+
+**Option 2 — from the sidebar**
+
+1. In the left menu, under **Contacts**, click **New contact**.
+
+![Open New contact from the sidebar](/static/img/new-contact-1.png)
+
+After the form opens:
+
+1. Fill in contact information:
    - First name / Last name
    - Phone number
    - Email
    - Labels
    - Lifecycle stage
    - Country
-3. Fill in additional information (optional):
+2. Fill in additional information (optional):
    - Company name
    - Job title
    - Lead stage
@@ -60,7 +74,8 @@ If buttons such as **New contact**, **Import contacts**, or tag edit/remove acti
    - Priority
    - Subscriber (on/off)
    - Lists
-4. Click **Save**.
+3. Click **Save**.
+
 
 Important: at least one of these must be entered: **First name** or **Last name**.
 
@@ -106,7 +121,12 @@ You can also:
 
 Use import when you already have many contacts in a spreadsheet.
 
+
+![Button import contact](/static/img/button-import-contact.png)
+
 Go to **Contacts** -> **Import contacts** and follow 4 steps:
+
+![Import contact](/static/img/import-contact.png)
 
 1. **Prepare**
    - Read the import checklist
@@ -130,11 +150,15 @@ Simple example: Your sales team has 500 leads in Excel. Import the file, match c
 
 ## Export contacts
 
+![Export contact](/static/img/export-contact.png)
+
 From **All Contacts**:
 - Use row actions to export a single contact
 - Use the top action menu to export contacts to CSV
 
 ## Delete contacts
+
+![Delete contact](/static/img/delete-contact.png)
 
 - Select one or more contacts, then click **Delete selected**
 - You can also delete from row actions

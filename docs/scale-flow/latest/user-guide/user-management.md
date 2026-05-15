@@ -33,6 +33,8 @@ If a button is missing, contact your workspace admin to update your permissions.
 
 ## Open User Management
 
+![Open Organization and User Management from the sidebar](/static/img/open-user-manage.png)
+
 1. In the left sidebar, open **Organization**.
 2. Select **User Management**.
 3. You will see a table with columns:
@@ -49,6 +51,8 @@ If a button is missing, contact your workspace admin to update your permissions.
 
 Use the search box at the top of the page:
 
+![Find user](/static/img/search-user.png)
+
 - Type your keyword (for example: email or name)
 - Results are refreshed automatically after a short delay
 - Click **Clear Filter** to reset search
@@ -58,6 +62,8 @@ The table uses pagination. You can change page and page size from the table cont
 ## Invite users by email
 
 Invitation is the easiest option when adding teammates.
+
+   ![Open invite user](/static/img/open-invite-user.png)
 
 1. Click **Invite Users**.
 2. Enter one or more email addresses.
@@ -81,6 +87,8 @@ Important:
 
 Use manual creation only when your organization wants an admin to create the account directly.
 
+![Open Add User](/static/img/open-add-user.png)
+
 1. Click **+ Add User**.
 2. Fill in required fields:
    - Email
@@ -99,7 +107,7 @@ Validation rules:
 - Password must be at least 6 characters
 
 ## Edit a user
-
+![Edit delete assign role user](/static/img/edit-delete-user.png)
 1. In the user row, click the **Edit** icon.
 2. Update user information.
 
@@ -127,6 +135,8 @@ Notes:
 ## Open user detail page
 
 From the Email column, click a user email to open the detail page.
+
+![Detail user](/static/img/detail-user.png)
 
 You can review:
 

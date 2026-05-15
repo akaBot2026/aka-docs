@@ -29,13 +29,15 @@ If the page is read-only or blocked, ask your admin to review your organization 
 
 ## Open Tenant Management
 
-![Tenant Management overview](/static/img/tenant-manage.png)
+![Tenant Management overview](/static/img/open-tenant.png)
 
 1. In the left sidebar, open **Organization**.
 2. Select **Tenant Management**.
 3. You will see two information cards:
    - **Identity**
    - **Ownership**
+
+![Tenant Management overview](/static/img/tenant-manage.png)
 
 ## Understand the information on screen
 

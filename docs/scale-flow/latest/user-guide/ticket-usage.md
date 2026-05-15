@@ -38,6 +38,10 @@ AI should not make final decisions for sensitive cases such as refunds, legal co
 
 ## Where to create a ticket
 
+To open the ticket management page, click **Tickets** in the sidebar (main navigation).
+
+![Open the Tickets page from navigation](/static/img/open-ticket.png)
+
 You can create tickets from two places:
 
 1. **Tickets page**  

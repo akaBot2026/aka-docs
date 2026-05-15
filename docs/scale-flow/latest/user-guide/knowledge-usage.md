@@ -26,6 +26,8 @@ Example: A store uploads a return policy PDF, a delivery FAQ, and a product cata
 
 ## Open Knowledge from the menu
 
+![Open knowledge](/static/img/open-knowledge.png)
+
 1. In the left sidebar, open **AI**.
 2. Select **Knowledge**.
 3. You will see the knowledge base list page.
@@ -48,7 +50,7 @@ Each card shows the name, source type, current status, and last update time.
 
 ## Create a Knowledge base
 
-![Create a new knowledge](/static/img/create-knowledge.png)
+![Create a new knowledge](/static/img/button-add-knowledge.png)
 
 1. Click **Add knowledge**.
 2. Enter:
@@ -101,7 +103,7 @@ Enter the page address and let ScaleFlow read the selected website pages. Start 
 
 ## Knowledge detail page
 
-![Knowledge detail page](/static/img/edit-document.png)
+![Knowledge detail page](/static/img/action-knowledge-1.png)
 
 Inside one knowledge base, you can:
 

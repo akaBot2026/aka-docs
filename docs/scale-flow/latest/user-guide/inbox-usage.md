@@ -28,13 +28,13 @@ Example: A customer sends a Facebook message asking about delivery. The message 
 
 ## Open Inbox
 
+![Inbox overview with 3-column layout](/static/img/open-inbox.png)
+
 1. In the left sidebar, click **Inbox**.
 2. The page opens in a 3-column layout:
    - Left: inbox categories
    - Middle: conversation list
    - Right: active conversation + contact panel
-
-![Inbox overview with 3-column layout](/static/img/inbox.png)
 
 If you cannot open Inbox, ask your admin to check your Inbox access.
 

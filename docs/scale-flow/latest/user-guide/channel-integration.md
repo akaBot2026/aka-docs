@@ -29,6 +29,12 @@ Connecting a channel lets ScaleFlow collect those messages in one shared [Inbox]
 
 Some other channels may appear in the list but show **Coming Soon**.
 
+## Open the Channels page
+
+Most steps in this guide start from **Channels**. In ScaleFlow, open **Channels** from the main navigation, then choose a channel (Zalo, Messenger, WhatsApp, or Telegram) from the list.
+
+![Open Channels from the main navigation](/static/img/open-channel.png)
+
 ## What is Zalo OA?
 
 Zalo OA means **Zalo Official Account**. It is a business account on Zalo that lets your company receive and send messages with customers.

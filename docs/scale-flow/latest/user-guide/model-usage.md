@@ -26,6 +26,8 @@ An **API key** is like a private password that lets ScaleFlow use an AI provider
 
 ## Open Models from the menu
 
+![Open provider](/static/img/open-model.png)
+
 1. In the left sidebar, open **AI**.
 2. Select **Models**.
 3. You will see the provider list page.
@@ -35,6 +37,8 @@ If you can open the page but cannot see buttons such as **Create**, **New Model*
 ## Models page (provider list)
 
 On the **Models** page, you can:
+
+![Provider list page](/static/img/list-provider.png)
 
 - Search providers
 - Click **Create** to add a new provider (if authorized)
@@ -48,11 +52,13 @@ Each provider card shows:
 - Configuration status (whether API key is configured)
 - Last updated date
 
-![Provider list page](/static/img/list-provider.png)
+
 
 ## Create a provider
 
 Create a provider when your organization wants to use an AI service account in ScaleFlow.
+
+![Create provider dialog](/static/img/create-provider-1.png)
 
 1. Click **Create** on the provider list page.
 2. Fill in the dialog:
@@ -74,6 +80,8 @@ Beginner tip: Use a clear provider name, such as `OpenAI - Company Account`, so 
 
 When you open a provider, you can:
 
+![Provider detail page](/static/img/detail-provider.png)
+
 - Search models by name
 - Click **New Model** to create a model
 - Open the actions menu (**...**) and choose:
@@ -85,6 +93,8 @@ If no model exists, the page shows an empty state.
 ![Model list in provider detail](/static/img/list-model.png)
 
 ## Provider Settings
+
+![Provider settings button](/static/img/setting-provider-1.png)
 
 In **Settings**, you can update:
 
@@ -102,6 +112,8 @@ You can also see:
 ## Create a model
 
 Create a model when the provider is connected but the exact AI model is not available yet.
+
+![New model](/static/img/new-model.png)
 
 1. In provider detail, click **New Model**.
 2. Fill required fields:
@@ -122,6 +134,8 @@ Notes based on current UI behavior:
 ## Edit or delete a model
 
 For each model card:
+
+![Edit model dialog](/static/img/action-model-1.png)
 
 1. Click the actions icon on the card.
 2. Choose **Edit** or **Delete**.
@@ -152,6 +166,10 @@ After models are configured, users can select them in [AI Agent](./ai-agent-usag
 4. Choose a model from the dropdown (grouped by provider).
 5. (Optional) Click the settings icon next to the model field to open **Advanced Model Settings**.
 
+
+**Recommendation:** When you pick a model for the agent, prefer **system-managed models** that show a **Security** icon in the list (often shown at the end of the model row). Those models are maintained for your workspace and are the safest default when the same agent is used with [AI Assistant](./ai-assistant) and automated assistant flows, because they stay on supported access and capability paths. You can still choose other enabled models if your admin approves that setup.
+
+![Choosing a model (system model with Security icon)](/static/img/choose-model.png)
 ## Advanced Model Settings (in agent form)
 
 Advanced settings change how the model writes. Beginners should keep defaults unless an admin gives instructions.

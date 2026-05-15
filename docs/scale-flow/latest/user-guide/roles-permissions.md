@@ -33,6 +33,8 @@ In **Organization -> Roles & Permissions**, you can:
 
 ## Open Roles & Permissions
 
+![Open role](/static/img/open-role.png)
+
 1. In the left sidebar, open **Organization**.
 2. Select **Roles & Permissions**.
 3. You will see role cards (for example: Owner, Administrator, Supervisor, Member, Guest, and custom roles).
@@ -56,15 +58,18 @@ Important behavior in the current UI:
 
 ## Create a new role
 
-![Create role dialog](/static/img/create-role.png)
-
 Create a role when a group of users needs the same access.
+
+![Create role button](/static/img/create-new-role.png)
 
 1. Click **Create new role**.
 2. In **Role details**:
    - Enter **Role name** (required)
    - Enter **Description** (optional)
    - Optional: choose **Copy permissions from role** to copy a permission set from another role
+
+   ![Create role dialog](/static/img/create-role.png)
+
 3. Click **Continue**.
 4. In **Add permissions**, select the permissions you want.
 
@@ -86,6 +91,8 @@ Example roles:
 ## Edit an existing role
 
 You can edit custom roles (not Owner, not System):
+
+![Edit role ](/static/img/edit-role.png)
 
 1. Click the role card, or open the 3-dot menu and select **Edit**.
 2. Update the description in **Edit role**.
@@ -125,6 +132,8 @@ Check carefully before deleting, because users assigned to that role may lose ac
 ## Assign roles to users
 
 Creating roles and assigning roles are two separate steps:
+
+![Assign role user](/static/img/edit-delete-user.png)
 
 1. Create or update roles in **Roles & Permissions**.
 2. Open **Organization -> User Management**.
