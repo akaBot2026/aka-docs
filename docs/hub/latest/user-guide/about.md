@@ -4,7 +4,7 @@ title: About akaBot Hub
 sidebar_label: About akaBot Hub
 sidebar_position: 1
 description: Overview of akaBot Hub.
-displayed_sidebar: automationHubSidebar
+displayed_sidebar: hubSidebar
 ---
 
 # About akaBot Hub

@@ -4,7 +4,7 @@ title: Idea Life Cycle
 sidebar_label: Idea Life Cycle
 sidebar_position: 2
 description: Idea Life Cycle.
-displayed_sidebar: userGuideSidebar
+displayed_sidebar: hubSidebar
 ---
 
 # Idea Life Cycle
