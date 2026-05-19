@@ -1,13 +1,13 @@
 ---
 id: activation
-title: Activation
-sidebar_label: Activation
-sidebar_position: 3
-description: Design, build, and test automation workflows visually with Akabot Studio.
+title: License Activation
+sidebar_label: License Activation
+sidebar_position: 4
+description: Learn how to activate Akabot Studio license.
 displayed_sidebar: studioSidebar
 ---
 
-# Activation
+# License Activation
 
 **Please choose activation method suitable for you as below:**
 
