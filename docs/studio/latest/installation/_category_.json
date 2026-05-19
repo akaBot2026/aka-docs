@@ -1,0 +1,10 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Find detailed guides on system requirements, installation process, browser driver configuration, activation, deactivation, and uninstallation of akaBot Studio."
+  }
+}

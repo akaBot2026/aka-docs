@@ -1,0 +1,10 @@
+{
+  "label": "User Guide",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to use akaBot Studio to design, build, and test automation workflows."
+  }
+}

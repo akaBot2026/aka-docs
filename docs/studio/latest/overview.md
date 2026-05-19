@@ -9,7 +9,7 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio
 
-Akabot Studio is the visual workflow designer where you build, test, and publish automation workflows. It provides a drag-and-drop canvas, a rich activity library, and built-in debugging tools so developers and citizen automators can create robust bots without writing boilerplate code.
+Akabot Studio is the visual workflow designer where you build, test, and publish automation workflows. It provides a drag-and-drop canvas, a rich activity library, and built-in debugging tools so developers and citizen automators can create robust bots without writing boilerplate code. 
 
 ## Key features
 

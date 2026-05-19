@@ -156,7 +156,7 @@ Click [here](https://ws3.akabot.com/s/LFHMJd6PSucZrXg) to download.
 
 Click [here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
-## v2.2.0.5r - Mar 04, 2025
+## v2.2.0.5 - Mar 04, 2025
 
 ### akaBot Studio
 
