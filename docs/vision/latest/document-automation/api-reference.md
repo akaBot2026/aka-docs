@@ -64,10 +64,10 @@ The API sample will follow the API Details below
 ### 1. Import Document
 
 * Purposes: Documents can be imported into akaBot Vision using the REST API. Supported file formats are PDF, PNG, JPEG.
-* URL: [{serverEndpoint}/api/uploadFile/{pipelineId}](http://idp.akabot.io/api/uploadFile/%7bpipelineId%7d)
+* URL: [`{serverEndpoint}/api/uploadFile/{pipelineId}`](http://idp.akabot.io/api/uploadFile/%7bpipelineId%7d)
 * Content-Type: multipart/form-data
 * Method: POST
-* Request header: Authorization: Bearer {apiKey}
+* Request header: `Authorization: Bearer {apiKey}`
 * Input body:
 
 |  |  |  |  |
@@ -98,10 +98,10 @@ Example Response:
 ### 2. Export Document
 
 * Purposes: Documents after being confirmed can be exported to csv,json,xlxs,xml file via API export document
-* URL: {serverEndpoint}/api/export-documents/{id}?exportType={exportType}
+* URL: `{serverEndpoint}/api/export-documents/{id}?exportType={exportType}`
 * Content-Type: application/json
 * Method: GET
-* Request header: Authorization: Bearer {apiKey}
+* Request header: `Authorization: Bearer {apiKey}`
 * Input parameters:
 
 |  |  |  |  |
@@ -132,7 +132,7 @@ Example Response:
 * URL: `{serverEndpoint}/api/documents?page={page}&size={size}&status={status}&pipelineId={pipelineId}&documentName={documentName}&dateFrom={dateFrom}&dateTo={dateTo}&sort=createdDate,desc`
 * Content-Type: application/json
 * Method: GET
-* Request header: Authorization: Bearer {apiKey}
+* Request header: `Authorization: Bearer {apiKey}`
 * Input parameters:
 
 |  |  |  |  |
@@ -171,7 +171,7 @@ Example Response:
 * URL: `{serverEndpoint}/api/change-docs-status`
 * Content-Type: application/json
 * Method: POST
-* Request header: Authorization: Bearer {apiKey}
+* Request header: `Authorization: Bearer {apiKey}`
 * Input body:
 
 |  |  |  |  |
@@ -199,11 +199,10 @@ Example Response:
 ### 5. Get Document Status
 
 * Purposes: Get document status
-* URL: 
-[{serverEndpoint}/api/documents/{id}](http://idp.akabot.io/api/documents/%7bid)
+* URL: [`{serverEndpoint}/api/documents/{id}`](http://idp.akabot.io/api/documents/%7bid)
 * Content-Type: application/json
 * Method: GET
-* Request header: Authorization: Bearer {apiKey}
+* Request header: `Authorization: Bearer {apiKey}`
 * Input parameters:
 
 |  |  |  |  |
@@ -232,10 +231,10 @@ Example Response:
 ## Appendix
 
 1. **Server endpoint:** 
-<https://idp.akabot.com/> or [http://idp.akabot.io](http://idp.akabot.io/)
+[https://idp.akabot.com/](https://idp.akabot.com/) or [http://idp.akabot.io](http://idp.akabot.io/)
 
 2. **Get API Key:**  
-   Step 1: Go to {serverEndpoint} /account/api-keys
+   Step 1: Go to `{serverEndpoint}/account/api-keys`
    Step 2: Copy key 
    
    ![image-20221128175926-11.png](/static/img/image-20221128175926-11.png)
