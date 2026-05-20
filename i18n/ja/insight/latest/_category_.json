@@ -1,0 +1,10 @@
+{
+  "label": "アカボット・インサイト",
+  "position": 16,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "リアルタイム分析とダッシュボードを使用して、自動化のパフォーマンスとビジネスの成果を視覚化します。"
+  }
+}

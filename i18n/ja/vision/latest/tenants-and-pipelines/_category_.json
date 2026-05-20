@@ -1,0 +1,10 @@
+{
+  "label": "テナントとパイプライン",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "テナントとパイプラインを使用してドキュメント処理ワークフローを整理します。"
+  }
+}

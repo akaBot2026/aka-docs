@@ -1,0 +1,10 @@
+{
+  "label": "インストール",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "akaBot Studio のシステム要件、インストール プロセス、ブラウザ ドライバーの構成、アクティブ化、非アクティブ化、およびアンインストールに関する詳細なガイドをご覧ください。"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "パイプライン",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "ドキュメント処理パイプラインを作成および管理します。"
+  }
+}

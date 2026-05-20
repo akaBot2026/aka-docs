@@ -1,0 +1,10 @@
+{
+  "label": "ユーザーガイド",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "akaBot Studio を使用して自動化ワークフローを設計、構築、テストする方法を学びます。"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "クイックスタートガイド",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "akaBot Vision を数分で起動して実行できます。"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "呼び出す",
+  "position": 19,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

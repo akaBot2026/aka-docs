@@ -1,0 +1,10 @@
+{
+  "label": "ユーザーガイド",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "アクセスと権限の管理からエンティティの作成、自動化ワークフローとの統合まで、Data Service の操作方法を学びます。"
+  }
+}

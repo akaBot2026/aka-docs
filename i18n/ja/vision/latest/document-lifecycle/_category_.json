@@ -1,0 +1,10 @@
+{
+  "label": "ドキュメントのライフサイクル",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "akaBot Vision でドキュメントが持つ可能性のあるすべてのステータスを理解します。"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "共通",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "ブラウザ（Chrome、Edge、Firefox）、ウィンドウ、Java（64ビット）、Internet Explorer、SAPアプリケーションを自動化できる共通アクティビティパッケージ"
+  }
+}

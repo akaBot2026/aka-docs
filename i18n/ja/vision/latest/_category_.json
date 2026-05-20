@@ -1,0 +1,10 @@
+{
+  "label": "アカボットビジョン",
+  "position": 15,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "ドキュメント、画像、非構造化コンテンツから情報を抽出して理解します。"
+  }
+}

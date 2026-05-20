@@ -1,0 +1,10 @@
+{
+  "label": "インストール",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "システム要件を確認し、インストール ガイドに従ってください。"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "はじめに",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "akaBot Insight とそのデータ モデルの紹介。"
+  }
+}

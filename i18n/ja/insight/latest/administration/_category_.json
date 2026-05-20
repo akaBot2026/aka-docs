@@ -1,0 +1,10 @@
+{
+  "label": "管理",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "ユーザー、ロール、ライセンス、Tableau アカウントを管理します。"
+  }
+}

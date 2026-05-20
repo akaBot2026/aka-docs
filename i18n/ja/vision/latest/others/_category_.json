@@ -1,0 +1,10 @@
+{
+  "label": "その他の機能",
+  "position": 8,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "ダッシュボード、クォータ管理、およびユーザー管理。"
+  }
+}

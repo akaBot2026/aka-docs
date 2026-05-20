@@ -1,0 +1,10 @@
+{
+  "label": "アカボットエージェント",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "インテリジェントな自動化エージェントをデスクトップとサーバーに展開して実行します。"
+  }
+}
