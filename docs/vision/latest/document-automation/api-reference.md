@@ -19,7 +19,9 @@ In this document, you will find an introduction to the API usage from a develope
 
 ### a. Import Document
 
-The user has to log in to akaBot Vision to get token in the API Key in the Account section below the user's profile section first.                        ![image-20230221102727-1.png](/static/img/image-20230221102727-1.png)
+The user has to log in to akaBot Vision to get token in the API Key in the Account section below the user's profile section first.
+
+![image-20230221102727-1.png](/static/img/image-20230221102727-1.png)
 
 Then user can upload documents manually by calling [API Import Document](#) and sending request information (token and files need to be uploaded) to IDP Server then IDP Server will respond the documentIds and document status "Importing" to user. It might take IDP Server 2-3 minutes to process document depending on the document's size. 
 
@@ -127,7 +129,7 @@ Example Response:
 ### 3. Get Documents
 
 * Purposes: Can get list documents of specific pipeline with specific status (IMPORTING,TOREVIEW,CONFIRMED,EXPORTED,DELETED,REJECTED). If user do not send status to API, API will respond the list of documents with all statuses
-* URL: {serverEndpoint}/api/documents?page={page}&size={size}&status={status}&pipelineId={pipelineId}&documentName={documentName}&dateFrom={dateFrom}&dateTo={dateTo}&sort=createdDate,desc
+* URL: `{serverEndpoint}/api/documents?page={page}&size={size}&status={status}&pipelineId={pipelineId}&documentName={documentName}&dateFrom={dateFrom}&dateTo={dateTo}&sort=createdDate,desc`
 * Content-Type: application/json
 * Method: GET
 * Request header: Authorization: Bearer {apiKey}
@@ -166,7 +168,7 @@ Example Response:
 ### 4. Update Document Status
 
 * Purposes: User can change document status via API update document status
-* URL: {serverEndpoint}/api/change-docs-status
+* URL: `{serverEndpoint}/api/change-docs-status`
 * Content-Type: application/json
 * Method: POST
 * Request header: Authorization: Bearer {apiKey}
@@ -197,7 +199,8 @@ Example Response:
 ### 5. Get Document Status
 
 * Purposes: Get document status
-* URL: [{serverEndpoint}/api/documents/{id}](http://idp.akabot.io/api/documents/%7bid)
+* URL: 
+[{serverEndpoint}/api/documents/{id}](http://idp.akabot.io/api/documents/%7bid)
 * Content-Type: application/json
 * Method: GET
 * Request header: Authorization: Bearer {apiKey}

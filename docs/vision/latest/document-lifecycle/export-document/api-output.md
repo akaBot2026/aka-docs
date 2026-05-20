@@ -35,6 +35,7 @@ If staff choose that Authorization Type is Bear Token, staff need to input the t
 
 After saving your API URL, akaBot Vision will send the request to your API following the template below:
 
+```json
 {  
   "documentId": "2f204e1b-9937-4656-b947-6856a0efe648",  
   "documentName": "(Tax Invoice) Dubai Petroleum\_TOHS-1419-021 (Ramcharan, Ryan Thomas).pdf",  
