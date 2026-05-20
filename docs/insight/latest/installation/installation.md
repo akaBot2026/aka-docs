@@ -30,11 +30,11 @@ create database automationinsight;
 
 ### 2. JDK 11
 
-<https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html>
+[https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html](https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html)
 
 ### 3. Apache Tomcat 8.5
 
-<https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57.exe>
+[https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57.exe](https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.57/bin/apache-tomcat-8.5.57.exe)
 
 ![image-20230421141503-2.png](/static/img/image-20230421141503-2.png)
 
@@ -49,7 +49,7 @@ Setup HTTP/1.1 Connector Port: default 8080, same gate port with conductor.
 
 Example:
 
-domain: <http://center.akabot.io>
+domain: [http://center.akabot.io](http://center.akabot.io)
 
 port: 80
 
@@ -57,7 +57,8 @@ dbName: aka\_orchestrator
 
 ## Run conductor
 
-1. Open folder Tomcat: C:/Programs File/Apache Software Foundation/Tomcat8/webapps
+1. Open folder Tomcat: 
+C:/Programs File/Apache Software Foundation/Tomcat8/webapps
 2. You already downloaded in step 3 and file into folder Tomcat as above url
 
 ![image-20230421141503-4.png](/static/img/image-20230421141503-4.png)
@@ -66,6 +67,6 @@ dbName: aka\_orchestrator
 
 ![image-20230421141503-5.png](/static/img/image-20230421141503-5.png)
 
-Once the conductor has successfully started, you can open <http://localhost:8080/swagger-ui/index.html> to see api of conductor.
+Once the conductor has successfully started, you can open [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html) to see api of conductor.
 
 If you edit config application-prod.yml, you must restart Apache Tomcat.
