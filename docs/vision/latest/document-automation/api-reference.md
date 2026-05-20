@@ -197,7 +197,7 @@ Example Response:
 ### 5. Get Document Status
 
 * Purposes: Get document status
-* URL: [{serverEndpoint}/api/documents/{id](http://idp.akabot.io/api/documents/%7bid)}
+* URL: [{serverEndpoint}/api/documents/{id}](http://idp.akabot.io/api/documents/%7bid)
 * Content-Type: application/json
 * Method: GET
 * Request header: Authorization: Bearer {apiKey}
@@ -228,7 +228,9 @@ Example Response:
 
 ## Appendix
 
-1. **Server endpoint:** <https://idp.akabot.com/> or [http://idp.akabot.io](http://idp.akabot.io/)
+1. **Server endpoint:** 
+<https://idp.akabot.com/> or [http://idp.akabot.io](http://idp.akabot.io/)
+
 2. **Get API Key:**  
    Step 1: Go to {serverEndpoint} /account/api-keys  
    Step 2: Copy key 
