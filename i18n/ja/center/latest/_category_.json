@@ -1,0 +1,10 @@
+{
+  "label": "Akabot Center",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Orchestrate, schedule, and monitor all your automation robots from one central place."
+  }
+}
