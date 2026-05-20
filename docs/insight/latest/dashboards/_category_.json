@@ -1,0 +1,10 @@
+{
+  "label": "Dashboards",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "View, create, and customize dashboards in akaBot Insight."
+  }
+}
