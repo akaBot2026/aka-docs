@@ -1,0 +1,10 @@
+{
+  "label": "Tenants & Pipelines",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Organize your document processing workflows with tenants and pipelines."
+  }
+}
