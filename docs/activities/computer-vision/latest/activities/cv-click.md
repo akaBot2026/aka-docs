@@ -37,7 +37,7 @@ Clicks a specified UI element which is targeted by using the Computer Vision neu
 **Input**
 
 * **Click Type (Dropdown List)** - Specifies the type of mouse click (single, double, up, down) used when simulating the click event. By default, single click is selected.
-* **Descriptor (String)** - The on-screen coordinates of the ** Target**and each ** Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the ** Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
+* **Descriptor (String)** - The on-screen coordinates of the **Target** and each **Anchor** that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the **Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
 * **MouseButton (Dropdown List)** - The mouse button (left, right, middle) used for the click action. By default, the left mouse button is selected.
 * **Offset Point(String)** - Offset point for click-related activities.
 

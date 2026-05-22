@@ -14,7 +14,7 @@ RCA.Activities.Common.MaximizeWindow
 
 The Maximize Window activity allows you to select a window and maximize it.
 
-![image-20220505134246-1.png](/static/img/image-20220505134246-1.png)
+![image-20230417162535-1.png](/static/img/image-20230417162535-1.png)
 
 \* indicates required fields.
 

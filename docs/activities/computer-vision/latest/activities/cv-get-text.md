@@ -36,7 +36,7 @@ Extracts the text from a specified UI element.
 
 **Input**
 
-* **Descriptor (String)** - The on-screen coordinates of the ** Target**and each ** Anchor**that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the ** Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
+* **Descriptor (String)** - The on-screen coordinates of the **Target** and each **Anchor** that is used, if any. These values are stored in a CvDescriptor proprietary object. Once the **Indicate On Screen** feature is used at runtime, the CvDescriptor is automatically generated in this field.
 * **GetTextMethod (Dropdown List)** - Specifies what method you want to use to retrieve the text. The following options are available:  
   **・OCR** - Uses the OCR engine specified in the parent CV Screen Scope activity to retrieve the text.  
   **・SelectAllText** - Copies the entire text by using the clipboard. This simulates a copy/paste action and can only be used on selectable text, on either local or remote sessions.  

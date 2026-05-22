@@ -23,6 +23,7 @@ This activity is used to retrieve the value of a specified attribute of an UI el
 
 - **Indicate on screen** - Chooses the element to verify its existence. This activity will generate a string variable (Selector) to specify the location of that element.
 
+- **Text (String)*** - The name of the attribute to be retrieved. This field supports only strings.
 ## **Properties**
 
 **Common**
@@ -32,7 +33,7 @@ This activity is used to retrieve the value of a specified attribute of an UI el
   - **False** : blocks the process from continuing the execution.
 
 **Input**
-
+- **Attribute (String)*** - The name of the attribute to be retrieved. This field supports only strings.
 - **Target (Collapsible list) :**
   - **Element (UIElement)** - Use the UiEIement variable returned by another activity. This property cannot be used alongside the Selector property.
   - **Selector (String)** - Text property used to find a particular UI element when the activity is executed. It is actually a XML fragment specifying attributes of the GUI element you are looking for and of some of its parents.

@@ -38,7 +38,7 @@ Selects a specified item from a drop-down list.
 **Input**
 
 * **CVDropdownSelect\_Text (String)**\*- The text to be written in the drop-down.
-* **Descriptor (String)**- The on-screen coordinates of the ** Target**and each ** Anchor**that is used, if any. These values are stored in a *CvDescriptor*proprietary object. Once the **Indicate On Screen** feature is used at runtime, the *CvDescriptor*is automatically generated in this field.
+* **Descriptor (String)**- The on-screen coordinates of the **Target** and each **Anchor** that is used, if any. These values are stored in a *CvDescriptor*proprietary object. Once the **Indicate On Screen** feature is used at runtime, the *CvDescriptor*is automatically generated in this field.
 * **Offset Point (String)**- The offset point for click-related activities.
 
 **Misc**
