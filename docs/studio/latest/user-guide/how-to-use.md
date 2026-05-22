@@ -67,6 +67,7 @@ Each business process may be represented by an akaBot project which enables you 
 To create a new workflow project, you should follow below actions:
 
 **Step 1:** Click ‘New’
+
 **Step 2:** Choose type workflow: Blank or General Business Process
 
 ![image-20220506161355-3.png](/static/img/image-20220506161355-3.png)
@@ -75,6 +76,7 @@ To create a new workflow project, you should follow below actions:
 **Step 4:** Click button ‘Create’ to finish.
 
 ![image-20220506161409-4.png](/static/img/image-20220506161409-4.png)
+
 After clicking, by default a sequence activity will be shown up in the Designer panel allowing you to start developing your project.
 
 ![image-20220506161420-5.png](/static/img/image-20220506161420-5.png)
@@ -98,7 +100,9 @@ Choose file with format file is *.xaml
 ### 3. Change configuration options
 
 This window to support them setup: Debug mode, and add references Directories
+
 **Debug**
+
 **Step 1:** Click ‘Options’
 
 ![image-20220506161453-8.png](/static/img/image-20220506161453-8.png)
@@ -195,6 +199,7 @@ b. Flowchart
 - Step 3: Click button ‘Create’
 
 ![image-20220506163854-23.png](/static/img/image-20220506163854-23.png)
+
 c. Sequence
 
 - Step 1: Click 'new' > Sequence
@@ -225,6 +230,7 @@ Click button
 to run BOT. Wait a few minutes for the BOT to finish and see result in Output Window
 
 **4. Debug**
+
 Click 
 
 ![image-20220506164355-29.png](/static/img/image-20220506164355-29.png)
@@ -240,6 +246,7 @@ When starting or debugging the process, you can click
 to stop this process.
 
 **6. Open Logs**
+
 Click
 
 ![image-20220506164423-31.png](/static/img/image-20220506164423-31.png)
@@ -337,6 +344,9 @@ This panel is contextual and enables you to view and change the properties of a 
 
 - Step 1: Double click an activity in Designer panel.
 Properties of that activity will be showed in Properties panel.
+
+![image-20220506164546-38.png](/static/img/image-20220506164546-38.png)
+
 - Step 2: Change the properties
 
 ## VI. Workflow Outline

@@ -11,7 +11,7 @@ displayed_sidebar: studioSidebar
 
 If you used the **Browser** activity package to perform the web automation and your browser was updated to newer version automatically. This may cause some unexpected errors during bot’s running. To solve the problems, you need to update the browser driver to suitable browser’s version by following below 03 simple steps:
 
-**Step 1** - Check browser version
+**Step 1 - Check browser version**
 
 1 - Open your browser
 
@@ -29,7 +29,8 @@ Ex: version is 124.x.x.x
 
 ![1714632680270-541.png](/static/img/1714632680270-541.png)
 
-**2.Step 2 - Configure browser driver**
+**2. Step 2 - Configure browser driver**
+
 1 - Download the browser driver whose 3 first numbers in version equals to 3 first numbers in your browser version. Ex: 124.
 
 On Chrome, if the version is recent, go to https://googlechromelabs.github.io/chrome-for-testing/#stable otherwise, go to https://chromedriver.chromium.org/downloads to download.
@@ -48,17 +49,17 @@ On Edge, if the version is recent, go to https://developer.microsoft.com/en-us/m
 
 Ex: Browser version is 124.x.x.x à name the new folder as 124.
 
-**For Chrome**, go to path [AKABOT_INSTALLED_PATH]\WebDriver\ChromeDriver to create new folder
+**For Chrome**, go to path **[AKABOT_INSTALLED_PATH]\WebDriver\ChromeDriver** to create new folder
 
 ![1714632793482-153.png](/static/img/1714632793482-153.png)
 
-**For Edge**, go to path [AKABOT_INSTALLED_PATH]\WebDriver\EdgeDriver to create new folder.
+**For Edge**, go to path **[AKABOT_INSTALLED_PATH]\WebDriver\EdgeDriver** to create new folder.
 
 ![1714632818145-996.png](/static/img/1714632818145-996.png)
 
 3 - Unzip the driver file and copy driver execution file to folder you just created.
 
-**Example:**
+Example:
 
 **For Chrome:**
 
@@ -77,6 +78,7 @@ Go to Options --> Execution --> Browser Version --> Check the Auto Detect box.
 ![1714632905043-456.png](/static/img/1714632905043-456.png)
 
 2 - On akaBot Agent:
+
 Go to Browser --> Browser Configuration --> Check the Auto Detect box.
 
 ![1714632954996-447.png](/static/img/1714632954996-447.png)

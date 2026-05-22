@@ -104,6 +104,7 @@ If the Company is involved in a merger, acquisition or asset sale, Your Personal
 Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
 
 **Other legal requirements**
+
 The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:
 
 - Comply with a legal obligation
@@ -136,3 +137,6 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 If you have any questions about this Privacy Policy, You can contact us:
 
 By email: support@akabot.com
+
+By visiting this page on our website: [https://akabot.com/](https://akabot.com/)
+ 

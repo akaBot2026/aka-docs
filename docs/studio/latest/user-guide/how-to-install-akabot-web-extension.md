@@ -31,14 +31,16 @@ Before installing the Akabot Browser Extension, ensure the following conditions 
 
 ![9453eb_1773283802504-331.png](/static/img/9453eb_1773283802504-331.png)
 
-- Once you click “Install”, the system will check for any running browser instances. 
+- Once you click **“Install”**, the system will check for any running browser instances. 
 - If the browser is currently open, a confirmation dialog will appear prompting you to click “OK” to close all running browser instances before proceeding with the installation. 
 
 ![1773283826554-551.png](/static/img/1773283826554-551.png)
 
 - If no browser instances are running, the installation will proceed automatically and a success message will be displayed. Click “OK” to complete.  
 ### 3.2 Enable Extension in Chrome 
-- Reopen Chrome. A notification pop-up will appear prompting you to enable the extension. Click **“Enable extension”** to activate it. 
+- Reopen Chrome. A notification pop-up will appear prompting you to enable the extension. 
+
+Click **“Enable extension”** to activate it. 
 
 ![1773283936766-583.png](/static/img/1773283936766-583.png)
 
@@ -46,7 +48,7 @@ Before installing the Akabot Browser Extension, ensure the following conditions 
 
 ![1773283989799-603.png](/static/img/1773283989799-603.png)
 
-Once the toggle is enabled, AkaBot can interact with the browser to perform automation activities. 
+- Once the toggle is enabled, AkaBot can interact with the browser to perform automation activities. 
 ## 4. Install Akabot Extension for Microsoft Edge 
 ### 4.1 Launch Installation from Akabot Studio 
 - Open Akabot Studio 
@@ -80,7 +82,7 @@ Reopen Edge. A notification pop-up will appear prompting you to enable the exten
 ![1773284192348-597.png](/static/img/1773284192348-597.png)
 
 - Once you click **“Install”**, the system will check for any running browser instances. 
-If the browser is currently open, a confirmation dialog will appear prompting you to click **“OK”** to close all running browser instances before proceeding with the installation.
+- If the browser is currently open, a confirmation dialog will appear prompting you to click **“OK”** to close all running browser instances before proceeding with the installation.
 
 ![1773284057660-167.png](/static/img/1773284057660-167.png)
 
@@ -88,5 +90,5 @@ If the browser is currently open, a confirmation dialog will appear prompting yo
 
 ### 5.2 Enable Extension in Firefox
 - Reopen Firefox. A notification pop-up will appear prompting you to enable the extension. Click **“Turn on extension”** to activate it. 
-Alternatively, you can navigate to Extensions and turn on the extension using the toggle button. 
+- Alternatively, you can navigate to Extensions and turn on the extension using the toggle button. 
 - Once the toggle is enabled, AkaBot can interact with the browser to perform automation activities. 

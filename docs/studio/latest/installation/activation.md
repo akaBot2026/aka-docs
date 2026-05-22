@@ -41,7 +41,7 @@ displayed_sidebar: studioSidebar
 
 2 - **License Key**: Please enter the license key provided in the Licensing Email.
 
-3 - **Network Options** (Optional): If you use Proxy Server, please fill in the Proxy Info under **Network Options**.
+3 - **Network Options (Optional)**: If you use Proxy Server, please fill in the Proxy Info under **Network Options**.
 
 ![image-20230717142628-3.png](/static/img/image-20230717142628-3.png)
 

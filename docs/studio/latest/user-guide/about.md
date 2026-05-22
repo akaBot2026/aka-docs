@@ -12,3 +12,7 @@ akaBot Studio in akaBot suite is advanced automation software that provides an i
 
 akaBot Studio offers a versatile solution for integrating applications and automating various tasks, ranging from simple to intricate, including third-party applications, administrative IT tasks, and business IT processes. It serves as the central hub for automation within the akaBot suite of products. Within Studio, users can seamlessly organize activities into comprehensive workflows, which are subsequently executed by the akaBot Agent and managed with the akaBot Center.
 
+[This video is hosted on YouTube](https://youtu.be/K9b5CgdZuDM)
+
+<iframe width="1335" height="751" src="https://www.youtube.com/embed/K9b5CgdZuDM" title="Introducing akaBot Studio Platform" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+

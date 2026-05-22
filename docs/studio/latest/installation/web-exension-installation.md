@@ -49,7 +49,7 @@ Select folder:
 
 | Version of Native Browser Package | Supported Manifest | Extension Folder |
 |---|---|---|
-| **< 5.x.x.x** | Manifest V2 | `BrowserExtensions` |
+| **< 5.x.x.x** | Manifest V2. Please note that: Manifest V2 will be deprecated in 2024 and will be deleted by Chrome. We recommend you to use the Manifest V3 to automate your workflow in the future. | `BrowserExtensions` |
 | **>= 5.x.x.x** | Manifest V3 | `BrowserExtensionsV3` |
 
 ![1714117769354-697.png](/static/img/1714117769354-697.png)

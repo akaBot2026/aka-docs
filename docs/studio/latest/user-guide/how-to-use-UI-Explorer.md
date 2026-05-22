@@ -48,17 +48,26 @@ Understanding the interface is key to using the tool effectively. The main windo
 - Select Extract all 
 - After extraction is completed, open the extracted folder. 
 
+![extract-all.png](/static/img/extract-all.png)
+
 **Step 3: Run the Application** 
 
 - Open the extracted folder. Double-click Akabot.UiExplorer.exe (Application file).
 - If Windows Defender SmartScreen appears: 
 - Click **More info.**
+
+![install-ui-2.png](/static/img/install-ui-2.png)
+
 - Click **Run anyway** to continue.  
+
+![install-ui-3.png](/static/img/install-ui-3.png)
 - The system will launch Akabot UI Explorer. 
 
 **Step 4: Install successfully** 
 
 - Once the application opens successfully, the Akabot UI Explorer main interface will be displayed. This indicates that the installation has been completed successfully and the tool is ready to use. 
+
+![install-successfully.png](/static/img/install-successfully.png)
 
 ### 2.2. Main toolbar
 
@@ -81,9 +90,9 @@ Located on the left, the Visual Tree displays a hierarchical structure of all th
 ### 2.4. Selector Editor
 The Selector Editor is the most critical part of the UI Explorer. This is where you view, analyze, and modify the selector generated for a UI element to ensure it is robust and reliable. The editor is composed of three main parts: 
 
-Visual Editor (Top Pane): This pane presents the selector in a user-friendly, hierarchical tree structure. 
-Attributes Panel (Right Pane): When you select a node in the Visual Editor, this panel displays all the attributes that Akabot detected for that specific UI element. 
-Raw Text Editor (Bottom Pane): This pane shows the complete selector as a single string of XML text.
+- Visual Editor (Top Pane): This pane presents the selector in a user-friendly, hierarchical tree structure. 
+- Attributes Panel (Right Pane): When you select a node in the Visual Editor, this panel displays all the attributes that Akabot detected for that specific UI element. 
+- Raw Text Editor (Bottom Pane): This pane shows the complete selector as a single string of XML text.
 
 ![1772098454616-606.png](/static/img/1772098454616-606.png)
 
@@ -116,14 +125,16 @@ If you have installed the Akabot browser extension but it is still not detected 
 
 **Step 2: Check if the Native Host process is running**
 
-The browser extension communicates with akaBot through a process called Aka.RPA.NativeHost.exe. You must verify that this process is running.
+The browser extension communicates with akaBot through a process called **Aka.RPA.NativeHost.exe**. You must verify that this process is running.
 - Open the Windows Task Manager by pressing Ctrl + Shift + Esc.
 - Go to the **Details** tab.
 - Look for the process named Aka.RPA.NativeHost.exe in the list.
 
 ![1772099593549-947.png](/static/img/1772099593549-947.png)
 
-If this process is not running, it means there is a configuration issue preventing the browser from starting it. Proceed to Step 3.
+If this process is not running, it means there is a configuration issue preventing the browser from starting it. 
+
+Proceed to Step 3.
 
 **Step 3: Manually configure the Extension ID**
 
@@ -175,7 +186,7 @@ To inspect and automate elements in Java applications (e.g., Swing, AWT), you mu
 
 - Go to the official Oracle download page: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 
-- Download the Windows x64 Installer (.exe file) for JDK 17.
+- Download the **Windows x64 Installer (.exe file) for JDK 17.**
 
 ![1772099825691-228.png](/static/img/1772099825691-228.png)
 
@@ -217,7 +228,7 @@ To inspect and automate elements in Java applications (e.g., Swing, AWT), you mu
 
 **Step 6: Re-check**
 
-- Open a new Command Prompt and run: java --version
+- Open a new Command Prompt and run: **java --version**
 - It should now work.
 
 **Step 7: Open Command Prompt as Admin**
