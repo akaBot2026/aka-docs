@@ -2,7 +2,7 @@
 id: uninstallation
 title: Uninstallation
 sidebar_label: Uninstallation
-sidebar_position: 5
+sidebar_position: 3
 description: Design, build, and test automation workflows visually with Akabot Studio.
 displayed_sidebar: studioSidebar
 ---

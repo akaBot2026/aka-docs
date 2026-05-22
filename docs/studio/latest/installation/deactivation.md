@@ -1,13 +1,13 @@
 ---
 id: deactivation
-title: Deactivation
-sidebar_label: Deactivation
-sidebar_position: 4
-description: Design, build, and test automation workflows visually with Akabot Studio.
+title: License Deactivation
+sidebar_label: License Deactivation
+sidebar_position: 5
+description: Learn how to deactivate Studio license.
 displayed_sidebar: studioSidebar
 ---
 
-# Deactivation
+# License Deactivation
 ## Before you Start
 Your akaBot Studio will use the **same** deactivation method as your activation method.
 

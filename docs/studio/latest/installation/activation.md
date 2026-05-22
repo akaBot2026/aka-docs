@@ -1,13 +1,13 @@
 ---
 id: activation
-title: Activation
-sidebar_label: Activation
-sidebar_position: 3
-description: Design, build, and test automation workflows visually with Akabot Studio.
+title: License Activation
+sidebar_label: License Activation
+sidebar_position: 4
+description: Learn how to activate Akabot Studio license.
 displayed_sidebar: studioSidebar
 ---
 
-# Activation
+# License Activation
 
 **Please choose activation method suitable for you as below:**
 
@@ -41,7 +41,7 @@ displayed_sidebar: studioSidebar
 
 2 - **License Key**: Please enter the license key provided in the Licensing Email.
 
-3 - **Network Options (Optional)**: If you use Proxy Server, please fill in the Proxy Info under **Network Options**.
+3 - **Network Options** (Optional): If you use Proxy Server, please fill in the Proxy Info under **Network Options**.
 
 ![image-20230717142628-3.png](/static/img/image-20230717142628-3.png)
 
