@@ -89,6 +89,7 @@ On the next page, hit button “Next”
 **Step 6** – Browse to the Deactivation Response file or copy the Deactivation Response in file into the Deactivation Box then hit button “Deactivate”
 
 ![image-20230717145539-12.png](/static/img/image-20230717145539-12.png)
+
 After **successful** deactivation, akaBot Studio shows below message:
 
 ![image-20230717145539-13.png](/static/img/image-20230717145539-13.png)
@@ -113,6 +114,7 @@ Please follow below steps to deactivate akaBot Studio through your akaBot Center
 After **successful** deactivation, akaBot Studio shows below message:
 
 ![image-20230717150234-17.png](/static/img/image-20230717150234-17.png)
+
 If your computer is not connected to your akaBot Center, akaBot Studio will show below error message. Please check your network connection.
 
 ![image-20230717150234-18.png](/static/img/image-20230717150234-18.png)
