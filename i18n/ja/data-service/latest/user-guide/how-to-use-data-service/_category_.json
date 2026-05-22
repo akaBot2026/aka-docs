@@ -1,0 +1,10 @@
+{
+  "label": "データサービスのご利用方法",
+  "position": 8,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "エンティティとフィールドの作成、編集、削除、および Data Service の高度なフィルターの使用に関するステップバイステップのガイド。"
+  }
+}

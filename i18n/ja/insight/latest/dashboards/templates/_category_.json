@@ -1,0 +1,10 @@
+{
+  "label": "デフォルトのダッシュボード",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "エージェント、ワークフロー、キュー、ビジネス ROI 用の事前に構築されたダッシュボード テンプレート。"
+  }
+}

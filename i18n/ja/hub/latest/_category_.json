@@ -1,0 +1,10 @@
+{
+  "label": "アカボットハブ",
+  "position": 17,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "組織全体で自動化資産を検出、共有、再利用します。"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Pipeline",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Create and manage document processing pipelines."
+  }
+}

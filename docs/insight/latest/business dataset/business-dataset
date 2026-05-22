@@ -1,0 +1,101 @@
+---
+id: business-dataset
+title: Business Dataset
+sidebar_label: Business Dataset
+sidebar_position: 1
+description: Create, edit, and manage roles with ADMINISTRATOR_RESOURCE and DATASET_RESOURCE permissions.
+displayed_sidebar: insightSidebar
+---
+
+# Business Dataset
+The Business Dashboard utilizes manually entered values in the Business Dataset for calculations. As a result, the Business Dataset automatically updates the corresponding templates with the entered values.
+
+To perform this calculation, we will consider Time Saved, Money Saved, and the number of workflows executed by an Agent. The widgets on the Business Dashboard rely on formulas that utilize the Manual Time (measured in hours) required for a human to complete one iteration of the workflow, along with the corresponding hourly cost.
+
+## Time Saved
+
+The Time Saved is determined by the variance between the Manual Time and the Bot Runtime (the duration taken by an Agent to finish a specific workflow). The formula should be adjusted according to the specific type of process being executed by your Agents.
+
+Time Saved Formula
+
+SUM([Manual Time] -  [Bot Runtime])
+
+where
+
+Manual Time* = The time it takes for a human to complete a particular task
+
+Bot Runtime* = The time it takes for a bot to complete a particular task
+
+*time calculated in hours
+
+## Money Saved
+
+The calculation of Money Saved is derived by multiplying the Time Saved by the Hourly Cost entered in the Business Dataset. The formula should be adjusted to align with the specific type of process executed by your Agents.
+
+Money Saved Formula
+
+([Manual Time]*[Hourly Cost])-([Bot Runtime]*[Hourly Cost])
+
+where
+
+Manual Time* = The time it takes for a human to complete a particular task
+
+Bot Runtime* = The time it takes for a bot to complete a particular task
+
+*time calculated in hours
+
+Hourly cost = The cost it takes for a human or bot to run in an hour
+
+## Considerations
+
+You can edit the default formula used in the **Business Dashboard** only if you have **Creator** or **Explorer** permissions.
+
+## Permissions
+If a user has permission to control DATASET_RESOURCE, they can configure the baselines for workflows. If the admin has not entered any values in the dataset, the Business Dashboard will not be viewable until values are provided.
+
+To configure the dataset, the Admin must do the following:
+
+1. Select **Setting** in the top-right corner
+
+2. Select **Configure Business Dataset.**
+
+![image-20230420091950-5.png](/static/img/image-20230420091950-5.png)
+
+ 3. On the **Business Dataset** page, enter the manual time (in minutes) it would take a human to complete a workflow (end-to-end, consider the entire workflow as a unit of one), as well as the cost involved by paying a human hourly to do the same process. The default of 1 will be saved as the manual time and hourly cost for any workflows that are not assigned new values.
+
+Note: When configuring the Business Dataset, you can use numbers with up to 2 decimals.
+
+![image-20230420093046-7.png](/static/img/image-20230420093046-7.png)
+
+4. Click Enter to save the workflow value.
+
+## Adding Custom Columns to the Business Dataset
+The default columns in the **Business Dataset** table are **Manual Time** and **Hourly Cost.**
+
+You can also add custom columns to the Business Dataset. To add a custom column to the dataset, do the following:
+
+1. On the **Business Dataset** page, select the **Add Column** button to add a custom column.
+2. In the dialogue that pops up, enter a name and default value for your custom column.
+
+NOTE: Make sure to choose a column name with a maximum length of 50 characters. Duplicate names are supported.
+
+3. After you click Save, the new custom column will be visible in the Business Dataset page.
+
+## Renaming Custom Columns
+
+To rename a custom column in the Business Dataset table, take the following steps:
+
+1. Click the edit icon on the column you would like to rename.
+2. In the newly open window, enter a new column name and click **Edit.**
+
+## Deleting Custom Columns
+To delete a custom column in the **Business Dataset** table, do the following:
+
+1. Click the delete icon on the column you would like to delete.
+2. In the newly open window, select **Delete.**
+
+## Using Custom Columns in a Dashboard
+1. To use the custom column in a dashboard, open an existing dashboard in edit mode.
+2. Select **Data Source.**
+3. Search **jhi_dataset** table and drag it to the data source interface.
+4. Select a relationship with an existing table on the data source interface.

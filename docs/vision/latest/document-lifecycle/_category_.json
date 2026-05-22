@@ -1,0 +1,10 @@
+{
+  "label": "Document Lifecycle",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Understand every status a document can have in akaBot Vision."
+  }
+}

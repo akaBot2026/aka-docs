@@ -1,0 +1,10 @@
+{
+  "label": "ビジネスデータセット",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "ADMINISTRATOR_RESOURCE および DATASET_RESOURCE 権限を持つロールを作成、編集、管理します。"
+  }
+}

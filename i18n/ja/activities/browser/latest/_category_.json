@@ -1,0 +1,10 @@
+{
+  "label": "ブラウザ",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Selenium を自動化テクノロジとして使用するブラウザ (B) アクティビティ パッケージ"
+  }
+}

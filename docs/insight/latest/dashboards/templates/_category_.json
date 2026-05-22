@@ -1,0 +1,10 @@
+{
+  "label": "Default Dashboards",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Pre-built dashboard templates for Agents, Workflows, Queues, and Business ROI."
+  }
+}

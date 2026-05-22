@@ -1,0 +1,10 @@
+{
+  "label": "Business Dataset",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Create, edit, and manage roles with ADMINISTRATOR_RESOURCE and DATASET_RESOURCE permissions."
+  }
+}

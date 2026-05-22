@@ -1,0 +1,10 @@
+{
+  "label": "Notifications & Reports",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Monitor errors and configure email reports in akaBot Vision."
+  }
+}

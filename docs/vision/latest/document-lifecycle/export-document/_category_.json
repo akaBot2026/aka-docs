@@ -1,0 +1,10 @@
+{
+  "label": "Export Document",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Export confirmed documents from akaBot Vision."
+  }
+}

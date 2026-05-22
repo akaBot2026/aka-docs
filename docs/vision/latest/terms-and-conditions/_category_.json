@@ -1,0 +1,10 @@
+{
+  "label": "Terms & Conditions",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Legal documents governing the use of akaBot Vision."
+  }
+}

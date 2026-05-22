@@ -1,0 +1,10 @@
+{
+  "label": "How to use",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "View step by step guide of how to use akaBot Hub."
+  }
+}

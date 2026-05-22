@@ -1,0 +1,10 @@
+{
+  "label": "アカボット センター",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "すべての自動化ロボットを 1 か所から調整、スケジュール設定、監視します。"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "アカボットビジョン",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Akabot Vision は、高度な AI と機械学習を活用して、ドキュメントからデータを抽出、検証、調整する、インテリジェントなドキュメント処理のための強力なプラットフォームです。"
+  }
+}

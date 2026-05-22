@@ -1,0 +1,10 @@
+{
+  "label": "インストール",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "システム要件、データベースのセットアップ、Windows および Linux での akabot Data Service のインストール プロセスに関する詳細なガイドをご覧ください。"
+  }
+}

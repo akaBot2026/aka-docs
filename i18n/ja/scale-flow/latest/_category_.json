@@ -1,0 +1,10 @@
+{
+  "label": "スケールフロー",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "アカウント設定、チャネル統合、AI 自動化、チケット処理、連絡先管理に関する Scale Flow ドキュメント。"
+  }
+}

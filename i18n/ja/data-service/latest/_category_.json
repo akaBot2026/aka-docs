@@ -1,0 +1,10 @@
+{
+  "label": "データサービス",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Data Service の使用を開始します。システム要件を確認し、インストール ガイドに従い、環境をセットアップします。"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "操作機能",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

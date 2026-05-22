@@ -1,0 +1,9 @@
+{
+  "label": "画像",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

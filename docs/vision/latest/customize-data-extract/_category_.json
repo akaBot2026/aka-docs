@@ -1,0 +1,10 @@
+{
+  "label": "Akabot Vision",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Akabot Vision is a powerful platform for intelligent document processing, leveraging advanced AI and machine learning to extract, validate, and orchestrate data from documents."
+  }
+}

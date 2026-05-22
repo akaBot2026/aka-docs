@@ -1,0 +1,10 @@
+{
+  "label": "ダッシュボード",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "akaBot Insight でダッシュボードを表示、作成、カスタマイズします。"
+  }
+}

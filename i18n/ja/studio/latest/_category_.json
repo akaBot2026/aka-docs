@@ -1,0 +1,10 @@
+{
+  "label": "アカボットスタジオ",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "ソフトウェア ボットを構築および管理するための強力な自動化プラットフォームである akaBot Studio について学びます。"
+  }
+}
