@@ -48,7 +48,7 @@ This activity allows you to create a permission for the specified file in Google
 
 **Options**
 
-* **Email Message (String)**- The message content that you want to send when there is an update to the file permissions. This property supports String variables and string formatted values. The default value is "A new permission has been created, and you are the recipient!". This property is only required if ** SendNotificationEmail** is selected.  
+* **Email Message (String)**- The message content that you want to send when there is an update to the file permissions. This property supports String variables and string formatted values. The default value is "A new permission has been created, and you are the recipient!". This property is only required if **SendNotificationEmail** is selected.  
   E.g: "A new permission has been created, and you are the recipient!"
 * **SendNotificationEmail (Checkbox)**- If selected, an email notification is sent to the entities with permission.
 * **UseDomainAdminAccess (Checkbox)** - If selected, the requester is granted access if they are an administrator of the domain to which the file belongs.

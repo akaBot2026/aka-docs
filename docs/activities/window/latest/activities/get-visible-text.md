@@ -16,14 +16,10 @@ This activity is automatically generated when using the **Native Screen Scraping
 
 ![image-20220505170937-1.png](/static/img/get-visible-text.png)
 
----
-
 ## In the body of activity
 
 - **Pick target element**: Selects the target window element.  
   This action generates a **Selector** string used to identify the element.
-
----
 
 ## Properties
 
@@ -46,14 +42,10 @@ This activity is automatically generated when using the **Native Screen Scraping
   Maximum time (in milliseconds) to wait for the activity to run  
   - Default: `30000`
 
----
-
 ### Input
 
 - **Selector (String)\***  
   A string that identifies the location of the UI element
-
----
 
 ### Misc
 
@@ -64,8 +56,6 @@ This activity is automatically generated when using the **Native Screen Scraping
 - **Display Name (String)**  
   Custom name of the activity for better organization  
   - Example: `[1312..] Get Visible Text`
-
----
 
 ### Options
 
@@ -82,8 +72,6 @@ This activity is automatically generated when using the **Native Screen Scraping
 - **Use Window (WindowApp)\***  
   Uses a `WindowApp` variable (from Open Window / Window Scope) to limit the search scope  
 
----
-
 ### Output
 
 - **Text Info (TextInfoList)**  
@@ -91,8 +79,6 @@ This activity is automatically generated when using the **Native Screen Scraping
 
 - **Texts (String[])**  
   Array of extracted text values from the UI element  
-
----
 
 ### Wait
 

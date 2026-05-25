@@ -25,7 +25,7 @@ Reads the values from a column beginning with the cell specified in the Starting
 * **Sheet name (String)**\* - The sheet you want to read.  
   E.g: "Sheet1"
 * **Starting Cell (String)**\* - The cell from which to start extracting the column data. By default, this is filled in with "A1".  
-  E.g**:** "A1"
+  E.g: "A1"
 
 ## **Properties**
 

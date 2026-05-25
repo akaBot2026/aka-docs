@@ -14,7 +14,7 @@ RCA.Activities.CSV.AppendCSVFile
 
 This activity allows you to append the specific DataTable to a CSV file, creating the file if it does not already exist.
 
-TODO: add image here
+![write-csv-file.png](/static/img/write-csv-file.png)
 
 (\* is mandatory)
 

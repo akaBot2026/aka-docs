@@ -17,14 +17,10 @@ The **Open Window** activity allows you to open an application and execute multi
 
 \* is mandatory.
 
----
-
 ## In the body of activity
 
 - **Indicate window on screen**: Allows you to automatically open an application by selecting its window.  
 - **Do**: The activities you want to execute within the application.
-
----
 
 ## Properties
 
@@ -38,42 +34,34 @@ The **Open Window** activity allows you to open an application and execute multi
   - Default: `30000`  
   - Example: `30000`
 
----
-
 ### Input
 
 - **Arguments (String)\*** – The parameters that can be passed to the application at startup.  
   Use this property to open a specific file with the application.  
-  ⚠️ Only one of **[File Name]** or **[Arguments]** must be specified.  
+  Only one of **[File Name]** or **[Arguments]** must be specified.  
   - Example: `C:\Users\currentuser\Documents\Sample.xlsx`
 
 - **File Name (String)\*** – The full file path of the application. This must be quoted.  
-  ⚠️ Only one of **[File Name]** or **[Arguments]** must be specified.  
+   Only one of **[File Name]** or **[Arguments]** must be specified.  
   - Example: `"name.docx"`
 
 - **Selector (String)** – String of characters that identifies the location of the window.
 
----
-
 ### Misc
 
 - **Public (Checkbox)** – Check if you want to make the activity public.  
-  ⚠️ Consider data security requirements before using this property.
+   Consider data security requirements before using this property.
 
 - **Display Name (String)** – The name of this activity. You can edit it to better organize your code.  
   - Example: `[3424325] Open Window`
-
----
 
 ### Options
 
 - **Working Directory (String)** – The path to the working directory. Must be quoted.  
   - Example: `"C:\Users\Admin.."`
 
----
-
 ### Output
 
 - **Application Window (WindowApp)\*** – Output variable of type `WindowApp`.  
-  This variable can be used in other activities such as **Attach Window** or ** Use Window**.  
-  ⚠️ Do not include whitespace in the output variable name.
+  This variable can be used in other activities such as **Attach Window** or **Use Window**.  
+   Do not include whitespace in the output variable name.

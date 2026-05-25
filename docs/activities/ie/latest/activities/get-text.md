@@ -53,4 +53,5 @@ The Get Text activity extracts on a webpage and saves it in a String variable.
 * **Scroll Height (Number)** - Scroll before getting the element. To input a number equals to the amount of pixels to scroll vertically. A negative value is to scroll upwards, a positive value is to scroll downwards.  
   Ex: 20
 * **Scroll Into View (Checkbox)** - If selected, the screen will automatically scroll to the desired element on the screen.
-* **Scroll Width (Number)** - Scroll before getting the element. To input a number equals to the amount of pixels to scroll horizontally. A negative value is to scroll to the leftwards, a positive value is to scroll rightwards. Ex: 20
+* **Scroll Width (Number)** - Scroll before getting the element. To input a number equals to the amount of pixels to scroll horizontally. A negative value is to scroll to the leftwards, a positive value is to scroll rightwards.   
+Ex: 20

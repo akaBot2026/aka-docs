@@ -22,6 +22,8 @@ displayed_sidebar: agentSidebar
 
 Watch below video guide for more intuitive installing instruction:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y5AgyIIIseA" title="akaBot - Standalone Version" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### **2. Detailed Steps**
 
 **Step 1** - Download the installer from the link provided in the Licensing Email
@@ -72,13 +74,6 @@ Now you should have the shortcuts for **akaBot Studio** & **Agent** presenti
 
 ## **Next Steps**
 
-* You need to activate **[Agent](https://docs.akabot.com/bin/view/akaBot%20Agent/%5B3%5D%20Agent%20Installation/Activation/)** to unlock the features.
-* You may need to **[install the akaBot web extension](https://docs.akabot.com/bin/view/akaBot%20Studio/%5B3%5D%20Studio%20Installation/Web%20Extension%20Installation/)** for akaBot to automate on web browsers.
+* You need to activate **[Agent](https://docs-v2.akabot.com/agent/latest/installation/license-activation)** to unlock the features.
+* You may need to **[install the akaBot web extension](https://docs-v2.akabot.com/studio/latest/user-guide/how-to-install-akabot-web-extension)** for akaBot to automate on web browsers.
 
-Table of Content
-
-* [Before you Start](#HBeforeyouStart)
-* [Installation Guide](#HInstallationGuide)
-  + [1. Video Guide](#H1.VideoGuide)
-  + [2. Detailed Steps](#H2.DetailedSteps)
-* [Next Steps](#HNextSteps)

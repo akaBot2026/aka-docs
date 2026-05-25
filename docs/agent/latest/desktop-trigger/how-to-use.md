@@ -30,7 +30,7 @@ After installing, and opening Desktop Trigger, the home screen will be shown as 
 
 ![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
-**Step 2**: Choose the **File trigger** option, the configuration screen of**file trigger** will be open as below:
+**Step 2**: Choose the **File trigger** option, the configuration screen of **file trigger** will be open as below:
 
 ![image-20230421172821-3.png](/static/img/64a00a_image-20230421172821-3.png)
 
@@ -52,7 +52,7 @@ After installing, and opening Desktop Trigger, the home screen will be shown as 
 | --- | --- | --- | --- | --- | --- |
 | 1 | Action type | Choose option **workflow** | Dropdown list |  | Yes |
 | 2 | Workflow | Choose a workflow in the list | Dropdown list |  | Yes |
-| 3 | Workflow Arguments | Click button**New** to add argument name and value | Input info |  | Yes |
+| 3 | Workflow Arguments | Click button **New** to add argument name and value | Input info |  | Yes |
 
 **Step 5**: Fill the information in the tab: Detail
 
@@ -73,7 +73,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 ![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
-**Step 2**: Choose the **Folder trigger** option, the configuration screen of**Folder trigger** will be opened as below:
+**Step 2**: Choose the **Folder trigger** option, the configuration screen of **Folder trigger** will be opened as below:
 
 ![image-20230424111816-1.png](/static/img/57bb81_image-20230424111816-1.png)
 
@@ -115,7 +115,7 @@ After filling all the mandatory field, click **OK** button to save the trigger.
 
 ![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
-**Step 2**: Choose the **Hotkey trigger** option, the configuration screen of**Hotkey trigger** will be open as below:
+**Step 2**: Choose the **Hotkey trigger** option, the configuration screen of **Hotkey trigger** will be open as below:
 
 ![image-20230424154102-4.png](/static/img/decfc1_image-20230424154102-4.png)
 
@@ -175,7 +175,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 | --- | --- | --- | --- | --- | --- |
 | 1 | Action type | Choose option **workflow** | Dropdown list |  | Yes |
 | 2 | Workflow | Choose a workflow in the list | Dropdown list |  | Yes |
-| 3 | Workflow Arguments | Click button**New** to add argument name and value | Input info |  | Yes |
+| 3 | Workflow Arguments | Click button **New** to add argument name and value | Input info |  | Yes |
 
 **Step 5**: Fill the information in the tab: Detail
 
@@ -197,7 +197,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 ![image-20230421172542-2.png](/static/img/0b2120_image-20230421172542-2.png)
 
-**Step 2**: Choose the **Window trigger** option, the configuration screen of**window trigger** will be open as below:
+**Step 2**: Choose the **Window trigger** option, the configuration screen of **window trigger** will be open as below:
 
 ![image-20230425095458-1.png](/static/img/9e827c_image-20230425095458-1.png)
 
@@ -219,7 +219,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 | --- | --- | --- | --- | --- | --- |
 | 1 | Action type | Choose option **workflow** | Dropdown list |  | Yes |
 | 2 | Workflow | Choose a workflow in the list | Dropdown list |  | Yes |
-| 3 | Workflow Arguments | Click button**New** to add argument name and value | Input info |  | Yes |
+| 3 | Workflow Arguments | Click button **New** to add argument name and value | Input info |  | Yes |
 
 **Step 5**: Fill the information in the tab: Detail
 
@@ -269,14 +269,14 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 | No | Column/Label | Description | Type | Maximum | Is Mandatory? |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Service nam | Insert the service name. Example: akaBotSvc  image-20230425101103-7.png | String |  | Yes |
+| 1 | Service nam | Insert the service name. Example: akaBotSvc | String |  | Yes |
 | 2 | Event | Choose the event to initiate the workflow | Check box |  | Yes |
 
 After filling in all the mandatory fields, click **OK** button to save the trigger.
 
 ### 7. Create a Process trigger
 
-Note: This feature is currently in beta, which means it is not yet fully stable. We invite you to experience this feature and provide feedback to our support team if you have any questions or encounter any issues.
+**Note**: This feature is currently in beta, which means it is not yet fully stable. We invite you to experience this feature and provide feedback to our support team if you have any questions or encounter any issues.
 
 **Step 1**: At the home screen, click the "New Trigger" button. The list of trigger types will be shown as below:
 
@@ -302,7 +302,7 @@ Note: This feature is currently in beta, which means it is not yet fully stable.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Action type | Choose option **workflow** | Dropdown list |  | Yes |
 | 2 | Workflow | Choose a workflow in the list | Dropdown list |  | Yes |
-| 3 | Workflow Arguments | Click button**New** to add argument name and value | Input info |  | Yes |
+| 3 | Workflow Arguments | Click button **New** to add argument name and value | Input info |  | Yes |
 
 **Step 5**: Fill the information in the tab: Detail
 
@@ -318,7 +318,7 @@ After filling in all the mandatory fields, click **OK** button to save the trigg
 
 ### 8. Create an Interface trigger
 
-Note: This feature is currently in beta, which means it is not yet fully stable. We invite you to experience this feature and provide feedback to our support team if you have any questions or encounter any issues.
+**Note:** This feature is currently in beta, which means it is not yet fully stable. We invite you to experience this feature and provide feedback to our support team if you have any questions or encounter any issues.
 
 **Step 1**: At the home screen, click the "New Trigger" button. The list of trigger types will be shown as below:
 
@@ -346,7 +346,7 @@ Note: This feature is currently in beta, which means it is not yet fully stable.
 | --- | --- | --- | --- | --- | --- |
 | 1 | Action type | Choose option **workflow** | Dropdown list |  | Yes |
 | 2 | Workflow | Choose a workflow in the list | Dropdown list |  | Yes |
-| 3 | Workflow Arguments | Click button**New** to add argument name and value | Input info |  | Yes |
+| 3 | Workflow Arguments | Click button **New** to add argument name and value | Input info |  | Yes |
 
 **Step 5**: Fill the information in the tab: Detail
 

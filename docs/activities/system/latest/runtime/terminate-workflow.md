@@ -23,7 +23,7 @@ This activity allows you to terminate a workflow.
 * **Exception (Exception)**- Terminates a workflow instance using the specified exception
 * **Reason (String)**- A string input argument with the reason for the workflow instance termination
 
-📘 Notes
+**Notes**
 
 * We can only check "Reason"/ "Exception" in the log file if we set LogLevel of Agent **(VERBOSE)**
 * Other levels (Fatal, Error, Warn, Info, Debug) => not able to check "Reason"/ "Exception" in the log file

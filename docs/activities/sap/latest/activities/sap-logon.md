@@ -27,7 +27,7 @@ You may use this activity to directly logon to an SAP system.
 
 * **ContinueOnError** - Specifies if the automation should continue even when the activity encounters an error. Only Boolean values (True, False) supported. The default value is False. As a result, if the value is blank or False and an error is thrown, the execution of the project stops. If the value is set to True, the project continues to execute regardless of any error.
 
-**NOTE:** If this activity is included in ** Try Catch** and the value of the ** ContinueOnError** property is True, no error is caught when the project is executed.
+**NOTE:** If this activity is included in **Try Catch** and the value of the **ContinueOnError** property is True, no error is caught when the project is executed.
 
 **Input**
 

@@ -80,7 +80,7 @@ If the bot is already connected to the akaBot Center, you can disconnect at any 
 
 Every 10 seconds, the akaBot Agent will automatically be refreshed to get all the process packages published from the akaBot Center.
 
-You can refer the link for how to publish a package from the akaBot studio: [How to use akaBot Studio](/bin/view/akaBot%20Studio/%5B2%5D%20Getting%20Started/%5B2%5D%20How%20To%20Use%20akaBot%20Studio/)
+You can refer the link for how to publish a package from the akaBot studio: [How to use akaBot Studio](https://docs-v2.akabot.com/studio/latest/user-guide/how-to-use)
 
 ## **Control the processes**
 
@@ -127,7 +127,7 @@ After choosing "Run in PiP", a new session opens and you can choose whether or n
 
 ![328420978_738762340828688_4227970519572779063_n.png](/static/img/e9d235_328420978_738762340828688_4227970519572779063_n.png)
 
-**Note:**After closing the PiP session, all the settings related to location, the session's size,  taking control, keeping on top, PiP Mode Resolution, Signing Off After Finish, and Closing PiP After Finish will be kept for the next running.
+**Note:** After closing the PiP session, all the settings related to location, the session's size,  taking control, keeping on top, PiP Mode Resolution, Signing Off After Finish, and Closing PiP After Finish will be kept for the next running.
 
 **Known Issues and Limitations**
 

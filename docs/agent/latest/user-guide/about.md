@@ -18,9 +18,9 @@ It can act as the personal assistant of an end-user *(HR Personnel, Call Center
 
 **Get started with akaBot Agent**
 
-[Install akaBot Agent](https://docs.akabot.com/bin/view/akaBot%20Agent/%5B3%5D%20Agent%20Installation/)
+[Install akaBot Agent](https://docs-v2.akabot.com/agent/latest/category/installation)
 
-[How to use akaBot Agent](https://docs.akabot.com/bin/view/akaBot%20Agent/Getting%20Started/How%20to%20use%20akaBot%20Agent/)
+[How to use akaBot Agent](https://docs-v2.akabot.com/agent/latest/user-guide/how-to-use)
 
 **More information**
 

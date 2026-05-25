@@ -14,7 +14,7 @@ RCA.Activities.CSV.ReadCSVFile
 
 This activity allows you to read all entries from a specified CSV File.
 
-TODO: add image here
+![read-csv-file.png](/static/img/read-csv-file.png)
 
 (\* is mandatory)
 

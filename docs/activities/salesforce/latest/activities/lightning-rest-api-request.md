@@ -31,12 +31,12 @@ You may use this activity to invoke a Salesforce Lightning REST API which is not
 **Options**
 
 * **Body** - The body of the request. Only strings and String variables supported.
-* **BodyFormat** - The format in which you want the body of the request to be. Most Lightning API requests accept body formats such as ** applicaton/json** or ** application/xml**. Only strings and String variables supported.
+* **BodyFormat** - The format in which you want the body of the request to be. Most Lightning API requests accept body formats such as **applicaton/json** or **application/xml**. Only strings and String variables supported.
 * **Headers** - Enables you to include custom headers in the HTTP request. Only Collection variable supported.
 * **ResultPath** – Specifies the path to where you want to save the result response of the request. Only strings and String variables supported.
 
 **Output**
 
-* **Result** - The response received from the API endpoint. This property is set only when the ** ResultPath** property field is left empty. Only String variables supported.
+* **Result** - The response received from the API endpoint. This property is set only when the **ResultPath** property field is left empty. Only String variables supported.
 * **SalesforceStatus** - The status returned from Salesforce once the action is completed, stored in a SalesforceStatus variable.
 * **StatusCode** - The HTTP Status Code returned by the request, stored in an Int32 variable. Only Int32 variables supported.

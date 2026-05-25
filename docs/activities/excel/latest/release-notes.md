@@ -12,7 +12,7 @@ displayed_sidebar: activitiesSidebar
 
 ### **Bugs fixed**
 
-* [ExcelApplicationScope]Edit message when excel file is set password protected sheet.
+* [ExcelApplicationScope] Edit message when excel file is set password protected sheet.
 * [ExportChart]Export chart missing when name file excel has chart name same.
 * [ExcelApplicationScope] At Textbox[Designer], change length when input more than 200 characters.
 * [ExcelApplicationScope] A loop opens Excel file in the background. Even though the workflow has been stopped.

@@ -8,7 +8,7 @@ displayed_sidebar: agentSidebar
 ---
 # Attended - Unattended Agent
 
-## Content
+
 
 | Criteria | Attended | Unattended |
 | --- | --- | --- |

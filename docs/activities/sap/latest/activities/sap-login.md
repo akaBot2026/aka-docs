@@ -34,7 +34,7 @@ You may use this activity to directly log into an SAP system.
 
 * **ContinueOnError** - Specifies if the automation should continue even when the activity encounters an error. Only Boolean values (True, False) supported. The default value is False. As a result, if the value is blank or False and an error is thrown, the execution of the project stops. If the value is set to True, the project continues to execute regardless of any error.
 
-**Note:** If this activity is included in ** Try Catch** and the value of the ** ContinueOnError** property is True, no error is caught when the project is executed.
+**Note:** If this activity is included in **Try Catch** and the value of the **ContinueOnError** property is True, no error is caught when the project is executed.
 
 * **Timeout MS** - Specifies the amount of time (in milliseconds) to wait for the successful login before throwing an error. The default value is 5000 milliseconds.
 
@@ -53,7 +53,7 @@ You may use this activity to directly log into an SAP system.
 
 **Options**
 
-* **IsSecure** -  If selected, the ** Secure** ** Password** field will be used to input to Password Field in SAP, otherwise, the ** Password** field.
+* **IsSecure** -  If selected, the **Secure** **Password** field will be used to input to Password Field in SAP, otherwise, the **Password** field.
 * **Mutiple Logon Options** – If there are multiple logons to the same account at the same time, you need to specify the way to continue by selecting one of below 3 options:
   + Single - Continue with this logon and end any other logons.
   + Multiple - Continue with this logon, without ending any other logons.

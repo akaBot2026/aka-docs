@@ -14,7 +14,7 @@ RCA.Activities.Core.ForEach
 
 This activity allows you to iterate through arrays, lists, DataTables, or other types of collections.
 
-![image-20220513134113-1.png](/static/img/if.png)
+![for-each.png](/static/img/for-each.png)
 
 \* indicates required fields.
 

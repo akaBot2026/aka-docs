@@ -15,6 +15,7 @@ RCA.Activities.Python.RunScript
 This activity enables you to run a Python Script. You can input the code directly in the activity or provide a file path for it. It can only be used inside the Python Scope activity.
 
 ![run script.jpg](/static/img/2e3868_run_script.jpg)
+
 (\* is mandatory)
 
 ## **In the body of activity**

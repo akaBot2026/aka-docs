@@ -76,7 +76,7 @@ To package your activity, please complete the following steps:
 
 *Figure 1 Click on address bar -> type 'cmd' -> press Enter*
 
-* Use following command to generate **.nuspec** file : **%PATH%\nuget spec** (**%PATH%** is the directory where ** nuget.exe** file is placed).
+* Use following command to generate **.nuspec** file : **%PATH%\nuget spec** (**%PATH%** is the directory where **nuget.exe** file is placed).
 * Open created **.nuspec** file, remove all example data and input at least **Author, Description**
 
 ![image-20230427181835-6.png](/static/img/f56d6c_image-20230427181835-6.png)

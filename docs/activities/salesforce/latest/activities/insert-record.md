@@ -20,7 +20,7 @@ You may use this activity to insert a new record into Salesforce. This activity 
 
 **Advanced**
 
-* **Reference** – When this activity is used inside, you may use an optional Reference string. Its value is returned in the ** Reference** column of the Result property of the Composite Request. Only strings and String variables supported.
+* **Reference** – When this activity is used inside, you may use an optional Reference string. Its value is returned in the **Reference** column of the Result property of the Composite Request. Only strings and String variables supported.
 
 **Advanced Property Group**
 

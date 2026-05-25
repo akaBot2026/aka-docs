@@ -25,7 +25,7 @@ You may use this activity to expand the left menu tree on SAP system. After indi
 
 * **ContinueOnError** - Specifies if the automation should continue even when the activity encounters an error. Only Boolean values (True, False) supported. The default value is False. As a result, if the value is blank or False and an error is thrown, the execution of the project stops. If the value is set to True, the project continues to execute regardless of any error.
 
-**Note:** If this activity is included in ** Try Catch** and the value of the ** ContinueOnError** property is True, no error is caught when the project is executed.
+**Note:** If this activity is included in **Try Catch** and the value of the **ContinueOnError** property is True, no error is caught when the project is executed.
 
 * **DelayAfter** – Specifies the delay time (in milliseconds) after the execution of the activity. The default time is set to 300 milliseconds.
 * **DelayBefore** - The duration (in milliseconds) preceding the activity, before any operations commence. The default time is 200 milliseconds.

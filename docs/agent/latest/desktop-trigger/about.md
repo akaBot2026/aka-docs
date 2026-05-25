@@ -12,22 +12,25 @@ displayed_sidebar: agentSidebar
 
 akaBot Desktop Trigger supports the following types of triggering events, also referred to as actions:
 
-Window
-:   Window triggers launch an automated task when an application window action takes place. Desktop Triggers provides the list of open applications and enables refreshing the list at any time. Select from the following options as the trigger event:
+**Window**
+
+  Window triggers launch an automated task when an application window action takes place. Desktop Triggers provides the list of open applications and enables refreshing the list at any time. Select from the following options as the trigger event:
 
 * When an application window opens.
 * When an application window closes.
 
-File
-:   File triggers launch the automated task when a file action takes place. Select from any of the following options as the trigger event:
+**File**
+  
+  File triggers launch the automated task when a file action takes place. Select from any of the following options as the trigger event:
 
 * When a new file is created.
 * When an existing file is deleted.
 * When a file is renamed.
 * When a file is modified.
 
-Folder
-:   Folder triggers launch an automated task when events affect folders on the computer. Select from any of the following options as the trigger event:
+**Folder**
+
+   Folder triggers launch an automated task when events affect folders on the computer. Select from any of the following options as the trigger event:
 
 * When a new file is created in the folder.
 * When an existing file is deleted in the folder.
@@ -49,8 +52,9 @@ Service
 * When a service resumes running.
 * When a service pauses.
 
-Email
-:   Email triggers launch an automated task when an email is received in the email account that you specify. To specify a trigger for new incoming email messages on a mail server, specify the following:
+**Email**
+
+   Email triggers launch an automated task when an email is received in the email account that you specify. To specify a trigger for new incoming email messages on a mail server, specify the following:
 
 * Host name
 * Port details
@@ -59,8 +63,9 @@ Email
 * A time interval to use between checking for new messages
 * If the email account uses SSL, check Server Uses Secure Connection (SSL).
 
-Process
-:   Process triggers launch an automated task when a system process starts or stops. Select from either of the following options as the trigger event:
+**Process**
+   
+   Process triggers launch an automated task when a system process starts or stops. Select from either of the following options as the trigger event:
 
 * When a process starts running.
 * When a process stops running.

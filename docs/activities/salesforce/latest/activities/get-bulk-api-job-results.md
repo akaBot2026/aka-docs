@@ -17,7 +17,7 @@ You may use this activity to get the results of a bulk API job in Salesforce.
 **Input**
 
 * **ID** - The ID of the bulk API job that you want to get the results. Only strings and String variables supported.
-* **Type** - The type of results you want to retrieve for the specified bulk API job. By default, this field is set to ** Successful**. The 3 below options are available:
+* **Type** - The type of results you want to retrieve for the specified bulk API job. By default, this field is set to **Successful**. The 3 below options are available:
   + Successful
   + Failed
   + Unprocessed

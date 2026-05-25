@@ -22,7 +22,9 @@ RCA.Activities.FTP.FileExists
 
 **Common**
 
-* **Continue On Error (Boolean)**- A Boolean variable has two possible values: True or False. True: allows the rest of the process to continue the execution even an error occurs within the activity. False (default): blocks the process from continuing the execution.
+* **Continue On Error (Boolean)**- A Boolean variable has two possible values: True or False. 
+True: allows the rest of the process to continue the execution even an error occurs within the activity. 
+False (default): blocks the process from continuing the execution.
 
   E.g: True
 

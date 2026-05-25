@@ -14,7 +14,7 @@ RCA.Activities.CSV.WriteCSVFile
 
 This activity allows you to overwrite a specified DataTable to a CSV File.
 
-TODO: add image here
+![append-csv-file.png](/static/img/append-csv-file.png)
 
 (\* is mandatory)
 

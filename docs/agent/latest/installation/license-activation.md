@@ -15,7 +15,7 @@ displayed_sidebar: agentSidebar
 1. **Standard (or Standalone) license:**
    * If your akaBot Agent computer **(device A)** has an **active internet connection,** you can use **Online Activation** method for a convient and quick activation.
    * If your akaBot Agent computer isunable to connect to the Internet, use **Offline activation** method. To activate successfully, you need to ensure:
-     1. Have another Internet-connected device **(device B)**to get license file from akaBot license management system.
+     1. Have another Internet-connected device **(device B)** to get license file from akaBot license management system.
      2. Have connection between device A and device B to transfer license file from device B to device A.
 2. **Enterprise (or Network) license**   
    You can activate through **your own** **akaBot Center**. Please make sure that your akaBot Agent computer has an active connection to your akaBot Center.  
@@ -65,7 +65,7 @@ If below error message appears, please check your network connection.
 
 ![image-20230718223155-8.png](/static/img/46649e_image-20230718223155-8.png)
 
-**Step 4 - Copy**the **Activation Request**below and hit Next:
+**Step 4 - Copy** the **Activation Request** below and hit Next:
 
 ![image-20230718223155-9.png](/static/img/272a55_image-20230718223155-9.png)
 ![image-20230718223155-10.png](/static/img/c1d57c_image-20230718223155-10.png)
@@ -75,7 +75,7 @@ If below error message appears, please check your network connection.
 **On the device B:**
 
 **Step 6** - Go to [https://aegis.akabot.io/#/activation](https://aegis.akabot.io/#/activation).  
-**Paste**the **Activation Request** you have copied from AkaBot Agent computer (device A), select Captcha then **Download File**to download Activation Response file (named activate.txt).
+**Paste** the **Activation Request** you have copied from AkaBot Agent computer (device A), select Captcha then **Download File**to download Activation Response file (named activate.txt).
 
 ![image-20230718223155-11.png](/static/img/ab2866_image-20230718223155-11.png)
 

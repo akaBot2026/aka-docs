@@ -20,7 +20,8 @@ You may use this activity to upsert an existed record in Salesforce. This activi
 
 **Advanced**
 
-* **Additional Fields** – Additional set of fields to be set in Salesforce Objects, stored in a DataRow variable. If a field is configured in Salesforce Objects Configuration Wizard, that value will override the value specified in this field. ** Note**: The column name must be valid in the Salesforce object you want to insert.
+* **Additional Fields** – Additional set of fields to be set in Salesforce Objects, stored in a DataRow variable. If a field is configured in Salesforce Objects Configuration Wizard, that value will override the value specified in this field.   
+**Note**: The column name must be valid in the Salesforce object you want to insert.
 
 **Misc**
 

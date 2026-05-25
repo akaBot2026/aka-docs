@@ -27,7 +27,7 @@ This release brings more new activities:
 * Download spreadsheet: Download a copy of a Google spreadsheet file.
 * Get Cell Color: Extracts the background color of a cell and saves it as a Color variable
 * Get sheets: Uses the Microsoft Graph Get worksheet API to retrieve and return an array of worksheets (**Sheets** ) from a specified workbook (**Workbook** ).
-* Read Cell: Reads the value of an Excel cell and stores it in a variable. Can only be used inside the **Excel Application Scope** or ** Use Excel File** activities.
+* Read Cell: Reads the value of an Excel cell and stores it in a variable. Can only be used inside the **Excel Application Scope** or **Use Excel File** activities.
 * Read Column: Reads the values from a column beginning with the cell specified in the **StartingCell** property field, and stores them in an `IEnumerable<Object>` variable.
 * Read Range: Reads and saves the information from a specified Excel workbook cell range for use in other activities, such as Write Range.
 * Read Row: Reads the values from a row beginning with the cell specified in the StartingCell field, and stores it in an `IEnumerable<object>` variable.
