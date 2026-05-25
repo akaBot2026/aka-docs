@@ -61,8 +61,8 @@ Click [here](https://ws3.akabot.com/s/syU2TSmP3oNcOhD) to download.
 
 ## v2.2.0.12 - May 25, 2026
 
-* Added: Chrome and Edge extension v3.0.5
-* Added: package Common v3.3.0 and v4.6.0 to installer
+* Added: CRX files for Chrome and Edge extension v3.0.5
+* Added: Common v3.3.0 and v4.6.0 packages
 * Added: registry scripts to enable, disable Chrome/Edge developer tools to allow to run extension policy mode
 * Added: [NativeHost] watchdog to monitor if parent process has exited with safer mechanism
 * Update: [NamedPipeWrapper] improve error handling and connection management in NamedPipeClient and NamedPipeConnection
