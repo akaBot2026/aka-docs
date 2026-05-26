@@ -63,7 +63,7 @@ Please make sure that you have a dedicated folder on your File Storage server to
 **Ex:** `NFS-NUGET`
 
 ## 1.4. Permission requirement
-Your user accounts to run installation on each machine needs to have Run permission as **Sudo**.
+Your user accounts to run installation on each machine needs to have **Run permission as Sudo**.
 
 ## 1.5. Prepare Installation Packages
 Please make sure that your akaBot Center machine has below installation packages with exact version.
@@ -109,7 +109,7 @@ sudo dnf update -y
 2. Install Redis package
 ```bash
 sudo rpm -ivh <package name>
-# Ex: sudo rpm -ivh redis-5.0.3-5.module+el8.4.0+12927+b9845322.x86_64.rpm
+Ex: sudo rpm -ivh redis-5.0.3-5.module+el8.4.0+12927+b9845322.x86_64.rpm
 ```
 
 3. Verify installed Redis version:
@@ -823,14 +823,20 @@ sudo vi /opt/tomcat/webapps/ROOT/WEB-INF/classes/logback-spring.xml
 
 2. Update the line:
 ```text
-/opt/tomcat/logs/center/akaCenter.%d{yyyy-MM-dd}.%i.log
+${application.home:-.}/logs/center/akaCenter.%d{yyyy-MM-dd}.%i.log
+
 To:
+
 /opt/tomcat/logs/agents/${agentName}/BotAgent.%d{yyyy-MM-dd}.%i.log
 ```
 
 3. Update the line 
 ```bash
 ${application.home:-.}/logs/agents/${agentName}/BotAgent.%d{yyyy-MM-dd}.%i.log
+
+To:
+
+/opt/tomcat/logs/agents/${agentName}/BotAgent.%d{yyyy-MM-dd}.%i.log
 ```
 4. Change log level if needed. Ex: ERROR 
 5. Change other config:
@@ -878,6 +884,8 @@ MySQL URL format:
 ` url: jdbc:mysql://< DB-SERVER >:<DB-PORT>/<DB-NAME>`
 
 b. Update your database’s username & password
+
+![image-20230804101914-25.png](/static/img/image-20230804101914-25.png)
 
 c. Update driverClassName variable:
 
@@ -950,6 +958,9 @@ server: redis://:<REDIS-PASSWD>@<REDIS-IP>:6379
 otherwise, server variable’s value is:
 server: redis://<REDIS-IP>:6379
 ```
+
+![image-20230804101914-30.png](/static/img/image-20230804101914-30.png)
+
 3. Save changes and exit
 
    Press ESC then type: “:wq”
@@ -987,7 +998,7 @@ elasticsearch:
 
     Press ESC then type: :wq
 
-## G. Configure Elasticsearch Settings
+## G. Configure the folder path to store Nuget packages
 
 ### Step 1: Open the `application-prod.yml` file
 
@@ -1010,10 +1021,7 @@ hibernate.search.backend.type: lucene
 
 Comment them out:
 
-```yaml
-#hibernate.search.backend.directory.root: indexes/
-#hibernate.search.backend.type: lucene
-```
+![image-20230804101914-31.png](/static/img/image-20230804101914-31.png)
 
 ---
 
@@ -1028,7 +1036,7 @@ hibernate.search.backend.protocol: http
 hibernate.search.backend.username:
 hibernate.search.backend.password:
 ```
-
+![image-20230804101914-32.png](/static/img/image-20230804101914-32.png)
 Example:
 
 ```yaml
@@ -1038,6 +1046,9 @@ hibernate.search.backend.protocol: http
 hibernate.search.backend.username:
 hibernate.search.backend.password:
 ```
+Update below line:
+
+hibernate.search.backend.host: <IP_ES>:9200
 
 Where:
 
@@ -1049,11 +1060,8 @@ Where:
 
 Press `ESC` then type:
 :wq
-```
 
----
-
-## Step 5: Configure `application-dev.yml`
+### Step 5: Configure `application-dev.yml`
 
 Open the file:
 
@@ -1061,7 +1069,9 @@ Open the file:
 sudo vi application-dev.yml
 ```
 
-Repeat the same configuration from **Step 2 → Step 4**.
+Repeat the same from step 2 to step 5 to configure the file **application-dev.yml**
+
+
 
 ### 2.4.3.3. Step 3 – Start Tomcat Service and Test
 1. Start Tomcat:
@@ -1105,8 +1115,8 @@ sudo systemctl status nginx
 
 #### 2.5.2.1. Configure Nginx Load Balancing
 1. Stop Nginx: `sudo systemctl stop nginx`
-2. Open `/etc/nginx/sites-available/default`
-3. Configure `upstream` and `server` blocks:
+2. Open `sudo vi /etc/nginx/sites-available/default`
+3. Copy below code into the file
 ```nginx
 upstream akaBotCenter {
   server <IP-SRV-CENTER-01>:8080;
@@ -1129,9 +1139,67 @@ server {
 }
 ```
 
+4. Update the variable in file
+
+- `<IP-SRV-CENTER-01>`: IP address of akaBot Center server 01
+- `<IP-SRV-CENTER-02>`: IP address of akaBot Center server 02
+- `<YOUR-DOMAIN>`: akaBot Center domain.
+
+5. Set the load balancing mode
+
+In order to distribute the request from end user to appropriate akaBot Center server, you need to set the load balancing mode for Nginx as one of below modes:
+
++ **Round robin mode**: the requests will be distributed sequentially for each server.
+
+You don’t need to change the file setting and go to step 6 to exit the setting.
+
++ **Weighted round robin mode**: based on request processing capacity of each server and its priority, you will assign a weight of priority. The requests will be distributed by servers’ priority.
+
+You add weight setting after server address in upstream configuration as below:
+```
+upstream akaBotCenter {
+
+server <IP-SRV-CENTER-01>:8080;
+
+server <IP-SRV-CENTER-02>:8080 weight:2;
+
+}
+```
+In this example, request traffic to akaBot Center server 02 will be doubled than server 01.
+
++ **Least Connections**: The requests will be distributed in priority order of servers from least to highest active connections. To use it, add below contanst into the upstream configuration:
+```
+upstream akaBotCenter {
+
+least_conn;
+
+server <IP-SRV-CENTER-01>:8080;
+
+server <IP-SRV-CENTER-02>:8080;
+
+}
+```
++ IP Hash: The IP Hash policy uses an incoming request's source IP address as a hashing key to route non-sticky traffic to the same backend server. The load balancer routes requests from the same client to the same backend server as long as that server is available. To use it, add below contanst into the upstream configuration:
+```
+upstream akaBotCenter {
+
+ip_hash;
+
+server <IP-SRV-CENTER-01>:8080;
+
+server <IP-SRV-CENTER-02>:8080;
+
+}
+```
+6. Save changes and exit
+
+Press ESC key and type :wq!
+
 #### 2.5.2.2. Configure Nginx SSL
-Follow provider guides or use Self-Signed SSL:
-1. Create SSL Cert:
+If you use SSL service from provider, please follow the provider’s guides to install and configure it.
+
+Otherwise, please follow below steps to deploy your own Self-Signed SSL.
+1. Create SSL Certificate (Self-Signed SSL):
 ```bash
 sudo mkdir /etc/ssl/private
 sudo chmod 700 /etc/ssl/private
@@ -1143,14 +1211,127 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/privat
 sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 ```
 
-3. Configure `/etc/nginx/conf.d/default.conf` with SSL settings.
+3. Configure 
 
+`sudo vi /etc/nginx/conf.d/default.conf` with SSL settings.
+
+4. Copy below code into the configuration file:
+```
+server {
+
+    listen 443 http2 ssl;
+
+    listen [::]:443 http2 ssl;
+
+    server_name <YOUR-DOMAIN>;
+
+    client_max_body_size 200M;
+
+    ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;
+
+    ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
+
+    ssl_dhparam /etc/ssl/certs/dhparam.pem;
+
+########################################################################
+
+    # from https://cipherlist.eu/                                            #    ########################################################################
+
+    ssl_protocols TLSv1.3;# Requires nginx >= 1.13.0 else use TLSv1.2
+
+    ssl_prefer_server_ciphers on;
+
+    ssl_ciphers EECDH+AESGCM:EDH+AESGCM;
+
+    ssl_ecdh_curve secp384r1; # Requires nginx >= 1.1.0
+
+    ssl_session_timeout  10m;
+
+    ssl_session_cache shared:SSL:10m;
+
+    ssl_session_tickets off; # Requires nginx >= 1.5.9
+
+    ssl_stapling on; # Requires nginx >= 1.3.7
+
+    ssl_stapling_verify on; # Requires nginx => 1.3.7
+
+    resolver 8.8.8.8 8.8.4.4 valid=300s;
+
+    resolver_timeout 5s;
+
+    # Disable preloading HSTS for now.  You can use the commented out header line that includes
+
+    # the "preload" directive if you understand the implications.
+
+    #add_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload";
+
+    add_header X-Frame-Options DENY;
+
+    add_header X-Content-Type-Options nosniff;
+
+    add_header X-XSS-Protection "1; mode=block";
+
+    ##################################
+
+    # END https://cipherlist.eu/ BLOCK #
+
+    ##################################
+
+  location / {
+
+        proxy_pass http://akaBotCenter;
+
+        proxy_set_header X-Real-IP $remote_addr;
+
+        proxy_set_header Host $host;
+
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+        # WebSocket support (nginx 1.4)
+
+        proxy_http_version 1.1;
+
+        proxy_set_header Upgrade $http_upgrade;
+
+        proxy_set_header Connection "upgrade";
+
+  }
+
+}
+```
+5. Update server_name variable in file as your akaBot Center domain.
+```
+server_name <YOUR-DOMAIN>;
+```
+6. Configure redirect from HTTP to HTTPS (optional)
+```
+server {
+
+    listen 80;
+
+    listen [::]:80;
+
+    server_name <YOUR-DOMAIN>;
+
+    return 301 https://$host$request_uri;
+
+}
+```
+8. Save changes and exit
+
+Press ESC key and type :wq!
+
+9. Enable configuration change for Nginx service and restart nginx
+```
+sudo nginx -t
+sudo systemctl restart nginx
+```
 ---
 
 ## 2.6. Configure Catalina.out
 By default, Tomcat will write out the logs into catalina.out file which may cause dramatic increasing of the file size and decrease the performance. To stop this, change the configuration in Catalina.out as below:
 
-1. Open the file `/opt/tomcat/bin/catalina.sh`
+1. Open the file `sudo vi /opt/tomcat/bin/catalina.sh`
 
 2. Press ESC then type: “:229” to the line 229
 3. Comment out this line to stop writing log to catalina.out.: `#CATALINA_OUT="$CATALINA_BASE"/logs/catalina.out`
@@ -1172,8 +1353,8 @@ If any raised issue during your installation, please follow below actions to sel
 ### 3.1.1 Step 1 - Detect issue
 Please use the logs to detect the issue.
 
-Issues related to Tomcat service start, please use Tomcat log file: `/opt/tomcat/logs/catalina.out`
-Issues related to akaBot Center, please use Center log file: /opt/tomcat/logs/center/akaCenter.yyyy—mm-dd.0.log
+* Issues related to Tomcat service start, please use Tomcat log file: `/opt/tomcat/logs/catalina.out`
+* Issues related to akaBot Center, please use Center log file: /opt/tomcat/logs/center/akaCenter.yyyy—mm-dd.0.log
 1. Remove the log of previous run by navigating to log folder then remove all the log files.
 
 2. Start service again to generate log.

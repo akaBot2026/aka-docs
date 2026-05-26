@@ -17,7 +17,7 @@ displayed_sidebar: centerSidebar
 |  |  |
 | --- | --- |
 | **Configuration** | **Requirements** |
-| Hardware | RAM: 32GB or higher  Core: 8 CPU or higher  SSD: 512 GB |
+| Hardware | RAM: 32GB or higher <br/> Core: 8 CPU or higher <br/> SSD: 512 GB |
 | Operating System | Windows 10, 11, Server 2012 R2/2016/2019 |
 
 **1.2. Software Packages**
@@ -60,7 +60,7 @@ Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that
 
 ### **3.1. Install MSSQL**
 
-Download link:**[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-server-2025-download)**
+Download link: **[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-server-2025-download)**
 
 ### **3.2.Setup MSSQL**
 
@@ -184,9 +184,9 @@ Download link:**[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-serv
 ### **4.1. Install Apache Tomcat**
 
 Apache Tomcat installation:  
--Uncheck "Run Apache Tomcat"  
--Uncheck "Show Readme"  
--Click the "Finish" button to complete the installation.pe your information message here.
+- Uncheck "Run Apache Tomcat"  
+- Uncheck "Show Readme"  
+- Click the "Finish" button to complete the installation.pe your information message here.
 
 ![1773039471617-579.png](/static/img/28a716_1773039471617-579.png)
 
@@ -200,7 +200,7 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 **4.2.1. Configure log setting**s
 
-**Step 1:**Open the file**%TOMCAT\_PATH%\conf\logging.properties**
+**Step 1:** Open the file**%TOMCAT\_PATH%\conf\logging.properties**
 
 **Step 2:** Add attribute **maxDay**s to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
 
@@ -243,7 +243,7 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 (3) Redirect Stderror: **Remove "auto"**
 
-(4) Choose**Apply** to apply the configuration changes.
+(4) Choose **Apply** to apply the configuration changes.
 
 ![1773039839582-669.png](/static/img/af673e_1773039839582-669.png)
 
@@ -251,17 +251,17 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 a. Adjust the Java Heap configuration:
 
-* Initial memory pool: **Enter a value \<= 1/4of the server's RAM.**
+* Initial memory pool: **Enter a value \<= 1/4 of the server's RAM.**
 
 Example: Server RAM = 32 GB -> Initial memory pool should be \<= 1/4 \* 16 \* 1024 MB
 
-* Maximum memory pool: **Enter a value \<=  of the server's RAM.**
+* Maximum memory pool: **Enter a value \<=  1/2 of the server's RAM.**
 
 Example: Server RAM = 32 GB -> Maximum memory pool should be \<=  \* 16 \* 1024 MB
 
 **Note**: If you enter a value that is too large, it may prevent Apache Tomcat service from starting and result in errors.
 
-b.Choose **Apply**to apply the configuration changes.
+b.Choose **Apply** to apply the configuration changes.
 
 ![1773039888230-493.png](/static/img/65d78f_1773039888230-493.png)
 
@@ -462,8 +462,11 @@ Information to be backed up for disaster recovery scenarios:
 | --- | --- | --- | --- |
 | **No** | **Name** | **Path** | **Description** |
 | 1 | akaBot Center | Database | Database (MSSQL) of akaBot Center |
-| %[TOMCAT\_PATH](#_bookmark21)%/filestorage | Folder containing .nupkg files from akaBot Studio published to akaBot Center |
-| %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-dev.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-prod.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\quartz.properties | Configuration files for akaBot Center |
+|  |  | %[TOMCAT\_PATH](#_bookmark21)%/filestorage | Folder containing .nupkg files from akaBot Studio published to akaBot Center |
+|  |  | %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application.yml  %
+|  |  |  [TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-dev.yml  %
+|  |  | %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-prod.yml  %
+|  |  | [TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\quartz.properties | Configuration files for akaBot Center |
 | 2 | activeMQ | %[ACTIVEMQ\_PATH](#_bookmark25)%\data | activeMQ data directory |
 
 **9. Activate Licenses**

@@ -41,7 +41,7 @@ The database can be backed up using one of the following two methods:
 
 ![1774253064566-426.png](/static/img/cf013d_1774253064566-426.png)
 
-* **Step 3:** Navigate to**"Administration"** tab, click **"Data export**" under**Management**section
+* **Step 3:** Navigate to**"Administration"** tab, click **"Data export**" under **Management** section
 
 ![1774253185643-359.png](/static/img/3f9099_1774253185643-359.png)
 
@@ -55,7 +55,7 @@ The database can be backed up using one of the following two methods:
 
 ![1774253408374-361.png](/static/img/26bcc1_1774253408374-361.png)
 
-* **Step 5:**You can decide which tables, views to export by clicking on the schema  aka\_orchestrator  then check/uncheck tables/views at the right side. If you would like to export all, please skip this step.
+* **Step 5:** You can decide which tables, views to export by clicking on the schema  aka\_orchestrator  then check/uncheck tables/views at the right side. If you would like to export all, please skip this step.
 
 ![1774253573828-858.png](/static/img/5536e8_1774253573828-858.png)
 
@@ -80,9 +80,9 @@ You will see the export progress window. If there is no error, the backup file (
 
 ![1774254400000-797.png](/static/img/29c688_1774254400000-797.png)
 
-* **Step 3:**The cmd will prompt you to input password for root user. Please put it (ex: sis@12345), press enter and wait for a while. You will see the aka\_orchestrator.sql file on the chosen directory. To dump only specific tables from a database, name them on the command line following the database name:**mysqldump  u root  p --databases aka\_orchestrator act\_id\_info act\_ru\_job asset > d:\aka\_orchestrator.sql**
+* **Step 3:** The cmd will prompt you to input password for root user. Please put it (ex: sis@12345), press enter and wait for a while. You will see the aka\_orchestrator.sql file on the chosen directory. To dump only specific tables from a database, name them on the command line following the database name: **mysqldump  u root  p --databases aka\_orchestrator act\_id\_info act\_ru\_job asset > d:\aka\_orchestrator.sql**
 
-**1.2. C****onfiguration files, license, workflow files**
+**1.2. Configuration files, license, workflow files**
 
 ***1.2.1. Copy configuration files from Tomcat 8***
 
@@ -96,7 +96,7 @@ You will see the export progress window. If there is no error, the backup file (
 
 - Open Program files > Apache Software Foundation > Tomcat 8.5 > webapps > ROOT > WEB-INF> Classes
 
-- Copy**"License"**and paste to a specific directory
+- Copy **"License"** and paste to a specific directory
 
 ![1774260028768-432.png](/static/img/241964_1774260028768-432.png)
 
@@ -112,7 +112,7 @@ You will see the export progress window. If there is no error, the backup file (
 
 **2.1. Uninstall Tomcat (8)**
 
-(1) Open**Settings** and select **Apps**
+(1) Open **Settings** and select **Apps**
 
 (2) Choose **Tomcat (8)** and select option **"uninstall"**
 
@@ -120,7 +120,7 @@ You will see the export progress window. If there is no error, the backup file (
 
 **2.2. Uninstall Java (11)**
 
-(1) Open**Settings** and select **Apps**
+(1) Open **Settings** and select **Apps**
 
 (2) Choose **Java (8)** and select option **"uninstall"**
 
@@ -128,12 +128,12 @@ You will see the export progress window. If there is no error, the backup file (
 
 **3. Install akabot 4x**
 
-Download (follow the instruction: [Install akaBot 4x](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Installation/Install%20Akabot%20Center%204x%20and%20MySQL%20on%20Microsoft%20Windows/))
+Download follow the instruction: [Install akaBot 4x](https://docs-v2.akabot.com/center/latest/installation/center-4x-mysql-windows)
 
 # **4. Restore configuration files, license, workflow files**
 
-**Step 1:**Access the directory where you stored the configuration, license, and workflow files (of Tomcat 8) from the previous step.
+**Step 1:** Access the directory where you stored the configuration, license, and workflow files (of Tomcat 8) from the previous step.
 
-**Step 2:**Copy all of those files
+**Step 2:** Copy all of those files
 
 **Step 3**: Paste these files into their respective locations within the **Tomcat 10** directory.

@@ -25,8 +25,8 @@ To install and use akaBot Center on Windows server, please prepare your computer
 |  |  |
 | --- | --- |
 | **Configuration** | **Requirements** |
-| Hardware | Virtual Machine  RAM: 32GB or higher  Core: 8 CPUs or higher  SSD: 500GB |
-| Software | Operating System: Windows Server 2012 R2/2016/2019  Browser: The latest version of Chrome |
+| Hardware | Virtual Machine <br/> RAM: 32GB or higher <br/> Core: 8 CPUs or higher <br/> SSD: 500GB |
+| Software | Operating System: Windows Server 2012 R2/2016/2019 <br/> Browser: The latest version of Chrome |
 
 ### **1.3. Installation Privilege Requirements**
 
@@ -700,7 +700,10 @@ Information to be backed up for disaster recovery scenarios:
 | --- | --- | --- | --- |
 | **No** | **Name** | **Path** | **Description** |
 | 1 | akaBot Center | Database | Database (MSSQL) of akaBot Center |
-| %[TOMCAT\_PATH](#_bookmark21)%/filestorage | Folder containing .nupkg files from akaBot Studio published to akaBot Center |
-| %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-dev.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-prod.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\quartz.properties | Configuration files for akaBot Center |
+|   |  | %[TOMCAT\_PATH](#_bookmark21)%/filestorage | Folder containing .nupkg files from akaBot Studio published to akaBot Center |
+|   |  | %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application.yml  
+|   |  | %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-dev.yml  
+|   |  | %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-prod.yml  
+|   |  | %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\quartz.properties | Configuration files for akaBot Center |
 | 2 | activeMQ | %[ACTIVEMQ\_PATH](#_bookmark25)%\data | activeMQ data directory |
 | 3 | akaBot Collaboration Center | Database | Database (MSSQL) of akaBot Collaboration Center |

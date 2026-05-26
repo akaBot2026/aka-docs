@@ -12,7 +12,7 @@ Agent Pool allows you to create a "pool" of Agents related to a workflow. Anyti
 
 ## **a. Create an Agent Pool**
 
-Step 1: Create a Workflow that the Agents in the "pool" will have to execute: Open **Automation**tab -> Click**Workflow** tab -> **Create new** workflow -> Fill the form with **exact Agent Group** you've created -> Save
+Step 1: Create a Workflow that the Agents in the "pool" will have to execute: Open **Automation** tab -> Click **Workflow** tab -> **Create new** workflow -> Fill the form with **exact Agent Group** you've created -> Save
 
 Step 2: Create an Agent pool: Open **Resources** tab -> Click **Agent Pool** tab -> **Click Create New** (As the picture below):
 

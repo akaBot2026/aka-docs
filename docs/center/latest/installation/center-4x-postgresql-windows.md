@@ -17,7 +17,7 @@ displayed_sidebar: centerSidebar
 |  |  |
 | --- | --- |
 | **Configuration** | **Requirements** |
-| Hardware | RAM: 32GB or higher  Core: 8 CPU or higher  SSD: 512 GB |
+| Hardware | RAM: 32GB or higher <br/> Core: 8 CPU or higher <br/> SSD: 512 GB |
 | Operating System | Windows 10, 11, Server 2012 R2/2016/2019 |
 
 **1.2. Software Packages**
@@ -134,9 +134,9 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 ### **4.1. Install Apache Tomcat**
 
 Apache Tomcat installation:  
--Uncheck "Run Apache Tomcat"  
--Uncheck "Show Readme"  
--Click the "Finish" button to complete the installation.pe your information message here.
+- Uncheck "Run Apache Tomcat"  
+- Uncheck "Show Readme"  
+- Click the "Finish" button to complete the installation.pe your information message here.
 
 ![1773039471617-579.png](/static/img/a53804_1773039471617-579.png)
 
@@ -207,7 +207,7 @@ Example: Server RAM = 32 GB -> Initial memory pool should be \<= 1/4 \* 16 \* 10
 
 * Maximum memory pool: **Enter a value \<=  of the server's RAM.**
 
-Example: Server RAM = 32 GB -> Maximum memory pool should be \<=  \* 16 \* 1024 MB
+Example: Server RAM = 32 GB -> Maximum memory pool should be \<= 1/2 \* 16 \* 1024 MB
 
 **Note**: If you enter a value that is too large, it may prevent Apache Tomcat service from starting and result in errors.
 
@@ -410,8 +410,11 @@ Information to be backed up for disaster recovery scenarios:
 | --- | --- | --- | --- |
 | **No** | **Name** | **Path** | **Description** |
 | 1 | akaBot Center | Database | Database (MSSQL) of akaBot Center |
-| %[TOMCAT\_PATH](#_bookmark21)%/filestorage | Folder containing .nupkg files from akaBot Studio published to akaBot Center |
-| %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-dev.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-prod.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\quartz.properties | Configuration files for akaBot Center |
+|  |  | %[TOMCAT\_PATH](#_bookmark21)%/filestorage | Folder containing .nupkg files from akaBot Studio published to akaBot Center |
+|  |  | %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application.yml  %
+|  |  |  [TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-dev.yml  %
+|  |  | %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-prod.yml  %
+|  |  | [TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\quartz.properties | Configuration files for akaBot Center |
 | 2 | activeMQ | %[ACTIVEMQ\_PATH](#_bookmark25)%\data | activeMQ data directory |
 
 **9. Activate Licenses**

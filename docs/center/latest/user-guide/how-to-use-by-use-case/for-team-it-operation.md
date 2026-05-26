@@ -43,7 +43,7 @@ S4: After clicking, a pop-up form shows up for you to fill in the information
 | Column/ Label | Description |
 | Name | Enter the custom name of the OU you want to create/edit |
 | Description | Enter the description of the OU you want to create/edit |
-| User | Select user you want to add into the OU that you are creating/editing  Note: You can add many users, but you can only add one by one |
+| User | Select user you want to add into the OU that you are creating/editing <br/>  Note: You can add many users, but you can only add one by one |
 
 ## **Use case 2: Remove an OU**
 
@@ -114,7 +114,7 @@ Then, screen will demonstrate as below:
 | --- | --- |
 | **Column** | **Description** |
 | Status | The status of the user. can be Activated or Deactivated |
-| Profiles | The role(s) assigned to the user. There are 3 default roles: ROLE\_ADMIN ROLE\_USER \* ROLE\_ROBOT A user can have more than one role. Details about permission for each role will be explained in the Role Management section |
+| Profiles | The role(s) assigned to the user. There are 3 default roles: <br/> ROLE\_ADMIN <br/> ROLE\_USER  <br/>\* ROLE\_ROBOT A user can have more than one role. Details about permission for each role will be explained in the Role Management section |
 
 S3: To create/edit account, click create new on the right
 
@@ -209,7 +209,7 @@ S1: Click Resource in the left menu, then choose Agent tab, you can see the deta
 | **Machine name** | The name of the machine the Agent is registered on. |
 | **Machine Username** | The username used to log in to the Agent machine |
 | **Type** | The type of Agent. This can be only Development, Assistant, Staging, Production. It is possible to filter the page according to the Agent type. |
-| **Status** | The current status of the Agent:   * **AVAILABLE**- the Agent is connected to Center, not running any process and is free to be used * **BUSY**- the Agent is running a process. * **DISCONNECTED** - the Agent and Center have not communicated in the last 10 seconds. |
+| **Status** | The current status of the Agent:    <br/> **AVAILABLE**b- the Agent is connected to Center, not running any process and is free to be used <br/> **BUSY**- the Agent is running a process. <br/> **DISCONNECTED** - the Agent and Center have not communicated in the last 10 seconds. |
 | **Description** | Description of the Agent |
 | **Version** | The installed version of the akaBot Agent tool in the local machine |
 | **Created by** | The user which created the Agent. |
@@ -399,7 +399,7 @@ If you choose **Weekly**
 | Start Date | Select the date at which the schedule will start |
 | End Date | Select the date at which the schedule will End |
 | Everyday At | Select the specified time at which the schedule will start |
-| Monday Tuesday Wednesday Thursday Friday Saturday Sunday | Select the exact cycle for the schedule by hours, minutes and days. |
+| Monday <br/> Tuesday <br/> Wednesday <br/> Thursday <br/> Friday <br/> Saturday <br/> Sunday | Select the exact cycle for the schedule by hours, minutes and days. |
 
 If you choose **Monthly**
 

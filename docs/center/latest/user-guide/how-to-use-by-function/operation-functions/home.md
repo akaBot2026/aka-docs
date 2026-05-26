@@ -35,7 +35,7 @@ You can also view the Task Statistics by selecting the corresponding tab: Daily,
 
 | No | Column /Label | Description | Type | Maximum | Is Mandatory ? | Input Requirement |
 | --- | --- | --- | --- | --- | --- | --- |
-|  | Daily / Weekly / Monthly / Yearly | Select the type you want to see task statistics | Tab |  | Yes |  |
+|  | Daily/ <br/> Weekly/ <br/> Monthly/ <br/> Yearly | Select the type you want to see task statistics | Tab |  | Yes |  |
 |  | Choose Day | Select the day you want to see task statistics | Date & Time |  | Yes | Only available if you chose daily |
 |  | Choose Week | Select the week you want to see task statistics | Date & Time |  | Yes | Only available if you chose daily |
 |  | Choose Month | Select the month you want to see task statistics | Date & Time |  | Yes | Only available if you chose daily |

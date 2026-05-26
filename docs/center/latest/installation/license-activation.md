@@ -108,7 +108,7 @@ After activating your akaBot Agent, please follow the steps below to connect it 
 
 ![image-20221031155928-12.png](/static/img/941015_image-20221031155928-12.png)
 
-Note: Please Copy the auto-generated key at the top field of this form. You need to use this key right after creating the Agent.
+**Note:** Please Copy the auto-generated key at the top field of this form. You need to use this key right after creating the Agent.
 
 **Agent tab**
 

@@ -16,7 +16,7 @@ Queues enable you to create large automation projects underlined by complex logi
 
 | No | Column | Description |
 | --- | --- | --- |
-| 1 | Action | Available actions to manage the Queue. Includes: Edit: allows you to edit the details of each Queue Delete: allows you to remove selected Queue from Center. By selecting the Checkbox corresponding to each Queue, the delete option will appear beside the Filter option and allow you to delete the Queue.  ! Selecting the Checkbox next to Action will select all Queue in display and allow you to bulk delete selected ones. |
+| 1 | Action | Available actions to manage the Queue. Includes:<br/> Edit: allows you to edit the details of each Queue<br/> Delete: allows you to remove selected Queue from Center.<br/> By selecting the Checkbox corresponding to each Queue, the delete option will appear beside the Filter option and allow you to delete the Queue.  <br/>! Selecting the Checkbox next to Action will select all Queue in display and allow you to bulk delete selected ones. |
 | 2 | Name | Mandatory. The name of the queue. |
 | 3 | Description | Mandatory. The description of the queue. |
 | 4 | In progress | The item was processed with the Get Transaction Item or the Add Transaction Item activity; when an item has this status, your custom progress status is also displayed, in the Progress column. |
@@ -54,8 +54,8 @@ queue items in the details of the queue.
 
 | No | Field | Description |
 | --- | --- | --- |
-| 1 | Action | Available actions to manage the Queue. Includes: View: allows you to view information of each Transaction. Edit: allows you to edit the details of each Transaction. Clone: allow users to create an identical Transaction. Delete: allows you to delete selected Transaction. By selecting the Checkbox corresponding to each Queue, the delete option will appear beside the Filter option and allow you to delete the Queue from the Center.  ! Selecting the Checkbox next to Action will select all Queue in display and allow you to bulk delete selected them |
-| 2 | Status | These statuses let you know if an item has been processed or not, and the stage of the process at a particular time. Queues items can have these statuses: NEW IN PROGRESS FAILED SUCCESSFUL ABANDONED RETRIED \* DELETED |
+| 1 | Action | Available actions to manage the Queue. Includes:<br/> View: allows you to view information of each Transaction.<br/> Edit: allows you to edit the details of each Transaction.<br/> Clone: allow users to create an identical Transaction.<br/> Delete: allows you to delete selected Transaction.<br/> By selecting the Checkbox corresponding to each Queue, the delete option will appear beside the Filter option and allow you to delete the Queue from the Center.  <br/>! Selecting the Checkbox next to Action will select all Queue in display and allow you to bulk delete selected them |
+| 2 | Status | These statuses let you know if an item has been processed or not, and the stage of the process at a particular time. Queues items can have these statuses:<br/> NEW<br/> IN PROGRESS<br/> FAILED<br/> SUCCESSFUL<br/> ABANDONED<br/> RETRIED<br/> \* DELETED |
 | 3 | Reference | A custom identifier for a transaction or a group of transactions.  It supports all special characters, except double-quoted. This is set for the automation project, using the Add Queue Item or Add Transaction Item activity. The reference can be unique, depending on what you chose in the Unique Reference field when you created the queue. |
 | 4 | Revision | This allows you to know the status of the revision of those queue items that have been abandoned or have failed with an application or business exception. |
 | 5 | Priority | The processing priority level of the transaction item. This field is populated according to the priority level set in the Add Queue Item activity (Low, Normal, High), in Studio. |

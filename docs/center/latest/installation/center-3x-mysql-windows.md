@@ -21,7 +21,7 @@ displayed_sidebar: centerSidebar
 |  |  |
 | --- | --- |
 | **Configuration** | **Requirements** |
-| Hardware | RAM: 32GB or higher  Core: 8 CPU or higher  SSD: 512 GB |
+| Hardware | RAM: 32GB or higher <br/> Core: 8 CPU or higher <br/>  SSD: 512 GB |
 | Operating System | Windows 10, 11, Server 2012 R2/2016/2019 |
 
 **1.2. Software Packages**
@@ -54,7 +54,7 @@ Run the installer -**openlogic-openjdk-11.0.20** you have downloaded. After that
 
 ![1693904326967-726.png](/static/img/a31a17_1693904326967-726.png)
 
-**Note**: Make sure that **JAVA\_HOME** presents in your environment variables by typing command **echo %JAVA\_HOME%**, the output should be a path that point to jdk 11 ex:**C:\Program Files\OpenLogic\jdk-11.0.20.8**
+**Note**: Make sure that **JAVA\_HOME** presents in your environment variables by typing command **echo %JAVA\_HOME%**, the output should be a path that point to jdk 11 ex: **C:\Program Files\OpenLogic\jdk-11.0.20.8**
 
 ## **3. MySQL installation**
 
@@ -79,7 +79,7 @@ Run the installer -**openlogic-openjdk-11.0.20** you have downloaded. After that
 
 ![MY SQL 2.png](/static/img/e9117a_screenshot_2.png)
 
-* Click button**"Next"**
+* Click button **"Next"**
 
 ![MY SQL3.png](/static/img/f54636_screenshot_3.png)
 
@@ -91,7 +91,7 @@ Run the installer -**openlogic-openjdk-11.0.20** you have downloaded. After that
 
 ![1772441172714-108.png](/static/img/43ee17_1772441172714-108.png)
 
-* When you at the **Accounts and Roles** page, it is recommended you set it to the defaultpassword **sis@12345** to avoid having to update the config file later. Click **"Next"**
+* When you at the **Accounts and Roles** page, it is recommended you set it to the default password **sis@12345** to avoid having to update the config file later. Click **"Next"**
 
 ![1772439437071-858.png](/static/img/35d17a_1772439437071-858.png)
 
@@ -178,7 +178,7 @@ The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = C:\Program Files\Ap
 
 **4.2.1. Configure log setting**s
 
-**Step 1:**Open the file**%TOMCAT\_PATH%\conf\logging.properties**
+**Step 1:** Open the file **%TOMCAT\_PATH%\conf\logging.properties**
 
 **Step 2:** Add attributemaxDays to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
 
@@ -257,11 +257,11 @@ Example: Server RAM = 32 GB -> Maximum memory pool should be \<=  \* 16 \* 1024 
 
 ![1698826792581-457.png](/static/img/1ce0a7_1698826792581-457.png)
 
-b.Choose **Apply**to apply the configuration changes.
+b.Choose **Apply** to apply the configuration changes.
 
 ![1772532754855-337.png](/static/img/7280c5_1772532754855-337.png)
 
-**Step 5:**Start the Tomcat Service
+**Step 5:** Start the Tomcat Service
 
 On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
@@ -298,7 +298,7 @@ Note: The installation path should not contain any spaces.
 
 **Step 3:** Run the file %ACTIVEMQ\_PATH%\bin\win64\InstallService.bat to install the ActiveMQ service.
 
-Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\InstallService.bat**
+Run command: **C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\InstallService.bat**
 
 ![1699244080655-576.png](/static/img/845cac_1699244080655-576.png)
 
@@ -448,8 +448,11 @@ Information to be backed up for disaster recovery scenarios:
 | --- | --- | --- | --- |
 | **No** | **Name** | **Path** | **Description** |
 | 1 | akaBot Center | Database | Database (MSSQL) of akaBot Center |
-| %[TOMCAT\_PATH](#_bookmark21)%/filestorage | Folder containing .nupkg files from akaBot Studio published to akaBot Center |
-| %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-dev.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-prod.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\quartz.properties | Configuration files for akaBot Center |
+|  |  | %[TOMCAT\_PATH](#_bookmark21)%/filestorage | Folder containing .nupkg files from akaBot Studio published to akaBot Center |
+|  |  | %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application.yml
+|  |  |%[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-dev.yml
+|  |  |%[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-prod.yml
+|  |  |%[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\quartz.properties | Configuration files for akaBot Center |
 | 2 | activeMQ | %[ACTIVEMQ\_PATH](#_bookmark25)%\data | activeMQ data directory |
 
 **9. Activate Licenses**

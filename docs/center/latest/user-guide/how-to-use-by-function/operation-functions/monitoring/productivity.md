@@ -22,7 +22,7 @@ To view Agent's activities, please click Monitoring tab from the main menu. Afte
 | --- | --- | --- |
 | 1 | Today | Back to the Today's activities view |
 | 2 | Forward/Backward | Move to *the day before/ the day after* view |
-| 3 | Month and date | If you would like to show the activities in a time you consider, just click on the**Date and Month** button, then a small calendar will show up for you to choose the time you want. |
+| 3 | Month and date | If you would like to show the activities in a time you consider, just click on the **Date and Month** button, then a small calendar will show up for you to choose the time you want. |
 | 4 | Day, week, month | change the view into Day/Week/ Month |
 
 ## **b. Filter Agents' Activities**

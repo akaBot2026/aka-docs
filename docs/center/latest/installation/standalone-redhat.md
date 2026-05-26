@@ -42,7 +42,7 @@ Moreover, please prepare below information for akaBot Center to connect to your 
 | 4 | DB-PORT | Database port. Ex: 1521 |
 | 5 | DB-SID/SERVICE NAME | Database SID/Service Name Ex: Orcl |
 
-1.3. Permission requirement
+## 1.3. Permission requirement
 
 Your user account on akaBot Center machine to run installation needs to have **Run permission as Sudo**.
 
@@ -73,7 +73,7 @@ Please make sure that your akaBot Center machine has below installation packages
 
 # 2. Installation
 
-Please follow the package installation order as JDK à Apache Tomcat web server à Apache ActiveMQ service à akaBot Center package.
+Please follow the package installation order as JDK Apache Tomcat web server Apache ActiveMQ service akaBot Center package.
 
 ## 2.1. Install JDK
 

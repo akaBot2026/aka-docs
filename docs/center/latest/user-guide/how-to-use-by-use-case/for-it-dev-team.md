@@ -26,7 +26,7 @@ Then you will see the detail page
 | --- | --- |
 | Column/ Label | Description |
 | Name | The name of the OU |
-| User | The list of all the Users assigned in this OU. This list included: *Username* Email |
+| User | The list of all the Users assigned in this OU. This list included:<br/>*Username* <br/> Email |
 
 S3: To create/ edit OU
 
@@ -43,7 +43,7 @@ S4: After clicking, a pop-up form shows up for you to fill in the information
 | Column/ Label | Description |
 | Name | Enter the custom name of the OU you want to create/edit |
 | Description | Enter the description of the OU you want to create/edit |
-| User | Select user you want to add into the OU that you are creating/editing  Note: You can add many users, but you can only add one by one |
+| User | Select user you want to add into the OU that you are creating/editing <br/>  Note: You can add many users, but you can only add one by one |
 
 ## **Use case 2: Create/ edit a new Role**
 
@@ -78,7 +78,7 @@ S5: To edit an existing Role, click the **Edit** button corresponding to the Ro
 
 ## **Use case 3: View/ create/ edit a new account**
 
-S1: Click **Administration**in the left menu **>** Choose **Users** tab, then you will see detail page as below:
+S1: Click **Administration** in the left menu **>** Choose **Users** tab, then you will see detail page as below:
 
 ![image-20230308181201-10.png](/static/img/b4e50b_image-20230308181201-10.png)
 
@@ -94,7 +94,7 @@ Then, screen will demonstrate as below:
 | --- | --- |
 | **Column** | **Description** |
 | Status | The status of the user. Can be Activated or Deactivated |
-| Profiles | The role(s) assigned to the user. There are 3 default roles: ROLE\_ADMIN ROLE\_USER \* ROLE\_ROBOT A user can have more than one role. Details about permission for each role will be explained in the Role Management section |
+| Profiles | The role(s) assigned to the user. There are 3 default roles: <br/> ROLE\_ADMIN <br/> ROLE\_USER <br/> \* ROLE\_ROBOT <br/> A user can have more than one role. Details about permission for each role will be explained in the Role Management section |
 
 S3: To create/edit account, click **Create New** on the right
 
@@ -332,14 +332,14 @@ S2: Fill in the pop-up form
 * **Workflow (\*):** Select the workflow you want to create schedule 
 * **Time Zone (\*):** Select the time zone you want the schedule will follow   
 **Trigger tab:**   
-* **Recurrence:** Select the cycle for the schedule: Minutes/ Hourly/ Daily/ Weekly/ Monthly/ Advance 
-* **Start Date (\*):** select the time at which the schedule will start and 
-* **End Date:** select the time at which the schedule will end   
+  * **Recurrence:** Select the cycle for the schedule: Minutes/ Hourly/ Daily/ Weekly/ Monthly/ Advance 
+  * **Start Date (\*):** select the time at which the schedule will start and 
+  * **End Date:** select the time at which the schedule will end   
 **Execution Target tab:** depends on the workflow you chose, tick the suitable agent  **Parameters tab:**  
 **Holiday settings tab**: single choice   
-* Run continuously (default) 
-* Bypass holiday 
-* Postpone until the next workday   
+  * Run continuously (default) 
+  * Bypass holiday 
+  * Postpone until the next workday   
 ***Note: (\*) is required*** 
 
 ![image-20230308181710-53.png](/static/img/image-20230308181710-53.png)
@@ -387,7 +387,7 @@ If you choose **Weekly**
 | Start Date | Select the date at which the schedule will start |
 | End Date | Select the date at which the schedule will End |
 | Everyday At | Select the specified time at which the schedule will start |
-| Monday Tuesday Wednesday Thursday Friday Saturday Sunday | Select the exact cycle for the schedule by hours, minutes and days. |
+| Monday <br/> Tuesday <br/> Wednesday <br/> Thursday <br/> Friday <br/> Saturday <br/> Sunday | Select the exact cycle for the schedule by hours, minutes and days. |
 
 If you choose **Monthly**
 

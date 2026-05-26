@@ -12,11 +12,7 @@ As a general rule, we advise you to have the same Agent, Studio, and Center to t
 
 ## **1. akaBot Studio & Agent**
 
-* **Step 1:**
-
-**Custom HTML / CSS** (JavaScript will be stripped, CSS will be scoped)
-
-Remove the previous version [**Uninstall akaBot**](https://docs.akabot.com/docs/uninstall-akabot).
+* **Step 1:** Remove the previous version [**Uninstall akaBot**](https://docs-v2.akabot.com/agent/latest/installation/uninstallation).
 
 * **Step 2:** Download the latest version of akaBot Platform from the link provided in Licensing email Run the installer and wait until the process is finished.
 
@@ -26,7 +22,7 @@ Remove the previous version [**Uninstall akaBot**](https://docs.akabot.com/docs/
 
 * **Step 1:** Download the latest version of akaBot Center from the link provided in Licensing email.
 * **Step 2:**
-Kindly follow all the steps to update [**akaBot Center**](https://docs.akabot.com/docs/network-installation#e-akabot-center-configuration).
+Kindly follow all the steps to update [**akaBot Center**](https://docs-v2.akabot.com/center/latest/installation/upgrade-3x-to-4x).
 
 Make sure you create a backup that contains 2 files from old version : **application-dev.yml** and **application-prod.yml** so you don't have to re-edit
 

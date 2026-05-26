@@ -18,10 +18,10 @@ The Agents page allows you to add Agents, edit them, and examine their status as
 
 | No | Column/Label | Description |
 | --- | --- | --- |
-| 1 | **Action** | Available actions to manage the Agent. Includes: *Edit: allows you to edit the details of each Agent* Delete: allows you to remove selected Agent from the Center By selecting the Checkbox on each Agent, the delete option will appear beside the Filter option and allow you to delete the Agent from the Center ! Selecting the Checkbox next to Action will select all Agents in display and allow you to bulk delete selected them. |
+| 1 | **Action** | Available actions to manage the Agent. Includes:<br/> *Edit: allows you to edit the details of each Agent* <br/> Delete: allows you to remove selected Agent from the Center <br/> By selecting the Checkbox on each Agent, the delete option will appear beside the Filter option and allow you to delete the Agent from the Center <br/> ! Selecting the Checkbox next to Action will select all Agents in display and allow you to bulk delete selected them. |
 | 2 | **Name** | The name of the Agent. You can click the name of the Agent the view its details. |
 |  | **Version** | The installed version of the akaBot Agent tool in the local machine |
-|  | **Status** | The current status of the Agent. **AVAILABLE** - the Agent is connected to the Center, not running any process and is free to be used **BUSY** - the Agent is running a process. **DISCONNECTED**- the Agent and Center have not communicated in the last 10 seconds. |
+|  | **Status** | The current status of the Agent.<br/> **AVAILABLE** - the Agent is connected to the Center, not running any process and is free to be used <br/> **BUSY** - the Agent is running a process. <br/> **DISCONNECTED**- the Agent and Center have not communicated in the last 10 seconds. |
 |  | **Agent Group** | The Agent Group to which the Agent belongs. |
 |  | **Machine name** | The name of the machine the Agent is registered on. |
 |  | **Machine Username** | The username used to log in to the Agent machine |
@@ -41,7 +41,7 @@ You can view the details of the Agent by clicking the **eye** button.
 | 3 | **Machine name** | The name of the machine the Agent is registered on. |
 | 4 | **Machine Username** | The username used to log in to the Agent machine |
 | 5 | **Type** | The type of Agent. This can be only Development, Assistant, Staging, Production. It is possible to filter the page according to the Agent type. |
-| 6 | **Status** | The current status of the Agent. **AVAILABLE** - the Agent is connected to Center, not running any process and is free to be used **BUSY** - the Agent is running a process. **DISCONNECTED** - the Agent and Center have not communicated in the last 10 seconds. |
+| 6 | **Status** | The current status of the Agent. <br/> **AVAILABLE** - the Agent is connected to Center, not running any process and is free to be used <br/> **BUSY** - the Agent is running a process. <br/> **DISCONNECTED** - the Agent and Center have not communicated in the last 10 seconds. |
 | 7 | **Description** | Description of the Agent |
 | 8 | **Version** | The installed version of the akaBot Agent tool in the local machine |
 | 9 | **Created by** | The user which created the Agent. |

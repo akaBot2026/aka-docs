@@ -19,10 +19,10 @@ To access the **Asset** page, you click **Assets** tab in the left menu. Aft
 
 | No | Column | Description |
 | --- | --- | --- |
-| 1 | Action | Available actions to manage the Assets. Includes: *Edit: allows you to edit the details of each Assets* Delete: allows you to delete selected Asset By selecting the Checkbox corresponding to each Asset, the delete option will appear beside the Filter option and allow you to delete the Asset from the Center  ! Selecting the Checkbox next to Action will select all Assets in display and allow you to bulk delete selected them |
+| 1 | Action | Available actions to manage the Assets. Includes:<br/> *Edit: allows you to edit the details of each Assets <br/>* Delete: allows you to delete selected Asset <br/>* By selecting the Checkbox corresponding to each Asset, the delete option will appear beside the Filter option and allow you to delete the Asset from the Center  <br/> ! Selecting the Checkbox next to Action will select all Assets in display and allow you to bulk delete selected them |
 | 2 | Name | The name of the assets |
-| 3 | Type | Mandatory. The following options are available: ***Text** - assets that can store string values. This is the default option.* **Bool** - assets that can store a true or false value. If you select this option, the Value field displays two radio buttons (True, False). ***Integer** - assets that can store integers.* **Credential** - assets that can store credentials. If you select this option the **Value** field is replaced by two others: **Username** and **Password**. |
-| 4 | Value | The value assigned to an asset: ***Common Value** - the default value received by every agent, unless a specific value is assigned to an agent.* **Value Per Agent** - a value received only by the specified agent. If **Common Value** is disabled, at least one agent value must be provided |
+| 3 | Type | Mandatory. The following options are available:<br/> ***Text** - assets that can store string values. This is the default option.<br/>* **Bool** - assets that can store a true or false value. If you select this option, the Value field displays two radio buttons (True, False).<br/> ***Integer** - assets that can store integers.<br/>* **Credential** - assets that can store credentials. If you select this option the **Value** field is replaced by two others: **Username** and **Password**. |
+| 4 | Value | The value assigned to an asset: <br/> ***Common Value** - the default value received by every agent, unless a specific value is assigned to an agent.<br/>* **Value Per Agent** - a value received only by the specified agent. If **Common Value** is disabled, at least one agent value must be provided |
 | 5 | Created by | The user who created the Assets. |
 
 ## **a. View an Asset**

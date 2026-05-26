@@ -349,9 +349,9 @@ Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) to download. Pa
 
 ### Feature availability
 
-[Added] Connection confirmation function added to Agent setting screen.
-[Added] Add information to the package repository.
-[Added] Add RDP Settings for Agent.
+* [Added] Connection confirmation function added to Agent setting screen.
+* [Added] Add information to the package repository.
+* [Added] Add RDP Settings for Agent.
 
 ### Bug fixes
 

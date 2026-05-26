@@ -37,7 +37,9 @@ Headers:
 
 Response:
 
-## image-20230307144502-3.png**2. GetUsers**
+![image-20230307144502-3.png](/static/img/image-20230307144502-3.png)
+
+## **2. GetUsers**
 
 Get User collections. Supported methods: Get
 
@@ -98,6 +100,7 @@ Make a POST request to the http://botcenter.akabot.io/api/users URL
 Headers:
 
 ![image-20230307144502-9.png](/static/img/f84255_image-20230307144502-9.png)
+
 
 Request:
 
@@ -499,7 +502,9 @@ Headers:
 
 Response
 
-## image-20230307144502-60.png**15. Environments**
+![image-20230307144502-60.png](/static/img/image-20230307144502-60.png)
+
+## **15. Environments**
 
 Get Agent Group. Supported methods: Get
 

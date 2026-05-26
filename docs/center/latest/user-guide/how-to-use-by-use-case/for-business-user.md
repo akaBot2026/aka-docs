@@ -18,7 +18,7 @@ In the top of center, enter the workflow, agent group, agent … what you are lo
 
 1. Modify Asset
 
-*(If you don’t need modify assets, please click*[*here*](#_Running_bot)*to find the way to run Bot)*
+*(If you don’t need modify assets, please click* [*here*](#_Running_bot)*to find the way to run Bot)*
 
 S1: To access Asset page, click **Asset** in the left menu
 
@@ -67,7 +67,7 @@ S3: A form will pop-up for you to fill in
 
 * Click **Save** 
 
-| image-20230425134819-7.png |
+![image-20230425134819-7.png](/static/img/image-20230425134819-7.png)
 
 ***Option 2:***
 
@@ -134,18 +134,18 @@ S3: Now, you need to fill in the pop-up form
 * **Workflow (\*):** Select the workflow you want to create schedule 
 * **Time Zone (\*):** Select the time zone you want the schedule will follow   
 **Trigger tab:**   
-* **Recurrence:** Select the cycle for the schedule: Minutes/ Hourly/ Daily/ Weekly/ Monthly/ Advance 
-* **Start Date (\*):** select the time at which the schedule will start and 
-* **End Date:** select the time at which the schedule will end   
+  * **Recurrence:** Select the cycle for the schedule: Minutes/ Hourly/ Daily/ Weekly/ Monthly/ Advance 
+  * **Start Date (\*):** select the time at which the schedule will start and 
+  * **End Date:** select the time at which the schedule will end   
 **Execution Target tab:** depends on the workflow you chose, tick the suitable agent  
 **Parameters tab:**  
-**Holiday settings tab**: single choice   
-* Run continuously (default) 
-* Bypass holiday 
-* Postpone until the next workday   
+**Holiday settings tab**: single choice    
+   * Run continuously (default) 
+   * Bypass holiday 
+   * Postpone until the next workday   
 ***Note: (\*) is required*** 
 
-| image-20230425134819-16.png |
+![image-20230425134819-16.png](/static/img/image-20230425134819-16.png) 
 
 If you choose **Once**
 
@@ -190,7 +190,7 @@ If you choose **Weekly**
 | Start Date | Select the date at which the schedule will start |
 | End Date | Select the date at which the schedule will End |
 | Everyday At | Select the specified time at which the schedule will start |
-| Monday Tuesday Wednesday Thursday Friday Saturday Sunday | Select the exact cycle for the schedule by hours, minutes and days. |
+| Monday <br/> Tuesday <br/> Wednesday <br/> Thursday <br/> Friday <br/> Saturday <br/> Sunday | Select the exact cycle for the schedule by hours, minutes and days. |
 
 If you choose **Monthly**
 
@@ -264,7 +264,7 @@ By seeing “state”, you can check status of bot.
 
 2. Check logbug
 
-S1: From the Task tab: choose **Historical**subtab
+S1: From the Task tab: choose **Historical** subtab
 
 ![image-20230425140027-1.png](/static/img/35d5a8_image-20230425140027-1.png)
 
@@ -287,4 +287,4 @@ S2: You can check status of any bot in the column named Status.
 |  |  |
 | --- | --- |
 | **Column label** | **Description** |
-| **Status** | The current status of the Agent. **AVAILABLE** - the Agent is connected to the Center, not running any process and is free to be used **BUSY** - the Agent is running a process. **DISCONNECTED**- the Agent and Center have not communicated in the last 10 seconds. |
+| **Status** | The current status of the Agent.<br/> **AVAILABLE** - the Agent is connected to the Center, not running any process and is free to be used <br/>**BUSY** - the Agent is running a process.<br/> **DISCONNECTED**- the Agent and Center have not communicated in the last 10 seconds. |

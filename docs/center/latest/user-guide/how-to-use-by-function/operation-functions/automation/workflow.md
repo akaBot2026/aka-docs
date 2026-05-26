@@ -16,7 +16,7 @@ The Workflows page enables you to deploy an uploaded package to Agent Groups, ma
 
 | No | Column/Label | Description |
 | --- | --- | --- |
-| 1 | Action | Available actions to manage the Log of said Workflow. Includes: \* VIEW: allows you to be redirected to the Task Detail page. \* EDIT: allows you to edit the details of each Workflow \* DELETE: allows you to remove selected Workflow from Center  \*START JOB: Quickly create a new Task related to this workflow.  \*ADD SCHEDULE: Quickly add a schedule related to this workflow By selecting the Checkbox corresponding to each Workflow, the delete option will appear beside the Filter option and allow you to delete the Workflow ! Selecting the Checkbox next to Action will select all Workflow in display and allow you to bulk delete selected them |
+| 1 | Action | Available actions to manage the Log of said Workflow. Includes:<br/><br/>* VIEW: allows you to be redirected to the Task Detail page.<br/>* EDIT: allows you to edit the details of each Workflow<br/>* DELETE: allows you to remove selected Workflow from Center.<br/>* START JOB: Quickly create a new Task related to this workflow.<br/>* ADD SCHEDULE: Quickly add a schedule related to this workflow<br/><br/>By selecting the Checkbox corresponding to each Workflow, the delete option will appear beside the Filter option and allow you to delete the Workflow ! Selecting the Checkbox next to Action will select all Workflow in display and allow you to bulk delete selected them |
 | 2 | Workflow Name | The name of the Workflow. For organization purposes, it is best to create Workflow Name with the format: **Package Name\_Agent Group Name**. |
 | 3 | Package Name | The name of the Package that was published to akaBot Center |
 | 4 | Package Version | The version of the package that was published to akaBot Center. The package version will be decided when you choose the publish option in akaBot Studio. |
@@ -115,7 +115,7 @@ Once edit package version, you can edit further **Parameters** and **Machine
 
 ## **e. Delete a Workflow**
 
-To delete, you click the **Three dots** button, then click Delete**.**
+To delete, you click the **Three dots** button, then click Delete.
 
 ![image-20221028101551-19.png](/static/img/image-20221028101551-19.png)
 

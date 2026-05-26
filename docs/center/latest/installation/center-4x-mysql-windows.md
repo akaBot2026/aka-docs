@@ -17,7 +17,7 @@ displayed_sidebar: centerSidebar
 |  |  |
 | --- | --- |
 | **Configuration** | **Requirements** |
-| Hardware | RAM: 32GB or higher  Core: 8 CPU or higher  SSD: 512 GB |
+| Hardware | RAM: 32GB or higher <br/> Core: 8 CPU or higher <br/> SSD: 512 GB |
 | Operating System | Windows 10, 11, Server 2012 R2/2016/2019 |
 
 **1.2. Software Packages**
@@ -167,9 +167,9 @@ Hit **Finish**
 ### **4.1. Install Apache Tomcat**
 
 Apache Tomcat installation:  
--Uncheck "Run Apache Tomcat"  
--Uncheck "Show Readme"  
--Click the "Finish" button to complete the installation.
+- Uncheck "Run Apache Tomcat"  
+- Uncheck "Show Readme"  
+- Click the "Finish" button to complete the installation.
 
 ![1772681812071-644.png](/static/img/fb53d4_1772681812071-644.png)
 
@@ -181,11 +181,11 @@ Apache Tomcat installation:
 
 ![1772682108587-419.png](/static/img/8df4ac_1772682108587-419.png)
 
-The installation path for Apache Tomcat:**%TOMCAT\_PATH%** = **C:\Program Files\Apache Software Foundation\Tomcat 10.1**
+The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files\Apache Software Foundation\Tomcat 10.1**
 
 ### **4.2. Apache Tomcat Configuration**
 
-**4.2.1. Configure log setting**s
+**4.2.1. Configure log settings**
 
 **Step 1:** Open the file **%TOMCAT\_PATH%\conf\logging.properties**
 
@@ -260,7 +260,7 @@ Example: Server RAM = 32 GB -> Initial memory pool should be \<= 1/4 \* 16 \* 10
 
 * Maximum memory pool: **Enter a value \<=  of the server's RAM.**
 
-Example: Server RAM = 32 GB -> Maximum memory pool should be \<=  \* 16 \* 1024 MB
+Example: Server RAM = 32 GB -> Maximum memory pool should be \<= 1/2 \* 16 \* 1024 MB
 
 **Note**: If you enter a value that is too large, it may prevent Apache Tomcat service from starting and result in errors.
 
@@ -459,8 +459,11 @@ Information to be backed up for disaster recovery scenarios:
 | --- | --- | --- | --- |
 | **No** | **Name** | **Path** | **Description** |
 | 1 | akaBot Center | Database | Database (MSSQL) of akaBot Center |
-| %[TOMCAT\_PATH](#_bookmark21)%/filestorage | Folder containing .nupkg files from akaBot Studio published to akaBot Center |
-| %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-dev.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-prod.yml  %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\quartz.properties | Configuration files for akaBot Center |
+|  |  | %[TOMCAT\_PATH](#_bookmark21)%/filestorage | Folder containing .nupkg files from akaBot Studio published to akaBot Center |
+|  |  | %[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application.yml  %
+|  |  |%[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-dev.yml  %
+|  |  |%[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\application-prod.yml  %
+|  |  |%[TOMCAT\_PATH](#_bookmark21)%\webapps\webapps\ROOT\WEB- INF\classes\config\quartz.properties | Configuration files for akaBot Center |
 | 2 | activeMQ | %[ACTIVEMQ\_PATH](#_bookmark25)%\data | activeMQ data directory |
 
 **9. Activate Licenses**

@@ -51,7 +51,7 @@ High-Density Agents (HDA) allow multiple robot sessions to run simultaneously on
 ![image-20221219091927-2.png](/static/img/7318bd_image-20221219091927-2.png)
 
 **Other configuration parameters (optional)**
-
+```
 /port:3389
 
 Remote Desktop port. Default value is 3389. If the remote desktop port has changed in your Windows machine, it s needed to specified that value.
@@ -88,7 +88,7 @@ Example value:
 
 /port:5508 /cert-ignore +auto-reconnect /auto-reconnect-max-retries:20
 
-
+```
 ## Notes and Warnings
 
 > **Note:** High-Density Agent setup requires an RDS-capable Windows Server license and appropriate RDS Client Access Licenses (CALs). Ensure compliance with Microsoft licensing terms before deploying.

@@ -16,16 +16,16 @@ The Tasks page displays by default all the tasks that are running, and the ones 
 
 | No | Column | Description |
 | --- | --- | --- |
-| 1 | Actions/View | Depending on the status of the task, the system will allow you to perform some actions to manage the tasks: VIEW: to view the properties of a task and task log. DELETE: Remove the task CLONE: Create an identical task from the existing task By selecting the Checkbox corresponding to each Task, the delete option will appear beside the Filter option and allow you to delete the Task from the Center. ! Selecting the Checkbox next to Action will select all Tasks in display and allow you to bulk delete selected them |
+| 1 | Actions/View | Depending on the status of the task, the system will allow you to perform some actions to manage the tasks: <br/> VIEW: to view the properties of a task and task log. <br/> DELETE: Remove the task <br/> CLONE: Create an identical task from the existing task <br/> By selecting the Checkbox corresponding to each Task, the delete option will appear beside the Filter option and allow you to delete the Task from the Center.<br/> ! Selecting the Checkbox next to Action will select all Tasks in display and allow you to bulk delete selected them |
 | 2 | Workflow | The name of the workflow which will be used to run the task |
 | 3 | Version | The version of the Package that was published to akaBot Center. |
 | 4 | Agent | The Agent who the task will be executed. |
 | 5 | Agent Group | Grouping of Agent for deployment purposes where the Agent is located. |
-| 6 | State | Current status of the tasks. Available statuses are: FAULTED: the tasks have encountered an error and have been stopped abruptly. RUNNING: the task is running. You can stop or kill the task. PENDING: the task has not been run. You can start to run it. STOPPED: the task has been stopped. \* SUCCESSFUL: the task has been completed successfully. You can see the log to see the result.  Terminating: the task has been aborted and terminated. |
+| 6 | State | Current status of the tasks. Available statuses are:<br/> FAULTED: the tasks have encountered an error and have been stopped abruptly.<br/> RUNNING: the task is running. You can stop or kill the task.<br/> PENDING: the task has not been run. You can start to run it.<br/> STOPPED: the task has been stopped.<br/> \* SUCCESSFUL: the task has been completed successfully. You can see the log to see the result.<br/>  Terminating: the task has been aborted and terminated. |
 | 7 | Start Time | If a task has been started, the system will show up the start time for you to see. |
 | 8 | End Time | If a task has been started and ended, the system will show up the end time for you to see. |
 | 9 | Source | To indicate the source of the tasks. Manual - the task has been created and configured from the Tasks/Schedule pages, using the Create New/Clone button. Agent - the task has been started in attended mode from the akaBot Agent. Schedule –The task was initiated as a result of a trigger, which is utilized for preplanned task execution. |
-| 10 | Command | There are 4 commands user can send: PENDING: When the task is scheduled to run but not yet run. START: when the task is being initiated. STOP: When the task is being stopped. NONE: When the tasks have finished running |
+| 10 | Command | There are 4 commands user can send:<br/> PENDING: When the task is scheduled to run but not yet run.<br/> START: when the task is being initiated.<br/> STOP: When the task is being stopped.<br/> NONE: When the tasks have finished running |
 | 11 | Schedule | The name of the Schedule which the task is being scheduled from. If the task is created manually, the Schedule field is empty. |
 | 12 | Task ID | Unique ID of the execution instance of the mentioned workflow. |
 

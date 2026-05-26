@@ -154,25 +154,25 @@ For example: ACTIVEMQ\_PATH = C:\akaBot\apache-activemq-5.15.1
 
 Note: The installation path should not contain any spaces.
 
-![1699244069336-269.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1699244069336-269.png?rev=1.1)
+![1699244069336-269.png](/static/img/1699244069336-269.png)
 
 Step 2: Open Command Prompt with Administrator privileges.
 
-![1699244074920-832.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1699244074920-832.png?rev=1.1)
+![1699244074920-832.png](/static/img/1699244074920-832.png)
 
 Step 3: Run the file %ACTIVEMQ\_PATH%\bin\win64\InstallService.bat to install the ActiveMQ service.
 
-![1699244080655-576.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1699244080655-576.png?rev=1.1)
+![1699244080655-576.png](/static/img/1699244080655-576.png)
 
 Step 4: Start the ActiveMQ service.
 
-![1698830727957-440.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698830727957-440.png?rev=1.1)
+![1698830727957-440.png](/static/img/1698830727957-440.png)
 
 ### 2.2.2. Java Heap Configuration
 
 **Step 1:** Stop service ActiveMQ
 
-![1698830792792-356.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698830792792-356.png?rev=1.1)
+![1698830792792-356.png](/static/img/1698830792792-356.png)
 
 Step 2: Open the file **%ACTIVEMQ\_PATH%\bin\win64\wrapper.conf** and configure the parameters:
 
@@ -186,17 +186,17 @@ Step 2: Open the file **%ACTIVEMQ\_PATH%\bin\win64\wrapper.conf** and configure 
 
 Step 3: Start ActiveMQ Service
 
-![1698830915678-493.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698830915678-493.png?rev=1.1)
+![1698830915678-493.png](/static/img/1698830915678-493.png)
 
 ### 2.2.3. Check ActiveMQ Installation
 
 Step 1: Check the Running status of the ActiveMQ service. If it is not running, start the service.
 
-![1698830978699-754.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698830978699-754.png?rev=1.1)
+![1698830978699-754.png](/static/img/1698830978699-754.png)
 
 Step 2: Access the URL [http://localhost:8161](http://localhost:8161/) to verify the successful installation of ActiveMQ.
 
-![1698831013334-870.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831013334-870.png?rev=1.1)
+![1698831013334-870.png](/static/img/1698831013334-870.png)
 
 ## 2.3. Install ELK Stack
 
@@ -215,9 +215,9 @@ To install ELK Stack, please follow below steps:
 
 ### 2.3.1. Install ElasticSearch
 
-:::note
+**Note**
 If you use Collaboration Center, you have to install ElasticSearch. If not, this is not required.
-:::
+
 
 #### a. Install ElasticSearch
 
@@ -225,7 +225,7 @@ If you use Collaboration Center, you have to install ElasticSearch. If not, this
 
 For example, ES\_PATH: C:\akaBot\elasticsearch-7.17.10.
 
-![1698831079505-432.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831079505-432.png?rev=1.1)
+![1698831079505-432.png](/static/img/1698831079505-432.png)
 
 **Step 2:** Install the Elasticsearch service. Open the Command Prompt with "Run as administrator" and run the command:
 
@@ -233,7 +233,7 @@ For example, ES\_PATH: C:\akaBot\elasticsearch-7.17.10.
 %ES_PATH%\bin\elasticsearch-service.bat install
 ```
 
-![1698831173260-619.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831173260-619.png?rev=1.1)
+![1698831173260-619.png](/static/img/1698831173260-619.png)
 
 **Step 3**: Start the Elasticsearch service using the command:
 
@@ -241,7 +241,7 @@ For example, ES\_PATH: C:\akaBot\elasticsearch-7.17.10.
 %ES_PATH%\bin\elasticsearch-service.bat start
 ```
 
-![1698831334372-779.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831334372-779.png?rev=1.1)
+![1698831334372-779.png](/static/img/1698831334372-779.png)
 
 #### b. ElasticSearch Configuration
 
@@ -261,37 +261,37 @@ Step 4: Open the Command Prompt and run **%ES\_PATH%\bin\elasticsearch-setup-pas
 
 Enter passwords for all the built-in users of Elasticsearch.
 
-![1698831288454-144.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831288454-144.png?rev=1.1)
+![1698831288454-144.png](/static/img/1698831288454-144.png)
 
 **b.2. Other configuration**
 
 Step 1: Open Command Prompt with "Run as administrator" and run the file **%ES\_PATH%\bin\elasticsearch-service.bat manager** to open the configuration management interface for Elasticsearch service.
 
-![1698831522366-251.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831522366-251.png?rev=1.1)
+![1698831522366-251.png](/static/img/1698831522366-251.png)
 
 Step 2: On the **General** tab, select "Startup Type" and set it to "Automatic."
 
-![1698831577184-391.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831577184-391.png?rev=1.1)
+![1698831577184-391.png](/static/img/1698831577184-391.png)
 
 Step 3: On the **Logging** tab
 
-![1698831635096-754.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831635096-754.png?rev=1.1)
+![1698831635096-754.png](/static/img/1698831635096-754.png)
 
 Step 4: On the **Java** tab
 
-![1698831653137-277.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831653137-277.png?rev=1.1)
+![1698831653137-277.png](/static/img/1698831653137-277.png)
 
 #### c. Check ElasticSearch Installation
 
 Check the Running status of the Elasticsearch service.
 
-![1698831705683-754.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831705683-754.png?rev=1.1)
+![1698831705683-754.png](/static/img/1698831705683-754.png)
 
 Access the URL [http://localhost:9200/](http://localhost:9200/) to verify the successful installation of Elasticsearch.
 
-![1698831739225-456.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831739225-456.png?rev=1.1)
+![1698831739225-456.png](/static/img/1698831739225-456.png)
 
-![1698831748226-661.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831748226-661.png?rev=1.1)
+![1698831748226-661.png](/static/img/1698831748226-661.png)
 
 ### 2.3.2. Install Logstash
 
@@ -315,13 +315,13 @@ Please **repeat below steps** to install and configure akaBot Center service on 
 
 **Step 1**: Double-click the file "jdk-11.0.18\_windows-x64\_bin.exe" to install JDK/JRE. Please follow the instructions in the installer to proceed.
 
-![1698826168817-287.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698826168817-287.png?rev=1.1)
+![1698826168817-287.png](/static/img/1698826168817-287.png)
 
 **Step 2:** Check the Installation Result
 
 Open the Command Prompt and enter the command "java -version" to check if the JDK/JRE installation was successful.
 
-![1698826198507-492.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698826198507-492.png?rev=1.1)
+![1698826198507-492.png](/static/img/1698826198507-492.png)
 
 ### 2.4.2. Install Apache Tomcat Web Server
 
@@ -335,7 +335,7 @@ Double-click the file "apache-tomcat-8.5.89.exe" to install Apache Tomcat. Pleas
 - Uncheck "Show Readme"
 - Click the "Finish" button to complete the installation.
 
-![1698826414378-509.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698826414378-509.png?rev=1.1)
+![1698826414378-509.png](/static/img/1698826414378-509.png)
 
 The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = "C:\Program Files\Apache Software Foundation\Tomcat 8.5"
 
@@ -343,14 +343,14 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = "C:\Program Files\
 
 Step 1: Navigate to the path **%TOMCAT\_PATH%\bin** and double-click the file **Tomcat8w.exe** to open the Apache Tomcat Service configuration.
 
-![1698826573279-276.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698826573279-276.png?rev=1.1)
+![1698826573279-276.png](/static/img/1698826573279-276.png)
 
 Step 2: On the **General** tab
 
 - Select Startup type: Automatic
 - Choose **Apply** to apply the configuration changes.
 
-![1698826602935-553.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698826602935-553.png?rev=1.1)
+![1698826602935-553.png](/static/img/1698826602935-553.png)
 
 Step 3: On the **Logging** tab
 
@@ -359,7 +359,7 @@ Step 3: On the **Logging** tab
 3. Redirect Stderror: Remove "auto"
 4. Choose Apply to apply the configuration changes.
 
-![1698826668751-847.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698826668751-847.png?rev=1.1)
+![1698826668751-847.png](/static/img/1698826668751-847.png)
 
 Step 4: On the **Java** tab
 
@@ -375,17 +375,17 @@ a. Adjust the Java Heap configuration:
 
 **Note**: If you enter a value that is too large, it may prevent Apache Tomcat service from starting and result in errors.
 
-![1698826792581-457.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698826792581-457.png?rev=1.1)
+![1698826792581-457.png](/static/img/1698826792581-457.png)
 
 b. Choose **Apply** to apply the configuration changes.
 
-![1698826829349-538.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698826829349-538.png?rev=1.1)
+![1698826829349-538.png](/static/img/1698826829349-538.png)
 
 Step 5: Start the Tomcat Service
 
 On the **General** tab, select **Start** to initiate the Apache Tomcat service.
 
-![1698826877948-604.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698826877948-604.png?rev=1.1)
+![1698826877948-604.png](/static/img/1698826877948-604.png)
 
 #### c. Check Apache Tomcat Installation
 
@@ -394,11 +394,11 @@ Step 1: After installation and configuration, go to the Services screen and chec
 - If the Status is not Running, start the Apache Tomcat service.
 - If the Status is Running, proceed to step 2.
 
-![1699244034878-897.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1699244034878-897.png?rev=1.1)
+![1699244034878-897.png](/static/img/1699244034878-897.png)
 
 Step 2: Access the URL [http://localhost:8080](http://localhost:8080/) in Chrome to verify the successful installation of Apache Tomcat:
 
-![1699244051857-950.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1699244051857-950.png?rev=1.1)
+![1699244051857-950.png](/static/img/1699244051857-950.png)
 
 ### 2.4.3. Install akaBot Center package
 
@@ -406,21 +406,21 @@ Step 2: Access the URL [http://localhost:8080](http://localhost:8080/) in Chrome
 
 Step 1: Stop Apache Tomcat service
 
-![1698831867557-259.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831867557-259.png?rev=1.1)
+![1698831867557-259.png](/static/img/1698831867557-259.png)
 
 Step 2: Delete all folders in %TOMCAT\_PATH%/webapps.
 
 Step 3: Copy the file akaBot-center-x.x.x.x.war to the %TOMCAT\_PATH%/webapps/ directory and rename it to ROOT.war.
 
-![1698831956427-192.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831956427-192.png?rev=1.1)
+![1698831956427-192.png](/static/img/1698831956427-192.png)
 
 Step 4: Restart the Apache Tomcat service and wait for the ROOT.war to be extracted into the ROOT directory.
 
-![1698831960528-312.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831960528-312.png?rev=1.1)
+![1698831960528-312.png](/static/img/1698831960528-312.png)
 
 Step 5: Stop the Apache Tomcat service.
 
-![1698831966006-837.png](https://docs.akabot.com/bin/download/akaBot%20Center/Center%20Installation/Installation/Center%20Installation%20guide%20for%20Windows%20Server/WebHome/1698831966006-837.png?rev=1.1)
+![1698831966006-837.png](/static/img/1698831966006-837.png)
 
 #### b. akaBot Center configuration
 

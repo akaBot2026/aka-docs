@@ -13,12 +13,12 @@ Scheduling allows us to perform tasks in a preplanned way. You can execute tasks
 
 | No | Column | Description |
 | --- | --- | --- |
-| 1 | Action | Options off all actions that can be performed on the schedule. This includes: Enable: Enable the current schedule Disabled: Disable the current schedule \* Delete: Delete the schedule. By selecting the Checkbox corresponding to each Schedule, the delete option will appear beside the Filter option and allow you to delete the Schedule.  ! Selecting the Checkbox next to Action will select all Schedule in display and allow you to bulk delete them. |
+| 1 | Action | Options off all actions that can be performed on the schedule. This includes: Enable: Enable the current schedule Disabled: Disable the current schedule.<br/>\* Delete: Delete the schedule. By selecting the Checkbox corresponding to each Schedule, the delete option will appear beside the Filter option and allow you to delete the Schedule. <br/> ! Selecting the Checkbox next to Action will select all Schedule in display and allow you to bulk delete them. |
 |  | Name | The name of the schedule. |
 |  | Agent Group | Grouping of Agent for deployment purposes. |
 |  | Workflow | The workflow that is going to be scheduled to execute. |
 |  | Version | The version of the Package Repository that is published to akaBot Center shall be executed by the Schedule. For more details, visit the Package Repository section. |
-|  | Status | Status of the schedule. There are 3 common statuses: SCHEDULED – When the schedule is set up but not yet executed. DISABLED – When the schedule is being disabled \* COMPLETED – When the schedule has been executed successfully |
+|  | Status | Status of the schedule. There are 3 common statuses:<br/> SCHEDULED – When the schedule is set up but not yet executed.<br/> DISABLED – When the schedule is being disabled.<br/> COMPLETED – When the schedule has been executed successfully. |
 |  | Start time | The first time the schedule is executed. |
 |  | End time | The final run time of the schedule. |
 |  | Next run time | The next run time of the schedule. |
@@ -30,7 +30,7 @@ Scheduling allows us to perform tasks in a preplanned way. You can execute tasks
 
 ![image-20221028111221-36.png](/static/img/8fa96a_image-20221028111221-36.png)
 
-Besides the General information above, the **Details** page also shows the **Parameters**and**Holiday settings** of said **Schedule**.
+Besides the General information above, the **Details** page also shows the **Parameters** and **Holiday settings** of said **Schedule**.
 
 - Parameters:  From here, you can also see a list of **Agents** and **Tasks** associated with this **Schedule**. Details about Agents and Tasks shall be explained in their respective sections.
 
@@ -98,7 +98,7 @@ When you click Create new/ Edit, a form will be shown up:
 | 23 | Start Date | Select the date at which the schedule will start | Date |  | Yes |  |
 | 24 | End Date | Select the date at which the schedule will End | Date |  | Yes |  |
 | 25 | Everyday at | Select the specified time at which the schedule will start | Time | 23 hours, 59 minutes | Yes |  |
-| 26 | Every week on:  Monday Tuesday Wednesday Thursday Friday Saturday Sunday | Select the exact cycle for the schedule by hours, minutes and days. | Multiple Choice |  | No |  |
+| 26 | Every week on: <br/> Monday <br/> Tuesday <br/> Wednesday <br/> Thursday <br/> Friday <br/> Saturday <br/> Sunday | Select the exact cycle for the schedule by hours, minutes and days. | Multiple Choice |  | No |  |
 | 27 | Tooltip | When will the sessions start? : See the result of scheduling |  |  |  |  |
 | If you chose Monthly |  |  |  |  |  |  |
 | 28 | Start Date | Select the date at which the schedule will start | Date |  | Yes |  |

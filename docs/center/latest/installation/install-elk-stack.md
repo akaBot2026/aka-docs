@@ -216,7 +216,7 @@ Filebeat is used for collecting and shipping log files to logstash.
 
 ![1776063183004-113.png](/static/img/5ebb4a_1776063183004-113.png)
 
-Set Directory contains log file: C:\Program Files\Apache Software Foundation\Tomcat 8.5\logs\agents\\*\\*.log
+Set Directory contains log file: C:\Program Files\Apache Software Foundation\Tomcat 8.5\logs\agents\*\\*.log
 
 ![1776063218105-229.png](/static/img/cf1f74_1776063218105-229.png)
 

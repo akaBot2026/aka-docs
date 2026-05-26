@@ -14,7 +14,7 @@ An Agent Group is a grouping of agents that is used to deploy processes. The **
 
 | No | Column/Label | Description |
 | --- | --- | --- |
-| 1 | **Action** | Available actions to manage the Agent Group. Included: *Edit : allows you to edit the details of each Agent Group* Delete: allows you to delete selected Agent Group By selecting the Checkbox corresponding to each Agent, the delete option will appear beside the Filter option and allow you to delete the Agent from Center  ! Selecting the Checkbox next to Action will select all Agent Group in display and allow you to bulk delete selected them |
+| 1 | **Action** | Available actions to manage the Agent Group. Included:<br/> *Edit : allows you to edit the details of each Agent Group <br/>* Delete: allows you to delete selected Agent Group <br/>* By selecting the Checkbox corresponding to each Agent, the delete option will appear beside the Filter option and allow you to delete the Agent from Center  <br/> ! Selecting the Checkbox next to Action will select all Agent Group in display and allow you to bulk delete selected them |
 | 2 | **Name** | The name of the Agent Group. You can click the name of the Agent Group the view its details |
 | 3 | **Description** | The description of the Agent Group |
 | 4 | **Created by** | You can see the username that created the Agent Group |

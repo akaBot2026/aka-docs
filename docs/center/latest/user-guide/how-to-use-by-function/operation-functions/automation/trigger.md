@@ -18,7 +18,7 @@ If you already have a **Trigger**, you can clic the 3 dots buttin at the trigger
 
 ![image-20230528123209-3.png](/static/img/163bf9_image-20230528123209-3.png)
 
-S2: A form will appear for you to fill in. After fulfillment, please click **Save**to save your work.
+S2: A form will appear for you to fill in. After fulfillment, please click **Save** to save your work.
 
 ![image-20230528123953-1.png](/static/img/69c064_image-20230528123953-1.png)
 
@@ -28,8 +28,8 @@ S2: A form will appear for you to fill in. After fulfillment, please click **Sav
 | Name | Enter the name of trigger |
 | Component | Choose option in the dropdown list |
 | Condition (click in “plus” button to add, or “Trash bin icon” button to delete) | |
-| When | Choose in the dropdown list:  - State: Status of task  - Agent  - Workflow  Then choose a value in the “Equal box” dropdown list |
-| And | Choose in the dropdown list:  - State: Status of task  - Agent  - Workflow  Then choose a value in the “Equal box” dropdown list |
+| When | Choose in the dropdown list:  <br/>- State: Status of task  <br/>- Agent  <br/>- Workflow  <br/>Then choose a value in the “Equal box” dropdown list |
+| And | Choose in the dropdown list:  <br/>- State: Status of task  <br/>- Agent  <br/>- Workflow  <br/>Then choose a value in the “Equal box” dropdown list |
 | Activities (click in “plus” button to add, or “Trash bin icon” button to delete) | |
-| Then | Choose in the dropdown list:  - Send Mail  - Start Task  - Stop Task  - Delete Task  - Start Process  - Stop Specific Task  - Retry  - Schedule |
-| And | Choose in the dropdown list:  - Send Mail  - Start Task  - Stop Task  - Start Process  - Stop Specific Task  - Delete Task  - Retry  - Schedule |
+| Then | Choose in the dropdown list:  <br/>- Send Mail  <br/>- Start Task  <br/>- Stop Task  <br/>- Delete Task  <br/>- Start Process  <br/>- Stop Specific Task  <br/>- Retry  <br/>- Schedule |
+| And | Choose in the dropdown list:  <br/>- Send Mail  <br/>- Start Task  <br/>- Stop Task  <br/>- Start Process  <br/>- Stop Specific Task  <br/>- Delete Task  <br/>- Retry  <br/>- Schedule |

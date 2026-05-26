@@ -9,7 +9,7 @@ displayed_sidebar: centerSidebar
 
 # How to Upgrade Apache Tomcat 10
 
-:   Upgrading Tomcat from 10 to the latest 10.1.x version (e.g., 10.1.54) is necessary to ensure system security, stability, and compatibility. Newer releases include critical security patches, bug fixes, performance improvements, and better support for modern Java versions and Jakarta EE standards, thereby reducing operational risks and improving system reliability.
+  Upgrading Tomcat from 10 to the latest 10.1.x version (e.g., 10.1.54) is necessary to ensure system security, stability, and compatibility. Newer releases include critical security patches, bug fixes, performance improvements, and better support for modern Java versions and Jakarta EE standards, thereby reducing operational risks and improving system reliability.
 
 ### **Step 1: Stop Tomcat 10 & Back up Data**
 

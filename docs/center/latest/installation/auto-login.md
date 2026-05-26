@@ -41,7 +41,7 @@ displayed_sidebar: centerSidebar
 
 **Disable Network Level Authentication**
 
-**Step 1** - Open Start Menu > type**This PC** > **Properties** > **Remote settings**
+**Step 1** - Open Start Menu > type **This PC** > **Properties** > **Remote settings**
 
 ![image-20220506133708-4.png](/static/img/c3074e_image-20220506133708-4.png)
 
@@ -186,9 +186,8 @@ After that, the RDP client will automatically send Enter button to enter the log
 
 This is an error code returned by Remote Desktop Session Host module of Windows.
 
-❗️ SSL\_ERR\_FRESH\_CRED\_REQUIRED\_BY\_SERVER (8455 (0x2107))
-
-The server authentication policy does not allow connection requests using saved credentials. The user must enter new credentials.
+    ❗️ SSL\_ERR\_FRESH\_CRED\_REQUIRED\_BY\_SERVER (8455 (0x2107))
+    The server authentication policy does not allow connection requests using saved credentials. The user must enter new credentials.
 
 * **Root cause**: Windows Policy does not allow us to use of username and password that previously existed, must enter dialog box credentials during initiating the remote desktop connection.
 
@@ -202,5 +201,4 @@ The server authentication policy does not allow connection requests using saved 
 **Step 2** - Navigate to: **Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host > Security** => *Always prompt for password upon connection = Not Configured or Enabled*
 
 ![image-20220506134112-18.png](/static/img/c2e914_image-20220506134112-18.png)
-
 ❗️ After changing Windows Policy, you should run this command with **administrative privilege**: gpupdate /force
