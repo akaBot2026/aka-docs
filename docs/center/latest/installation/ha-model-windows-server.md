@@ -365,13 +365,13 @@ Step 4: On the **Java** tab
 
 a. Adjust the Java Heap configuration:
 
-- Initial memory pool: Enter a value <= ½ of the server's RAM.
+- Initial memory pool: Enter a value \<= ½ of the server's RAM.
 
-  Example: Server RAM = 32 GB -> Initial memory pool should be <= ½ \* 16 \* 1024 = 16384 MB
+  Example: Server RAM = 32 GB -> Initial memory pool should be \<= ½ * 16 * 1024 = 16384 MB
 
-- Maximum memory pool: Enter a value <= ½ of the server's RAM.
+- Maximum memory pool: Enter a value \<= ½ of the server's RAM.
 
-  Example: Server RAM = 32 GB -> Maximum memory pool should be <= ½ \* 16 \* 1024 = 16384 MB
+  Example: Server RAM = 32 GB -> Maximum memory pool should be \<= ½ * 16 * 1024 = 16384 MB
 
 **Note**: If you enter a value that is too large, it may prevent Apache Tomcat service from starting and result in errors.
 

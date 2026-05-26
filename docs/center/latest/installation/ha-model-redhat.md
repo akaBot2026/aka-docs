@@ -1048,7 +1048,7 @@ hibernate.search.backend.password:
 ```
 Update below line:
 
-hibernate.search.backend.host: <IP_ES>:9200
+`hibernate.search.backend.host: <IP_ES>:9200`
 
 Where:
 
