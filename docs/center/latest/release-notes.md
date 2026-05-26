@@ -9,6 +9,39 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — Release Notes
 
+## v4.0.0.12 — May 22, 2026
+
+### New features
+
+**Trigger**
+- Added Agent Group condition.
+- Added mutual exclusivity between Agent and Agent Group conditions (selecting one hides/disables the other).
+- Enforced each condition to be selected only once.
+
+**Export Logs**
+- Switched export format from XLS to XLSX.
+- Supported splitting exported logs into multiple files when the total row count exceeds 1 million (maximum rows per file is configurable).
+
+### Updated
+
+**Trigger**
+- Hidden "Delete Task" activities when the "Running" state is selected.
+
+**Export Logs**
+- Removed the 65,000-row limit when exporting logs.
+
+### Bug Fixes
+
+**Trigger**
+- Fixed trigger history display when trigger source has a queue component.
+- Fixed workflow display when editing triggers with a Start Task component.
+
+**Schedule**
+- Fixed tab switching bug when selecting monthly triggers.
+- Fixed schedule query when clean data is configured (cast data to text instead of bigint).
+
+---
+
 ## v4.0.0.11 — Apr 10, 2026
 
 Click [this link](https://ws3.akabot.com/s/JDQghjzb3kMUrXP) to download. 
