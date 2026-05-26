@@ -11,6 +11,9 @@ displayed_sidebar: centerSidebar
 
 ## v4.0.0.12 — 2026 年 5 月 22 日
 
+[this link](https://ws3.fpt-software.vn/s/al53MD2ASfXxcaO)をクリックしてダウンロードします。
+パスワード: akaBot@12345
+
 ### 新機能
 
 **トリガー**

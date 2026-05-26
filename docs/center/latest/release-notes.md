@@ -11,6 +11,9 @@ displayed_sidebar: centerSidebar
 
 ## v4.0.0.12 — May 22, 2026
 
+Click [this link](https://ws3.fpt-software.vn/s/al53MD2ASfXxcaO) to download.
+Password: akaBot@12345
+
 ### New features
 
 **Trigger**
