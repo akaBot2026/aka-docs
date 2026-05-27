@@ -11,8 +11,7 @@ displayed_sidebar: centerSidebar
 
 ## v4.0.0.12 — May 22, 2026
 
-Click [this link](https://ws3.fpt-software.vn/s/al53MD2ASfXxcaO) to download.
-Password: akaBot@12345
+Click [this link](https://ws3.fpt-software.vn/s/al53MD2ASfXxcaO) and then contact [support team](mailto:support@akabot.com) to get download password.
 
 ### New features
 
@@ -47,7 +46,8 @@ Password: akaBot@12345
 
 ## v4.0.0.11 — Apr 10, 2026
 
-Click [this link](https://ws3.akabot.com/s/JDQghjzb3kMUrXP) to download. 
+Click [this link](https://ws3.akabot.com/s/LJKz0qSabJUSkvq) and then contact [support team](mailto:support@akabot.com) to get download password.
+
 ### New features
 - Added caching functionality to reduce requests to external Vault systems.
 
@@ -154,8 +154,7 @@ Click [this link](https://ws3.akabot.com/s/JDQghjzb3kMUrXP) to download.
 
 ## v3.0.1.4 — May 21, 2024.
 
-Click [this link](https://ws3.fpt-software.vn/s/etKbBjmxRyrBlbb) to download. 
-Password: akaBot@12345 
+Click [this link](https://ws3.fpt-software.vn/s/etKbBjmxRyrBlbb) and then contact [support team](mailto:support@akabot.com) to get download password.
 
 ### New features
 - Add priority for agent pool
@@ -180,7 +179,8 @@ Password: akaBot@12345
 ---
 
 ## v3.0.1.3 — Sep 22, 2023
-Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) to download. Password: akaBot@12345
+
+Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) and then contact [support team](mailto:support@akabot.com) to get download password.
 
 ### New features
 - [Messages] Enhance error messages to provide clearer descriptions for users.
