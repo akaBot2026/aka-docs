@@ -14,10 +14,6 @@ After selecting the **License Management** tab, the system displays the follow
 
 ![image-20221101170138-29.png](/static/img/29f2d4_image-20221101170138-29.png)
 
-* Add license
+* [Add license](/docs/center/latest/installation/license-activation.md)
 
-[https://docs.akabot.com/center/latest/installation/license-activation](https://docs.akabot.com/center/latest/installation/license-activation)
-
-* Renew license
-
-[https://docs.akabot.com/center/latest/installation/license-renewal](https://docs.akabot.com/center/latest/installation/license-renewal)
+* [Renew license](/docs/center/latest/installation/license-renewal.md)

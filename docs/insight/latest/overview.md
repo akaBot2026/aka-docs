@@ -40,5 +40,5 @@ Akabot Insight is the analytics and reporting module that turns raw execution da
 
 ## Next steps
 
-- [Admin guide](/docs/latest/admin/overview) — Configure data retention and access controls.
-- [API Reference](https://docs.akabot.com/vision/latest/document-automation/api-reference?_highlight=api&_highlight=reference) — Pull metrics programmatically.
+- [Admin guide](/docs/insight/latest/administration/roles-and-permissions.md) — Configure data retention and access controls.
+- [API Reference](/docs/vision/latest/document-automation/api-reference.md) — Pull metrics programmatically.

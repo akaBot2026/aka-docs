@@ -23,7 +23,7 @@ Akabot Studio is the visual workflow designer where you build, test, and publish
 
 | Step | Description |
 |------|-------------|
-| 1 | [Install Akabot Studio](https://docs.akabot.com/studio/latest/installation/) |
+| 1 | [Install Akabot Studio](../../studio/latest/installation/installation.md) |
 | 2 | Create a new project from a template or from scratch |
 | 3 | Drag activities onto the canvas and connect them |
 | 4 | Run and debug locally |
@@ -31,6 +31,6 @@ Akabot Studio is the visual workflow designer where you build, test, and publish
 
 ## Next steps
 
-- [Studio tutorials](https://docs.akabot.com/studio/latest/user-guide/how-to-use) — Step-by-step guides for common automation scenarios.
-- [Activities reference](https://docs.akabot.com/activities) — Full catalog of available activities.
-- [Connect to Akabot Center](https://docs.akabot.com/center/latest/overview) — Register your workflow with the orchestrator.
+- [Studio tutorials](../../studio/latest/user-guide/how-to-use.md) — Step-by-step guides for common automation scenarios.
+- [Activities reference](/docs/studio/latest/user-guide/how-to-use.md) — Full catalog of available activities.
+- [Connect to Akabot Center](../../center/latest/overview.md) — Register your workflow with the orchestrator.

@@ -10,7 +10,7 @@ displayed_sidebar: activitiesSidebar
 
 The **Browser activities** package contains all the **basic activities** used for creating **Web** automation projects.
 
-If you use this package to perform Web automation and your browser is updated automatically to newer version, it may lead to unsuitable browser driver issues. In this case, you may need to [configure the Browser driver](https://docs.akabot.com/studio/latest/installation/configure-browser-driver) to solve the problem.
+If you use this package to perform Web automation and your browser is updated automatically to newer version, it may lead to unsuitable browser driver issues. In this case, you may need to [configure the Browser driver](/docs/studio/latest/installation/configure-browser-driver.md) to solve the problem.
 
 These activities enable the robots to:
 
@@ -23,7 +23,7 @@ These activities enable the robots to:
 The activities that perform actions on UI elements can be configured at design time by using the **Pick target element** button present in the body of the activities in designer.
 
 **Note:**  
-You have to **[Install web extension](https://docs.akabot.com/studio/latest/installation/web-exension-installation)** in order to Indicate element on **Web browser**.
+You have to **[Install web extension](/docs/studio/latest/installation/web-exension-installation.md)** in order to Indicate element on **Web browser**.
 
 Click the **Pick target element** button opens **Selector Editor** wizard.
 

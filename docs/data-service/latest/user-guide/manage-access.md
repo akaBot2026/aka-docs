@@ -23,9 +23,9 @@ The following steps enable you to manage access on Data Service:
 
 The following tabs are available:
 
-* [Assign User](https://docs.akabot.com/data-service/latest/user-guide/manage-access/assign-users)
-* [Assign Agents](https://docs.akabot.com/data-service/latest/user-guide/manage-access/assign-agents)
-* [Assign Tokens](https://docs.akabot.com/data-service/latest/user-guide/manage-access/assign-tokens)
+* [Assign User](/docs/data-service/latest/user-guide/manage-access/assign-users.md)
+* [Assign Agents](/docs/data-service/latest/user-guide/manage-access/assign-agents.md)
+* [Assign Tokens](/docs/data-service/latest/user-guide/manage-access/assign-tokens.md)
 
 ## **Standard Permissions**
 

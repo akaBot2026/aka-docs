@@ -12,9 +12,9 @@ displayed_sidebar: agentSidebar
 
 1. akaBot Studio & Agent are included in the **same** installer. This guideline is used for installing both components in both **Standard (or Standalone)** & **Enterprise (or Network) Edition.**
 
-2. Kindly make sure your computer fulfilling the **[hardware and software requirements](https://docs.akabot.com/studio/latest/installation/hardware-software-requirements)** before installing.
+2. Kindly make sure your computer fulfilling the **[hardware and software requirements](/docs/studio/latest/installation/hardware-software-requirements.md)** before installing.
 
-3. Kindly make sure that you had an **akaBot licensing email** including the Installer download link. If not yet, **[request a 2-month trial license](https://akabot.com/request-trial/)** for temporary use.
+3. Kindly make sure that you had an **akaBot licensing email** including the Installer download link. If not yet, **[request a 2-month trial license](/docs/studio/latest/installation/installation.md)** for temporary use.
 
 ## **Installation Guide**
 
@@ -74,6 +74,6 @@ Now you should have the shortcuts for **akaBot Studio** & **Agent** presenti
 
 ## **Next Steps**
 
-* You need to activate **[Agent](https://docs.akabot.com/agent/latest/installation/license-activation)** to unlock the features.
-* You may need to **[install the akaBot web extension](https://docs.akabot.com/studio/latest/user-guide/how-to-install-akabot-web-extension)** for akaBot to automate on web browsers.
+* You need to activate **[Agent](/docs/agent/latest/installation/license-activation.md)** to unlock the features.
+* You may need to **[install the akaBot web extension](/docs/studio/latest/installation/web-exension-installation.md)** for akaBot to automate on web browsers.
 

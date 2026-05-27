@@ -80,7 +80,7 @@ If the bot is already connected to the akaBot Center, you can disconnect at any 
 
 Every 10 seconds, the akaBot Agent will automatically be refreshed to get all the process packages published from the akaBot Center.
 
-You can refer the link for how to publish a package from the akaBot studio: [How to use akaBot Studio](https://docs-v2.akabot.com/studio/latest/user-guide/how-to-use)
+You can refer the link for how to publish a package from the akaBot studio: [How to use akaBot Studio](/docs/studio/latest/user-guide/how-to-use.md)
 
 ## **Control the processes**
 
