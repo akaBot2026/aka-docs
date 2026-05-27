@@ -32,7 +32,7 @@ Akabot Studio  ──publish──▶  Akabot Center  ──dispatch──▶  A
 
 | Step | Description |
 |------|-------------|
-| 1 | [Install Akabot Center server](../../center/latest/installation/server-installation) |
+| 1 | [Install Akabot Center server](/docs/center/latest/installation/license-activation.md) |
 | 2 | Create an environment and add robot machines |
 | 3 | Publish a workflow from Akabot Studio |
 | 4 | Create a schedule or trigger a manual run |
