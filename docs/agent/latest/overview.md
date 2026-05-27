@@ -33,13 +33,13 @@ Akabot Agent is the runtime component that lives on a machine — desktop or ser
 
 | Step | Description |
 |------|-------------|
-| 1 | [Install Akabot Agent](/docs/latest/installation/agent-installation) |
+| 1 | [Install Akabot Agent](https://docs.akabot.com/agent/latest/installation/) |
 | 2 | Connect the agent to Akabot Center |
 | 3 | Assign a workflow package to the agent |
 | 4 | Trigger a run from Center or locally |
 
 ## Next steps
 
-- [Building your first Agent](/docs/latest/first-agent)
+- [Building your first Agent](https://docs.akabot.com/agent/latest/user-guide/how-to-use)
 - [Connect Agent to Akabot Center](/docs/latest/connect-center)
 - [Schedule time to run Agent](/docs/latest/schedule)

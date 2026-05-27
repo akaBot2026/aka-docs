@@ -419,4 +419,4 @@ Information to be backed up for disaster recovery scenarios:
 
 **9. Activate Licenses**
 
-Please follow the instruction via **[Activation](https://docs-v2.akabot.com/center/latest/installation/license-activation)**
+Please follow the instruction via **[Activation](https://docs.akabot.com/center/latest/installation/license-activation)**

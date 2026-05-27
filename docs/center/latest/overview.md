@@ -40,6 +40,6 @@ Akabot Studio  ──publish──▶  Akabot Center  ──dispatch──▶  A
 
 ## Next steps
 
-- [Connect Agent to Akabot Center](/docs/latest/connect-center)
-- [Schedule time to run Agent](/docs/latest/schedule)
-- [Admin & Ops guide](/docs/latest/admin/overview)
+- [Connect Agent to Akabot Center](https://docs.akabot.com/agent/latest/user-guide/how-to-use)
+- [Schedule time to run Agent](https://docs.akabot.com/center/latest/user-guide/how-to-use-by-function/operation-functions/automation/schedule)
+- [Admin & Ops guide](https://docs.akabot.com/center/latest/user-guide/how-to-use-by-function/operation-functions/administration/user-management)
