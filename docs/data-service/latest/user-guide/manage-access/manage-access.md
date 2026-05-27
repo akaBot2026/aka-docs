@@ -2,7 +2,7 @@
 id: manage-access
 title: "Manage Access"
 sidebar_label: "Manage Access"
-sidebar_position: 3
+sidebar_position: 1
 description: "Manage Access documentation."
 displayed_sidebar: dataServiceSidebar
 ---

@@ -2,7 +2,7 @@
 id: assign-users
 title: "Assign Users"
 sidebar_label: "Assign Users"
-sidebar_position: 3
+sidebar_position: 4
 description: "Assign Users documentation"
 displayed_sidebar: dataServiceSidebar
 ---

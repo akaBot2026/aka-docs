@@ -2,7 +2,7 @@
 id: assign-agents
 title: "Assign Agents"
 sidebar_label: "Assign Agents"
-sidebar_position: 1
+sidebar_position: 2
 description: "Assign Agents documentation"
 displayed_sidebar: dataServiceSidebar
 ---

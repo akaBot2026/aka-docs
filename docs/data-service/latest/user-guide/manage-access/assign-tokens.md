@@ -2,7 +2,7 @@
 id: assign-tokens
 title: "Assign Tokens"
 sidebar_label: "Assign Tokens"
-sidebar_position: 2
+sidebar_position: 3
 description: "Assign Tokens documentation"
 displayed_sidebar: dataServiceSidebar
 ---
