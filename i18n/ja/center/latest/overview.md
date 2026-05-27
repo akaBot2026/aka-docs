@@ -32,7 +32,7 @@ Akabot Studio  ──publish──▶  Akabot Center  ──dispatch──▶  A
 
 | ステップ | 説明 |
 |------|-------------|
-| 1 | [Install Akabot Center server](/docs/latest/installation/server-installation) |
+| 1 | [Install Akabot Center server](/i18n/ja/center/latest/installation/license-activation.md) |
 | 2 | 環境を作成してロボットマシンを追加する |
 | 3 | Akabot Studio からワークフローを公開する |
 | 4 | スケジュールを作成するか、手動実行をトリガーします |
@@ -40,6 +40,6 @@ Akabot Studio  ──publish──▶  Akabot Center  ──dispatch──▶  A
 
 ## 次のステップ
 
-- [Connect Agent to Akabot Center](/docs/latest/connect-center)
-- [Schedule time to run Agent](/docs/latest/schedule)
-- [Admin & Ops guide](/docs/latest/admin/overview)
+- [Connect Agent to Akabot Center](/i18n/ja/agent/latest/user-guide/how-to-use.md)
+- [Schedule time to run Agent](/i18n/ja/center/latest/user-guide/how-to-use-by-function/operation-functions/automation/schedule.md)
+- [Admin & Ops guide](/i18n/ja/center/latest/user-guide/how-to-use-by-function/operation-functions/administration/user-management.md)

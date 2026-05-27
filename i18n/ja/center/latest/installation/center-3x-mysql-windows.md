@@ -454,4 +454,4 @@ b. [**適用**] を選択して、構成の変更を適用します。
 
 **9.ライセンスのアクティベーション**
 
-**[Activation](https://docs-v2.akabot.com/center/latest/installation/license-activation)** 経由の指示に従ってください。
+**[Activation](/i18n/ja/center/latest/installation/license-activation.md)** 経由の指示に従ってください。

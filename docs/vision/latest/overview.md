@@ -40,5 +40,5 @@ Akabot Vision is the intelligent document processing (IDP) module that reads, cl
 
 ## Next steps
 
-- [Activities reference](/docs/latest/activities/overview) — Vision activity catalog.
-- [Data Service](/docs/latest/data/overview) — Persist extracted data for downstream processes.
+- [Activities reference](/docs/vision/latest/document-automation/rpa-reference.md) — Vision activity catalog.
+- [Data Service](/docs/data-service/latest/installation/installation.md) — Persist extracted data for downstream processes.

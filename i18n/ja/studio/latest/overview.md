@@ -23,7 +23,7 @@ Akabot Studio は、自動化ワークフローを構築、テスト、公開す
 
 | ステップ | 説明 |
 |------|-------------|
-| 1 | [Install Akabot Studio](/docs/latest/installation/system-requirements) |
+| 1 | [Install Akabot Studio](/i18n/ja/studio/latest/installation/installation.md) |
 | 2 | テンプレートまたは最初から新しいプロジェクトを作成する |
 | 3 | アクティビティをキャンバスにドラッグして接続します |
 | 4 | ローカルで実行してデバッグする |
@@ -31,6 +31,6 @@ Akabot Studio は、自動化ワークフローを構築、テスト、公開す
 
 ## 次のステップ
 
-- [Studio tutorials](/docs/latest/studio-tutorials)— 一般的な自動化シナリオのステップバイステップ ガイド。
-- [Activities reference](/docs/latest/activities/overview)— 利用可能なアクティビティの完全なカタログ。
-- [Connect to Akabot Center](/docs/latest/connect-center)— ワークフローをオーケストレーターに登録します。
+- [Studio tutorials](/i18n/ja/studio/latest/user-guide/how-to-use.md)— 一般的な自動化シナリオのステップバイステップ ガイド。
+- [Activities reference](/i18n/ja/studio/latest/user-guide/how-to-use.md)— 利用可能なアクティビティの完全なカタログ。
+- [Connect to Akabot Center](/i18n/ja/center/latest/overview.md)— ワークフローをオーケストレーターに登録します。

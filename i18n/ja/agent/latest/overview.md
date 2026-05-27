@@ -33,13 +33,13 @@ Akabot Agent は、マシン (デスクトップまたはサーバー) 上に存
 
 | ステップ | 説明 |
 |------|-------------|
-| 1 | [Install Akabot Agent](/docs/latest/installation/agent-installation) |
+| 1 | [Install Akabot Agent](/i18n/ja/agent/latest/installation/installation.md) |
 | 2 | エージェントを Akabot Center に接続する |
 | 3 | ワークフロー パッケージをエージェントに割り当てる |
 | 4 | センターまたはローカルから実行をトリガーする |
 
 ## 次のステップ
 
-- [Building your first Agent](/docs/latest/first-agent)
-- [Connect Agent to Akabot Center](/docs/latest/connect-center)
-- [Schedule time to run Agent](/docs/latest/schedule)
+- [Building your first Agent](/i18n/ja/agent/latest/user-guide/how-to-use.md)
+- [Connect Agent to Akabot Center](/i18n/ja/center/latest/installation/license-activation.md)
+- [Schedule time to run Agent](/i18n/ja/center/latest/user-guide/how-to-use-by-function/operation-functions/automation/schedule.md)
