@@ -46,7 +46,7 @@ The account performing the installation needs to have Admin (Root) privileges on
 | 4 | DB-PORT | MSSQL database connection port |
 | 5 | DB-NAME | Name of the MSSQL database |
 
-* If you are installing Collaboration Center, please prepare a separate database for Collaboration Center and have the connection information ready, similar to the database setup for Center. (*For more information about what Collaboration Center is, please read further at [Human-Bot Collaboration](/bin/view/akaBot%20Center/Human-Bot%20Collaboration/)*).
+* If you are installing Collaboration Center, please prepare a separate database for Collaboration Center and have the connection information ready, similar to the database setup for Center. (*For more information about what Collaboration Center is, please read further at [Human-Bot Collaboration](/docs/collaboration/latest/overview.md)*).
 
 ### **1.5.Prepare the Installation Package**
 
@@ -600,7 +600,7 @@ Modify the configuration in both files **application-dev.yml, application-prod.y
 
 **7.2.5. Configuring SSL (https)**
 
-Configure SSL for akaBot Center following the instructions provided [here](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Installation/InstallCreate%20an%20SSLTLS%20Certificate%20for%20Center/)
+Configure SSL for akaBot Center following the instructions provided [here](/docs/center/latest/installation/install-ssl-tls.md)
 
 ## **8. Install akaBot Collaboration Center (Optional)**
 

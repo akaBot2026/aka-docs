@@ -14,10 +14,6 @@ Agent/Studio ライセンスは、センターのライセンス ページに基
 
 ![image-20221101170138-29.png](/static/img/29f2d4_image-20221101170138-29.png)
 
-* ライセンスの追加
+* [ライセンスの追加](/i18n/ja/center/latest/installation/license-activation.md)
 
-[https://docs-v2.akabot.com/center/latest/installation/license-activation](https://docs-v2.akabot.com/center/latest/installation/license-activation)
-
-* ライセンスを更新する
-
-[https://docs-v2.akabot.com/center/latest/installation/license-renewal](https://docs-v2.akabot.com/center/latest/installation/license-renewal)
+* [ライセンスを更新する](/i18n/ja/center/latest/installation/license-renewal.md)

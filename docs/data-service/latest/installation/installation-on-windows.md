@@ -23,7 +23,7 @@ This document will guide you on how to install Data Service on Windows server.
 
 ## **3. File System**
 
-Download the latest release version of DataService from the [Release Notes](https://docs.akabot.com/bin/view/Data%20Service/Release%20Notes/).
+Download the latest release version of DataService from the [Release Notes](/docs/data-service/latest/release-notes.md).
 
 ![1775807383276-429.png](/static/img/00d47e_1775807383276-429.png)
 

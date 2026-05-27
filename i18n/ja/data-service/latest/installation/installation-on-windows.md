@@ -23,7 +23,7 @@ displayed_sidebar: dataServiceSidebar
 
 ## **3.ファイルシステム**
 
-DataService の最新リリース バージョンを[Release Notes](https://docs.akabot.com/bin/view/Data%20Service/Release%20Notes/)からダウンロードします。
+DataService の最新リリース バージョンを[Release Notes](/i18n/ja/data-service/latest/release-notes.md)からダウンロードします。
 
 ![1775807383276-429.png](/static/img/00d47e_1775807383276-429.png)
 

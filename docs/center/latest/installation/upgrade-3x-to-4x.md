@@ -23,7 +23,7 @@ displayed_sidebar: centerSidebar
 
 ## **0. akaBot 3x**
 
-Before proceeding, you must ensure that akaBot 3.x is already installed following the standard instructions. **[View details](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Installation/Basic%20installation%20guide%20for%20Akabot%20Center%20and%20MySQL/#edit)**
+Before proceeding, you must ensure that akaBot 3.x is already installed following the standard instructions. **[View details](/docs/center/latest/installation/center-3x-mysql-windows.md)**
 
 # **1. Backup MySQL database, configuration files, license, workflow files**
 
@@ -128,7 +128,7 @@ You will see the export progress window. If there is no error, the backup file (
 
 **3. Install akabot 4x**
 
-Download follow the instruction: [Install akaBot 4x](https://docs-v2.akabot.com/center/latest/installation/center-4x-mysql-windows)
+Download follow the instruction: [Install akaBot 4x](/docs/center/latest/installation/center-4x-mysql-windows.md)
 
 # **4. Restore configuration files, license, workflow files**
 

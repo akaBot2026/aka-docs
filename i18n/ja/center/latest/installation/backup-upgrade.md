@@ -16,7 +16,7 @@ displayed_sidebar: centerSidebar
 
 **カスタム HTML / CSS** (JavaScript は削除され、CSS はスコープ化されます)
 
-以前のバージョン[**Uninstall akaBot**](https://docs.akabot.com/docs/uninstall-akabot)を削除します。
+以前のバージョン[**Uninstall akaBot**](/i18n/ja/agent/latest/installation/uninstallation.md)を削除します。
 
 * **ステップ 2:** ライセンス電子メールに記載されているリンクから akaBot プラットフォームの最新バージョンをダウンロードします。インストーラーを実行し、プロセスが完了するまで待ちます。
 
@@ -26,7 +26,7 @@ displayed_sidebar: centerSidebar
 
 * **ステップ 1:** ライセンス電子メールに記載されているリンクから、akaBot Center の最新バージョンをダウンロードします。
 * **ステップ 2:**
-[**akaBot Center**](https://docs.akabot.com/docs/network-installation#e-akabot-center-configuration)を更新するには、すべての手順に従ってください。
+[**akaBot Center**](/i18n/ja/center/latest/installation/upgrade-3x-to-4x.md)を更新するには、すべての手順に従ってください。
 
 再編集する必要がないように、古いバージョンの 2 つのファイル (**application-dev.yml** と **application-prod.yml**) を含むバックアップを必ず作成してください。
 

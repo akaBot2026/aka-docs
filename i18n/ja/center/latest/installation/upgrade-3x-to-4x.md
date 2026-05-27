@@ -23,7 +23,7 @@ displayed_sidebar: centerSidebar
 
 ## **0。アカボット 3x**
 
-続行する前に、標準の手順に従って akaBot 3.x がすでにインストールされていることを確認する必要があります。 **[View details](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Installation/Basic%20installation%20guide%20for%20Akabot%20Center%20and%20MySQL/#edit)**
+続行する前に、標準の手順に従って akaBot 3.x がすでにインストールされていることを確認する必要があります。 **[View details](/i18n/ja/center/latest/installation/center-3x-mysql-windows.md)**
 
 # **1. MySQL データベース、構成ファイル、ライセンス、ワークフロー ファイルをバックアップします**
 
@@ -128,7 +128,7 @@ displayed_sidebar: centerSidebar
 
 **3. akabot 4x** をインストールする
 
-ダウンロード（[Install akaBot 4x](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Installation/Install%20Akabot%20Center%204x%20and%20MySQL%20on%20Microsoft%20Windows/)の指示に従ってください）
+ダウンロード（[Install akaBot 4x](/i18n/ja/center/latest/installation/center-4x-mysql-windows.md)の指示に従ってください）
 
 # **4.構成ファイル、ライセンス、ワークフロー ファイルを復元します**
 

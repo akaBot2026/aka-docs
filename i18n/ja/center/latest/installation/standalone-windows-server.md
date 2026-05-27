@@ -46,7 +46,7 @@ Windows サーバーに akaBot Center をインストールして使用するに
 | 4 | DBポート | MSSQLデータベース接続ポート |
 | 5 | DB名 | MSSQL データベースの名前 |
 
-* コラボレーション センターをインストールする場合は、センターのデータベース セットアップと同様に、コラボレーション センター用に別のデータベースを準備し、接続情報を準備してください。 (*コラボレーション センターの詳細については、[Human-Bot Collaboration](/bin/view/akaBot%20Center/Human-Bot%20Collaboration/)* を参照してください)。
+* コラボレーション センターをインストールする場合は、センターのデータベース セットアップと同様に、コラボレーション センター用に別のデータベースを準備し、接続情報を準備してください。 (*コラボレーション センターの詳細については、[Human-Bot Collaboration](/i18n/ja/collaboration/latest/overview.md)* を参照してください)。
 
 ### **1.5.インストールパッケージの準備**
 
@@ -600,7 +600,7 @@ URL[http://localhost:9200/](http://localhost:9200/)にアクセスして、Elast
 
 **7.2.5. SSL (https) の設定**
 
-[here](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Installation/InstallCreate%20an%20SSLTLS%20Certificate%20for%20Center/)の指示に従って、akaBot Center の SSL を構成します。
+[here](/i18n/ja/center/latest/installation/install-ssl-tls.md)の指示に従って、akaBot Center の SSL を構成します。
 
 ## **8. akaBot コラボレーション センターのインストール (オプション)**
 

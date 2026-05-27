@@ -12,7 +12,7 @@ displayed_sidebar: activitiesSidebar
 
 グループ化されたアクティビティは、**IMAP**、** POP3**、** SMTP** などのさまざまなプロトコルをカバーするか、** Microsoft Outlook** との連携に特化しています。
 
-[Save Attachments](/bin/view/Activities/Mail%20Activities/Activities/Save%20Mail%20Attachments/)などのアクティビティは、特定のメール プロトコルでの使用を目的としていません。代わりに、[Get POP3 Mail Message](/bin/view/Activities/Mail%20Activities/Activities/Get%20POP3%20Mail%20Messages/)などのアクティビティから取得した MailMessage オブジェクト変数を現在のマシン上の指定されたフォルダーに保存します。
+[Save Attachments](/i18n/ja/activities/mail/latest/activities/save-mail-attachments.md)などのアクティビティは、特定のメール プロトコルでの使用を目的としていません。代わりに、[Get POP3 Mail Message](/i18n/ja/activities/mail/latest/activities/get-pop3-mail-messages.md)などのアクティビティから取得した MailMessage オブジェクト変数を現在のマシン上の指定されたフォルダーに保存します。
 
 **注:**
 

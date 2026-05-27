@@ -18,7 +18,7 @@ displayed_sidebar: centerSidebar
 
 # **2. Install akaBot Center**
 
-Follow the guideline in this link to install akaBot Center **[Instruction](https://docs-v2.akabot.com/center/latest/installation/center-3x-mysql-windows)**
+Follow the guideline in this link to install akaBot Center **[Instruction](/docs/center/latest/installation/center-3x-mysql-windows.md)**
 
 # **3. Install and Configure Vault**
 

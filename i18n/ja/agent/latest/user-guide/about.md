@@ -18,9 +18,9 @@ displayed_sidebar: agentSidebar
 
 **akaBot Agent を使ってみる**
 
-[Install akaBot Agent](https://docs.akabot.com/bin/view/akaBot%20Agent/%5B3%5D%20Agent%20Installation/)
+[Install akaBot Agent](/i18n/ja/agent/latest/installation/installation.md)
 
-[How to use akaBot Agent](https://docs.akabot.com/bin/view/akaBot%20Agent/Getting%20Started/How%20to%20use%20akaBot%20Agent/)
+[How to use akaBot Agent](/i18n/ja/agent/latest/user-guide/how-to-use.md)
 
 **詳細情報**
 

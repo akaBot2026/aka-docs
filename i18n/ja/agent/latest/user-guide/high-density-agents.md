@@ -20,6 +20,6 @@ displayed_sidebar: agentSidebar
 
 akaBot Agent サービスを実行しているマシン上の Center に新しいエージェントを登録する場合、サービスを再起動する必要はありません。ハートビートが送信されるまで最大 30 秒待つことをお勧めします。
 
-Windows Server マシンに高密度エージェントをセットアップするには、[Setting Up Windows Server for High-Density Agents](https://docs.akabot.com/bin/view/akaBot%20Agent/%5B3%5D%20Agent%20Installation/Setting%20Up%20Windows%20Server%20for%20High-Density%20Agents/)および[High-Density Agents Setup](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Installation/%5B6%5D%20High-Density%20Agents%20Setup/)を参照してください。
+Windows Server マシンに高密度エージェントをセットアップするには、[Setting Up Windows Server for High-Density Agents](/i18n/ja/agent/latest/installation/high-density-agents.md)および[High-Density Agents Setup](/i18n/ja/agent/latest/user-guide/high-density-agents.md)を参照してください。
 
 すべてのエージェントを 1 台のマシンから同じ組織単位および同じ環境に接続することをお勧めします。

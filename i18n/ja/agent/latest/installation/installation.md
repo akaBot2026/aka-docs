@@ -12,9 +12,9 @@ displayed_sidebar: agentSidebar
 
 1. akaBot Studio と Agent は、**同じ** インストーラーに含まれています。このガイドラインは、**Standard (または Standalone)** と **Enterprise (または Network) Edition** の両方に両方のコンポーネントをインストールするために使用されます。
 
-2. インストールする前に、お使いのコンピュータが**[hardware and software requirements](https://docs.akabot.com/bin/view/akaBot%20Studio/%5B3%5D%20Studio%20Installation/Installation/#)** を満たしていることをご確認ください。
+2. インストールする前に、お使いのコンピュータが**[hardware and software requirements](/i18n/ja/studio/latest/installation/hardware-software-requirements.md)** を満たしていることをご確認ください。
 
-3. インストーラーのダウンロード リンクを含む **akaBot ライセンス電子メール**をお持ちであることをご確認ください。まだの場合は、**[request a 2-month trial license](https://akabot.com/request-trial/)** を一時的に使用します。
+3. インストーラーのダウンロード リンクを含む **akaBot ライセンス電子メール**をお持ちであることをご確認ください。まだの場合は、**[request a 2-month trial license](/i18n/ja/studio/latest/installation/installation.md)** を一時的に使用します。
 
 ## **インストールガイド**
 
@@ -72,8 +72,8 @@ displayed_sidebar: agentSidebar
 
 ## **次のステップ**
 
-* 機能のロックを解除するには、**[Agent](https://docs.akabot.com/bin/view/akaBot%20Agent/%5B3%5D%20Agent%20Installation/Activation/)** をアクティブ化する必要があります。
-* akaBot を Web ブラウザ上で自動化するには、**[install the akaBot web extension](https://docs.akabot.com/bin/view/akaBot%20Studio/%5B3%5D%20Studio%20Installation/Web%20Extension%20Installation/)** が必要な場合があります。
+* 機能のロックを解除するには、**[Agent](/i18n/ja/agent/latest/installation/license-activation.md)** をアクティブ化する必要があります。
+* akaBot を Web ブラウザ上で自動化するには、**[install the akaBot web extension](/i18n/ja/studio/latest/installation/web-exension-installation.md)** が必要な場合があります。
 
 目次
 

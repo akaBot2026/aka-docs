@@ -80,7 +80,7 @@ akaBot Agent を開くには、次のことを行う必要があります。
 
 akaBot エージェントは 10 秒ごとに自動的に更新され、akaBot センターから公開されたすべてのプロセス パッケージを取得します。
 
-akaBot スタジオからパッケージを公開する方法については、リンクを参照してください:[How to use akaBot Studio](/bin/view/akaBot%20Studio/%5B2%5D%20Getting%20Started/%5B2%5D%20How%20To%20Use%20akaBot%20Studio/)
+akaBot スタジオからパッケージを公開する方法については、リンクを参照してください:[How to use akaBot Studio](/i18n/ja/studio/latest/user-guide/how-to-use.md)
 
 ## **プロセスを制御する**
 

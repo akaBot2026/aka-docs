@@ -19,7 +19,7 @@ displayed_sidebar: agentSidebar
 akaBot のログは 2 つのグループに分類できます。
 
 * **デフォルトのログ:**これらのログは、実行の開始/終了時、または実行でエラー/例外が発生して停止した時など、特定のイベントに対して自動生成されます。
-* **ユーザー定義ログ**: これらのログは、アクティビティ[Log Message](/bin/view/Activities/%5B1%5D%20Core%20Activities/Activities/Log%20Message/)または[WriteLine](/bin/view/Activities/Primitives/Activities/Write%20Line/)を使用するときに RPA 開発者によって生成されます。
+* **ユーザー定義ログ**: これらのログは、アクティビティ[Log Message](/i18n/ja/activities/core/latest/log/log-message.md)または[WriteLine](/i18n/ja/activities/system/latest/primitives/write-line.md)を使用するときに RPA 開発者によって生成されます。
 
 akaBot Studio では、[出力] パネルでログを表示できます。
 
@@ -27,7 +27,7 @@ akaBot Studio では、[出力] パネルでログを表示できます。
 
 ## **ロギングレベル**
 
-ログ レベルは、ログ メッセージがプロセスの実行に関連する重要性を示します。ユーザーがアクティビティ[Log Message](/bin/view/Activities/%5B1%5D%20Core%20Activities/Activities/Log%20Message/)を使用して定義できるログ レベルは次のとおりです。
+ログ レベルは、ログ メッセージがプロセスの実行に関連する重要性を示します。ユーザーがアクティビティ[Log Message](/i18n/ja/activities/core/latest/log/log-message.md)を使用して定義できるログ レベルは次のとおりです。
 
 |  |  |
 | --- | --- |

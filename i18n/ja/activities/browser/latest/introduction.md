@@ -10,7 +10,7 @@ displayed_sidebar: activitiesSidebar
 
 **ブラウザ アクティビティ** パッケージには、**Web** 自動化プロジェクトの作成に使用されるすべての**基本アクティビティ**が含まれています。
 
-このパッケージを使用して Web オートメーションを実行し、ブラウザが新しいバージョンに自動的に更新される場合、ブラウザ ドライバが不適切であるという問題が発生する可能性があります。この場合、問題を解決するには[configure the Browser driver](https://docs.akabot.com/bin/view/akaBot%20Studio/%5B3%5D%20Studio%20Installation/Configure%20Browser%20Driver/)が必要になる場合があります。
+このパッケージを使用して Web オートメーションを実行し、ブラウザが新しいバージョンに自動的に更新される場合、ブラウザ ドライバが不適切であるという問題が発生する可能性があります。この場合、問題を解決するには[configure the Browser driver](/i18n/ja/studio/latest/installation/configure-browser-driver.md)が必要になる場合があります。
 
 これらのアクティビティにより、ロボットは次のことが可能になります。
 
@@ -23,7 +23,7 @@ displayed_sidebar: activitiesSidebar
 UI 要素に対してアクションを実行するアクティビティは、デザイナーのアクティビティ本体にある [**ターゲット要素を選択**] ボタンを使用してデザイン時に構成できます。
 
 **注:**
-**Web ブラウザ**で要素を指定するには、**[Install web extension](/bin/view/akaBot%20Studio/%5B3%5D%20Studio%20Installation/Installation/?Install web extension)** する必要があります。
+**Web ブラウザ**で要素を指定するには、**[Install web extension](/i18n/ja/studio/latest/installation/web-exension-installation.md)** する必要があります。
 
 [**ターゲット要素を選択**] ボタンをクリックすると、**セレクター エディター** ウィザードが開きます。
 

@@ -18,7 +18,7 @@ displayed_sidebar: centerSidebar
 
 # **2. akaBot Center をインストールします**
 
-このリンクのガイドラインに従って、akaBot Center**[Instruction](https://docs.akabot.com/bin/view/akaBot%20Center/Center%20Installation/Installation/Basic%20installation%20guide%20for%20Akabot%20Center%20and%20MySQL/)** をインストールします。
+このリンクのガイドラインに従って、akaBot Center**[Instruction](/i18n/ja/center/latest/installation/center-3x-mysql-windows.md)** をインストールします。
 
 # **3. Vault のインストールと構成**
 
