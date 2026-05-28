@@ -113,3 +113,25 @@ After **successful** activation, akaBot Agent shows below message:
 If below error message appears, please check your network connection.
 
 ![image-20230718223155-17.png](/static/img/6661dd_image-20230718223155-17.png)
+
+## **Activate through your akaBot Center Cloud**
+
+To activate the license on the target machine running **akaBot Agent**, please execute the following steps:
+
+**Step 1:** Launch the installed **akaBot Agent** application on the machine.
+**Step 2:** On the initial startup setup screen, select the option to activate via **akaBot Center** and click **Next**.
+
+![image-20230718223155-14.png](/static/img/d49ed9_image-20230718223155-14.png)
+
+**Step 3:** Enter the required activation parameters:
+  - **Center URL:** Your unique akaBot Center address (copied from the _Center URL_ field on the License dashboard).
+  - **License Key:** Your enterprise license key (copied from the _License Key_ field).
+  - **Network Options:** If your corporate network routes traffic through an internet Proxy, expand this section and input your Proxy server configurations.
+
+- **Hit button "Activate"** to finalize the process.
+  - _Activation Successful:_ A confirmation popup will appear, and the Agent will transition to a ready state.
+  - _Activation Failed:_ Verify your internet connection or contact your network Administrator to check firewall and Proxy rules.
+
+![Entering activation credentials on akaBot Agent](/static/img/image-20260528135225-6.png)
+
+![Activation success on akaBot Agent](/static/img/image-20260528135225-7.png)

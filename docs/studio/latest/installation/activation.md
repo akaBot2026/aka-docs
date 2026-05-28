@@ -121,3 +121,26 @@ If below error message appears, please check your network connection.
 
 ![image-20230717142628-5](/static/img/image-20230717142628-5.png)
 
+### Activate through your akaBot Center Cloud
+
+To activate the license on the target workstation running **akaBot Studio**, follow the steps below:
+
+**Step 1** – Launch the installed **akaBot Studio** desktop client.
+
+**Step 2** – Select the option to activate via **akaBot Center** and click **Next**.
+![image-20230717142905-14.png](/static/img/image-20230717142905-14.png)
+
+**Step 3** – Enter the identical activation credentials:
+
+- **Center URL:** Your unique akaBot Center address.
+- **License Key:** Your enterprise license key.
+- **Network Options:** Input appropriate Proxy credentials if prompted by your network environment.
+
+![Entering activation credentials on akaBot Studio](/static/img/image-20260528135225-18.png)
+
+- Hit button **"Activate"** to complete activation.
+
+ _Activation Successful:_ The Studio workspace will open, presenting the process design canvas.
+ _Activation Failed:_ Please verify that your workstation can communicate with the internet.
+
+![Activation success on akaBot Studio](/static/img/image-20260528135225-19.png)
