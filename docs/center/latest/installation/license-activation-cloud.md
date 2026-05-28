@@ -83,8 +83,6 @@ To activate the license on the target workstation running **akaBot Studio**, fol
 
 ![Activation success on akaBot Studio](/static/img/image-20260528135225-19.png)
 
----
-
 ## **3. Activate akaBot Agent**
 
 ### **3.1. Activate akaBot Agent**
@@ -175,7 +173,6 @@ To enable your workstation Agent to receive and execute automation tasks dispatc
 > [!NOTE]
 > You can disconnect the Agent from the Center management engine at any time by clicking the **Disconnect** button under the **Center** settings tab.
 
----
 
 ## **4. Verification & Operation Status Confirmation**
 
@@ -184,8 +181,6 @@ Following the successful registration and connection of the Agent, navigate back
 The **Activated Agents** counter will automatically increment from `0` to `1` (or by the number of newly connected machines), confirming that your license asset has been allocated and is operating correctly.
 
 ![License metrics updating on dashboard](/static/img/image-20260528135225-10.png)
-
----
 
 ## **5. Reference Materials & Detailed User Guides**
 
