@@ -25,15 +25,15 @@ displayed_sidebar: centerSidebar
 
 Before proceeding, you must ensure that akaBot 3.x is already installed following the standard instructions. **[View details](/docs/center/latest/installation/center-3x-mysql-windows.md)**
 
-# **1. Backup MySQL database, configuration files, license, workflow files**
+## **1. Backup MySQL database, configuration files, license, workflow files**
 
-**1.1. Back up database**
+### **1.1. Back up database**
 
 The database can be backed up using one of the following two methods:
 
 ***1.1.1 Back up using MySQL Workbench***
 
-* **Step 1:** Open MySql Workbench on the AkaBot Center s computer, select**"Local instance MySQL80"**
+* **Step 1:** Open MySql Workbench on the AkaBot Center s computer, select **"Local instance MySQL80"**
 
 ![1774253010662-602.png](/static/img/5b5a99_1774253010662-602.png)
 
@@ -41,7 +41,7 @@ The database can be backed up using one of the following two methods:
 
 ![1774253064566-426.png](/static/img/cf013d_1774253064566-426.png)
 
-* **Step 3:** Navigate to**"Administration"** tab, click **"Data export**" under **Management** section
+* **Step 3:** Navigate to **"Administration"** tab, click **"Data export**" under **Management** section
 
 ![1774253185643-359.png](/static/img/3f9099_1774253185643-359.png)
 
@@ -82,7 +82,7 @@ You will see the export progress window. If there is no error, the backup file (
 
 * **Step 3:** The cmd will prompt you to input password for root user. Please put it (ex: sis@12345), press enter and wait for a while. You will see the aka\_orchestrator.sql file on the chosen directory. To dump only specific tables from a database, name them on the command line following the database name: **mysqldump  u root  p --databases aka\_orchestrator act\_id\_info act\_ru\_job asset > d:\aka\_orchestrator.sql**
 
-**1.2. Configuration files, license, workflow files**
+### **1.2. Configuration files, license, workflow files**
 
 ***1.2.1. Copy configuration files from Tomcat 8***
 
@@ -108,9 +108,9 @@ You will see the export progress window. If there is no error, the backup file (
 
 ![1774259611766-788.png](/static/img/b936d3_1774259611766-788.png)
 
-# **2. Uninstall Tomcat(8), Java(11)**
+## **2. Uninstall Tomcat(8), Java(11)**
 
-**2.1. Uninstall Tomcat (8)**
+### **2.1. Uninstall Tomcat (8)**
 
 (1) Open **Settings** and select **Apps**
 
@@ -118,7 +118,7 @@ You will see the export progress window. If there is no error, the backup file (
 
 ![1774256004210-859.png](/static/img/eff4c6_1774256004210-859.png)
 
-**2.2. Uninstall Java (11)**
+### **2.2. Uninstall Java (11)**
 
 (1) Open **Settings** and select **Apps**
 
@@ -126,11 +126,11 @@ You will see the export progress window. If there is no error, the backup file (
 
 ![1774256552008-273.png](/static/img/694e2c_1774256552008-273.png)
 
-**3. Install akabot 4x**
+## **3. Install akabot 4x**
 
 Download follow the instruction: [Install akaBot 4x](/docs/center/latest/installation/center-4x-mysql-windows.md)
 
-# **4. Restore configuration files, license, workflow files**
+## **4. Restore configuration files, license, workflow files**
 
 **Step 1:** Access the directory where you stored the configuration, license, and workflow files (of Tomcat 8) from the previous step.
 

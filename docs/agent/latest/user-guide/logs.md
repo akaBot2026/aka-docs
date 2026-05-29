@@ -27,7 +27,7 @@ In akaBot Studio, we can view the loggings in Output panel:
 
 ## **Logging levels**
 
-Logging levels tell how important a log message is related to the execution of a process. Here are the logging levels user can define using activity [Log Message](/docs/activities/core/latest/log/log-message?_highlight=log.md):
+Logging levels tell how important a log message is related to the execution of a process. Here are the logging levels user can define using activity [Log Message](/docs/activities/core/latest/log/log-message.md):
 
 |  |  |
 | --- | --- |

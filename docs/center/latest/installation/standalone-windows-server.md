@@ -46,7 +46,7 @@ The account performing the installation needs to have Admin (Root) privileges on
 | 4 | DB-PORT | MSSQL database connection port |
 | 5 | DB-NAME | Name of the MSSQL database |
 
-* If you are installing Collaboration Center, please prepare a separate database for Collaboration Center and have the connection information ready, similar to the database setup for Center. (*For more information about what Collaboration Center is, please read further at [Human-Bot Collaboration](/docs/collaboration/latest/overview.md)*).
+* If you are installing Collaboration Center, please prepare a separate database for Collaboration Center and have the connection information ready, similar to the database setup for Center. (*For more information about what Collaboration Center is, please read further at [Human-Bot Collaboration](/docs/collaboration/latest/user-guide/design-process/human-task.md).
 
 ### **1.5.Prepare the Installation Package**
 
