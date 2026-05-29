@@ -9,11 +9,21 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — Release Notes
 
+## v4.0.0.13
+
+Build date: May 29, 2026
+
+Click [this link](https://ws3.fpt-software.vn/s/HNJwxPFqSpDzcuM) to download.
+
+### Bug Fixes
+
+- Fixed incorrect Secret Manager Type handling.
+- Issue introduced in v4.0.0.11.
+---
+
 ## v4.0.0.12
 
 Build date: May 22, 2026
-
-Click [this link](https://ws3.fpt-software.vn/s/al53MD2ASfXxcaO) to download.
 
 ### New features
 
@@ -49,8 +59,6 @@ Click [this link](https://ws3.fpt-software.vn/s/al53MD2ASfXxcaO) to download.
 ## v4.0.0.11
 
 Build date: Apr 10, 2026
-
-Click [this link](https://ws3.akabot.com/s/LJKz0qSabJUSkvq) to download.
 
 ### New features
 - Added caching functionality to reduce requests to external Vault systems.
