@@ -188,15 +188,15 @@ After activating your licenses and establishing device connections, you are full
 
 * **akaBot Center User Guide (Central Management Platform):**
   * Learn how to manage users, assign granular roles, construct schedules, manage assets, and monitor bot execution logs.
-  * **Access Link:** [akaBot Center Operations Guide](https://docs-v2.akabot.com/center/latest/category/operation-functions)
+  * **Access Link:** [akaBot Center Operations Guide](/docs/center/latest/user-guide/how-to-use-by-function/operation-functions/home.md)
 
 * **akaBot Agent User Guide (Task Execution Client):**
   * Learn how to trigger attended bots, manage local queues, view execution history, and adjust local client preferences.
-  * **Access Link:** [akaBot Agent User Guide](https://docs-v2.akabot.com/agent/latest/user-guide/how-to-use)
+  * **Access Link:** [akaBot Agent User Guide](/docs/agent/latest/user-guide/how-to-use.md)
 
 * **akaBot Studio User Guide (Automation Workflow Designer):**
   * Step-by-step documentation for building processes, using drag-and-drop activities, debugging code, and publishing packages.
-  * **Access Link:** [akaBot Studio User Guide](https://docs-v2.akabot.com/studio/latest/user-guide/how-to-use)
+  * **Access Link:** [akaBot Studio User Guide](/docs/studio/latest/user-guide/how-to-use.md)
 
 > [!TIP]
 > The akaBot technical documentation portal is updated continuously in tandem with every product release. If you encounter any functional issues or need advanced support during your deployment, please submit a service ticket on our Customer Support Portal or contact our Technical Support Desk.
