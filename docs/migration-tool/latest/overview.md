@@ -1,10 +1,10 @@
 ---
 id: overview
-title: "akaBot Migration Tool"
+title: "Migration Tool"
 sidebar_label: "Overview"
 sidebar_position: 1
 description: "Analyze, evaluate complexity, and automatically convert RPA projects to akaBot."
-displayed_sidebar: migrationSidebar
+displayed_sidebar: migrationToolSidebar
 ---
 
 # akaBot Migration Tool
