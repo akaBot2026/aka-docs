@@ -2,9 +2,9 @@
 id: on-premise-deployment
 title: "On-Premise Deployment Guide"
 sidebar_label: "On-Premise Deployment"
-sidebar_position: 2
+sidebar_position: 1
 description: "Deploy akaBot Migration Tool on-premise on Windows or Linux using Java JAR or Docker."
-displayed_sidebar: migrationSidebar
+displayed_sidebar: migrationToolSidebar
 ---
 
 # akaBot Migration Tool — On-Premise Deployment Guide
