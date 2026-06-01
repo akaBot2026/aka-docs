@@ -12,9 +12,9 @@ RCA.Activities.Core.InvokeWorkflowFile
 
 ## **Description**
 
-With this activity, you can call the specified workflow synchronously, optionally passing it a list of input arguments. Arguments can be imported from a specified workflow with this activity by using the Import Arguments button in the body of the activity.
+With this activity, you can synchronously invoke VB.NET or C# code, optionally passing it a list of input arguments. Arguments can be imported from a specified workflow with this activity by using the Import Arguments button in the body of the activity.
 
-![image-20220505161118-3.png](/static/img/ac80db_image-20220505161118-3.png)
+![invoke-wf.png](/static/img/invoke-wf.png)
 
 (\* for Mandatory)
 
@@ -29,7 +29,11 @@ With this activity, you can call the specified workflow synchronously, optionall
 
 **Common**
 
-* **Continue On Error (Boolean)**- This property specifies when the automation keeps going if it has an error. Only have two possible values: True or False. The default value is False.
+* **Continue On Error (Boolean)**- This property specifies when the automation keeps going if it has an error. Only have two possible values: True or False. 
+ 
+  **True** - allows the rest of the process to continue the execution even an error occurs within the activity.
+  
+  **False (default)** - blocks the process from continuing the execution.
 
 **Input**
 

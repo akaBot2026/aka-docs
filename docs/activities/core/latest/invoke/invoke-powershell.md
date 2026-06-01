@@ -14,7 +14,7 @@ RCA.Activities.Core.InvokePowerShell
 
 With this activity, you can synchronously invoke Powershell Command, optionally passing it a list of input arguments.
 
-![image-20220505161911-1.png](/static/img/101339_image-20220505161911-1.png)
+![invoke-power-shell](/static/img/invoke-power-shell.png)
 
 (\* for Mandatory)
 
@@ -26,7 +26,11 @@ With this activity, you can synchronously invoke Powershell Command, optionally 
 
 **Common**
 
-* **Continue On Error (Boolean)** - This property specifies when the automation keeps going if it has an error. Only have two possible values: True or False. True - allows the rest of the process to continue the execution even an error occurs within the activity. False (default) - blocks the process from continuing the execution.
+* **Continue On Error (Boolean)** - This property specifies when the automation keeps going if it has an error. Only have two possible values: True or False. 
+   
+   **True** - allows the rest of the process to continue the execution even an error occurs within the activity.   
+  
+  **False (default)** - blocks the process from continuing the execution.
 
 **Input**
 
