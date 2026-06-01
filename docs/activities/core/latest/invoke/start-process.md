@@ -50,7 +50,7 @@ The Start Process activity starts an application from a file name and can pass a
   **- Asynchronously** : finishes immediately after starting the process.  
   Default value: Synchronously.
 * **Timeout (Int32)** - The maximum amount of time (in milliseconds) to wait for the activity to run. If the timeout expires, the activity will terminate. 
-* **Working Directory: InArgument<String>** - Sets the working directory for the started application. 
+* **Working Directory: `InArgument<String>`** - Sets the working directory for the started application. 
 
 **Output**
 

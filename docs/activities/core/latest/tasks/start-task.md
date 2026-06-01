@@ -39,6 +39,6 @@ With this activity, you can initiates a new task via Center to be picked up by a
 
 ### **Output**
 
-* **Task Id OutArgument<Int32>:** Outputs the ID of the task that was started.
+* **Task Id `OutArgument<Int32>`:** Outputs the ID of the task that was started.
 
-* **Workflow Id: OutArgument<Int32>:** The unique identifier for the started workflow.
+* **Workflow Id: `OutArgument<Int32>`:** The unique identifier for the started workflow.

@@ -47,4 +47,4 @@ The activity offers two interface modes to configure your search filters: the vi
 
 ### **Output**
 
-* **Result Tasks: OutArgument<IEnumerable<TaskModel>>** - The retrieve tasks
+* **Result Tasks: `OutArgument<IEnumerable<TaskModel>>`** - The retrieve tasks
