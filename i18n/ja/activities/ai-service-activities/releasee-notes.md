@@ -2,7 +2,7 @@
 id: release-notes
 title: "Release Notes"
 sidebar_label: "Release Notes"
-sidebar_position: 2
+sidebar_position: 3
 description: "What's new, improved, and fixed in each version of AI Service activities package."
 displayed_sidebar: activitiesSidebar
 ---
