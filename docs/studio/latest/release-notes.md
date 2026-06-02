@@ -13,7 +13,7 @@ displayed_sidebar: studioSidebar
 
 > NOTE: THIS IS BETA VERSION. PLEASE USE AT YOUR OWN RISK!
 
-### Changes
+**Changes**
 * Upgrade platform to .NET Framework 4.7.2
 * Update: changed installer from msi to exe file format
 * Changed: platform dependency to Newtonsoft.Json 13.0.2
@@ -23,7 +23,7 @@ displayed_sidebar: studioSidebar
 * Changed: Windows SDK version to 10.0.19041.0
 * Added: show user confirmation dialog before install browser extension
 
-### Backward compatible activity
+**Backward compatible activity**
 
 **These packages will compatible and can be run with older platform version.**
 
@@ -56,6 +56,7 @@ displayed_sidebar: studioSidebar
 * PCOMM 3.1.0.0
 * Python 3.1.0.5
 * Word 3.2.1.0
+---
 
 ## v2.2.0.12
 
@@ -68,18 +69,20 @@ displayed_sidebar: studioSidebar
 * Fixed: [NativeHost]send message via stdout on a worker thread so a browser shutting down cannot hang the extension thread forever.
 * Fixed: [NamedPipeWrapper.dll] named pipe server to not allow adding connections while disposing
 * Fixed: [Agent] log4net logging format
+---
 
 ## v2.2.0.11
 
-### New features
+**New features**
 
 * Common v4.4.0 package included in the installer.
 * log4net as the logging engine with 7-day backup.
 
-### Bug fixes
+**Bug fixes**
 
 * Race condition causing multiple script loads in Browser Extension v3.0.5.
 * Race condition when sending and receiving messages in Native Host.
+---
 
 ## v2.2.0.10
 
@@ -88,6 +91,8 @@ displayed_sidebar: studioSidebar
 * [Updated] Event Trigger disabled by default.
 
 To enable Event Trigger, set AutoStartEventTrigger=True in the file: C:\\Program Files\\FPT Software\\akaBot Platform\\BotService.exe.config
+
+---
 
 ## v2.2.0.9
 
@@ -116,21 +121,21 @@ To enable Event Trigger, set AutoStartEventTrigger=True in the file: C:\\Program
 
 ## v2.2.0.7c
 
-### Studio & Agent
+**Studio & Agent**
 
 * [Added] Ability to automatically create a new RDP connection when running tasks.
 * [Updated] Session elevation handling and privilege inheritance.
 * [Updated] Improved unlock/session handling for Console vs RDP modes.
 * [Fixed] RDP session switching, AutoLogon edge cases, and Windows 10/11 connection issues.
 
-### Browser Extension MV3
+**Browser Extension MV3**
 
 * [Updated] Version upgrade → 3.0.3.
 * [Improved] Better highlight visibility by increasing z-index.
 * [Updated] Console log control for performance improvement.
 * [Removed] Unused permissions/methods and removed tab auto-reload.
 
-### Common (v2.1.0.0 → v2.1.0.1)
+**Common (v2.1.0.0 → v2.1.0.1)**
 
 * [Added] New Common activity package.
 * [Added] Improved selector generation and inspection logic across UIA, MSAA, Browser, and Java.
@@ -142,14 +147,14 @@ To enable Event Trigger, set AutoStartEventTrigger=True in the file: C:\\Program
 * [Fixed] Window/Browser focus, Close Window logic, tab detection, screenshot behavior, inspector highlight issues, and multiple selector edge cases.
 * [Fixed] Process attach issues; Remove unused dependencies.
 
-### Browser (v2.2.0.4 → v2.2.0.5)
+**Browser (v2.2.0.4 → v2.2.0.5)**
 
 * [Added] ScrollElementToView support (vertical + horizontal).
 * [Added] WaitPageLoadInteractive activity.
 * [Fixed] WaitPageLoadComplete hanging issue.
 * [Updated] Page readiness logic (interactive/completed states).
 
-### Excel (v2.1.1.2)
+**Excel (v2.1.1.2)**
 
 * [Added] LookupRange activity.
 * [Fixed] Lookup behavior on merged cell scenarios.
@@ -158,7 +163,7 @@ Click [here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b) to download. Passw
 
 ## v2.2.0.5
 
-### akaBot Studio
+**akaBot Studio**
 
 * [Added] Workflow-to-DLL conversion support.
 * [Updated] New project template structure: removed Windows & NativeBrowser dependencies, added Common dependencies.
@@ -168,19 +173,19 @@ Click [here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b) to download. Passw
 * [Fixed] PATH environment variable not updated when resolving packages.
 * [Fixed] Crash on publishing projects without description.
 
-### Common Activity
+**Common Activity**
 
 * [Added] Argument support for InjectJsScript activity.
 * [Fixed] Browser interaction issues.
 * [Updated] Script content encoding/decoding when exchanging via named pipes.
 
-### Computer Vision Activity
+**Computer Vision Activity**
 
 * [Fixed] Anchor/target detection issues.
 * [Fixed] Various minor stability bugs.
 * [Updated] Script content encoding/decoding via named pipes.
 
-### Core Activity
+**Core Activity**
 
 * [Added] New activities: MultipleAssign, StartProcess, InvokeProcess.
 * [Added] BusinessRuleException support.
@@ -192,11 +197,11 @@ Click [here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b) to download. Passw
 * [Fixed] Default value validation for strings with MaxLength = -1.
 * [Fixed] Asset assignment issues for OBJECT type.
 
-### IE Activity
+**IE Activity**
 
 * [Fixed] KeyModifiers compatibility for Workflow-to-DLL.
 
-### Native Browser Activity
+**Native Browser Activity**
 
 * [Added] CursorPosition support (Hover, Click).
 * [Added] Additional trace logs for diagnostics.
@@ -206,32 +211,32 @@ Click [here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b) to download. Passw
 * [Fixed] Named pipe communication reliability and resource disposal.
 * [Fixed] KeyModifiers compatibility in Workflow-to-DLL.
 
-### Web (Browser) Activity
+**Web (Browser) Activity**
 
 * [Added] Argument property support for InjectJs.
 * [Fixed] KeyModifiers compatibility for Workflow-to-DLL.
 
-### **New Packages Added**
+**New Packages Added**
 
 * Box
 * GC
 
-### Browser Automation & Runtime Stability
+**Browser Automation & Runtime Stability**
 
 * [Updated] Auto-reconnect during user login while bot is running.
 * [Fixed] Null reference issue when attaching browser.
 * [Fixed] readyState exception in browser handling.
 * [Fixed] Attach Browser performance slowdown.
 
-### Java Automation
+**Java Automation**
 
 * [Added] Fix for IndexInParent selector in element detection (Java automation).
 
-### Licensing & Performance
+**Licensing & Performance**
 
 * [Improved] Faster license validation, eliminating long delay in specific environments.
 
-### General Improvements
+**General Improvements**
 
 * Workflow-to-DLL stability improvements
 * Better cross-browser compatibility
@@ -243,7 +248,7 @@ Click [here](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY) to download. Passw
 
 ## v2.2.0.3
 
-### New features
+**New features**
 
 * Support run Pip mode.
 * Added activity package RCA.Activities.DataService.1.0.1.nupkg
@@ -252,7 +257,7 @@ Click [here](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY) to download. Passw
 * Added activity package RCA.Activities.SAP.2.1.0.1.nupkg
 * Added activity package RCA.Activities.NativeBrowser.5.0.0.2.nupkg
 
-### Bug fixes
+**Bug fixes**
 
 * Fix minor bugs RCA.Activities.Common.1.0.0.1.nupkg, RCA.Activities.Java.2.3.0.1.nupkg (Java x86 & SAP).
 * Fix minor bugs on Load script for Native Browser package
@@ -261,7 +266,7 @@ Click [here](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ) to download. Passwo
 
 ## v2.2.0.2
 
-### New features
+**New features**
 
 * Added Excel Set Range Format activity: This activity allows user to  format cells and ranges according to a specific format.
 * Screen Status Check Activity: This activity helps you check the status of the device's screen while the agent is running. It allows you to determine if the screen is locked or not on that particular device.
@@ -279,7 +284,7 @@ Click [here](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ) to download. Passwo
 * Added Arguments, EdgeIEMode, EdgeExecutablePath properties in OpenBrowser(B) activity.
 * Support automation app java 32 bit on akaBot Platform x64 (java32).
 
-### Bug fixes
+**Bug fixes**
 
 * Activity Get File now has default values filled in for the "date from" and "date to" fields, preventing them from being empty.
 * OCR - The issue with the "Activity Microsoft Azure OCR" has been resolved, and it can now be used without any errors.
@@ -289,7 +294,7 @@ Click [here](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ) to download. Passwo
 * Common activity: Can handle the action after Ctrl Z, the activity can reload the old image before such as (Activities): Click, AttachBrowser,...
 * Unable to send SMTP email using the "Send SMTP Mail Message" activity -&gt; now able to successfully send.
 
-### Updated
+**Updated**
 
 * Optimize dependency load to increase the bot's startup speed.
 * Specific error messages indicating the exact causes have been added when publishing the project.
@@ -299,7 +304,7 @@ Click [here](https://ws3.fpt-software.vn/s/S9S2v60JjahYvVr) to download. Passwo
 
 ## v2.2.0.1
 
-### Bug fixes
+**Bug fixes**
 
 * Create Folder/Rename/New/NewFromTemplate file/folder name containing voiced characters.
 * Expression Editor does not support clicking items from the suggestion list.
@@ -311,7 +316,7 @@ Click [here](https://ws3.fpt-software.vn/s/S9S2v60JjahYvVr) to download. Passwo
 * Button Start and Stop do not auto change status when ending workflow.
 * Add a limit for Exception Details on [Runtime Execution Error] Dialog (10000 chars).
 
-### Updated
+**Updated**
 
 * Update Expression Editor to hide suggestion window and Tooltip when there is no result.
 * Allow to create new Variable/Argument with Unicode characters and not allow Variable/Argument name to be the same as VB type when Ctrl+K, Ctrl+M, SelectorEditor.
@@ -319,21 +324,21 @@ Click [here](https://ws3.fpt-software.vn/s/S9S2v60JjahYvVr) to download. Passwo
 
 ## v2.0.5.5
 
-### Bug fixes
+**Bug fixes**
 
 * Fatal is output even if Logging Level of Agent is OFF.
 
-### Updated
+**Updated**
 
 * License activation is possible before StartDate.
 
 ## v2.0.5.4
 
-### New features
+**New features**
 
 * Added the modified date property to the condition filter of RCA.Activities.Core.GetFiles.
 
-### Bug fixes
+**Bug fixes**
 
 * Fix the error message when the Agent does not start immediately after starting the PC.
 * Change the Word application scope so that it does not close word files that are not specified as targets.
@@ -343,6 +348,6 @@ Click [here](https://ws3.fpt-software.vn/s/S9S2v60JjahYvVr) to download. Passwo
 * Starting screen Recent does not switch correctly.
 * The usage of GenerateDataTable Wizards in the Core category.
 
-### Updated
+**Updated**
 
 * Updated specification for Timeout MS property of Execute Query, Execute Non Query activity.

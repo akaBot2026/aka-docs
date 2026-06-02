@@ -11,38 +11,32 @@ displayed_sidebar: centerSidebar
 
 ## v4.0.0.13
 
-### Bug Fixes
+**Fixed**
 
 - Fixed incorrect Secret Manager Type handling.
 - Issue introduced in v4.0.0.11.
 ---
 
 ## v4.0.0.12
+**Added**
+* **Trigger**
+    - Added Agent Group condition.
+    - Added mutual exclusivity between Agent and Agent Group conditions (selecting one hides/disables the other).
+    - Enforced each condition to be selected only once.
+* **Export Logs**
+    - Switched export format from XLS to XLSX.
+    - Supported splitting exported logs into multiple files when the total row count exceeds 1 million (maximum rows per file is configurable).
 
-### New features
+**Updated**
+* Trigger:
+  * Hidden "delete task" activities when the "running" state is selected.
+* Export Logs:
+  * Removed the 65,000-row limit when exporting logs.
 
-**Trigger**
-- Added Agent Group condition.
-- Added mutual exclusivity between Agent and Agent Group conditions (selecting one hides/disables the other).
-- Enforced each condition to be selected only once.
-
-**Export Logs**
-- Switched export format from XLS to XLSX.
-- Supported splitting exported logs into multiple files when the total row count exceeds 1 million (maximum rows per file is configurable).
-
-### Updated
-
-**Trigger**
-- Hidden "Delete Task" activities when the "Running" state is selected.
-
-**Export Logs**
-- Removed the 65,000-row limit when exporting logs.
-
-### Bug Fixes
-
-**Trigger**
-- Fixed trigger history display when trigger source has a queue component.
-- Fixed workflow display when editing triggers with a Start Task component.
+**Fixed**
+* Trigger:
+  - Fixed trigger history display when trigger source has a queue component.
+  - Fixed workflow display when editing triggers with a Start Task component.
 
 **Schedule**
 - Fixed tab switching bug when selecting monthly triggers.
@@ -52,27 +46,81 @@ displayed_sidebar: centerSidebar
 
 ## v4.0.0.11
 
-### New features
-- Added caching functionality to reduce requests to external Vault systems.
+**Added**
+* Added caching functionality to reduce requests to external Vault systems.
 
-### Updated
-- Updated the ability to edit the start time of schedules.
-- Updated cache handling to automatically clear cache when exceptions occur during job state updates.
+**Updated**
+* Updated the ability to edit the start time of schedules.
+* Updated cache handling to automatically clear cache when exceptions occur during job state updates.
 
-### Improved
-- Improved the dropdown UI for selecting Secret Management when creating or editing an agent.
+**Improved**
+* Improved the dropdown UI for selecting Secret Management when creating or editing an agent.
 
-### Bug Fixes
-- Fixed real-time Agent status display in high-availability mode.
+**Fixed**
+* Fixed real-time Agent status display in high-availability mode.
 - Fixed the issue where queue item status could not be changed when created by Agent Pool with Schedule as the source.
 - Fixed the issue where Organization Unit renaming was not reflected on the frontend.
 - Fixed the issue where excessive ActiveMQ connections were continuously created by Center.
 
 ---
+## v4.0.0.10
+**Added**
+  * Added ability to create Triggers for Agent Pool.
+      * Support condition settings:
+          Agent Pool
+          Queue Item Threshold
+          Queue Status (optional)
+      * Added Alert Cooldown to prevent alert spamming.
+      * Allow configuring Activities when a trigger is fired.
+      
+**Fixed**
+  *  Agent Pool Creation Failure 
+  *  Asset Assignment UI Issue : When creating a new asset and enabling "Assign all value to specific user," the user selection dropdown menu remains greyed out and cannot be used.
+
+## v4.0.0.9c
+**Fixed**
+* Fixed issue where exported logs were not sorted.
+
+## v4.0.0.9
+**Updated**
+*  Introduced a new permission MANAGEMENT LICENSE for roles.
+  Roles granted with MANAGEMENT LICENSE can now view the License screen in the Center.
+* Update lib license center support windown 11.
+
+**Fixed**
+* Resolved an issue where newly added agents in the Agent Pool did not automatically pick up or run jobs.
+## v4.0.0.8
+**Updated**
+* License Details: Added display of license details — License → Get LMS License
+* Queue: Enhanced queue item search to support date-based filtering (based on created date) and status.
+* User Management: Allowed updating user information for LDAP users (configurable via settings)
+ ` enable-update-user: false`
+* Audit Log Access: Added role-based permission for viewing audit logs (previously restricted to admin only)
+--- 
+
+## v4.0.0.7
+**Added**
+ * Added MFA feature.
+
+**Updated**
+ * Send mail service now uses mail-from instead of user mail.
+ * Trigger send email supports HTML template.
+
+**Fixed**
+ * Fixed VCB pentest: 1 high, 1 medium and 4 low.
+ * Holiday could not be saved.
+---
+
+## v4.0.0.6
+**Added**    
+ * Added integration with AWS Secrets Manager (config files, Agent's credential, Asset). 
+
+**Updated**
+ * New akaBot's logo, favicon icon.
+ ---
 
 ## v4.0.0.5
-
-### New features
+**New features**
 
 **1. Core Enhancements**
 - **[Added]** Enable/disable Agent Pool capability.
@@ -123,10 +171,12 @@ displayed_sidebar: centerSidebar
 
 ## v4.0.0.4
 
-### New features
- - **[Upgrade]** quartz-scheduler, guava library
-
- - **[Update]** sort for screen application integration
+**Fixed**
+ * Fix security TPI : 
+     - Update version  quartz-scheduler ,remove lib 
+     - Upgrade guava (TPI)
+**Updated** 
+  * Update sort for sceen application integration
 
 **Software requirements**
 - Tomcat 10
@@ -134,20 +184,30 @@ displayed_sidebar: centerSidebar
 
 ---
 
+## v4.0.0.3
+
+**Fixed**
+ * Fix can't delete schedule when delete related items is true on sqlserver
+
+**Required**
+ * Tomcat 10
+ * JDK 17
+---
+
 ## v4.0.0.2
 
-### New features 
+**New features**
 - **[Added]** Support LDAP integration.
 - **[Added]** Clean duplicated jobs in scheduler.
 - **[Added]** Provide data refresh function (reindex search data).
 
-### Updated
-- **[Updated]** Upgrade Spring Boot from version 3.3.0 to 3.3.6.
+**Updated**
+- Upgrade Spring Boot from version 3.3.0 to 3.3.6.
 
-### Bug Fixes
-- **[Fixed]** Validate Cron Expression in Case Recurrence Advanced.
-- **[Fixed]** Resolve duplicate job issue when updating case job state.
-- **[Fixed]** Resolve issue preventing role permission changes.
+**Fixed**
+- Validate Cron Expression in Case Recurrence Advanced.
+- Resolve duplicate job issue when updating case job state.
+- Resolve issue preventing role permission changes.
 
 **Software requirements**
 
@@ -158,7 +218,7 @@ displayed_sidebar: centerSidebar
 
 ## v3.0.1.4
 
-### New features
+**New features**
 - Add priority for agent pool
 - Implement skip holiday settings for process schedule
 - Improve performance for heartbeat, update job state and update job result api
@@ -170,7 +230,7 @@ displayed_sidebar: centerSidebar
 - Remove unsecure CSP attributes
 - Add more security response headers
 
-### Bugs Fixed
+**Fixed**
 - Fix process schedule postpone won't work
 - Fix task run from agentpool won't update its state to its queue item after completed
 - Fix CSP when show formio
@@ -182,7 +242,7 @@ displayed_sidebar: centerSidebar
 
 ## v3.0.1.3
 
-### New features
+**New features**
 - [Messages] Enhance error messages to provide clearer descriptions for users.
 - [Agent] Agents will now automatically connect to the Center in the event of changing the license key to switch to a different license model.
 - Default organizational unit (OU) has been added for users authenticating via the API server.
@@ -191,10 +251,10 @@ displayed_sidebar: centerSidebar
 - Add an option for Trigger->Task->State condition to trigger task during specific time range.
 - Strengthened security measures.
 
-### Feature availability
+**Feature availability**
 - [Trigger] When user configures activities for a trigger and selects "Send mail," the suggested email content will now include additional "Task Info" details.
 
-### Bug fixes
+**Fixed**
 - [Asset] Users were unable to update values in the "Value per agent" tab.
 - [Process Builder] Users were unable to add a new item in the "To" field when designing a Notification task.
 - [Home] The count of pending tasks displayed in the Collaboration Center section on the Menu bar was incorrect.
@@ -209,7 +269,7 @@ displayed_sidebar: centerSidebar
 
 ## v3.0.1.2 
 
-### New features
+**New features**
 1. [Task] When a task is triggered to run by  Desktop Trigger, the source field of that task in the task list will display "Desktop Trigger."
 
 2. [Task] Error message when creating a new task with multiple selected agent
@@ -260,7 +320,7 @@ displayed_sidebar: centerSidebar
 -  Allows you to set up an activity to stop another running workflow.
 - When creating a new trigger and selecting "Send Email" as an activity, it is suggested to add an "Error Info" field to display detailed error information when running the task. Additionally, supporting HTML formatting within the email allows users to format text (e.g., bold, italic) conveniently.
 
-### Bug fixes
+**Fixed**
 1. [Workflow] Duplicated output workflow parameters.
 
 2. [Task] Can't stop running task.
@@ -299,79 +359,76 @@ displayed_sidebar: centerSidebar
 
 ## v3.0.0.0
 
-### New features
+**New features**
 - [Update] Dashboard: Components on the dashboard were restructured.
 - [Update] The UI was improved with a friendlier style.
 - [Update] Add new schedule: Easier for you to create some special schedules without using Cron Expression. This screen covers more cases of schedule.
 
-**Feature availability**
-- [Add] Quick Navigation: From the dashboard, you can easily navigate to a page, package, agent, agent group, workflow, asset, queue, schedule,…
-- [Add] "Quick Create" button: Quickly create a Task/ Schedule/Workflow/Trigger/Agent from the dashboard.
-- [Add] Holidays setting: Set up holidays for Bots.
-- [Add] Productivity tab:  View all Agent's activities on a calendar. So that you can create a schedule for Bots from here easily and make the best use of Agents.
-- [Add] Token management: Easier to create a new token to access the API without sending account and password to the third party.
-- [Add] Clean data: Delete the unnecessary data to improve the whole system's performance.
-- [Add] Agent pool: Make the best use of Agents by setting a pool for them. The available Agents in the pool will be assigned automatically when a request was created.
+**Added**
+- Quick Navigation: From the dashboard, you can easily navigate to a page, package, agent, agent group, workflow, asset, queue, schedule,…
+- "Quick Create" button: Quickly create a Task/ Schedule/Workflow/Trigger/Agent from the dashboard.
+- Holidays setting: Set up holidays for Bots.
+- Productivity tab:  View all Agent's activities on a calendar. So that you can create a schedule for Bots from here easily and make the best use of Agents.
+- Token management: Easier to create a new token to access the API without sending account and password to the third party.
+- Clean data: Delete the unnecessary data to improve the whole system's performance.
+- Agent pool: Make the best use of Agents by setting a pool for them. The available Agents in the pool will be assigned automatically when a request was created.
 
-### Bug fixes
-- [Fix] Agent’s performance was improved.
-- [Fix] Token expiration was fixed to be more flexible.
+**Fixed**
+- Agent’s performance was improved.
+- Token expiration was fixed to be more flexible.
 
 --- 
 
 ## v2.2.0.1
 
-### New features
-- [Update] Upgrade angular version (from 5 to 11)
+**New features**
+- Upgrade angular version (from 5 to 11)
 
-### Feature availability
+**Added**
+- Import/export function for adding assets.
+- Allow admin role to reset password
+- Encrypt & decrypt credential (agent, asset)
+- Enable OU audit
 
-- [Added] Import/export function for adding assets.
-- [Add] Allow admin role to reset password
-- [Add] Encrypt & decrypt credential (agent, asset)
-- [Add] Enable OU audit
-
-### Bug fixes
-
-- [Fix] System will not log audit when change robot in schedule
-- [Fix] Cannot delete package
-- [Fix] Log message from agent incorrect order
-- [Fix] Not refresh list OU of user when changed from browser other
-- [Fix] Access webhook by OU
-- [Fix] Checking the OU of the user on API
-- [Fix] Security improvement
+**Fixed**
+- System will not log audit when change robot in schedule
+- Cannot delete package
+- Log message from agent incorrect order
+- Not refresh list OU of user when changed from browser other
+- Access webhook by OU
+- Checking the OU of the user on API
+- Security improvement
 
 ---
 
 ## v2.0.5.5
 
-### New features
+**New features**
 - [Updated] License activation is possible before StartDate.
 - [Updated] Expand Info display field to much wider (2 col x 2 lines) on Task details page.
 - [Updated] Expand Description, Release Note display field to much wider (2 col) on Package Repository details page.
 
-### Feature availability
+**Added**
 
-* [Added] Connection confirmation function added to Agent setting screen.
-* [Added] Add information to the package repository.
-* [Added] Add RDP Settings for Agent.
+* Connection confirmation function added to Agent setting screen.
+* Add information to the package repository.
+* Add RDP Settings for Agent.
 
-### Bug fixes
-
-- [Fixed] Fix Agent will not be selected when it's in the 3rd page onwards when clone task.
-- [Fixed] Show error message Cannot read property jobKey/toString of undefined on the Task details page.
-- [Fixed] Showing the wrong result when the filter starts time by minutes/hours. Similar error at Task, Log, entity-audit listing pages.
+**Fixed**
+- Fix Agent will not be selected when it's in the 3rd page onwards when clone task.
+- Show error message Cannot read property jobKey/toString of undefined on the Task details page.
+- Showing the wrong result when the filter starts time by minutes/hours. Similar error at Task, Log, entity-audit listing pages.
 
 ---
 
 ## v2.0.5.4
 
-### New features
-- [Added] License expires.
-- [Added] Add filter to queue detail screen.
-- [Added] Show Agent Version.
-- [Added] The name of the user who created each process is displayed.
-- [Added] Improve filters.
+**Added**
+- License expires.
+- Add filter to queue detail screen.
+- Show Agent Version.
+- The name of the user who created each process is displayed.
+- Improve filters.
 ---
 
 > **Note:** Contact our [support team](mailto:support@akabot.com) to get download password.
