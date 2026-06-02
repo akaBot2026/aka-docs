@@ -1,10 +1,9 @@
 {
-  "label": "AI Services",
-  "position": 1,
+  "label": "AI Service Activities",
+  "position": 14,
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
-    "type": "generated-index",
-    "description": "AI Services activity package providing AI-powered automation activities."
+    "type": "generated-index"
   }
 }
