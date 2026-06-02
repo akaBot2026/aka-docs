@@ -20,8 +20,6 @@ With this activity, you can initiates a new task via Center to be picked up by a
 
 ## **In the body of activity**
 
-## **In the body of activity**
-
 * **Workflow** – Select the workflow to be executed as a task.
 * **Robot** – Select the robot that will execute the task.
 * **Parameters** – Click here to configure the input parameters passed to the selected workflow.
