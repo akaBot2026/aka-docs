@@ -1,7 +1,7 @@
 ---
 id: start-task
 title: "Start Task"
-sidebar_label: "start-task"
+sidebar_label: "Start Task"
 sidebar_position: 3
 description: "start-task activity documentation."
 displayed_sidebar: activitiesSidebar
