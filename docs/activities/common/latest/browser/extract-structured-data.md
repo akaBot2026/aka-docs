@@ -64,7 +64,7 @@ How to use Extract Wizard to indicate structure data config.
 
 **1. Open Wizard**
 Click Open Wizard on Activity Designer.
-![open-window.png](/static/img/open-window.png)
+![openmwizard.png](/static/img/openmwizard.png)
 
 **2. Add Column**
 On Extract Data Wizard. Click Add Column to indicate the data to extract.
