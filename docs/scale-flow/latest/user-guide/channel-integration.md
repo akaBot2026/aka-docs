@@ -127,12 +127,12 @@ The connection is successful when:
 - **Reconnect**: use this if the connection expires or stops working.
 - **Delete**: removes the Zalo OA from ScaleFlow. New customer messages from this OA will stop arriving in Inbox.
 
-## Connect Messenger or WhatsApp
+## Connect Messenger
 
-Messenger and WhatsApp follow a similar connection flow:
+Messenger follows a simple connection flow:
 
 1. Open **Channels**.
-2. Select **Messenger** or **WhatsApp** from the left panel.
+2. Select **Messenger** from the left panel.
 3. Click **Connect**.
 4. Sign in with the business account for that platform.
 5. Approve the requested access.
@@ -140,6 +140,13 @@ Messenger and WhatsApp follow a similar connection flow:
 7. The connection is successful when the account appears in **Connected accounts**.
 
 If the process takes too long, click **Cancel** and try again.
+
+## Connect WhatsApp Business API
+
+Unlike Messenger, connecting a WhatsApp Business API account involves several pre-requisites and setup steps.
+
+Please refer to the dedicated [Connecting Your WhatsApp Business API Account](./whatsapp/connecting-your-whatsapp-business-api-account) guide for detailed requirements and step-by-step instructions.
+
 
 ## Connect Telegram
 
