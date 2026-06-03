@@ -9,6 +9,32 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — Release Notes
 
+## v4.0.0.14
+
+**Updated**
+
+* **Schedule**
+  - Reworked the logic and UI for selecting Agent Group / Agent Pool when creating a schedule: only one can be selected at a time, and the two tabs have been merged into one.
+
+* **Agent Pool**
+  - Disabled workflow changes when editing an agent pool.
+
+**Fixed**
+
+* **Package**
+  - Fixed a package upload bug to better support browsers when classifying the MIME type of uploaded files.
+
+* **Calendar**
+  - Fixed missing agent schedule display on the calendar.
+  - Fixed incorrect calendar display when holiday settings are configured.
+
+* **Schedule**
+  - Fixed incorrect information displayed in schedule detail (Last Run Time and Next Run Time).
+
+* **Agent Pool**
+  - Fixed a bug where an agent not belonging to the selected workflow's agent group could be incorrectly selected.
+
+---
 ## v4.0.0.13
 
 **Fixed**
