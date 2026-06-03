@@ -1,6 +1,6 @@
 ---
 id: stop-task
-title: "stop-task"
+title: "Stop Task"
 sidebar_label: "stop-task"
 sidebar_position: 2
 description: "stop-task activity documentation."

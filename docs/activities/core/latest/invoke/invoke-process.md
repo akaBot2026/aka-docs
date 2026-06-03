@@ -1,6 +1,6 @@
 ---
 id: invoke-process
-title: "invoke-process"
+title: "Invoke Process"
 sidebar_label: "invoke-process"
 sidebar_position: 6
 description: "invoke-process activity documentation."
@@ -45,12 +45,12 @@ With this activity, you can invoke a process using process directory of process 
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: Invoke Process
 
-### **Options**
+**Options**
 
 * **Arguments (Dictionary\<String, Argument\>)** - A dictionary of arguments to be passed into or returned from the invoked process. In and In/Out arguments are sent to the invoked process. Out and In/Out arguments can receive values returned by the invoked process.
 * **Throws On Process Exception (Boolean)** - Specifies whether the activity should throw an exception when an exception occurs within the invoked process. Default value: True.
 
-### **Output**
+**Output**
 
 * **Exception Message (String)** - Exception message from process execution.
 * **Exit Code (Int32)** - Integer code returned from process execution.

@@ -1,6 +1,6 @@
 ---
 id: start-task
-title: "start-task"
+title: "Start Task"
 sidebar_label: "start-task"
 sidebar_position: 3
 description: "start-task activity documentation."
@@ -35,7 +35,7 @@ With this activity, you can initiates a new task via Center to be picked up by a
 * **Public (Checkbox)**- If you check it, the data of this activity will be shown in the log. Be careful, consider data security before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
 
-### **Output**
+**Output**
 
 * **Task Id `OutArgument<Int32>`:** Outputs the ID of the task that was started.
 

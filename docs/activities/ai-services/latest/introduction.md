@@ -39,21 +39,21 @@ This package is provider-agnostic, allowing you to connect to and transition bet
 The package includes the following activities categorized by function:
 
 ### 1. Connection & Scope
-* **[AI Scope](./latest/ai-scope.md)**: Authenticates with the selected provider (OpenAI, Gemini, Anthropic, or Azure OpenAI) using your API Key and Model configurations, serving as the execution scope for all other AI activities.
+* **[AI Scope](/docs/activities/ai-services/latest/ai-scope.md)**: Authenticates with the selected provider (OpenAI, Gemini, Anthropic, or Azure OpenAI) using your API Key and Model configurations, serving as the execution scope for all other AI activities.
 
 ### 2. Chat Completion
 These activities let you build interactive conversational workflows using standard chat endpoints:
-* **[Generate Chat Completion](./latest/generate-chat-completion.md)**: Drives chat interactions using **OpenAI** models.
-* **[Generate Chat Completion Using Gemini](./latest/generate-chat-completion-using-gemini.md)**: Drives chat interactions using **Google Gemini** models.
-* **[Generate Chat Completion Using Anthropic](./latest/generate-chat-completion-using-anthropic.md)**: Drives chat interactions using **Anthropic Claude** models.
-* **[Generate Chat Response Azure OpenAI](./latest/generate-chat-response-azure-openai.md)**: Drives chat interactions using **Azure OpenAI** hosted models.
+* **[Generate Chat Completion](/docs/activities/ai-services/latest/openai/generate-chat-completion.md)**: Drives chat interactions using **OpenAI** models.
+* **[Generate Chat Completion Using Gemini](/docs/activities/ai-services/latest/gemini/generate-chat-completion-using-gemini.md)**: Drives chat interactions using **Google Gemini** models.
+* **[Generate Chat Completion Using Anthropic](/docs/activities/ai-services/latest/anthropic/generate-chat-completion-using-anthropic.md)**: Drives chat interactions using **Anthropic Claude** models.
+* **[Generate Chat Response Azure OpenAI](/docs/activities/ai-services/latest/azure-openai/generate-chat-response-azure-openai.md)**: Drives chat interactions using **Azure OpenAI** hosted models.
 
 ### 3. Text Completion
 These activities generate singular completions or handle prompt-and-response tasks:
-* **[Generate Text Completion](./latest/generate-text-completion.md)**: Performs text completion using **OpenAI** models.
-* **[Generate Text Completion Using Gemini](./latest/generate-text-completion-using-gemini.md)**: Performs text completion using **Google Gemini** models.
-* **[Generate Text Completion Using Anthropic](./latest/generate-text-completion-using-anthropic.md)**: Performs text completion using **Anthropic Claude** models.
-* **[Generate Text Response Azure OpenAI](./latest/generate-text-response-azure-openai.md)**: Performs text completion using **Azure OpenAI** hosted models.
+* **[Generate Text Completion](/docs/activities/ai-services/latest/openai/generate-text-completion.md)**: Performs text completion using **OpenAI** models.
+* **[Generate Text Completion Using Gemini](/docs/activities/ai-services/latest/gemini/generate-text-completion-using-gemini.md)**: Performs text completion using **Google Gemini** models.
+* **[Generate Text Completion Using Anthropic](/docs/activities/ai-services/latest/anthropic/generate-text-completion-using-anthropic.md)**: Performs text completion using **Anthropic Claude** models.
+* **[Generate Text Response Azure OpenAI](/docs/activities/ai-services/latest/azure-openai/generate-text-response-azure-openai.md)**: Performs text completion using **Azure OpenAI** hosted models.
 
 ---
 

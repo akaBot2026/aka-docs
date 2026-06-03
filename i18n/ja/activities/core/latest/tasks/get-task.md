@@ -1,6 +1,6 @@
 ---
 id: get-task
-title: "get-task"
+title: "Get Task"
 sidebar_label: "get-task"
 sidebar_position: 1
 description: "get-task activity documentation."

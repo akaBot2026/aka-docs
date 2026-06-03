@@ -39,21 +39,21 @@ displayed_sidebar: activitiesSidebar
 このパッケージには、機能別に次のアクティビティが含まれます:
 
 ### 1. 接続とスコープ
-* **[AI Scope](./latest/ai-scope.md)**: 選択したプロバイダー（OpenAI、Gemini、Anthropic、または Azure OpenAI）に API キーとモデル構成で認証し、他の AI アクティビティの実行スコープとして機能します。
+* **[AI Scope](/i18n/ja/activities/ai-services/latest/ai-scope.md)**: 選択したプロバイダー（OpenAI、Gemini、Anthropic、または Azure OpenAI）に API キーとモデル構成で認証し、他の AI アクティビティの実行スコープとして機能します。
 
 ### 2. チャット補完
 これらのアクティビティは標準のチャットエンドポイントを使用して対話型ワークフローを構築できます:
-* **[Generate Chat Completion](./latest/generate-chat-completion.md)**: **OpenAI** モデルを使用してチャット対話を生成します。
-* **[Generate Chat Completion Using Gemini](./latest/generate-chat-completion-using-gemini.md)**: **Google Gemini** モデルを使用してチャット対話を生成します。
-* **[Generate Chat Completion Using Anthropic](./latest/generate-chat-completion-using-anthropic.md)**: **Anthropic Claude** モデルを使用してチャット対話を生成します。
-* **[Generate Chat Response Azure OpenAI](./latest/generate-chat-response-azure-openai.md)**: **Azure OpenAI** ホストモデルを使用してチャット対話を生成します。
+* **[Generate Chat Completion](/i18n/ja/activities/ai-services/latest/openai/generate-chat-completion.md)**: **OpenAI** モデルを使用してチャット対話を生成します。
+* **[Generate Chat Completion Using Gemini](/i18n/ja/activities/ai-services/latest/gemini/generate-chat-completion-using-gemini.md)**: **Google Gemini** モデルを使用してチャット対話を生成します。
+* **[Generate Chat Completion Using Anthropic](/i18n/ja/activities/ai-services/latest/anthropic/generate-chat-completion-using-anthropic.md)**: **Anthropic Claude** モデルを使用してチャット対話を生成します。
+* **[Generate Chat Response Azure OpenAI](/i18n/ja/activities/ai-services/latest/azure-openai/generate-chat-response-azure-openai.md)**: **Azure OpenAI** ホストモデルを使用してチャット対話を生成します。
 
 ### 3. テキスト補完
 これらのアクティビティは単一の補完生成やプロンプトと応答のタスクを扱います:
-* **[Generate Text Completion](./latest/generate-text-completion.md)**: **OpenAI** モデルを使用してテキスト補完を行います。
-* **[Generate Text Completion Using Gemini](./latest/generate-text-completion-using-gemini.md)**: **Google Gemini** モデルを使用してテキスト補完を行います。
-* **[Generate Text Completion Using Anthropic](./latest/generate-text-completion-using-anthropic.md)**: **Anthropic Claude** モデルを使用してテキスト補完を行います。
-* **[Generate Text Response Azure OpenAI](./latest/generate-text-response-azure-openai.md)**: **Azure OpenAI** ホストモデルを使用してテキスト応答を生成します。
+* **[Generate Text Completion](/i18n/ja/activities/ai-services/latest/openai/generate-text-completion.md)**: **OpenAI** モデルを使用してテキスト補完を行います。
+* **[Generate Text Completion Using Gemini](/i18n/ja/activities/ai-services/latest/gemini/generate-text-completion-using-gemini.md)**: **Google Gemini** モデルを使用してテキスト補完を行います。
+* **[Generate Text Completion Using Anthropic](/i18n/ja/activities/ai-services/latest/anthropic/generate-text-completion-using-anthropic.md)**: **Anthropic Claude** モデルを使用してテキスト補完を行います。
+* **[Generate Text Response Azure OpenAI](/i18n/ja/activities/ai-services/latest/azure-openai/generate-text-response-azure-openai.md)**: **Azure OpenAI** ホストモデルを使用してテキスト応答を生成します。
 
 ---
 

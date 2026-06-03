@@ -1,6 +1,6 @@
 ---
 id: start-process
-title: "start-process"
+title: "Start Process"
 sidebar_label: "start-process"
 sidebar_position: 5
 description: "start-process activity documentation."

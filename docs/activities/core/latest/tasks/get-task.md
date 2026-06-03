@@ -1,6 +1,6 @@
 ---
 id: get-task
-title: "get-task"
+title: "Get Task"
 sidebar_label: "get-task"
 sidebar_position: 1
 description: "get-task activity documentation."
@@ -41,10 +41,10 @@ The activity offers two interface modes to configure your search filters: the vi
 
 * **Public (Checkbox)**- If you check it, the data of this activity will be shown in the log. Be careful, consider data security before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
-### **Options**
+**Options**
 
 * **Newest first** - Set to true to sort tasks by creation date in descending order, set to false to sort in ascending order.
 
-### **Output**
+**Output**
 
 * **Result Tasks: `OutArgument<IEnumerable<TaskModel>>`** - The retrieve tasks
