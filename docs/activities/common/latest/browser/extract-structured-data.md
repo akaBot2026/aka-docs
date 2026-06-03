@@ -10,6 +10,9 @@ displayed_sidebar: activitiesSidebar
 
 RCA.Activities.Common.ExtractStructuredData
 
+## **Requirement**
+Activity should be placed inside Open Browser/Attach Browser Activity.
+
 ## **Description**
 
 The Extract Structured Data allows you to extract structured data from a specified webpage.
@@ -53,3 +56,33 @@ The Extract Structured Data allows you to extract structured data from a specifi
 **Output**
 
 * **Result (Data Table)** - The outputted data with type = ‘DataTable’.
+
+## **Extract Wizard**
+How to use Extract Wizard to indicate structure data config.
+
+**Steps**
+
+**1. Open Wizard**
+Click Open Wizard on Activity Designer.
+![open-window.png](/static/img/open-window.png)
+
+**2. Add Column**
+On Extract Data Wizard. Click Add Column to indicate the data to extract.
+![6d3bf057-452a-41ca-aaf9-c73cdc79e8c1.png](/static/img/6d3bf057-452a-41ca-aaf9-c73cdc79e8c1.png)
+
+Select the field on data to Extract
+![8a8d282c-5a21-4128-8b48-49de9b5568bb.png](/static/img/8a8d282c-5a21-4128-8b48-49de9b5568bb.png)
+
+Columns and preview data would show up in the wizard.
+![dbe3431e-e416-4f29-af1f-54e51095a234.png](/static/img/dbe3431e-e416-4f29-af1f-54e51095a234.png)
+
+**3. Add Next Page Seletor (Optional)*
+Indicate next page to Help with pagination
+![767d948d-9ce1-4512-8d04-06bdb5cea560.png](/static/img/767d948d-9ce1-4512-8d04-06bdb5cea560.png)
+![e4fd7ae1-71e2-4451-bc02-dc49f326a37e.png](/static/img/e4fd7ae1-71e2-4451-bc02-dc49f326a37e.png)
+
+**4. Save Config*
+Click Save to save config for extraction
+![5434e7be-4bbf-42cb-b072-7b6a5cea93ce.png](/static/img/5434e7be-4bbf-42cb-b072-7b6a5cea93ce.png)
+
+
