@@ -33,11 +33,11 @@ Active Directory からグループを削除します。
 
 **入力 - 既存プリンシパル**
 
-* **Existing Group: InArgument<GroupPrincipal>** - 削除したい既存のグループ。
+* **Existing Group: `InArgument<GroupPrincipal>`** - 削除したい既存のグループ。
 
 **入力 - グループ情報**
 
-* **Group Name: InArgument<String>** - 削除したいグループ名。
+* **Group Name: `InArgument<String>`** - 削除したいグループ名。
 
 **その他**
 
@@ -52,5 +52,5 @@ Active Directory からグループを削除します。
 
 **出力**
 
-* **Delete Success: OutArgument<Boolean>** - グループが正常に削除された場合は True、そうでない場合は False。
+* **Delete Success: `OutArgument<Boolean>`** - グループが正常に削除された場合は True、そうでない場合は False。
 

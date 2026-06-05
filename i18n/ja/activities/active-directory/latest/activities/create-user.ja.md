@@ -37,17 +37,17 @@ Active Directory に新しいユーザーを作成します。
 
 * **Additional Properties: `Dictionary<String,Argument>`** - ユーザーの追加プロパティ。
 
-* **Description: InArgument<String>** - ユーザーの説明。
+* **Description: `InArgument<String>`** - ユーザーの説明。
 
-* **Display Name: InArgument<String>** - ユーザーの表示名。
+* **Display Name: `InArgument<String>`** - ユーザーの表示名。
 
-* **First Name: InArgument<String>** - ユーザーの名。
+* **First Name: `InArgument<String>`** - ユーザーの名。
 
-* **Last Name: InArgument<String>** - ユーザーの姓。
+* **Last Name: `InArgument<String>`** - ユーザーの姓。
 
-* **Password: InArgument<String>** - ユーザーアカウントのパスワード。
+* **Password: `InArgument<String>`** - ユーザーアカウントのパスワード。
 
-* **SAM Account Name: InArgument<String>** - ユーザーの SAM アカウント名。
+* **SAM Account Name: `InArgument<String>`** - ユーザーの SAM アカウント名。
 
 **その他**
 

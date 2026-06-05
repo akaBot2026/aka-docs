@@ -35,11 +35,11 @@ Active Directory に新しいグループを作成します。
 
 * **Additional Properties: `Dictionary<String,Argument>`** - グループの追加プロパティ。
 
-* **Group Name: InArgument<String>*** - 作成したいグループの名前。
+* **Group Name: `InArgument<String>`*** - 作成したいグループの名前。
 
 * **Group Scope: GroupScope** - このグループプリンシパルのスコープを指定します（Local, Global, Universal）。
 
-* **Is Security Group: Nullable<Boolean>** - グループがセキュリティ有効かどうかを示します（True - セキュリティグループ、False - 配布グループ）。
+* **Is Security Group: `Nullable<Boolean>`** - グループがセキュリティ有効かどうかを示します（True - セキュリティグループ、False - 配布グループ）。
 
 **その他**
 

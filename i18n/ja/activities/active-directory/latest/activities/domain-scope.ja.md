@@ -26,17 +26,17 @@ Active Directory アクティビティのスコープを定義できるコンテ
 
 **入力 - ドメインコンテキスト**
 
-* **Domain Context: InArgument`PrincipalContext`** - 使用するドメインコンテキスト。
+* **Domain Context: `InArgument<PrincipalContext>`** - 使用するドメインコンテキスト。
 
 **入力 - ドメイン情報**
 
-* **Container: InArgument<String>** - コンテナまたは組織単位（OU）の識別名 (DN)（例: `OU=Sales,DC=domain,DC=com`）。
+* **Container: `InArgument<String>`** - コンテナまたは組織単位（OU）の識別名 (DN)（例: `OU=Sales,DC=domain,DC=com`）。
 
-* **Domain Name: InArgument<String>*** - 接続する Active Directory ドメインの名前。
+* **Domain Name: `InArgument<String>`*** - 接続する Active Directory ドメインの名前。
 
-* **Domain Password: InArgument<String>** - ドメインへの接続に使用するユーザー資格情報のパスワード。
+* **Domain Password: `InArgument<String>`** - ドメインへの接続に使用するユーザー資格情報のパスワード。
 
-* **Domain Username: InArgument<String>** - ドメインに接続するために使用するユーザー名資格情報。
+* **Domain Username: `InArgument<String>`** - ドメインに接続するために使用するユーザー名資格情報。
 
 **その他**
 
@@ -55,5 +55,5 @@ Active Directory アクティビティのスコープを定義できるコンテ
 
 **出力**
 
-* **Output Context: OutArgument`PrincipalContext`** - 作成された Active Directory 接続コンテキストの出力で、他の Active Directory アクティビティに渡すことができます。
+* **Output Context: `OutArgument<PrincipalContext>`** - 作成された Active Directory 接続コンテキストの出力で、他の Active Directory アクティビティに渡すことができます。
 

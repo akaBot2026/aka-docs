@@ -35,9 +35,9 @@ Active Directory に新しいコンピューターを作成します。
 
 * **Additional Properties: `Dictionary<String,Argument>`** - コンピューターの追加プロパティ。
 
-* **Password: InArgument<String>** - コンピューターアカウントのパスワード。
+* **Password: `InArgument<String>`** - コンピューターアカウントのパスワード。
 
-* **SAM Account Name: InArgument<String>*** - コンピューターの SAM アカウント名。
+* **SAM Account Name: `InArgument<String>`*** - コンピューターの SAM アカウント名。
 
 **その他**
 

@@ -32,7 +32,7 @@ Active Directory からコンピューターを取得します。
   - False: プロセスの実行を継続しません。
 **入力 - コンピューター情報**
 
-* **SAM Account Name: InArgument<String>*** - 取得したいコンピューターの SAM アカウント名。
+* **SAM Account Name: `InArgument<String>`*** - 取得したいコンピューターの SAM アカウント名。
 
 **その他**
 
@@ -47,5 +47,5 @@ Active Directory からコンピューターを取得します。
 
 **出力**
 
-* **Output Computer: OutArgument<ComputerPrincipal>** - 取得されたコンピューターオブジェクト。
+* **Output Computer: `OutArgument<ComputerPrincipal>`** - 取得されたコンピューターオブジェクト。
 

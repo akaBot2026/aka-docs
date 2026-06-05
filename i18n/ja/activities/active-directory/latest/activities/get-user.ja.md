@@ -33,7 +33,7 @@ Active Directory からユーザーを取得します。
 
 **入力 - ユーザー情報**
 
-* **SAM Account Name: InArgument<String>*** - 取得したいユーザーの SAM アカウント名。
+* **SAM Account Name: `InArgument<String>`*** - 取得したいユーザーの SAM アカウント名。
 
 **その他**
 
@@ -48,5 +48,5 @@ Active Directory からユーザーを取得します。
 
 **出力**
 
-* **Output User: OutArgument<UserPrincipal>** - 取得されたユーザーオブジェクト。
+* **Output User: `OutArgument<UserPrincipal>`** - 取得されたユーザーオブジェクト。
 

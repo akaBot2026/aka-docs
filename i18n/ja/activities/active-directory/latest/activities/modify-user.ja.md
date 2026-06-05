@@ -35,11 +35,11 @@ Active Directory 内の既存のユーザーを変更します。
 
 **入力 - ユーザー情報**
 
-* **SAM Account Name: InArgument<String>*** - 変更したいユーザーの SAM アカウント名。
+* **SAM Account Name: `InArgument<String>`*** - 変更したいユーザーの SAM アカウント名。
 
 **入力 - 既存プリンシパル**
 
-* **Existing User: InArgument<UserPrincipal>** - 変更したいユーザー。
+* **Existing User: `InArgument<UserPrincipal>`** - 変更したいユーザー。
 
 **その他**
 
@@ -58,5 +58,5 @@ Active Directory 内の既存のユーザーを変更します。
 
 **出力**
 
-* **Output User: OutArgument<UserPrincipal>** - 変更後のユーザーオブジェクト。
+* **Output User: `OutArgument<UserPrincipal>`** - 変更後のユーザーオブジェクト。
 

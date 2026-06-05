@@ -33,11 +33,11 @@ Active Directory 内の既存のコンピューターを変更します。
   - False: プロセスの実行を継続しません。
 **入力 - コンピューター情報**
 
-* **SAM Account Name: InArgument<String>*** - 変更したいコンピューターの SAM アカウント名。
+* **SAM Account Name: `InArgument<String>`*** - 変更したいコンピューターの SAM アカウント名。
 
 **入力 - 既存プリンシパル**
 
-* **Existing Computer: InArgument<ComputerPrincipal>** - 変更したいコンピューター。
+* **Existing Computer: `InArgument<ComputerPrincipal>`** - 変更したいコンピューター。
 
 **その他**
 
@@ -56,5 +56,5 @@ Active Directory 内の既存のコンピューターを変更します。
 
 **出力**
 
-* **Output Computer: OutArgument<ComputerPrincipal>** - 変更後のコンピューターオブジェクト。
+* **Output Computer: `OutArgument<ComputerPrincipal>`** - 変更後のコンピューターオブジェクト。
 

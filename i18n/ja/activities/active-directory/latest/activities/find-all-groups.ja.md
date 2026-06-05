@@ -33,7 +33,7 @@ Active Directory からグループのリストを取得します。
 
 **入力 - グループ情報**
 
-* **Group Name: InArgument<String>*** - 取得したいグループの名前。
+* **Group Name: `InArgument<String>`*** - 取得したいグループの名前。
 
 **その他**
 
@@ -48,5 +48,5 @@ Active Directory からグループのリストを取得します。
 
 **出力**
 
-* **Output Groups: OutArgument<IEnumerable<GroupPrincipal>>** - 取得されたグループのリスト。
+* **Output Groups: `OutArgument<IEnumerable<GroupPrincipal>>`** - 取得されたグループのリスト。
 

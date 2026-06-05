@@ -33,11 +33,11 @@ Active Directory からユーザーを削除します。
 
 **入力 - 既存プリンシパル**
 
-* **Existing User: InArgument<UserPrincipal>** - 削除したい既存のユーザー。
+* **Existing User: `InArgument<UserPrincipal>`** - 削除したい既存のユーザー。
 
 **入力 - ユーザー情報**
 
-* **SAM Account Name: InArgument<String>** - 削除したい既存のユーザー名。
+* **SAM Account Name: `InArgument<String>`** - 削除したい既存のユーザー名。
 
 **その他**
 
@@ -52,5 +52,5 @@ Active Directory からユーザーを削除します。
 
 **出力**
 
-* **Delete Success: OutArgument<Boolean>** - ユーザーが正常に削除された場合は True、そうでない場合は False。
+* **Delete Success: `OutArgument<Boolean>`** - ユーザーが正常に削除された場合は True、そうでない場合は False。
 

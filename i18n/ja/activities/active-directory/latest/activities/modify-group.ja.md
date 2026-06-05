@@ -34,11 +34,11 @@ Active Directory 内の既存のグループを変更します。
 
 **入力 - グループ情報**
 
-* **Group Name: InArgument<String>*** - 変更したいグループの名前。
+* **Group Name: `InArgument<String>`*** - 変更したいグループの名前。
 
 **入力 - 既存プリンシパル**
 
-* **Existing Group: InArgument<GroupPrincipal>** - 変更したいグループ。
+* **Existing Group: `InArgument<GroupPrincipal>`** - 変更したいグループ。
 
 **その他**
 
@@ -57,5 +57,5 @@ Active Directory 内の既存のグループを変更します。
 
 **出力**
 
-* **Output Group: OutArgument<GroupPrincipal>** - 変更後のグループオブジェクト。
+* **Output Group: `OutArgument<GroupPrincipal>`** - 変更後のグループオブジェクト。
 

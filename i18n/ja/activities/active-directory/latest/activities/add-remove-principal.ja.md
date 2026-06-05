@@ -34,9 +34,9 @@ Active Directory のグループにプリンシパルを追加または削除し
 
 **入力**
 
-* **Group: InArgument`GroupPrincipal`*** - プリンシパルを追加する、または削除する対象のグループ
+* **Group: `InArgument<GroupPrincipal>`*** - プリンシパルを追加する、または削除する対象のグループ
 
-* **Principal: InArgument<Principal>*** - 追加または削除されるプリンシパル
+* **Principal: `InArgument<Principal>`*** - 追加または削除されるプリンシパル
 
 **その他**
 
@@ -51,5 +51,5 @@ Active Directory のグループにプリンシパルを追加または削除し
 
 **出力**
 
-* **Remove Success: OutArgument<Boolean>** - 削除操作の結果を指定します。Action が Add の場合は false を返します。
+* **Remove Success: `OutArgument<Boolean>`** - 削除操作の結果を指定します。Action が Add の場合は false を返します。
 

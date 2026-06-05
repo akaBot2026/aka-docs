@@ -33,7 +33,7 @@ Active Directory からユーザーのリストを取得します。
 
 **入力 - ユーザー情報**
 
-* **SAM Account Name: InArgument<String>*** - 取得したいユーザーの SAM アカウント名。
+* **SAM Account Name: `InArgument<String>`*** - 取得したいユーザーの SAM アカウント名。
 
 **その他**
 
@@ -48,5 +48,5 @@ Active Directory からユーザーのリストを取得します。
 
 **出力**
 
-* **Output Users: OutArgument<IEnumerable<UserPrincipal>>** - 取得されたユーザーのリスト。
+* **Output Users: `OutArgument<IEnumerable<UserPrincipal>>`** - 取得されたユーザーのリスト。
 

@@ -33,7 +33,7 @@ Active Directory からコンピューターのリストを取得します。
 
 **入力 - コンピューター情報**
 
-* **SAM Account Name: InArgument<String>*** - 取得したいコンピューターの SAM アカウント名。
+* **SAM Account Name: `InArgument<String>`*** - 取得したいコンピューターの SAM アカウント名。
 
 **その他**
 
@@ -48,5 +48,5 @@ Active Directory からコンピューターのリストを取得します。
 
 **出力**
 
-* **Output Computers: OutArgument<IEnumerable<ComputerPrincipal>>** - 取得されたコンピューターのリスト。
+* **Output Computers: `OutArgument<IEnumerable<ComputerPrincipal>>`** - 取得されたコンピューターのリスト。
 

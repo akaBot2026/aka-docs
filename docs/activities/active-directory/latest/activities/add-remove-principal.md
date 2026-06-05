@@ -34,7 +34,7 @@ Adds or removes a principal from a group in Active Directory.
 
 **Input**
 
-* **Group: InArgument`GroupPrincipal`*** - The group to add the principal to or remove the principal from
+* **Group: `InArgument<GroupPrincipal>`*** - The group to add the principal to or remove the principal from
 
 * **Principal: `InArgument<Principal>`*** - The principal to be added or removed
 
@@ -52,5 +52,5 @@ Adds or removes a principal from a group in Active Directory.
 
 **Output**
 
-* **Remove Success: OutArgument<Boolean>** - Specifies the result of the remove operation. If Action is Add, false is returned
+* **Remove Success: `OutArgument<Boolean>`** - Specifies the result of the remove operation. If Action is Add, false is returned
 

@@ -34,11 +34,13 @@ Active Directory からコンピューターを削除します。
 
 **入力 - コンピューター情報**
 
-* **SAM Account Name: InArgument<String>** - 削除するコンピューターの SAM アカウント名。
+
+* **SAM Account Name: `InArgument<String>`** - 削除するコンピューターの SAM アカウント名。
 
 **入力 - 既存プリンシパル**
 
-* **Existing Computer: InArgument<ComputerPrincipal>** - 既存の ComputerPrincipal オブジェクト。
+
+* **Existing Computer: `InArgument<ComputerPrincipal>`** - 既存の ComputerPrincipal オブジェクト。
 
 **その他**
 
@@ -53,5 +55,5 @@ Active Directory からコンピューターを削除します。
 
 **出力**
 
-* **Delete Success: OutArgument<Boolean>** - コンピューターが正常に削除された場合は True、そうでない場合は False。
+* **Delete Success: `OutArgument<Boolean>`** - コンピューターが正常に削除された場合は True、そうでない場合は False。
 
