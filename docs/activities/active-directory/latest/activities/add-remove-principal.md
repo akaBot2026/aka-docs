@@ -1,4 +1,4 @@
-﻿---
+---
 id: add-remove-principal
 title: "Add/Remove Principal"
 sidebar_label: "Add/Remove Principal"

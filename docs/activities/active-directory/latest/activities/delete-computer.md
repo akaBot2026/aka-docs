@@ -1,4 +1,4 @@
-﻿---
+---
 id: delete-computer
 title: "Delete Computer"
 sidebar_label: "Delete Computer"

@@ -1,4 +1,4 @@
-﻿---
+---
 id: modify-group
 title: "Modify Group"
 sidebar_label: "Modify Group"

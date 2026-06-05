@@ -1,4 +1,4 @@
-﻿---
+---
 id: find-all-users
 title: "Find All Users"
 sidebar_label: "Find All Users"

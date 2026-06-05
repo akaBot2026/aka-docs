@@ -1,4 +1,4 @@
-﻿---
+---
 id: create-computer
 title: "Create Computer"
 sidebar_label: "Create Computer"
