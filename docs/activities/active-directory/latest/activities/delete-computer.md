@@ -34,11 +34,11 @@ Deletes a computer from Active Directory.
 
 **Input - Computer Info**
 
-* **SAM Account Name: InArgument<String>** - The SAM account name of the computer you want to delete.
+* **SAM Account Name: `InArgument<String>`** - The SAM account name of the computer you want to delete.
 
 **Input - Existing Principal**
 
-* **Existing Computer: InArgument<ComputerPrincipal>** - An existing ComputerPrincipal object.
+* **Existing Computer: `InArgument<ComputerPrincipal>`** - An existing ComputerPrincipal object.
 
 **Misc**
 
@@ -54,4 +54,4 @@ Deletes a computer from Active Directory.
 
 **Output**
 
-* **Delete Success: OutArgument<Boolean>** - True if the computer was deleted successfully, False otherwise.
+* **Delete Success: `OutArgument<Boolean>`** - True if the computer was deleted successfully, False otherwise.

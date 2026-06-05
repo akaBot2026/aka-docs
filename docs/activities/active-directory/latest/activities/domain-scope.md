@@ -26,17 +26,17 @@ A container that enables you to define a scope for Active Directory activities.
 
 **Input - Domain Context**
 
-* **Domain Context: InArgument`PrincipalContext`** - The domain context to be used
+* **Domain Context: `InArgument<PrincipalContext>`** - The domain context to be used
 
 **Input - Domain Info**
 
-* **Container: InArgument<String>** - The distinguished name (DN) of the container or Organizational Unit (OU) (e.g., `OU=Sales,DC=domain,DC=com`).
+* **Container: `InArgument<String>`** - The distinguished name (DN) of the container or Organizational Unit (OU) (e.g., `OU=Sales,DC=domain,DC=com`).
 
-* **Domain Name: InArgument<String>*** - The name of the Active Directory domain to connect to.
+* **Domain Name: `InArgument<String>`*** - The name of the Active Directory domain to connect to.
 
-* **Domain Password: InArgument<String>** - The password for the user credential used to connect to the domain.
+* **Domain Password: `InArgument<String>`** - The password for the user credential used to connect to the domain.
 
-* **Domain Username: InArgument<String>** - The username credential used to connect to the domain.
+* **Domain Username: `InArgument<String>`** - The username credential used to connect to the domain.
 
 **Misc**
 
@@ -56,4 +56,4 @@ A container that enables you to define a scope for Active Directory activities.
 
 **Output**
 
-* **Output Context: OutArgument`PrincipalContext`** - The created Active Directory connection context output, which can be passed to other Active Directory activities.
+* **Output Context: `OutArgument<PrincipalContext>`** - The created Active Directory connection context output, which can be passed to other Active Directory activities.

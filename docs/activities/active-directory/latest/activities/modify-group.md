@@ -34,11 +34,11 @@ Modifies an existing group in Active Directory.
 
 **Input - Group Info**
 
-* **Group Name: InArgument<String>*** - The name of the group you want to modify.
+* **Group Name: `InArgument<String>`*** - The name of the group you want to modify.
 
 **Input Existing Principal**
 
-* **Existing Group: InArgument<GroupPrincipal>** - The group you want to modify.
+* **Existing Group: `InArgument<GroupPrincipal>`** - The group you want to modify.
 
 **Misc**
 
@@ -59,5 +59,5 @@ Modifies an existing group in Active Directory.
 
 **Output**
 
-* **Output Group: OutArgument<GroupPrincipal>** - The modified group object.
+* **Output Group: `OutArgument<GroupPrincipal>`** - The modified group object.
 

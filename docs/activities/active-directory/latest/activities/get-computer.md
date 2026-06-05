@@ -32,7 +32,7 @@ Retrieves a computer from Active Directory.
   - False: blocks the process from continuing the execution.
 **Input - Computer Info**
 
-* **SAM Account Name: InArgument<String>*** - The SAM account name of the computer you want to retrieve.
+* **SAM Account Name: `InArgument<String>`*** - The SAM account name of the computer you want to retrieve.
 
 **Misc**
 
@@ -48,5 +48,5 @@ Retrieves a computer from Active Directory.
 
 **Output**
 
-* **Output Computer: OutArgument<ComputerPrincipal>** - The retrieved computer object.
+* **Output Computer: `OutArgument<ComputerPrincipal>`** - The retrieved computer object.
 

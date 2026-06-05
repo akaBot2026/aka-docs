@@ -35,11 +35,11 @@ Modifies an existing user in Active Directory.
 
 **Input - User Info**
 
-* **SAM Account Name: InArgument<String>*** - The SAM account name of the user you want to modify.
+* **SAM Account Name: `InArgument<String>`*** - The SAM account name of the user you want to modify.
 
 **Input Existing Principal**
 
-* **Existing User: InArgument<UserPrincipal>** - The user you want to modify.
+* **Existing User: `InArgument<UserPrincipal>`** - The user you want to modify.
 
 **Misc**
 
@@ -60,5 +60,5 @@ Modifies an existing user in Active Directory.
 
 **Output**
 
-* **Output User: OutArgument<UserPrincipal>** - The modified user object.
+* **Output User: `OutArgument<UserPrincipal>`** - The modified user object.
 

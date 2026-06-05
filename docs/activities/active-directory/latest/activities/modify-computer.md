@@ -33,11 +33,11 @@ Modifies an existing computer in Active Directory.
   - False: blocks the process from continuing the execution.
 **Input - Computer Info**
 
-* **SAM Account Name: InArgument<String>*** - The SAM account name of the computer you want to modify.
+* **SAM Account Name: `InArgument<String>`*** - The SAM account name of the computer you want to modify.
 
 **Input Existing Principal**
 
-* **Existing Computer: InArgument<ComputerPrincipal>** - The computer you want to modify.
+* **Existing Computer: `InArgument<ComputerPrincipal>`** - The computer you want to modify.
 
 **Misc**
 
@@ -58,5 +58,5 @@ Modifies an existing computer in Active Directory.
 
 **Output**
 
-* **Output Computer: OutArgument<ComputerPrincipal>** - The modified computer object.
+* **Output Computer: `OutArgument<ComputerPrincipal>`** - The modified computer object.
 

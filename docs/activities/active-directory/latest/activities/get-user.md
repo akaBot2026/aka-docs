@@ -33,7 +33,7 @@ Retrieves a user from Active Directory.
 
 **Input - User Info**
 
-* **SAM Account Name: InArgument<String>*** - The SAM account name of the user you want to retrieve.
+* **SAM Account Name: `InArgument<String>`*** - The SAM account name of the user you want to retrieve.
 
 **Misc**
 
@@ -49,5 +49,5 @@ Retrieves a user from Active Directory.
 
 **Output**
 
-* **Output User: OutArgument<UserPrincipal>** - The retrieved user object.
+* **Output User: `OutArgument<UserPrincipal>`** - The retrieved user object.
 

@@ -35,11 +35,11 @@ Creates a new group in Active Directory.
 
 * **Additional Properties: `Dictionary<String,Argument>`** - Additional properties for the group.
 
-* **Group Name: InArgument<String>*** - The name of the group you want to create.
+* **Group Name: `InArgument<String>`*** - The name of the group you want to create.
 
 * **Group Scope: GroupScope** - Specifies the scope for this group principal (Local, Global, Universal)
 
-* **Is Security Group: Nullable<Boolean>** - Indicates whether the group is security-enabled (True - Security group, False - Distribution group).
+* **Is Security Group: `Nullable<Boolean>`** - Indicates whether the group is security-enabled (True - Security group, False - Distribution group).
 
 **Misc**
 

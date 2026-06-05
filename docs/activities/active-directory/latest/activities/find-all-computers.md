@@ -33,7 +33,7 @@ Retrieves a list of computers from Active Directory.
 
 **Input - Computer Info**
 
-* **SAM Account Name: InArgument<String>*** - The SAM account name of the computer you want to retrieve.
+* **SAM Account Name: `InArgument<String>`*** - The SAM account name of the computer you want to retrieve.
 
 **Misc**
 
@@ -49,5 +49,5 @@ Retrieves a list of computers from Active Directory.
 
 **Output**
 
-* **Output Computers: OutArgument<IEnumerable<ComputerPrincipal>>** - The retrieved list of computers.
+* **Output Computers: `OutArgument<IEnumerable<ComputerPrincipal>>`** - The retrieved list of computers.
 

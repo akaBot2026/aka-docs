@@ -33,7 +33,7 @@ Retrieves a list of users from Active Directory.
 
 **Input - User Info**
 
-* **SAM Account Name: InArgument<String>*** - The SAM account name of the user you want to retrieve.
+* **SAM Account Name: `InArgument<String>`*** - The SAM account name of the user you want to retrieve.
 
 **Misc**
 
@@ -49,5 +49,5 @@ Retrieves a list of users from Active Directory.
 
 **Output**
 
-* **Output Users: OutArgument<IEnumerable<UserPrincipal>>** - The retrieved list of users.
+* **Output Users: `OutArgument<IEnumerable<UserPrincipal>>`** - The retrieved list of users.
 

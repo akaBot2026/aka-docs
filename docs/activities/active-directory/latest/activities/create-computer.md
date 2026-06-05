@@ -35,9 +35,9 @@ Creates a new computer in Active Directory.
 
 * **Additional Properties: `Dictionary<String,Argument>`** - Additional properties for the computer.
 
-* **Password: InArgument<String>** - The password for the computer account.
+* **Password: `InArgument<String>`** - The password for the computer account.
 
-* **SAM Account Name: InArgument<String>*** - The SAM account name of the computer.
+* **SAM Account Name: `InArgument<String>`*** - The SAM account name of the computer.
 
 **Misc**
 

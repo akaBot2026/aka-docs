@@ -33,7 +33,7 @@ Retrieves a group from Active Directory.
 
 **Input - Group Info**
 
-* **Group Name: InArgument<String>*** - The name of the group you want to retrieve.
+* **Group Name: `InArgument<String>`*** - The name of the group you want to retrieve.
 
 **Misc**
 
@@ -49,5 +49,5 @@ Retrieves a group from Active Directory.
 
 **Output**
 
-* **Output Group: OutArgument<GroupPrincipal>** - The retrieved group object.
+* **Output Group: `OutArgument<GroupPrincipal>`** - The retrieved group object.
 

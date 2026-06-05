@@ -36,7 +36,7 @@ Adds or removes a principal from a group in Active Directory.
 
 * **Group: InArgument`GroupPrincipal`*** - The group to add the principal to or remove the principal from
 
-* **Principal: InArgument<Principal>*** - The principal to be added or removed
+* **Principal: `InArgument<Principal>`*** - The principal to be added or removed
 
 **Misc**
 

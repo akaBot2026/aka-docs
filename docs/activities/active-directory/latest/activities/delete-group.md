@@ -34,11 +34,11 @@ Deletes a group from Active Directory.
 
 **Input - Existing Principal**
 
-* **Existing Group: InArgument<GroupPrincipal>** - An existing group you want to delete.
+* **Existing Group: `InArgument<GroupPrincipal>`** - An existing group you want to delete.
 
 **Input - Group Info**
 
-* **Group Name: InArgument<String>** - The group name you want to delete.
+* **Group Name: `InArgument<String>`** - The group name you want to delete.
 
 **Misc**
 
@@ -54,5 +54,5 @@ Deletes a group from Active Directory.
 
 **Output**
 
-* **Delete Success: OutArgument<Boolean>** - True if the group was deleted successfully, False otherwise.
+* **Delete Success: `OutArgument<Boolean>`** - True if the group was deleted successfully, False otherwise.
 

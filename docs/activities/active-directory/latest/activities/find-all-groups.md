@@ -33,7 +33,7 @@ Retrieves a list of groups from Active Directory.
 
 **Input - Group Info**
 
-* **Group Name: InArgument<String>*** - The name of the group you want to retrieve.
+* **Group Name: `InArgument<String>`*** - The name of the group you want to retrieve.
 
 **Misc**
 
@@ -49,5 +49,5 @@ Retrieves a list of groups from Active Directory.
 
 **Output**
 
-* **Output Groups: OutArgument<IEnumerable<GroupPrincipal>>** - The retrieved list of groups.
+* **Output Groups: `OutArgument<IEnumerable<GroupPrincipal>>`** - The retrieved list of groups.
 

@@ -33,11 +33,11 @@ Deletes a user from Active Directory.
 
 **Input - Existing Principal**
 
-* **Existing User: InArgument<UserPrincipal>** - The existing user you want to delete.
+* **Existing User: `InArgument<UserPrincipal>`** - The existing user you want to delete.
 
 **Input - User Info**
 
-* **SAM Account Name: InArgument<String>** - The existing user name you want to delete.
+* **SAM Account Name: `InArgument<String>`** - The existing user name you want to delete.
 
 **Misc**
 
@@ -53,5 +53,5 @@ Deletes a user from Active Directory.
 
 **Output**
 
-* **Delete Success: OutArgument<Boolean>** - True if the user was deleted successfully, False otherwise.
+* **Delete Success: `OutArgument<Boolean>`** - True if the user was deleted successfully, False otherwise.
 

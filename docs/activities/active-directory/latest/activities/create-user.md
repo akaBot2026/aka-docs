@@ -39,17 +39,17 @@ Creates a new user in Active Directory.
 
 * **Additional Properties: `Dictionary<String,Argument>`** - Additional properties for the user.
 
-* **Description: InArgument<String>** - The description of the user.
+* **Description: `InArgument<String>`** - The description of the user.
 
-* **Display Name: InArgument<String>** - The display name of the user.
+* **Display Name: `InArgument<String>`** - The display name of the user.
 
-* **First Name: InArgument<String>** - The first name of the user.
+* **First Name: `InArgument<String>`** - The first name of the user.
 
-* **Last Name: InArgument<String>** - The last name of the user.
+* **Last Name: `InArgument<String>`** - The last name of the user.
 
-* **Password: InArgument<String>** - The password for the user account.
+* **Password: `InArgument<String>`** - The password for the user account.
 
-* **SAM Account Name: InArgument<String>** - The SAM account name of the user.
+* **SAM Account Name: `InArgument<String>`** - The SAM account name of the user.
 
 **Misc**
 
