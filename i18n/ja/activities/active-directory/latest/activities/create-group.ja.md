@@ -1,4 +1,4 @@
----
+﻿---
 id: create-group
 title: "Create Group"
 sidebar_label: "Create Group"
@@ -33,7 +33,7 @@ Active Directory に新しいグループを作成します。
 
 **入力 - グループ情報**
 
-* **Additional Properties: Dictionary<String,Argument>** - グループの追加プロパティ。
+* **Additional Properties: `Dictionary<String,Argument>`** - グループの追加プロパティ。
 
 * **Group Name: InArgument<String>*** - 作成したいグループの名前。
 

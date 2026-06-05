@@ -1,4 +1,4 @@
----
+﻿---
 id: modify-group
 title: "Modify Group"
 sidebar_label: "Modify Group"
@@ -50,12 +50,12 @@ Modifies an existing group in Active Directory.
 
 **Modifying Info** 
 
-* **Modifying Properties: Dictionary<String,Argument>*** - The properties to modify for the group.
+* **Modifying Properties: `Dictionary<String,Argument>`*** - The properties to modify for the group.
 
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the group.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the group.
 
 **Output**
 

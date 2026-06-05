@@ -1,4 +1,4 @@
----
+﻿---
 id: get-computer
 title: "Get Computer"
 sidebar_label: "Get Computer"
@@ -43,7 +43,7 @@ Active Directory からコンピューターを取得します。
 
 **オプション**
 
-* **Filters: Dictionary<String,Argument>** - コンピューターを検索するための追加フィルター。
+* **Filters: `Dictionary<String,Argument>`** - コンピューターを検索するための追加フィルター。
 
 **出力**
 

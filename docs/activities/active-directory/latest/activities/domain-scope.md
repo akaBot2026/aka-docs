@@ -1,4 +1,4 @@
----
+﻿---
 id: domain-scope
 title: "Domain Scope"
 sidebar_label: "Domain Scope"
@@ -26,7 +26,7 @@ A container that enables you to define a scope for Active Directory activities.
 
 **Input - Domain Context**
 
-* **Domain Context: InArgument<PrincipalContext>** - The domain context to be used
+* **Domain Context: InArgument`PrincipalContext`** - The domain context to be used
 
 **Input - Domain Info**
 
@@ -56,4 +56,4 @@ A container that enables you to define a scope for Active Directory activities.
 
 **Output**
 
-* **Output Context: OutArgument<PrincipalContext>** - The created Active Directory connection context output, which can be passed to other Active Directory activities.
+* **Output Context: OutArgument`PrincipalContext`** - The created Active Directory connection context output, which can be passed to other Active Directory activities.

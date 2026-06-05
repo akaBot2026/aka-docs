@@ -1,4 +1,4 @@
----
+﻿---
 id: get-computer
 title: "Get Computer"
 sidebar_label: "Get Computer"
@@ -44,7 +44,7 @@ Retrieves a computer from Active Directory.
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the computer.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the computer.
 
 **Output**
 

@@ -1,4 +1,4 @@
----
+﻿---
 id: find-all-computers
 title: "Find All Computers"
 sidebar_label: "Find All Computers"
@@ -45,7 +45,7 @@ Retrieves a list of computers from Active Directory.
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the computer.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the computer.
 
 **Output**
 

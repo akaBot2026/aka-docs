@@ -1,4 +1,4 @@
----
+﻿---
 id: get-group
 title: "Get Group"
 sidebar_label: "Get Group"
@@ -44,7 +44,7 @@ Active Directory からグループを取得します。
 
 **オプション**
 
-* **Filters: Dictionary<String,Argument>** - グループを検索するための追加フィルター。
+* **Filters: `Dictionary<String,Argument>`** - グループを検索するための追加フィルター。
 
 **出力**
 

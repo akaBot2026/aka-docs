@@ -1,4 +1,4 @@
----
+﻿---
 id: add-remove-principal
 title: "Add/Remove Principal"
 sidebar_label: "Add/Remove Principal"
@@ -34,7 +34,7 @@ Active Directory のグループにプリンシパルを追加または削除し
 
 **入力**
 
-* **Group: InArgument<GroupPrincipal>*** - プリンシパルを追加する、または削除する対象のグループ
+* **Group: InArgument`GroupPrincipal`*** - プリンシパルを追加する、または削除する対象のグループ
 
 * **Principal: InArgument<Principal>*** - 追加または削除されるプリンシパル
 

@@ -1,4 +1,4 @@
----
+﻿---
 id: delete-user
 title: "Delete User"
 sidebar_label: "Delete User"
@@ -48,7 +48,7 @@ Active Directory からユーザーを削除します。
 
 **オプション**
 
-* **Filters: Dictionary<String,Argument>** - ユーザーを検索するための追加フィルター。
+* **Filters: `Dictionary<String,Argument>`** - ユーザーを検索するための追加フィルター。
 
 **出力**
 

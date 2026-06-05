@@ -1,4 +1,4 @@
----
+﻿---
 id: get-group
 title: "Get Group"
 sidebar_label: "Get Group"
@@ -45,7 +45,7 @@ Retrieves a group from Active Directory.
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the group.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the group.
 
 **Output**
 

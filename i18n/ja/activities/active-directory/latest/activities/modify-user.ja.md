@@ -1,4 +1,4 @@
----
+﻿---
 id: modify-user
 title: "Modify User"
 sidebar_label: "Modify User"
@@ -50,11 +50,11 @@ Active Directory 内の既存のユーザーを変更します。
 
 **変更情報** 
 
-* **Modifying Properties: Dictionary<String,Argument>** - ユーザーの変更するプロパティ。
+* **Modifying Properties: `Dictionary<String,Argument>`** - ユーザーの変更するプロパティ。
 
 **オプション**
 
-* **Filters: Dictionary<String,Argument>** - ユーザーを検索するための追加フィルター。
+* **Filters: `Dictionary<String,Argument>`** - ユーザーを検索するための追加フィルター。
 
 **出力**
 

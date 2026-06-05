@@ -1,4 +1,4 @@
----
+﻿---
 id: delete-computer
 title: "Delete Computer"
 sidebar_label: "Delete Computer"
@@ -50,7 +50,7 @@ Deletes a computer from Active Directory.
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the computer.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the computer.
 
 **Output**
 

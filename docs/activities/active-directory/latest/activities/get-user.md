@@ -1,4 +1,4 @@
----
+﻿---
 id: get-user
 title: "Get User"
 sidebar_label: "Get User"
@@ -45,7 +45,7 @@ Retrieves a user from Active Directory.
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the user.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the user.
 
 **Output**
 

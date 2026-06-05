@@ -1,4 +1,4 @@
----
+﻿---
 id: find-all-groups
 title: "Find All Groups"
 sidebar_label: "Find All Groups"
@@ -44,7 +44,7 @@ Active Directory からグループのリストを取得します。
 
 **オプション**
 
-* **Filters: Dictionary<String,Argument>** - グループを検索するための追加フィルター。
+* **Filters: `Dictionary<String,Argument>`** - グループを検索するための追加フィルター。
 
 **出力**
 

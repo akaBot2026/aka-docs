@@ -1,4 +1,4 @@
----
+﻿---
 id: modify-computer
 title: "Modify Computer"
 sidebar_label: "Modify Computer"
@@ -49,12 +49,12 @@ Modifies an existing computer in Active Directory.
 
 **Modifying Info** 
 
-* **Modifying Properties: Dictionary<String,Argument>** - The properties to modify for the computer.
+* **Modifying Properties: `Dictionary<String,Argument>`** - The properties to modify for the computer.
 
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the computer.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the computer.
 
 **Output**
 

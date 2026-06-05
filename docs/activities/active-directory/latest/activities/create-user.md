@@ -1,4 +1,4 @@
----
+﻿---
 id: create-user
 title: "Create User"
 sidebar_label: "Create User"
@@ -37,7 +37,7 @@ Creates a new user in Active Directory.
 
 **Input - User Info**
 
-* **Additional Properties: Dictionary<String,Argument>** - Additional properties for the user.
+* **Additional Properties: `Dictionary<String,Argument>`** - Additional properties for the user.
 
 * **Description: InArgument<String>** - The description of the user.
 

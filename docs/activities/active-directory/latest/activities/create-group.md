@@ -1,4 +1,4 @@
----
+﻿---
 id: create-group
 title: "Create Group"
 sidebar_label: "Create Group"
@@ -33,7 +33,7 @@ Creates a new group in Active Directory.
 
 **Input - Group Info**
 
-* **Additional Properties: Dictionary<String,Argument>** - Additional properties for the group.
+* **Additional Properties: `Dictionary<String,Argument>`** - Additional properties for the group.
 
 * **Group Name: InArgument<String>*** - The name of the group you want to create.
 

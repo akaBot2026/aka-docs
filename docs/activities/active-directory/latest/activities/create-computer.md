@@ -1,4 +1,4 @@
----
+﻿---
 id: create-computer
 title: "Create Computer"
 sidebar_label: "Create Computer"
@@ -33,7 +33,7 @@ Creates a new computer in Active Directory.
 
 **Input - Computer Info**
 
-* **Additional Properties: Dictionary<String,Argument>** - Additional properties for the computer.
+* **Additional Properties: `Dictionary<String,Argument>`** - Additional properties for the computer.
 
 * **Password: InArgument<String>** - The password for the computer account.
 

@@ -1,4 +1,4 @@
----
+﻿---
 id: create-user
 title: "Create User"
 sidebar_label: "Create User"
@@ -35,7 +35,7 @@ Active Directory に新しいユーザーを作成します。
 
 **入力 - ユーザー情報**
 
-* **Additional Properties: Dictionary<String,Argument>** - ユーザーの追加プロパティ。
+* **Additional Properties: `Dictionary<String,Argument>`** - ユーザーの追加プロパティ。
 
 * **Description: InArgument<String>** - ユーザーの説明。
 

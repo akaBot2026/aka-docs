@@ -1,4 +1,4 @@
----
+﻿---
 id: get-user
 title: "Get User"
 sidebar_label: "Get User"
@@ -44,7 +44,7 @@ Active Directory からユーザーを取得します。
 
 **オプション**
 
-* **Filters: Dictionary<String,Argument>** - ユーザーを検索するための追加フィルター。
+* **Filters: `Dictionary<String,Argument>`** - ユーザーを検索するための追加フィルター。
 
 **出力**
 

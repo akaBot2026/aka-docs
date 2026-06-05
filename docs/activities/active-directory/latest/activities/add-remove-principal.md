@@ -1,4 +1,4 @@
----
+﻿---
 id: add-remove-principal
 title: "Add/Remove Principal"
 sidebar_label: "Add/Remove Principal"
@@ -34,7 +34,7 @@ Adds or removes a principal from a group in Active Directory.
 
 **Input**
 
-* **Group: InArgument<GroupPrincipal>*** - The group to add the principal to or remove the principal from
+* **Group: InArgument`GroupPrincipal`*** - The group to add the principal to or remove the principal from
 
 * **Principal: InArgument<Principal>*** - The principal to be added or removed
 

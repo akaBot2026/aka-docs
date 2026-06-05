@@ -1,4 +1,4 @@
----
+﻿---
 id: domain-scope
 title: "Domain Scope"
 sidebar_label: "Domain Scope"
@@ -26,7 +26,7 @@ Active Directory アクティビティのスコープを定義できるコンテ
 
 **入力 - ドメインコンテキスト**
 
-* **Domain Context: InArgument<PrincipalContext>** - 使用するドメインコンテキスト。
+* **Domain Context: InArgument`PrincipalContext`** - 使用するドメインコンテキスト。
 
 **入力 - ドメイン情報**
 
@@ -55,5 +55,5 @@ Active Directory アクティビティのスコープを定義できるコンテ
 
 **出力**
 
-* **Output Context: OutArgument<PrincipalContext>** - 作成された Active Directory 接続コンテキストの出力で、他の Active Directory アクティビティに渡すことができます。
+* **Output Context: OutArgument`PrincipalContext`** - 作成された Active Directory 接続コンテキストの出力で、他の Active Directory アクティビティに渡すことができます。
 

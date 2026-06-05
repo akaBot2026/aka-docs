@@ -1,4 +1,4 @@
----
+﻿---
 id: delete-computer
 title: "Delete Computer"
 sidebar_label: "Delete Computer"
@@ -49,7 +49,7 @@ Active Directory からコンピューターを削除します。
 
 **オプション**
 
-* **Filters: Dictionary<String,Argument>** - コンピューターを検索するための追加フィルター。
+* **Filters: `Dictionary<String,Argument>`** - コンピューターを検索するための追加フィルター。
 
 **出力**
 

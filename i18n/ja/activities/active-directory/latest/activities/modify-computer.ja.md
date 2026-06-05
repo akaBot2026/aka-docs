@@ -1,4 +1,4 @@
----
+﻿---
 id: modify-computer
 title: "Modify Computer"
 sidebar_label: "Modify Computer"
@@ -48,11 +48,11 @@ Active Directory 内の既存のコンピューターを変更します。
 
 **変更情報** 
 
-* **Modifying Properties: Dictionary<String,Argument>** - コンピューターの変更するプロパティ。
+* **Modifying Properties: `Dictionary<String,Argument>`** - コンピューターの変更するプロパティ。
 
 **オプション**
 
-* **Filters: Dictionary<String,Argument>** - コンピューターを検索するための追加フィルター。
+* **Filters: `Dictionary<String,Argument>`** - コンピューターを検索するための追加フィルター。
 
 **出力**
 

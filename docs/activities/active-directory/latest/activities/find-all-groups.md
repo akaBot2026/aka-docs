@@ -1,4 +1,4 @@
----
+﻿---
 id: find-all-groups
 title: "Find All Groups"
 sidebar_label: "Find All Groups"
@@ -45,7 +45,7 @@ Retrieves a list of groups from Active Directory.
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the group.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the group.
 
 **Output**
 

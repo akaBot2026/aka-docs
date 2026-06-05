@@ -1,4 +1,4 @@
----
+﻿---
 id: delete-user
 title: "Delete User"
 sidebar_label: "Delete User"
@@ -49,7 +49,7 @@ Deletes a user from Active Directory.
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the user.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the user.
 
 **Output**
 

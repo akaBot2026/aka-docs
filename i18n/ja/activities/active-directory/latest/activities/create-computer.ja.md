@@ -1,4 +1,4 @@
----
+﻿---
 id: create-computer
 title: "Create Computer"
 sidebar_label: "Create Computer"
@@ -33,7 +33,7 @@ Active Directory に新しいコンピューターを作成します。
 
 **入力 - コンピューター情報**
 
-* **Additional Properties: Dictionary<String,Argument>** - コンピューターの追加プロパティ。
+* **Additional Properties: `Dictionary<String,Argument>`** - コンピューターの追加プロパティ。
 
 * **Password: InArgument<String>** - コンピューターアカウントのパスワード。
 

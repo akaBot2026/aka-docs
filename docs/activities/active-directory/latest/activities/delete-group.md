@@ -1,4 +1,4 @@
----
+﻿---
 id: delete-group
 title: "Delete Group"
 sidebar_label: "Delete Group"
@@ -50,7 +50,7 @@ Deletes a group from Active Directory.
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the group.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the group.
 
 **Output**
 

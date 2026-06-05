@@ -1,4 +1,4 @@
----
+﻿---
 id: modify-user
 title: "Modify User"
 sidebar_label: "Modify User"
@@ -51,12 +51,12 @@ Modifies an existing user in Active Directory.
 
 **Modifying Info** 
 
-* **Modifying Properties: Dictionary<String,Argument>** - The properties to modify for the user.
+* **Modifying Properties: `Dictionary<String,Argument>`** - The properties to modify for the user.
 
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the user.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the user.
 
 **Output**
 

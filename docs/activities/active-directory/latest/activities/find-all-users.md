@@ -1,4 +1,4 @@
----
+﻿---
 id: find-all-users
 title: "Find All Users"
 sidebar_label: "Find All Users"
@@ -45,7 +45,7 @@ Retrieves a list of users from Active Directory.
 
 **Options**
 
-* **Filters: Dictionary<String,Argument>** - Additional filters to search for the user.
+* **Filters: `Dictionary<String,Argument>`** - Additional filters to search for the user.
 
 **Output**
 

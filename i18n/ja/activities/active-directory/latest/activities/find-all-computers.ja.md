@@ -1,4 +1,4 @@
----
+﻿---
 id: find-all-computers
 title: "Find All Computers"
 sidebar_label: "Find All Computers"
@@ -44,7 +44,7 @@ Active Directory からコンピューターのリストを取得します。
 
 **オプション**
 
-* **Filters: Dictionary<String,Argument>** - コンピューターを検索するための追加フィルター。
+* **Filters: `Dictionary<String,Argument>`** - コンピューターを検索するための追加フィルター。
 
 **出力**
 
