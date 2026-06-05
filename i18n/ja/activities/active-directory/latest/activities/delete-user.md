@@ -1,4 +1,4 @@
-﻿---
+---
 id: delete-user
 title: "Delete User"
 sidebar_label: "Delete User"

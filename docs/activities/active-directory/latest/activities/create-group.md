@@ -1,4 +1,4 @@
-﻿---
+---
 id: create-group
 title: "Create Group"
 sidebar_label: "Create Group"

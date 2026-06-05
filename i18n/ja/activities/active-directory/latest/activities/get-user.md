@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-user
 title: "Get User"
 sidebar_label: "Get User"

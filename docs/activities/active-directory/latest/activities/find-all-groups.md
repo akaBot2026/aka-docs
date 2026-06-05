@@ -1,4 +1,4 @@
-﻿---
+---
 id: find-all-groups
 title: "Find All Groups"
 sidebar_label: "Find All Groups"

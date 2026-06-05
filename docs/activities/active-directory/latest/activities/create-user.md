@@ -1,4 +1,4 @@
-﻿---
+---
 id: create-user
 title: "Create User"
 sidebar_label: "Create User"

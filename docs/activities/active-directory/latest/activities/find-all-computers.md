@@ -1,4 +1,4 @@
-﻿---
+---
 id: find-all-computers
 title: "Find All Computers"
 sidebar_label: "Find All Computers"

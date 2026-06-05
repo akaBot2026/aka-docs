@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-group
 title: "Get Group"
 sidebar_label: "Get Group"

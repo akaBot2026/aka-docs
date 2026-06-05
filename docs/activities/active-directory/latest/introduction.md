@@ -23,7 +23,6 @@ These activities enable the robots to:
 The activities that perform actions on UI elements can be configured at design time by using the **Pick target element** button present in the body of the activities in designer.
 
 **Note:**  
-In order to indicate element on Active Directory, you need to [install Active Directory extension](/docs/studio/latest/installation/active-directory-extension.md).
 
 Click the **Pick target element** button opens **Selector Editor** wizard.
 

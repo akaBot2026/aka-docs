@@ -1,4 +1,4 @@
-﻿---
+---
 id: domain-scope
 title: "Domain Scope"
 sidebar_label: "Domain Scope"

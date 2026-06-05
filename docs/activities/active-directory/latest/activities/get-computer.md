@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-computer
 title: "Get Computer"
 sidebar_label: "Get Computer"

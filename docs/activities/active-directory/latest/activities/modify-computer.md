@@ -1,4 +1,4 @@
-﻿---
+---
 id: modify-computer
 title: "Modify Computer"
 sidebar_label: "Modify Computer"

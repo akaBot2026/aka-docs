@@ -1,4 +1,4 @@
-﻿---
+---
 id: modify-user
 title: "Modify User"
 sidebar_label: "Modify User"

@@ -1,4 +1,4 @@
-﻿---
+---
 id: delete-group
 title: "Delete Group"
 sidebar_label: "Delete Group"
