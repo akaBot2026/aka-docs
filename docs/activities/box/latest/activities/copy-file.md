@@ -28,13 +28,13 @@ Copies a Box file to another folder.
 
 **Input**
 
-* **File Id: InArgument<String>*** - The ID of the Box file to copy.
-
-* **Folder Id: InArgument<String>*** - The ID of the destination Box folder.
+* **File Id: `InArgument<String>`*** - The ID of the Box file to copy.
+* 
+* * **Folder Id: `InArgument<String>`*** - The ID of the destination Box folder.
 
 **Options**
 
-* **File Name: InArgument<String>** - The new file name for the copied file. If not provided, Box keeps the original name.
+* **File Name: `InArgument<String>`** - The new file name for the copied file. If not provided, Box keeps the original name.
 
 **Misc**
 
@@ -45,4 +45,4 @@ Copies a Box file to another folder.
 
 **Output**
 
-* **Result: OutArgument<BoxFile>** - The copied Box file object.
+* **Result: `OutArgument<BoxFile>`** - The copied Box file object.

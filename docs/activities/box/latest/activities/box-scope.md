@@ -34,21 +34,22 @@ Creates a Box connection scope and provides the Box client to child Box activiti
 
 * **Authentication Type: BoxAuthenticationType** - The authentication method to use. Available values: JWT, OAuth, BoxConnection.
 
-* **Box Client: InArgument<BoxClient>** - An existing Box client to use when Authentication Type is BoxConnection.
+* **Box Client: `InArgument<BoxClient>`** - An existing Box client to use when Authentication Type is BoxConnection.
 
 **JWT Authentication**
 
-* **Config File Content: InArgument<String>** - The content of the Box JWT configuration file. Use either this property or Config File Path.
 
-* **Config File Path: InArgument<String>** - The path to the Box JWT configuration file. Use either this property or Config File Content.
+* **Config File Content: `InArgument<String>`** - The content of the Box JWT configuration file. Use either this property or Config File Path.
 
-* **User ID: InArgument<String>** - The Box user ID to impersonate when using JWT authentication.
+* **Config File Path: `InArgument<String>`** - The path to the Box JWT configuration file. Use either this property or Config File Content.
+
+* **User ID: `InArgument<String>`** - The Box user ID to impersonate when using JWT authentication.
 
 **OAuth Authentication**
 
-* **Client ID: InArgument<String>** - The Box OAuth client ID.
+* **Client ID: `InArgument<String>`** - The Box OAuth client ID.
 
-* **Client Secret: InArgument<SecureString>** - The Box OAuth client secret.
+* **Client Secret: `InArgument<SecureString>`** - The Box OAuth client secret.
 
 **Misc**
 
@@ -59,4 +60,4 @@ Creates a Box connection scope and provides the Box client to child Box activiti
 
 **Output**
 
-* **Result: OutArgument<BoxClient>** - The Box client created or used by the scope.
+* **Result: `OutArgument<BoxClient>`** - The Box client created or used by the scope.

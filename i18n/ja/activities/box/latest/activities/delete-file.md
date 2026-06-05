@@ -28,7 +28,7 @@ Box からファイルを削除します。
 
 **入力**
 
-* **File Id: InArgument<String>*** - 削除する Box ファイルの ID。
+* **File Id: `InArgument<String>`*** - 削除する Box ファイルの ID。
 
 **その他**
 
@@ -39,5 +39,6 @@ Box からファイルを削除します。
 
 **出力**
 
-* **Is Successful: OutArgument<Boolean>** - ファイルが正常に削除された場合は True、それ以外は False。
+* **Is Successful: `OutArgument<Boolean>`** - ファイルが正常に削除された場合は True、それ以外は False。
+
 

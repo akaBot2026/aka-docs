@@ -28,15 +28,15 @@ Downloads a file from Box to a local file path or folder.
 
 **Input**
 
-* **File Id: InArgument<String>*** - The ID of the Box file to download.
-
-* **File Path: InArgument<String>*** - The local file path or folder where the file is saved.
+* **File Id: `InArgument<String>`*** - The ID of the Box file to download.
+* 
+* * **File Path: `InArgument<String>`*** - The local file path or folder where the file is saved.
 
 **Options**
 
 * **Overwrite: Boolean** - Specifies whether to overwrite the destination file if it already exists.
 
-* **Version: InArgument<String>** - The Box file version ID to download. If not provided, the current version is downloaded.
+* **Version: `InArgument<String>`** - The Box file version ID to download. If not provided, the current version is downloaded.
 
 **Misc**
 

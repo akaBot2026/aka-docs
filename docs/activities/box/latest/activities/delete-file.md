@@ -28,7 +28,7 @@ Deletes a file from Box.
 
 **Input**
 
-* **File Id: InArgument<String>*** - The ID of the Box file to delete.
+* **File Id: `InArgument<String>`*** - The ID of the Box file to delete.
 
 **Misc**
 
@@ -39,4 +39,4 @@ Deletes a file from Box.
 
 **Output**
 
-* **Is Successful: OutArgument<Boolean>** - True if the file was deleted successfully; otherwise, False.
+* **Is Successful: `OutArgument<Boolean>`** - True if the file was deleted successfully; otherwise, False.

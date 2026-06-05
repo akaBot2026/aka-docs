@@ -28,13 +28,13 @@ Uploads a local file to a Box folder.
 
 **Input**
 
-* **File Path: InArgument<String>*** - The local path of the file to upload.
-
-* **Folder Id: InArgument<String>*** - The ID of the destination Box folder.
+* **File Path: `InArgument<String>`*** - The local path of the file to upload.
+* 
+* * **Folder Id: `InArgument<String>`*** - The ID of the destination Box folder.
 
 **Options**
 
-* **File Name: InArgument<String>** - The file name to use in Box. If not provided, the local file name is used.
+* **File Name: `InArgument<String>`** - The file name to use in Box. If not provided, the local file name is used.
 
 * **Upload Mode: UploadMode** - The upload mode to use. Available values: Auto, Single, Chunked.
 
@@ -47,6 +47,6 @@ Uploads a local file to a Box folder.
 
 **Output**
 
-* **File Id: OutArgument<String>** - The ID of the uploaded Box file.
+* **File Id: `OutArgument<String>`** - The ID of the uploaded Box file.
 
-* **Result: OutArgument<BoxFile>** - The uploaded Box file object.
+* **Result: `OutArgument<BoxFile>`** - The uploaded Box file object.

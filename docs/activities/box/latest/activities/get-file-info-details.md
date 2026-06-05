@@ -28,7 +28,7 @@ Retrieves detailed information for a Box file.
 
 **Input**
 
-* **File Id: InArgument<String>*** - The ID of the Box file to retrieve information for.
+* **File Id: `InArgument<String>`*** - The ID of the Box file to retrieve information for.
 
 **Misc**
 
@@ -39,4 +39,4 @@ Retrieves detailed information for a Box file.
 
 **Output**
 
-* **Result: OutArgument<BoxFile>** - The detailed Box file information.
+* **Result: `OutArgument<BoxFile>`** - The detailed Box file information.

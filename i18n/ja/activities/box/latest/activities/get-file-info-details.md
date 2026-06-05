@@ -28,7 +28,7 @@ Box ファイルの詳細情報を取得します。
 
 **入力**
 
-* **File Id: InArgument<String>*** - 情報を取得する Box ファイルの ID。
+* **File Id: `InArgument<String>`*** - 情報を取得する Box ファイルの ID。
 
 **その他**
 
@@ -39,5 +39,6 @@ Box ファイルの詳細情報を取得します。
 
 **出力**
 
-* **Result: OutArgument<BoxFile>** - 詳細な Box ファイル情報。
+* **Result: `OutArgument<BoxFile>`** - 詳細な Box ファイル情報。
+
 

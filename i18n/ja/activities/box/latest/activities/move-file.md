@@ -28,13 +28,13 @@ Box のファイルを別のフォルダへ移動します。
 
 **入力**
 
-* **File Id: InArgument<String>*** - 移動する Box ファイルの ID。
+* **File Id: `InArgument<String>`*** - 移動する Box ファイルの ID。
 
-* **Folder Id: InArgument<String>*** - 送信先の Box フォルダの ID。
+* **Folder Id: `InArgument<String>`*** - 送信先の Box フォルダの ID。
 
 **オプション**
 
-* **File Name: InArgument<String>** - ファイル移動後の新しいファイル名。指定しない場合、Box は元の名前を維持します。
+* **File Name: `InArgument<String>`** - ファイル移動後の新しいファイル名。指定しない場合、Box は元の名前を維持します。
 
 **その他**
 
@@ -45,5 +45,6 @@ Box のファイルを別のフォルダへ移動します。
 
 **出力**
 
-* **Result: OutArgument<BoxFile>** - 移動された Box ファイルオブジェクト。
+* **Result: `OutArgument<BoxFile>`** - 移動された Box ファイルオブジェクト。
+
 

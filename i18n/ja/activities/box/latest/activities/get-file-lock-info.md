@@ -28,7 +28,7 @@ Box ファイルのロック情報を取得します。
 
 **入力**
 
-* **File Id: InArgument<String>*** - ロック情報を取得する Box ファイルの ID。
+* **File Id: `InArgument<String>`*** - ロック情報を取得する Box ファイルの ID。
 
 **その他**
 
@@ -39,5 +39,6 @@ Box ファイルのロック情報を取得します。
 
 **出力**
 
-* **Result: OutArgument<BoxFileLock>** - Box ファイルのロック情報。
+* **Result: `OutArgument<BoxFileLock>`** - Box ファイルのロック情報。
+
 

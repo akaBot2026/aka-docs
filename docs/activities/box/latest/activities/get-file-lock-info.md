@@ -28,7 +28,7 @@ Retrieves lock information for a Box file.
 
 **Input**
 
-* **File Id: InArgument<String>*** - The ID of the Box file to retrieve lock information for.
+* **File Id: `InArgument<String>`*** - The ID of the Box file to retrieve lock information for.
 
 **Misc**
 
@@ -39,4 +39,4 @@ Retrieves lock information for a Box file.
 
 **Output**
 
-* **Result: OutArgument<BoxFileLock>** - The Box file lock information.
+* **Result: `OutArgument<BoxFileLock>`** - The Box file lock information.

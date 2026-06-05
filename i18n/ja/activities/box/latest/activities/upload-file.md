@@ -28,13 +28,13 @@ RCA.Activities.Box.Files.UploadFile
 
 **入力**
 
-* **File Path: InArgument<String>*** - アップロードするローカルファイルのパス。
+* **File Path: `InArgument<String>`*** - アップロードするローカルファイルのパス。
 
-* **Folder Id: InArgument<String>*** - 送信先の Box フォルダの ID。
+* **Folder Id: `InArgument<String>`*** - 送信先の Box フォルダの ID。
 
 **オプション**
 
-* **File Name: InArgument<String>** - Box 内で使用するファイル名。指定しない場合はローカルのファイル名が使用されます。
+* **File Name: `InArgument<String>`** - Box 内で使用するファイル名。指定しない場合はローカルのファイル名が使用されます。
 
 * **Upload Mode: UploadMode** - 使用するアップロードモード。利用可能な値: Auto、Single、Chunked。
 
@@ -47,7 +47,8 @@ RCA.Activities.Box.Files.UploadFile
 
 **出力**
 
-* **File Id: OutArgument<String>** - アップロードされた Box ファイルの ID。
+* **File Id: `OutArgument<String>`** - アップロードされた Box ファイルの ID。
 
-* **Result: OutArgument<BoxFile>** - アップロードされた Box ファイルオブジェクト。
+* **Result: `OutArgument<BoxFile>`** - アップロードされた Box ファイルオブジェクト。
+
 
