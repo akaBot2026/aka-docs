@@ -32,9 +32,9 @@ Disable an element with the key you passed
 
 **Input**
 
-* **Form Id: InArgument<Int32>** - That is the ID of the form you want to manipulate
+* **Form Id: `InArgument<Int32>`** - That is the ID of the form you want to manipulate
 
-* **Key Name: InArgument<String>*** - The element's key name used to specify the field for which you want to manipulate, Text must be quoted
+* **Key Name: `InArgument<String>`*** - The element's key name used to specify the field for which you want to manipulate, Text must be quoted
 
 **Misc**
 

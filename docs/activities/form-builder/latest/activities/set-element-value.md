@@ -33,11 +33,11 @@ This activity allows you to set the value of the element with the key you passed
 
 **Input**
 
-* **Form Id: InArgument<Int32>** -  That is the ID of the form you want to manipulate.
+* **Form Id: `InArgument<Int32>`** -  That is the ID of the form you want to manipulate.
 
-* **Key Name: InArgument<String>*** - The element's key name used to specify the field for which you want to manipulate, Text must be quoted
+* **Key Name: `InArgument<String>`*** - The element's key name used to specify the field for which you want to manipulate, Text must be quoted
 
-* **Value: InArgument*** - The value you want to enter into the field specified with the above key, the supported value types are (String, Int32, Double, Decimal, Float, Boolean, JObject, JArray, object)
+* **Value: `InArgument`*** - The value you want to enter into the field specified with the above key, the supported value types are (String, Int32, Double, Decimal, Float, Boolean, JObject, JArray, object)
 
 **Misc**
 

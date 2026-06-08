@@ -32,7 +32,7 @@ Clear all data in the form
 
 **Input**
 
-* **Form Id: InArgument<Int32>** - That is the ID of the form you want to manipulate.
+* **Form Id: `InArgument<Int32>`** - That is the ID of the form you want to manipulate.
 
 **Misc**
 

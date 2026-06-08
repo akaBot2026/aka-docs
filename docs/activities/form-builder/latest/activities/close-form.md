@@ -32,7 +32,7 @@ Close the form base on the id.
 
 **Input**
 
-* **Form Id: InArgument<Int32>** - ID of the form you want to close.
+* **Form Id: `InArgument<Int32>`** - ID of the form you want to close.
 
 **Misc**
 
