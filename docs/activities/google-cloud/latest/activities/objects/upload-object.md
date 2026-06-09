@@ -28,25 +28,25 @@ Uploads a local file as a Google Cloud Storage object.
 
 **Input**
 
-* **Bucket: InArgument<GCPBucket>*** - The destination bucket.
+* **Bucket**: `InArgument<GCPBucket>`* - The destination bucket.
 
-* **Object Name: InArgument<String>*** - The object name to create.
+* **Object Name**: `InArgument<String>`* - The object name to create.
 
-* **File To Upload: InArgument<String>*** - The local file path to upload.
+* **File To Upload**: `InArgument<String>`* - The local file path to upload.
 
-* **Content Type: InArgument<String>** - The object content type.
+* **Content Type**: `InArgument<String>` - The object content type.
 
-* **Timeout: InArgument<Nullable<Int32>>** - The upload timeout in seconds.
+* **Timeout**: `InArgument<Nullable<Int32>>` - The upload timeout in seconds.
 
 **Options**
 
-* **Storage Class: InArgument<Storage>** - The object storage class.
+* **Storage Class**: `InArgument<Storage>` - The object storage class.
 
-* **Metadata: InArgument<DataTable>** - Object metadata.
+* **Metadata**: `InArgument<DataTable>` - Object metadata.
 
-* **Predefined Acl: InArgument<String>** - The predefined ACL to apply to the object.
+* **Predefined Acl**: `InArgument<String>` - The predefined ACL to apply to the object.
 
-* **Customer Managed Key: InArgument<String>** - The customer-managed encryption key.
+* **Customer Managed Key**: `InArgument<String>` - The customer-managed encryption key.
 
 **Misc**
 
@@ -57,4 +57,4 @@ Uploads a local file as a Google Cloud Storage object.
 
 **Output**
 
-* **Object: OutArgument<GCPObject>** - The uploaded object.
+* **Object**: `OutArgument<GCPObject>` - The uploaded object.

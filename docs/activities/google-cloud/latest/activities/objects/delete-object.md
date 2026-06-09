@@ -26,9 +26,9 @@ Deletes a Google Cloud Storage object.
 
 **Input**
 
-* **Object: InArgument<GCPObject>*** - The object to delete.
+* **Object**: `InArgument<GCPObject>`* - The object to delete.
 
-* **Generation: InArgument<Int64>** - The object generation to delete.
+* **Generation**: `InArgument<Int64>` - The object generation to delete.
 
 **Misc**
 

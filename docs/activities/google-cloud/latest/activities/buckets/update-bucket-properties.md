@@ -29,19 +29,19 @@ Updates properties of a Google Cloud Storage bucket.
 
 **Encryption**
 
-* **Customer Managed Key: InArgument<String>** - Customer Managed Key for bucket if Encryption Type is CustomerManagedKey.
+* **Customer Managed Key**: `InArgument<String>` - Customer Managed Key for bucket if Encryption Type is CustomerManagedKey.
 
 **Input**
 
-* **Bucket: InArgument<GCPBucket>*** - The bucket to update.
+* **Bucket**: `InArgument<GCPBucket>`* - The bucket to update.
 
-* **Enable Versioning: InArgument<Boolean>** - Specifies whether bucket versioning is enabled.
+* **Enable Versioning**: `InArgument<Boolean>` - Specifies whether bucket versioning is enabled.
 
-* **Labels: InArgument<DataTable>** - Labels to update on the bucket.
+* **Labels**: `InArgument<DataTable>` - Labels to update on the bucket.
 
-* **Storage Class: InArgument<String>** - The storage class to set.
+* **Storage Class**: `InArgument<String>` - The storage class to set.
 
-* **Encryption Type: InArgument<String>** - The encryption type to set.
+* **Encryption Type**: `InArgument<String>` - The encryption type to set.
 
 **Misc**
 

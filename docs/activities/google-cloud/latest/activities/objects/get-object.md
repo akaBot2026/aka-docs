@@ -27,11 +27,11 @@ Retrieves a Google Cloud Storage object.
 
 **Input**
 
-* **Bucket: InArgument<GCPBucket>*** - The bucket containing the object.
+* **Bucket**: `InArgument<GCPBucket>`* - The bucket containing the object.
 
-* **Object Name: InArgument<String>*** - The object name.
+* **Object Name**: `InArgument<String>`* - The object name.
 
-* **Generation: InArgument<Int64>** - The object generation to retrieve.
+* **Generation**: `InArgument<Int64>` - The object generation to retrieve.
 
 **Misc**
 
@@ -42,4 +42,4 @@ Retrieves a Google Cloud Storage object.
 
 **Output**
 
-* **Object: OutArgument<GCPObject>** - The retrieved object.
+* **Object**: `OutArgument<GCPObject>` - The retrieved object.

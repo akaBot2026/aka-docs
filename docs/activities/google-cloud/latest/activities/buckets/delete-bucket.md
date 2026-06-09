@@ -26,7 +26,7 @@ Deletes a Google Cloud Storage bucket.
 
 **Input**
 
-* **Bucket: InArgument<GCPBucket>*** - The bucket to delete.
+* **Bucket**: `InArgument<GCPBucket>`* - The bucket to delete.
 
 **Misc**
 

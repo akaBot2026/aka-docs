@@ -32,13 +32,13 @@ Creates a Google Cloud Storage bucket.
   * **GoogleManaged** - Uses Google-managed encryption keys.
   * **CustomerManagedKey** - Uses customer-managed encryption keys.
 
-* **Customer Managed Key: InArgument<String>** - The customer-managed encryption key. Required when Encryption Type is CustomerManagedKey.
+* **Customer Managed Key**: `InArgument<String>` - The customer-managed encryption key. Required when Encryption Type is CustomerManagedKey.
 
 **Input**
 
-* **Name: InArgument<String>*** - The bucket name.
+* **Name**: `InArgument<String>`* - The bucket name.
 
-* **Project Id: InArgument<String>*** - The Google Cloud project ID.
+* **Project Id**: `InArgument<String>`* - The Google Cloud project ID.
 
 **Options**
 
@@ -46,7 +46,7 @@ Creates a Google Cloud Storage bucket.
   * **Uniform** - Uniform bucket-level access applies the same permissions to all objects in the bucket.
   * **FineGrained** - Fine-grained access control allows you to manage permissions for individual objects using Access Control Lists (ACLs).
 
-* **Labels: InArgument<DataTable>** - Labels to assign to the bucket.
+* **Labels**: `InArgument<DataTable>` - Labels to assign to the bucket.
 
 * **Storage Class: Storage** - The bucket storage class.
 
@@ -59,12 +59,12 @@ Creates a Google Cloud Storage bucket.
 
 **Output**
 
-* **Bucket: OutArgument<GCPBucket>** - The created bucket.
+* **Bucket**: `OutArgument<GCPBucket>` - The created bucket.
 
 **Region**
 
-* **Region: InArgument<String>** - The region location for the bucket. Use exactly one of Region, Multi Region, or Dual Region.
+* **Region**: `InArgument<String>` - The region location for the bucket. Use exactly one of Region, Multi Region, or Dual Region.
 
-* **Multi Region: InArgument<String>** - The multi-region location for the bucket.
+* **Multi Region**: `InArgument<String>` - The multi-region location for the bucket.
 
-* **Dual Region: InArgument<String>** - The dual-region location for the bucket.
+* **Dual Region**: `InArgument<String>` - The dual-region location for the bucket.

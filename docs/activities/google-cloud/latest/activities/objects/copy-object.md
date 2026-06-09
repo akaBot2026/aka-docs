@@ -28,17 +28,17 @@ Copies a Google Cloud Storage object to another bucket or object name.
 
 **Input**
 
-* **Source Object: InArgument<GCPObject>*** - The source object to copy.
+* **Source Object**: `InArgument<GCPObject>`* - The source object to copy.
 
-* **Destination Bucket: InArgument<GCPBucket>*** - The destination bucket.
+* **Destination Bucket**: `InArgument<GCPBucket>`* - The destination bucket.
 
-* **Destination Object Name: InArgument<String>*** - The destination object name.
+* **Destination Object Name**: `InArgument<String>`* - The destination object name.
 
 **Options**
 
-* **Source Object Generation: InArgument<Int64>** - The source object generation to copy.
+* **Source Object Generation**: `InArgument<Int64>` - The source object generation to copy.
 
-* **Destination Predefined Acl: InArgument<String>** - The predefined ACL to apply to the destination object.
+* **Destination Predefined Acl**: `InArgument<String>` - The predefined ACL to apply to the destination object.
 
 **Misc**
 
@@ -49,4 +49,4 @@ Copies a Google Cloud Storage object to another bucket or object name.
 
 **Output**
 
-* **Destination Object: OutArgument<GCPObject>** - The copied destination object.
+* **Destination Object**: `OutArgument<GCPObject>` - The copied destination object.

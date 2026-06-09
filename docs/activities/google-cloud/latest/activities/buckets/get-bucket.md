@@ -26,7 +26,7 @@ Retrieves a Google Cloud Storage bucket by name.
 
 **Input**
 
-* **Bucket Name: InArgument<String>*** - The bucket name.
+* **Bucket Name**: `InArgument<String>`* - The bucket name.
 
 **Misc**
 
@@ -37,4 +37,4 @@ Retrieves a Google Cloud Storage bucket by name.
 
 **Output**
 
-* **Bucket: OutArgument<GCPBucket>** - The retrieved bucket.
+* **Bucket**: `OutArgument<GCPBucket>` - The retrieved bucket.
