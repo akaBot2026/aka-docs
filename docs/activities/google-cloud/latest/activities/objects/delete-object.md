@@ -2,7 +2,7 @@
 id: delete-object
 title: "Delete Object"
 sidebar_label: "Delete Object"
-sidebar_position: 4
+sidebar_position: 2
 description: "Delete Object activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

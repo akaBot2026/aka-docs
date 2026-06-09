@@ -2,7 +2,7 @@
 id: upload-object
 title: "Upload Object"
 sidebar_label: "Upload Object"
-sidebar_position: 5
+sidebar_position: 4
 description: "Upload Object activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

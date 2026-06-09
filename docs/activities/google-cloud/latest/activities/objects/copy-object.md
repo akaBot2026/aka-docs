@@ -2,7 +2,7 @@
 id: copy-object
 title: "Copy Object"
 sidebar_label: "Copy Object"
-sidebar_position: 2
+sidebar_position: 1
 description: "Copy Object activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
