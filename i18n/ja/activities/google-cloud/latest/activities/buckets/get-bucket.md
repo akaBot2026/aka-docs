@@ -1,12 +1,12 @@
 ---
-id: gcp-get-bucket
-title: "GCP バケットの取得"
-sidebar_label: "GCP バケットの取得"
+id: get-bucket
+title: "バケットの取得"
+sidebar_label: "バケットの取得"
 sidebar_position: 3
-description: "GCP Get Bucket アクティビティのドキュメント。"
+description: "Get Bucket アクティビティのドキュメント。"
 displayed_sidebar: activitiesSidebar
 ---
-# GCP バケットの取得
+# バケットの取得
 
 RCA.Activities.GoogleCloud.GCPGetBucket
 

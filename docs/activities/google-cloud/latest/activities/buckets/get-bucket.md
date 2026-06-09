@@ -1,12 +1,12 @@
 ---
-id: gcp-get-bucket
-title: "GCP Get Bucket"
-sidebar_label: "GCP Get Bucket"
+id: get-bucket
+title: "Get Bucket"
+sidebar_label: "Get Bucket"
 sidebar_position: 3
-description: "GCP Get Bucket activity documentation."
+description: "Get Bucket activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# GCP Get Bucket
+# Get Bucket
 
 RCA.Activities.GoogleCloud.GCPGetBucket
 
