@@ -26,13 +26,13 @@ RCA.Activities.Office365.ForEachListItem
 
 **入力**
 
-* **List: InArgument<Office365SharepointList>** - 操作が実行される SharePoint リスト。
+* **List: `InArgument<Office365SharepointList>`** - 操作が実行される SharePoint リスト。
 
-* **Filter: InArgument<String>** - オプションの OData フィルター。
+* **Filter: `InArgument<String>`** - オプションの OData フィルター。
 
 **出力**
 
-* **Current Index: OutArgument<Int32>** - 現在のイテレーションのインデックス。
+* **Current Index: `OutArgument<Int32>`** - 現在のイテレーションのインデックス。
 
 **その他**
 
@@ -40,4 +40,5 @@ RCA.Activities.Office365.ForEachListItem
 
 * **Display Name (String)** - このアクティビティの表示名。コードの整理や構造化のためにアクティビティ名を編集できます。
   例: [3424325] Open Window
+
 

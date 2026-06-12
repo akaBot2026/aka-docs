@@ -33,11 +33,11 @@ Creates a folder at the specified location in OneDrive or SharePoint.
 
 **Options**
 
-* **Account: InArgument<String>** - The ID or User Principal Name for the user who owns the OneDrive. This parameter must be set for ApplicationIdAndSecret and ApplicationIdAndCertificate authentication types.
+* **Account: `InArgument<String>`** - The ID or User Principal Name for the user who owns the OneDrive. This parameter must be set for ApplicationIdAndSecret and ApplicationIdAndCertificate authentication types.
 
 **Output**
 
-* **Reference as: OutArgument<DriveItem>** - The name you will use to refer this folder in other activities.
+* **Reference as: `OutArgument<DriveItem>`** - The name you will use to refer this folder in other activities.
 
 **Misc**
 

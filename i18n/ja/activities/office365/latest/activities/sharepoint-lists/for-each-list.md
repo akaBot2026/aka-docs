@@ -26,13 +26,13 @@ RCA.Activities.Office365.ForEachList
 
 **入力**
 
-* **Site Url Or Id: InArgument<String>** - SharePoint サイトの URL または ID。
+* **Site Url Or Id: `InArgument<String>`** - SharePoint サイトの URL または ID。
 
-* **Include Columns Definitions: Boolean** - リスト列に関する情報を取得するかどうかを示します。
+* **Include Columns Definitions: `Boolean`** - リスト列に関する情報を取得するかどうかを示します。
 
 **出力**
 
-* **Current Index: OutArgument<Int32>** - 現在のイテレーションのインデックス。
+* **Current Index: `OutArgument<Int32>`** - 現在のイテレーションのインデックス。
 
 **その他**
 
@@ -40,4 +40,5 @@ RCA.Activities.Office365.ForEachList
 
 * **Display Name (String)** - このアクティビティの表示名。コードの整理や構造化のためにアクティビティ名を編集できます。
   例: [3424325] Open Window
+
 

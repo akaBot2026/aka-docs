@@ -26,7 +26,7 @@ RCA.Activities.Office365.UpdateListItem
 
 **入力**
 
-* **List Item: InArgument<Office365SharepointListItem>** - 更新対象のリスト項目。
+* **List Item: `InArgument<Office365SharepointListItem>`** - 更新対象のリスト項目。
 
 **その他**
 
@@ -34,4 +34,5 @@ RCA.Activities.Office365.UpdateListItem
 
 * **Display Name (String)** - このアクティビティの表示名。コードの整理や構造化のためにアクティビティ名を編集できます。
   例: [3424325] Open Window
+
 

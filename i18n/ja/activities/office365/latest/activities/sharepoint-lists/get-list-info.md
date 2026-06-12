@@ -27,15 +27,15 @@ RCA.Activities.Office365.GetListInfo
 
 **入力**
 
-* **Site Url Or Id: InArgument<String>** - SharePoint サイトの URL または ID。
+* **Site Url Or Id: `InArgument<String>`** - SharePoint サイトの URL または ID。
 
-* **List Title Or Id: InArgument<String>** - リストのタイトル（表示名）または ID のいずれかを指定します。
+* **List Title Or Id: `InArgument<String>`** - リストのタイトル（表示名）または ID のいずれかを指定します。
 
-* **Include Columns Definitions: Boolean** - リスト列に関する情報を取得するかどうかを示します。
+* **Include Columns Definitions: `Boolean`** - リスト列に関する情報を取得するかどうかを示します。
 
 **出力**
 
-* **List: OutArgument<Office365SharepointList>** - SharePoint リストに関する情報。
+* **List: `OutArgument<Office365SharepointList>`** - SharePoint リストに関する情報。
 
 **その他**
 
@@ -47,4 +47,5 @@ RCA.Activities.Office365.GetListInfo
 5. メッセージ ボックスに次の VB.NET 式を入力します:
    `"Retrieved List: " & campaignsList.Title & " with " & campaignsList.Columns.Count.ToString() & " columns."`
 6. ワークフローを実行します。出力パネルにリストのタイトルと定義されている列数が出力されます。
+
 
