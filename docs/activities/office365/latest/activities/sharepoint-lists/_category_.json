@@ -1,0 +1,9 @@
+{
+  "label": "Sharepoint Lists",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index"
+  }
+}
