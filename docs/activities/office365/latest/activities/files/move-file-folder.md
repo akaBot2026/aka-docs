@@ -27,19 +27,19 @@ Moves a file or folder from one parent directory to another.
 
 **Input**
 
-* **File or folder to move: InArgument<DriveItem>*** - The file or folder to move.
+* **File or folder to move: `InArgument<DriveItem>`*** - The file or folder to move.
 
-* **Destination folder: InArgument<DriveItem>** - The destination folder where to move the specified file or folder. If left blank, it will default to OneDrive root folder.
+* **Destination folder: `InArgument<DriveItem>`** - The destination folder where to move the specified file or folder. If left blank, it will default to OneDrive root folder.
 
-* **New name (optional): InArgument<String>** - An optional new name for the file or folder after it is moved.
+* **New name (optional): `InArgument<String>`** - An optional new name for the file or folder after it is moved.
 
 **Options**
 
-* **Account: InArgument<String>** - The ID or User Principal Name for the user who owns the OneDrive. This parameter must be set for ApplicationIdAndSecret and ApplicationIdAndCertificate authentication types.
+* **Account: `InArgument<String>`** - The ID or User Principal Name for the user who owns the OneDrive. This parameter must be set for ApplicationIdAndSecret and ApplicationIdAndCertificate authentication types.
 
 **Output**
 
-* **Reference as: OutArgument<DriveItem>** - The name you will use to refer the moved file or folder in other activities.
+* **Reference as: `OutArgument<DriveItem>`** - The name you will use to refer the moved file or folder in other activities.
 
 **Misc**
 

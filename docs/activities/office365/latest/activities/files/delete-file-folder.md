@@ -26,7 +26,7 @@ Deletes a file or folder at the specified location in OneDrive or SharePoint.
 
 **Input**
 
-* **File or folder to delete: InArgument<DriveItem>*** - File or folder to delete.
+* **File or folder to delete: `InArgument<DriveItem>`*** - File or folder to delete.
 
 **Misc**
 

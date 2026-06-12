@@ -26,7 +26,7 @@ Updates the specified list item.
 
 **Input**
 
-* **List Item: InArgument<Office365SharepointListItem>*** - The list item to be updated.
+* **List Item: `InArgument<Office365SharepointListItem>`*** - The list item to be updated.
 
 **Misc**
 

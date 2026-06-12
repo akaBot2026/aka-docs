@@ -26,7 +26,7 @@ Deletes the specified list item.
 
 **Input**
 
-* **List Item: InArgument<Office365SharepointListItem>*** - The list item on which the operation is performed.
+* **List Item: `InArgument<Office365SharepointListItem>`*** - The list item on which the operation is performed.
 
 **Misc**
 

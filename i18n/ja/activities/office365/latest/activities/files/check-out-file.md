@@ -27,9 +27,9 @@ RCA.Activities.Office365.CheckOutFile
 
 **入力**
 
-* **File To Check Out: InArgument<DriveItem>** - チェックアウトするファイル。Get File/Folder または Find Files And Folders アクティビティを使用してファイルを取得できます。
+* **File To Check Out: `InArgument<DriveItem>`** - チェックアウトするファイル。Get File/Folder または Find Files And Folders アクティビティを使用してファイルを取得できます。
 
-* **ListItem To Check Out: InArgument<Office365SharepointListItem>** - チェックアウトするリスト項目。For Each List Item アクティビティを使用して ListItem を取得できます。
+* **ListItem To Check Out: `InArgument<Office365SharepointListItem>`** - チェックアウトするリスト項目。For Each List Item アクティビティを使用して ListItem を取得できます。
 
 **その他**
 
@@ -37,4 +37,5 @@ RCA.Activities.Office365.CheckOutFile
 
 * **Display Name (String)** - このアクティビティの表示名。コードの整理や構造化のためにアクティビティ名を編集できます。
   例: [3424325] Open Window
+
 

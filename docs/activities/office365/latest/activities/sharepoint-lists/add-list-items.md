@@ -28,15 +28,15 @@ Adds one or multiple list items to the specified SharePoint list.
 
 **Input**
 
-* **List: InArgument<Office365SharepointList>*** - The SharePoint list on which the operation is performed.
+* **List: `InArgument<Office365SharepointList>`*** - The SharePoint list on which the operation is performed.
 
-* **Single List Item: InArgument<DataTable>** - The fields values for a single list item. It should contain two columns: field name (String) and value (Object).
+* **Single List Item: `InArgument<DataTable>`** - The fields values for a single list item. It should contain two columns: field name (String) and value (Object).
 
-* **Multiple List Items: InArgument<DataTable>** - The fields values for multiple list items. The first row represents column headers and remaining rows represent field values.
+* **Multiple List Items: `InArgument<DataTable>`** - The fields values for multiple list items. The first row represents column headers and remaining rows represent field values.
 
 **Output**
 
-* **List Items: OutArgument<Office365SharepointListItem[]>** - The information about the newly created list items.
+* **List Items: `OutArgument<Office365SharepointListItem[]>`** - The information about the newly created list items.
 
 **Misc**
 

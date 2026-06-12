@@ -27,9 +27,9 @@ RCA.Activities.Office365.ExportFileAsPdf
 
 **入力**
 
-* **File to export: InArgument<DriveItem>** - PDF にエクスポートするファイル。
+* **File to export: `InArgument<DriveItem>`** - PDF にエクスポートするファイル。
 
-* **Download as file: InArgument<String>** - 変換されたファイルが保存されるローカルパス。
+* **Download as file: `InArgument<String>`** - 変換されたファイルが保存されるローカルパス。
 
 **その他**
 
@@ -37,4 +37,5 @@ RCA.Activities.Office365.ExportFileAsPdf
 
 * **Display Name (String)** - このアクティビティの表示名。コードの整理や構造化のためにアクティビティ名を編集できます。
   例: [3424325] Open Window
+
 

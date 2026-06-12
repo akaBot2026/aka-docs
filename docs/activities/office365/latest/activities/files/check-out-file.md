@@ -27,9 +27,9 @@ Check out a document to prevent others from editing it, and prevent your changes
 
 **Input**
 
-* **File To Check Out: InArgument<DriveItem>** - File you want to check out. You can use the Get File/Folder or Find Files And Folders activity to get the file.
+* **File To Check Out: `InArgument<DriveItem>`** - File you want to check out. You can use the Get File/Folder or Find Files And Folders activity to get the file.
 
-* **ListItem To Check Out: InArgument<Office365SharepointListItem>** - List item you want to check out. You can use the For Each List Item activity to get the ListItem.
+* **ListItem To Check Out: `InArgument<Office365SharepointListItem>`** - List item you want to check out. You can use the For Each List Item activity to get the ListItem.
 
 **Misc**
 

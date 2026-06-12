@@ -26,7 +26,7 @@ RCA.Activities.Office365.DeleteListItem
 
 **入力**
 
-* **List Item: InArgument<Office365SharepointListItem>** - 操作が実行されるリスト項目。
+* **List Item: `InArgument<Office365SharepointListItem>`** - 操作が実行されるリスト項目。
 
 **その他**
 
@@ -34,4 +34,5 @@ RCA.Activities.Office365.DeleteListItem
 
 * **Display Name (String)** - このアクティビティの表示名。コードの整理や構造化のためにアクティビティ名を編集できます。
   例: [3424325] Open Window
+
 

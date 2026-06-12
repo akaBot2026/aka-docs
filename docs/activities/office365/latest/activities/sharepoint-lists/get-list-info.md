@@ -27,15 +27,15 @@ Gets the information about the specified SharePoint List.
 
 **Input**
 
-* **Site Url Or Id: InArgument<String>*** - The URL or the ID of the SharePoint site.
+* **Site Url Or Id: `InArgument<String>`*** - The URL or the ID of the SharePoint site.
 
-* **List Title Or Id: InArgument<String>*** - Specify either the title (display name) or the ID of the list.
+* **List Title Or Id: `InArgument<String>`*** - Specify either the title (display name) or the ID of the list.
 
-* **Include Columns Definitions: Boolean** - Indicates whether to retrieve the information about the list columns.
+* **Include Columns Definitions: `Boolean`** - Indicates whether to retrieve the information about the list columns.
 
 **Output**
 
-* **List: OutArgument<Office365SharepointList>** - The information about the SharePoint list.
+* **List: `OutArgument<Office365SharepointList>`** - The information about the SharePoint list.
 
 **Misc**
 

@@ -27,11 +27,11 @@ Check in a checked-out document, which makes the version of the file available t
 
 **Input**
 
-* **File To Check In: InArgument<DriveItem>** - File you want to check in. You can use the Get File/Folder or Find Files And Folders activity to get the file.
+* **File To Check In: `InArgument<DriveItem>`** - File you want to check in. You can use the Get File/Folder or Find Files And Folders activity to get the file.
 
-* **Check In Comment: InArgument<String>** - A comment explaining what you changed or added.
+* **Check In Comment: `InArgument<String>`** - A comment explaining what you changed or added.
 
-* **ListItem To Check In: InArgument<Office365SharepointListItem>** - List item you want to check in. You can use the For Each List Item activity to get the ListItem.
+* **ListItem To Check In: `InArgument<Office365SharepointListItem>`** - List item you want to check in. You can use the For Each List Item activity to get the ListItem.
 
 **Misc**
 

@@ -28,15 +28,15 @@ RCA.Activities.Office365.AddListItems
 
 **入力**
 
-* **List: InArgument<Office365SharepointList>** - 操作が実行される SharePoint リスト。
+* **List: `InArgument<Office365SharepointList>`** - 操作が実行される SharePoint リスト。
 
-* **Single List Item: InArgument<DataTable>** - 単一のリスト項目のフィールド値。フィールド名 (String) と値 (Object) の 2 列を含める必要があります。
+* **Single List Item: `InArgument<DataTable>`** - 単一のリスト項目のフィールド値。フィールド名 (String) と値 (Object) の 2 列を含める必要があります。
 
-* **Multiple List Items: InArgument<DataTable>** - 複数のリスト項目のフィールド値。最初の行が列ヘッダーを表し、残りの行がフィールド値を表します。
+* **Multiple List Items: `InArgument<DataTable>`** - 複数のリスト項目のフィールド値。最初の行が列ヘッダーを表し、残りの行がフィールド値を表します。
 
 **出力**
 
-* **List Items: OutArgument<Office365SharepointListItem[]>** - 新しく作成されたリスト項目に関する情報。
+* **List Items: `OutArgument<Office365SharepointListItem[]>`** - 新しく作成されたリスト項目に関する情報。
 
 **その他**
 
@@ -48,4 +48,5 @@ RCA.Activities.Office365.AddListItems
 * **Single List Item**: `dtNewTask`
 * **List Items (Output)**: **Ctrl + K** を押して変数 `newItems` を作成します。
 6. プロセスを実行します。新しいタスクが SharePoint リストに正常に追加されます。
+
 

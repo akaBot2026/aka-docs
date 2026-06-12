@@ -26,13 +26,13 @@ Performs an activity or a series of activities on each list item in the specifie
 
 **Input**
 
-* **List: InArgument<Office365SharepointList>*** - The SharePoint list on which the operation is performed.
+* **List: `InArgument<Office365SharepointList>`*** - The SharePoint list on which the operation is performed.
 
-* **Filter: InArgument<String>** - An optional OData filter.
+* **Filter: `InArgument<String>`** - An optional OData filter.
 
 **Output**
 
-* **Current Index: OutArgument<Int32>** - The index of the current iteration.
+* **Current Index: `OutArgument<Int32>`** - The index of the current iteration.
 
 **Misc**
 

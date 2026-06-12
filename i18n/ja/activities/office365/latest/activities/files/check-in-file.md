@@ -27,11 +27,11 @@ RCA.Activities.Office365.CheckInFile
 
 **入力**
 
-* **File To Check In: InArgument<DriveItem>** - チェックインするファイル。Get File/Folder または Find Files And Folders アクティビティを使用してファイルを取得できます。
+* **File To Check In: `InArgument<DriveItem>`** - チェックインするファイル。Get File/Folder または Find Files And Folders アクティビティを使用してファイルを取得できます。
 
-* **Check In Comment: InArgument<String>** - 変更または追加した内容を説明するコメント。
+* **Check In Comment: `InArgument<String>`** - 変更または追加した内容を説明するコメント。
 
-* **ListItem To Check In: InArgument<Office365SharepointListItem>** - チェックインするリスト項目。For Each List Item アクティビティを使用して ListItem を取得できます。
+* **ListItem To Check In: `InArgument<Office365SharepointListItem>`** - チェックインするリスト項目。For Each List Item アクティビティを使用して ListItem を取得できます。
 
 **その他**
 
@@ -39,4 +39,5 @@ RCA.Activities.Office365.CheckInFile
 
 * **Display Name (String)** - このアクティビティの表示名。コードの整理や構造化のためにアクティビティ名を編集できます。
   例: [3424325] Open Window
+
 

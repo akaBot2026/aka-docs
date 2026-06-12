@@ -27,9 +27,9 @@ Creates a folder at the specified location in OneDrive or SharePoint.
 
 **Input**
 
-* **Folder name: InArgument<String>*** - The name of the new folder.
+* **Folder name: `InArgument<String>`*** - The name of the new folder.
 
-* **Destination folder: InArgument<DriveItem>** - The destination folder where to create the new folder. If left blank, it will default to OneDrive root folder.
+* **Destination folder: `InArgument<DriveItem>`** - The destination folder where to create the new folder. If left blank, it will default to OneDrive root folder.
 
 **Options**
 

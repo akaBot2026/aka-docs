@@ -27,19 +27,19 @@ Copies a file or folder from one parent folder to another.
 
 **Input**
 
-* **File or folder to copy: InArgument<DriveItem>*** - The file or folder to copy.
+* **File or folder to copy: `InArgument<DriveItem>`*** - The file or folder to copy.
 
-* **Destination folder: InArgument<DriveItem>** - The destination folder where to copy the specified file or folder. If left blank, it will default to OneDrive root folder.
+* **Destination folder: `InArgument<DriveItem>`** - The destination folder where to copy the specified file or folder. If left blank, it will default to OneDrive root folder.
 
-* **New name (optional): InArgument<String>** - The name of this item after it is copied.
+* **New name (optional): `InArgument<String>`** - The name of this item after it is copied.
 
 **Options**
 
-* **Account: InArgument<String>** - The ID or User Principal Name for the user who owns the OneDrive. This parameter must be set for ApplicationIdAndSecret and ApplicationIdAndCertificate authenticatio types.
+* **Account: `InArgument<String>`** - The ID or User Principal Name for the user who owns the OneDrive. This parameter must be set for ApplicationIdAndSecret and ApplicationIdAndCertificate authenticatio types.
 
 **Output**
 
-* **Reference as: OutArgument<DriveItem>** - The name you will use to refer the copied file or folder in other activities.
+* **Reference as: `OutArgument<DriveItem>`** - The name you will use to refer the copied file or folder in other activities.
 
 **Misc**
 

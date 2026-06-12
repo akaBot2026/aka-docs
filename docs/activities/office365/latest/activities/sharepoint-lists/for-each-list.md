@@ -26,13 +26,13 @@ Performs an activity or a series of activities on each list in the specified Sha
 
 **Input**
 
-* **Site Url Or Id: InArgument<String>*** - The URL or the ID of the SharePoint site.
+* **Site Url Or Id: `InArgument<String>`*** - The URL or the ID of the SharePoint site.
 
-* **Include Columns Definitions: Boolean** - Indicates whether to retrieve the information about the list columns.
+* **Include Columns Definitions: `Boolean`** - Indicates whether to retrieve the information about the list columns.
 
 **Output**
 
-* **Current Index: OutArgument<Int32>** - The index of the current iteration.
+* **Current Index: `OutArgument<Int32>`** - The index of the current iteration.
 
 **Misc**
 

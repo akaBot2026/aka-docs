@@ -28,25 +28,25 @@ RCA.Activities.Office365.ShareItem
 
 **入力**
 
-* **File or folder to share: InArgument<DriveItem>** - 共有するファイルまたはフォルダー。
+* **File or folder to share: `InArgument<DriveItem>`** - 共有するファイルまたはフォルダー。
 
-* **Grantee type: GranteeType** - 権限が付与される受信者のタイプ。
+* **Grantee type: `GranteeType`** - 権限が付与される受信者のタイプ。
 
-* **Grantee permission: GranteePermission** - 付与される権限の種類。
+* **Grantee permission: `GranteePermission`** - 付与される権限の種類。
 
 **特定のユーザー**
 
-* **Send sharing invitation email: Boolean** - Recipients プロパティで指定した受信者に共有招待メールを送信するかどうかを指定します。
+* **Send sharing invitation email: `Boolean`** - Recipients プロパティで指定した受信者に共有招待メールを送信するかどうかを指定します。
 
-* **Message: InArgument<String>** - 共有招待メールに含めるプレーンテキストメッセージ。
+* **Message: `InArgument<String>`** - 共有招待メールに含めるプレーンテキストメッセージ。
 
-* **Recipients: InArgument<String[]>** - アクセスを受け取り、オプションで共有招待を受け取る特定の受信者のリスト。各受信者はメールアドレスで指定します。
+* **Recipients: `InArgument<String[]>`** - アクセスを受け取り、オプションで共有招待を受け取る特定の受信者のリスト。各受信者はメールアドレスで指定します。
 
-* **Requires sign in: Boolean** - 受信者が共有アイテムを表示するためにサインインを要求するかどうかを指定します。
+* **Requires sign in: `Boolean`** - 受信者が共有アイテムを表示するためにサインインを要求するかどうかを指定します。
 
 **出力**
 
-* **Access url: OutArgument<String>** - 共有リンクまたはドライブ項目の Web URL（Specific People の場合）。
+* **Access url: `OutArgument<String>`** - 共有リンクまたはドライブ項目の Web URL（Specific People の場合）。
 
 **その他**
 
@@ -54,4 +54,5 @@ RCA.Activities.Office365.ShareItem
 
 * **Display Name (String)** - このアクティビティの表示名。コードの整理や構造化のためにアクティビティ名を編集できます。
   例: [3424325] Open Window
+
 

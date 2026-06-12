@@ -27,9 +27,9 @@ Downloads a file from OneDrive or SharePoint.
 
 **Input**
 
-* **Download as file: InArgument<String>*** - The local path to which the file will be downloaded.
+* **Download as file: `InArgument<String>`*** - The local path to which the file will be downloaded.
 
-* **File to download: InArgument<DriveItem>*** - The file to download.
+* **File to download: `InArgument<DriveItem>`*** - The file to download.
 
 **Misc**
 

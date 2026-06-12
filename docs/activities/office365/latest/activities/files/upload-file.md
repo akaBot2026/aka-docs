@@ -27,23 +27,23 @@ Uploads a local file to OneDrive or SharePoint.
 
 **Input**
 
-* **File to upload: InArgument<String>*** - The path to a local file to upload.
+* **File to upload: `InArgument<String>`*** - The path to a local file to upload.
 
-* **Destination folder: InArgument<DriveItem>** - The destination folder where to upload the file. If left blank, it will default to OneDrive root folder.
+* **Destination folder: `InArgument<DriveItem>`** - The destination folder where to upload the file. If left blank, it will default to OneDrive root folder.
 
-* **New name (optional): InArgument<String>** - An optional new name for the uploaded file.
+* **New name (optional): `InArgument<String>`** - An optional new name for the uploaded file.
 
-* **Conflict behavior: ConflictBehavior** - Indicates the conflict resolution behavior in case a file with the same name already exists.
+* **Conflict behavior: `ConflictBehavior`** - Indicates the conflict resolution behavior in case a file with the same name already exists.
 
-* **Metadata: InArgument<DataTable>** - The metadata to associate with the resulted DriveItem. It works only for a DriveItem stored in a SharePoint Document Library. It should contain two columns: field display name (String) and value (Object).
+* **Metadata: `InArgument<DataTable>`** - The metadata to associate with the resulted DriveItem. It works only for a DriveItem stored in a SharePoint Document Library. It should contain two columns: field display name (String) and value (Object).
 
 **Options**
 
-* **Account: InArgument<String>** - The ID or User Principal Name for the user who owns the OneDrive. This parameter must be set for ApplicationIdAndSecret and ApplicationIdAndCertificate authentication types.
+* **Account: `InArgument<String>`** - The ID or User Principal Name for the user who owns the OneDrive. This parameter must be set for ApplicationIdAndSecret and ApplicationIdAndCertificate authentication types.
 
 **Output**
 
-* **Reference as: OutArgument<DriveItem>** - The name you will use to refer the uploaded file in other activities.
+* **Reference as: `OutArgument<DriveItem>`** - The name you will use to refer the uploaded file in other activities.
 
 **Misc**
 

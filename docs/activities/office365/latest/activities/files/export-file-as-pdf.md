@@ -27,9 +27,9 @@ Converts and exports a file as PDF. Supported formats include doc, docx, odp, od
 
 **Input**
 
-* **File to export: InArgument<DriveItem>*** - The file to export as PDF.
+* **File to export: `InArgument<DriveItem>`*** - The file to export as PDF.
 
-* **Download as file: InArgument<String>*** - The local path to which the converted file is saved.
+* **Download as file: `InArgument<String>`*** - The local path to which the converted file is saved.
 
 **Misc**
 
