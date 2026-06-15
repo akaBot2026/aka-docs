@@ -49,5 +49,5 @@ A small online shop connects its Zalo OA to ScaleFlow. A customer asks, "Do you 
 | [Inbox](./user-guide/inbox-usage) | Handle daily customer conversations. |
 | [Tickets](./user-guide/ticket-usage) | Track issues that need follow-up. |
 | [Contacts](./user-guide/contact-management) | Keep customer information organized. |
-| [Integrations](./user-guide/integration-usage) | Connect tools like HubSpot, Google Drive, and Google Sheets. |
+| [Integrations](./user-guide/integration-usage) | Connect tools like HubSpot, Shopify, Google Drive, and Google Sheets. |
 | [Analytics](./user-guide/analytics-usage) | Understand message, conversation, ticket, and contact activity. |

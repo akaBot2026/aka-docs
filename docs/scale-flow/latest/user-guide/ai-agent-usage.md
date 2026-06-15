@@ -96,7 +96,7 @@ If you have not created Knowledge yet, follow [Knowledge Usage](./knowledge-usag
 
 ![Integration section](/static/img/integration.png)
 
-Integrations let the agent work with connected business tools, such as HubSpot, Google Drive, or Google Sheets.
+Integrations let the agent work with connected business tools, such as HubSpot, Shopify, Google Drive, or Google Sheets.
 
 Use this only when the agent needs information from those tools or needs to perform an approved action. Beginners can start without integrations, then add them later.
 

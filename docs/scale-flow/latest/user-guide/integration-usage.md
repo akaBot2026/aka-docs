@@ -9,13 +9,13 @@ displayed_sidebar: scaleFlowSidebar
 
 # Integration Usage
 
-Integrations connect ScaleFlow to other tools your business already uses, such as HubSpot, Google Drive, and Google Sheets.
+Integrations connect ScaleFlow to other tools your business already uses, such as HubSpot, Shopify, Google Drive, and Google Sheets.
 
 Use integrations when you want ScaleFlow, [Knowledge](./knowledge-usage), or [AI Agent](./ai-agent-usage) to work with information stored outside ScaleFlow.
 
 ## What integrations are used for
 
-- Connect customer data from HubSpot.
+- Connect customer data from HubSpot or e-commerce data from Shopify.
 - Use files from Google Drive as Knowledge.
 - Work with data in Google Sheets.
 - Let approved AI Agents use selected connected tools.
@@ -41,6 +41,7 @@ If you cannot connect or edit integrations, ask your admin to grant integration 
 ## Providers currently available in UI
 
 - **HubSpot**
+- **Shopify**
 - **Google Sheets**
 - **Google Drive**
 
@@ -53,8 +54,9 @@ Other providers in the grid may show **Coming soon** and cannot be connected yet
 3. Click **Connect**.
 4. On setup screen, review requested permissions.
 5. Click:
-   - **Continue on HubSpot** (HubSpot), or
-   - **Continue with Google** (Google Sheets / Google Drive).
+   - **Continue on HubSpot** (HubSpot),
+   - **Continue with Google** (Google Sheets / Google Drive), or
+   - Enter credentials and click **Connect** (Shopify).
 
    ![Connect Google Drive flow](/static/img/connect-google-drive.png)
 
@@ -106,6 +108,12 @@ If status is not healthy (for example **Error** or **Reauth required**), use **R
 Use HubSpot when your sales or support team stores customer records in HubSpot.
 
 Inside one HubSpot connection, you can rename the connection, review available AI actions, and sync customer or ticket data when your setup supports it.
+
+### Shopify connection
+
+Use Shopify when your business uses Shopify for e-commerce.
+
+For a detailed guide on how to get the required API credentials (Client ID, Client Secret, and Store URL) and connect the integration, refer to the [Shopify Integration](./shopify-integration) guide.
 
 ### Google Sheets connection
 
