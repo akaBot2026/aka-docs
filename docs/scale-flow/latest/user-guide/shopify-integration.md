@@ -48,7 +48,7 @@ Your Shopify Store URL is the primary `.myshopify.com` domain for your store.
 1. Access [https://partners.shopify.com/](https://partners.shopify.com/) and log in to your Shopify Partners account.
 2. In the left navigation menu, click on **Apps** to open your developer dashboard.
 
-   ![Shopify Partners Apps Menu](/static/img/image_shopify_3.png)
+   ![Shopify Partners Apps Menu](/static/img/image_shopify_3.jpg)
 
 ### Step 3: Create a Custom App
 
@@ -56,7 +56,7 @@ Your Shopify Store URL is the primary `.myshopify.com` domain for your store.
 2. Enter the **App name** (e.g., `ScaleFlow Integration`).
 3. Click **Create** to confirm.
 
-   ![Shopify Create App](/static/img/image_shopify_4.png)
+   ![Shopify Create App](/static/img/image_shopify_4.jpg)
 
 ### Step 4: Configure App Settings (Scopes and Redirect URLs)
 
