@@ -1,0 +1,27 @@
+<Activity mc:Ignorable="sap sap2010 sads" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:rca="clr-namespace:RCA.Activities.FormBuilder;assembly=RCA.Activities.FormBuilder">
+  <Sequence DisplayName="Main">
+    <Sequence.Variables>
+      <Variable Name="empName" Type="s:String" />
+      <Variable Name="empEmail" Type="s:String" />
+      <Variable Name="empPhone" Type="s:String" />
+      <Variable Name="empDepartment" Type="s:String" />
+      <Variable Name="empType" Type="s:String" />
+      <Variable Name="empStartDate" Type="s:String" />
+    </Sequence.Variables>
+
+    <rca:DisplayForm DisplayName="Display Form - employee_registration" JsonSchemaFileName="employee_registration.json">
+      <rca:DisplayForm.FormArguments>
+        <InArgument x:TypeArguments="s:String" x:Key="employeeId">EMP-001</InArgument>
+        <OutArgument x:TypeArguments="s:String" x:Key="fullName">[empName]</OutArgument>
+        <OutArgument x:TypeArguments="s:String" x:Key="email">[empEmail]</OutArgument>
+        <OutArgument x:TypeArguments="s:String" x:Key="phone">[empPhone]</OutArgument>
+        <OutArgument x:TypeArguments="s:String" x:Key="department">[empDepartment]</OutArgument>
+        <OutArgument x:TypeArguments="s:String" x:Key="employmentType">[empType]</OutArgument>
+        <OutArgument x:TypeArguments="s:String" x:Key="startDate">[empStartDate]</OutArgument>
+      </rca:DisplayForm.FormArguments>
+    </rca:DisplayForm>
+
+    <WriteLine DisplayName="Log Message" Text="[&quot;Registered: &quot; + empName + &quot; | &quot; + empEmail + &quot; | &quot; + empDepartment + &quot; | &quot; + empType + &quot; | Start: &quot; + empStartDate]" />
+
+  </Sequence>
+</Activity>

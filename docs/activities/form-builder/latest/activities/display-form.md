@@ -72,11 +72,44 @@ Allows you to design, load, and display a user interface Form based on a pre-def
 
 1. **Add the Activity**: Drag the **Display Form** activity into your Studio workflow canvas.
 2. **Link the Schema**: In the **Json Schema File Name** property, enter the path to your form `.json` file (e.g. `"customer_form.json"`). If you do not have a schema yet, click [Open Form Builder](/docs/activities/form-builder/latest/open-form-builder.md) in the activity body to design one.
-3. **Map Output Variables**:
-   * Click inside the **Form Id** property field in the Properties panel, press `Ctrl + K`, type a variable name (e.g. `formId`), and press **Enter**. This variable stores the active form window session ID.
-   * Click inside the **Output Data** property field, press `Ctrl + K`, type a variable name (e.g. `submittedData`), and press **Enter**. This variable will automatically capture all user input data in JSON format once the form is submitted.
-4. **Implement Dynamic Actions (Optional)**: If you want to modify components while the form is open, place activities like [Set Element Value](/docs/activities/form-builder/latest/activities/set-element-value.md) or [Disable](/docs/activities/form-builder/latest/activities/disable.md) inside the **Do** block container, referencing the `formId` variable.
-5. **Handle Results**: Below the **Display Form** activity, add a **Log Message** or JSON parsing activity to process the data stored in the `submittedData` variable.
+
+7. Open the **Main** workflow file that runs the process.
+
+8. Configure the [Display Form](/docs/activities/form-builder/latest/activities/display-form.md) activity in your sequence.
+   
+   a. Select the **Display Form** activity on your canvas.
+   
+   b. In the activity body, click the `...` button inside the **Json Schema file path** input box, and select the `employee_registration.json` file you just created (the path will be automatically quoted, e.g., `"C:\path\to\employee_registration.json"`).
+   
+   c. At the bottom of akaBot Studio, click the **Variables** tab and create the following variables:
+      * `fullName` (Variable type: `String`)
+      * `email` (Variable type: `String`)
+      * `phone` (Variable type: `String`)
+      * `startDate` (Variable type: `String`)
+      * `department` (Variable type: `String`)
+      * `employmentType` (Variable type: `String`)
+   
+   d. Look at the **Properties** panel on the right side of the screen.
+   e. Under the **Input** category, click the `...` button next to **Form Arguments** to open the arguments collection window.
+   f. Add the following arguments exactly as shown:
+
+      | Key | Type | Direction | Value |
+      | --- | --- | --- | --- |
+      | `employeeId` (the **Property Name** of the **Hidden** component) | `String` | `In` | `"EMP-001"` (a value to pre-fill into the form) |
+      | `fullName` (the **Property Name** of the **Text Field** component) | `String` | `Out` | `fullName` |
+      | `email` (the **Property Name** of the **Email** component) | `String` | `Out` | `email` |
+      | `phone` (the **Property Name** of the **Phone Number** component) | `String` | `Out` | `phone` |
+      | `department` (the **Property Name** of the **Select** component) | `String` | `Out` | `department` |
+      | `employmentType` (the **Property Name** of the **Radio** component) | `String` | `Out` | `employmentType` |
+      | `startDate` (the **Property Name** of the **Date / Time** component) | `String` | `Out` | `startDate` |
+
+      **Note**: Use `In` direction to push data from the workflow into the form (pre-fill), and `Out` direction to capture data entered by the user back into your workflow variables.
+
+9. Add a **Log Message** activity below **Display Form** to log the registration result. Set its Text to: `"Registered: " + fullName + " | " + email + " | " + department + " | " + employmentType + " | Start: " + startDate`.
+
+## Workflow example
+
+To follow the steps and try out the tutorial yourself, download the sample project [here](/static/files/form-builder/employee_registration_sample.zip).
 
 ---
 
