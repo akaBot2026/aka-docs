@@ -44,12 +44,13 @@ Closes an active form dynamically from within the workflow execution. This activ
 ---
 
 ## **Step-by-Step Usage**
-The **Close Form** activity must be executed while the form is still active. 
+The **Close Form** activity must be executed while the form is still active.
 
-For example:
-1. In [Display Form](/docs/activities/form-builder/latest/activities/display-form.md), you map the output **Form Id** to a workflow variable named `myFormId`.
-2. Inside the **Do** block, the robot performs background data processing.
-3. Once the processing is successful, the robot calls **Close Form** with **Form Id** set to `myFormId` to close the interface automatically without requiring user manual clicks.
+For example, to automatically close the form after a 5-second delay:
+1. **Drag Display Form**: Drag a [Display Form](/docs/activities/form-builder/latest/activities/display-form.md) activity into your workflow designer canvas.
+2. **Assign Form Id**: In its **Properties** panel on the right, under **Output** -> **Form Id**, press `Ctrl + K` to create a variable named `formId` (Variable type: `Int32`).
+3. **Add Delay**: Inside the **Do** block of the `Display Form` activity, drag a **Delay** activity and set the duration to `00:00:05` (5 seconds).
+4. **Call Close Form**: Below the **Delay** activity (still inside the **Do** block), drag a **Close Form** activity and set its **Form Id** property to `formId`. When run, the form window will display, wait 5 seconds, and then close automatically.
 
 ---
 

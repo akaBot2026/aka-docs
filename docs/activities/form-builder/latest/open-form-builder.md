@@ -65,7 +65,7 @@ Provides pre-built UI components that you can drag onto the canvas. Components a
 | **Edit Grid** | Renders an inline list layout allowing users to add, edit, and remove row entries. |
 
 ### **2. Center Canvas**
-The active design area where you drag, position, and order your form components. Double-clicking any component on the canvas opens its individual settings modal (to edit the Field Label, Property Name under the Field Key tab, validation criteria, etc. - see [Form Controls](file:///d:/akb-v2-docs/aka-docs/docs/activities/form-builder/latest/form/form-control.md) for detailed property tab configurations).
+The active design area where you drag, position, and order your form components. Double-clicking any component on the canvas opens its individual settings modal (to edit the Field Label, Property Name under the Field Key tab, validation criteria, etc. - see [Form Controls](/docs/activities/form-builder/latest/form/form-control.md) for detailed property tab configurations).
 
 ### **3. Top Toolbar**
 * **Save**: Overwrites the active JSON schema file with current design modifications.
@@ -81,7 +81,7 @@ The active design area where you drag, position, and order your form components.
 This step-by-step walkthrough guides you through designing a form to capture contact details and integrating it into an akaBot Studio workflow.
 
 ### **Step 1: Open the Form Builder**
-1. Open akaBot Studio and drag a [Display Form](file:///d:/akb-v2-docs/aka-docs/docs/activities/form-builder/latest/activities/display-form.md) activity into your designer canvas.
+1. Open akaBot Studio and drag a [Display Form](/docs/activities/form-builder/latest/activities/display-form.md) activity into your designer canvas.
 2. Click **Open Form Builder** directly inside the body of the activity. The Form Builder editor window will launch.
 
 ### **Step 2: Define the Layout Structure (Arrange Fields Side-by-Side)**

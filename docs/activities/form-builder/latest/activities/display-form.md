@@ -30,7 +30,7 @@ Allows you to design, load, and display a user interface Form based on a pre-def
 | :--- | :--- | :--- | :--- | :--- |
 | **Json Schema File Name** | `InArgument<String>` | **Yes** | None | The path to the `.json` schema file generated from the Form Builder tool. |
 | **Form Arguments** | `Dictionary<String, Argument>` | No | None | Maps workflow variables directly to form components. Key names must match the Field Keys (Property Names) of the fields. Supported types: `String`, `Int32`, `Double`, `Decimal`, `Float`, `Boolean`, `JObject`, `JArray`. |
-| **Form Fields Input Data** | `InArgument<String>` | No | None | A raw JSON-formatted string to populate form data. If a key is defined in both **Form Arguments** and here, the value here takes precedence.<br/><br/>*Example of where to get this:*<br/>1. Read a template `.json` file using the **Read Text File** activity and pass the text output variable here.<br/>2. Retrieve a JSON string from a REST API response.<br/>3. Construct a JSON string using an **Assign** activity: `"{""txtCustomerName"": ""John Doe"", ""chkAgreement"": true}"` |
+| **Form Fields Input Data** | `InArgument<String>` | No | None | A raw JSON-formatted string to populate form data. If a key is defined in both **Form Arguments** and here, the value here takes precedence.<br/><br/>*Example of where to get this:*<br/>1. Read a template `.json` file using the **Read Text File** activity and pass the text output variable here.<br/>2. Retrieve a JSON string from a REST API response.<br/>3. Construct a JSON string using an **Assign** activity: `"{""customerName"": ""John Doe"", ""agreement"": true}"` |
 
 ### **Form Format**
 | Property Name | Data Type | Required | Default | Description & User-Centric Guide |

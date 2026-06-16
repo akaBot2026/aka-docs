@@ -41,15 +41,16 @@ Clears all input data entered by the user in the form window, restoring all inpu
 | **Display Name** | `String` | No | Reset Form | Name displayed in the workflow designer. |
 | **Public** | `Boolean` | No | False | Check if you want to publish the activity execution logs. |
 
----
-
 ## **Step-by-Step Usage**
-The **Reset Form** activity operates on a live form instance, so it must be executed inside the **Do** block container.
+The **Reset Form** activity operates on a live form instance, so it must be executed inside the **Do** block container of [Display Form](/docs/activities/form-builder/latest/activities/display-form.md).
 
-For example, to implement a custom clear action:
-1. **Place the Activity**: Drag the **Reset Form** activity inside the **Do** block of [Display Form](/docs/activities/form-builder/latest/activities/display-form.md).
-2. **Listen to Button Clicks**: Use an **If** activity inside the **Do** block to check if the user clicked the reset button. Set the condition to check the **Selected Key** output variable of `Display Form` (e.g. `selectedKey = "btnClear"`).
-3. **Execute Reset**: Inside the **Then** branch of the **If** activity, call **Reset Form** and bind the **Form Id** property to your form's ID variable (e.g. `formId`). When the user clicks the "Clear" button, all form fields will immediately clear and reset to their default values.
+For example, to implement an automated form reset triggered by a checkbox state change:
+1. **Configure Trigger in Form**: In the Form Builder, add a **Checkbox** component, set its Label to `Reset Form Fields`, and check the **Execute DO on change** box under the **Display** tab. Set its Property Name under the **Field Key** tab to `triggerReset`.
+2. **Read Checkbox State**: Inside the **Do** block of the `Display Form` activity, drag a [Get Element Value](/docs/activities/form-builder/latest/activities/get-element-value.md) activity to read the checkbox status (`"triggerReset"`), storing it in a boolean variable `isResetChecked`.
+3. **Trigger Reset**: Place an **If** activity to evaluate the condition: `isResetChecked = True`.
+4. **Execute Reset & Restore State**: Inside the **Then** branch:
+   * Drag a **Reset Form** activity and bind the **Form Id** property to your form's ID variable.
+   * Drag a [Set Element Value](/docs/activities/form-builder/latest/activities/set-element-value.md) activity to set `"triggerReset"` back to `False` so it is ready for the next trigger.
 
 ---
 
