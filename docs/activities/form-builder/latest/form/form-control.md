@@ -72,6 +72,8 @@ The **Display** tab controls the component's visual look-and-feel, widget render
 
 **Disabled** - Disable a field in the form. You can enable it dynamically using the [Enable](/docs/activities/form-builder/latest/activities/enable.md) activity.
 
+**Execute DO on change** - (Only available for Checkbox, Selectboxes, Select, and Radio components) When checked, any change to this field's value will trigger the workflow's DO block dynamically.
+
 **Table View** - Shows the component value in the table layout when nested within container components.
 
 **Modal Edit** - Opens a popup modal window to edit the component value.
@@ -82,7 +84,7 @@ The **Display** tab controls the component's visual look-and-feel, widget render
 
 The **Data** tab controls default values, dynamic array lists, dropdown options, and character processing rules.
 
-**Multiple Values** - When checked, multiple values can be added to the field. The values appear as an array in the API.
+**Multiple Values** - When checked, multiple values can be added to the field. The values appear as an array in the submission data.
 
 **Default Value** - The value of the field before users interact with it. The default value overrides the placeholder text.
 
