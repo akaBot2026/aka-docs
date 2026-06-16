@@ -2,7 +2,7 @@
 id: build-your-first-form
 title: "Build Your First Form"
 sidebar_label: "Build Your First Form"
-sidebar_position: 5
+sidebar_position: 1
 description: "A step-by-step tutorial on designing and displaying forms in akaBot Studio workflows."
 displayed_sidebar: activitiesSidebar
 ---
