@@ -71,17 +71,13 @@ Allows you to design, load, and display a user interface Form based on a pre-def
 ## **Step-by-Step Usage**
 
 1. **Add the Activity**: Drag the **Display Form** activity into your Studio workflow canvas.
-2. **Link the Schema**: In the **Json Schema File Name** property, enter the path to your form `.json` file (e.g. `"customer_form.json"`). If you do not have a schema yet, click [Open Form Builder](/docs/activities/form-builder/latest/open-form-builder.md) in the activity body to design one.
+2. **Link the Schema**: In the **Json Schema File Name** property, enter the path to your form `.json` file (e.g. `"customer_form.json"`). If you do not have a schema yet, click [Build your first form](/docs/activities/form-builder/latest/form/build-your-first-form.md) in the activity body to design one.
 
-7. Open the **Main** workflow file that runs the process.
-
-8. Configure the [Display Form](/docs/activities/form-builder/latest/activities/display-form.md) activity in your sequence.
+3. Configure the [Display Form](/docs/activities/form-builder/latest/activities/display-form.md) activity in your sequence.
    
    a. Select the **Display Form** activity on your canvas.
    
-   b. In the activity body, click the `...` button inside the **Json Schema file path** input box, and select the `employee_registration.json` file you just created (the path will be automatically quoted, e.g., `"C:\path\to\employee_registration.json"`).
-   
-   c. At the bottom of akaBot Studio, click the **Variables** tab and create the following variables:
+   b. At the bottom of akaBot Studio, click the **Variables** tab and create the following variables:
       * `fullName` (Variable type: `String`)
       * `email` (Variable type: `String`)
       * `phone` (Variable type: `String`)
@@ -90,6 +86,7 @@ Allows you to design, load, and display a user interface Form based on a pre-def
       * `employmentType` (Variable type: `String`)
    
    d. Look at the **Properties** panel on the right side of the screen.
+   
    e. Under the **Input** category, click the `...` button next to **Form Arguments** to open the arguments collection window.
    f. Add the following arguments exactly as shown:
 
