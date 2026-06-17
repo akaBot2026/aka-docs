@@ -78,6 +78,8 @@ The **Display** tab controls the component's visual look-and-feel, widget render
 
 **Modal Edit** - Opens a popup modal window to edit the component value.
 
+![display.png](/static/img/display.png)
+
 ---
 
 ## **2. Data**
@@ -149,6 +151,9 @@ Expand either of the collapsible panels to define your script logic:
 * **JavaScript** - Write custom JS code. The result must be assigned to the `value` variable.
 
 * **JSONLogic** - Define logic rules using a standard JSONLogic schema.
+
+![data1.png](/static/img/data1.png)
+
 ---
 
 ## **3. Validation**
@@ -168,6 +173,8 @@ The **Validation** tab manages client-side form validation, displaying red outli
 **Error Label** - The label that displays when a validation error message shows.
 
 **Custom Error Message** - A customized error message to be displayed if an error occurs.
+
+![validation.png](/static/img/validation.png)
 
 ---
 

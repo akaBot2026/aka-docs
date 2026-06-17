@@ -18,7 +18,7 @@ Allows you to design, load, and display a user interface Form based on a pre-def
 (\*For mandatory)
 
 ## **In the body of the activity**
-* **Open Form Builder** (Button) - Opens the visual, drag-and-drop Form Builder editor to design your form interface and export the JSON schema. For a detailed guide on how to design layouts and configure validation rules in the editor, see the [Open Form Builder](/docs/activities/form-builder/latest/activities/open-form-builder.md) documentation.
+* **Open Form Builder** (Button) - Opens the visual, drag-and-drop Form Builder editor to design your form interface and export the JSON schema. For a detailed guide on how to design layouts and configure validation rules in the editor, see the [Build your first form](/docs/activities/form-builder/latest/user-guide/build-your-first-form.md) documentation.
 * **Do** - The execution container block. Any activities placed here run asynchronously *while* the form is open, allowing the robot to dynamically update field values, disable fields, or handle custom events before the user submits or closes the form.
 
 ---
@@ -71,7 +71,7 @@ Allows you to design, load, and display a user interface Form based on a pre-def
 ## **Step-by-Step Usage**
 
 1. **Add the Activity**: Drag the **Display Form** activity into your Studio workflow canvas.
-2. **Link the Schema**: In the **Json Schema File Name** property, enter the path to your form `.json` file (e.g. `"customer_form.json"`). If you do not have a schema yet, click [Build your first form](/docs/activities/form-builder/latest/form/build-your-first-form.md) in the activity body to design one.
+2. **Link the Schema**: In the **Json Schema File Name** property, enter the path to your form `.json` file (e.g. `"customer_form.json"`). If you do not have a schema yet, click [Build your first form](/docs/activities/form-builder/latest/user-guide/build-your-first-form.md) in the activity body to design one.
 
 3. Configure the [Display Form](/docs/activities/form-builder/latest/activities/display-form.md) activity in your sequence.
    
