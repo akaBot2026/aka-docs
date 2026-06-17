@@ -14,6 +14,8 @@ RCA.Activities.PDF.MergePDF
 
 Join multiple PDF files.
 
+![merge-pdf-files](/static/img/merge-pdf-files.png)
+
 (\*For mandatory)
 
 ## **In the body of the activity**

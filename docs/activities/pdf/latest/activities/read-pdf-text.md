@@ -14,6 +14,8 @@ RCA.Activities.PDF.ReadPDFText
 
 Reads all characters from a specified PDF file and stores them in a string variable.
 
+![read-pdf-text](/static/img/read-pdf-text.png)
+
 (\*For mandatory)
 
 ## **In the body of the activity**

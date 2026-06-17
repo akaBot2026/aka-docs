@@ -14,6 +14,8 @@ RCA.Activities.PDF.SplitPDF
 
 Split a PDF file into multiple files.
 
+![split-pdf-files](/static/img/split-pdf-files.png)
+
 (\*For mandatory)
 
 ## **In the body of the activity**

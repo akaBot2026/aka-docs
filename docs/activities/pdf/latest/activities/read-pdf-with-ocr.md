@@ -14,6 +14,8 @@ RCA.Activities.PDF.ReadPDFWithOCR
 
 Reads all characters from a specified PDF file and stores it in a string variable by using OCR technology.
 
+![read-pdf-with-ocr](/static/img/read-pdf-with-ocr.png)
+
 (\*For mandatory)
 
 ## **In the body of the activity**

@@ -14,6 +14,8 @@ RCA.Activities.PDF.GetPropertiesPDF
 
 Gets a property of a PDF document by the name entered.
 
+![get-pdf-properties](/static/img/get-pdf-properties.png)
+
 (\*For mandatory)
 
 ## **In the body of the activity**

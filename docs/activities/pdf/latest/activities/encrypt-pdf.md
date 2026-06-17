@@ -14,6 +14,8 @@ RCA.Activities.PDF.EncryptPDF
 
 Use the Encrypt document action to encrypt a PDF file.
 
+![encrypt-pdf](/static/img/encrypt-pdf.png)
+
 (\*For mandatory)
 
 ## **In the body of the activity**

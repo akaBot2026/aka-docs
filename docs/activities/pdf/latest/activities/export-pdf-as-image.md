@@ -14,6 +14,8 @@ RCA.Activities.PDF.ExportPDFAsImage
 
 Export a single PDF page as an image.
 
+![export-pdf-page](/static/img/export-pdf-page.png)
+
 (\*For mandatory)
 
 ## **In the body of the activity**

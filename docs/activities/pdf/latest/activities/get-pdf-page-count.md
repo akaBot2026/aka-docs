@@ -14,6 +14,7 @@ RCA.Activities.PDF.GetPDFPageCount
 
 Get the PDF file page count.
 
+![get-pdf-page-count](/static/img/get-pdf-page-count.png)
 (\*For mandatory)
 
 ## **In the body of the activity**
