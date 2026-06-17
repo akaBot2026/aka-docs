@@ -1,4 +1,4 @@
-﻿---
+---
 id: split-pdf
 title: "Split PDF Files"
 sidebar_label: "Split PDF Files"
@@ -31,21 +31,21 @@ Split a PDF file into multiple files.
 
 **File**
 
-* **PDF Path: InArgument<String>*** - PDF file path.
+* **PDF Path** (`InArgument<String>`)* - PDF file path.
 
-* **Password: InArgument<String>** - The user password of the PDF file, if necessary.
+* **Password** (`InArgument<String>`) - The user password of the PDF file, if necessary.
 
-* **Save Path: InArgument<String>*** - The resulting PDF is saved in this given path. If it exists, the file is overwritten.
+* **Save Path** (`InArgument<String>`)* - The resulting PDF is saved in this given path. If it exists, the file is overwritten.
 
 **Input**
 
-* **Select Pages: InArgument<String[]>** - List pages you have specified from the original file.
+* **Select Pages** (`InArgument<String[]>`) - List pages you have specified from the original file.
 
-* **Number of pages: InArgument<Int32>** - Enables you to specify the number of pages each new file will contain. For example, you can enter 8 if you want each output file to contain only 8 pages.
+* **Number of pages** (`InArgument<Int32>`) - Enables you to specify the number of pages each new file will contain. For example, you can enter 8 if you want each output file to contain only 8 pages.
 
 **Options**
 
-* **Split Option: SplitOption** - Select one of the following options to specify how to split the PDF file: NumberOfPagesPerExtractedPDF or SingleFileWithSelectedPages.
+* **Split Option** (`SplitOption`) - Select one of the following options to specify how to split the PDF file: NumberOfPagesPerExtractedPDF or SingleFileWithSelectedPages.
 
 **Misc**
 

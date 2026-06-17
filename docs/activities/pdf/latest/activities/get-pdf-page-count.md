@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-pdf-page-count
 title: "Get PDF Page Count"
 sidebar_label: "Get PDF Page Count"
@@ -31,13 +31,13 @@ Get the PDF file page count.
 
 **File**
 
-* **File Name: InArgument<String>*** - The full path of the PDF file to be read.
+* **File Name** (`InArgument<String>`)* - The full path of the PDF file to be read.
 
-* **Password: InArgument<String>** - The user password of the PDF file, if necessary.
+* **Password** (`InArgument<String>`) - The user password of the PDF file, if necessary.
 
 **Output**
 
-* **Page Count: OutArgument<Int32>** - The page count of the PDF file.
+* **Page Count** (`OutArgument<Int32>`) - The page count of the PDF file.
 
 **Misc**
 

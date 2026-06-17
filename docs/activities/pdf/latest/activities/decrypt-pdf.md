@@ -1,4 +1,4 @@
-﻿---
+---
 id: decrypt-pdf
 title: "Decrypt PDF"
 sidebar_label: "Decrypt PDF"
@@ -33,15 +33,15 @@ Decrypt an encrypted PDF file.
 
 **File**
 
-* **File Name: InArgument<String>*** - The full path of the PDF file to be read.
+* **File Name** (`InArgument<String>`)* - The full path of the PDF file to be read.
 
-* **Output File Name: InArgument<String>*** - The resulting PDF is saved in this given path. If it exists, the file is overwritten.
+* **Output File Name** (`InArgument<String>`)* - The resulting PDF is saved in this given path. If it exists, the file is overwritten.
 
 **Options**
 
-* **User Password: InArgument<String>** - The user password of the PDF file.
+* **User Password** (`InArgument<String>`) - The user password of the PDF file.
 
-* **Owner Password: InArgument<String>** - The owner password of the PDF file.
+* **Owner Password** (`InArgument<String>`) - The owner password of the PDF file.
 
 **Misc**
 

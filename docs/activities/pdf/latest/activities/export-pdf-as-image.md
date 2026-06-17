@@ -1,4 +1,4 @@
-﻿---
+---
 id: export-pdf-as-image
 title: "Export PDF Page As Image"
 sidebar_label: "Export PDF Page As Image"
@@ -32,23 +32,23 @@ Export a single PDF page as an image.
 
 **File**
 
-* **File Name: InArgument<String>*** - The full path of the PDF file to be read.
+* **File Name** (`InArgument<String>`)* - The full path of the PDF file to be read.
 
-* **Password: InArgument<String>** - The user password of the PDF file, if necessary.
+* **Password** (`InArgument<String>`) - The user password of the PDF file, if necessary.
 
-* **Output File Name: InArgument<String>*** - The output image file path. The file name must end in a valid image extension.
+* **Output File Name** (`InArgument<String>`)* - The output image file path. The file name must end in a valid image extension.
 
 **Input**
 
-* **Target Image Dpi: ImageDpi** - Image dpi used for OCR. Values: Low (96), Medium (150), High (300).
+* **Target Image Dpi** (`ImageDpi`) - Image dpi used for OCR. Values: Low (96), Medium (150), High (300).
 
-* **Range Page: InArgument<String>** - The range page of the PDF file's page to extract.
+* **Range Page** (`InArgument<String>`) - The range page of the PDF file's page to extract.
 
 **Options**
 
-* **Option: ExportOption** - Select one of the following options to specify the range of the PDF extract to image: All or ByRange.
+* **Option** (`ExportOption`) - Select one of the following options to specify the range of the PDF extract to image: All or ByRange.
 
-* **Minimum Width: InArgument<Int32>** - The minimum width used when rendering pages to image.
+* **Minimum Width** (`InArgument<Int32>`) - The minimum width used when rendering pages to image.
 
 **Misc**
 

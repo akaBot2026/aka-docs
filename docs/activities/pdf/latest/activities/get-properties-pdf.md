@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-properties-pdf
 title: "Get PDF properties"
 sidebar_label: "Get PDF properties"
@@ -31,17 +31,17 @@ Gets a property of a PDF document by the name entered.
 
 **Input**
 
-* **Property name: InArgument<String>*** - Property name to get. Supported built-in names include Title, Subject, Author, Creator, Producer, Keywords, ModificationDate, and CreationDate.
+* **Property name** (`InArgument<String>`)* - Property name to get. Supported built-in names include Title, Subject, Author, Creator, Producer, Keywords, ModificationDate, and CreationDate.
 
 **File**
 
-* **File path: InArgument<String>*** - File path of the document.
+* **File path** (`InArgument<String>`)* - File path of the document.
 
-* **Password: InArgument<String>** - The password of the PDF file, if necessary.
+* **Password** (`InArgument<String>`) - The password of the PDF file, if necessary.
 
 **Output**
 
-* **Result: OutArgument<String>** - The value of the property.
+* **Result** (`OutArgument<String>`) - The value of the property.
 
 **Misc**
 

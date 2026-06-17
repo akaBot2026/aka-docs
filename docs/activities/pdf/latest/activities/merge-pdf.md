@@ -1,4 +1,4 @@
-﻿---
+---
 id: merge-pdf
 title: "Merge PDF Files"
 sidebar_label: "Merge PDF Files"
@@ -30,9 +30,9 @@ Join multiple PDF files.
 
 **File**
 
-* **File List: InArgument<String[]>*** - An array of PDF file full paths.
+* **File List** (`InArgument<String[]>`)* - An array of PDF file full paths.
 
-* **Output File Name: InArgument<String>*** - The resulting PDF is saved in this given path. If it exists, the file is overwritten.
+* **Output File Name** (`InArgument<String>`)* - The resulting PDF is saved in this given path. If it exists, the file is overwritten.
 
 **Misc**
 

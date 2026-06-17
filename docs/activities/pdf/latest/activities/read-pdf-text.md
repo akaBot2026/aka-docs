@@ -1,4 +1,4 @@
-﻿---
+---
 id: read-pdf-text
 title: "Read PDF Text"
 sidebar_label: "Read PDF Text"
@@ -24,17 +24,17 @@ Reads all characters from a specified PDF file and stores them in a string varia
 
 **File**
 
-* **File Name: InArgument<String>*** - The full path of the PDF file to be read.
+* **File Name** (`InArgument<String>`)* - The full path of the PDF file to be read.
 
-* **Password: InArgument<String>** - The password of the PDF file, if necessary. Only String variables and strings are supported.
+* **Password** (`InArgument<String>`) - The password of the PDF file, if necessary. Only String variables and strings are supported.
 
 **Input**
 
-* **Range: InArgument<String>** - The range of pages that you want to read. You can specify a single page (e.g. "7"), a range of pages (e.g. "7-12"), or a complex range (e.g. "2-5, 7, 15-End" or "All"). Default value: "All".
+* **Range** (`InArgument<String>`) - The range of pages that you want to read. You can specify a single page (e.g. "7"), a range of pages (e.g. "7-12"), or a complex range (e.g. "2-5, 7, 15-End" or "All"). Default value: "All".
 
 **Output**
 
-* **Text: OutArgument<String>** - The extracted string. This field supports only String variables.
+* **Text** (`OutArgument<String>`) - The extracted string. This field supports only String variables.
 
 **Misc**
 

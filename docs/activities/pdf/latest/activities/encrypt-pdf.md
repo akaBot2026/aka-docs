@@ -1,4 +1,4 @@
-﻿---
+---
 id: encrypt-pdf
 title: "Encrypt PDF"
 sidebar_label: "Encrypt PDF"
@@ -32,21 +32,21 @@ Use the Encrypt document action to encrypt a PDF file.
 
 **File**
 
-* **PDF Path: InArgument<String>*** - PDF file path.
+* **PDF Path** (`InArgument<String>`)* - PDF file path.
 
-* **Save Path: InArgument<String>*** - The resulting PDF is saved in this given path. If it exists, the file is overwritten.
+* **Save Path** (`InArgument<String>`)* - The resulting PDF is saved in this given path. If it exists, the file is overwritten.
 
 **Options**
 
-* **User password: InArgument<String>** - Allow users to use a password to open the file.
+* **User password** (`InArgument<String>`) - Allow users to use a password to open the file.
 
-* **Owner password: InArgument<String>** - Allow users to perform specific operations on the encrypted PDF file.
+* **Owner password** (`InArgument<String>`) - Allow users to perform specific operations on the encrypted PDF file.
 
-* **Encryption level: EncryptionLevel** - Select the Encrypted128Bit or Encrypted40Bit option to specify the encryption level.
+* **Encryption level** (`EncryptionLevel`) - Select the Encrypted128Bit or Encrypted40Bit option to specify the encryption level.
 
 **PDF User Permissions**
 
-* **User permissions: UserPermition** - In the User Permissions to Apply field, select operations such as print, modify, extract content, annotations, forms fill, accessibility extract content, assemble document, or full quality print.
+* **User permissions** (`UserPermition`) - In the User Permissions to Apply field, select operations such as print, modify, extract content, annotations, forms fill, accessibility extract content, assemble document, or full quality print.
 
 **Misc**
 

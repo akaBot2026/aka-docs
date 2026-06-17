@@ -1,7 +1,7 @@
 {
   "name": "EmployeeRegistration",
   "description": "Sample project demonstrating Form Builder usage in akaBot Studio with components from all four groups (Basic, Advanced, Layout, Data).",
-  "main": "Main.xaml",
+  "main": "main.xaml",
   "outputType": "Process",
   "studioVersion": "1.0.0",
   "runtimeOptions": {
