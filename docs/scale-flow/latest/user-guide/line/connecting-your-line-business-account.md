@@ -1,306 +1,306 @@
 ---
 id: connecting-your-line-business-account
-title: "Kết nối tài khoản LINE Business"
-sidebar_label: "Kết nối LINE Business"
+title: "Connect Your LINE Business Account"
+sidebar_label: "Connect LINE Business"
 sidebar_position: 1
-description: "Hướng dẫn từng bước kết nối LINE Official Account với ScaleFlow để nhận và trả lời tin nhắn khách hàng."
+description: "Step-by-step guide to connect your LINE Official Account to ScaleFlow so you can receive and reply to customer messages."
 displayed_sidebar: scaleFlowSidebar
 ---
 
-# Kết nối tài khoản LINE Business
+# Connect Your LINE Business Account
 
-Làm theo từng bước bên dưới để kết nối tài khoản LINE doanh nghiệp với ScaleFlow.
+Follow the steps below to connect your business LINE account to ScaleFlow.
 
-Sau khi kết nối xong, tin nhắn khách gửi đến tài khoản LINE của doanh nghiệp sẽ hiện trong [Hộp thư đến (Inbox)](./inbox-usage). Từ đó, nhân viên hoặc [Trợ lý AI](./ai-assistant) có thể trả lời khách ở một chỗ.
-
----
-
-## LINE Business là gì?
-
-**LINE Official Account** (hay **tài khoản chính thức LINE**) là tài khoản LINE dành cho doanh nghiệp — giống như fanpage Facebook nhưng trên LINE. Khách hàng có thể nhắn tin, hỏi giá, đặt hàng hoặc nhận thông báo qua tài khoản này.
-
-**ScaleFlow** kết nối với LINE thông qua **Messaging API** — tính năng cho phép nhận và gửi tin nhắn từ tài khoản chính thức. Bạn sẽ lấy hai mã từ trang quản lý LINE (**Channel secret** và **Channel access token**), rồi dán vào ScaleFlow.
+After the connection is complete, customer messages sent to your business LINE account will appear in [Inbox](./inbox-usage). From there, your staff or the [AI Assistant](./ai-assistant) can reply in one place.
 
 ---
 
-## Trước khi bắt đầu
+## What is LINE Business?
 
-Hãy chuẩn bị sẵn:
+**LINE Official Account** is a LINE account designed for businesses, similar to a Facebook fan page but on LINE. Customers can send messages, ask for prices, place orders, or receive updates through this account.
 
-- Một **tài khoản LINE** dùng để quản lý doanh nghiệp (thường là tài khoản của chủ shop, marketing hoặc CSKH).
-- Quyền **quản lý kênh (Channels)** trong ScaleFlow. Nếu không thấy nút **Kết nối**, hãy nhờ quản trị viên cấp quyền.
-- Khoảng **15–30 phút** cho lần kết nối đầu tiên (tạo tài khoản LINE OA nếu chưa có, bật Messaging API, copy mã).
-
-> **Lưu ý:** Hai mã bạn sẽ copy (**Channel secret** và **Channel access token**) giống như mật khẩu. Không gửi cho người lạ hoặc đăng công khai. Chỉ dán vào ScaleFlow khi đang kết nối.
+**ScaleFlow** connects to LINE through the **Messaging API**, which allows it to receive and send messages from the official account. You will copy two credentials from the LINE admin pages, the **Channel secret** and **Channel access token**, and paste them into ScaleFlow.
 
 ---
 
-## Tổng quan các bước
+## Before You Start
 
-| Bước | Làm ở đâu | Việc cần làm |
-|------|-----------|--------------|
-| 1 | ScaleFlow | Mở trang LINE Business và bấm **Kết nối** |
-| 2 | LINE | Tạo hoặc chọn Official Account |
-| 3 | LINE | Bật Messaging API, copy **Channel secret** |
-| 4 | LINE | Bật Webhook, tắt tin trả lời tự động |
-| 5 | LINE | Copy **Channel access token** (dùng lâu dài) |
-| 6 | ScaleFlow | Dán hai mã, **Xác minh**, rồi **Tạo kết nối** |
-| 7 | ScaleFlow | Chọn có đồng bộ danh bạ hay không |
-| 8 | ScaleFlow + LINE app | Gửi tin thử và kiểm tra Inbox |
+Prepare the following:
+
+- A **LINE account** used to manage the business, usually owned by the shop owner, marketing team, or customer support team.
+- Permission to manage **Channels** in ScaleFlow. If you do not see the **Connect** button, ask your administrator for access.
+- About **15-30 minutes** for the first setup, especially if you still need to create a LINE Official Account, enable Messaging API, and copy the credentials.
+
+> **Note:** The two credentials you copy, **Channel secret** and **Channel access token**, work like passwords. Do not share them publicly or send them to unauthorized people. Only paste them into ScaleFlow during setup.
 
 ---
 
-## Bước 1: Mở trang LINE trong ScaleFlow
+## Step Overview
 
-1. Đăng nhập ScaleFlow.
-2. Ở menu chính bên trái, chọn **Channels** (Kênh).
-3. Trong danh sách kênh, chọn **LINE Business**.
-4. Bấm nút **Kết nối** (góc phải phần thiết lập kênh).
-
-ScaleFlow sẽ mở trang hướng dẫn chi tiết **Kết nối LINE Business**.
-
-![Mở Channels và chọn LINE Business](/static/img/connect-channel-1.png)
-
-![Trang thiết lập LINE Business với nút Kết nối](/static/img/connect-channel-2.png)
-
----
-
-## Bước 2: Tạo hoặc chọn LINE Official Account
-
-Việc này làm trên trang của LINE, không phải trong ScaleFlow.
-
-1. Mở trình duyệt, vào [LINE Official Account Manager](https://manager.line.biz/) (trang quản lý tài khoản chính thức LINE).
-2. Đăng nhập bằng tài khoản LINE của bạn.
-3. Nếu **chưa có** tài khoản doanh nghiệp:
-   - Bấm tạo Official Account mới.
-   - Điền tên doanh nghiệp, loại hình, thông tin liên hệ theo hướng dẫn trên màn hình.
-   - Chờ LINE duyệt nếu được yêu cầu.
-4. Nếu **đã có** tài khoản: chọn đúng Official Account mà khách hàng sẽ nhắn tin.
-
-> **Quan trọng:** Hãy chọn đúng tài khoản LINE của doanh nghiệp bạn. Nếu công ty có nhiều tài khoản LINE, hỏi team marketing hoặc CSKH xem tài khoản nào đang dùng để chăm sóc khách.
-
-![Danh sách Official Account trên LINE Official Account Manager](/static/img/list-account-line.png)
+| Step | Where | What to do |
+|------|-------|------------|
+| 1 | ScaleFlow | Open the LINE Business page and click **Connect** |
+| 2 | LINE | Create or select an Official Account |
+| 3 | LINE | Enable Messaging API and copy the **Channel secret** |
+| 4 | LINE | Enable Webhook and turn off automatic replies |
+| 5 | LINE | Copy the **Channel access token** (long-lived) |
+| 6 | ScaleFlow | Paste both credentials, click **Verify**, then **Create connection** |
+| 7 | ScaleFlow | Choose whether to sync contacts |
+| 8 | ScaleFlow + LINE app | Send a test message and check Inbox |
 
 ---
 
-## Bước 3: Bật Messaging API và lấy Channel secret
+## Step 1: Open the LINE page in ScaleFlow
 
-Vẫn trên **LINE Official Account Manager**:
+1. Sign in to ScaleFlow.
+2. In the left main menu, select **Channels**.
+3. In the channel list, select **LINE Business**.
+4. Click the **Connect** button in the top-right area of the channel settings section.
 
-1. Mở Official Account bạn đã chọn ở bước 2.
-2. Vào **Settings** (Cài đặt) → **Messaging API**.
-3. Bấm **Enable Messaging API** (Bật Messaging API).
-4. LINE sẽ hỏi chọn **Provider** (nhóm dự án trên LINE Developers):
-   - Chọn Provider có sẵn, **hoặc**
-   - Tạo Provider mới và đặt tên dễ nhớ (ví dụ tên công ty).
-5. **Ghi nhớ tên Provider** — bạn sẽ cần ở bước 5.
-6. Sau khi bật xong, trên cùng trang sẽ có mục **Channel secret**. Bấm **Copy** để sao chép.
+ScaleFlow opens the detailed **Connect LINE Business** guide page.
 
-Quay lại ScaleFlow (trang hướng dẫn kết nối), tìm **Bước 2** và dán **Channel secret** vào ô tương ứng.
+![Open Channels and select LINE Business](/static/img/connect-channel-1.png)
 
-![Bật Messaging API trên LINE Official Account Manager](/static/img/copy-channel-secret.png)
-
-![Dán Channel secret vào ScaleFlow — Bước 2](/static/img/paste-channel-secret.png)
+![LINE Business settings page with the Connect button](/static/img/connect-channel-2.png)
 
 ---
 
-## Bước 4: Cài đặt phản hồi (Response settings)
+## Step 2: Create or Select a LINE Official Account
 
-Để tin nhắn khách đi vào ScaleFlow thay vì bị LINE trả lời tự động:
+This step is done on LINE's website, not inside ScaleFlow.
 
-1. Trên **LINE Official Account Manager**, vào **Settings** → **Response settings** (Cài đặt phản hồi).
-2. Bật **Webhooks** (Cho phép webhook).
-3. Trên cùng trang, **tắt Auto-response messages** (Tin trả lời tự động).
+1. Open your browser and go to [LINE Official Account Manager](https://manager.line.biz/).
+2. Sign in with your LINE account.
+3. If you **do not have** a business account yet:
+   - Create a new Official Account.
+   - Enter your business name, business category, and contact information as instructed on the screen.
+   - Wait for LINE approval if required.
+4. If you **already have** an account, select the correct Official Account that customers will message.
 
-> **Lưu ý:** Bật Webhook để LINE chuyển tin nhắn sang ScaleFlow. Tắt trả lời tự động để khách không nhận hai câu trả lời cùng lúc (một từ LINE, một từ bạn).
+> **Important:** Make sure you choose the correct business LINE account. If your company has multiple LINE accounts, confirm with the marketing or customer support team which account is currently used for customer communication.
 
-![Bật Webhook và tắt Auto-response](/static/img/response-setting.png)
-
-> **Lưu ý:** ScaleFlow **tự đăng ký địa chỉ webhook** khi bạn tạo kết nối.
-
----
-
-## Bước 5: Lấy Channel access token
-
-Bước này làm trên **LINE Developers Console**.
-
-1. Mở [LINE Developers Console](https://developers.line.biz/console/).
-2. Đăng nhập cùng tài khoản LINE.
-3. Ở menu bên trái, chọn **Provider** mà bạn đã dùng ở bước 3.
-4. Chọn **channel** (kênh) gắn với Official Account của bạn.
-5. Mở tab **Messaging API**.
-6. Kéo xuống mục **Channel access token**.
-7. Bấm **Issue** (Tạo mới) hoặc **Copy** nếu đã có sẵn token **long-lived** (dùng lâu dài).
-8. Copy toàn bộ chuỗi ký tự.
-
-Quay lại ScaleFlow, ở **Bước 4** dán mã vào ô **Channel access token (long-lived)**.
-
-![Chọn Provider và channel trên LINE Developers Console](/static/img/provider-line.png)
-
-![Copy Channel access token long-lived](/static/img/copy-channel-line-token.png)
-
-![Dán access token vào ScaleFlow — Bước 4](/static/img/paste-access-token.png)
-
-> **📷 Ghi chú chèn ảnh:** Chụp **Bước 4** trên ScaleFlow với ô access token đã điền.
+![Official Account list in LINE Official Account Manager](/static/img/list-account-line.png)
 
 ---
 
-## Bước 6: Xác minh và tạo kết nối trong ScaleFlow
+## Step 3: Enable Messaging API and Copy the Channel Secret
 
-Khi đã dán đủ **Channel secret** và **Channel access token**:
+Still in **LINE Official Account Manager**:
 
-1. Nhìn cột bên phải màn hình ScaleFlow, mục **Trạng thái kết nối**.
-2. Bấm **Xác minh thiết lập** (Verify Setup).
-3. Đợi vài giây. Nếu thành công, bạn sẽ thấy thông báo xanh với **tên tài khoản LINE** và mã **@...** (ví dụ `@myshop`).
-4. Kiểm tra tên có đúng tài khoản doanh nghiệp không.
-5. Bấm **Tạo kết nối** (Create Connection).
+1. Open the Official Account you selected in step 2.
+2. Go to **Settings** -> **Messaging API**.
+3. Click **Enable Messaging API**.
+4. LINE will ask you to choose a **Provider** in LINE Developers:
+   - Select an existing Provider, **or**
+   - Create a new Provider and give it a clear name, such as your company name.
+5. **Remember the Provider name** because you will need it in step 5.
+6. After Messaging API is enabled, find **Channel secret** on the same page and click **Copy**.
 
-![Nút Xác minh thiết lập trước khi xác minh](/static/img/verify-setup.png)
+Return to ScaleFlow, find **Step 2**, and paste the **Channel secret** into the matching field.
 
-![Xác minh thành công — hiện tên Official Account](/static/img/verify-success-line.png)
+![Enable Messaging API in LINE Official Account Manager](/static/img/copy-channel-secret.png)
 
-### Nếu xác minh không thành công
-
-Thông báo lỗi thường do:
-
-- Dán thiếu hoặc dán nhầm mã (copy lại từ đầu).
-- Dùng nhầm loại kênh **LINE Login** thay vì **Messaging API** — hãy kiểm tra lại bước 3.
-- Token hết hạn — tạo token **long-lived** mới ở bước 5.
-
-Sửa xong, bấm **Xác minh thiết lập** lại. Nếu bạn đổi một trong hai mã sau khi đã xác minh, cần xác minh lại trước khi tạo kết nối.
+![Paste the Channel secret into ScaleFlow - Step 2](/static/img/paste-channel-secret.png)
 
 ---
 
-## Bước 7: Chọn đồng bộ danh bạ (tuỳ chọn)
+## Step 4: Configure Response Settings
 
-Sau khi **Tạo kết nối** thành công, ScaleFlow hiện cửa sổ **Chọn tùy chọn đồng bộ danh bạ**.
+To make sure customer messages go to ScaleFlow instead of being answered automatically by LINE:
 
-### Đồng bộ danh bạ là gì?
+1. In **LINE Official Account Manager**, go to **Settings** -> **Response settings**.
+2. Turn on **Webhooks**.
+3. On the same page, turn off **Auto-response messages**.
 
-Nếu bật **Đồng bộ danh bạ**, ScaleFlow sẽ lấy danh sách người **đang theo dõi** Official Account LINE của bạn và thêm vào mục [Liên hệ (Contacts)](./contact-management).
+> **Note:** Webhooks allow LINE to forward customer messages to ScaleFlow. Turning off auto-response prevents customers from receiving two replies at the same time, one from LINE and one from your team.
 
-- **Nên bật** nếu bạn muốn có sẵn danh sách khách đã follow OA.
-- **Có thể tắt** nếu chỉ cần nhận tin khi khách chủ động nhắn — khi đó liên hệ vẫn được tạo tự động mỗi lần có tin nhắn mới.
+![Enable Webhook and disable Auto-response](/static/img/response-setting.png)
 
-### Lưu ý về tài khoản LINE miễn phí hoặc chưa xác minh
-
-Một số tài khoản LINE **miễn phí** hoặc **chưa được LINE xác minh** không cho phép đồng bộ hàng loạt người theo dõi. Khi đó ScaleFlow báo không thể đồng bộ.
-
-**Bạn vẫn dùng được Inbox bình thường.** Chỉ cần:
-
-1. **Tắt** công tắc **Đồng bộ danh bạ**.
-2. Bấm **Tiếp tục** để hoàn tất.
-
-Muốn đồng bộ sau này: nâng cấp hoặc xác minh Official Account trên [LINE Official Account Manager](https://manager.line.biz/), rồi thử lại.
-
-![Cửa sổ chọn đồng bộ danh bạ](/static/img/sync-contact.png)
-
-### Nếu liên hệ đã tồn tại trong ScaleFlow
-
-Khi bật đồng bộ, bạn chọn cách xử lý khi trùng khách:
-
-| Lựa chọn | Ý nghĩa |
-|----------|------------------|
-| **Gộp (Merge)** | Giữ thông tin cũ, chỉ điền thêm chỗ còn trống từ LINE. *(Khuyên dùng)* |
-| **Thay thế (Replace)** | Ghi đè thông tin cũ bằng dữ liệu từ LINE. |
-| **Bỏ qua (Skip)** | Không đụng liên hệ trùng, chỉ thêm người mới. |
+> **Note:** ScaleFlow **automatically registers the webhook URL** when you create the connection.
 
 ---
 
-## Bước 8: Kiểm tra kết nối đã thành công
+## Step 5: Get the Channel Access Token
 
-Quay về **Channels** → **LINE Business**, kéo xuống mục **Tài khoản đã kết nối**.
+This step is done in **LINE Developers Console**.
 
-Kết nối thành công khi:
+1. Open [LINE Developers Console](https://developers.line.biz/console/).
+2. Sign in with the same LINE account.
+3. In the left menu, select the **Provider** you used in step 3.
+4. Select the **channel** linked to your Official Account.
+5. Open the **Messaging API** tab.
+6. Scroll down to **Channel access token**.
+7. Click **Issue** to generate a new token, or click **Copy** if a **long-lived** token already exists.
+8. Copy the full token value.
 
-- Thấy thẻ (card) tài khoản LINE với đúng tên Official Account.
-- Trạng thái hiển thị **active** (đang hoạt động).
-- Có các nút **Kiểm tra**, **Kết nối lại**, **Xóa**.
+Return to ScaleFlow and, in **Step 4**, paste the value into **Channel access token (long-lived)**.
 
-![Tài khoản LINE đã kết nối trong ScaleFlow](/static/img/active-line.png)
+![Select the Provider and channel in LINE Developers Console](/static/img/provider-line.png)
 
-### Các nút trên thẻ tài khoản
+![Copy the long-lived Channel access token](/static/img/copy-channel-line-token.png)
 
-| Nút | Dùng khi nào |
-|-----|--------------|
-| **Kiểm tra (Test)** | Muốn chắc ScaleFlow vẫn nói chuyện được với LINE. |
-| **Kết nối lại (Reconnect)** | Kết nối bị lỗi hoặc bạn đổi mã trên LINE — mở lại trang hướng dẫn để nhập mã mới. |
-| **Xóa (Delete)** | Ngừng dùng LINE trên ScaleFlow — tin mới sẽ không vào Inbox nữa. |
+![Paste the access token into ScaleFlow - Step 4](/static/img/paste-access-token.png)
 
----
-
-## Bước 9: Gửi tin thử và mở Inbox
-
-Cách chắc chắn nhất là thử như khách hàng thật:
-
-1. Trên điện thoại, mở app **LINE**.
-2. Tìm Official Account doanh nghiệp (quét QR hoặc tìm theo tên / mã @).
-3. Gửi một tin nhắn thử, ví dụ: *"Xin chào, tôi muốn hỏi về sản phẩm"*.
-4. Trong ScaleFlow, mở [Inbox](./inbox-usage).
-5. Tìm hội thoại mới — tin nhắn vừa gửi phải xuất hiện ở đây, có nhãn **LINE**.
-
-![Khách nhắn tin trên app LINE](/static/img/phone-line.png)
-
-![Cùng tin nhắn hiện trong Inbox ScaleFlow](/static/img/inbox-line.png)
-
-Bạn cũng có thể bấm **Kiểm tra** trên thẻ tài khoản LINE — nếu thành công sẽ có thông báo xanh.
+> **📷 Image note:** Capture **Step 4** in ScaleFlow with the access token field filled in.
 
 ---
 
-## Quy trình hàng ngày sau khi kết nối
+## Step 6: Verify and Create the Connection in ScaleFlow
 
-1. Khách nhắn tin qua LINE Official Account.
-2. Tin hiện trong **Inbox** ScaleFlow.
-3. Nhân viên trả lời trực tiếp, hoặc bật [Trợ lý AI](./ai-assistant) để hỗ trợ trả lời.
-4. Nếu cần theo dõi việc xử lý, tạo [Ticket](./ticket-usage) từ hội thoại.
+After you paste both the **Channel secret** and **Channel access token**:
 
----
+1. Look at the right panel in ScaleFlow under **Connection status**.
+2. Click **Verify Setup**.
+3. Wait a few seconds. If the setup is correct, you will see a green confirmation showing the **LINE account name** and its **@...** ID, for example `@myshop`.
+4. Confirm that the displayed name matches the correct business account.
+5. Click **Create Connection**.
 
-## Câu hỏi thường gặp
+![Verify Setup button before verification](/static/img/verify-setup.png)
 
-### Tôi không thấy nút Kết nối?
+![Successful verification showing the Official Account name](/static/img/verify-success-line.png)
 
-Tài khoản ScaleFlow của bạn có thể chưa có quyền quản lý kênh. Liên hệ quản trị viên công ty.
+### If verification fails
 
-### Tôi có nhiều Official Account LINE, kết nối được không?
+Common causes include:
 
-Mỗi Official Account kết nối một lần. Bạn có thể kết nối nhiều tài khoản LINE khác nhau nếu doanh nghiệp có nhiều OA.
+- One of the credentials was pasted incorrectly or incompletely. Copy both values again from LINE.
+- You selected a **LINE Login** channel instead of a **Messaging API** channel. Check step 3 again.
+- The token has expired. Generate a new **long-lived** token in step 5.
 
-### Tôi đổi Channel secret hoặc access token trên LINE thì sao?
-
-Vào **Channels** → **LINE Business** → chọn **Kết nối lại** trên thẻ tài khoản → làm lại từ bước dán mã và **Xác minh**.
-
-### Không đồng bộ được danh bạ có sao không?
-
-Không sao cho việc nhắn tin. Inbox vẫn nhận tin bình thường. Liên hệ được tạo khi khách nhắn. Chỉ không có sẵn toàn bộ danh sách người follow từ trước.
-
-### Tin khách vẫn không vào Inbox?
-
-Thử lần lượt:
-
-1. Bấm **Kiểm tra** trên thẻ tài khoản LINE.
-2. Kiểm tra **Webhooks** đã bật và **Auto-response** đã tắt trên LINE (bước 4).
-3. Bấm **Kết nối lại** và xác minh lại mã.
-4. Nhờ quản trị viên ScaleFlow hỗ trợ nếu vẫn lỗi.
+After fixing the issue, click **Verify Setup** again. If you change either credential after a successful verification, you must verify again before creating the connection.
 
 ---
 
-## Việc nên làm tiếp theo
+## Step 7: Choose Contact Sync Options
 
-Sau khi LINE đã chạy ổn:
+After **Create Connection** succeeds, ScaleFlow shows the **Choose contact sync options** dialog.
 
-1. Thêm câu trả lời mẫu, chính sách, FAQ vào [Knowledge](./knowledge-usage) để AI trả lời chính xác hơn.
-2. Thiết lập [AI Agent](./ai-agent-usage) nếu muốn tự động hóa.
-3. Bật [Trợ lý AI](./ai-assistant) khi sẵn sàng.
+### What is contact sync?
+
+If you enable **Contact Sync**, ScaleFlow imports the list of people currently **following** your LINE Official Account and adds them to [Contacts](./contact-management).
+
+- **Recommended** if you want an existing list of followers available in Contacts.
+- **Optional** if you only need to receive messages when customers contact you first. In that case, ScaleFlow still creates contacts automatically when new messages arrive.
+
+### Note about free or unverified LINE accounts
+
+Some **free** or **unverified** LINE accounts do not allow bulk syncing of followers. In that case, ScaleFlow shows that contact sync is unavailable.
+
+**Inbox will still work normally.** Just do the following:
+
+1. Turn **off** the **Contact Sync** toggle.
+2. Click **Continue** to finish.
+
+If you want to sync later, upgrade or verify the Official Account in [LINE Official Account Manager](https://manager.line.biz/) and try again.
+
+![Contact sync options dialog](/static/img/sync-contact.png)
+
+### If contacts already exist in ScaleFlow
+
+When sync is enabled, choose how ScaleFlow should handle duplicate contacts:
+
+| Option | Meaning |
+|--------|---------|
+| **Merge** | Keep the existing information and only fill missing fields from LINE. *(Recommended)* |
+| **Replace** | Overwrite the existing information with data from LINE. |
+| **Skip** | Leave duplicate contacts unchanged and only add new people. |
 
 ---
 
-## Liên kết tham khảo từ LINE (khi cần đọc thêm)
+## Step 8: Confirm the Connection is Active
 
-Các trang chính thức của LINE (tiếng Anh / tiếng Nhật chủ yếu):
+Go back to **Channels** -> **LINE Business** and scroll to **Connected accounts**.
+
+The connection is successful when:
+
+- You see a LINE account card with the correct Official Account name.
+- The status shows **active**.
+- The card includes the **Test**, **Reconnect**, and **Delete** buttons.
+
+![Connected LINE account in ScaleFlow](/static/img/active-line.png)
+
+### Buttons on the account card
+
+| Button | When to use it |
+|--------|----------------|
+| **Test** | When you want to confirm that ScaleFlow can still communicate with LINE. |
+| **Reconnect** | When the connection has a problem or you changed credentials on LINE and need to enter the new values again. |
+| **Delete** | When you want to stop using this LINE account in ScaleFlow. New messages will no longer arrive in Inbox. |
+
+---
+
+## Step 9: Send a Test Message and Open Inbox
+
+The best way to confirm the setup is to test it like a real customer:
+
+1. On your phone, open the **LINE** app.
+2. Find the business Official Account by scanning the QR code or searching by name or `@` ID.
+3. Send a test message, for example: *"Hello, I want to ask about your product."*
+4. In ScaleFlow, open [Inbox](./inbox-usage).
+5. Find the new conversation. The message you just sent should appear there with the **LINE** label.
+
+![Customer sends a message in the LINE app](/static/img/phone-line.png)
+
+![The same message appears in ScaleFlow Inbox](/static/img/inbox-line.png)
+
+You can also click **Test** on the LINE account card. If it succeeds, ScaleFlow shows a green confirmation message.
+
+---
+
+## Daily Workflow After Setup
+
+1. Customers send messages through your LINE Official Account.
+2. Messages appear in ScaleFlow **Inbox**.
+3. Staff can reply directly, or you can enable the [AI Assistant](./ai-assistant) to help with responses.
+4. If follow-up is needed, create a [Ticket](./ticket-usage) from the conversation.
+
+---
+
+## Frequently Asked Questions
+
+### I do not see the Connect button
+
+Your ScaleFlow account may not have permission to manage channels. Contact your company administrator.
+
+### We have multiple LINE Official Accounts. Can we connect more than one?
+
+Each Official Account is connected separately. You can connect multiple LINE accounts if your business uses multiple Official Accounts.
+
+### What happens if I change the Channel secret or access token on LINE?
+
+Go to **Channels** -> **LINE Business**, click **Reconnect** on the account card, then repeat the steps to paste the credentials and **Verify** again.
+
+### Is it a problem if contact sync does not work?
+
+No. Messaging still works normally. Inbox continues to receive messages, and contacts are created when customers message you. The only limitation is that you will not have the full existing follower list imported in advance.
+
+### Customer messages still do not appear in Inbox
+
+Try these steps in order:
+
+1. Click **Test** on the LINE account card.
+2. Confirm that **Webhooks** are enabled and **Auto-response** is disabled on LINE, as described in step 4.
+3. Click **Reconnect** and verify the credentials again.
+4. Ask your ScaleFlow administrator for help if the issue continues.
+
+---
+
+## Recommended Next Steps
+
+Once LINE is working correctly:
+
+1. Add canned replies, policies, and FAQs to [Knowledge](./knowledge-usage) so AI can answer more accurately.
+2. Set up an [AI Agent](./ai-agent-usage) if you want more automation.
+3. Turn on the [AI Assistant](./ai-assistant) when you are ready.
+
+---
+
+## LINE Reference Links
+
+Official LINE resources, mostly available in English or Japanese:
 
 - [LINE Official Account Manager](https://manager.line.biz/)
 - [LINE Developers Console](https://developers.line.biz/console/)
-- [Hướng dẫn Messaging API của LINE](https://developers.line.biz/en/docs/messaging-api/getting-started)
+- [LINE Messaging API getting started guide](https://developers.line.biz/en/docs/messaging-api/getting-started)
 
-Trong ScaleFlow, trang hướng dẫn kết nối cũng có các liên kết này ở mục **Liên kết tham khảo** bên phải.
+In ScaleFlow, the same resources are also shown in the **Reference links** section on the right side of the connection guide page.
