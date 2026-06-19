@@ -18,6 +18,9 @@ The Send Hot Keys activity allows you to send a keyboard shortcut to a browser e
 
 (\* for Mandatory)
 
+> [!IMPORTANT]
+> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of activity**
 
 * **Pick target element** - Chooses a element on a browser to send a keyboard shortcut. This activity will generate a string variable (Selector) to specify the location of that element.

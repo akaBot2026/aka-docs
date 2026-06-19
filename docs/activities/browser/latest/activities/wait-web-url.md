@@ -18,6 +18,9 @@ The Wait Page URL verifies if the page URL has the requirement format according 
 
 (\* for Mandatory)
 
+> [!IMPORTANT]
+> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of the activity**
 
 * **Comparison Operator (Dropdown List)**- allow mathematical calculation as well as basic operations to be performed with ease  

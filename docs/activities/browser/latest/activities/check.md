@@ -18,6 +18,9 @@ The Check/Uncheck activity allows you to check or uncheck a Checkbox.
 
 (\*For Mandatory)
 
+> [!IMPORTANT]
+> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of the activity**
 
 * **Pick target element**\* - Chooses the Checkbox on a browser for checking or unchecking. This activity will generate a string variable (Selector) to specify the location of that Checkbox.

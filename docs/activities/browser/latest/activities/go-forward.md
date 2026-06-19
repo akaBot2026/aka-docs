@@ -16,6 +16,9 @@ The Go Forward activity goes forward one URL in the history list of the current 
 
 ![Browser_GoForward](/static/img/7aa8f2_9db89ed-screenshot_2021-05-25_154922.jpg)
 
+> [!IMPORTANT]
+> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **Properties**
 
 **Common**

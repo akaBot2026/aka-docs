@@ -18,6 +18,9 @@ The Extract Data activity allows you to get data from a specified webpage.
 
 (\* For Mandatory)
 
+> [!IMPORTANT]
+> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of activity**
 
 * **Config Json (String)**\* - Json file enables you to extract data from indicated webpage. The text must be quoted.  

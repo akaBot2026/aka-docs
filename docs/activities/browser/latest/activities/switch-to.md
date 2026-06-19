@@ -18,6 +18,9 @@ The Switch To activity allows you to switch between different UI Elements within
 
 (\*For Mandatory)
 
+> [!IMPORTANT]
+> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of the activity**
 
 * **Switch To (Dropdown List)** - Choose the type to switch to  

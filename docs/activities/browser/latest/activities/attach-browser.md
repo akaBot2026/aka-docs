@@ -44,3 +44,16 @@ A container that enables you to attach to an already opened native browser and p
 **Output**
 
 * **Output Browser** - Output variable of the activity with type = ‘Browser’. Not allow whitespace in the output’s name.
+
+## **Step-by-Step Usage**
+
+1. **Start Browser in Debugging Mode**: Before attaching, start your Chrome browser in debugging mode using the [Start Browser For Attach](/docs/activities/browser/latest/activities/start-browser-for-attach.md) activity.
+2. **Add the Attach Browser activity**: Drag the **Attach Browser** activity below the Start Browser For Attach activity.
+3. **Choose Browser Type**: Ensure **Browser Type** is set to `Chrome` in the **Properties** panel.
+4. **Place activities inside the container**: Add activities like [Click](/docs/activities/browser/latest/activities/click.md) or [Type Into](/docs/activities/browser/latest/activities/type-into.md) inside the **Do** container block to perform automated tasks in the attached browser.
+5. **Assign output variable (optional)**: Store the attached session in a browser variable by specifying a name in the **Output Browser** field.
+
+## **Troubleshooting**
+
+* **Target Window Not Found**: Ensure that the Chrome window is fully open and active before running the workflow. If it doesn't attach, check that the browser was correctly launched with the remote debugging port.
+* **Quit Browser behavior**: By default, **Quit Browser on Completed or Faulted** is unchecked, meaning the attached browser remains open after automation ends. Check this option if you want akaBot to close the browser automatically.

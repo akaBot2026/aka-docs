@@ -18,6 +18,9 @@ The Inject JavaScript allows you to inject JavaScript on a webpage.
 
 (\* For Mandatory)
 
+> [!IMPORTANT]
+> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of the activity**
 
 * **Script File (String)\***– The path of the JavaScript file or JavaScript text you want to inject.
