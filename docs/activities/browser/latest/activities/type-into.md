@@ -1,4 +1,4 @@
----
+﻿---
 id: type-into
 title: "Type Into"
 sidebar_label: "Type Into"
@@ -18,8 +18,7 @@ The Type Into activity allows you to type texts into any text field within the w
 
 (\*For mandatory)
 
-> [!IMPORTANT]
-> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of the activity**
 
@@ -80,3 +79,11 @@ The Type Into activity allows you to type texts into any text field within the w
 3. **Enter the text**: In the **Text** field in the body of the activity or in the **Properties** panel, type the value you want to input, enclosed in quotation marks. E.g., `"akaBot"`. You can also pass a String variable here directly (without quotes).
 4. **Clear the field first (optional)**: Check the **Empty Field** checkbox under **Before Type** in the **Properties** panel if you want to clear any existing content in the field before typing.
 5. **Run the workflow**: Execute the process. akaBot will locate the input field and type the specified text into it.
+
+## **Troubleshooting**
+
+* **SelectorNotFoundException / Element Not Found**: 
+  * Ensure that the webpage has loaded completely before performing the action. If needed, insert a [Wait Page Load Complete](/docs/activities/browser/latest/activities/wait-page-load-complete.md) activity first.
+  * Verify that the selector is correct. If the target element contains dynamic attributes (such as changing IDs), open the Selector Editor and replace the dynamic parts with wildcard characters (* or ?).
+  * Ensure the target element is visible and not hidden behind overlays or loader animations. Check the **Wait Visible** property.
+* **Extension Not Enabled**: Ensure the akaBot Web Extension is active and has permissions to run on the target website. Without it, Studio cannot highlight or interact with web elements.

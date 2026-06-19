@@ -16,9 +16,8 @@ The **Open Browser** activity is a container that enables you to open a browser 
 
 ![1774410564895-514.png](/static/img/a4dc32_1774410564895-514.png)
 
-:::note
+**Note**:
 Internal URLs cannot be automated using this activity when the browser does not directly accept them as command-line arguments. For example, you cannot open Chrome (`chrome://`) or Edge (`edge://`) internal pages. You can, however, open Firefox (`about:`) internal pages.
-:::
 
 (\* for Mandatory)
 

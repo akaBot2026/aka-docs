@@ -1,4 +1,4 @@
----
+﻿---
 id: inject-javascript
 title: "Inject Javascript"
 sidebar_label: "Inject Javascript"
@@ -104,3 +104,7 @@ To check the execution result of the script:
 1. Run the process.
 2. akaBot will open Chrome to `https://google.com`, inject the JavaScript, change the page's background color to light blue, and display a Message Box with the value `"Success"`.
 
+## **Troubleshooting**
+
+* **Invalid Browser Session**: If the activity throws an error or fails to execute, ensure that it is running inside an active [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) or [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md) container, and that the browser tab has not been closed.
+* **WebDriver Communication Failure**: If the browser driver (e.g. ChromeDriver) has crashed or disconnected, restart your browser session and check if the driver version matches your browser (see the [Environment Setup Guide](/docs/activities/browser/latest/setup-browser-environment.md)).

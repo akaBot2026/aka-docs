@@ -1,4 +1,4 @@
----
+﻿---
 id: element-exist
 title: "Element Exist"
 sidebar_label: "Element Exist"
@@ -17,6 +17,7 @@ The Element Exist allows you to confirm whether an element exist.
 ![image-20220505140211-2.png](/static/img/e335a9_image-20220505140211-2.png)
 
 (\* For Mandatory)
+
 **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of the activity**
@@ -84,3 +85,10 @@ To check if a "Login" button exists on a webpage and click it only if it is pres
 5. **Run the workflow**:
    * Execute the process. akaBot will check if the Login button is visible on the page. If it exists (`isLoginExist` is `True`), the robot will enter the **Then** block and click the button. If it is not found, the robot will skip the click action without throwing an exception.
 
+## **Troubleshooting**
+
+* **SelectorNotFoundException / Element Not Found**: 
+  * Ensure that the webpage has loaded completely before performing the action. If needed, insert a [Wait Page Load Complete](/docs/activities/browser/latest/activities/wait-page-load-complete.md) activity first.
+  * Verify that the selector is correct. If the target element contains dynamic attributes (such as changing IDs), open the Selector Editor and replace the dynamic parts with wildcard characters (* or ?).
+  * Ensure the target element is visible and not hidden behind overlays or loader animations. Check the **Wait Visible** property.
+* **Extension Not Enabled**: Ensure the akaBot Web Extension is active and has permissions to run on the target website. Without it, Studio cannot highlight or interact with web elements.

@@ -1,4 +1,4 @@
----
+﻿---
 id: click
 title: "Click"
 sidebar_label: "Click"
@@ -18,8 +18,7 @@ The Click activity is used to send a click action into a webpage.
 
 (\* For Mandatory)
 
-> [!IMPORTANT]
-> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of the activity**
 
@@ -89,3 +88,11 @@ The Click activity is used to send a click action into a webpage.
 3. **Select Click Type (optional)**: In the body or **Properties** panel, choose the click type (`CLICK_SINGLE`, `CLICK_DOUBLE`, etc.). The default is a single left-click.
 4. **Configure Mouse Button (optional)**: Change the **Mouse Button** to `MOUSE_RIGHT` if a right-click is needed.
 5. **Run the workflow**: Execute the process. akaBot will locate the target element using the Selector and perform the click action.
+
+## **Troubleshooting**
+
+* **SelectorNotFoundException / Element Not Found**: 
+  * Ensure that the webpage has loaded completely before performing the action. If needed, insert a [Wait Page Load Complete](/docs/activities/browser/latest/activities/wait-page-load-complete.md) activity first.
+  * Verify that the selector is correct. If the target element contains dynamic attributes (such as changing IDs), open the Selector Editor and replace the dynamic parts with wildcard characters (* or ?).
+  * Ensure the target element is visible and not hidden behind overlays or loader animations. Check the **Wait Visible** property.
+* **Extension Not Enabled**: Ensure the akaBot Web Extension is active and has permissions to run on the target website. Without it, Studio cannot highlight or interact with web elements.

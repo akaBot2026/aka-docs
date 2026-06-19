@@ -1,4 +1,4 @@
----
+﻿---
 id: get-text
 title: "Get Text"
 sidebar_label: "Get Text"
@@ -18,8 +18,7 @@ The Get Text activity extracts text on a webpage and saves it in a String variab
 
 (\* For Mandatory)
 
-> [!IMPORTANT]
-> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of the activity**
 
@@ -69,3 +68,11 @@ The Get Text activity extracts text on a webpage and saves it in a String variab
 3. **Create an output variable**: In the **Properties** panel under **Output**, click the **Result** field and press `Ctrl + K` to create a new String variable (e.g., `extractedText`).
 4. **Use the variable**: Connect the output variable to a **Message Box** or other downstream activity to process or display the extracted text.
 5. **Run the workflow**: Execute the process. akaBot will locate the element, extract its visible text content, and store it in the output variable.
+
+## **Troubleshooting**
+
+* **SelectorNotFoundException / Element Not Found**: 
+  * Ensure that the webpage has loaded completely before performing the action. If needed, insert a [Wait Page Load Complete](/docs/activities/browser/latest/activities/wait-page-load-complete.md) activity first.
+  * Verify that the selector is correct. If the target element contains dynamic attributes (such as changing IDs), open the Selector Editor and replace the dynamic parts with wildcard characters (* or ?).
+  * Ensure the target element is visible and not hidden behind overlays or loader animations. Check the **Wait Visible** property.
+* **Extension Not Enabled**: Ensure the akaBot Web Extension is active and has permissions to run on the target website. Without it, Studio cannot highlight or interact with web elements.

@@ -1,4 +1,4 @@
----
+﻿---
 id: handle-alert
 title: "Handle Alert"
 sidebar_label: "Handle Alert"
@@ -18,8 +18,7 @@ The Handle Alert activity allows you to handle alert popup box in various ways.
 
 (\* For Mandatory)
 
-> [!IMPORTANT]
-> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of activity**
 
@@ -70,3 +69,8 @@ The Handle Alert activity allows you to handle alert popup box in various ways.
    - `SENDKEYS` – Types a string into the alert input box (for `prompt()` alerts). Enter the text in the **KeysToSend** field.
 4. **Capture alert text (optional)**: If using `GETTEXT`, create a String variable in the **Alert Text** output field (press `Ctrl + K`) to store the returned message.
 5. **Run the workflow**: Execute the process. akaBot will automatically detect and handle the alert popup without it blocking the automation.
+
+## **Troubleshooting**
+
+* **No Alert Found**: If the activity fails with a timeout or alert not found error, verify that the JavaScript alert, confirmation, or prompt has actually appeared on the page. Check the **Timeout MS** property.
+* **Target Element Conflict**: Remember that standard HTML/CSS popup modals are not native browser alerts and cannot be closed using this activity. For HTML modal popups, use standard [Click](/docs/activities/browser/latest/activities/click.md) activities instead.

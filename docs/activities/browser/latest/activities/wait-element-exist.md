@@ -1,4 +1,4 @@
----
+﻿---
 id: wait-element-exist
 title: "Wait Element Exist"
 sidebar_label: "Wait Element Exist"
@@ -18,8 +18,7 @@ The Wait Element Exist activity waits for a selected element to appear in a webp
 
 (\* For Mandatory)
 
-> [!IMPORTANT]
-> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of activity**
 
@@ -61,3 +60,19 @@ The Wait Element Exist activity waits for a selected element to appear in a webp
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: The **Wait Element Exist** activity must be placed inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+2. **Pick the target element**: Click **Pick target element** in the body of the activity, then select the target element you want to wait for (e.g., a dynamic popup, loaded table, or button). akaBot Studio will automatically generate a **Selector** to identify that element.
+3. **Configure the Timeout (optional)**: In the **Properties** panel under **Common** -> **Timeout MS**, set the maximum wait duration in milliseconds (e.g., `10000` for 10 seconds). The default is `30000` (30 seconds).
+4. **Map the Output (optional)**: Under **Output** -> **Found Element**, you can create a UiElement variable to save the resolved element to use in subsequent activities.
+5. **Run the workflow**: Execute the process. akaBot will pause execution at this activity until the specified element is detected on the page or the timeout is reached.
+
+## **Troubleshooting**
+
+* **SelectorNotFoundException / Element Not Found**: 
+  * Ensure that the webpage has loaded completely before performing the action. If needed, insert a [Wait Page Load Complete](/docs/activities/browser/latest/activities/wait-page-load-complete.md) activity first.
+  * Verify that the selector is correct. If the target element contains dynamic attributes (such as changing IDs), open the Selector Editor and replace the dynamic parts with wildcard characters (* or ?).
+  * Ensure the target element is visible and not hidden behind overlays or loader animations. Check the **Wait Visible** property.
+* **Extension Not Enabled**: Ensure the akaBot Web Extension is active and has permissions to run on the target website. Without it, Studio cannot highlight or interact with web elements.

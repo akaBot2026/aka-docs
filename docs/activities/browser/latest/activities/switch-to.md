@@ -1,4 +1,4 @@
----
+﻿---
 id: switch-to
 title: "Switch To"
 sidebar_label: "Switch To"
@@ -18,8 +18,7 @@ The Switch To activity allows you to switch between different UI Elements within
 
 (\*For Mandatory)
 
-> [!IMPORTANT]
-> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of the activity**
 
@@ -60,3 +59,15 @@ The Switch To activity allows you to switch between different UI Elements within
 **Options**
 
 * **Wait Timeout MS:** Specifies the maximum time (in milliseconds) the system will wait for the target tab/window to be available before performing the switch. Enter a numeric value. E.g: 30000
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: The **Switch To** activity must be placed inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+2. **Choose Switch To Type**: In the body or **Properties** panel under **Input**, select the type of element or window you want to switch focus to (e.g., `FRAME` for an iframe, `WINDOW` for switching tabs, or `ALERT` for handling popup alerts).
+3. **Specify the Value**: In the **Switch To Value** field, enter the identifier or index of the target frame or window in quotes (e.g., `"1"` for the second tab, or the iframe's ID/name). If switching to `DEFAULT_CONTENT` or `ACTIVE_ELEMENT`, you can leave this field blank.
+4. **Run the workflow**: Execute the process. akaBot will switch its execution focus to the specified context (such as inside the target iframe) so subsequent activities can interact with elements within that scope.
+
+## **Troubleshooting**
+
+* **Invalid Browser Session**: If the activity throws an error or fails to execute, ensure that it is running inside an active [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) or [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md) container, and that the browser tab has not been closed.
+* **WebDriver Communication Failure**: If the browser driver (e.g. ChromeDriver) has crashed or disconnected, restart your browser session and check if the driver version matches your browser (see the [Environment Setup Guide](/docs/activities/browser/latest/setup-browser-environment.md)).

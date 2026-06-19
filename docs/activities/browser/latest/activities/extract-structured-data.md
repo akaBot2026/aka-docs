@@ -1,4 +1,4 @@
----
+﻿---
 id: extract-structured-data
 title: "Extract Structured Data"
 sidebar_label: "Extract Structured Data"
@@ -14,7 +14,7 @@ RCA.Activities.Browser.ExtractStructuredData
 
 The Extract Structured Data allows you to extract structured data from a specified webpage.
 
-![Browser_ExtractStructuredData](/static/img/b174d1_d1a0e86-screenshot_2021-05-25_160026.jpg)
+![extract-structured-data.png](/static/img/extract-structured-data.png)
 
 (\* For mandatory)
 
@@ -22,7 +22,7 @@ The Extract Structured Data allows you to extract structured data from a specifi
 
 ## **In the body of the activity**
 
-* **Pick target element**\* - Chooses the element to verify its existence. This activity will generate a string variable (Selector) to specify the location of that element.
+* **Pick target element**\* - Chooses the table or structured element on the web page to extract. This action helps to define the columns and map the data fields.
 
 ## **Properties**
 
@@ -67,7 +67,7 @@ To extract a table of structured data from a webpage and write it to an Excel sp
 
 2. **Add Extract Structured Data**:
    * Drag and drop an **Extract Structured Data** activity inside the **Do** block of the **Open Browser** container.
-   * Click **Pick target element** in the body of the activity, then select the table elements on the web page. Follow the akaBot wizard to define the columns and finalize the extraction structure.
+   * Click **Pick target element** in the body of the activity, then select the table elements on the web page to define the columns and finalize the extraction structure.
    * In the **Properties** panel under **Output**, create a DataTable variable named `dt_` (Ctrl+K -> type `dt_` -> press Enter) and assign it to the **Result** field.
 
 3. **Add Excel Application Scope**:
@@ -83,3 +83,10 @@ To extract a table of structured data from a webpage and write it to an Excel sp
 5. **Run the workflow**: 
    * Execute the process. akaBot will launch the browser, navigate to the target site, extract the structured data table, and write the contents directly into the specified Excel sheet.
 
+## **Troubleshooting**
+
+* **SelectorNotFoundException / Element Not Found**: 
+  * Ensure that the webpage has loaded completely before performing the action. If needed, insert a [Wait Page Load Complete](/docs/activities/browser/latest/activities/wait-page-load-complete.md) activity first.
+  * Verify that the selector is correct. If the target element contains dynamic attributes (such as changing IDs), open the Selector Editor and replace the dynamic parts with wildcard characters (* or ?).
+  * Ensure the target element is visible and not hidden behind overlays or loader animations. Check the **Wait Visible** property.
+* **Extension Not Enabled**: Ensure the akaBot Web Extension is active and has permissions to run on the target website. Without it, Studio cannot highlight or interact with web elements.

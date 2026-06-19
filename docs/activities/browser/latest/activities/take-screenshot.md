@@ -1,4 +1,4 @@
----
+﻿---
 id: take-screenshot
 title: "Take Screenshot"
 sidebar_label: "Take Screenshot"
@@ -18,8 +18,7 @@ The Take Screenshot takes screenshot of a UI Elements within a browser.
 
 (\* For Mandatory)
 
-> [!IMPORTANT]
-> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of the activity**
 
@@ -61,3 +60,19 @@ The Take Screenshot takes screenshot of a UI Elements within a browser.
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: The **Take Screenshot** activity must be placed inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+2. **Pick the target element**: Click **Pick target element** in the body of the activity, then select the target element or area on the webpage to capture. akaBot Studio will automatically generate a **Selector** to identify that element.
+3. **Map the Output**: In the **Properties** panel under **Output** -> **Output Screenshot**, press **Ctrl + K** to create a new Image variable (e.g., `webScreenshot`) to save the captured image.
+4. **Save the image to a file**: Below the **Take Screenshot** activity, you can add a **Save Image** activity (from the Image activities package) and set the input image to `webScreenshot` and the file path to `"C:\\RPA\\Screenshots\\screenshot.png"`.
+5. **Run the workflow**: Execute the process. akaBot will capture the specified element's screenshot and save it to the designated image variable.
+
+## **Troubleshooting**
+
+* **SelectorNotFoundException / Element Not Found**: 
+  * Ensure that the webpage has loaded completely before performing the action. If needed, insert a [Wait Page Load Complete](/docs/activities/browser/latest/activities/wait-page-load-complete.md) activity first.
+  * Verify that the selector is correct. If the target element contains dynamic attributes (such as changing IDs), open the Selector Editor and replace the dynamic parts with wildcard characters (* or ?).
+  * Ensure the target element is visible and not hidden behind overlays or loader animations. Check the **Wait Visible** property.
+* **Extension Not Enabled**: Ensure the akaBot Web Extension is active and has permissions to run on the target website. Without it, Studio cannot highlight or interact with web elements.
