@@ -1,4 +1,4 @@
-﻿---
+---
 id: inject-javascript
 title: "Inject Javascript"
 sidebar_label: "Inject Javascript"
@@ -16,14 +16,15 @@ The **Inject JavaScript** activity allows you to execute custom JavaScript code 
 
 ![image-20220505134721-2.png](/static/img/59161b_image-20220505134721-2.png)
 
+(\* For Mandatory)
+
 **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **How it Works**
 
 1. **Inline Code or External File**: You can input the JavaScript code directly as a string or provide the path to an external `.js` file in the **Script File** property.
-2. **Script Type**: You can choose how the script is evaluated via **Script Type**. By default, it is set to `InjectScriptType.Function`, which executes the code inside a function wrapper.
-3. **Passing Variables (Arguments)**: You can pass data from akaBot variables into the JavaScript function parameters using the **Arguments** collection.
-4. **Retrieving Results (Script Output)**: You can return a string value from your JavaScript code (using `return`) and save it into an akaBot string variable in the **Script Output** property.
+2. **Passing Variables (Arguments)**: You can pass data from akaBot variables into the JavaScript function parameters using the **Arguments** collection.
+3. **Retrieving Results (Script Output)**: You can return a string value from your JavaScript code (using `return`) and save it into an akaBot string variable in the **Script Output** property.
 
 ---
 
@@ -31,31 +32,26 @@ The **Inject JavaScript** activity allows you to execute custom JavaScript code 
 
 **Common**
 
-* **Continue On Error (Boolean)** - Specifies whether the workflow continues execution if the activity encounters an error. Only has two possible values:
-  * `True`: Allows the workflow to continue executing subsequent activities.
-  * `False` (default): Throws an error and halts execution.
-* **Browser (Browser)** - The existing browser variable representing the browser session you want to inject the script into.
-* **Script File (String)\*** - The file path of the JavaScript file (e.g., `"C:\Scripts\myScript.js"`) OR the inline JavaScript code block (e.g., `"function (arg1, arg2) { ... }"`).
-* **Script Type (Dropdown)** - Specifies how the script is evaluated.
-  * `InjectScriptType.Function` (default): Evaluates the script as a function that can take input arguments and return a value.
-  * `InjectScriptType.Text`: Evaluates the script as raw JavaScript text.
+* **Continue On Error (Boolean)** - A Boolean variable has two possible values: True or False.  
+  * **True** - Allows the rest of the process to continue the execution even if an error occurs within the activity.  
+  * **False (default)** - Blocks the process from continuing the execution.
 
-**Misc**
-
-* **Display Name (String)** - The name of the activity displayed in the designer panel. You can change this to organize and structure your workflow.
-  * E.g., `[712701451] Inject Javascript`
-* **Public (Checkbox)** - If checked, the properties and values of this activity will be recorded in the execution log at the Verbose level. Consider data security requirements before checking this. Default is unchecked.
-
-**Options**
+**Input**
 
 * **Arguments (Collection)** - A collection of arguments passed to the JavaScript function. Click the `...` button next to Arguments to open the editor:
   * **Name**: The name of the argument (must match the parameter name in your JavaScript function signature).
   * **Direction**:
-    - `In`: Pass data from akaBot into the JavaScript code.
-    - `Out`: Return data from the JavaScript code back to akaBot.
-    - `In/Out`: Pass data in, modify it, and return it back.
+    * `In`: Pass data from akaBot into the JavaScript code.
+    * `Out`: Return data from the JavaScript code back to akaBot.
+    * `In/Out`: Pass data in, modify it, and return it back.
   * **Type**: Data type of the argument (e.g., String, Int32, Boolean).
   * **Value**: The akaBot variable or expression containing the value.
+* **Script File (String)\*** - The file path of the JavaScript file (e.g., `"C:\Scripts\myScript.js"`) OR the inline JavaScript code block (e.g., `"function (color) { ... }"`).
+
+**Misc**
+
+* **Display Name (String)** - The name of the activity displayed in the designer panel. You can change this to organize and structure your workflow. E.g., `[861257316] Inject Javascript(`.
+* **Public (Checkbox)** - If checked, the data of this activity will be shown in the log. Consider data security before using it.
 
 **Output**
 
@@ -73,20 +69,18 @@ To demonstrate how to use the **Inject JavaScript** activity, we will create a w
 
 ### **Step 2: Add Inject JavaScript**
 1. Drag and drop an **Inject JavaScript** activity inside the **Do** container of the **Open Browser** activity.
-2. Select the activity, and in the **Properties** panel under **Common**, configure:
-   * **Script Type**: Select `InjectScriptType.Function` from the dropdown list.
-   * **Script File**: In the text box, type the JavaScript function that changes the background color:
-     ```javascript
-     "function (color) {
-         document.body.style.backgroundColor = color;
-         return 'Success';
-     }"
-     ```
+2. Select the activity, and in the **Properties** panel under **Input**, configure the **Script File** text box by typing the JavaScript function that changes the background color:
+   ```javascript
+   "function (color) {
+       document.body.style.backgroundColor = color;
+       return 'Success';
+   }"
+   ```
 
 ### **Step 3: Configure Input Arguments**
 To pass the color name from akaBot Studio into the JavaScript function:
 1. In akaBot Studio, create a String variable named `myColor` and assign it the default value `"lightblue"`.
-2. In the **Properties** panel of the **Inject JavaScript** activity, under **Options**, click the `...` button next to **Arguments** to open the editor.
+2. In the **Properties** panel of the **Inject JavaScript** activity, under **Input**, click the `...` button next to **Arguments** to open the editor.
 3. In the Arguments window, click **Create argument** and configure:
    * **Name**: `color` (must match the parameter name in the JavaScript function signature)
    * **Direction**: `In`
@@ -107,4 +101,5 @@ To check the execution result of the script:
 ## **Troubleshooting**
 
 * **Invalid Browser Session**: If the activity throws an error or fails to execute, ensure that it is running inside an active [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) or [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md) container, and that the browser tab has not been closed.
+* **JavaScript Execution Error**: If the JavaScript code contains syntax errors or throws an exception during runtime (such as referencing an undefined variable or property), the activity will fail. Test your script in the browser's developer console first.
 * **WebDriver Communication Failure**: If the browser driver (e.g. ChromeDriver) has crashed or disconnected, restart your browser session and check if the driver version matches your browser (see the [Environment Setup Guide](/docs/activities/browser/latest/setup-browser-environment.md)).

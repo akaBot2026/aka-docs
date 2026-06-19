@@ -1,5 +1,5 @@
 ﻿---
-id: wait-web-url
+id: wait-page-url
 title: "Wait Page Url"
 sidebar_label: "Wait Page Url"
 sidebar_position: 31

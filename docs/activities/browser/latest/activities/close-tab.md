@@ -1,4 +1,4 @@
-﻿---
+---
 id: close-tab
 title: "Close tab"
 sidebar_label: "Close tab"
@@ -12,60 +12,41 @@ RCA.Activities.Browser.CloseTab
 
 ## **Description**
 
-The **Close Tab** activity closes the currently opened tab in the browser.
+The **Close Tab** activity closes the currently opened tab in the browser or a specified browser variable session.
 
 ![1774422442503-694.png](/static/img/f51f8f_1774422442503-694.png)
 
 (\* For Mandatory)
 
- **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **Properties**
 
-### **Common**
+**Common**
 
-* **Continue on Error (Boolean):** A Boolean variable has two possible values: True or False.
+* **Continue on Error (Boolean):** A Boolean variable has two possible values: True or False.
   + **True:** The process continues execution even if an error occurs within the activity.
   + **False (default):** The process execution is stopped if an error occurs.
-* **Timeout Ms (Int32)**- The maximum amount of time (in milliseconds) to wait for the activity to complete before an error is thrown. If the timeout expires, the activity will be terminated. Default value: 30000 (milliseconds).  
-  E.g: 30000
+* **Delay After (Int32)** - Delay time (in milliseconds) after executing the activity.
+* **Delay Before (Int32)** - Delay time (in milliseconds) before the activity begins performing any operations.
 
 **Input**
 
-* **Attribute Name (String)**\* - The expression of the attribute to be selected from. It is a string, so it has to be encased in quotation marks.
-* **Selector (String)**\* - Text property used to find a particular UI element when the activity is executed. It is actually a XML fragment specifying attributes of the GUI element you are looking for and of some of its parents.
-* **Wait Visible (Checkbox)** - Check this box if you want the automation waits for the target to be visible before executing the activity. This is checked by default
+* **Browser (Browser)** - The existing browser variable representing the browser session or tab you want to close. If left empty, the activity will close the active tab in the current container context.
 
----
+**Misc**
 
-### **Misc**
-
-* **Display Name (String):** The name of the activity. You can edit it to better organize and structure your workflow. E.g: [2352452] Close Tab
-* **Private (Checkbox):** Check this option to make the activity private. Before enabling, ensure that data security requirements are considered. By default, this option is unchecked.
-
-**Output**
-
-* **Output Value (String)**- Value of the attribute that will be outputted with type = ‘String’.
-
-**Scroll**: To control how the system scrolls the screen to make the target element visible before performing an action*.*
-
-* ​​​​​​​**Horizontal scroll:** Enter a numeric value (pixels) to scroll horizontally.
-  + Positive value → scroll right
-  + Negative value → scroll left
-  + E.g: 200
-* **Scroll element to view (checkbox):** The system automatically scrolls until the target element is visible. Default setting is unchecked.
-* **Vertical scroll:** Enter a numeric value (pixels) to scroll vertically
-  + Positive value → scroll down
-  + Negative value → scroll up
-  + E.g: 300
+* **Display Name (String):** The name of the activity. You can edit it to better organize and structure your workflow. E.g: [574096313] Close Tab
+* **Public (Checkbox):** Check this option to make the activity public. Before enabling, ensure that data security requirements are considered. By default, this option is unchecked.
 
 ## **Step-by-Step Usage**
 
 1. **Place inside a browser container**: The **Close Tab** activity must be placed inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
-2. **Configure properties (optional)**: Modify the **Display Name** or set **Timeout MS** in the Properties panel if needed.
-3. **Run the workflow**: Execute the process. When the activity is reached, akaBot will close the active tab in the browser session context.
+2. **Specify the Browser variable (optional)**: In the **Properties** panel under **Input** -> **Browser**, you can specify a browser session variable (e.g. `myBrowser`) to close that specific tab. If left blank, the activity will close the active tab of the current browser container.
+3. **Configure Delay (optional)**: Set **Delay Before** or **Delay After** in the properties panel if you want to pause before or after closing the tab.
+4. **Run the workflow**: Execute the process. akaBot will close the specified tab (or the active tab of the current browser container).
 
 ## **Troubleshooting**
 
-* **Invalid Browser Session**: If the activity throws an error or fails to execute, ensure that it is running inside an active [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) or [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md) container, and that the browser tab has not been closed.
+* **Invalid Browser Session**: If the activity throws an error or fails to execute, ensure that it is running inside an active [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) or [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md) container, or that the **Browser** variable passed into the Input property is valid and represents an open tab.
 * **WebDriver Communication Failure**: If the browser driver (e.g. ChromeDriver) has crashed or disconnected, restart your browser session and check if the driver version matches your browser (see the [Environment Setup Guide](/docs/activities/browser/latest/setup-browser-environment.md)).

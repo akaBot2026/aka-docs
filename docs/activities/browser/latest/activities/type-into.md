@@ -1,4 +1,4 @@
-﻿---
+---
 id: type-into
 title: "Type Into"
 sidebar_label: "Type Into"
