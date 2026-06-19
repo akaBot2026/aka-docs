@@ -17,9 +17,7 @@ The Element Exist allows you to confirm whether an element exist.
 ![image-20220505140211-2.png](/static/img/e335a9_image-20220505140211-2.png)
 
 (\* For Mandatory)
-
-> [!IMPORTANT]
-> **Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of the activity**
 
@@ -61,3 +59,28 @@ The Element Exist allows you to confirm whether an element exist.
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
+
+## **Step-by-Step Usage**
+
+To check if a "Login" button exists on a webpage and click it only if it is present, follow these steps:
+
+1. **Add Open Browser Container**:
+   * Drag and drop an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) activity into your workflow.
+   * Set the URL to your target website.
+
+2. **Add Element Exist**:
+   * Drag and drop an **Element Exist** activity inside the **Do** block of the **Open Browser** container.
+   * Click **Pick target element** in the body of the activity, then select the **Login** button on the web page.
+   * In the **Properties** panel under **Output**, create a Boolean variable named `isLoginExist` (Ctrl+K -> type `isLoginExist` -> press Enter) and assign it to the **Exists** field.
+
+3. **Add If Activity**:
+   * Drag and drop an **If** activity below the **Element Exist** activity.
+   * In the **Condition** field of the **If** activity, type `isLoginExist`.
+
+4. **Add Action inside Then (If Yes)**:
+   * Drag and drop a [Click](/docs/activities/browser/latest/activities/click.md) activity into the **Then** section of the **If** activity.
+   * Click **Pick target element** on the **Click** activity and target the **Login** button to perform the click action.
+
+5. **Run the workflow**:
+   * Execute the process. akaBot will check if the Login button is visible on the page. If it exists (`isLoginExist` is `True`), the robot will enter the **Then** block and click the button. If it is not found, the robot will skip the click action without throwing an exception.
+
