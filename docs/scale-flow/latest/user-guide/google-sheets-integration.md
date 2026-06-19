@@ -326,5 +326,6 @@ Agent prepares a data row -> writes it to a review sheet -> the team approves di
 ## Read Next
 
 - [Integration Usage](./integration-usage) — manage integrations in ScaleFlow.
+- [Google Drive Integration](./google-drive-integration) — documents and Knowledge from Drive.
 - [AI Agent Usage](./ai-agent-usage) — create, test, and publish agents.
-- [Knowledge Usage](./knowledge-usage) — if you need to read documents from Google Drive instead of spreadsheets.
+- [Channel Integration](./channel-integration) — connect customer messaging channels.

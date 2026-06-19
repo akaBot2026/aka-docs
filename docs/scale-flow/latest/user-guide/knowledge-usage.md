@@ -91,7 +91,7 @@ After files appear in the document list, run **Sync knowledge** (or **Synchroniz
 
 Use **Google Drive** when your team already keeps business documents in Google Drive.
 
-Before using it, connect Google Drive in [Integration Usage](./integration-usage). Then choose the files you want ScaleFlow to read.
+Before using it, connect Google Drive in [Integration Usage](./integration-usage). For a full step-by-step guide (connect, pick files, sync), see [Google Drive Integration](./google-drive-integration).
 
 ### Crawl Web
 

@@ -26,7 +26,7 @@ You do not need technical knowledge to use ScaleFlow. Start with the basic setup
 Follow these pages in order if you are new:
 
 1. [Account Registration](./user-guide/account-registration): create your account and sign in.
-2. [Channel Integration](./user-guide/channel-integration): connect Zalo OA, Facebook, WhatsApp, or Telegram.
+2. [Channel Integration](./user-guide/channel-integration): connect Zalo OA, LINE, WhatsApp, Messenger, Telegram, and more.
 3. [Knowledge Usage](./user-guide/knowledge-usage): add the information AI should learn from.
 4. [AI Agent Usage](./user-guide/ai-agent-usage): create the AI worker that uses your Knowledge.
 5. [AI Assistant](./user-guide/ai-assistant): turn on the AI experience inside Inbox.
@@ -42,12 +42,12 @@ A small online shop connects its Zalo OA to ScaleFlow. A customer asks, "Do you 
 | Feature | Use it for |
 |---|---|
 | [Account Registration](./user-guide/account-registration) | Get into ScaleFlow for the first time. |
-| [Channel Integration](./user-guide/channel-integration) | Bring customer messages into one Inbox. |
+| [Channel Integration](./user-guide/channel-integration) | Bring customer messages into one Inbox. Setup guides: [Zalo OA](./user-guide/zalo/connecting-your-zalo-oa-account), [LINE](./user-guide/line/connecting-your-line-business-account), [WhatsApp](./user-guide/whatsapp/connecting-your-whatsapp-business-api-account), [Telegram](./user-guide/telegram/connecting-your-telegram-bot). |
 | [AI Assistant](./user-guide/ai-assistant) | Let AI help with replies, summaries, follow-ups, and automatic support. |
 | [AI Agent](./user-guide/ai-agent-usage) | Build the AI worker that knows your business rules. |
 | [Knowledge](./user-guide/knowledge-usage) | Store FAQs, policies, documents, and website content for AI. |
 | [Inbox](./user-guide/inbox-usage) | Handle daily customer conversations. |
 | [Tickets](./user-guide/ticket-usage) | Track issues that need follow-up. |
 | [Contacts](./user-guide/contact-management) | Keep customer information organized. |
-| [Integrations](./user-guide/integration-usage) | Connect tools like HubSpot, Shopify, Google Drive, and Google Sheets. |
+| [Integrations](./user-guide/integration-usage) | Connect HubSpot, Freshdesk, Google Drive, Google Sheets, Make, and more. See also [Google Drive](./user-guide/google-drive-integration), [Google Sheets](./user-guide/google-sheets-integration), and [Make](./user-guide/make-integration) guides. |
 | [Analytics](./user-guide/analytics-usage) | Understand message, conversation, ticket, and contact activity. |

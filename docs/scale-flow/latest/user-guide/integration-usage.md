@@ -40,12 +40,15 @@ If you cannot connect or edit integrations, ask your admin to grant integration 
 
 ## Providers currently available in UI
 
-- **HubSpot**
-- **Shopify**
-- **Google Sheets**
-- **Google Drive**
+| Provider | Detailed setup guide |
+|----------|---------------------|
+| **HubSpot** | [Integration Usage — HubSpot](#hubspot-connection) (this page); OAuth setup below |
+| **Freshdesk** | [Connect Freshdesk to ScaleFlow](./connecting-your-freshdesk-account) |
+| **Google Sheets** | [Google Sheets Integration](./google-sheets-integration) |
+| **Google Drive** | [Google Drive Integration](./google-drive-integration) |
+| **Make** | [Make Integration](./make-integration) |
 
-Other providers in the grid may show **Coming soon** and cannot be connected yet.
+Other providers in the grid (for example **Shopify**, **Salesforce**, **Zapier**) may show **Coming soon** and cannot be connected yet. Shopify already has a guide for when it is enabled: [Shopify Integration](./shopify-integration).
 
 ## Connect a new integration
 
@@ -55,8 +58,9 @@ Other providers in the grid may show **Coming soon** and cannot be connected yet
 4. On setup screen, review requested permissions.
 5. Click:
    - **Continue on HubSpot** (HubSpot),
-   - **Continue with Google** (Google Sheets / Google Drive), or
-   - Enter credentials and click **Connect** (Shopify).
+   - **Continue with Google** (Google Sheets / Google Drive),
+   - Paste **API token** and click **Connect** (Make), or
+   - Enter credentials and click **Connect** (Shopify — when available).
 
    ![Connect Google Drive flow](/static/img/connect-google-drive.png)
 
@@ -109,23 +113,35 @@ Use HubSpot when your sales or support team stores customer records in HubSpot.
 
 Inside one HubSpot connection, you can rename the connection, review available AI actions, and sync customer or ticket data when your setup supports it.
 
+### Freshdesk connection
+
+Use Freshdesk when your support team manages tickets in Freshdesk and wants them synced into ScaleFlow.
+
+For domain, API key, sync settings, and field mapping, see [Connect Freshdesk to ScaleFlow](./connecting-your-freshdesk-account).
+
 ### Shopify connection
 
 Use Shopify when your business uses Shopify for e-commerce.
 
-For a detailed guide on how to get the required API credentials (Client ID, Client Secret, and Store URL) and connect the integration, refer to the [Shopify Integration](./shopify-integration) guide.
+For Client ID, Client Secret, Store URL, and OAuth install steps, see [Shopify Integration](./shopify-integration).
 
 ### Google Sheets connection
 
 Use Google Sheets when your team manages simple tables, lead lists, price tables, or tracking sheets.
 
-Inside one Google Sheets connection, you can review the linked account and available automation ideas.
+For OAuth connect, spreadsheet selection in AI agents, MCP tools, and troubleshooting, see [Google Sheets Integration](./google-sheets-integration).
 
 ### Google Drive connection
 
 Use Google Drive when your team stores documents that AI should read.
 
-After connecting, you can create [Knowledge](./knowledge-usage) from selected Drive files.
+After connecting, create [Knowledge](./knowledge-usage) from selected Drive files. For connect steps, Knowledge sync, agent MCP tools, and Runbook examples, see [Google Drive Integration](./google-drive-integration).
+
+### Make connection
+
+Use Make when your team builds visual automation scenarios and you want ScaleFlow AI agents to discover, inspect, or run those scenarios through MCP tools.
+
+Make uses **API token** authentication. For step-by-step setup, agent configuration, and MCP tool reference, see [Make Integration](./make-integration).
 
 ## Real-world workflow
 
@@ -137,9 +153,20 @@ After connecting, you can create [Knowledge](./knowledge-usage) from selected Dr
 
 ## What to read next
 
+### Integration setup guides
+
+- [Google Drive Integration](./google-drive-integration)
+- [Google Sheets Integration](./google-sheets-integration)
+- [Make Integration](./make-integration)
+- [Connect Freshdesk to ScaleFlow](./connecting-your-freshdesk-account)
+- [Shopify Integration](./shopify-integration) (when Shopify is enabled in UI)
+
+### Related product guides
+
 - Want AI to read Google Drive files? Go to [Knowledge Usage](./knowledge-usage).
 - Want AI to use connected tools? Go to [AI Agent Usage](./ai-agent-usage).
 - Want AI to answer customers in Inbox? Go to [AI Assistant](./ai-assistant).
+- Want to connect messaging channels first? Go to [Channel Integration](./channel-integration).
 
 ## Quick troubleshooting
 

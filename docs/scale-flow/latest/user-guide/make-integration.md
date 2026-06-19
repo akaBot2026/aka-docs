@@ -355,5 +355,7 @@ The ScaleFlow agent handles the conversation; when CRM, sheet, email, or other t
 ## Read Next
 
 - [Integration Usage](./integration-usage) — manage integrations in ScaleFlow.
+- [Google Drive Integration](./google-drive-integration) — connect Drive and pick files.
 - [AI Agent Usage](./ai-agent-usage) — create, test, and publish agents.
 - [AI Assistant](./ai-assistant) — enable Smart Assistant for customers.
+- [Channel Integration](./channel-integration) — connect customer messaging channels.

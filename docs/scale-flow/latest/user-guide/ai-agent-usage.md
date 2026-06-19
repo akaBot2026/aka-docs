@@ -96,11 +96,17 @@ If you have not created Knowledge yet, follow [Knowledge Usage](./knowledge-usag
 
 ![Integration section](/static/img/integration.png)
 
-Integrations let the agent work with connected business tools, such as HubSpot, Shopify, Google Drive, or Google Sheets.
+Integrations let the agent work with connected business tools, such as HubSpot, Google Drive, Google Sheets, or Make.
 
 Use this only when the agent needs information from those tools or needs to perform an approved action. Beginners can start without integrations, then add them later.
 
-Learn more in [Integration Usage](./integration-usage).
+Setup guides:
+
+- [Integration Usage](./integration-usage) — overview and connection management
+- [Google Drive Integration](./google-drive-integration)
+- [Google Sheets Integration](./google-sheets-integration)
+- [Make Integration](./make-integration)
+- [Connect Freshdesk](./connecting-your-freshdesk-account)
 
 ### 4. Instructions
 
