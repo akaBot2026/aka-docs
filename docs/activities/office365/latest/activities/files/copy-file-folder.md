@@ -1,4 +1,4 @@
-﻿---
+---
 id: copy-file-folder
 title: "Copy File/Folder"
 sidebar_label: "Copy File/Folder"

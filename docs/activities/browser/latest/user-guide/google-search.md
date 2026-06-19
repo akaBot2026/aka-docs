@@ -1,8 +1,8 @@
 ---
 id: google-search
 title: "Google Search Use Case"
-sidebar_label: "2. Google Search Use Case"
-sidebar_position: 2
+sidebar_label: "Google Search Use Case"
+sidebar_position: 1
 description: "A step-by-step tutorial demonstrating how to perform a Google search and retrieve results using Browser activities."
 displayed_sidebar: activitiesSidebar
 ---

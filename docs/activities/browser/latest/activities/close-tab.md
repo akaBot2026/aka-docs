@@ -59,10 +59,3 @@ The **Close Tab** activity closes the currently opened tab in the browser.
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-目次
-
-* [Description](#HDescription)
-* [Properties](#HProperties)
-  + [Common](#HCommon)
-  + [Misc](#HMisc)

@@ -8,7 +8,7 @@ displayed_sidebar: activitiesSidebar
 ---
 # Browser Scope
 
-RCA.Activities.Browser.BrowserScrope
+RCA.Activities.Browser.BrowserScope
 
 ## **Description**
 

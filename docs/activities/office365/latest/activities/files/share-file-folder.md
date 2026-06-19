@@ -1,4 +1,4 @@
-﻿---
+---
 id: share-file-folder
 title: "Share File/Folder"
 sidebar_label: "Share File/Folder"

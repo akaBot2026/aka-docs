@@ -1,4 +1,4 @@
-﻿---
+---
 id: export-file-as-pdf
 title: "Export File as PDF"
 sidebar_label: "Export File as PDF"
