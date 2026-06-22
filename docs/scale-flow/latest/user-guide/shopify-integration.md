@@ -34,7 +34,7 @@ Your Shopify Store URL is the primary `.myshopify.com` domain for your store.
 1. Access [https://admin.shopify.com/](https://admin.shopify.com/) and log in to your store.
 2. In the left navigation bar, click on **Settings** at the bottom.
 
-   ![Shopify Sidebar Settings](/static/img/image_shopify_1.1.png)
+   ![Shopify Sidebar Settings](/static/img/image_shopify_7.png)
 
 3. In the Settings page (or from the store switcher dropdown), find the `.myshopify.com` domain of your store.
 
@@ -57,19 +57,20 @@ Your Shopify Store URL is the primary `.myshopify.com` domain for your store.
    - Under the **Distribution type** section, select **Custom distribution**.
    - Confirm the distribution method by clicking **Choose distribution**.
 
-   ![Shopify App Distribution](/static/img/image_shopify_1.2.png)
+   ![Shopify App Distribution](/static/img/image_shopify_8.png)
 
 4. In the left navigation menu, click on **API access requests**.
 
-   ![Shopify Request API Access](/static/img/image_shopify_1.3.png)
+   ![Shopify Request API Access](/static/img/image_shopify_9.png)
 
 5. On the **API access requests** page, click on **Protected customer data access** and click **Request access**.
 
-   ![Shopify Protected Customer Data Access](/static/img/image_shopify_1.4.png)
+   ![Shopify Protected Customer Data Access](/static/img/image_shopify_10.png)
 
 6. In the control panel/modal that appears, click the **Select** button under the **Protected customer data** section, check/tick **Customer service** and **App functionality**, and then click **Save**.
 
-   ![Shopify Customer Data Selection](/static/img/image_shopify_1.5.png)
+   ![Shopify Customer Data Selection](/static/img/image_shopify_11.png)
+   ![Shopify Customer Data Selection](/static/img/image_shopify_12.png)
 
 7. In the left navigation menu of your app, click on the **Configuration** tab (or **App configuration**).
    - Under the **Access** section:
@@ -80,7 +81,7 @@ Your Shopify Store URL is the primary `.myshopify.com` domain for your store.
      - In the **Allowed redirection URL(s)** field, enter the redirect URL provided by ScaleFlow (e.g., `https://your-scaleflow-domain.com/api/v1/integrations/shopify/callback`).
 8. Click **Release** (or **Save configuration**) to apply changes.
 
-   ![Shopify App Configuration](/static/img/image_shopify_1.8.png)
+   ![Shopify App Configuration](/static/img/image_shopify_15.png)
 
 ### Step 3: Retrieve API Credentials
 
