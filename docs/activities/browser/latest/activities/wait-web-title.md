@@ -1,4 +1,4 @@
----
+﻿---
 id: wait-web-title
 title: "Wait Page Title"
 sidebar_label: "Wait Page Title"
@@ -18,6 +18,8 @@ value.
 ![image-20220505141738-1.png](/static/img/73bc4f_image-20220505141738-1.png)
 
 (\* For Mandatory)
+
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of the activity**
 
@@ -59,3 +61,19 @@ value.
 * **Result (Boolean)** - A Boolean variable has two possible values: True or False  
   **・True** - The page title meets the requirement.  
   **・False** -The page does not meet the requirement.
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: The **Wait Page Title** activity must be placed inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+2. **Choose Comparison Operator**: In the body or **Properties** panel under **Input**, select the comparison rule from the dropdown:
+   * `EQUALS`: The title must match the target value exactly.
+   * `CONTAINS`: The title must contain the target value.
+   * `MATCHES`: The title must match a regex expression.
+3. **Specify the Title Value**: In the **Title Value** field, enter the expected title string or regex pattern in quotes (e.g., `"Google Search"` or `"akaBot"`).
+4. **Map the Output (optional)**: Under **Output** -> **Result**, create a Boolean variable named `isMatched` (Ctrl+K -> type `isMatched` -> press Enter) to store the verification result.
+5. **Run the workflow**: Execute the process. akaBot will pause execution until the webpage title meets the comparison rule (or the timeout is reached).
+
+## **Troubleshooting**
+
+* **Invalid Browser Session**: If the activity throws an error or fails to execute, ensure that it is running inside an active [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) or [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md) container, and that the browser tab has not been closed.
+* **WebDriver Communication Failure**: If the browser driver (e.g. ChromeDriver) has crashed or disconnected, restart your browser session and check if the driver version matches your browser (see the [Environment Setup Guide](/docs/activities/browser/latest/setup-browser-environment.md)).

@@ -1,4 +1,4 @@
----
+﻿---
 id: hover
 title: "Hover"
 sidebar_label: "Hover"
@@ -17,6 +17,8 @@ The Hover activity will move the mouse pointer to a specified element without cl
 ![image-20220505134021-1.png](/static/img/5b764b_image-20220505134021-1.png)
 
 (\* For Mandatory)
+
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of the activity**
 
@@ -54,3 +56,17 @@ The Hover activity will move the mouse pointer to a specified element without cl
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: The **Hover** activity must be placed inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+2. **Pick the target element**: Click **Pick target element** in the body of the activity, then select the target element on the webpage (for example, a dropdown menu header or hover-trigger link). akaBot Studio will automatically generate a **Selector** to identify that element.
+3. **Run the workflow**: Execute the process. akaBot will locate the element and move the mouse pointer to hover over it, triggering any mouse-over behavior (such as displaying dropdown menus).
+
+## **Troubleshooting**
+
+* **SelectorNotFoundException / Element Not Found**: 
+  * Ensure that the webpage has loaded completely before performing the action. If needed, insert a [Wait Page Load Complete](/docs/activities/browser/latest/activities/wait-page-load-complete.md) activity first.
+  * Verify that the selector is correct. If the target element contains dynamic attributes (such as changing IDs), open the Selector Editor and replace the dynamic parts with wildcard characters (* or ?).
+  * Ensure the target element is visible and not hidden behind overlays or loader animations. Check the **Wait Visible** property.
+* **Extension Not Enabled**: Ensure the akaBot Web Extension is active and has permissions to run on the target website. Without it, Studio cannot highlight or interact with web elements.

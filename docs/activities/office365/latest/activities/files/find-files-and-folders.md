@@ -1,4 +1,4 @@
-﻿---
+---
 id: find-files-and-folders
 title: "Find Files And Folders"
 sidebar_label: "Find Files And Folders"

@@ -8,7 +8,7 @@ displayed_sidebar: activitiesSidebar
 ---
 # Browser Scope
 
-RCA.Activities.Browser.BrowserScrope
+RCA.Activities.Browser.BrowserScope
 
 ## **Description**
 
@@ -42,4 +42,18 @@ The Browser Scope activity creates a container that lets you attach an already o
 
 **Output**
 
-* **Output Browser (String)** - Output of the activity with type = ‘Browser’. Not allow whitespace in the output’s name.
+* **Output Browser (String)**  - Output of the activity with type = ‘Browser’. Not allow whitespace in the output’s name.
+
+## **Step-by-Step Usage**
+
+1. **Get a Browser Variable**: Ensure you have an active browser variable from the **Output Browser** property of either [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) or [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md).
+2. **Add Browser Scope**: Drag the **Browser Scope** activity into your workflow.
+3. **Link the Browser Session**: Pass the browser variable into the **Browser** property under the **Input** section of the **Properties** panel.
+4. **Define actions**: Place automation activities (e.g., [Navigate To](/docs/activities/browser/latest/activities/navigate-to.md), [Click](/docs/activities/browser/latest/activities/click.md)) inside the **Do** container. All nested activities will run within the context of the linked browser.
+5. **Output session reference (optional)**: Store the context in the **Output Browser** property if you need to pass it to subsequent activities.
+
+## **Troubleshooting**
+
+* **Null Browser Reference**: If the input browser variable is null or uninitialized, the activity will throw a `NullReferenceException`. Ensure that the parent activity that initialized the variable executed successfully.
+* **Auto-Quitting**: If **Quit Browser on Completed or Faulted** is checked (default), the browser session will close immediately after the activities in the **Do** container finish. Uncheck it if you need the browser to remain open.
+

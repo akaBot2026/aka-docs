@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-file-folder
 title: "Get File/Folder"
 sidebar_label: "Get File/Folder"
