@@ -1,4 +1,4 @@
-﻿---
+---
 id: move-item
 title: "Move File/Folder"
 sidebar_label: "Move File/Folder"

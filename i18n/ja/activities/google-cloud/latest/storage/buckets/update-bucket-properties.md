@@ -6,24 +6,25 @@ sidebar_position: 4
 description: "Update Bucket Properties アクティビティのドキュメント。"
 displayed_sidebar: activitiesSidebar
 ---
+
 # バケットプロパティの更新
 
 RCA.Activities.GoogleCloud.GCPUpdateBucketProperties
 
 ## **説明**
 
-Google Cloud Storage バケットのプロパティを更新します。
+Google Cloud Storage バケットのプロパティ（ラベル、ストレージクラス、暗号化設定など）を更新します。
 
 ![update-bucket-properties](/static/img/update-bucket-properties.png)
 
-(※ 必須の場合)
+(※ 必須項目)
 
 ## **アクティビティ本文内**
 
-* **Bucket** - 更新対象のバケット。
+* **Bucket** - 更新対象のバケットオブジェクト。
 * **Labels** - 更新するラベル。
 * **Storage Class** - 設定するストレージクラス。
-* **Encryption Type** - 設定する暗号化タイプ。
+* **Encryption Type** - 設定する暗号化方式。
 
 ## **プロパティ**
 
@@ -37,16 +38,16 @@ Google Cloud Storage バケットのプロパティを更新します。
 
 * **Enable Versioning: `InArgument<Boolean>`** - バージョニングを有効にするかどうかを指定します。
 
-* **Labels: `InArgument<DataTable>`** - バケットに設定するラベル。
+* **Labels: `InArgument<DataTable>`** - 設定するラベル。
 
 * **Storage Class: `InArgument<String>`** - 設定するストレージクラス。
 
-* **Encryption Type: `InArgument<String>`** - 設定する暗号化タイプ。
+* **Encryption Type: `InArgument<String>`** - 設定する暗号化方式。
 
 **その他**
 
-* **Public (Checkbox)** - アクティビティを公開する場合はチェックしてください。使用前にデータセキュリティ要件を検討してください。
+* **Public (チェックボックス)** - アクティビティを公開する場合にチェックしてください。公開前にデータセキュリティ要件を確認してください。
 
-* **Display Name (String)** - このアクティビティの表示名。コードの整理のために名前を編集できます。
+* **Display Name (String)** - このアクティビティの表示名。コードの整理のために編集できます。
   例: [3424325] Open Window
 

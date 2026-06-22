@@ -39,3 +39,15 @@ A container that enables you to attach to a browser which is already running
 * **Display Name (String)**- The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   **E.g**: [141414124] Start Browser for Attach
 * **Public (Checkbox)**- Check if you want to public it. Remember to consider data security requirement before using it. This tickbox is uncheck by default
+
+## **Step-by-Step Usage**
+
+1. **Add the Start Browser For Attach activity**: Drag the **Start Browser For Attach** activity into the designer.
+2. **Select Browser Type**: In the **Properties** panel, select `Chrome` from the **Browser Type** dropdown list (currently only Chrome is supported).
+3. **Drag trigger action**: Inside the **Click to launch browser** container, place a [Click](/docs/activities/browser/latest/activities/click.md) activity (or other actions) that triggers launching the web browser instance.
+4. **Attach sequence**: Immediately after this activity, add the [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md) activity and indicate this browser session on screen.
+
+## **Troubleshooting**
+
+* **Port conflicts**: If Chrome fails to launch or attach, verify that the remote debugging port (default `9222`) is not blocked or in use by another application.
+* **Chrome not launching**: Verify that you have placed a valid launch trigger activity (like [Click](/docs/activities/browser/latest/activities/click.md)) inside the **Click to launch browser** container.

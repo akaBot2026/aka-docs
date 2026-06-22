@@ -1,0 +1,9 @@
+{
+  "label": "Form",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index"
+  }
+}

@@ -1,4 +1,4 @@
-﻿---
+---
 id: delete-file-folder
 title: "Delete File/Folder"
 sidebar_label: "Delete File/Folder"

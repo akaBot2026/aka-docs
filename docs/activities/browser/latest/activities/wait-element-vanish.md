@@ -18,6 +18,8 @@ The Wait Element Vanishes activity waits for a selected element to disappear fro
 
 (\* For Mandatory)
 
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of the activity**
 
 * **Pick target element**\* - Chooses the field on a browser to select the item. This activity will generate a string variable (Selector) to specify the location of that field.
@@ -60,3 +62,19 @@ The Wait Element Vanishes activity waits for a selected element to disappear fro
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: The **Wait Element Vanishes** activity must be placed inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+2. **Pick the target element**: Click **Pick target element** in the body of the activity, then select the target element you want to wait to disappear (e.g., a loading spinner, overlay, or progress bar). akaBot Studio will automatically generate a **Selector** to identify that element.
+3. **Configure the Timeout (optional)**: In the **Properties** panel under **Common** -> **Timeout MS**, set the maximum wait duration in milliseconds (e.g., `15000` for 15 seconds). The default is `30000` (30 seconds).
+4. **Map the Output (optional)**: Under **Output** -> **Vanished**, create a Boolean variable named `isVanished` (Ctrl+K -> type `isVanished` -> press Enter) to store whether the element disappeared within the timeout.
+5. **Run the workflow**: Execute the process. akaBot will pause execution at this activity until the specified element disappears from the page or the timeout is reached.
+
+## **Troubleshooting**
+
+* **SelectorNotFoundException / Element Not Found**: 
+  * Ensure that the webpage has loaded completely before performing the action. If needed, insert a [Wait Page Load Complete](/docs/activities/browser/latest/activities/wait-page-load-complete.md) activity first.
+  * Verify that the selector is correct. If the target element contains dynamic attributes (such as changing IDs), open the Selector Editor and replace the dynamic parts with wildcard characters (* or ?).
+  * Ensure the target element is visible and not hidden behind overlays or loader animations. Check the **Wait Visible** property.
+* **Extension Not Enabled**: Ensure the akaBot Web Extension is active and has permissions to run on the target website. Without it, Studio cannot highlight or interact with web elements.
