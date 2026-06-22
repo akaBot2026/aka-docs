@@ -32,7 +32,7 @@ Make sure you have:
 Your Shopify Store URL is the primary `.myshopify.com` domain for your store.
 
 1. Access [https://admin.shopify.com/](https://admin.shopify.com/) and log in to your store.
-2. In the left navigation bar, click on **Settings** (**Cài đặt**) at the bottom.
+2. In the left navigation bar, click on **Settings** at the bottom.
 
    ![Shopify Sidebar Settings](/static/img/image_shopify_1.1.png)
 
@@ -54,12 +54,12 @@ Your Shopify Store URL is the primary `.myshopify.com` domain for your store.
    ![Shopify Create App](/static/img/image_shopify_4.jpg)
 
 3. In the left navigation menu of your app, click on **App distribution**.
-   - Under the **Distribution type** section, select **Custom distribution** (**Phân phối tùy chỉnh**).
+   - Under the **Distribution type** section, select **Custom distribution**.
    - Confirm the distribution method by clicking **Choose distribution**.
 
    ![Shopify App Distribution](/static/img/image_shopify_1.2.png)
 
-4. In the left navigation menu, click on **API access requests** (**Yêu cầu truy cập API**).
+4. In the left navigation menu, click on **API access requests**.
 
    ![Shopify Request API Access](/static/img/image_shopify_1.3.png)
 
@@ -84,7 +84,7 @@ Your Shopify Store URL is the primary `.myshopify.com` domain for your store.
 
 ### Step 3: Retrieve API Credentials
 
-1. In the app settings menu on the left, click on **Settings** (**Cài đặt**).
+1. In the app settings menu on the left, click on **Settings**.
 2. Under the **Client credentials** section, find your credentials:
    - **Client ID**: Copy the value from the **Client ID** field.
    - **Client Secret**: Click **Reveal client secret** (eye icon) and copy the value from the **Client secret** field.
