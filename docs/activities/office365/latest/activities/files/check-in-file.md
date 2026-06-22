@@ -1,4 +1,4 @@
-﻿---
+---
 id: check-in-file
 title: "Check In File"
 sidebar_label: "Check In File"

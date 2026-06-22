@@ -18,11 +18,13 @@ The Handle Alert activity allows you to handle alert popup box in various ways.
 
 (\* For Mandatory)
 
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of activity**
 
 * **Handle Option (Dropdown List)**  
   ・ACCEPT - Accepts the alert thereby clicking on the Ok button.  
-  ・DISMISS - Clicks on the “Cancel” or "Exit" button as soon as the pop up window appears.  
+  ・DISMISS - Clicks on the "Cancel" or "Exit" button as soon as the pop up window appears.  
   ・GETTEXT - Gets the text from alert box.  
   ・SENDKEYS – Sends string of text to the alert box.
 
@@ -30,7 +32,7 @@ The Handle Alert activity allows you to handle alert popup box in various ways.
 
 **Common**
 
-* **Continue On Error (Boolean)** - A Boolean variable has two possible values: True or False.  
+* **Continue On Error (Boolean)** - A Boolean variable has two possible values: True or False.  
   True - allows the rest of the process to continue the execution even an error occurs within the activity.  
   False (default) - blocks the process from continuing the execution.
 * **Timeout MS (Int32)**- The maximum amount of time (in milliseconds) to wait for the activity to complete before an error is thrown. If the timeout expires, the activity will be terminated. Default value: 30000 (milliseconds).  
@@ -49,9 +51,26 @@ The Handle Alert activity allows you to handle alert popup box in various ways.
 **Misc**
 
 * **Public (Checkbox)**- If you check it, the data of this activity will be shown in the log. Be careful, consider data security before using it.
-* **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
+* **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: Handle Alert.
 
 **Output**
 
-* **Alert Text (String)**\* - Text returned from the alert box.
+* **Alert Text (String)**\* - Text returned from the alert box.
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: The **Handle Alert** activity must be placed inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+2. **Trigger the alert**: Place a [Click](/docs/activities/browser/latest/activities/click.md) activity before **Handle Alert** to trigger the JavaScript popup on the web page.
+3. **Select Handle Option**: In the body of the activity or in the **Properties** panel, select the desired option from the **Handle Option** dropdown:
+   - `ACCEPT` – Clicks **OK** to confirm and dismiss the alert.
+   - `DISMISS` – Clicks **Cancel** to close the alert without accepting.
+   - `GETTEXT` – Retrieves the text message displayed in the alert box.
+   - `SENDKEYS` – Types a string into the alert input box (for `prompt()` alerts). Enter the text in the **KeysToSend** field.
+4. **Capture alert text (optional)**: If using `GETTEXT`, create a String variable in the **Alert Text** output field (press `Ctrl + K`) to store the returned message.
+5. **Run the workflow**: Execute the process. akaBot will automatically detect and handle the alert popup without it blocking the automation.
+
+## **Troubleshooting**
+
+* **No Alert Found**: If the activity fails with a timeout or alert not found error, verify that the JavaScript alert, confirmation, or prompt has actually appeared on the page. Check the **Timeout MS** property.
+* **Target Element Conflict**: Remember that standard HTML/CSS popup modals are not native browser alerts and cannot be closed using this activity. For HTML modal popups, use standard [Click](/docs/activities/browser/latest/activities/click.md) activities instead.

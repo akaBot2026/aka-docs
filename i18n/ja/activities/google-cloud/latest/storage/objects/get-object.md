@@ -6,22 +6,23 @@ sidebar_position: 3
 description: "Get Object アクティビティのドキュメント。"
 displayed_sidebar: activitiesSidebar
 ---
+
 # オブジェクトの取得
 
 RCA.Activities.GoogleCloud.GCPGetObject
 
 ## **説明**
 
-Google Cloud Storage のオブジェクトを取得します。
+Google Cloud Storage からオブジェクトを取得します。
 
 ![get-object.png](/static/img/get-object.png)
 
-(※ 必須の場合)
+(※ 必須項目)
 
 ## **アクティビティ本文内**
 
 * **Bucket** - オブジェクトを含むバケット。
-* **Object Name** - 取得するオブジェクトの名前。
+* **Object Name** - 取得するオブジェクト名。
 
 ## **プロパティ**
 
@@ -31,13 +32,13 @@ Google Cloud Storage のオブジェクトを取得します。
 
 * **Object Name: `InArgument<String>`*** - オブジェクト名。
 
-* **Generation: `InArgument<Int64>`** - 取得するオブジェクトの世代（generation）。
+* **Generation: `InArgument<Int64>`** - 取得対象の generation（世代）を指定できます。
 
 **その他**
 
-* **Public (Checkbox)** - アクティビティを公開する場合はチェックしてください。使用前にデータセキュリティ要件を検討してください。
+* **Public (チェックボックス)** - アクティビティを公開する場合にチェックしてください。公開前にデータセキュリティ要件を確認してください。
 
-* **Display Name (String)** - このアクティビティの表示名。コードの整理のために名前を編集できます。
+* **Display Name (String)** - このアクティビティの表示名。管理しやすい名前に変更できます。
   例: [3424325] Open Window
 
 **出力**

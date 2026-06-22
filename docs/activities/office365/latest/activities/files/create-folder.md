@@ -1,4 +1,4 @@
-﻿---
+---
 id: create-folder
 title: "Create Folder"
 sidebar_label: "Create Folder"
