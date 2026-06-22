@@ -1,4 +1,4 @@
-﻿---
+---
 id: extract-data
 title: "Extract Data"
 sidebar_label: "Extract Data"

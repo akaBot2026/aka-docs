@@ -1,4 +1,4 @@
-﻿---
+---
 id: click
 title: "Click"
 sidebar_label: "Click"
