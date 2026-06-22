@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-web-attribute
 title: "Get Web Attribute"
 sidebar_label: "Get Web Attribute"

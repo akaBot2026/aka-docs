@@ -1,7 +1,7 @@
 ---
 id: tabs-alerts-management
 title: "JavaScript Alert Handling"
-sidebar_label: "2. JavaScript Alert Handling"
+sidebar_label: "JavaScript Alert Handling"
 sidebar_position: 2
 description: "A hands-on guide demonstrating how to handle JavaScript popups/alerts on a real test website using akaBot Browser activities."
 displayed_sidebar: activitiesSidebar

@@ -1,4 +1,4 @@
-﻿---
+---
 id: handle-alert
 title: "Handle Alert"
 sidebar_label: "Handle Alert"

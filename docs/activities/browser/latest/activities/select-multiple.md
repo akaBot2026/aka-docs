@@ -1,4 +1,4 @@
-﻿---
+---
 id: select-multiple
 title: "Select Multiple Items"
 sidebar_label: "Select Multiple Items"

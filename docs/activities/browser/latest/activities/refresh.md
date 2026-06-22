@@ -1,4 +1,4 @@
-﻿---
+---
 id: refresh
 title: "Refresh"
 sidebar_label: "Refresh"
