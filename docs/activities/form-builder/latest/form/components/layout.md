@@ -26,6 +26,7 @@ You can use the **HTML Element** component to render a custom HTML tag directly 
 * **CSS Class** - Add custom CSS classes for custom styling.
 
 ![html-element.png](/static/img/html-element.png)
+
 ---
 
 ## Content
@@ -38,6 +39,7 @@ You can use the **Content** component to display rich text, formatted text, or m
 * **Refresh On Change** - When checked, re-renders the component content dynamically when another component's value changes.
 
 ![content.png](/static/img/content.png)
+
 ---
 
 ## Columns
@@ -49,6 +51,7 @@ You can use the **Columns** component to arrange form components horizontally in
 * **Column Width** - Configures the size of each column based on a 12-column grid layout (e.g. 6 and 6 for two equal-width columns).
 
 ![columns.png](/static/img/columns.png)
+
 ---
 
 ## Panel
@@ -61,6 +64,7 @@ You can use the **Panel** component to group related components inside a box con
 * **Theme** - Choose the styling theme color for the panel (e.g. Primary, Success, Warning, Danger, Info).
 
 ![panel-component.png](/static/img/panel-component.png)
+
 ---
 
 ## Table
@@ -74,6 +78,7 @@ You can use the **Table** component to create a grid layout (rows and columns) t
 * **Clone Row Components** - When checked, duplicates the components of a row to other rows.
 
 ![table.png](/static/img/table.png)
+
 ---
 
 ## Tabs

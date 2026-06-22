@@ -1,4 +1,4 @@
-﻿---
+---
 id: check-out-file
 title: "Check Out File"
 sidebar_label: "Check Out File"

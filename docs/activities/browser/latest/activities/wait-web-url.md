@@ -1,5 +1,5 @@
----
-id: wait-web-url
+﻿---
+id: wait-page-url
 title: "Wait Page Url"
 sidebar_label: "Wait Page Url"
 sidebar_position: 31
@@ -17,6 +17,8 @@ The Wait Page URL verifies if the page URL has the requirement format according 
 ![image-20220505142016-2.png](/static/img/613d9d_image-20220505142016-2.png)
 
 (\* for Mandatory)
+
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
 
 ## **In the body of the activity**
 
@@ -58,3 +60,19 @@ The Wait Page URL verifies if the page URL has the requirement format according 
 * **Result (Boolean)** - A Boolean variable has two possible values: True or False.  
   **・True**- The page URL meet the requirement  
   **・False**- The page URL does not meet the requirement.
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: The **Wait Page Url** activity must be placed inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+2. **Choose Comparison Operator**: In the body or **Properties** panel under **Input**, select the comparison rule from the dropdown:
+   * `EQUALS`: The URL must match the target value exactly.
+   * `CONTAINS`: The URL must contain the target value.
+   * `MATCHES`: The URL must match a regex expression.
+3. **Specify the Url Value**: In the **Url Value** field, enter the expected URL string or regex pattern in quotes (e.g., `"https://google.com"` or `"/dashboard"`).
+4. **Map the Output (optional)**: Under **Output** -> **Result**, create a Boolean variable named `isMatched` (Ctrl+K -> type `isMatched` -> press Enter) to store the verification result.
+5. **Run the workflow**: Execute the process. akaBot will pause execution until the webpage URL meets the comparison rule (or the timeout is reached).
+
+## **Troubleshooting**
+
+* **Invalid Browser Session**: If the activity throws an error or fails to execute, ensure that it is running inside an active [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) or [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md) container, and that the browser tab has not been closed.
+* **WebDriver Communication Failure**: If the browser driver (e.g. ChromeDriver) has crashed or disconnected, restart your browser session and check if the driver version matches your browser (see the [Environment Setup Guide](/docs/activities/browser/latest/setup-browser-environment.md)).
