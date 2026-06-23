@@ -58,6 +58,13 @@ displayed_sidebar: studioSidebar
 * Word 3.2.1.0
 
 ---
+## v2.2.0.13
+
+* Added: support bypass SecureLockLostModeText screen for AutoLogonTool
+* Added: logging browser and app version at startup for NativeHost
+* Added: logging app version at startup for AutoLogonTool
+
+---
 ## v2.2.0.12
 
 * Added: CRX files for Chrome and Edge extension v3.0.5
