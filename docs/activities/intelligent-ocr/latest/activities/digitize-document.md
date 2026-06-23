@@ -2,7 +2,7 @@
 id: digitize-document
 title: "Digitize Document"
 sidebar_label: "Digitize Document"
-sidebar_position: 12
+sidebar_position: 1
 description: "Digitize Document activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

@@ -2,7 +2,7 @@
 id: export-extraction-results
 title: "Export Extraction Results"
 sidebar_label: "Export Extraction Results"
-sidebar_position: 14
+sidebar_position: 3
 description: "Export Extraction Results activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

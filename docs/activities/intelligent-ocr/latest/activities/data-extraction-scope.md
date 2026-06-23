@@ -2,7 +2,7 @@
 id: data-extraction-scope
 title: "Data Extraction Scope"
 sidebar_label: "Data Extraction Scope"
-sidebar_position: 13
+sidebar_position: 2
 description: "Learn how to use the Data Extraction Scope activity in akaBot Studio to coordinate and configure document extractors."
 displayed_sidebar: activitiesSidebar
 ---

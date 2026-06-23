@@ -2,7 +2,7 @@
 id: form-extractor
 title: "Form Extractor"
 sidebar_label: "Form Extractor"
-sidebar_position: 15
+sidebar_position: 1
 description: "Form Extractor activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

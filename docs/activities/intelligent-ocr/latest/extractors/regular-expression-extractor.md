@@ -2,7 +2,7 @@
 id: regular-expression-extractor
 title: "Regular Expression Extractor"
 sidebar_label: "Regular Expression Extractor"
-sidebar_position: 16
+sidebar_position: 2
 description: "Regular Expression Extractor activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
