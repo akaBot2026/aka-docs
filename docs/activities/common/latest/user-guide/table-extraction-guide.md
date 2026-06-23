@@ -7,7 +7,7 @@ description: "This document describes the complete workflow for using the Table 
 displayed_sidebar: activitiesSidebar
 ---
 
-# Table Extraction — Usage Guide (Akabot Studio)
+# Getting Started with Table Extraction
 
 > This document describes the complete workflow for using the **Table Extraction** activity: opening the wizard, indicating the table, configuring columns, setting up pagination, and configuring advanced parameters in the Properties panel.
 
@@ -27,10 +27,8 @@ Key capabilities:
 
 ## 2. Add the Activity to a Workflow
 
-1. Open **Akabot Studio**.
-2. In the **Toolbox**, search for `Table Extraction`.
-3. Drag and drop the activity into a sequence or flowchart.
-4. The activity appears with a **"Open Table Extraction"** button (click to open the wizard).
+To add the activity, follow this workflow:
+**akaBot Studio** > **Toolbox** (Search: `Table Extraction`) > **Drag & Drop** into workflow > Click **Open Table Extraction**.
 
 ![table-extraction.png](/static/img/table-extract-activity.png)
 
@@ -90,7 +88,7 @@ After a successful Indicate, the wizard displays a **list of detected columns** 
 - **Uncheck** a column's checkbox → the column is **Unselected** from the output DataTable
 - **Check** to keep the column.
 
-### 5.2. Configure DataType — Click the Settings Icon (⚙) button for Each Column
+### 5.2. Configure DataType
 
 Click the **Settings (⚙)** icon next to a column to open the detailed configuration panel:
 
@@ -108,15 +106,6 @@ Click the **Settings (⚙)** icon next to a column to open the detailed configur
 | `Allow Null`          | `false` | If enabled, values that fail to parse are stored as `null`.   |
 | `Default Value`       | `""`    | Fallback value when parsing fails (if Allow Null is off).     |
 
-**Parse failure behavior:**
-
-| Allow Null | Default Value | Result              |
-| ---------- | ------------- | ------------------- |
-| false      | _(empty)_     | Throws an exception |
-| false      | `0`           | Uses `0`            |
-| true       | `null`        | Stores `DBNull`     |
-| true       | `0`           | Uses `0`            |
-
 #### DataType = **Boolean**
 
 | Parameter       | Default          | Description                                             |
@@ -125,6 +114,15 @@ Click the **Settings (⚙)** icon next to a column to open the detailed configur
 | `False Values`  | `false,no,0`     | Comma-separated list of values to interpret as `false`. |
 | `Allow Null`    | `false`          | Allow null when the value does not match any entry.     |
 | `Default Value` | `""`             | Fallback value when parsing fails.                      |
+
+**Parse failure behavior:**
+
+| Allow Null | Default Value | Result              |
+| ---------- | ------------- | ------------------- |
+| false      | _(empty)_     | Throws an exception |
+| false      | `0`           | Uses `0`            |
+| true       | `null`        | Stores `DBNull`     |
+| true       | `0`           | Uses `0`            |
 
 > [!TIP]
 > Click the **"Preview"** button in the wizard to view all extracted data as a table before confirming.
@@ -149,7 +147,7 @@ Click **"Indicate Next Link"** in the wizard.
 
 Each selector type has a checkbox to **enable/disable** it and an **Accuracy slider** (0.0 → 1.0, default `0.5`).
 
-### 6.3. Pagination Stop Conditions
+### 6.2. Pagination Stop Conditions
 
 The activity automatically stops paginating when any of the following conditions is met:
 
@@ -164,8 +162,8 @@ The activity automatically stops paginating when any of the following conditions
 
 Once configuration is complete:
 
-- **Confirm** (`✓`): Saves all settings (selectors, column settings, extract metadata) back into the activity. The wizard closes.
-- **Cancel** (`✗`): Discards all changes and exits the wizard. Existing configuration is unaffected.
+- **Confirm**: Saves all settings (selectors, column settings, extract metadata) back into the activity. The wizard closes.
+- **Cancel**: Discards all changes and exits the wizard. Existing configuration is unaffected.
 
 > [!WARNING]
 > Clicking **Cancel** will **discard all changes** made since the wizard was opened. Always click **Confirm** to save.
@@ -201,7 +199,7 @@ After closing the wizard, open the activity's **Properties** panel to configure 
 | ---------------------- | ----------- | ------------------------------------------------------------------------------------------------------------ |
 | `DestinationDataTable` | `DataTable` | The DataTable to receive results. If a pre-existing DataTable is passed in, new rows are **merged** into it. |
 
-### 8.4. Internal (Auto-Generated — Do Not Edit Manually)
+### 8.4. Input — Auto-Generated
 
 | Property          | Description                                                                                                                |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------- |
@@ -243,7 +241,17 @@ After closing the wizard, open the activity's **Properties** panel to configure 
 
 #### Problem
 
-When a table's structure changes between **when the activity was configured (design time)** and **when the automation actually runs (runtime)**, a mismatch can occur.
+The Table Extraction activity relies on the underlying XML metadata generated during the initial setup. If the target application alters its layout—such as reordering, renaming, or inserting new columns—the pre-configured selectors and metadata will no longer align with the live DOM structure. 
+
+Simply put, a mismatch occurs when the table structure changes between **when the activity was configured (design time)** and **when the automation actually runs (runtime)**.
+
+**Expected Structure (Design Time):**
+![table-extract-design-time.png](/static/img/table-extract-design-time.png)
+
+**Actual Structure (Runtime):**
+![table-extraction-runtime.png](/static/img/table-extraction-runtime.png)
+
+This discrepancy breaks the extraction mapping, leading to incomplete DataTables or runtime exceptions.
 
 #### Fix — Clear the Column Definitions from `TableSettings`
 
