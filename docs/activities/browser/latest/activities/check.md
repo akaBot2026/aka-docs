@@ -1,4 +1,4 @@
-﻿---
+---
 id: check
 title: "Check/Uncheck"
 sidebar_label: "Check/Uncheck"
