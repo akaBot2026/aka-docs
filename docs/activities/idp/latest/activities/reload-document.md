@@ -12,7 +12,7 @@ RCA.Activities.IDP.ReloadDocument
 
 ## **Description**
 
-This activity allows you to reload (retry) processing for an invalid or failed document on the akaBot Vision platform, generating a new document key for the reprocessing run.
+This activity allows you to reload (retry) processing for an invalid or failed document on the akaBot IDP platform, generating a new document key for the reprocessing run.
 
 ![reload-document](/static/img/reload-document.png)
 
@@ -58,12 +58,12 @@ This activity allows you to reload (retry) processing for an invalid or failed d
    * In the **Properties** panel under **Output**, click the **New Document Key** field, press **Ctrl + K**, and create a String variable named `newDocKey` to store the new unique document key generated for the reprocessed document.
 
 5. **Run the workflow**:
-   * Execute the process. akaBot will instruct akaBot Vision to reprocess the document, and return the new document key to `newDocKey`.
+   * Execute the process. akaBot will instruct akaBot IDP to reprocess the document, and return the new document key to `newDocKey`.
 
 ## **Troubleshooting**
 
 * **Document Key Not Found**:
-  * Verify that the document key provided exists on the akaBot Vision server and belongs to the connected account.
+  * Verify that the document key provided exists on the akaBot IDP server and belongs to the connected account.
 * **Reprocessing Not Allowed (Status Conflict)**:
   * Documents that have already successfully completed (`Completed` or `Exported`) cannot be reloaded. Verify the status of the document using `Get Document Status` before attempting to reload. This activity is typically used only for documents that have failed processing or are marked invalid.
 * **Invalid API Key or Server Endpoint**:

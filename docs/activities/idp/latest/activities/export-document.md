@@ -12,7 +12,7 @@ RCA.Activities.IDP.ExportDocument
 
 ## **Description**
 
-This activity allows you to export digitized and extracted data of a processed document (which has been confirmed or exported on akaBot Vision) into standard formats such as DataTable, JSON, or XML.
+This activity allows you to export digitized and extracted data of a processed document (which has been confirmed or exported on akaBot IDP) into standard formats such as DataTable, JSON, or XML.
 
 ![export-document](/static/img/export-document.png)
 
@@ -66,7 +66,7 @@ This activity allows you to export digitized and extracted data of a processed d
    * In the **Properties** panel under **Output**, click the **Extracted Data** field, press **Ctrl + K**, and create a DataTable variable named `dtExtractedData` to store the extracted data.
 
 6. **Run the workflow**:
-   * Execute the process. akaBot will fetch the processed data of the imported document from the akaBot Vision server and save it in the `dtExtractedData` variable.
+   * Execute the process. akaBot will fetch the processed data of the imported document from the akaBot IDP server and save it in the `dtExtractedData` variable.
 
 ## **Troubleshooting**
 

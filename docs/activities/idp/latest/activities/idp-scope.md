@@ -12,7 +12,7 @@ RCA.Activities.IDP.IDPScope
 
 ## **Description**
 
-IDP Scope activity provides a space for all other IDP activities to interact with a specific akaBot Vision account that is indicated in the Input of this activity. No IDP Activities works outside of IDP Scope.
+IDP Scope activity provides a space for all other IDP activities to interact with a specific akaBot IDP account that is indicated in the Input of this activity. No IDP Activities works outside of IDP Scope.
 
 ![idp-scope](/static/img/idp-scope.png)
 
@@ -26,8 +26,8 @@ IDP Scope activity provides a space for all other IDP activities to interact wit
 
 **Input**
 
-* **Api Key (String)**\* - API Key of specific akaBot Vision account.
-* **Server Endpoint (String)**\* - URL of akaBot Vision.
+* **Api Key (String)**\* - API Key of specific akaBot IDP account.
+* **Server Endpoint (String)**\* - URL of the akaBot IDP server.
 
 **Misc**
 
@@ -42,8 +42,8 @@ To build an Intelligent Document Processing flow in akaBot Studio using the **ID
 1. **Add IDP Scope Container**:
    * Drag and drop an **IDP Scope** activity from the **Toolbox** (under **IDP**) into your workflow designer panel (inside a **Sequence**).
    * In the **Properties** panel under **Input**:
-     * **Api Key**: Enter your akaBot Vision API Key enclosed in quotation marks (e.g., `"akabot-test-api-key"`).
-     * **Server Endpoint**: Enter the URL of your akaBot Vision server in quotation marks (e.g., `"https://idp-stage.akabot.com"`).
+     * **Api Key**: Enter your akaBot IDP API Key enclosed in quotation marks (e.g., `"akabot-test-api-key"`).
+     * **Server Endpoint**: Enter the URL of your akaBot IDP server in quotation marks (e.g., `"https://idp-stage.akabot.com"`).
 
 2. **Add Import Document**:
    * Drag and drop an [Import Document](/docs/activities/idp/latest/activities/import-document.md) activity inside the **Do** block of the **IDP Scope** container.
@@ -52,21 +52,15 @@ To build an Intelligent Document Processing flow in akaBot Studio using the **ID
      * **Pipeline Key**: Enter your target pipeline key in quotation marks (e.g., `"pipeline-invoice-v2"`).
      * **Document Key** (under **Output**): Press **Ctrl + K** to create a String variable named `docKey` to store the generated document key.
 
-3. **Check Processing Status (Optional but recommended)**:
-   * To check if the document is successfully processed before exporting:
-     * Drag and drop a [Get Document Status](/docs/activities/idp/latest/activities/get-document-status.md) activity below the **Import Document** activity (still inside the **IDP Scope**).
-     * Set **Document Key** to `docKey`.
-     * In the **Output** -> **Status** field, create a variable to store the processing status.
-
-4. **Add Export Document**:
-   * Drag and drop an [Export Document](/docs/activities/idp/latest/activities/export-document.md) activity below the status check.
+3. **Add Export Document**:
+   * Drag and drop an [Export Document](/docs/activities/idp/latest/activities/export-document.md) activity directly below the **Import Document** activity.
    * Configure its properties:
      * **Document Key**: Enter the variable `docKey` (from Step 2).
      * **Extract Type**: Choose your desired format (e.g., `DataTable`, `JsonString`, or `XMLString`).
      * **Extracted Data** (under **Output**): Create a variable to receive the results (e.g., a DataTable variable named `dtExtractedData`).
 
-5. **Run the workflow**:
-   * Execute the workflow. akaBot will authenticate via **IDP Scope**, import the specified document, wait/check the status, extract the digitized data, and export it into your variable for downstream automation.
+4. **Run the workflow**:
+   * Execute the workflow. akaBot will authenticate via **IDP Scope**, import the specified document, extract the digitized data, and export it into your variable for downstream automation.
 
 ## **Troubleshooting**
 
@@ -75,7 +69,7 @@ To build an Intelligent Document Processing flow in akaBot Studio using the **ID
   * Ensure the key is enclosed in quotation marks.
 * **Server Endpoint Connection Failed**:
   * Double-check the **Server Endpoint** URL for typos, ensuring it contains the correct protocol (`http://` or `https://`).
-  * Verify your internet connection and ensure that proxies or local firewalls are not blocking requests to the akaBot Vision server.
+  * Verify your internet connection and ensure that proxies or local firewalls are not blocking requests to the akaBot IDP server.
 * **Activities Running Outside of Scope**:
   * Ensure that all other IDP activities (such as *Import Document*, *Export Document*, *Get Document Status*, etc.) are strictly placed inside the **Do** container of the **IDP Scope**. Placing them outside will cause runtime errors.
 * **Document Status Failure**:

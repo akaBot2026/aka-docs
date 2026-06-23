@@ -12,7 +12,7 @@ RCA.Activities.IDP.GetDocuments
 
 ## **Description**
 
-This activity allows you to retrieve a list of documents from a specified pipeline on the akaBot Vision server based on their processing status and sorting criteria.
+This activity allows you to retrieve a list of documents from a specified pipeline on the akaBot IDP server based on their processing status and sorting criteria.
 
 ![get-document](/static/img/get-document.png)
 
@@ -31,7 +31,7 @@ This activity allows you to retrieve a list of documents from a specified pipeli
 
 **Input**
 
-* **Pipeline Key (String)**\* - The Pipeline key of the specific pipeline from which you want to retrieve documents. You can obtain this key from the pipeline settings on akaBot Vision. E.g: `"invoice_pipeline"`
+* **Pipeline Key (String)**\* - The Pipeline key of the specific pipeline from which you want to retrieve documents. You can obtain this key from the pipeline settings on akaBot IDP. E.g: `"invoice_pipeline"`
 * **Status (Dropdown)** - Specifies the status of the documents you want to retrieve. By default, `CONFIRMED` is selected. Options include:
   * `TOREVIEW`
   * `IMPORTING`
