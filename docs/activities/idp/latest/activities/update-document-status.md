@@ -12,7 +12,7 @@ RCA.Activities.IDP.UpdateDocumentStatus
 
 ## **Description**
 
-This activity allows you to update the status of one or more documents on the akaBot Vision platform.
+This activity allows you to update the status of one or more documents on the akaBot IDP platform.
 
 ![update-document](/static/img/update-document.png)
 
@@ -67,7 +67,7 @@ This activity allows you to update the status of one or more documents on the ak
    * **Update To Status**: Select the target status from the dropdown list (e.g. select `CONFIRMED` after successfully processing and entering document data into an ERP system).
 
 4. **Run the workflow**:
-   * Execute the process. akaBot will update the specified documents on the akaBot Vision server to the selected status.
+   * Execute the process. akaBot will update the specified documents on the akaBot IDP server to the selected status.
 
 ## **Troubleshooting**
 
@@ -75,6 +75,6 @@ This activity allows you to update the status of one or more documents on the ak
   * The **Document Keys** field requires a string array (`String[]`). If you enter a raw string (e.g., `"DOC_001"`), Studio will display a validation error. You must wrap the string(s) in curly braces, e.g., `{"DOC_001"}`.
   * To quickly clear the validation warning during testing, you can input `{"test"}`.
 * **Document Key Not Found**:
-  * Verify that the document keys provided in the array exist on the akaBot Vision server and belong to the connected pipeline/account.
+  * Verify that the document keys provided in the array exist on the akaBot IDP server and belong to the connected pipeline/account.
 * **Invalid API Key or Server Endpoint**:
   * Ensure the parent **IDP Scope** activity is correctly configured and has established a successful connection.

@@ -12,7 +12,7 @@ RCA.Activities.IDP.ImportDocument
 
 ## **Description**
 
-This activity allows you to upload and import a document file into a specified processing pipeline on the akaBot Vision platform.
+This activity allows you to upload and import a document file into a specified processing pipeline on the akaBot IDP platform.
 
 ![import-document](/static/img/import-document.png)
 
@@ -36,7 +36,7 @@ This activity allows you to upload and import a document file into a specified p
 **Input**
 
 * **File path (String)**\* - The path of the file you want to import. E.g: `"C:\Users\Admin\Documents\Invoice_01.pdf"`
-* **Pipeline Key (String)**\* - The unique Pipeline Key of the specific processing pipeline where the file is imported. You can obtain this key from the pipeline settings on akaBot Vision. E.g: `"invoice_pipeline"`
+* **Pipeline Key (String)**\* - The unique Pipeline Key of the specific processing pipeline where the file is imported. You can obtain this key from the pipeline settings on akaBot IDP. E.g: `"invoice_pipeline"`
 
 **Misc**
 
@@ -59,13 +59,13 @@ This activity allows you to upload and import a document file into a specified p
 3. **Configure properties**:
    * Select the activity, and in the **Properties** panel under **Input**:
      * **File path**: Enter the path of the file you want to digitize in quotation marks (e.g., `"C:\Users\Admin\Documents\Invoice_01.pdf"`).
-     * **Pipeline Key**: Enter your target akaBot Vision pipeline key in quotation marks (e.g., `"invoice_pipeline"`).
+     * **Pipeline Key**: Enter your target akaBot IDP pipeline key in quotation marks (e.g., `"invoice_pipeline"`).
 
 4. **Map Output Document Key**:
    * In the **Properties** panel under **Output**, click the **Document Key** field, press **Ctrl + K**, and create a String variable named `docKey` to store the unique identifier of the imported document.
 
 5. **Run the workflow**:
-   * Execute the process. akaBot will upload the specified file to the akaBot Vision server under the designated pipeline, start the document processing, and return the unique document key to `docKey`.
+   * Execute the process. akaBot will upload the specified file to the akaBot IDP server under the designated pipeline, start the document processing, and return the unique document key to `docKey`.
 
 ## **Troubleshooting**
 
@@ -73,7 +73,7 @@ This activity allows you to upload and import a document file into a specified p
   * Verify that the path to the document is correct and accessible from the machine running the robot.
   * If using a relative path, ensure it resolves correctly relative to the project directory.
 * **PipelineNotFoundException / Invalid Pipeline Key**:
-  * Double-check the **Pipeline Key** value. Ensure it matches exactly with the pipeline key defined in your akaBot Vision platform settings.
+  * Double-check the **Pipeline Key** value. Ensure it matches exactly with the pipeline key defined in your akaBot IDP platform settings.
 * **Connection Timeout / Network Errors**:
   * Since this activity uploads files to the server, ensure that the internet connection is active and stable, and that the file size does not exceed the server's upload limit.
   * Check the **Timeout MS** property. For large documents (e.g., many-page PDFs), you might need to increase the timeout value.

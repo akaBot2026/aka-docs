@@ -12,7 +12,7 @@ displayed_sidebar: activitiesSidebar
 
 **Added / Improved**
 
-* Upgraded package structure and added support for newer akaBot Vision platform API endpoints.
+* Upgraded package structure and added support for newer akaBot IDP platform API endpoints.
 * Re-architected the **IDP Scope** container to support secure token management and connection pooling.
 * Added support for multiple export formats (`DataTable`, `JsonString`, `XMLString`) in the **Export Document** activity.
 * Optimized error handling and timeout behavior during large PDF document uploads in the **Import Document** activity.
@@ -34,7 +34,7 @@ displayed_sidebar: activitiesSidebar
 **Added**
 
 * Initial release of the akaBot IDP activities package.
-* Core container activity **IDP Scope** to establish authorized connections with the akaBot Vision server.
+* Core container activity **IDP Scope** to establish authorized connections with the akaBot IDP server.
 * Core document processing activities:
   * **Import Document**
   * **Export Document**
