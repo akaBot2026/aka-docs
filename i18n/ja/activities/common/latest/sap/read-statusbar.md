@@ -14,7 +14,7 @@ RCA.Activities.Common.ReadStatusbar
 
 SAP GUI ウィンドウの下部に表示されるステータスバーのメッセージを読み取ります。
 
-![image-read-statusbar.png](/static/img/read_statusbar.png)
+![read-statusbar.png](/static/img/read-statusbar.png)
 
 （\*は必須）
 

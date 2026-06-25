@@ -14,7 +14,7 @@ RCA.Activities.Common.SelectMenuItem
 
 メイン SAP GUI ウィンドウからメニュー項目を選択します。画面上でウィンドウを指定すると、利用可能なすべてのメニュー項目を含むリストがアクティビティ内に表示されます。
 
-![image-select-menu-item.png](/static/img/select_menu_item.png)
+![select-menu-item.png](/static/img/select-menu-item.png)
 
 （\*は必須）
 
