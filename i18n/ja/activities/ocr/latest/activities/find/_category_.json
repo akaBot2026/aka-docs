@@ -1,8 +1,8 @@
 {
-  "label": "User Guide",
-  "position": 7,
+  "label": "検索",
+  "position": 5,
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "generated-index"
   }

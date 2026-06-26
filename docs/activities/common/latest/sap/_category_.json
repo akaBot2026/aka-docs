@@ -1,8 +1,8 @@
 {
-  "label": "User Guide",
-  "position": 7,
+  "label": "SAP",
+  "position": 6,
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "generated-index"
   }
