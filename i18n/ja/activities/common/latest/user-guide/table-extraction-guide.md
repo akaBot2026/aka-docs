@@ -1,7 +1,7 @@
 ---
 id: table-extraction-guide
-title: "テーブル抽出 — 使用ガイド"
-sidebar_label: "テーブル抽出 — 使用ガイド"
+title: "テーブル抽出"
+sidebar_label: "テーブル抽出"
 sidebar_position: 1
 description: "テーブル抽出アクティビティの使用に関する完全なワークフローを説明するドキュメントです"
 displayed_sidebar: activitiesSidebar

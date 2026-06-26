@@ -54,6 +54,27 @@ displayed_sidebar: studioSidebar
 * PCOMM 3.1.0.0
 * Python 3.1.0.5
 * Word 3.2.1.0
+
+---
+## v2.2.0.13
+
+* 追加: AutoLogonTool の SecureLockLostModeText 画面をバイパスする機能を追加
+* 追加: NativeHost の起動時にブラウザとアプリのバージョンをログに記録する機能を追加
+* 追加: AutoLogonTool の起動時にアプリのバージョンをログに記録する機能を追加
+
+---
+## v2.2.0.12
+
+* 追加: Chrome および Edge 拡張機能 v3.0.5 用の CRX ファイルを追加
+* 追加: Common v3.3.0 および v4.6.0 パッケージを追加
+* 追加: Chrome/Edge 開発者ツールを有効化/無効化し、拡張機能ポリシーモードを実行できるようにするレジストリスクリプトを追加
+* 追加: [NativeHost] 親プロセスが終了したかどうかをより安全なメカニズムで監視するウォッチドッグを追加
+* 更新: [NamedPipeWrapper] NamedPipeClient および NamedPipeConnection のエラー処理と接続管理を改善
+* 更新: [Studio] Common パッケージのデフォルトバージョンを 3.3.0 に変更
+* 修正: [NativeHost] ワーカー スレッドで標準出力経由でメッセージを送信する問題を修正ブラウザのシャットダウン時に拡張機能のスレッドが永久にハングアップしないように修正しました。
+* 修正: [NamedPipeWrapper.dll] 名前付きパイプサーバーで、破棄中に接続を追加できないように修正しました。
+* 修正: [Agent] log4net のログ形式を修正しました。
+
 ---
 ## v2.2.0.11
 

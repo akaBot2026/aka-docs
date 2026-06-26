@@ -1,7 +1,7 @@
 ---
 id: table-extraction-guide
-title: "Table Extraction — Usage Guide"
-sidebar_label: "Table Extraction — Usage Guide"
+title: "Table Extraction"
+sidebar_label: "Table Extraction"
 sidebar_position: 1
 description: "This document describes the complete workflow for using the Table Extraction activity"
 displayed_sidebar: activitiesSidebar
