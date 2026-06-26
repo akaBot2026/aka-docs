@@ -45,8 +45,7 @@ This section guides you through creating a process to search for `"akaBot"` on G
    * Click on the Google Search input bar on the browser.
    * In the **Properties** panel under **Input**, set the **Text** field to `"akaBot"`.
 
-   > [!NOTE]
-   > When performing automated actions too quickly on search engines like Google, the system may trigger bot verification screens (CAPTCHA). To prevent this and mimic natural user behavior, you can drag a **Delay** activity (from the Core toolbox section) immediately below the **Type Into** activity. In the **Properties** panel under **Duration**, set an appropriate pause (e.g., `00:00:02` for 2 seconds) to delay the execution before the next action.
+   **NOTE**: When performing automated actions too quickly on search engines like Google, the system may trigger bot verification screens (CAPTCHA). To prevent this and mimic natural user behavior, you can drag a **Delay** activity (from the Core toolbox section) immediately below the **Type Into** activity. In the **Properties** panel under **Duration**, set an appropriate pause (e.g., `00:00:02` for 2 seconds) to delay the execution before the next action.
 
 5. Drag a [Send Hot Keys](/docs/activities/browser/latest/activities/send-hot-keys.md) activity below the **Delay** activity (or **Type Into** activity).
    * Click **Pick target element** and select the Google Search input bar again.
