@@ -94,7 +94,6 @@ Example: If one support staff member moves to the Billing team, remove them from
 
 ## Delete a team
 
-![Delete team confirmation dialog](/static/img/delete-team-1.png)
 
 1. In the team row, click the **Delete** icon.
 2. Confirm the action in the dialog.

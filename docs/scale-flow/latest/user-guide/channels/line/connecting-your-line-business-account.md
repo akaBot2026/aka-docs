@@ -84,7 +84,7 @@ This step is done on LINE's website, not inside ScaleFlow.
 ---
 
 ## Step 3: Enable Messaging API and Copy the Channel Secret
-
+currently used for customer communication.
 Still in **LINE Official Account Manager**:
 
 1. Open the Official Account you selected in step 2.

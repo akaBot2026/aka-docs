@@ -167,19 +167,39 @@ Note: some contacts cannot be deleted yet if they already have conversations.
 
 ## Manage tags (Labels, Lists, Lead/Lifecycle tags)
 
-Go to **Contacts** -> **Tags** to:
+Tag management now lives in **Settings**, not in the Contacts tab.
+
+### Open tag management
+
+1. Go to **Settings**.
+2. In **Tags**, open one specific tag type page:
+   - **Labels**
+   - **Lists**
+   - **Lead stages**
+   - **Lead sources**
+   - **Lifecycle stages**
+   - **Ticket types**
+
+Note: the old URL **Contacts -> Tags** is now a legacy path and redirects to **Settings -> Labels**.
+
+### What you can do on each tag type page
 
 ![Tags management with type filter](/static/img/list-tags-contact.png)
 
-- Search tags
-- Filter by tag type
-- Create new tags
+- Search tags in the current type page
+- Create a new tag for that type
+- Edit existing tag **display name** and **color**
+- Delete tags
+- Reorder tags by drag-and-drop (saved as display order)
 
 ![Create new tag dialog](/static/img/create-tag.png)
 
-- Edit tag name/color
-- Delete tags
-- Reorder tags by drag-and-drop
+Important behavior in the current implementation:
+
+- Each page is already scoped to one tag type (there is no type filter inside the page).
+- New tags auto-generate an internal `name` from display name; edit flow updates display name/color.
+- Reorder updates run only for items whose order actually changed.
+- Create/edit/delete/reorder actions require contact management permission.
 
 ## How Contacts connect to other features
 
