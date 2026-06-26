@@ -1,12 +1,7 @@
 ---
 id: model-usage
-<<<<<<< HEAD
-title: Model
-sidebar_label: Model
-=======
 title: Model Usage
 sidebar_label: Model Usage
->>>>>>> b7cfed2a023c047bc268178815b347b5c5802734
 sidebar_position: 3
 description: Beginner-friendly guide to understand and manage AI models for ScaleFlow.
 displayed_sidebar: scaleFlowSidebar

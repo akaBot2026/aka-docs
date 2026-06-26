@@ -1,10 +1,6 @@
 ---
 id: flow-usage
-<<<<<<< HEAD
-title: Flows 
-=======
 title: Flow Usage
->>>>>>> b7cfed2a023c047bc268178815b347b5c5802734
 sidebar_label: Flows
 sidebar_position: 4
 description: Step-by-step guide to create, test, publish, and deploy Flows in ScaleFlow.

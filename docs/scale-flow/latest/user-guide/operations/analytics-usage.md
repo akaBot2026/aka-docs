@@ -1,12 +1,7 @@
 ---
 id: analytics-usage
-<<<<<<< HEAD
-title: Analytics
-sidebar_label: Analytics
-=======
 title: Analytics Usage
 sidebar_label: Analytics Usage
->>>>>>> b7cfed2a023c047bc268178815b347b5c5802734
 sidebar_position: 5
 description: Beginner-friendly guide to understand customer support activity through Analytics.
 displayed_sidebar: scaleFlowSidebar

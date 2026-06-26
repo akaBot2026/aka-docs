@@ -1,12 +1,7 @@
 ---
 id: contact-management
-<<<<<<< HEAD
-title: Contact 
-sidebar_label: Contact
-=======
 title: Contact Management
 sidebar_label: Contact Management
->>>>>>> b7cfed2a023c047bc268178815b347b5c5802734
 sidebar_position: 2
 description: Beginner-friendly guide to create, organize, import, and use customer contacts in ScaleFlow.
 displayed_sidebar: scaleFlowSidebar
