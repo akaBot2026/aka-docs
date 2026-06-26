@@ -1,7 +1,7 @@
 ---
 id: knowledge-usage
-title: Knowledge Usage
-sidebar_label: Knowledge Usage
+title: Knowledge 
+sidebar_label: Knowledge 
 sidebar_position: 2
 description: Beginner-friendly guide to create Knowledge so AI can answer from trusted business information.
 displayed_sidebar: scaleFlowSidebar

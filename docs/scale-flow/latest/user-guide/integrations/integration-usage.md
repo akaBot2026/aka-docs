@@ -1,7 +1,7 @@
 ---
 id: integration-usage
-title: Integration Usage
-sidebar_label: Integration Usage
+title: Integration
+sidebar_label: Integration
 sidebar_position: 1
 description: Beginner-friendly guide to connect external business tools to ScaleFlow.
 displayed_sidebar: scaleFlowSidebar

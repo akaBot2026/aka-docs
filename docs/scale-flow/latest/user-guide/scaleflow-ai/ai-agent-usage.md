@@ -1,7 +1,7 @@
 ---
 id: ai-agent-usage
-title: AI Agent Usage
-sidebar_label: AI Agent Usage
+title: AI Agent
+sidebar_label: AI Agent
 sidebar_position: 1
 description: Beginner-friendly guide to create, teach, test, and publish an AI Agent for ScaleFlow.
 displayed_sidebar: scaleFlowSidebar
