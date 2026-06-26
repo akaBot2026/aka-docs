@@ -49,8 +49,6 @@ Prepare the following:
 
 1. In ScaleFlow, open the left menu -> **Integrations**.
 
-   ![ScaleFlow Integrations menu](/static/img/integration-connection.png)
-
 2. Find the **Google Sheets** card under **Third-party Integrations** -> click **Manage Integration**.
 
    ![Google Sheets integration card](/static/img/open-google-sheets.png)

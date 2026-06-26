@@ -44,8 +44,11 @@ After connection, messages appear in [Inbox](../../operations/inbox-usage).
 3. Scan the QR code.
 4. Approve the connection on your device when prompted.
 
-> **Gợi ý ảnh:** Cửa sổ QR login ScaleFlow và màn hình xác nhận trên điện thoại Zalo.
+![Open connect zalo](/static/img/connect-zalo-oa-1.png)
 
+![Open connect zalo](/static/img/connect-zalo-oa-2.png)
+
+![Open connect zalo](/static/img/connect-zalo-oa-3.png)
 ---
 
 ## Step 3: Confirm in ScaleFlow
@@ -56,6 +59,7 @@ After connection, messages appear in [Inbox](../../operations/inbox-usage).
 
 Connection is successful when the account card shows **Test**, **Reconnect**, and **Delete**.
 
+![Open connect zalo](/static/img/connect-zalo-oa-success.png)
 ---
 
 ## Manage the connection

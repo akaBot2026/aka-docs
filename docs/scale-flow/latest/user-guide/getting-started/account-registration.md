@@ -32,8 +32,7 @@ Choose this option first if you see a company sign-in button such as **Continue 
 3. Approve the sign-in request if your company asks for confirmation.
 4. Wait for ScaleFlow to open your workspace.
 
-![Sign in with SSO](/static/img/sign-in-sso.png)
-
+![Sign in with SSO](/static/img/sign-in-sso-new-3.png)
 
 Use SSO when:
 

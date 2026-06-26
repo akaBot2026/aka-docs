@@ -38,8 +38,6 @@ If you can open the page but cannot see buttons such as **Create**, **New Model*
 
 On the **Models** page, you can:
 
-![Provider list page](/static/img/list-provider.png)
-
 - Search providers
 - Click **Create** to add a new provider (if authorized)
 - Click a provider card to open its detail page
@@ -90,7 +88,6 @@ When you open a provider, you can:
 
 If no model exists, the page shows an empty state.
 
-![Model list in provider detail](/static/img/list-model.png)
 
 ## Provider Settings
 

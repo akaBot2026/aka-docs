@@ -62,8 +62,6 @@ Other providers in the grid (for example **Shopify**, **Salesforce**, **Zapier**
    - Paste **API token** and click **Connect** (Make), or
    - Enter credentials and click **Connect** (Shopify — when available).
 
-   ![Connect Google Drive flow](/static/img/connect-google-drive.png)
-
 6. Complete authorization in provider popup.
 7. Return to ScaleFlow and verify the connection appears in the provider page.
 
@@ -197,5 +195,3 @@ Make uses **API token** authentication. For step-by-step setup, agent configurat
 - Validate new connections with **Test connection** right after setup.
 - Remove unused connections to reduce confusion and permission risk.
 - Connect only business accounts that your organization approves.
-
-![Delete connection confirmation dialog](/static/img/delete-connection.png)
