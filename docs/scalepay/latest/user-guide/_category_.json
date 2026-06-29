@@ -1,0 +1,10 @@
+{
+  "label": "Scale Flow",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Scale Flow documentation for account setup, channel integration, AI automation, ticket handling, and contact management."
+  }
+}
