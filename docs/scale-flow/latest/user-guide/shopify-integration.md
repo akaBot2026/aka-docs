@@ -72,14 +72,18 @@ Your Shopify Store URL is the primary `.myshopify.com` domain for your store.
    ![Shopify Customer Data Selection](/static/img/image_shopify_11.png)
    ![Shopify Customer Data Selection](/static/img/image_shopify_12.png)
 
-7. In the left navigation menu of your app, click on the **Configuration** tab (or **App configuration**).
+7. In the left navigation menu of your app, click on **Versions** (or select your draft version).
+
+   ![Shopify App Versions](/static/img/image_shopify_19.png)
+
+8. On the version configuration page:
    - Under the **Access** section:
      - Check/tick the **Use legacy install flow** checkbox.
      - Leave the **Scopes** and **Optional scopes** fields blank (no need to enter scopes here).
-   - Under the **App URL** section:
-     - Enter your **App URL**.
-     - In the **Allowed redirection URL(s)** field, enter the redirect URL provided by ScaleFlow (e.g., `https://your-scaleflow-domain.com/api/v1/integrations/shopify/callback`).
-8. Click **Release** (or **Save configuration**) to apply changes.
+     - In the **Redirect URLs** field, enter the redirect URL provided by ScaleFlow (e.g., `https://your-scaleflow-domain.com/integration/api/shopify/oauth/callback` or `https://your-scaleflow-domain.com/api/v1/integrations/shopify/callback`).
+   - Under the **URLs** section:
+     - Enter your **App URL** (e.g., `https://your-scaleflow-domain.com`).
+9. Click **Release** (or **Save configuration**) to apply changes.
 
    ![Shopify App Configuration](/static/img/image_shopify_15.png)
 
@@ -128,7 +132,7 @@ Once you have gathered the three required parameters (Store URL, Client ID, Clie
 
 - Check that your Redirect URLs in Shopify Partners match ScaleFlow's callback URL exactly.
 - Verify that you copied the **Client ID** and **Client Secret** correctly from the App Settings page in Shopify Partners.
-- **Check if you have ticked the "Use legacy install flow" checkbox**: Go to the **Configuration** tab, scroll to the **Access** section, and verify that the **Use legacy install flow** checkbox is checked (Step 2, sub-step 7). If this option is not checked, the installation redirect will fail.
+- **Check if you have ticked the "Use legacy install flow" checkbox**: Go to the **Versions** tab, scroll to the **Access** section, and verify that the **Use legacy install flow** checkbox is checked (Step 2, sub-step 8). If this option is not checked, the installation redirect will fail.
 
 ### Error: Data Synchronization Failures (Missing Customer or Order Details)
 
