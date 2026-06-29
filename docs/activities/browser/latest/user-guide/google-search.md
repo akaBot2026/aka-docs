@@ -11,9 +11,9 @@ displayed_sidebar: activitiesSidebar
 
 > A step-by-step tutorial demonstrating how to perform a Google search and retrieve results using Browser activities.
 
-This guide provides a practical, real-world exercise using **Google Search** to demonstrate web automation. You will build a workflow that automatically navigates to Google, searches for a keyword, extracts the page result text, and displays it via a message box popup.
+This guide provides a practical, real-world exercise using **Google Search** to demonstrate web automation. You will build a workflow that automatically navigates to Google, searches for a keyword, extracts the search results statistics, and displays it via a message box popup.
 
-You will use activities such as [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Type Into](/docs/activities/browser/latest/activities/type-into.md), [Send Hot Keys](/docs/activities/browser/latest/activities/send-hot-keys.md), and [Get Text](/docs/activities/browser/latest/activities/get-text.md) from the **RCA.Activities.Browser** package, alongside the **Message Box** activity from the Core package.
+You will use activities such as [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Type Into](/docs/activities/browser/latest/activities/type-into.md), [Send Hot Keys](/docs/activities/browser/latest/activities/send-hot-keys.md), [Click](/docs/activities/browser/latest/activities/click.md), and [Get Text](/docs/activities/browser/latest/activities/get-text.md) from the **RCA.Activities.Browser** package, alongside **Delay** and **Message Box** activities from the Core package.
 
 ---
 
@@ -31,7 +31,7 @@ This section guides you through creating a process to search for `"akaBot"` on G
 
 * Target URL: `https://www.google.com/`
 * Input keyword: `akaBot`
-* Output: Display search results text via a popup.
+* Output: Display search results statistics text via a popup.
 
 ### Step-by-Step Instructions
 
@@ -44,12 +44,18 @@ This section guides you through creating a process to search for `"akaBot"` on G
    * Click the **Pick target element** link on the activity block.
    * Click on the Google Search input bar on the browser.
    * In the **Properties** panel under **Input**, set the **Text** field to `"akaBot"`.
-5. Drag a [Send Hot Keys](/docs/activities/browser/latest/activities/send-hot-keys.md) activity below the **Type Into** activity.
+
+   **NOTE**: When performing automated actions too quickly on search engines like Google, the system may trigger bot verification screens (CAPTCHA). To prevent this and mimic natural user behavior, you can drag a **Delay** activity (from the Core toolbox section) immediately below the **Type Into** activity. In the **Properties** panel under **Duration**, set an appropriate pause (e.g., `00:00:02` for 2 seconds) to delay the execution before the next action.
+
+5. Drag a [Send Hot Keys](/docs/activities/browser/latest/activities/send-hot-keys.md) activity below the **Delay** activity (or **Type Into** activity).
    * Click **Pick target element** and select the Google Search input bar again.
    * Select `KEY_ENTER` from the **Special Key** dropdown list in the activity designer or the **Properties** panel to execute the search query.
-6. Drag a [Get Text](/docs/activities/browser/latest/activities/get-text.md) activity below the **Send Hot Keys** activity.
-   * Click **Pick target element** and select the main body or container area of the search results (which contains the search results listing).
+6. Drag a [Click](/docs/activities/browser/latest/activities/click.md) activity below the **Send Hot Keys** activity.
+   * Click **Pick target element** and select the **Tools** button on the Google search results page.
+   * In the **Properties** panel, set the **Click Type** to `CLICK_SINGLE` and **Mouse Button** to `MOUSE_LEFT`. This action clicks the "Tools" button to expand the search options and reveal the results statistics (e.g., the number of search results and search elapsed time).
+7. Drag a [Get Text](/docs/activities/browser/latest/activities/get-text.md) activity below the **Click** activity.
+   * Click **Pick target element** and select the search results statistics text (e.g., `"About 775,000 results (0.30s)"`).
    * In the **Properties** panel under **Output**, press `Ctrl + K` in the **Result** field and create a new string variable named `resultsText`.
-7. Drag a **Message Box** activity (from the Core toolbox section) below the **Get Text** activity.
+8. Drag a **Message Box** activity (from the Core toolbox section) below the **Get Text** activity.
    * In the **Properties** panel, set the **Text** field to `resultsText`.
-8. Run the process to verify that the browser launches, searches Google, and displays the search results text in a popup.
+9. Run the process to verify that the browser launches, searches Google, clicks the Tools button, and displays the search results statistics text in a popup.

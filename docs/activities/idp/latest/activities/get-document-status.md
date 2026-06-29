@@ -12,7 +12,7 @@ RCA.Activities.IDP.GetDocumentStatus
 
 ## **Description**
 
-This activity allows you to retrieve the current processing status of a document from the akaBot Vision platform.
+This activity allows you to retrieve the current processing status of a document from the akaBot IDP platform.
 
 ![get-document-status](/static/img/get-document-status.png)
 
@@ -61,12 +61,12 @@ This activity allows you to retrieve the current processing status of a document
      * **Splitted Document Keys**: Press **Ctrl + K** and create a `String[]` variable to store the split document keys if the uploaded file was split.
 
 5. **Run the workflow**:
-   * Execute the process. akaBot will fetch the current processing status of the document from the akaBot Vision server and output the details to your variables.
+   * Execute the process. akaBot will fetch the current processing status of the document from the akaBot IDP server and output the details to your variables.
 
 ## **Troubleshooting**
 
 * **Document Key Not Found**:
-  * Verify that the document key provided exists on the akaBot Vision server and belongs to the connected account.
+  * Verify that the document key provided exists on the akaBot IDP server and belongs to the connected account.
 * **Invalid API Key or Server Endpoint**:
   * Ensure the parent **IDP Scope** container is correctly configured with a valid API Key and endpoint.
 * **Connection Timeout / Network Errors**:
