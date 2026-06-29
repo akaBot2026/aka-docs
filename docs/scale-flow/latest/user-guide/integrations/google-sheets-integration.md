@@ -1,6 +1,6 @@
 ---
 id: google-sheets-integration
-title: "Google Sheets Integration"
+title: "Google Sheets"
 sidebar_label: "Google Sheets"
 sidebar_position: 4
 description: "Guide to connect Google Sheets to ScaleFlow through Google OAuth and use spreadsheets via AI agents (MCP)."

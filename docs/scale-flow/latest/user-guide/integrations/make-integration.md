@@ -1,6 +1,6 @@
 ---
 id: make-integration
-title: "Make Integration"
+title: "Make"
 sidebar_label: "Make"
 sidebar_position: 5
 description: "Introduction to Make and a step-by-step guide to connect Make to ScaleFlow with an API token and use scenarios through AI agents (MCP)."

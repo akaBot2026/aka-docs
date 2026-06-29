@@ -1,7 +1,7 @@
 ---
 id: connecting-your-whatsapp-business-api-account
-title: "Connecting Your WhatsApp Business API Account"
-sidebar_label: "Connecting Your WhatsApp Business API Account"
+title: WhatsApp Business
+sidebar_label: WhatsApp Business
 sidebar_position: 1
 description: "Learn how to connect a WhatsApp Business API account to ScaleFlow."
 displayed_sidebar: scaleFlowSidebar

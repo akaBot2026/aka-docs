@@ -1,7 +1,7 @@
 ---
 id: connecting-your-telegram-bot
-title: "Connect Your Telegram Bot"
-sidebar_label: "Connect Telegram"
+title: Telegram
+sidebar_label: Telegram
 sidebar_position: 1
 description: "Step-by-step guide to create a Telegram bot with BotFather and connect it to ScaleFlow."
 displayed_sidebar: scaleFlowSidebar

@@ -1,7 +1,7 @@
 ---
 id: channel-integration
-title: Channel Integration
-sidebar_label: Channel Integration
+title: Channel 
+sidebar_label: Channel 
 sidebar_position: 1
 description: Beginner-friendly overview to connect Zalo OA, LINE, WhatsApp, Messenger, Telegram, and more to ScaleFlow.
 displayed_sidebar: scaleFlowSidebar

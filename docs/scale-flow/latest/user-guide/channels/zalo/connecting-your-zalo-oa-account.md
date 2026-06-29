@@ -1,7 +1,7 @@
 ---
 id: connecting-your-zalo-oa-account
-title: "Connect Your Zalo OA Account"
-sidebar_label: "Connect Zalo OA"
+title: Zalo OA 
+sidebar_label: Zalo OA
 sidebar_position: 1
 description: "Step-by-step guide to connect your Zalo Official Account to ScaleFlow so customer messages appear in Inbox."
 displayed_sidebar: scaleFlowSidebar

@@ -1,6 +1,6 @@
 ---
 id: setting-up-chat-widget
-title: Chat Widget Setup
+title: Chat Widget 
 sidebar_label: Chat Widget
 sidebar_position: 1
 description: Step-by-step guide to add the chat widget to your website in ScaleFlow.

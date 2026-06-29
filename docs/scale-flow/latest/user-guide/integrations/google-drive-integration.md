@@ -1,6 +1,6 @@
 ---
 id: google-drive-integration
-title: "Google Drive Integration"
+title: "Google Drive"
 sidebar_label: "Google Drive"
 sidebar_position: 3
 description: "Guide to connect Google Drive to ScaleFlow through Google OAuth, use Knowledge, and work with AI agents (MCP)."

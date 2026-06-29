@@ -1,7 +1,7 @@
 ---
 id: connecting-your-zalo-me-account
-title: "Connect Your Zalo Me Account"
-sidebar_label: "Connect Zalo Me"
+title: Zalo Me
+sidebar_label:  Zalo Me
 sidebar_position: 1
 description: "Step-by-step guide to connect a personal Zalo account to ScaleFlow using QR login."
 displayed_sidebar: scaleFlowSidebar

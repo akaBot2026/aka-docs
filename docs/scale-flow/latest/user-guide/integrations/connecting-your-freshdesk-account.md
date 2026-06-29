@@ -1,7 +1,7 @@
 ---
 id: connecting-your-freshdesk-account
-title: "Connect Freshdesk to ScaleFlow"
-sidebar_label: "Connect Freshdesk"
+title: "Freshdesk"
+sidebar_label: "Freshdesk"
 sidebar_position: 2
 description: "Step-by-step guide to connect Freshdesk to ScaleFlow and sync tickets and contacts, written for non-technical users."
 displayed_sidebar: scaleFlowSidebar
