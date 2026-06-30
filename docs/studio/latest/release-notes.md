@@ -169,8 +169,6 @@ To enable Event Trigger, set AutoStartEventTrigger=True in the file: C:\\Program
 * [Added] LookupRange activity.
 * [Fixed] Lookup behavior on merged cell scenarios.
 
-Click [here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
-
 ---
 ## v2.2.0.5
 
@@ -255,8 +253,6 @@ Click [here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b) to download. Passw
 * More resilient named pipe communication
 * Stronger logging and diagnostics
 
-Click [here](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
-
 ---
 ## v2.2.0.3
 
@@ -273,8 +269,6 @@ Click [here](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY) to download. Passw
 
 * Fix minor bugs RCA.Activities.Common.1.0.0.1.nupkg, RCA.Activities.Java.2.3.0.1.nupkg (Java x86 & SAP).
 * Fix minor bugs on Load script for Native Browser package
-
-Click [here](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
 ---
 ## v2.2.0.2
@@ -312,8 +306,6 @@ Click [here](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ) to download. Passwo
 * Optimize dependency load to increase the bot's startup speed.
 * Specific error messages indicating the exact causes have been added when publishing the project.
 * Activity take screenshot: default captures a full-screen image (if no selector is chosen).
-
-Click [here](https://ws3.fpt-software.vn/s/S9S2v60JjahYvVr) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
 ---
 ## v2.2.0.1
