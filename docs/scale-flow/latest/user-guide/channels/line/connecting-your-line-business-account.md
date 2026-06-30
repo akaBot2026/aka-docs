@@ -1,7 +1,7 @@
 ---
 id: connecting-your-line-business-account
-title: "Connect Your LINE Business Account"
-sidebar_label: "Connect LINE Business"
+title: LINE Business
+sidebar_label: :LINE Business
 sidebar_position: 1
 description: "Step-by-step guide to connect your LINE Official Account to ScaleFlow so you can receive and reply to customer messages."
 displayed_sidebar: scaleFlowSidebar
@@ -84,7 +84,7 @@ This step is done on LINE's website, not inside ScaleFlow.
 ---
 
 ## Step 3: Enable Messaging API and Copy the Channel Secret
-
+currently used for customer communication.
 Still in **LINE Official Account Manager**:
 
 1. Open the Official Account you selected in step 2.

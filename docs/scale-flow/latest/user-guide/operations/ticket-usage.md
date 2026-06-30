@@ -1,7 +1,7 @@
 ---
 id: ticket-usage
-title: Ticket Usage
-sidebar_label: Ticket Usage
+title: Ticket 
+sidebar_label: Ticket 
 sidebar_position: 3
 description: Beginner-friendly guide to create, assign, and resolve customer support tickets in ScaleFlow.
 displayed_sidebar: scaleFlowSidebar

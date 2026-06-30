@@ -32,8 +32,7 @@ Choose this option first if you see a company sign-in button such as **Continue 
 3. Approve the sign-in request if your company asks for confirmation.
 4. Wait for ScaleFlow to open your workspace.
 
-![Sign in with SSO](/static/img/sign-in-sso.png)
-
+![Sign in with SSO](/static/img/sign-in-sso-new.png)
 
 Use SSO when:
 
@@ -52,7 +51,6 @@ Use the registration form if your organization does not use SSO, or if your admi
 3. Create a password.
 4. Submit the form.
 
-![Account registration form](/static/img/register.png)
 
 If ScaleFlow asks you to verify your email:
 

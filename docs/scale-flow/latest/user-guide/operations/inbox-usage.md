@@ -1,7 +1,7 @@
 ---
 id: inbox-usage
-title: Inbox Usage
-sidebar_label: Inbox Usage
+title: Inbox
+sidebar_label: Inbox
 sidebar_position: 1
 description: Beginner-friendly guide to receive, answer, assign, and track customer conversations in Inbox.
 displayed_sidebar: scaleFlowSidebar

@@ -1,7 +1,7 @@
 ---
 id: connecting-your-messenger-account
-title: "Connect Your Messenger Account"
-sidebar_label: "Connect Messenger"
+title: Messenger
+sidebar_label:  Messenger
 sidebar_position: 1
 description: "Step-by-step guide to connect Facebook Messenger to ScaleFlow so page messages appear in Inbox."
 displayed_sidebar: scaleFlowSidebar

@@ -1,6 +1,6 @@
 ---
 id: shopify-integration
-title: "Shopify Integration"
+title: "Shopify"
 sidebar_label: "Shopify"
 sidebar_position: 6
 description: "Guide to connect your Shopify store to ScaleFlow using Client ID, Client Secret, and Store URL."

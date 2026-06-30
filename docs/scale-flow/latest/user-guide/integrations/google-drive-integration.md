@@ -1,6 +1,6 @@
 ---
 id: google-drive-integration
-title: "Google Drive Integration"
+title: "Google Drive"
 sidebar_label: "Google Drive"
 sidebar_position: 3
 description: "Guide to connect Google Drive to ScaleFlow through Google OAuth, use Knowledge, and work with AI agents (MCP)."
@@ -65,9 +65,6 @@ Prepare the following:
    ![ScaleFlow Integrations menu](/static/img/integration-connection.png)
 
 2. Find the **Google Drive** card -> click **Connect**.
-
-   ![Google Drive integration card](/static/img/google-drive-integration-card.png)
-
 3. On the setup screen, review **Permissions required**:
    - **Access only the files and folders you choose in Google Picker** — only the files you select for automation and knowledge sync.
 

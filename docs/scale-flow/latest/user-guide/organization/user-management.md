@@ -107,11 +107,11 @@ Validation rules:
 - Password must be at least 6 characters
 
 ## Edit a user
-![Edit delete assign role user](/static/img/edit-delete-user.png)
+![Edit delete assign role user](/static/img/edit-user.png)
 1. In the user row, click the **Edit** icon.
 2. Update user information.
 
-![Edit user dialog](/static/img/edit-user.png)
+![Edit user dialog](/static/img/dialog-edit-user.png)
 
 3. Click **Save Changes**.
 
@@ -146,7 +146,7 @@ You can review:
 - Workspace-related profile details
 
 ## Delete a user
-
+![open delete](/static/img/open-delete-user.png)
 1. In the user row, click the **Delete** icon.
 2. Confirm in the dialog.
 

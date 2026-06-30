@@ -58,7 +58,10 @@ Each card shows the name, source type, current status, and last update time.
    - **Description** (optional)
 3. Select **Source type**:
    - **File Upload**
+   - **Custom answers**
+   - **Freshdesk**
    - **Google Drive**
+   - **Internet search**
    - **Crawl Web**
 4. Complete source-specific fields.
 5. Click **Add knowledge**.
@@ -100,6 +103,48 @@ Before using it, connect Google Drive in [Integration Usage](../integrations/int
 Use **Crawl Web** when your information is already published on a website, such as a help center or policy page.
 
 Enter the page address and let ScaleFlow read the selected website pages. Start with a small set of pages first so you can check the results easily.
+
+### Custom answers
+
+![Custom answers](/static/img/custom-answers.png)
+
+Use **Custom answers** when you want to add short Q&A pairs directly in ScaleFlow instead of uploading files.
+
+Good examples:
+
+- "What are your support hours?" -> "Mon-Fri, 8:00-17:00"
+- "Do you ship on weekends?" -> "No, we ship on business days only."
+- "How long is warranty?" -> "12 months from purchase date."
+
+This source type is useful for small, fixed answers that change often and need quick edits.
+
+### Freshdesk
+
+![Freshdesk](/static/img/freshdesk.png)
+
+Use **Freshdesk** when your team stores support knowledge in Freshdesk and wants ScaleFlow to read that source.
+
+Before using it:
+
+1. Connect Freshdesk in [Integration Usage](../integrations/integration-usage).
+2. Confirm the Freshdesk connection is active.
+3. Sync the Knowledge base after setup so AI can use updated content.
+
+Best for teams that already manage help content and ticket-related knowledge in Freshdesk.
+
+### Internet search
+
+![Internet search](/static/img/internet-search.png)
+
+Use **Internet search** when you want AI to retrieve up-to-date information from the web at runtime (for example current events, recent updates, or live references).
+
+Important notes:
+
+- This source does not behave like a static document library.
+- Results can change over time based on live web data.
+- Use it for time-sensitive information, not for strict internal policies.
+
+For stable business rules (refunds, SOPs, pricing), prefer **File Upload**, **Custom answers**, or **Google Drive**.
 
 ## Knowledge detail page
 
