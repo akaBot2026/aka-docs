@@ -9,11 +9,9 @@ displayed_sidebar: studioSidebar
 
 # Natural Language to Expression Code
 
-The **Natural Language to Expression Code** feature is an intelligent AI-powered assistant integrated directly within the **akaBot Studio** Expression Editor. It allows developers to input logic descriptions in plain, natural English to automatically compile and generate precise expression code in **VB.Net** or **C#**.
+The **Natural Language to Expression Code** feature is an intelligent AI-powered assistant integrated directly within the **akaBot Studio** Expression Editor. It allows developers to input logic descriptions in plain, natural language to automatically compile and generate precise expression code in **VB.Net** or **C#**.
 
 Rather than memorizing complex syntax or spent time searching through programming libraries, developers can describe their intent. The AI assistant acts as an autopilot, accelerating workflow design, enabling low-code/no-code accessibility for beginners, and saving time for experienced developers.
-
----
 
 ## Key Capabilities
 
@@ -25,8 +23,6 @@ The **Natural Language to Expression Generator** in akaBot Studio offers the fol
 * Simplifies creating workflow logic, validations, and calculations.
 * Makes expression development easier, even for users with limited programming knowledge.
 
----
-
 ## User Interface (UI) Overview
 
 The feature is embedded directly at the bottom of the standard **Expression Editor** dialog in akaBot Studio.
@@ -35,17 +31,19 @@ The feature is embedded directly at the bottom of the standard **Expression Edit
 
 1. **Expression Area (Editor Pane)**: The main text field where the generated expression is inserted. You can also manually edit or refine the code here.
 
-![prompt-expression-code](/static/img/prompt-expression-code.png)
+![expression-textfield.png](/static/img/expression-textfield.png)
 
 2. **Natural Language Input Field**: The text box at the bottom of the dialog with the placeholder: *`Describe your expression in natural language...`*. This is where you enter your prompt.
 
-![ui-code](/static/img/ui-code.png)
+![prompt-expression-code](/static/img/prompt-expression-code.png)
 
 3. **Control Buttons**:
+
+![ui-code](/static/img/ui-code.png)
+
+
    - **OK**: Saves the current expression and applies it to the activity's property.
    - **Cancel**: Closes the dialog without saving.
-
----
 
 ## Step-by-Step Guide
 
@@ -53,26 +51,29 @@ To generate expression code using text prompts, ensure your akaBot Studio has an
 
 To generate expression code using a text prompt, follow these steps:
 
-### Step 1: Navigate to the Workflow
+**Step 1: Navigate to the Workflow**
+
 Go to the workflow file where you want to add the expression.
 
 **NOTE**
 > * **Exact Variable Matching**: If your expression depends on multiple variables or arguments, your prompt must include each variable or argument name exactly as defined in your workflow.
 > * **Pre-declared Variables**: Ensure that all referenced variables and arguments are already created in the **Variables** or **Arguments** panels of akaBot Studio before attempting to generate the expression.
 
-### Step 2: Open the Expression Editor
+**Step 2: Open the Expression Editor**
+
 Select the activity in your workflow. In the **Properties** panel on the right, locate the property where you wish to add the expression (e.g., a condition, path, or value). Click the configuration or ellipsis button next to the property field to open the **Expression Editor** window.
 
-### Step 3: Input the Prompt
+**Step 3: Input the Prompt**
+
 Locate the input field at the bottom of the Expression Editor dialog with the placeholder: *`Describe your expression in natural language...`*. Write a text prompt describing the logic or condition you wish to add.
 
-### Step 4: Generate the Expression
+**Step 4: Generate the Expression**
+
 Press **Enter** on your keyboard or click the generate icon. The AI assistant processes your request and populates the generated VB.Net or C# expression code directly in the main editor pane.
 
-### Step 5: Save and Apply
-Review the generated expression in the editor pane. Make any necessary manual refinements, then click **OK** to save and apply the expression to the activity.
+**Step 5: Save and Apply**
 
----
+Review the generated expression in the editor pane. Make any necessary manual refinements, then click **OK** to save and apply the expression to the activity.
 
 ## Best Practices for Writing Prompts
 
@@ -83,7 +84,6 @@ To get the most accurate and reliable expressions from the AI assistant, follow 
 * **Define Default Values**: If handling potentially empty values, specify the fallback in the prompt (e.g., *"Convert amountText to Decimal, using 0 if it is empty"*).
 * **Break Down Complex Logic**: If your logic contains multiple nested conditions, describe them sequentially (e.g., *"Check if dt_EmployeeData is not null and has at least one row"*).
 
----
 
 ## Requirements and Limitations
 
@@ -91,47 +91,37 @@ To get the most accurate and reliable expressions from the AI assistant, follow 
  
 > 1. **Pre-declare Variables**: The AI assistant maps names to variables in your project. Ensure that all referenced variables and arguments are already created in the **Variables** or **Arguments** panels of akaBot Studio before generating the expression.
 > 2. **Project Language Context**: The expression format (VB.Net vs. C#) is determined by your project settings. If your project is a VB.Net project, the editor generates VB expressions; if it is C#, it generates C# expressions.
-> 3. **Namespace Imports**: If your expression utilizes specific .NET classes (e.g., `System.Text.RegularExpressions.Regex`), make sure the corresponding namespace is imported in the **Imports** panel.
 
----
 
 ## Examples Library
 
 Below is a library of common prompts organized by the editor context in which they are used.
 
-### AI Expression Editor Examples
+**Expression Editor Examples**
+
 These prompts are designed for the **Expression Editor** to generate single-line expressions (e.g., calculations, condition checks, simple string/path manipulations, datatable filtering).
 
 | Expression Target | Function | Example Prompt |
 | :--- | :--- | :--- |
-| **Interact with variables** | Checks if a workflow variable `str_UserToken` is empty and assigns a default token value. | `"If str_UserToken is null or empty, set it to 'DEFAULT_TOKEN'"` |
-| **Interact with variables** | Increments the retry counter variable `int_RetryCount` by 1. | `"Add 1 to int_RetryCount"` |
-| **Interact with variables** | Checks whether the retry count is less than the maximum retry limit. | `"Check whether retryCount is less than maxRetryCount"` |
-| **Interact with variables** | Retrieves the first element from a list variable named `allTasks`. | `"Get the first item from allTasks"` |
-| **Interact with arguments** | Validates an input argument `in_FilePath` and throws an error if the file is missing. | `"If file at in_FilePath does not exist, throw exception with message 'Input file not found'"` |
-| **Interact with arguments** | Calculates the transaction fee and assigns it to the output argument `out_TransactionFee`. | `"Calculate out_TransactionFee as 5 percent of in_Amount"` |
-| **Interact with akaBot browser model** | Dynamically updates a selector string's window title parameter for a target web page. | `"Replace the title attribute in selector string with str_PageTitle"` |
-| **Interact with akaBot browser model** | Controls flow based on the result of an element existence check or selector timeout. | `"If selector element is not found within 15 seconds, set status to 'Timeout'"` |
-| **Interact with akaBot browser model** | Retrieves the current URL from the browser variable. | `"Get the current URL from edgeBrowser"` |
+| **App variables** | Checks if a workflow variable `str_UserToken` is empty and assigns a default token value. | `"If str_UserToken is null or empty, set it to 'DEFAULT_TOKEN'"` |
+| **App arguments** | Calculates the transaction fee and assigns it to the output argument `out_TransactionFee`. | `"Calculate out_TransactionFee as 5 percent of in_Amount"` |
 | **Filter** | Filters a DataTable variable to exclude rows containing invalid or blank email addresses. | `"Filter dt_CustomerData where Column 'Email' is not empty and contains '@'"` |
-| **Filter** | Filters a list variable named `allTasks` where the status equals "Pending". | `"Filter allTasks where Status equals 'Pending'"` |
-| **Filter & Sort** | Sorts a transaction DataTable by transaction amount in descending order. | `"Sort dt_Transactions by Column 'Amount' descending"` |
-| **Filter & Sort (DataTables / Collections)** | Checks if the DataTable `dt_EmployeeData` is not null and has at least one row. | `"Check if the datatable dt_EmployeeData is not null and has at least one row"` |
-| **Interact with Files / System** | Extracts the file name without extension from a full file path. | `"Extract the file name without extension from fullFilePath"` |
-| **Interact with Files / System** | Joins a folder path and file name into a single absolute path. | `"Join folderPath and fileName into a full path"` |
-| **Interact with Files / System** | Generates a dynamic, timestamped output path for Excel or File activities. | `"Get file path 'C:\Output\' appended with current timestamp and file extension '.xlsx'"` |
-| **Interact with Files / System** | Creates a timestamp string in yyyyMMdd_HHmmss format. | `"Create a timestamp string in yyyyMMdd_HHmmss format"` |
-| **Interact with Files / System** | Converts a text representation of an invoice date to a DateTime object. | `"Convert invoiceDateText to a DateTime"` |
-| **Interact with Files / System** | Converts a text amount to Decimal, defaulting to 0 if it is empty. | `"Convert amountText to Decimal, using 0 if it is empty"` |
+| **Custom Model** | Retrieves the current URL from the browser variable. | `"Get the current URL from edgeBrowser"` |
+| **Filter** | Checks if the DataTable `dt_EmployeeData` is not null and has at least one row. | `"Check if the datatable dt_EmployeeData is not null and has at least one row"` |
+| **Files** | Extracts the file name without extension from a full file path. | `"Extract the file name without extension from fullFilePath"` |
+| **Datetime** | Creates a timestamp string in yyyyMMdd_HHmmss format. | `"Create a timestamp string in yyyyMMdd_HHmmss format"` |
+| **Convert** | Converts a text representation of an invoice date to a DateTime object. | `"Convert invoiceDateText to a DateTime"` |
+| **Check** | Converts a text amount to Decimal, defaulting to 0 if it is empty. | `"Convert amountText to Decimal, using 0 if it is empty"` |
 
-### AI Code Editor Examples
+**AI Code Editor Examples**
+
 These prompts are designed for the **Code Editor** (used in Invoke Code or Script activities) to generate multi-line logic, complex loops, error handling blocks, database queries, and web service calls.
 
 | Expression Target | Function | Example Prompt |
 | :--- | :--- | :--- |
-| **Interact with variables & arguments** | Iterates over input items, cleans the values, and populates an output list. | `"Loop through in_RawData list of strings, trim whitespace, convert to uppercase, and add to list_ProcessedData"` |
-| **Interact with arguments** | Maps database query parameters from incoming workflow arguments to a command execution. | `"Create SQL command using connectionString and in_Query, bind argument in_UserId, execute query, and assign output to out_ResultDataTable"` |
-| **Interact with akaBot model (like native browser / web services)** | Downloads web content or communicates with API endpoints within a custom C# or VB.NET script block. | `"Create an HttpClient to make a GET request to in_Url, parse the response status code, and output JSON string to out_ResponseJson"` |
+| **App variables** | Iterates over input items, cleans the values, and populates an output list. | `"Loop through in_RawData list of strings, trim whitespace, convert to uppercase, and add to list_ProcessedData"` |
+| **App arguments** | Maps database query parameters from incoming workflow arguments to a command execution. | `"Create SQL command using connectionString and in_Query, bind argument in_UserId, execute query, and assign output to out_ResultDataTable"` |
+| **Custom model** | Downloads web content or communicates with API endpoints within a custom C# or VB.NET script block. | `"Create an HttpClient to make a GET request to in_Url, parse the response status code, and output JSON string to out_ResponseJson"` |
 | **Filter & Aggregation** | Grouping, aggregation, and complex joins on data tables that are too verbose for a single-line expression. | `"Group dt_Sales by Column 'Region' and compute the sum of 'Revenue' for each region into a new DataTable out_Summary"` |
 | **Error Handling & Logging** | Implements standard try-catch blocks around sensitive file operations to log errors without breaking the main bot thread. | `"Try to read file at in_FilePath, catch all exceptions, write details to Console.Error, and set out_IsSuccess to false"` |
 | **File System Manipulation** | Performs deep recursive file scans, filtering, and copying operations. | `"Recursively search directory in_SourcePath for all files modified in the last 24 hours, copy them to in_DestPath, and count total files copied in out_FileCount"` |

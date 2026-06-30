@@ -11,8 +11,6 @@ displayed_sidebar: studioSidebar
 
 This document guides users and IT Administrators on how to inspect, configure, and resolve network connection issues when using the **Ask AI** service (an intelligent assistant feature that supports code generation, expression explanation, and direct chat) on **akaBot Studio** in enterprise environments.
 
----
-
 ## 1. Step-by-Step Inspection and Troubleshooting
 
 **Note**: In enterprise environments, Internet access is often strictly monitored by Firewalls, Proxy servers, or internal security policies (Group Policy). Follow the steps below to isolate and resolve issues.
@@ -43,8 +41,6 @@ Test-NetConnection -ComputerName akabot-chatbot-worker.buianhdat305.workers.dev 
 
 ![powershell](/static/img/powershell.png)
 
----
-
 **Step 2: Configure Enterprise Proxy Settings**
 
 If your organization requires internet traffic to go through a proxy server, you must configure the proxy settings for akaBot Studio.
@@ -64,8 +60,6 @@ Open akaBot Agent -> Go to **Network** tab -> Configure **Proxy**
 3. **NoProxy**: Bypasses the proxy (direct connection).
 
 ![no-proxy](/static/img/no-proxy.png)
-
----
 
 **Step 3: Request Firewalls / Web Filters Whitelisting**
 
