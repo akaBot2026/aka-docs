@@ -52,7 +52,7 @@ Use the registration form if your organization does not use SSO, or if your admi
 3. Create a password.
 4. Submit the form.
 
-![Account registration form](/static/img/register.png)
+![Account registration form](/static/img/sp_register.png)
 
 If Scale Pay asks you to verify your email:
 
