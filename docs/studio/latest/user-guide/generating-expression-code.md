@@ -1,7 +1,7 @@
 ---
 id: generating-expression-code
 title: Natural Language to Expression Code
-sidebar_label: 1. Natural Language to Expression Code
+sidebar_label: Natural Language to Expression Code
 sidebar_position: 5
 description: Generate Visual Basic (VB.Net) and C# expressions using natural language directly within the akaBot Studio Expression Editor.
 displayed_sidebar: studioSidebar
