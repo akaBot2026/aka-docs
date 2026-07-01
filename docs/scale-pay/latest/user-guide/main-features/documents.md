@@ -39,7 +39,7 @@ You must upload PO and GR and wait until their status becomes **Ready** before u
 
 After upload, Scale Pay automatically runs AI extraction on each file.
 
-![Document upload](/static/img/sp_uploadpo.png)
+![Document upload](/static/img/sp_upload_po.png)
 
 ## Step 2: Upload Good Receipt
 
