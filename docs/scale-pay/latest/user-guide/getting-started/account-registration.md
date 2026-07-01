@@ -72,9 +72,9 @@ If you can sign in but cannot see a page, it usually means your role does not in
 
 ## What to do next
 
-If you are setting up Scale Pay for your team, go to [Pipeline Setup](../Main features/Pipeline setting) next so you can define matching rules.
+If you are setting up Scale Pay for your team, go to [Pipeline Setup](../Main features/Pipeline setting.md) next so you can define matching rules.
 
-If you are joining as an AP staff member, go to [Document Upload](../Main features/Import documents) to learn how to upload invoices and payment files.
+If you are joining as an AP staff member, go to [Document Upload](../Main features/documents.md) to learn how to upload invoices and payment files.
 
 ## Common issues and quick fixes
 

@@ -27,8 +27,8 @@ Follow these pages in order if you are new:
 
 1. [Account Registration](./User-guide/Getting started/Account registration.md): create your account and sign in.
 2. [Pipeline Setup](./User-guide/Main features/Pipeline setting.md): configure matching rules and logic.
-3. [Document Upload](./User-guide/Main features/Import documents.md): add your invoices, POs, and payment documents.
-4. [Auto-Mapping and Matching](./User-guide/Main features/Manage matching sets.md): run automated invoice-to-PO-to-payment matching and handle exceptions.
+3. [Document Upload](./User-guide/Main features/documents.md): add your invoices, POs, and payment documents.
+4. [Auto-Mapping and Matching](./User-guide/Main features/auto-mapping-matching.md): run automated invoice-to-PO-to-payment matching and handle exceptions.
 
 ## Feature map
 
@@ -36,5 +36,5 @@ Follow these pages in order if you are new:
 |---|---|
 | [Account Registration](./User-guide/Getting started/Account registration.md) | Get into Scale Pay for the first time. |
 | [Pipeline Setup](./User-guide/Main features/Pipeline setting.md) | Define matching rules and document processing workflows. |
-| [Document Upload](./User-guide/Main features/Import documents.md) | Import invoices, purchase orders, and payment files. |
-| [Auto-Mapping and Matching](./User-guide/Main features/Manage matching sets.md) | Run automated invoice-to-PO-to-payment matching. |
+| [Document Upload](./User-guide/Main features/documents.md) | Import invoices, purchase orders, and payment files. |
+| [Auto-Mapping and Matching](./User-guide/Main features/auto-mapping-matching.md) | Run automated invoice-to-PO-to-payment matching. |
