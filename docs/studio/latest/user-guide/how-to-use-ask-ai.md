@@ -1,7 +1,7 @@
 ---
 id: how-to-use-ask-ai
-title: Ask AI
-sidebar_label: Ask AI
+title: How to use Ask AI Chatbot
+sidebar_label: How to use Ask AI Chatbot
 sidebar_position: 6
 description: Chat with Ask AI in akaBot Studio to get help with RPA development, debug errors, explain logic
 displayed_sidebar: studioSidebar
@@ -77,22 +77,27 @@ Here are typical scenarios showcasing how to use Ask AI to streamline your RPA t
 
 When a workflow execution fails, you can leverage the logs in the Output panel to identify and resolve the error.
 
-* **Scenario**: A *Read Range* activity fails during execution because the targeted workbook file is currently open and locked by another process.
+* **Scenario**: A *Read Range* activity fails during execution because the file is already open in Protected View
 * **Step 1**: Click and select the failing *Read Range* activity in your Designer panel.
 * **Step 2**: Open the **Ask AI** panel.
 * **Step 3**: Type the following prompt:
-  > "How do I fix the error shown in `@output` for my selected `@activity`?"
-* **Step 4**: Click **Send**. Ask AI reads the active error message from the `@output` tag (e.g., `IOException: The process cannot access the file because it is being used by another process`) and identifies the properties of the ReadRange activity.
+  > "`@output @activity` How do I fix the error shown in for my selected activity?"
+* **Step 4**: Click **Send**. Ask AI reads the active error message from the `@output` tag (e.g., `IOException: The process cannot access the file because it is being used by another process`) and identifies the properties of the `@output` activity.
 * **Step 5**: Review and apply the solution provided by the AI:
-  ```markdown
-  The error indicates that the Excel file you are trying to read is locked by another process (likely Microsoft Excel).
+```markdown
+To fix the error shown for your selected activity, you need to handle the error that occurs when the Excel file is already open in Protected View. 
 
-  To resolve this:
-  1. Ensure the file is not open in another application before running the bot.
-  2. Inspect the **Workbook Path** property of your selected `@activity` to ensure it points to the correct path.
-  3. If the file must remain open, consider using an **Excel Application Scope** and checking the **Read Only** property.
-  4. Alternatively, add a **Kill Process** activity with the process name set to `"excel"` before this activity to close any active Excel instances.
-  ```
+You can add an error handler to the Excel Application Scope activity to catch and handle this exception. 
+
+To do this, you can add an error handler to the activity by right-clicking on the activity and selecting "Error Handling" > "Add Error Boundary". 
+
+Then, you can add an activity to handle the error, such as a "Log Message" activity to log the error message, or a "Throw" activity to throw a custom error.
+
+Alternatively, you can also use the "Try Catch" activity to catch and handle the exception.
+```
+
+![Fix an error example](/static/img/fix-an-error-ask-ai.png)
+
 
 ### How to uses an activities
 
@@ -102,18 +107,28 @@ Ask AI can help you configure properties and write required expressions for spec
 * **Step 1**: Add and select the *Deserialize JSON* activity in the Designer.
 * **Step 2**: In the Variables panel, ensure you have a string variable for the raw input (e.g., `str_jsonInput`) and a variable to store the result (e.g., `jo_parsedData`).
 * **Step 3**: Open the **Ask AI** panel and type:
-  > "Explain how to configure my selected `@activity` to parse `str_jsonInput` and store the result in `jo_parsedData`."
+  > "@activity @variable Explain how to configure my selected  to parse `str_jsonInput` and store the result in `jo_parsedData`"
 * **Step 4**: Click **Send**.
 * **Step 5**: Review the AI response and configure the properties as guided:
-  ```markdown
-  To configure your **Deserialize JSON** activity:
-  
-  1. In the Properties panel of the selected activity:
-     - Set the **JsonString** property to: `str_jsonInput`
-     - Set the **Result** property to: `jo_parsedData`
-  2. Ensure that the variable `jo_parsedData` has its data type set to `Newtonsoft.Json.Linq.JObject` in your Variables panel.
-  3. To access a property (e.g., `"status"`) from the resulting JObject in subsequent activities, use:
-     - **VB.Net**: `jo_parsedData("status").ToString()`
-     - **C#**: `jo_parsedData["status"].ToString()`
-  ```
+```markdown
+To configure the selected Deserialize Json <T> activity to parse str_jsonInput and store the result in jo_parsedData, follow these steps:
 
+1. In the JSON String property, enter the value of str_jsonInput variable. Ensure that the JSON is written without idents and between double quotes, and each string within the array is written with single quotes. For example, if str_jsonInput contains the string {'Name': 'Maria'}, enter it as {"Name": 'Maria'}.
+
+2. In the Misc section, check the Public checkbox to log the data of this activity.
+
+3. The TypeArgument dropdown box is not relevant in this case since we are using the generic type System.String.
+
+4. The output of the Deserialize Json <T> activity will be stored in the jo_parsedData variable. 
+
+Here is an example of how the configuration should look like:
+
+- JSON String (String): {"Name": 'Maria'}
+- Public (Checkbox): Checked
+- Display Name (String): Deserialize Json <T>
+- TypeArgument (Dropdown box): System.String (selected by default)
+
+After configuring these properties, the Deserialize Json <T> activity should parse the JSON string in str_jsonInput and store the result in jo_parsedData.
+```
+
+![How to use activities](/static/img/how-to-use-activities-ask-ai.png)
