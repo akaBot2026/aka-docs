@@ -1,4 +1,4 @@
-﻿---
+---
 id: navigate-to
 title: "Navigate To"
 sidebar_label: "Navigate To"

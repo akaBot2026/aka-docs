@@ -1,4 +1,4 @@
-﻿---
+---
 id: send-hot-keys
 title: "Send Hot Keys"
 sidebar_label: "Send Hot Keys"

@@ -1,4 +1,4 @@
-﻿---
+---
 id: browser-scope
 title: "Browser Scope"
 sidebar_label: "Browser Scope"

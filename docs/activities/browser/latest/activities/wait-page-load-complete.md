@@ -1,4 +1,4 @@
-﻿---
+---
 id: wait-page-load-complete
 title: "Wait Page Load Complete"
 sidebar_label: "Wait Page Load Complete"

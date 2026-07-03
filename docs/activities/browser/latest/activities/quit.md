@@ -1,4 +1,4 @@
-﻿---
+---
 id: quit
 title: "Quit Browser"
 sidebar_label: "Quit Browser"

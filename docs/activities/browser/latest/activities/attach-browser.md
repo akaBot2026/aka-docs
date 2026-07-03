@@ -1,4 +1,4 @@
-﻿---
+---
 id: attach-browser
 title: "Attach Browser"
 sidebar_label: "Attach Browser"

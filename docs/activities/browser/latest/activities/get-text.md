@@ -1,4 +1,4 @@
-﻿---
+---
 id: get-text
 title: "Get Text"
 sidebar_label: "Get Text"

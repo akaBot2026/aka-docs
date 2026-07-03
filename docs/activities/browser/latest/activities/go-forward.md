@@ -1,4 +1,4 @@
-﻿---
+---
 id: go-forward
 title: "Go Forward"
 sidebar_label: "Go Forward"

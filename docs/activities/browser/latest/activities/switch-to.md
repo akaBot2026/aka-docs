@@ -1,4 +1,4 @@
-﻿---
+---
 id: switch-to
 title: "Switch To"
 sidebar_label: "Switch To"

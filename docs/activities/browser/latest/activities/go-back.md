@@ -1,4 +1,4 @@
-﻿---
+---
 id: go-back
 title: "Go Back"
 sidebar_label: "Go Back"

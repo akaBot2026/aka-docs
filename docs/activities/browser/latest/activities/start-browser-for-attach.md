@@ -1,4 +1,4 @@
-﻿---
+---
 id: start-browser-for-attach
 title: "Start Browser For Attach"
 sidebar_label: "Start Browser For Attach"

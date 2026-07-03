@@ -1,4 +1,4 @@
-﻿---
+---
 id: wait-web-attribute
 title: "Wait Web Attribute"
 sidebar_label: "Wait Web Attribute"

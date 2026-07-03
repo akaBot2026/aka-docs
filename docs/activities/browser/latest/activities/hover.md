@@ -1,4 +1,4 @@
-﻿---
+---
 id: hover
 title: "Hover"
 sidebar_label: "Hover"
