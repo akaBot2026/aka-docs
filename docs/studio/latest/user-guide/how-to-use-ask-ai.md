@@ -132,3 +132,7 @@ After configuring these properties, the Deserialize Json <T> activity should par
 ```
 
 ![How to use activities](/static/img/how-to-use-activities-ask-ai.png)
+
+## Troubleshooting
+
+If you encounter network connection issues or errors when using the Ask AI service, refer to the [Troubleshoot Ask AI](../troubleshoot/troubleshoot-ask-ai.md) guide.

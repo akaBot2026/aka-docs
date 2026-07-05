@@ -123,3 +123,7 @@ AIアシスタントから最も正確で信頼性の高い式を取得するに
 | **Filter & Aggregation** | 1行の式では冗長すぎるデータテーブルに対するグループ化、集約、および複雑な結合処理を行います。 | `"Group dt_Sales by Column 'Region' and compute the sum of 'Revenue' for each region into a new DataTable out_Summary"` |
 | **Error Handling & Logging** | メインのボットスレッドを中断することなくエラーをログに記録するため、機密性の高いファイル操作の周囲に標準の try-catch ブロックを実装します。 | `"Try to read file at in_FilePath, catch all exceptions, write details to Console.Error, and set out_IsSuccess to false"` |
 | **File System Manipulation** | 深い再帰的なファイルスキャン、フィルタリング、およびコピー操作を実行します。 | `"Recursively search directory in_SourcePath for all files modified in the last 24 hours, copy them to in_DestPath, and count total files copied in out_FileCount"` |
+
+## トラブルシューティング
+
+Ask AI サービスの使用中にネットワーク接続の問題やエラーが発生した場合は、[Ask AI のトラブルシューティング](../troubleshoot/troubleshoot-ask-ai.md) ガイドを参照してください。
