@@ -125,3 +125,7 @@ These prompts are designed for the **Code Editor** (used in Invoke Code or Scrip
 | **Filter & Aggregation** | Grouping, aggregation, and complex joins on data tables that are too verbose for a single-line expression. | `"Group dt_Sales by Column 'Region' and compute the sum of 'Revenue' for each region into a new DataTable out_Summary"` |
 | **Error Handling & Logging** | Implements standard try-catch blocks around sensitive file operations to log errors without breaking the main bot thread. | `"Try to read file at in_FilePath, catch all exceptions, write details to Console.Error, and set out_IsSuccess to false"` |
 | **File System Manipulation** | Performs deep recursive file scans, filtering, and copying operations. | `"Recursively search directory in_SourcePath for all files modified in the last 24 hours, copy them to in_DestPath, and count total files copied in out_FileCount"` |
+
+## Troubleshooting
+
+If you encounter network connection issues or errors when using the Ask AI service, refer to the [Troubleshoot Ask AI](../troubleshoot/troubleshoot-ask-ai.md) guide.
