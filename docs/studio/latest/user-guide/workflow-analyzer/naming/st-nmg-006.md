@@ -16,7 +16,7 @@ displayed_sidebar: studioSidebar
 
 This rule checks whether variables have the same name as an existing argument from the same workflow.
 
-If a collision is detected, a message is logged in the Error List panel.
+If a collision is detected, a message is logged in the **Analysis Results** window.
 
 ![st-nmg-06](/static/img/st-nmg-06.png)
 

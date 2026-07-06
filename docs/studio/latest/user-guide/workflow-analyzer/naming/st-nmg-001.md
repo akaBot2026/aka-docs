@@ -16,7 +16,7 @@ displayed_sidebar: studioSidebar
 
 Variables in a project should follow a specific naming convention to make it easier to understand the purpose of the variable and to maintain it. The variable name should be meaningful to accurately describe its usage throughout the project.
 
-This rule analyzes all variables in the project and determines whether they follow the specified naming convention (Regex, Prefix). If not, a message is logged in the Error List panel.
+This rule analyzes all variables in the project and determines whether they follow the specified naming convention (Regex, Prefix). If not, a message is logged in the **Analysis Results** window.
 
 ![st-nmg-01](/static/img/st-nmg-01.png)
 
@@ -44,6 +44,17 @@ The Pascal case naming convention specifies that the variable name must contain 
 
 Example of Regex expression: `^(dt_)?([A-Z])+([A-Z]|[a-z]|[0-9])`.
 Valid names: `Hello1World2`, `HelloWorld`, `Hello1World`.
+
+## Examples of Prefixes
+The default prefix for this rule is `v_`, but it can be changed to match your specific naming conventions. Some common prefixes based on data types include:
+
+* **String:** `str_` (e.g., `str_FirstName`)
+* **Integer:** `int_` (e.g., `int_Counter`)
+* **Boolean:** `bool_` (e.g., `bool_IsValid`)
+* **DataTable:** `dt_` (e.g., `dt_EmployeeData`)
+* **List:** `list_` (e.g., `list_EmailAddresses`)
+* **Dictionary:** `dict_` (e.g., `dict_ConfigSettings`)
+* **Generic Variable:** `v_` (e.g., `v_Result`)
 
 ## Parameters
 

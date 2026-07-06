@@ -16,7 +16,7 @@ displayed_sidebar: studioSidebar
 
 Arguments in a project should follow a specific naming convention to make it easier to understand the purpose of the argument and to maintain it. The argument name should be meaningful to accurately describe its usage throughout the project.
 
-This rule analyzes all arguments in the project and determines whether they follow the specific convention. If not, a message is logged in the Error List panel.
+This rule analyzes all arguments in the project and determines whether they follow the specific convention. If not, a message is logged in the Analysis Results window.
 
 ![st-nmg-02](/static/img/st-nmg-02.png)
 

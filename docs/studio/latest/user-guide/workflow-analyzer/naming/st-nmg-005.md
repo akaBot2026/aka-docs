@@ -16,7 +16,7 @@ displayed_sidebar: studioSidebar
 
 This rule checks whether variables in the workflow have the same name.
 
-If variable shadowing is detected, a message is logged in the Error List panel.
+If variable shadowing is detected, a message is logged in the **Analysis Results** window.
 
 ![st-nmg-05](/static/img/st-nmg-05.png)
 
