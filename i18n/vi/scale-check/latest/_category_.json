@@ -1,0 +1,10 @@
+{
+  "label": "Scale Check",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Hướng dẫn sử dụng Scale Check cho việc cài đặt, dịch vụ và tích hợp."
+  }
+}

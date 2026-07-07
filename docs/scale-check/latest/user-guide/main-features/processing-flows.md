@@ -16,6 +16,9 @@ A processing flow helps the business define a series of service steps. For examp
 3. You can filter by status or flow type.
 
 ## Create a New Flow
+
+![workflow-scalecheck](/static/img/workflow-scalecheck.png)
+
 1. Click Create Pipeline.
 2. Enter the Pipeline name and Description.
 3. Turn on Active if the flow is allowed to run.
@@ -29,9 +32,14 @@ Input methods:
 - **Enter when running**: Use this when testing or running the flow manually.
 - **Use previous step output**: Automatically take data from the result of the previous step.
 
+![create-pipeline-scalecheck](/static/img/create-pipeline-scalecheck.png)
+
 ## Monitor a Flow
 1. Go to Service Management > Processing Flows.
 2. Open the Run History tab.
+
+![run-history-scalecheck](/static/img/run-history-scalecheck.png)
+
 3. Check the status of each run and review any failed items if needed.
 - **Completed**: The flow ran successfully.
 - **Partially completed**: Some data was processed successfully, while some items had errors.
