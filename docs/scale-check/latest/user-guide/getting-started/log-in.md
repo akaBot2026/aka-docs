@@ -13,6 +13,8 @@ displayed_sidebar: scaleCheckSidebar
 2. Enter your username and password.
 3. After a successful login, the main workspace appears with the navigation menu on the left.
 
+![scale-check-login](/static/img/scale-check-login.png)
+
 ## User Roles
 
 | Role | Description | Typical permissions |
