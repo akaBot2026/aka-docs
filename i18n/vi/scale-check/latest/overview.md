@@ -9,9 +9,9 @@ displayed_sidebar: scaleCheckSidebar
 
 # Giới thiệu ScaleCheck
 
-Scalecheck là nền tảng Core Service Invoice Platform chuyên cung cấp các dịch vụ xử lý hóa đơn điện tử dưới dạng API và dịch vụ độc lập (Microservices). Thay vì sử dụng một hệ thống nguyên khối, Scalecheck cung cấp các dịch vụ độc lập để doanh nghiệp có thể sử dụng riêng lẻ hoặc kết hợp thành quy trình xử lý hóa đơn theo nhu cầu.
+Scale Check là nền tảng Core Service Invoice Platform chuyên cung cấp các dịch vụ xử lý hóa đơn điện tử dưới dạng API và dịch vụ độc lập (Microservices). Thay vì sử dụng một hệ thống nguyên khối, Scale Check cung cấp các dịch vụ độc lập để doanh nghiệp có thể sử dụng riêng lẻ hoặc kết hợp thành quy trình xử lý hóa đơn theo nhu cầu.
 
-Scalecheck giúp doanh nghiệp:
+Scale Check giúp doanh nghiệp:
 - Tự động hóa quy trình xử lý hóa đơn điện tử.
 - Giảm thao tác thủ công trong việc tải, tra cứu và xác minh hóa đơn.
 - Chuẩn hóa dữ liệu hóa đơn trước khi đưa vào ERP hoặc phần mềm kế toán.

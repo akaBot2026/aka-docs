@@ -47,4 +47,4 @@ Quản trị viên có thể tạo người dùng mới, giới hạn phạm vi 
 ![themuser-scalecheck](/static/img/themuser-scalecheck.png)
 
 ### Bước tiếp theo
-Khi đã có đủ người dùng trên hệ thống, bạn có thể bắt đầu [Thiết lập Quy trình xử lý tự động](../main-features/processing-flows.md) để xử lý hóa đơn.
+Bạn có thể bắt đầu [Thiết lập Quy trình xử lý tự động](../main-features/processing-flows.md) để xử lý hóa đơn.
