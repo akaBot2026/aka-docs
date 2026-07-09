@@ -18,6 +18,8 @@ The Set Web Attribute sets the value for an attribute of a web element.
 
 (\* For Mandatory)
 
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of the activity**
 
 * **Pick target element**\* - Chooses the field on a browser to select the item. This activity will generate a string variable (Selector) to specify the location of that field.
@@ -56,3 +58,22 @@ The Set Web Attribute sets the value for an attribute of a web element.
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: Drag the **Set Web Attribute** activity into the **Do** container of [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md).
+2. **Select the target element**: Click **Pick target element** in the activity body and select the element on the webpage.
+3. **Configure the attribute and value**: In the properties panel, enter the name of the attribute in the **Attribute Name** field and the new value in the **Attribute Value** field.
+4. **Run the workflow**: akaBot locates the element and sets the specified attribute value.
+
+## **Troubleshooting**
+
+* **Selector Not Found Exception / Element Not Found**: 
+  * Ensure that the webpage has loaded completely before performing the action. If needed, insert a [Wait Page Load Complete](/docs/activities/browser/latest/activities/wait-page-load-complete.md) activity first.
+  * Verify that the selector is correct. If the target element contains dynamic attributes (such as changing IDs), open the Selector Editor and replace the dynamic parts with wildcard characters (* or ?).
+  * Ensure the target element is visible and not hidden behind overlays or loader animations. Check the **Wait Visible** property.
+* **Extension Not Enabled**: Ensure the akaBot Web Extension is active and has permissions to run on the target website. Without it, Studio cannot highlight or interact with web elements.
+
+## **Related topics**
+
+* [Working with Web Elements](/docs/activities/browser/latest/user-guide/working-with-web-elements.md)

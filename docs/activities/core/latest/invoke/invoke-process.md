@@ -1,7 +1,7 @@
 ---
 id: invoke-process
 title: "Invoke Process"
-sidebar_label: "invoke-process"
+sidebar_label: "Invoke Process"
 sidebar_position: 6
 description: "invoke-process activity documentation."
 displayed_sidebar: activitiesSidebar

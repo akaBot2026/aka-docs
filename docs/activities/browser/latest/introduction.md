@@ -6,31 +6,29 @@ sidebar_position: 1
 description: "Introduction to Browser activity package"
 displayed_sidebar: activitiesSidebar
 ---
-# Introduction
+# Browser Activities
 
-The **Browser activities** package contains all the **basic activities** used for creating **Web** automation projects.
+The **Browser activities** package (`RCA.Activities.Browser`) contains all the core activities used for designing, building, and executing Web automation workflows in akaBot Studio.
 
-If you use this package to perform Web automation and your browser is updated automatically to newer version, it may lead to unsuitable browser driver issues. In this case, you may need to [configure the Browser driver](/docs/studio/latest/installation/configure-browser-driver.md) to solve the problem.
+These activities enable robots to:
+* **Simulate human interactions**: Click buttons, hover, type text, or navigate webpages.
+* **Extract data**: Scrap data, retrieve text, or capture HTML attributes.
+* **Handle dynamic browser behaviors**: Manage alerts/popups, switch tabs, or reload pages.
 
-These activities enable the robots to:
+---
 
-* **Simulate** human interaction, such as performing mouse and keyboard commands or typing and extracting text, for basic web automation.
-* Create **triggers** based on application behavior, thus enabling the Robot to execute certain actions when specific events occur on a machine.
-* Perform **web** manipulation.
+## Getting Started
 
-**Pick Target Element**
+To build web automation successfully, read and configure the following prerequisites:
 
-The activities that perform actions on UI elements can be configured at design time by using the **Pick target element** button present in the body of the activities in designer.
+1. **[Browser Environment Setup](/docs/activities/browser/latest/setup-browser-environment.md)**: Match your browser and WebDriver versions to avoid communication mismatch issues.
+2. **[Browser Workflow](/docs/activities/browser/latest/user-guide/browser-workflow.md)**: Understand the container-based execution model (such as Open Browser) and session inheritance.
+3. **[Working with Web Elements](/docs/activities/browser/latest/user-guide/working-with-web-elements.md)**: Learn how to capture, identify, and optimize target UI elements on web pages using Selectors.
 
-**Note:**  
-You have to **[Install web extension](/docs/studio/latest/installation/web-exension-installation.md)** in order to Indicate element on **Web browser**.
+---
 
-Click the **Pick target element** button opens **Selector Editor** wizard.
+## Tutorials & Use Cases
 
-![image-20220509131533-1.png](/static/img/20dec3_image-20220509131533-1.png)
-
-After click **Pick target element** button, the **Indicate** field specifies what you are indicating at the moment. When the wizard is opened for the first time, the **Target** needs to be indicated. For each possible target, the wizard automatically selects an anchor, if one is available.
-
-Here is an example result after indicate element on web:
-
-![image-20220509131542-2.png](/static/img/23460f_image-20220509131542-2.png)
+Follow these hands-on guides to learn how to build browser automation step-by-step:
+* **[Google Search Use Case](/docs/activities/browser/latest/user-guide/google-search.md)**: Learn the basics of search, click, and text extraction.
+* **[JavaScript Alert Handling](/docs/activities/browser/latest/user-guide/tabs-alerts-management.md)**: Learn how to automate browser alert popups.

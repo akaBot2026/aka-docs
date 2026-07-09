@@ -126,12 +126,25 @@ To activate the license on the target machine running **akaBot Agent**, please e
 **Step 3:** Enter the required activation parameters:
   - **Center URL:** Your unique akaBot Center address (copied from the _Center URL_ field on the License dashboard).
   - **License Key:** Your enterprise license key (copied from the _License Key_ field).
-  - **Network Options:** If your corporate network routes traffic through an internet Proxy, expand this section and input your Proxy server configurations.
 
-- **Hit button "Activate"** to finalize the process.
+  ![Entering activation credentials on akaBot Agent](/static/img/image-20260528135225-6.png)
+
+  - **Network Options (Optional):** If your corporate network routes traffic through an internet Proxy, configure it as follows:
+    1. Click on **Network options** to expand the section.
+    
+       ![Network options expansion](/static/img/f6f778_image-20260708735609-39.png)
+       
+    2. Check the **Use proxy server** checkbox.
+    3. Input your Proxy server configurations:
+       - **Address:** The IP address or domain name of the Proxy server.
+       - **Port:** The corresponding port number of the Proxy server.
+       - **User name:** The username required to authenticate with the Proxy server.
+       - **Password:** The password required to authenticate with the Proxy server.
+    
+       ![Proxy server configuration](/static/img/f6f778_image-20260708735789-39.png)
+
+**Step 4:** Click **Activate** to finalize the process.
   - _Activation Successful:_ A confirmation popup will appear, and the Agent will transition to a ready state.
   - _Activation Failed:_ Verify your internet connection or contact your network Administrator to check firewall and Proxy rules.
-
-![Entering activation credentials on akaBot Agent](/static/img/image-20260528135225-6.png)
 
 ![Activation success on akaBot Agent](/static/img/image-20260528135225-7.png)

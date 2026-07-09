@@ -1,0 +1,114 @@
+{
+  "display": "form",
+  "components": [
+    {
+      "type": "content",
+      "label": "Content",
+      "input": false,
+      "key": "content",
+      "html": "<p>Welcome! Please fill in your details to complete registration.</p>"
+    },
+    {
+      "type": "textfield",
+      "label": "Full Name",
+      "key": "fullName",
+      "input": true,
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "email",
+      "label": "Work Email",
+      "key": "email",
+      "input": true,
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "phoneNumber",
+      "label": "Phone Number",
+      "key": "phone",
+      "input": true,
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "select",
+      "label": "Department",
+      "key": "department",
+      "input": true,
+      "data": {
+        "values": [
+          {
+            "label": "IT",
+            "value": "IT"
+          },
+          {
+            "label": "Finance",
+            "value": "Finance"
+          },
+          {
+            "label": "HR",
+            "value": "HR"
+          },
+          {
+            "label": "Sales",
+            "value": "Sales"
+          }
+        ]
+      },
+      "dataSrc": "values",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "radio",
+      "label": "Employment Type",
+      "key": "employmentType",
+      "input": true,
+      "values": [
+        {
+          "label": "Full-time",
+          "value": "Full-time"
+        },
+        {
+          "label": "Part-time",
+          "value": "Part-time"
+        }
+      ],
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "datetime",
+      "label": "Start Date",
+      "key": "startDate",
+      "input": true,
+      "format": "yyyy-MM-dd",
+      "enableDate": true,
+      "enableTime": false,
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "type": "hidden",
+      "label": "Employee ID",
+      "key": "employeeId",
+      "input": true
+    },
+    {
+      "type": "button",
+      "label": "Submit",
+      "key": "submit",
+      "input": true,
+      "action": "submit",
+      "theme": "primary"
+    }
+  ]
+}

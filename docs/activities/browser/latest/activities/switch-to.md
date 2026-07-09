@@ -18,6 +18,8 @@ The Switch To activity allows you to switch between different UI Elements within
 
 (\*For Mandatory)
 
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of the activity**
 
 * **Switch To (Dropdown List)** - Choose the type to switch to  
@@ -57,3 +59,20 @@ The Switch To activity allows you to switch between different UI Elements within
 **Options**
 
 * **Wait Timeout MS:** Specifies the maximum time (in milliseconds) the system will wait for the target tab/window to be available before performing the switch. Enter a numeric value. E.g: 30000
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: Drag the **Switch To** activity into the **Do** container of [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md).
+2. **Configure target tab**: Select the **Index** or **Title** of the browser tab you want to switch to in the properties panel.
+3. **Run the workflow**: akaBot switches active focus to the specified tab.
+
+> For more information about browser containers and browser sessions, see **[Browser Workflow](/docs/activities/browser/latest/user-guide/browser-workflow.md)**.
+
+## **Troubleshooting**
+
+* **Invalid Browser Session**: If the activity throws an error or fails to execute, ensure that it is running inside an active [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) or [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md) container, and that the browser tab has not been closed.
+* **WebDriver Communication Failure**: If the browser driver (e.g. ChromeDriver) has crashed or disconnected, restart your browser session and check if the driver version matches your browser (see the [Environment Setup Guide](/docs/activities/browser/latest/setup-browser-environment.md)).
+
+## **Related topics**
+
+* [Browser Workflow](/docs/activities/browser/latest/user-guide/browser-workflow.md)

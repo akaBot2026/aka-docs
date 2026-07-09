@@ -134,13 +134,25 @@ To activate the license on the target workstation running **akaBot Studio**, fol
 
 - **Center URL:** Your unique akaBot Center address.
 - **License Key:** Your enterprise license key.
-- **Network Options:** Input appropriate Proxy credentials if prompted by your network environment.
 
 ![Entering activation credentials on akaBot Studio](/static/img/image-20260528135225-18.png)
 
-- Hit button **"Activate"** to complete activation.
+- **Network Options (Optional):** If your corporate network routes traffic through an internet Proxy, configure it as follows:
+  1. Click on **Network options** to expand the section.
+  
+     ![Network options expansion](/static/img/f6f778_image-20260708735789-40.png)
+     
+  2. Check the **Use proxy server** checkbox.
+  3. Input your Proxy server configurations:
+     - **Address:** The IP address or domain name of the Proxy server.
+     - **Port:** The corresponding port number of the Proxy server.
+     - **User name:** The username required to authenticate with the Proxy server.
+     - **Password:** The password required to authenticate with the Proxy server.
+  
+     ![Proxy server configuration](/static/img/f6f778_image-20260708735789-41.png)
 
- _Activation Successful:_ The Studio workspace will open, presenting the process design canvas.
- _Activation Failed:_ Please verify that your workstation can communicate with the internet.
+**Step 4** – Click **Activate** to complete activation.
+  - _Activation Successful:_ The Studio workspace will open, presenting the process design canvas.
+  - _Activation Failed:_ Please verify that your workstation can communicate with the internet.
 
 ![Activation success on akaBot Studio](/static/img/image-20260528135225-19.png)

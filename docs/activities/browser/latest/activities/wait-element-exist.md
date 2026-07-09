@@ -18,6 +18,8 @@ The Wait Element Exist activity waits for a selected element to appear in a webp
 
 (\* For Mandatory)
 
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of activity**
 
 * **Pick target element\***- Chooses the field to wait until it appears. This activity will generate a string variable (Selector) to specify the location of that field.
@@ -58,3 +60,24 @@ The Wait Element Exist activity waits for a selected element to appear in a webp
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: Drag the **Wait Element Exist** activity into the **Do** container of [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md).
+2. **Select the target element**: Click **Pick target element** in the activity body and select the element on the webpage you want to wait for.
+3. **Configure properties (optional)**: Adjust the **Timeout MS** in the properties panel if you want to wait longer than the default 30 seconds.
+4. **Run the workflow**: akaBot pauses execution until the target element appears on the page or the timeout is reached.
+
+> For more information about selecting web elements and selectors, see **[Working with Web Elements](/docs/activities/browser/latest/user-guide/working-with-web-elements.md)**.
+
+## **Troubleshooting**
+
+* **SelectorNotFoundException / Element Not Found**: 
+  * Ensure that the webpage has loaded completely before performing the action. If needed, insert a [Wait Page Load Complete](/docs/activities/browser/latest/activities/wait-page-load-complete.md) activity first.
+  * Verify that the selector is correct. If the target element contains dynamic attributes (such as changing IDs), open the Selector Editor and replace the dynamic parts with wildcard characters (* or ?).
+  * Ensure the target element is visible and not hidden behind overlays or loader animations. Check the **Wait Visible** property.
+* **Extension Not Enabled**: Ensure the akaBot Web Extension is active and has permissions to run on the target website. Without it, Studio cannot highlight or interact with web elements.
+
+## **Related topics**
+
+* [Working with Web Elements](/docs/activities/browser/latest/user-guide/working-with-web-elements.md)

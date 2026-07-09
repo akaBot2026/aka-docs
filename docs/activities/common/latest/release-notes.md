@@ -9,6 +9,15 @@ displayed_sidebar: activitiesSidebar
 
 # Release notes
 
+## v4.6.0.1
+
+Build date: Jun 15, 2026
+
+* Added: mechanism to retry open browser on a slow machine
+* Added: browser name to log line when 'Preferences file not found' to let user understand well the context
+* Update: bring target browser window to foreground in case of multiple browser windows
+* Fixed: Close Tab activity to not throw exception if target tab is not exists
+
 ## v4.6.0
 
 Build date: May 25, 2026
@@ -131,7 +140,7 @@ Build date: May 25, 2026
     - Wait Web Attribute
     - Wait Web Title
 
-# **How to install activity?**
+## **How to install activity?**
 
 **1. Download package manually**
 
