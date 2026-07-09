@@ -14,10 +14,14 @@ displayed_sidebar: studioSidebar
 
 ## Description
 
-The rule finds sequences that have very few activities and could be included in other containers.
+Finds sequences that contain only a single child activity, adding unnecessary nesting
 
 ![st-mrd-005](/static/img/st-mrd-005.png)
 
 ## Recommendation
 
-Redundant sequences should not be used since they only make the workflow cluttered. 
+Move the child activity out of the sequence and remove the redundant sequence container
+
+## Modifying the Rule
+
+In the ribbon, click the **Analyze** button dropdown and select **Analyze Settings** to open the Analyzer window. Find and select the rule. You can enable or disable this rule according to your preferences.

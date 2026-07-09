@@ -14,12 +14,14 @@ displayed_sidebar: studioSidebar
 
 ## Description
 
-The rule checks whether the `Main.xaml` file mentioned in the `project.json` file exists. 
+The project must contain a 'Main.xaml' file in the root directory
 
 ![st-ana-006](/static/img/st-ana-006.png)
 
 ## Recommendation
 
-Projects with a defined entry point or main file have this specific file name mentioned in the `project.json` file, as a value for the main parameter. Read more About the Project.json File.
+Add a 'Main.xaml' file to the root of the project to serve as the main workflow
 
-It is recommended to fix the `project.json` file to point to the entry/main workflow.
+## Modifying the Rule
+
+In the ribbon, click the **Analyze** button dropdown and select **Analyze Settings** to open the Analyzer window. Find and select the rule. You can enable or disable this rule according to your preferences.

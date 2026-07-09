@@ -14,10 +14,14 @@ displayed_sidebar: studioSidebar
 
 ## Description
 
-The rule checks whether there are any If activities that are empty or contain activities only in the Else branch
+Checks if an 'If' activity has both Then and Else branches left empty
 
 ![st-mrd-017](/static/img/st-mrd-017.png)
 
 ## Recommendation
 
-Remove or disable empty If activities. When only the Else branch is populated, consider switching the condition and moving the content to the Then branch
+Remove the empty 'If' activity or implement logic in the Then/Else branches
+
+## Modifying the Rule
+
+In the ribbon, click the **Analyze** button dropdown and select **Analyze Settings** to open the Analyzer window. Find and select the rule. You can enable or disable this rule according to your preferences.

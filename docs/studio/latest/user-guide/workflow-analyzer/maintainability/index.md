@@ -14,7 +14,7 @@ The following maintainability rules are available in the Workflow Analyzer:
 
 | Rule Name | Rule ID | Scope |
 | --------- | ------- | ----- |
-| [Activity Name Defaults](./st-mrd-002.md) | ST-MRD-002 | Activity |
+| [Activity Name](./st-mrd-002.md) | ST-MRD-002 | Activity |
 | [Redundant Sequences](./st-mrd-005.md) | ST-MRD-005 | Activity |
 | [Nested If](./st-mrd-007.md) | ST-MRD-007 | Workflow |
 | [Empty Sequence](./st-mrd-008.md) | ST-MRD-008 | Activity |

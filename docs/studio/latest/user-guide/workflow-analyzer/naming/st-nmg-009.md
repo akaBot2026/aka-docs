@@ -14,13 +14,13 @@ displayed_sidebar: studioSidebar
 
 ## Description
 
-This rule checks whether the names of DataTable variables defined in the workflow with the type DataTable start with the `dt_` prefix.
+This rule checks whether the names of DataTable variables defined in the workflow with the type DataTable start with the `dt_` prefix
 
 ![st-nmg-09](/static/img/st-nmg-09.png)
 
 ## Recommendation
 
-Make sure the names of existing DataTable variables start with the `dt_` prefix.
+Make sure the names of existing DataTable variables start with the `dt_` prefix
 
 ## Modifying the Rule
 

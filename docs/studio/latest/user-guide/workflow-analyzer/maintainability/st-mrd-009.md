@@ -14,13 +14,13 @@ displayed_sidebar: studioSidebar
 
 ## Description
 
-The rule checks whether nested activities are present in the workflow.
+The rule checks whether any activity is nested too deeply within other activities for maintainability and readability reasons. The default threshold is 7.
 
 ![st-mrd-009](/static/img/st-mrd-009.png)
 
 ## Recommendation
 
-It is usually more difficult to see and understand workflows that have too many deeply nested activities, so it is recommended to avoid deeply nested structures. Instead, it might be better to separate the workflow into smaller ones and use the Invoke Workflow File activity to call them. Consider dividing the workflow into smaller components to avoid deeply nested structures.
+It is recommended to reduce the nesting depth by refactoring the workflow into multiple smaller, reusable workflows.
 
 ## Parameters
 

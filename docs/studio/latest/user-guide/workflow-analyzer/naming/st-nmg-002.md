@@ -49,6 +49,13 @@ The Kebab case naming convention is similar to snake case, except that it replac
 Example of Regex expression: `^in_(dt_)?([a-z]|[A-Z]|[0-9])+‐([a-z]|[A-Z]|[0-9])`
 Valid names: `in_Hello1‐World2`, `in_Hello‐World`.
 
+## Examples of Prefixes
+The prefixes for this rule can be configured to match your project's naming convention for arguments. Some common prefixes based on argument directions include:
+
+* **In Argument:** `in_` (e.g., `in_Config`)
+* **Out Argument:** `out_` (e.g., `out_TransactionData`)
+* **In/Out Argument:** `io_` (e.g., `io_RetryNumber`)
+
 ## Modifying the Rule
 In the ribbon, click the **Analyze** button dropdown and select **Analyze Settings** to open the Analyzer window. Find the rule and select it. You can modify the **Regex** or **Prefix** parameters according to your own naming conventions.
 

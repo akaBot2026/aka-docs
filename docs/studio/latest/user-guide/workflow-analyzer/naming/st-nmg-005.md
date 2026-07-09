@@ -14,15 +14,13 @@ displayed_sidebar: studioSidebar
 
 ## Description
 
-This rule checks whether variables in the workflow have the same name.
-
-If variable shadowing is detected, a message is logged in the **Analysis Results** window.
+Detects when a variable has the same name as a variable in a parent scope or a workflow argument
 
 ![st-nmg-05](/static/img/st-nmg-05.png)
 
 ## Recommendation
 
-Variable names should have unique names if they are in different scopes, but the same workflow file.
+Use unique variable names across sibling and parent scopes to avoid shadowing
 
 ## Modifying the Rule
 

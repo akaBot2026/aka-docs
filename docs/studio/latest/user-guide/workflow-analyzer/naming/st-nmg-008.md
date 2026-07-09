@@ -14,13 +14,13 @@ displayed_sidebar: studioSidebar
 
 ## Description
 
-This rule checks whether the name of each variable defined in the workflow exceeds a certain number of characters.
+Ensures that variable names are descriptive but not excessively long, maintaining code readability
 
 ![st-nmg-08](/static/img/st-nmg-08.png)
 
 ## Recommendation
 
-The names of variables should not be longer than a set number of characters. It is recommended to abbreviate longer words, as they make it difficult to monitor variables during debugging, especially if the first part of the name is the same.
+Shorten the variable name to be more concise while maintaining its descriptive meaning
 
 ## Modifying the Rule
 
@@ -30,7 +30,7 @@ If we add the number 10, then the rule checks if the names of variables defined 
 
 ## Reset to Default Value
 
-The default value for ST-NMG-008 is 30.
+The default value for ST-NMG-008 MaxLength is `20`.
 
 To reset the value to default, right-click the rule in the Analyzer window, and then click **Reset to default**.
 

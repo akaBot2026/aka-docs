@@ -14,13 +14,13 @@ displayed_sidebar: studioSidebar
 
 ## Description
 
-This rule checks whether the names of DataTable arguments defined in the workflow with the type DataTable start with the `dt_` prefix.
+This rule checks whether the names of DataTable arguments defined in the workflow with the type DataTable start with the `dt_` prefix
 
 ![st-nmg-011](/static/img/st-nmg-011.png)
 
 ## Recommendation
 
-Make sure the names of existing DataTable arguments start with the argument type, followed by the `dt_` prefix.
+Make sure the names of existing DataTable arguments start with the argument type, followed by the `dt_` prefix
 
 ## Modifying the Rule
 

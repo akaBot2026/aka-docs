@@ -14,15 +14,13 @@ displayed_sidebar: studioSidebar
 
 ## Description
 
-This rule checks whether variables have the same name as an existing argument from the same workflow.
-
-If a collision is detected, a message is logged in the **Analysis Results** window.
+Detects when a variable has the same name as a workflow argument, which can lead to logic errors and confusion
 
 ![st-nmg-06](/static/img/st-nmg-06.png)
 
 ## Recommendation
 
-The names of variables and arguments should be unique. Although it is technically possible to have the same name, it could create confusion when debugging the workflow.
+Rename the variable to be unique from all workflow arguments
 
 ## Modifying the Rule
 

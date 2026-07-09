@@ -14,15 +14,11 @@ displayed_sidebar: studioSidebar
 
 ## Description
 
-This rule analyzes the display names of activities and determines whether they are repetitive or generic.
-
-The display names of activities should clearly indicate how they are used in the workflow. This makes the project meaningful and avoids any confusion in terms of usage.
+Detects activities with identical DisplayName values within the same workflow, which makes debugging difficult
 
 ## Recommendation
 
-Make sure default names of activities are changed into more meaningful names and are not repeated throughout the workflow.
-
-By adding a more descriptive display name, it might become easier to understand what the activity does. For example, if your workflow uses the Click activity for clicking the Save button in an application, then you could name the activity to Click Save Button, giving it a unique and descriptive name.
+Ensure each activity has a unique, descriptive DisplayName.
 
 ## Modifying the Rule
 
