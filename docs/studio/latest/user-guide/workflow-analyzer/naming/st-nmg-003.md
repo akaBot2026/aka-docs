@@ -2,7 +2,7 @@
 id: st-nmg-003
 title: ST-NMG-003 - Parent Variable Shadowing
 sidebar_label: ST-NMG-003 - Parent Variable Shadowing
-sidebar_position: 3
+sidebar_position: 4
 description: ST-NMG-003 - Parent Variable Shadowing
 displayed_sidebar: studioSidebar
 ---

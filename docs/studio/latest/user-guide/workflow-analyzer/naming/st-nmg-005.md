@@ -2,7 +2,7 @@
 id: st-nmg-005
 title: ST-NMG-005 - Variable Shadowing
 sidebar_label: ST-NMG-005 - Variable Shadowing
-sidebar_position: 5
+sidebar_position: 6
 description: ST-NMG-005 - Variable Shadowing
 displayed_sidebar: studioSidebar
 ---

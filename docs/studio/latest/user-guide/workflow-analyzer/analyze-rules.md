@@ -1,3 +1,11 @@
+---
+title: Analyze Rules
+sidebar_label: Analyze Rules
+sidebar_position: 2
+description: Analyze Rules
+displayed_sidebar: studioSidebar
+---
+
 # Workflow Analyzer Rules
 
 This document provides an overview of the analysis rules defined in the Workflow Analyzer.

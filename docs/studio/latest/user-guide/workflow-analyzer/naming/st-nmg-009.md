@@ -2,7 +2,7 @@
 id: st-nmg-009
 title: ST-NMG-009 - Prefix Datatable Variables
 sidebar_label: ST-NMG-009 - Prefix Datatable Variables
-sidebar_position: 8
+sidebar_position: 9
 description: ST-NMG-009 - Prefix Datatable Variables
 displayed_sidebar: studioSidebar
 ---

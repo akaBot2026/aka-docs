@@ -2,7 +2,7 @@
 id: st-nmg-008
 title: ST-NMG-008 - Variable Length
 sidebar_label: ST-NMG-008 - Variable Length
-sidebar_position: 7
+sidebar_position: 8
 description: ST-NMG-008 - Variable Length
 displayed_sidebar: studioSidebar
 ---
