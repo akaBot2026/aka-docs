@@ -1,7 +1,7 @@
 ---
-id: st-dbp-026
+id: delay-activity-usage
 title: ST-DBP-026 - Delay Activity Usage
-sidebar_label: ST-DBP-026 - Delay Activity Usage
+sidebar_label: "Delay Activity Usage"
 sidebar_position: 6
 description: ST-DBP-026 - Delay Activity Usage
 displayed_sidebar: studioSidebar

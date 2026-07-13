@@ -14,5 +14,5 @@ The following security rules are available in the Workflow Analyzer:
 
 | Rule Name | Rule ID | Scope |
 | --------- | ------- | ----- |
-| [SecureString for Sensitive Arguments](./st-sec-007.md) | ST-SEC-007 | Workflow |
-| [SecureString for Sensitive Variables](./st-sec-008.md) | ST-SEC-008 | Activity |
+| [SecureString for Sensitive Arguments](./securestring-for-sensitive-arguments.md) | ST-SEC-007 | Workflow |
+| [SecureString for Sensitive Variables](./securestring-for-sensitive-variables.md) | ST-SEC-008 | Activity |

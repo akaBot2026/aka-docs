@@ -1,7 +1,7 @@
 ---
-id: st-nmg-004
+id: display-name-duplication
 title: ST-NMG-004 - Display Name Duplication
-sidebar_label: ST-NMG-004 - Display Name Duplication
+sidebar_label: "Display Name Duplication"
 sidebar_position: 5
 description: ST-NMG-004 - Display Name Duplication
 displayed_sidebar: studioSidebar

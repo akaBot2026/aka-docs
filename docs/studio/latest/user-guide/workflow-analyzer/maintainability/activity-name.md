@@ -1,7 +1,7 @@
 ---
-id: st-mrd-002
+id: activity-name
 title: ST-MRD-002 - Activity Name
-sidebar_label: ST-MRD-002 - Activity Name
+sidebar_label: "Activity Name"
 sidebar_position: 2
 description: ST-MRD-002 - Activity Name
 displayed_sidebar: studioSidebar

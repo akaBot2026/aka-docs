@@ -1,7 +1,7 @@
 ---
-id: st-mrd-009
+id: deeply-nested-activities
 title: ST-MRD-009 - Deeply Nested Activities
-sidebar_label: ST-MRD-009 - Deeply Nested Activities
+sidebar_label: "Deeply Nested Activities"
 sidebar_position: 9
 description: ST-MRD-009 - Deeply Nested Activities
 displayed_sidebar: studioSidebar

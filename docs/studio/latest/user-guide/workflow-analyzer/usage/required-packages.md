@@ -1,7 +1,7 @@
 ---
-id: st-usg-027
+id: required-packages
 title: ST-USG-027 - Required Packages
-sidebar_label: ST-USG-027 - Required Packages
+sidebar_label: "Required Packages"
 sidebar_position: 27
 description: ST-USG-027 - Required Packages
 displayed_sidebar: studioSidebar

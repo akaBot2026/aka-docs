@@ -1,7 +1,7 @@
 ---
-id: st-mrd-005
+id: redundant-sequences
 title: ST-MRD-005 - Redundant Sequences
-sidebar_label: ST-MRD-005 - Redundant Sequences
+sidebar_label: "Redundant Sequences"
 sidebar_position: 5
 description: ST-MRD-005 - Redundant Sequences
 displayed_sidebar: studioSidebar

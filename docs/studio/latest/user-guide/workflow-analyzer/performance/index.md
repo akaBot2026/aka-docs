@@ -14,4 +14,4 @@ The following performance rules are available in the Workflow Analyzer:
 
 | Rule Name | Rule ID | Scope |
 | --------- | ------- | ----- |
-| [Hardcoded Delay](./st-prr-004.md) | ST-PRR-004 | Activity |
+| [Hardcoded Delay](./hardcoded-delay-activity.md) | ST-PRR-004 | Activity |

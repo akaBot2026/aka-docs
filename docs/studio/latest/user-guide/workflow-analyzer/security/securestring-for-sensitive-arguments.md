@@ -1,7 +1,7 @@
 ---
-id: st-sec-007
+id: securestring-for-sensitive-arguments
 title: ST-SEC-007 - SecureString for Sensitive Arguments
-sidebar_label: ST-SEC-007 - SecureString for Sensitive Arguments
+sidebar_label: "SecureString for Sensitive Arguments"
 sidebar_position: 7
 description: ST-SEC-007 - SecureString for Sensitive Arguments
 displayed_sidebar: studioSidebar

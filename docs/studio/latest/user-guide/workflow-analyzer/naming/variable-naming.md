@@ -1,7 +1,7 @@
 ---
-id: st-nmg-001
+id: variable-naming
 title: ST-NMG-001 - Variable Naming
-sidebar_label: ST-NMG-001 - Variable Naming
+sidebar_label: "Variable Naming"
 sidebar_position: 2
 description: ST-NMG-001 - Variable Naming
 displayed_sidebar: studioSidebar

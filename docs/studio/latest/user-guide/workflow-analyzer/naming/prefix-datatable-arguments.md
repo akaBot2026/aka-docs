@@ -1,7 +1,7 @@
 ---
-id: st-nmg-011
+id: prefix-datatable-arguments
 title: ST-NMG-011 - Prefix Datatable Arguments
-sidebar_label: ST-NMG-011 - Prefix Datatable Arguments
+sidebar_label: "Prefix Datatable Arguments"
 sidebar_position: 10
 description: ST-NMG-011 - Prefix Datatable Arguments
 displayed_sidebar: studioSidebar

@@ -1,7 +1,7 @@
 ---
-id: st-usg-010
+id: unused-dependencies
 title: ST-USG-010 - Unused Dependencies
-sidebar_label: ST-USG-010 - Unused Dependencies
+sidebar_label: "Unused Dependencies"
 sidebar_position: 10
 description: ST-USG-010 - Unused Dependencies
 displayed_sidebar: studioSidebar

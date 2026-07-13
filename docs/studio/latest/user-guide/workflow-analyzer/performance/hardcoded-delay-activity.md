@@ -1,7 +1,7 @@
 ---
-id: st-prr-004
+id: hardcoded-delay-activity
 title: ST-PRR-004 - Hardcoded Delay Activity
-sidebar_label: ST-PRR-004 - Hardcoded Delay Activity
+sidebar_label: "Hardcoded Delay Activity"
 sidebar_position: 4
 description: ST-PRR-004 - Hardcoded Delay Activity
 displayed_sidebar: studioSidebar

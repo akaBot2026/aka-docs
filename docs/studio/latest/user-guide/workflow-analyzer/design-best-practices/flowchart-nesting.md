@@ -1,7 +1,7 @@
 ---
-id: st-dbp-007
+id: flowchart-nesting
 title: ST-DBP-007 - Flowchart Nesting
-sidebar_label: ST-DBP-007 - Flowchart Nesting
+sidebar_label: "Flowchart Nesting"
 sidebar_position: 4
 description: ST-DBP-007 - Flowchart Nesting
 displayed_sidebar: studioSidebar

@@ -1,7 +1,7 @@
 ---
-id: st-mrd-007
+id: nested-if
 title: ST-MRD-007 - Nested If
-sidebar_label: ST-MRD-007 - Nested If
+sidebar_label: "Nested If"
 sidebar_position: 7
 description: ST-MRD-007 - Nested If
 displayed_sidebar: studioSidebar

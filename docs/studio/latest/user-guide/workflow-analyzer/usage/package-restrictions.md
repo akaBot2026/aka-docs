@@ -1,7 +1,7 @@
 ---
-id: st-usg-014
+id: package-restrictions
 title: ST-USG-014 - Package Restrictions
-sidebar_label: ST-USG-014 - Package Restrictions
+sidebar_label: "Package Restrictions"
 sidebar_position: 14
 description: ST-USG-014 - Package Restrictions
 displayed_sidebar: studioSidebar

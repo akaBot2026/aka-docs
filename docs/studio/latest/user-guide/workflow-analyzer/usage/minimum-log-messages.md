@@ -1,7 +1,7 @@
 ---
-id: st-usg-020
+id: minimum-log-messages
 title: ST-USG-020 - Minimum Log Messages
-sidebar_label: ST-USG-020 - Minimum Log Messages
+sidebar_label: "Minimum Log Messages"
 sidebar_position: 20
 description: ST-USG-020 - Minimum Log Messages
 displayed_sidebar: studioSidebar

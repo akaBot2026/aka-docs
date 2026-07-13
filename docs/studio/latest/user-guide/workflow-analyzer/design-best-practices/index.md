@@ -14,8 +14,8 @@ The following design best practices rules are available in the Workflow Analyzer
 
 | Rule Name | Rule ID | Scope |
 | --------- | ------- | ----- |
-| [High Arguments Count](./st-dbp-002.md) | ST-DBP-002 | Workflow |
-| [Empty Catch Block](./st-dbp-003.md) | ST-DBP-003 | Activity |
-| [Flowchart Nesting](./st-dbp-007.md) | ST-DBP-007 | Workflow |
-| [Empty Workflow](./st-dbp-023.md) | ST-DBP-023 | Workflow |
-| [Delay Activity Usage](./st-dbp-026.md) | ST-DBP-026 | Workflow |
+| [High Arguments Count](./high-arguments-count.md) | ST-DBP-002 | Workflow |
+| [Empty Catch Block](./empty-catch-block.md) | ST-DBP-003 | Activity |
+| [Flowchart Nesting](./flowchart-nesting.md) | ST-DBP-007 | Workflow |
+| [Empty Workflow](./empty-workflow.md) | ST-DBP-023 | Workflow |
+| [Delay Activity Usage](./delay-activity-usage.md) | ST-DBP-026 | Workflow |

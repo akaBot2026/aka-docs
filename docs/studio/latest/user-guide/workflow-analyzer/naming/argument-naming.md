@@ -1,7 +1,7 @@
 ---
-id: st-nmg-002
+id: argument-naming
 title: ST-NMG-002 - Argument Naming
-sidebar_label: ST-NMG-002 - Argument Naming
+sidebar_label: "Argument Naming"
 sidebar_position: 3
 description: ST-NMG-002 - Argument Naming
 displayed_sidebar: studioSidebar
@@ -46,8 +46,8 @@ Valid names: `in_Hello1World2`, `in_HelloWorld`, `in_Hello1World`.
 ### Kebab case
 The Kebab case naming convention is similar to snake case, except that it replaces spaces with hyphens rather than underscores.
 
-Example of Regex expression: `^in_(dt_)?([a-z]|[A-Z]|[0-9])+‐([a-z]|[A-Z]|[0-9])`
-Valid names: `in_Hello1‐World2`, `in_Hello‐World`.
+Example of Regex expression: `^in_(dt_)?([a-z]|[A-Z]|[0-9])+Ã¢â‚¬Â([a-z]|[A-Z]|[0-9])`
+Valid names: `in_Hello1Ã¢â‚¬ÂWorld2`, `in_HelloÃ¢â‚¬ÂWorld`.
 
 ## Examples of Prefixes
 The prefixes for this rule can be configured to match your project's naming convention for arguments. Some common prefixes based on argument directions include:

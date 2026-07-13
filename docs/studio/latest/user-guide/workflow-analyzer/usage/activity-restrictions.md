@@ -1,7 +1,7 @@
 ---
-id: st-usg-026
+id: activity-restrictions
 title: ST-USG-026 - Activity Restrictions
-sidebar_label: ST-USG-026 - Activity Restrictions
+sidebar_label: "Activity Restrictions"
 sidebar_position: 26
 description: ST-USG-026 - Activity Restrictions
 displayed_sidebar: studioSidebar

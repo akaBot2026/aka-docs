@@ -1,7 +1,7 @@
 ---
-id: st-nmg-006
+id: variable-argument-collision
 title: ST-NMG-006 - Variable Argument Collision
-sidebar_label: ST-NMG-006 - Variable Argument Collision
+sidebar_label: "Variable Argument Collision"
 sidebar_position: 7
 description: ST-NMG-006 - Variable Argument Collision
 displayed_sidebar: studioSidebar

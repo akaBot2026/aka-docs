@@ -1,7 +1,7 @@
 ---
-id: st-sec-008
+id: securestring-for-sensitive-variables
 title: ST-SEC-008 - SecureString for Sensitive Variables
-sidebar_label: ST-SEC-008 - SecureString for Sensitive Variables
+sidebar_label: "SecureString for Sensitive Variables"
 sidebar_position: 8
 description: ST-SEC-008 - SecureString for Sensitive Variables
 displayed_sidebar: studioSidebar

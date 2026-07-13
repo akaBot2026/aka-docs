@@ -14,8 +14,8 @@ The following usage rules are available in the Workflow Analyzer:
 
 | Rule Name | Rule ID | Scope |
 | --------- | ------- | ----- |
-| [Unused Dependencies](./st-usg-010.md) | ST-USG-010 | Project |
-| [Package Restrictions](./st-usg-014.md) | ST-USG-014 | Project |
-| [Required Packages](./st-usg-027.md) | ST-USG-027 | Project |
-| [Activity Restrictions](./st-usg-026.md) | ST-USG-026 | Activity |
-| [Minimum Log Messages](./st-usg-020.md) | ST-USG-020 | Workflow |
+| [Unused Dependencies](./unused-dependencies.md) | ST-USG-010 | Project |
+| [Package Restrictions](./package-restrictions.md) | ST-USG-014 | Project |
+| [Required Packages](./required-packages.md) | ST-USG-027 | Project |
+| [Activity Restrictions](./activity-restrictions.md) | ST-USG-026 | Activity |
+| [Minimum Log Messages](./minimum-log-messages.md) | ST-USG-020 | Workflow |

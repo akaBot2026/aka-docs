@@ -1,7 +1,7 @@
 ---
-id: st-dbp-003
+id: empty-catch-block
 title: ST-DBP-003 - Empty Catch Block
-sidebar_label: ST-DBP-003 - Empty Catch Block
+sidebar_label: "Empty Catch Block"
 sidebar_position: 3
 description: ST-DBP-003 - Empty Catch Block
 displayed_sidebar: studioSidebar

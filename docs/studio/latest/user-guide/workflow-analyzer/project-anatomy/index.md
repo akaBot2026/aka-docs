@@ -14,5 +14,5 @@ The following project anatomy rules are available in the Workflow Analyzer:
 
 | Rule Name | Rule ID | Scope |
 | --------- | ------- | ----- |
-| [Project Workflow Count](./st-ana-003.md) | ST-ANA-003 | Workflow |
-| [Main Workflow Exists](./st-ana-006.md) | ST-ANA-006 | Project |
+| [Project Workflow Count](./project-workflow-count.md) | ST-ANA-003 | Workflow |
+| [Main Workflow Exists](./main-workflow-exists.md) | ST-ANA-006 | Project |

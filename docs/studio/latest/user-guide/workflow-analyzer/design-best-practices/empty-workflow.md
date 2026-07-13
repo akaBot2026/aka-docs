@@ -1,7 +1,7 @@
 ---
-id: st-dbp-023
+id: empty-workflow
 title: ST-DBP-023 - Empty Workflow
-sidebar_label: ST-DBP-023 - Empty Workflow
+sidebar_label: "Empty Workflow"
 sidebar_position: 5
 description: ST-DBP-023 - Empty Workflow
 displayed_sidebar: studioSidebar

@@ -1,7 +1,7 @@
 ---
-id: st-dbp-002
+id: high-arguments-count
 title: ST-DBP-002 - High Arguments Count
-sidebar_label: ST-DBP-002 - High Arguments Count
+sidebar_label: "High Arguments Count"
 sidebar_position: 2
 description: ST-DBP-002 - High Arguments Count
 displayed_sidebar: studioSidebar

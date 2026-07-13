@@ -14,13 +14,13 @@ The following naming rules are available in the Workflow Analyzer:
 
 | Rule Name | Rule ID | Scope |
 | --------- | ------- | ----- |
-| [Variable Naming](./st-nmg-001.md) | ST-NMG-001 | Activity |
-| [Argument Naming](./st-nmg-002.md) | ST-NMG-002 | Workflow |
-| [Parent Variable Shadowing](./st-nmg-003.md) | ST-NMG-003 | Workflow |
-| [Display Name Duplication](./st-nmg-004.md) | ST-NMG-004 | Workflow |
-| [Variable Shadowing](./st-nmg-003.md) | ST-NMG-003 | Workflow |
-| [Variable Argument Collision](./st-nmg-006.md) | ST-NMG-006 | Workflow |
-| [Variable Length](./st-nmg-008.md) | ST-NMG-008 | Activity |
-| [Prefix Datatable Variables](./st-nmg-009.md) | ST-NMG-009 | Activity |
-| [Prefix Datatable Arguments](./st-nmg-011.md) | ST-NMG-011 | Workflow |
-| [Argument Length](./st-nmg-016.md) | ST-NMG-016 | Workflow |
+| [Variable Naming](./variable-naming.md) | ST-NMG-001 | Activity |
+| [Argument Naming](./argument-naming.md) | ST-NMG-002 | Workflow |
+| [Parent Variable Shadowing](./parent-variable-shadowing.md) | ST-NMG-003 | Workflow |
+| [Display Name Duplication](./display-name-duplication.md) | ST-NMG-004 | Workflow |
+| [Variable Shadowing](./parent-variable-shadowing.md) | ST-NMG-003 | Workflow |
+| [Variable Argument Collision](./variable-argument-collision.md) | ST-NMG-006 | Workflow |
+| [Variable Length](./variable-length.md) | ST-NMG-008 | Activity |
+| [Prefix Datatable Variables](./prefix-datatable-variables.md) | ST-NMG-009 | Activity |
+| [Prefix Datatable Arguments](./prefix-datatable-arguments.md) | ST-NMG-011 | Workflow |
+| [Argument Length](./argument-length.md) | ST-NMG-016 | Workflow |
