@@ -70,17 +70,17 @@ Please make sure that your akaBot Center machine has below installation packages
 
 | # | Platform name | Package name | Version | Description | Download |
 |---|---------------|--------------|---------|-------------|----------|
-| 1 | JDK/JRE | openlogic-openjdk-11.0.16+8-linux-x64-el.rpm | 11.0.16 | OpenJDK | [Download](#) |
-| 2 | Apache tomcat | apache-tomcat-8.5.57.tar.gz | 8.5.57 | Web server Apache Tomcat | [Download](#) |
-| 3 | ActiveMQ | apache-activemq-5.15.1-bin.tar.gz | 5.15.1 | ActiveMQ is used for queue-related features | [Download](#) |
+| 1 | JDK/JRE | openlogic-openjdk-11.0.16+8-linux-x64-el.rpm | 11.0.16 | OpenJDK | [Download](https://builds.openlogic.com/downloadJDK/openlogic-openjdk/11.0.16+8/openlogic-openjdk-11.0.16+8-linux-x64-el.rpm) |
+| 2 | Apache tomcat | apache-tomcat-8.5.57.tar.gz | 8.5.57 | Web server Apache Tomcat | [Download](https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89.exe) |
+| 3 | ActiveMQ | apache-activemq-5.15.1-bin.tar.gz | 5.15.1 | ActiveMQ is used for queue-related features | [Download](https://archive.apache.org/dist/activemq/5.15.1/apache-activemq-5.15.1-bin.tar.gz) |
 | 4 | akaBot Center | akaBot-center-x.x.x.x.war | 3.0.1.2 or later | akaBot Center installation package | akaBot provided |
-| 5 | Oracle JDBC driver | ojdbc8.jar | ojdbc8 | Oracle JDBC driver | [Download](#) |
-| 6 | Nginx Load Balancer | nginx-1.22.1-1.el8.ngx.x86_64.rpm | 1.22.1 | NGINX Load Balancer package | [Download](#) |
-| 7 | Redis Cache | redis-5.0.3-5.module+el8.4.0+12927+b9845322.x86_64.rpm | 5.0.3 | Redis Cache package | [Download](#) |
-| 8 | Kibana | kibana-7.17.12-x86_64.rpm | 7.17.12 | Kibana package (Optional) | [Download](#) |
-| 9 | Elastic Search | elasticsearch-7.17.12-x86_64.rpm | 7.17.12 | ElasticSearch package | [Download](#) |
-| 10 | Logstash | logstash-7.17.12-x86_64.rpm | 7.17.12 | Log analysis platform package | [Download](#) |
-| 11 | Filebeat | filebeat-7.17.12-x86_64.rpm | 7.17.12 | Filebeat package | [Download](#) |
+| 5 | Oracle JDBC driver | ojdbc8.jar | ojdbc8 | Oracle JDBC driver | [Download](https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html) |
+| 6 | Nginx Load Balancer | nginx-1.22.1-1.el8.ngx.x86_64.rpm | 1.22.1 | NGINX Load Balancer package | [Download](https://nginx.org/packages/rhel/8/x86_64/RPMS/) |
+| 7 | Redis Cache | redis-5.0.3-5.module+el8.4.0+12927+b9845322.x86_64.rpm | 5.0.3 | Redis Cache package | [Download](https://fbi2.cdn.euro-linux.com/dist/eurolinux/server/8/x86_64/certify-AppStream/all/Packages/r/) |
+| 8 | Kibana | kibana-7.17.12-x86_64.rpm | 7.17.12 | Kibana package (Optional) | [Download](https://artifacts.elastic.co/downloads/kibana/kibana-7.17.12-x86_64.rpm) |
+| 9 | Elastic Search | elasticsearch-7.17.12-x86_64.rpm | 7.17.12 | ElasticSearch package | [Download](https://www.elastic.co/fr/downloads/past-releases/elasticsearch-7-17-12) |
+| 10 | Logstash | logstash-7.17.12-x86_64.rpm | 7.17.12 | Log analysis platform package | [Download](https://artifacts.elastic.co/downloads/logstash/logstash-7.17.12-x86_64.rpm) |
+| 11 | Filebeat | filebeat-7.17.12-x86_64.rpm | 7.17.12 | Filebeat package | [Download](https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.17.12-x86_64.rpm) |
 
 **Notes:**
 - You should use a separate folder to place installation packages in each server. In this guide, we use the folder named: `/apps`
