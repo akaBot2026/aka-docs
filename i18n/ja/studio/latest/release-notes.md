@@ -56,6 +56,11 @@ displayed_sidebar: studioSidebar
 * Word 3.2.1.0
 
 ---
+## v2.2.0.14
+
+* 更新：PowerShellでUUIDを取得するためのライセンスモジュール（MWICが無効化または非推奨になった場合）
+
+---
 ## v2.2.0.13
 
 * 追加: AutoLogonTool の SecureLockLostModeText 画面をバイパスする機能を追加

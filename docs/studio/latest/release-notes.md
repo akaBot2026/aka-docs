@@ -58,6 +58,11 @@ displayed_sidebar: studioSidebar
 * Word 3.2.1.0
 
 ---
+## v2.2.0.14
+
+* Update: licensing module to get UUID by PowerShell (in case MWIC disabled or deprecated)
+
+---
 ## v2.2.0.13
 
 * Added: support bypass SecureLockLostModeText screen for AutoLogonTool
