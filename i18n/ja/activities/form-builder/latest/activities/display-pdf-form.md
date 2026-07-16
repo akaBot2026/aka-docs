@@ -1,4 +1,4 @@
-﻿---
+---
 id: display-pdf-form
 title: "PDFフォームを表示"
 sidebar_label: "PDFフォームを表示"
