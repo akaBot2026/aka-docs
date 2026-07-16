@@ -1,4 +1,4 @@
-﻿---
+---
 id: how-to-use-recorder
 title: How to Use Recorder
 sidebar_label: How to Use Recorder
@@ -21,7 +21,7 @@ Each recorded action generates an activity. The following table lists the action
 
 | Automatically Recorded Actions | Actions That Must Be Selected Before Recording |
 | --- | --- |
-| - Clicking buttons, links, icons, images, and other clickable elements (**Click** activity).<br>- Typing text into a text box or text area (**Type Into** activity).<br>- Selecting or clearing a check box (**Check/Uncheck** activity).<br>- Selecting an item from a drop-down list (**Select Item** activity). | - Copying text using the **Get Text** activity.<br>- Hovering over an element using the **Hover** activity.<br>- Sending keyboard shortcuts (**Send Hot Key** activity).<br>- Selecting multiple items using the **Select Multiple Items** activity. |
+| - Clicking buttons, links, icons, images, and other clickable elements (**Click** activity).<br />- Typing text into a text box or text area (**Type Into** activity).<br />- Selecting or clearing a check box (**Check/Uncheck** activity).<br />- Selecting an item from a drop-down list (**Select Item** activity). | - Copying text using the **Get Text** activity.<br />- Hovering over an element using the **Hover** activity.<br />- Sending keyboard shortcuts (**Send Hot Key** activity).<br />- Selecting multiple items using the **Select Multiple Items** activity. |
 
 ## Recording Your Actions
 
