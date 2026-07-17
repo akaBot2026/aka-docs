@@ -2,10 +2,11 @@
 id: upload-object
 title: "オブジェクトのアップロード"
 sidebar_label: "オブジェクトのアップロード"
-sidebar_position: 1
+sidebar_position: 4
 description: "Upload Object アクティビティのドキュメント。"
 displayed_sidebar: activitiesSidebar
 ---
+
 # オブジェクトのアップロード
 
 RCA.Activities.GoogleCloud.GCPUploadObject
@@ -16,19 +17,19 @@ RCA.Activities.GoogleCloud.GCPUploadObject
 
 ![upload-object](/static/img/upload-object.png)
 
-(※ 必須の場合)
+(※ 必須項目)
 
 ## **アクティビティ本文内**
 
-* **Bucket** - 送信先のバケット。
-* **Object Name** - 作成するオブジェクト名。
+* **Bucket** - アップロード先のバケット。
+* **Object Name** - 作成するオブジェクトの名前。
 * **File To Upload** - アップロードするローカルファイルのパス。
 
 ## **プロパティ**
 
 **入力**
 
-* **Bucket: `InArgument<GCPBucket>`*** - 送信先のバケット。
+* **Bucket: `InArgument<GCPBucket>`*** - アップロード先バケット。
 
 * **Object Name: `InArgument<String>`*** - 作成するオブジェクト名。
 
@@ -50,9 +51,9 @@ RCA.Activities.GoogleCloud.GCPUploadObject
 
 **その他**
 
-* **Public (Checkbox)** - アクティビティを公開する場合はチェックしてください。使用前にデータセキュリティ要件を検討してください。
+* **Public (チェックボックス)** - アクティビティを公開する場合にチェックしてください。公開前にデータセキュリティ要件を確認してください。
 
-* **Display Name (String)** - このアクティビティの表示名。コードの整理のために名前を編集できます。
+* **Display Name (String)** - このアクティビティの表示名。管理しやすい名前に変更できます。
   例: [3424325] Open Window
 
 **出力**

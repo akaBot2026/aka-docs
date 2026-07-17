@@ -1,0 +1,9 @@
+{
+  "label": "Tổ chức và phân quyền",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

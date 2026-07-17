@@ -1,0 +1,10 @@
+{
+  "label": "Naming",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "This section contains rules that check if items in your akaBot Studio projects follow standard naming conventions. Following consistent naming conventions makes it easier to understand the purpose of variables and arguments, and helps maintain your automation projects."
+  }
+}

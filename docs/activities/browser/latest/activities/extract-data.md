@@ -18,6 +18,8 @@ The Extract Data activity allows you to get data from a specified webpage.
 
 (\* For Mandatory)
 
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of activity**
 
 * **Config Json (String)**\* - Json file enables you to extract data from indicated webpage. The text must be quoted.  
@@ -46,3 +48,21 @@ The Extract Data activity allows you to get data from a specified webpage.
 **Output**
 
 * **Output Json (String)\***- The outputted data with type = ‘String’. Not allow white space in output’s name.
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: Drag the **Extract Data** activity into the **Do** container of [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md).
+2. **Configure target data**: Click the **Pick target element** helper to define the text or element to scrape.
+3. **Set the output variable**: Specify a DataTable variable in the **Extract Data** property of the properties panel to store the result.
+4. **Run the workflow**: akaBot extracts the configured web data and writes it to the designated variable.
+
+> For more information about selecting web elements and selectors, see **[Working with Web Elements](/docs/activities/browser/latest/user-guide/working-with-web-elements.md)**.
+
+## **Troubleshooting**
+
+* **Invalid Browser Session**: If the activity throws an error or fails to execute, ensure that it is running inside an active [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) or [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md) container, and that the browser tab has not been closed.
+* **WebDriver Communication Failure**: If the browser driver (e.g. ChromeDriver) has crashed or disconnected, restart your browser session and check if the driver version matches your browser (see the [Environment Setup Guide](/docs/activities/browser/latest/setup-browser-environment.md)).
+
+## **Related topics**
+
+* [Working with Web Elements](/docs/activities/browser/latest/user-guide/working-with-web-elements.md)

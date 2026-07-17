@@ -1,0 +1,11 @@
+{
+  "label": "Workflow Analyzer",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to use Workflow Analyzer to inspect your automation projects for quality, performance, and security standard compliance."
+  }
+}
+

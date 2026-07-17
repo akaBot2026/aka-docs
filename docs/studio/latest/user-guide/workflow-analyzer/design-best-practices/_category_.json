@@ -1,0 +1,10 @@
+{
+  "label": "Design Best Practices",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "This section contains rules that check if your akaBot Studio projects follow design best practices. Following these practices ensures better maintainability, readability, and reliability of your automation workflows."
+  }
+}

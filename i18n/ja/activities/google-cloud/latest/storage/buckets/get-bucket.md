@@ -6,21 +6,22 @@ sidebar_position: 3
 description: "Get Bucket アクティビティのドキュメント。"
 displayed_sidebar: activitiesSidebar
 ---
+
 # バケットの取得
 
 RCA.Activities.GoogleCloud.GCPGetBucket
 
 ## **説明**
 
-名前で Google Cloud Storage のバケットを取得します。
+バケット名を指定して Google Cloud Storage のバケット情報を取得します。
 
 ![get-bucket](/static/img/get-bucket.png)
 
-(※ 必須の場合)
+(※ 必須項目)
 
 ## **アクティビティ本文内**
 
-* **Bucket Name** - 取得するバケットの名前。
+* **Bucket Name** - 取得したいバケットの名前。
 
 ## **プロパティ**
 
@@ -30,12 +31,12 @@ RCA.Activities.GoogleCloud.GCPGetBucket
 
 **その他**
 
-* **Public (Checkbox)** - アクティビティを公開する場合はチェックしてください。使用前にデータセキュリティ要件を検討してください。
+* **Public (チェックボックス)** - アクティビティを公開する場合にチェックしてください。公開前にデータセキュリティ要件を確認してください。
 
-* **Display Name (String)** - このアクティビティの表示名。コードの整理のために名前を編集できます。
+* **Display Name (String)** - このアクティビティの表示名。コードの整理のために編集できます。
   例: [3424325] Open Window
 
 **出力**
 
-* **Bucket: `OutArgument<GCPBucket>`** - 取得したバケット。
+* **Bucket: `OutArgument<GCPBucket>`** - 取得したバケットオブジェクト。
 

@@ -8,11 +8,11 @@ displayed_sidebar: activitiesSidebar
 ---
 # Browser Scope
 
-RCA.Activities.Browser.BrowserScrope
+RCA.Activities.Browser.BrowserScope
 
 ## **Description**
 
-The Browser Scope activity creates a container that lets you attach an already opened Browser and execute actions within the Browser.
+The **Browser Scope** activity is a container that allows subsequent Browser activities to continue working with an existing browser session by using a Browser variable.
 
 ![Browser_BrowserScope](/static/img/c5655a_c41d394-screenshot_2021-05-25_155316.jpg)  
 (\* For Mandatory)
@@ -42,4 +42,22 @@ The Browser Scope activity creates a container that lets you attach an already o
 
 **Output**
 
-* **Output Browser (String)** - Output of the activity with type = ‘Browser’. Not allow whitespace in the output’s name.
+* **Output Browser (String)**  - Output of the activity with type = ‘Browser’. Not allow whitespace in the output’s name.
+
+## **Step-by-Step Usage**
+
+1. **Add the Browser Scope activity**: Drag the **Browser Scope** activity below a container or activity that outputs a browser session.
+2. **Select the browser session**: In the **Browser** property (under **Input**), select the `Browser` variable representing the active session. For more details on browser variables, see [Browser Workflow](/docs/activities/browser/latest/user-guide/browser-workflow.md).
+3. **Add nested activities**: Drag the browser activities you want to execute into the **Do** container.
+4. **Run the workflow**: akaBot executes the nested activities in the same browser session.
+
+![browser-scope.png](/static/img/browser-scope.png)
+
+## **Troubleshooting**
+
+* **Null Browser Reference**: If the input browser variable is null or uninitialized, the activity will throw a `NullReferenceException`. Ensure that the parent activity that initialized the variable executed successfully.
+* **Auto-Quitting**: If **Quit Browser on Completed or Faulted** is checked (default), the browser session will close immediately after the activities in the **Do** container finish. Uncheck it if you need the browser to remain open.
+
+## **Related topics**
+
+* [Browser Workflow](/docs/activities/browser/latest/user-guide/browser-workflow.md)

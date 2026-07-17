@@ -15,7 +15,8 @@ Use the links below to download Akabot Studio installers. Each row corresponds t
 
 | Version     | Build date    | Download                                                                     |
 | ----------- | ------------- | ---------------------------------------------------------------------------- |
-| v3.0.0.0    | Jan 06, 2026  | [Download](https://ws3.akabot.com/s/syU2TSmP3oNcOhD) (BETA VERSION)          |
+| v2.2.0.14   | Jul 16, 2026  | [Download](https://ws3.akabot.com/s/viRRORLdKdnugwm)                         |
+| v2.2.0.13   | Jun 17, 2026  | [Download](https://ws3.akabot.com/s/XtLAL29x3vAt4Gu)                         |
 | v2.2.0.12   | May 25, 2026  | [Download](https://ws3.akabot.com/s/JA95evQz7ZOvT4l)                         |
 | v2.2.0.11   | Apr 29, 2026  | [Download](https://ws3.akabot.com/s/8z0ZSMFVjhzfrNw)                         |
 | v2.2.0.10   | Apr 21, 2026  | [Download](https://ws3.akabot.com/s/btdj2o558GaCHYn)                         |

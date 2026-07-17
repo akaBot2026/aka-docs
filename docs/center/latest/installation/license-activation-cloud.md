@@ -7,7 +7,7 @@ description: "License Activation and connection documentation for akaBot Center 
 displayed_sidebar: centerSidebar
 ---
 
-
+# License Activation Cloud
 ## **1. User Account Activation**
 
 ### **1.1. Receiving Account Registration Emails**

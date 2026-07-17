@@ -19,6 +19,8 @@ value.
 
 (\* For Mandatory)
 
+**Container Requirement:** This activity must run inside an [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md) container.
+
 ## **In the body of the activity**
 
 * **Comparison Operator (Dropdown List)**- allow mathematical calculation as well as basic operations to be performed with ease  
@@ -59,3 +61,16 @@ value.
 * **Result (Boolean)** - A Boolean variable has two possible values: True or False  
   **・True** - The page title meets the requirement.  
   **・False** -The page does not meet the requirement.
+
+## **Step-by-Step Usage**
+
+1. **Place inside a browser container**: Drag the **Wait Web Title** activity into the **Do** container of [Open Browser](/docs/activities/browser/latest/activities/open-browser.md), [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md), or [Browser Scope](/docs/activities/browser/latest/activities/browser-scope.md).
+2. **Configure the target title**: Enter the expected title string (or a wildcard pattern) in the **Title** property of the properties panel.
+3. **Run the workflow**: akaBot pauses execution until the browser's active tab title matches the specified text.
+
+> For more information about browser containers and browser sessions, see **[Browser Workflow](/docs/activities/browser/latest/user-guide/browser-workflow.md)**.
+
+## **Troubleshooting**
+
+* **Invalid Browser Session**: If the activity throws an error or fails to execute, ensure that it is running inside an active [Open Browser](/docs/activities/browser/latest/activities/open-browser.md) or [Attach Browser](/docs/activities/browser/latest/activities/attach-browser.md) container, and that the browser tab has not been closed.
+* **WebDriver Communication Failure**: If the browser driver (e.g. ChromeDriver) has crashed or disconnected, restart your browser session and check if the driver version matches your browser (see the [Environment Setup Guide](/docs/activities/browser/latest/setup-browser-environment.md)).

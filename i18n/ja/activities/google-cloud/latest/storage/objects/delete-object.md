@@ -2,10 +2,11 @@
 id: delete-object
 title: "オブジェクトの削除"
 sidebar_label: "オブジェクトの削除"
-sidebar_position: 4
+sidebar_position: 2
 description: "Delete Object アクティビティのドキュメント。"
 displayed_sidebar: activitiesSidebar
 ---
+
 # オブジェクトの削除
 
 RCA.Activities.GoogleCloud.GCPDeleteObject
@@ -16,7 +17,7 @@ Google Cloud Storage のオブジェクトを削除します。
 
 ![delete-object](/static/img/delete-object.png)
 
-(※ 必須の場合)
+(※ 必須項目)
 
 ## **アクティビティ本文内**
 
@@ -26,14 +27,14 @@ Google Cloud Storage のオブジェクトを削除します。
 
 **入力**
 
-* **Object: `InArgument<GCPObject>`*** - 削除対象のオブジェクト。
+* **Object: `InArgument<GCPObject>`*** - 削除対象オブジェクト。
 
-* **Generation: `InArgument<Int64>`** - 削除するオブジェクトの世代（generation）。
+* **Generation: `InArgument<Int64>`** - 削除対象の generation（世代）を指定できます。
 
 **その他**
 
-* **Public (Checkbox)** - アクティビティを公開する場合はチェックしてください。使用前にデータセキュリティ要件を検討してください。
+* **Public (チェックボックス)** - アクティビティを公開する場合にチェックしてください。公開前にデータセキュリティ要件を確認してください。
 
-* **Display Name (String)** - このアクティビティの表示名。コードの整理のために名前を編集できます。
+* **Display Name (String)** - このアクティビティの表示名。管理しやすい名前に変更できます。
   例: [3424325] Open Window
 
