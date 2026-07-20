@@ -25,6 +25,7 @@ In the **Contacts** area, you can:
 - Export one contact or many contacts to CSV
 - Open a contact detail page and update contact properties
 - Organize contacts with tags (labels, lists, lead/lifecycle tags)
+- [Merge duplicate contacts](./contact-merge) into one profile
 
 Example: A customer messages through Zalo today and Facebook next week. Contact information helps your team recognize that both conversations belong to the same person.
 
@@ -207,6 +208,12 @@ Important behavior in the current implementation:
 - [Tickets](./ticket-usage): tickets can be linked to the customer.
 - [Analytics](./analytics-usage): contact activity helps managers understand growth and customer movement.
 - [AI Assistant](../scaleflow-ai/ai-assistant): AI can use conversation context and contact details when your setup allows it.
+- [Merge contacts](./contact-merge): combine duplicate profiles into one.
+
+## Related guides
+
+- [Merge contacts](./contact-merge)
+- [Workspace tags & lists](../settings/workspace-tags)
 
 ## Practical workflow
 

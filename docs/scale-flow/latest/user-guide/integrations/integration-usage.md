@@ -48,7 +48,7 @@ If you cannot connect or edit integrations, ask your admin to grant integration 
 | **Google Drive** | [Google Drive Integration](./google-drive-integration) |
 | **Make** | [Make Integration](./make-integration) |
 
-Other providers in the grid (for example **Shopify**, **Salesforce**, **Zapier**) may show **Coming soon** and cannot be connected yet. Shopify already has a guide for when it is enabled: [Shopify Integration](./shopify-integration).
+Other providers in the grid (for example **Salesforce**, **Zapier**) may show **Coming soon** and cannot be connected yet. **Shopify** is available — see [Shopify Integration](./shopify-integration).
 
 ## Connect a new integration
 
