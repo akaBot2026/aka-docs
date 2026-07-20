@@ -9,7 +9,7 @@ displayed_sidebar: scaleFlowSidebar
 
 # Analytics Usage
 
-Analytics helps you understand what is happening in your customer support operation. It shows message, conversation, ticket, and contact activity over time.
+Analytics helps you understand what is happening in your customer support operation. It shows message, conversation, ticket, contact, and broadcast activity over time.
 
 Use Analytics when you want to answer questions such as:
 
@@ -18,6 +18,7 @@ Use Analytics when you want to answer questions such as:
 - How many tickets were created or resolved?
 - Are many customers waiting for support?
 - Are contacts growing over time?
+- How did our last Broadcast perform?
 
 ## What Analytics tracks
 
@@ -28,17 +29,18 @@ Analytics helps you track operational activity over time, including:
 - Conversations created/updated
 - Ticket activity (created, resolved, reopened, assigned, priority changes)
 - Contact lifecycle activity
+- Broadcast campaign activity
 
 ## Open Analytics
 
-1. In the left sidebar, open **AI**.
-2. Select **Analytics**.
-3. Choose one of 5 sections:
+1. In the left sidebar, click **Analytics**.
+2. Choose one of the sections:
    - **Overview**
    - **Conversation**
    - **Message**
    - **Ticket**
    - **Contact**
+   - **Broadcast**
 
 If you cannot see Analytics, ask your admin to review your role access.
 
@@ -162,6 +164,14 @@ Common dimension:
 
 - Lifecycle stage
 
+### 6. Broadcast
+
+Use this tab after you send [Broadcasts](./broadcast-usage). It helps you see how mass messages performed over time (for example sends, deliveries, and related activity).
+
+![Broadcast analytics tab](/static/img/analytic-broadcast.png)
+
+For recipient-level detail of one send, open that broadcast’s **Overview** page inside Broadcasts (Sent / Delivered / Read / Replied / Failed).
+
 ## How to read charts quickly
 
 - Horizontal axis = time
@@ -200,6 +210,7 @@ Common dimension:
 - [Inbox](./inbox-usage) creates conversation and message activity.
 - [Tickets](./ticket-usage) create ticket activity.
 - [Contacts](./contact-management) create contact activity.
+- [Broadcasts](./broadcast-usage) create broadcast activity.
 - [AI Assistant](../scaleflow-ai/ai-assistant) can reduce manual workload, and Analytics helps you monitor the operational impact.
 
 ## Quick troubleshooting
