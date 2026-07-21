@@ -23,6 +23,10 @@ Each recorded action generates an activity. The following table lists the action
 | --- | --- |
 | - Clicking buttons, links, icons, images, and other clickable elements (**Click** activity).<br />- Typing text into a text box or text area (**Type Into** activity).<br />- Selecting or clearing a check box (**Check/Uncheck** activity).<br />- Selecting an item from a drop-down list (**Select Item** activity). | - Copying text using the **Get Text** activity.<br />- Hovering over an element using the **Hover** activity.<br />- Sending keyboard shortcuts (**Send Hot Key** activity).<br />- Selecting multiple items using the **Select Multiple Items** activity. |
 
+> **NOTE**
+> - **Supported Browsers:** It is recommended to run your web automations on the latest versions of **Google Chrome, Microsoft Edge, or Mozilla Firefox**.
+> - **Prerequisite:** Ensure that the corresponding **akaBot Web Extension** is installed and enabled in your browser before starting the Recorder.
+
 ## Recording Your Actions
 
 1. Open the application or web browser page that you want to automate.
