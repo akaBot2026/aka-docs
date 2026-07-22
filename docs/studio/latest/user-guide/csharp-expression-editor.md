@@ -9,164 +9,137 @@ displayed_sidebar: studioSidebar
 
 # C# Expression Editor & IntelliSense
 
-akaBot Studio now supports **C#** as a project expression language in addition to VB.NET. This means you can write all your activity expressions — variable assignments, conditions, string operations, and LINQ queries — using C# syntax instead of VB.NET.
+In previous versions, akaBot Studio only supported VB.NET as the project expression language when creating a new automation project. With the latest update, akaBot Studio has added full support for the **C#** language. You can now build workflows, assign variables, set conditions, and write LINQ queries using C# syntax.
 
-This guide walks you through creating a C# project, using the C# Expression Editor, and getting the most out of C# IntelliSense.
+This guide walks you through creating a C# project, using the C# Expression Editor, understanding the C# IntelliSense features, and migrating legacy projects.
 
-> **Note:** If you have an existing VB.NET project and want to keep using it, nothing changes — VB.NET projects are fully supported. C# is an **opt-in** choice you make at project creation time. For details on migrating old projects, see [Migrating from project.json to project.v1.json](#migrating-from-projectjson-to-projectv1json) at the end of this page.
+---
 
 ## How to Create a New C# Project
 
-1. Open **akaBot Studio**. On the Start screen, click **New Project**.
+To create a new project with C# as the expression language, follow these steps:
 
-   ![Creating a new blank project](/static/img/csharp-new-project-step.png)
+1. Open **akaBot Studio**, and click **New Project** on the Start screen to open the **New Blank Project** dialog.
 
-2. In the **New Blank Project** dialog, enter a **Name** and **Location**, then set **Expression Language** to **C#**.
+   ![Create New Blank Project](/static/img/csharp-new-project-step.png)
 
-3. Click **Create**.
+2. Fill in the project **Name** and **Location**. Under the **Expression Language** setting, select **C#**.
 
-   The Studio workspace opens. Look at the status bar at the very bottom of the window — it shows **Expression Language: C#**, confirming that C# is active for this project.
+3. Click **Create** to initialize the project. Once created successfully, the project workspace opens. The status bar at the bottom displays **Expression Language: C#**, indicating that C# is active for the current project.
 
-   ![Project workspace with Expression Language: C# shown in the status bar](/static/img/csharp-new-project-success.png)
+   ![Project Created Successfully](/static/img/csharp-new-project-success.png)
 
-> **Important:** The expression language is locked at project creation. It cannot be changed later. Make sure your whole team agrees on the language before you start building.
+---
+
+## Migration from `project.json` to `project.v1.json`
+
+### Why Migrate?
+In older versions of akaBot Studio, the project configuration was stored in `project.json`, which did not have a field to specify the project expression language (as all projects defaulted to VB.NET). 
+
+To support multiple expression languages (VB.NET and C#) and manage other compatibility features, akaBot Studio now uses the **`project.v1.json`** format. When you open a legacy project, the Studio detects the older format and prompts you to migrate. The new configuration file includes the `"expressionLanguage"` property (e.g., `"expressionLanguage": "CSharp"` or `"expressionLanguage": "VisualBasic"`).
+
+### Project Migration Settings
+You can control how migrations behave in akaBot Studio. Go to **File → Options**, select the **Common** tab, and locate the **Project Migration** section at the bottom.
+
+![Project Migration Options Tab](/static/img/csharp-migration-options-tab.png)
+
+Here, you can configure two options:
+- **Confirm Project Migration**:
+  - **Checked (Default)**: Studio shows a confirmation dialog before migrating. If you confirm, the migration proceeds.
+  - **Unchecked**: Legacy projects are automatically migrated silently without any popup dialog.
+- **Remove Old Project File**:
+  - **Checked**: The old `project.json` file is deleted after a successful migration to `project.v1.json`, keeping your project workspace clean.
+  - **Unchecked**: Both `project.json` and the migrated `project.v1.json` are kept in the folder.
+
+---
 
 ## The C# Expression Editor
 
-Whenever you click an expression field inside an activity (for example, the **Value** field of an **Assign** activity), the **C# Expression Editor** opens. It works like a lightweight code editor with:
+The **C# Expression Editor** opens whenever you edit an expression field inside an activity (such as the **Value** field of an **Assign** activity). It acts as a code editor with support for syntax highlighting, error validation, bracket matching, and IntelliSense.
 
-- C# syntax highlighting
-- Automatic bracket and quote matching
-- Full IntelliSense support (described below)
-
-![C# Expression Editor open inside an Assign activity](/static/img/csharp-expression-editor.png)
-
-Expressions use standard C# syntax. Common differences from VB.NET:
+C# expressions follow standard C# syntax rules. Here is a quick comparison of common operations:
 
 | Operation | C# | VB.NET |
 | --- | --- | --- |
-| String concatenation | `"Hello" + " " + name` | `"Hello" & " " & name` |
+| String concatenation | `"Hello " + name` | `"Hello " & name` |
 | String comparison | `name == "Admin"` | `name = "Admin"` |
-| Not equal | `count != 0` | `count <> 0` |
+| Not equal | `status != "Done"` | `status <> "Done"` |
 | Null check | `value == null` | `value Is Nothing` |
-| Ternary (inline if) | `count > 0 ? "Yes" : "No"` | `If(count > 0, "Yes", "No")` |
+| Ternary operator | `success ? "OK" : "Error"` | `If(success, "OK", "Error")` |
+
+---
 
 ## C# IntelliSense Features
 
-IntelliSense activates automatically as you type inside any expression field. You do not need to trigger it manually.
+C# IntelliSense provides real-time help as you type, facilitating faster and error-free development.
 
-### Variable and Argument Suggestions
+### 1. Suggest Parameters for Variables and Arguments
+When typing in any expression box, IntelliSense automatically lists all active variables and arguments in the scope. It also displays the variable/argument data type (e.g. `Int32`, `String`, etc.) beside its name.
 
-After you type the first letter of a variable or argument name, IntelliSense shows a dropdown of all matching names that are currently in scope, together with their data type. Press **Tab** or **Enter** to accept a suggestion.
+![Suggesting Variables and Arguments](/static/img/csharp-intellisense-variables.png)
 
-![IntelliSense showing variable and argument suggestions](/static/img/csharp-intellisense-variables.png)
+### 2. Suggest Functions and Overloads
+Typing a dot (`.`) after a variable or class name suggests all available methods and properties. When you call a method by opening a parenthesis `(`, IntelliSense lists all the method **overloads** showing the parameter types and descriptions. You can use the **Up** and **Down** arrow keys to scroll through available signatures.
 
-For example, if you have a variable named `count` of type `Int32`, typing `co` immediately shows `count (Int32)` in the suggestion list.
+![Suggesting Functions and Overloads](/static/img/csharp-intellisense-overloads.png)
 
-### Method Suggestions and Overloads
+### 3. LINQ Support
+IntelliSense fully supports **LINQ (Language Integrated Query)**. You can filter, map, and transform collections or data tables with full autocomplete suggestions inside lambda expressions.
 
-After you type a variable name followed by `.` (dot), IntelliSense lists all methods and properties available on that type. Once you select a method and open the parenthesis `(`, IntelliSense shows the available **overloads** — different versions of the same method that accept different parameters.
+:::note Important: LINQ on Non-Generic Collections
+If you type `myDataTable.Columns.` and notice that LINQ methods (like `Where`, `Select`, `Count`) do not appear in the IntelliSense dropdown, this is expected behavior in C#.
 
-![IntelliSense showing method overloads](/static/img/csharp-intellisense-overloads.png)
+* **Why?** Collections like `myDataTable.Columns` (`DataColumnCollection`) and `myDataTable.Rows` (`DataRowCollection`) are **non-generic collections** implementing the non-generic `IEnumerable` interface instead of the generic `IEnumerable<T>`. In C#/.NET, standard LINQ extension methods are only defined on generic collections.
+* **How to use LINQ on them:**
+  * For **Columns**: Convert the collection using `.Cast<DataColumn>()` or `.OfType<DataColumn>()` first.
+    ```csharp
+    myDataTable.Columns.Cast<DataColumn>().Where(col => col.ColumnName.Contains("ID"))
+    ```
+  * For **Rows**: Use `.AsEnumerable()` (which returns a generic collection of `DataRow`) to enable all LINQ methods.
+    ```csharp
+    myDataTable.AsEnumerable().Where(row => row.Field<string>("Status") == "Active")
+    ```
+:::
 
-For example, typing `myString.Replace(` shows:
-- `Replace(string oldValue, string newValue)`
-- `Replace(char oldChar, char newChar)`
+**Example LINQ Queries:**
 
-Use the **Up/Down** arrow keys to switch between overloads.
+- Filtering DataTable rows:
+  ```csharp
+  myDataTable.AsEnumerable().Where(row => row.Field<string>("Status") == "Active")
+  ```
+- Counting rows:
+  ```csharp
+  myDataTable.AsEnumerable().Count(row => row.Field<int>("Age") > 18)
+  ```
+- Mapping column to list:
+  ```csharp
+  myDataTable.AsEnumerable().Select(row => row.Field<string>("Name")).ToList()
+  ```
 
-### LINQ Support
+![LINQ Autocomplete Support](/static/img/csharp-intellisense-linq.png)
 
-The expression editor supports **LINQ (Language Integrated Query)** for filtering and transforming collections. IntelliSense is active inside LINQ chains, suggesting each method and inferring types along the way.
-
-**Example — count rows in a DataTable where a column equals a specific value:**
-
-```csharp
-myDataTable.AsEnumerable()
-    .Count(row => row.Field<string>("Status") == "Approved")
-```
-
-**Example — collect all values from a column into a list:**
-
-```csharp
-myDataTable.AsEnumerable()
-    .Select(row => row.Field<string>("Name"))
-    .ToList()
-```
-
-![IntelliSense active inside a LINQ expression](/static/img/csharp-intellisense-linq.png)
+---
 
 ## Hands-On Example
 
-This example uses a simple three-activity **Sequence** to show IntelliSense in action. You will assign a number, build a message string from it, and log the result — all using C# expressions.
+Here is a simple walkthrough showing C# expressions and IntelliSense in a standard workflow:
 
-**Variables to create before starting:**
+### Variables Setup
+Create two variables in the variable panel:
+- `v_Number` (Type: `Int32`, Default: `5`)
+- `v_Message` (Type: `String`)
 
-| Name | Type | Default Value |
-| --- | --- | --- |
-| `count` | `Int32` | `0` |
-| `message` | `String` | *(empty)* |
+### Workflow Steps
+1. **Assign Value**: Add an **Assign** activity.
+   - **To**: `v_Number`
+   - **Value**: Type `v_Number + 10`
+2. **Format Message**: Add another **Assign** activity.
+   - **To**: `v_Message`
+   - **Value**: Type `"Result is: " + v_Number.` — as soon as you type the dot `.`, IntelliSense list appears. Choose `ToString()`.
+     ```csharp
+     "Result is: " + v_Number.ToString()
+     ```
+3. **Log Message**: Add a **Log Message** activity.
+   - **Message**: Type `v_` and select `v_Message` from the autocomplete suggestions.
 
-**Step 1 — Assign a value to `count`**
-
-Add an **Assign** activity. Set:
-- **To:** `count`
-- **Value:** type `4 + 7`
-
-IntelliSense is not needed here, but Studio validates the expression in real time. If you type a variable name that does not exist, it underlines it in red immediately.
-
-**Step 2 — Build a message string using a method**
-
-Add a second **Assign** activity. Set:
-- **To:** `message`
-- **Value:** start typing `"Result: " + count.` — after the dot, IntelliSense shows all `Int32` methods. Select **ToString()** to convert the number to a string.
-
-The final expression is:
-
-```csharp
-"Result: " + count.ToString()
-```
-
-**Step 3 — Log the result**
-
-Add a **Log Message** activity. In the **Message** field, type `mess` — IntelliSense immediately suggests `message (String)`. Accept it with **Tab**.
-
-Run the project. The Output panel shows: `Result: 11`.
-
-![Completed example Sequence with three activities](/static/img/csharp-example-assign-linq.png)
-
-## Migrating from `project.json` to `project.v1.json`
-
-When you open an older akaBot Studio project in this version, Studio automatically upgrades its configuration file from `project.json` (the old format) to `project.v1.json` (the new format). The new format stores extra information including the expression language.
-
-**Old `project.json` — no expression language field:**
-
-```json
-{
-  "name": "my-old-project",
-  "description": "Simple Process Project"
-}
-```
-
-**New `project.v1.json` — includes expression language:**
-
-```json
-{
-  "name": "my-old-project",
-  "description": "Simple Process Project",
-  "expressionLanguage": "VB"
-}
-```
-
-Your workflow files (`.xaml`) and all activities are **not changed** during migration.
-
-### Controlling migration behavior
-
-Go to **File → Options**, select the **Common** tab, and scroll to the **Project Migration** section.
-
-![Project Migration settings in File → Options → Common](/static/img/csharp-migration-options-tab.png)
-
-- **Confirm Project Migration** — when checked, Studio shows a dialog asking you to confirm before migrating. When unchecked (the default), migration happens silently the first time you open the project.
-- **Remove Old Project File** — when checked, Studio deletes the original `project.json` after migration finishes, leaving only `project.v1.json`. When unchecked, both files are kept.
-
-> **Recommendation:** Keep **Remove Old Project File** checked to keep your project folder clean. Only uncheck it if some team members are still using an older version of Studio that cannot read `project.v1.json`.
+![C# Sequence Workflow Example](/static/img/csharp-example-assign-linq.png)
