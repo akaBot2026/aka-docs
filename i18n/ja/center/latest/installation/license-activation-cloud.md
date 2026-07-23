@@ -84,7 +84,15 @@ displayed_sidebar: centerSidebar
 
 ![Activation success on akaBot Studio](/static/img/image-20260528135225-19.png)
 
-## **3. akaBot Agentの有効化**
+## **3. akaBot Agentの有効化と接続**
+
+> [!IMPORTANT]
+> akaBot AgentをakaBot Center Cloudにセットアップするには、**2つの独立した必須ステップ**が必要です：
+> 1. **ライセンスの有効化**（下記セクション3.1） — **License Key**を使用してakaBot Agentソフトウェアのロックを解除します。
+> 2. **登録と接続**（下記セクション3.2） — **Agent Key**を使用して、このAgentインストールをakaBot Center上のAgentレコードにリンクし、自動化タスクを受信・実行できるようにします。
+>
+> ステップ1のみを完了した場合、ソフトウェアは有効化されますが、Agentは akaBot Center上で接続済み/利用可能として表示されません。両方のステップを完了する必要があります。
+
 
 ### **3.1. akaBot Agentの有効化**
 **akaBot Agent**を実行しているターゲットマシンでライセンスを有効にするには、以下の手順を実行してください：
@@ -126,16 +134,18 @@ displayed_sidebar: centerSidebar
 | **1** | **Key** | Agent用に生成された一意の識別子。このキーはCenterポータルとデスクトップAgentクライアントを接続します。 | String | 50文字 | **はい** | *作成時にシステムによって自動生成されます。* |
 | **2** | **Name** | この特定のAgentを表す認識可能な表示名。 | String | 50文字 | **はい** | ユーザー定義（例：`Agent_Accounting`）。 |
 | **3** | **Machine Name** | Agentを実行している物理マシンの正確なホスト名。 | String | 50文字 | **はい** | 正確なコンピューター名を入力します（akaBot Agent設定の**Machine name**フィールドから直接取得）。 |
-| **4** | **Machine Username** | Agentを実行しているワークステーションのOSレベルのログインユーザー名。 | String | 50文字 | いいえ | 自動化プロセス（*Unattended Bot*）を実行する場合は必須。akaBot Agentの**Machine username**フィールドから取得。 |
+| **4** | **Machine Username** | Agentを実行しているワークステーションのOSレベルのログインユーザー名。 | String | 50文字 | いいえ | 自動化プロセス（*Unattended Bot*）を実行する場合は必須。akaBot AgentクライアントUIには表示されないため、対象ワークステーション側でWindowsアカウントのユーザー名を直接確認し、入力してください。 |
 | **5** | **Machine Password** | Agentを実行しているワークステーションのOSレベルのログインパスワード。 | String | 255文字 | いいえ | 自動化プロセス（*Unattended Bot*）を実行する場合は必須。 |
 | **6** | **Type** | Agentのランタイム環境の指定。 | Dropdown | - | **はい** | *DEVELOPMENT*, *ASSISTANT*, *STAGING*, または *PRODUCTION* から選択。 |
 | **7** | **Description** | このAgentの役割または範囲を要約した簡単な説明。 | String | 500文字 | いいえ | 管理参照用のオプションのメモ。 |
 
 > [!TIP]
-> **Machine NameとMachine Usernameを簡単に見つける:**
-> これらのパラメータは、**akaBot Agent**クライアントUIから直接見つけてコピーできます：
+> **Machine Nameを簡単に見つける:**
+> このパラメータは、**akaBot Agent**クライアントUIから直接見つけてコピーできます：
 > 1. **akaBot Agent**デスクトップクライアントを開き、右上の**Settings**（歯車アイコン）をクリックします。
-> 2. **Center**タブを選択します。**Central Configuration（中央構成）**ペインに、マシンにプリロードされた**Machine name**と**Machine username**が表示されます。これらの値をコピーしてakaBot Centerの作成フォームに貼り付けるだけです。
+> 2. **Center**タブを選択します。**Central Configuration（中央構成）**ペインに、マシンにプリロードされた**Machine name**が表示されます。この値をコピーしてakaBot Centerの作成フォームに貼り付けるだけです。
+>
+> **Machine Username**はakaBot AgentクライアントのどこにもUI表示されません。これはワークステーションのOSレベルのログインユーザー名としてakaBot Center側で直接入力するものであり、**Unattended Bot**を実行する場合にのみ必要です。Agent側の値と一致させる必要はなく、Agent-Center間の接続確立には関与しません。
 
 * **グループへのAgentの割り当て:**
   - 作成フォームで、このAgentをリンクするために先ほど作成した適切な**Agent Group**のチェックボックスをオンにします。
@@ -159,7 +169,7 @@ displayed_sidebar: centerSidebar
 
 * **ステップ 2:** **Center**タブを選択し、**Central Configuration（中央構成）**フォームに記入します：
   - **Machine name:** コンピューター名（システムによって自動入力されます）。
-  - **Agent key:** akaBot Centerの詳細画面からコピーした**Agent Key**を貼り付けます（ステップ C.1で取得）。
+  - **Agent key:** akaBot Centerの詳細画面からコピーした**Agent Key**を貼り付けます（上記の「**Agentの詳細表示とAgentキーのコピー**」を参照）。
   - **Center URL:** 専用のakaBot Centerへの直接接続アドレスを入力します。
 
   ![Center settings tab on akaBot Agent](/static/img/image-20260528135225-9.png)
@@ -173,6 +183,21 @@ displayed_sidebar: centerSidebar
 
 > [!NOTE]
 > **Center**設定タブの**Disconnect（切断）**ボタンをクリックすることで、いつでもAgentをCenter管理エンジンから切断できます。
+
+#### **3.2.3. トラブルシューティング：Agentが接続できない、または誤って接続される場合**
+
+**Connect**をクリックしても**Disconnected**のままの場合、または接続はできるが意図したマシンと対応していない場合、原因はほぼ次のいずれかです。**特に複数のAgent/マシンを管理している場合に発生しやすい**問題です：
+
+* **別のAgentレコードからコピーした誤ったAgent Key。**
+  akaBot Center上の各**Key**は、必ず**1つ**のAgentレコード（1つのMachine Name）に紐づいています。複数のAgentマシンを管理している場合、誤って別のAgentの詳細画面を開き、そのKeyをコピーしてしまうことが起こりがちです。そのKeyを別の物理マシンに貼り付けても正しく接続されません — そのKeyはすでに別のマシンのAgentレコードに紐づいているためです。
+  * **対処法:** akaBot Centerの**Agents**一覧で、**Machine Name**列が対象コンピューターと完全に一致するAgentレコードを見つけ、その**View**（目のアイコン）をクリックして、**そのレコードから**改めて**Key**をコピーしてください。以前に別のマシン用にコピーしたKeyを使い回さないでください。
+
+* **Centerのレコードと実機のMachine Nameの不一致。**
+  Centerでagentレコードを作成する際に入力する**Machine Name**は、接続するマシンの正確なホスト名（Agentクライアントの**Center**設定タブに表示されるもの）と**完全に一致**している必要があります。マシンの名前変更・再イメージ化による古い値の残存、タイプミス、別のワークステーションのホスト名を誤ってコピーした場合など、わずかな違いでもAgentが正しく認識されなくなります。
+  * **対処法:** AgentのCenter設定タブに表示される**Machine Name**と、Centerの当該Agent詳細ページに表示される**Machine Name**を比較してください。一致しない場合は、Centerのレコードの Machine Name を修正するか、マシンの実際の現在のホスト名を使って新しいAgentレコードを作成してください。
+
+> [!TIP]
+> 接続トラブルを調査する際は、必ずAgentクライアント上の**Key**、**Machine Name**、**Center URL**を、**その1つの**AgentのCenter詳細ページの同じ項目と照合してください — 見た目が似ている別のAgentレコードと比較しないよう注意してください。
 
 ## **4. 検証と動作状況の確認**
 
