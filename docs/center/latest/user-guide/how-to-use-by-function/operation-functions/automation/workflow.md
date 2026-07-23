@@ -126,3 +126,128 @@ Alternatively, you can select the checkbox before each Workflow and the Delete b
 After clicking, a system will show a confirmation message for you to confirm.
 
 ![image-20221028101740-21.png](/static/img/image-20221028101740-21.png)
+
+## **f. Workflow Retention Policy**
+
+The **Workflow Retention Policy** is a feature in akaBot Center designed to manage the lifecycle of workflow execution history, including logs and task records. By configuring a retention policy, administrators can automate the purging of outdated execution data, preventing database bloat and maintaining optimal orchestrator performance.
+
+By default, all workflow execution logs are kept permanently. However, you can configure custom retention settings for each workflow individually during its creation or when updating it.
+
+### **f.1. Retention Policy Parameters**
+
+The Retention Policy configuration panel contains the following parameters:
+
+| No  | Column/Label                   | Description                                                                              | Type           | Default Value             | Is Mandatory?       | Constraints / Requirements                                                                                                                                  |
+| :----| :-------------------------------| :-----------------------------------------------------------------------------------------| :---------------| :--------------------------| :--------------------| :------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | **Retention Policy Selection** | Choose whether to keep all records indefinitely or set custom cleanup rules.             | Toggle Options | Keep permanently          | Yes (during update) | • Only available when updating an existing workflow.<br/>• During workflow creation, this option is hidden and custom retention is mandatory.               |
+| 2   | **Retention period (days)**    | The duration (in days) that execution data will be kept in the database before deletion. | Numeric Input  | 30 days                   | Yes                 | • Min: `7`<br/>• Max: `180`<br/>• Must be a positive integer. Invalid values show an error message and disable the **Save** button.                         |
+| 3   | **Apply to task states**       | Select which execution outcomes will trigger the cleanup.                                | Checkboxes     | None (requires selection) | Yes                 | Available options:<br/>• `Successful`<br/>• `Failed`<br/>• `Stopped`<br/>• `Pending`<br/>• `Stopping`<br/>• `Terminating`                                   |
+| 4   | **Cleanup scope**              | Defines the extent of the deletion when the retention threshold is reached.              | Radio Buttons  | Delete logs only          | Yes                 | Options:<br/>• **Delete logs only**: Deletes execution logs, but keeps the task.<br/>• **Full Cleanup**: Deletes both execution logs and the task entirely. |
+
+### **f.2. Configure Retention Policy during Workflow Creation**
+
+When creating a brand-new workflow association (linking a NuGet Package to an Agent Group) by clicking the **"Create New"** button at the top of the Workflows page, configuring the Retention Policy is mandatory:
+
+1. Fill out the general mandatory fields: **Package Name**, **Package Version**, and **Agent Group**.
+2. Scroll to the bottom of the dialog to find the **Retention Policy** section.
+3. Specify the **Retention period** (must be an integer between 7 and 180 days).
+4. Check one or more execution states under **Apply to task states**.
+5. Choose the **Cleanup scope** (either *Delete logs only* or *Full Cleanup*).
+6. Click **Save** to deploy the workflow with the active policy.
+
+![Create Workflow Retention Policy](/static/img/create_workflow_retention_policy.png)
+
+### **f.3. Configure Retention Policy during Workflow Update**
+
+#### **f.3.1. Workflow with Configured Retention Policy**
+
+For workflows that already have a custom retention policy active:
+
+1. Click the **Three dots** button next to the workflow on the listing page and select **Edit**.
+2. Scroll down to the **Retention Policy** section. You will see **Set custom retention** selected, and all active values (retention period, selected states, and cleanup scope) retrieved and displayed exactly as previously saved.
+3. You can modify any parameters (e.g., increase/decrease the retention days or change the targeted task states).
+4. If you want to stop automatic cleanup and keep logs forever, switch the selection back to **Keep permanently**.
+5. Click **Save** to apply the modifications.
+
+![Edit Workflow with Retention Policy](/static/img/edit_workflow_with_retention.png)
+
+#### **f.3.2. Workflow with Permanent Retention (No Active Policy)**
+
+For workflows created prior to implementing retention settings:
+
+1. Click the **Three dots** button next to the workflow and select **Edit**.
+2. Scroll down to the **Retention Policy** section. The selector will show **Keep permanently** active, with the rest of the configuration fields hidden.
+3. To configure a policy, select **Set custom retention**.
+4. The configurations will appear with default placeholders (e.g., 30 days, Delete logs only).
+5. Set your desired retention period, states, and scope.
+6. Click **Save** to save the new policy.
+
+![Edit Workflow without Retention Policy](/static/img/edit_workflow_without_retention.png)
+
+### **f.4. View Retention Policy on the Workflow Details Page**
+
+To view the retention policy configured for a workflow:
+
+1. On the **Workflow Listing** page, click the eye (**View**) icon next to the desired workflow.
+2. The workflow details page has two tabs containing retention policy information:
+
+#### **f.4.1. General Tab**
+
+Under the **General** tab of the details page, the current active retention policy is displayed:
+* **Retention Policy**: Displays the chosen cleanup action and duration (e.g., `Delete execution logs after 30 days`). If no custom retention policy is configured, it displays `Keep permanently`.
+* **Apply to task states**: Lists the execution states that trigger cleanup (e.g., `Successful`, `Failed`). This field is hidden if the policy is set to `Keep permanently`.
+
+![Workflow Details Retention Policy](/static/img/workflow_retention_details.png)
+
+#### **f.4.2. History Tab**
+
+The **History** tab (Update History) records a chronological log of all changes made to the workflow, including modifications to its retention policy. Each time the workflow is edited, a new log entry is created.
+
+The history log contains the following columns related to the retention policy:
+
+| No | Column/Label | Description |
+| :--- | :--- | :--- |
+| 1 | **Modified date** | The date and time when the modification was saved. |
+| 2 | **Package Version** | The package version active when the modification occurred. |
+| 3 | **Retention action** | Displays the cleanup period and cleanup scope (e.g., `15 days • Full Cleanup` or `Keep permanently`). |
+| 4 | **Retention Target States** | Lists the task states configured for cleanup (e.g., `Successful, Failed, Stopped`). |
+| 5 | **Description** | Any change comment entered by the user. |
+| 6 | **Created By** | The username of the account that made the modification. |
+
+![Workflow Retention History](/static/img/workflow_retention_history.png)
+
+### **f.5. System Configuration (application.yml)**
+
+For system administrators, the global behavior of the background retention execution and defaults for new workflows are configured in the Center's `application.yml` configuration file under the `retention.workflow` path.
+
+Here is the default YAML configuration structure:
+
+```yaml
+retention:
+  workflow:
+    enable: true
+    cron: "0 0 2 * * ?"
+    job-batch-size: 100
+    log-batch-size: 200
+    max-cleanup-iterations: 1000
+    max-log-cleanup-iterations: 10000
+    max-excluded-jobs: 900
+    default-days: 30
+    default-states: "SUCCESSFUL,FAULTED,STOPPED"
+    default-log-only: true
+```
+
+Below is a detailed description of each system configuration key:
+
+| Parameter | Type | Default Value | Description |
+| :--- | :--- | :--- | :--- |
+| **enable** | Boolean | `true` | Globally enables or disables the automatic background workflow retention cleanup job. |
+| **cron** | String | `"0 0 2 * * ?"` | Cron expression defining the execution schedule for the background cleanup job (e.g., daily at 2:00 AM). |
+| **job-batch-size** | Integer | `100` | Limits the number of task records processed and deleted in a single batch. |
+| **log-batch-size** | Integer | `200` | Limits the number of execution logs processed and deleted in a single batch. |
+| **max-cleanup-iterations** | Integer | `1000` | The maximum loop iterations allowed for database cleanup to prevent lock contention. |
+| **max-log-cleanup-iterations** | Integer | `10000` | The maximum loop iterations allowed for Elasticsearch/database log cleanup to prevent timeouts. |
+| **max-excluded-jobs** | Integer | `900` | The maximum count of task records that can be excluded from deletion rules. |
+| **default-days** | Integer | `30` | The default retention period (in days) displayed when creating a workflow. |
+| **default-states** | String | `"SUCCESSFUL,FAULTED,STOPPED"` | Comma-separated default task execution states checked during workflow creation. |
+| **default-log-only** | Boolean | `true` | The default cleanup scope during workflow creation (`true` = Delete logs only, `false` = Full Cleanup). |
