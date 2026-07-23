@@ -1,4 +1,4 @@
-﻿---
+---
 id: csharp-expression-editor
 title: C# Expression Editor & IntelliSense
 sidebar_label: C# Expression Editor & IntelliSense
@@ -12,8 +12,6 @@ displayed_sidebar: studioSidebar
 In previous versions, akaBot Studio only supported VB.NET as the project expression language when creating a new automation project. With the latest update, akaBot Studio has added full support for the **C#** language. You can now build workflows, assign variables, set conditions, and write LINQ queries using C# syntax.
 
 This guide walks you through creating a C# project, using the C# Expression Editor, understanding the C# IntelliSense features, and migrating legacy projects.
-
----
 
 ## How to Create a New C# Project
 
@@ -29,8 +27,6 @@ To create a new project with C# as the expression language, follow these steps:
 
    ![Project Created Successfully](/static/img/csharp-new-project-success.png)
 
----
-
 ## Migration from `project.json` to `project.v1.json`
 
 ### Why Migrate?
@@ -45,13 +41,11 @@ You can control how migrations behave in akaBot Studio. Go to **File → Options
 
 Here, you can configure two options:
 - **Confirm Project Migration**:
-  - **Checked (Default)**: Studio shows a confirmation dialog before migrating. If you confirm, the migration proceeds.
+  - **Checked**: Studio shows a confirmation dialog before migrating. If you confirm, the migration proceeds.
   - **Unchecked**: Legacy projects are automatically migrated silently without any popup dialog.
 - **Remove Old Project File**:
   - **Checked**: The old `project.json` file is deleted after a successful migration to `project.v1.json`, keeping your project workspace clean.
   - **Unchecked**: Both `project.json` and the migrated `project.v1.json` are kept in the folder.
-
----
 
 ## The C# Expression Editor
 
@@ -66,8 +60,6 @@ C# expressions follow standard C# syntax rules. Here is a quick comparison of co
 | Not equal | `status != "Done"` | `status <> "Done"` |
 | Null check | `value == null` | `value Is Nothing` |
 | Ternary operator | `success ? "OK" : "Error"` | `If(success, "OK", "Error")` |
-
----
 
 ## C# IntelliSense Features
 
@@ -86,20 +78,18 @@ Typing a dot (`.`) after a variable or class name suggests all available methods
 ### 3. LINQ Support
 IntelliSense fully supports **LINQ (Language Integrated Query)**. You can filter, map, and transform collections or data tables with full autocomplete suggestions inside lambda expressions.
 
-:::note Important: LINQ on Non-Generic Collections
-If you type `myDataTable.Columns.` and notice that LINQ methods (like `Where`, `Select`, `Count`) do not appear in the IntelliSense dropdown, this is expected behavior in C#.
 
-* **Why?** Collections like `myDataTable.Columns` (`DataColumnCollection`) and `myDataTable.Rows` (`DataRowCollection`) are **non-generic collections** implementing the non-generic `IEnumerable` interface instead of the generic `IEnumerable<T>`. In C#/.NET, standard LINQ extension methods are only defined on generic collections.
-* **How to use LINQ on them:**
-  * For **Columns**: Convert the collection using `.Cast<DataColumn>()` or `.OfType<DataColumn>()` first.
-    ```csharp
-    myDataTable.Columns.Cast<DataColumn>().Where(col => col.ColumnName.Contains("ID"))
-    ```
-  * For **Rows**: Use `.AsEnumerable()` (which returns a generic collection of `DataRow`) to enable all LINQ methods.
-    ```csharp
-    myDataTable.AsEnumerable().Where(row => row.Field<string>("Status") == "Active")
-    ```
-:::
+> **LINQ on Non-Generic Collections:**
+> If you type `myDataTable.Columns.` and LINQ methods (like `Where`, `Select`, `Count`) do not appear in the IntelliSense dropdown, this is expected behavior in C#. Collections like `DataColumnCollection` and `DataRowCollection` are **non-generic** and do not expose LINQ extension methods directly.
+>
+> - For **Rows**: Use `.AsEnumerable()` first to get a generic `IEnumerable<DataRow>`:
+>   ```csharp
+>   myDataTable.AsEnumerable().Where(row => row.Field<string>("Status") == "Active")
+>   ```
+> - For **Columns**: Use `.Cast<DataColumn>()` or `.OfType<DataColumn>()` first:
+>   ```csharp
+>   myDataTable.Columns.Cast<DataColumn>().Where(col => col.ColumnName.Contains("ID"))
+>   ```
 
 **Example LINQ Queries:**
 
@@ -107,18 +97,16 @@ If you type `myDataTable.Columns.` and notice that LINQ methods (like `Where`, `
   ```csharp
   myDataTable.AsEnumerable().Where(row => row.Field<string>("Status") == "Active")
   ```
-- Counting rows:
+- Counting rows matching a condition:
   ```csharp
   myDataTable.AsEnumerable().Count(row => row.Field<int>("Age") > 18)
   ```
-- Mapping column to list:
+- Mapping a column to a list:
   ```csharp
   myDataTable.AsEnumerable().Select(row => row.Field<string>("Name")).ToList()
   ```
 
 ![LINQ Autocomplete Support](/static/img/csharp-intellisense-linq.png)
-
----
 
 ## Hands-On Example
 
@@ -141,5 +129,11 @@ Create two variables in the variable panel:
      ```
 3. **Log Message**: Add a **Log Message** activity.
    - **Message**: Type `v_` and select `v_Message` from the autocomplete suggestions.
+
+Run the project (`F5`). The **Output** panel at the bottom of Studio displays:
+
+```
+Result is: 15
+```
 
 ![C# Sequence Workflow Example](/static/img/csharp-example-assign-linq.png)
