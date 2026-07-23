@@ -1,5 +1,6 @@
 {
-    "label": "LINE Business",
+    "label": "LINEビジネス",
+    "key": "scaleflow-channels-line",
     "position": 6,
     "collapsed": true,
     "collapsible": true
