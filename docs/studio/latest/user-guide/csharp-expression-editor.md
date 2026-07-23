@@ -1,4 +1,4 @@
-﻿---
+---
 id: csharp-expression-editor
 title: C# Expression Editor & IntelliSense
 sidebar_label: C# Expression Editor & IntelliSense
