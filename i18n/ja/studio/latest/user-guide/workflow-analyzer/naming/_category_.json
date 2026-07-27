@@ -1,0 +1,10 @@
+{
+  "label": "命名",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "このセクションには、akaBot Studio プロジェクト内のアイテムが標準的な命名規則に従っているかどうかをチェックするルールが含まれています。一貫した命名規則に従うことで、変数と引数の目的を把握しやすくなり、オートメーション プロジェクトの保守が容易になります。"
+  }
+}
