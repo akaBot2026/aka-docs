@@ -7,102 +7,152 @@ description: Learn how to configure and use the Event Trigger system to run work
 displayed_sidebar: studioSidebar
 ---
 
-# How to Use Event Trigger
+# About Triggers
 
-The **Event Trigger** system lets you start an akaBot workflow automatically when something happens on your computer - a file appears, a keyboard shortcut is pressed, an email arrives, and so on. No programming or workflow-design knowledge is required.
+Triggers enable you to execute workflows automatically in response to specific events on your machine, such as file system changes, hotkey presses, or incoming emails. This allows you to orchestrate and automate execution without manual intervention.
 
-The system has two parts:
+The Event Trigger system consists of two primary components:
 
-- **Event Trigger Manager** - the desktop window where you create, edit, enable, disable, and delete triggers.
-- **Event Trigger** (server) - the background process that watches for the events you configured and runs the assigned workflow when a match is detected.
-
-## About
-
-Event Trigger allows you to automate the response to everyday desktop events. Instead of manually opening akaBot Studio and starting a workflow, you define a trigger once and the system runs the workflow for you whenever the event occurs.
+* **Event Trigger Manager** - The desktop user interface used to create, edit, enable, disable, and delete triggers.
+* **Event Trigger Server** - The background process that monitors configured events and dispatches the associated workflow when conditions are met.
 
 Typical use cases:
 
-- Run a workflow whenever a new invoice file is saved to a folder.
-- Press a keyboard shortcut to launch a data-entry workflow.
-- Automatically process incoming emails that match certain criteria.
-- React when a specific application window opens or closes.
-- Start a workflow when a Windows service stops unexpectedly.
+* Executing an invoice-processing workflow when a new file is saved to a shared directory.
+* Launching a data-entry workflow when a specific hotkey combination is pressed.
+* Processing incoming emails that match specified criteria automatically.
+* Reacting when a specific application window opens or closes.
+* Starting recovery workflows when a Windows service stops unexpectedly.
 
 ---
 
 ## Launching Event Trigger Manager
 
-Event Trigger Manager can be opened from **akaBot Studio** or from the Windows Start Menu. When the application starts, it loads any previously saved triggers from the local configuration file (`triggerSettings.json`, stored in `%LOCALAPPDATA%\akaBot\`).
+The Event Trigger Manager can be launched from **akaBot Studio** or from the Windows Start Menu. Upon launch, the application loads existing trigger configurations from the local settings file (`triggerSettings.json`, located in `%LOCALAPPDATA%\akaBot\`).
 
 ---
 
-## Main Window
+## User Interface Overview
 
-The main window is titled **Desktop Trigger Manager**. It contains two major areas: the **Ribbon Toolbar** at the top and the **Trigger List** below it.
+The main application window, **Desktop Trigger Manager**, is divided into two main areas: the **Ribbon Toolbar** at the top and the **Trigger List** panel below.
 
 ![Desktop Trigger Manager Main Window](/static/img/event-trigger-manager-main.png)
 
 ### Ribbon Toolbar
 
-The ribbon is organized into several groups on the **Home** tab:
+The ribbon toolbar groups actions on the **Home** tab:
 
-| Group           | Controls                                                      | Description                                                                                                                                                          |
-| :-------------- | :------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **New Trigger** | Drop-down button                                              | Opens a menu listing all available trigger types (File, Folder, Hotkey, Email, Process, Service, Window, Interface). Select one to open the trigger creation wizard. |
-| **Manage**      | Edit Trigger, Enable Trigger, Disable Trigger, Delete Trigger | Operates on the trigger currently selected in the list.                                                                                                              |
-| **Server**      | Refresh                                                       | Sends the current trigger configuration to the Event Trigger background server so changes take effect immediately.                                                   |
-| **Action**      | Local Mode toggle                                             | Switches between Local Mode and Center Mode (see below).                                                                                                             |
-| **Language**    | Language drop-down                                            | Changes the display language. Available languages: English, Japanese, Chinese (Simplified), Chinese (zh-Hans).                                                       |
+| Group | Control | Description |
+| :--- | :--- | :--- |
+| **New Trigger** | Drop-down Menu | Lists available trigger types (File, Folder, Hotkey, Email, Process, Service, Window, Interface). Select a type to launch the trigger creation wizard. |
+| **Manage** | Edit, Enable, Disable, Delete | Performs actions on the currently selected trigger in the list. |
+| **Server** | Refresh | Syncs the current configurations with the Event Trigger background server to apply changes immediately. |
+| **Action** | Local Mode Toggle | Toggles execution between Local Mode and Center Mode. |
+| **Language** | Drop-down Menu | Sets the application display language (English, Japanese, Simplified Chinese). |
 
 ### Trigger List
 
-The main area of the window shows a data grid with the following columns:
+The main data grid displays all configured triggers:
 
-| Column          | Description                                                                              |
-| :-------------- | :--------------------------------------------------------------------------------------- |
-| **Enabled**     | A toggle switch. Turn it on or off to enable or disable the trigger without deleting it. |
-| **Name**        | The name you gave the trigger when you created it.                                       |
-| **Type**        | The trigger type (File, Folder, Hotkey, Email, Process, Service, Windows, Interface).    |
-| **Description** | The optional description you entered.                                                    |
+| Column | Description |
+| :--- | :--- |
+| **Enabled** | A toggle switch to active or deactivate the trigger without deleting its settings. |
+| **Name** | The unique identifier assigned to the trigger. |
+| **Type** | The category of event being monitored (e.g., File, Hotkey). |
+| **Description** | User-defined details about the trigger purpose. |
 
-Double-click a row (or select it and click **Edit Trigger**) to open the trigger wizard for editing.
+Double-clicking any row (or selecting a row and clicking **Edit Trigger**) opens the trigger settings wizard.
 
 ---
 
-## Creating a New Trigger
+## Managing Triggers
 
-1. Click the **New Trigger** drop-down in the ribbon.
-2. Select the trigger type you want.
-3. The **Trigger Wizard** window opens. It has three tabs: **Basic Info**, **Detail**, and **Action**.
+### Creating a Trigger
 
-### Step 1 - Basic Info
+1. Click the **New Trigger** drop-down menu in the ribbon.
+2. Select the desired trigger type.
+3. In the **Trigger Wizard**, configure settings across the three tabs: **Basic Info**, **Detail**, and **Action**.
+
+#### Step 1: Basic Info
 
 ![Trigger Wizard - Basic Info Tab](/static/img/event-trigger-wizard-basic-info.png)
 
-| Field                   | Required | Description                                        |
-| :---------------------- | :------- | :------------------------------------------------- |
-| **Trigger Name**        | Yes      | A unique name for the trigger (max 50 characters). |
-| **Trigger Description** | No       | A free-text description (max 250 characters).      |
+| Field | Required | Description |
+| :--- | :--- | :--- |
+| **Trigger Name** | Yes | A unique identifier for the trigger (maximum 50 characters). |
+| **Trigger Description** | No | Optional details about the trigger (maximum 250 characters). |
 
-An icon and short explanation of the selected trigger type are shown at the top of this tab.
+#### Step 2: Trigger Detail
 
-### Step 2 - Trigger Detail
-
-This tab changes depending on the trigger type. See the [Trigger Types](#trigger-types) section below for the fields specific to each type.
+Configure the specific conditions for the selected event type. For detailed property descriptions, see [Trigger Types](#trigger-types).
 
 ![Trigger Wizard - File Trigger Details Example](/static/img/event-trigger-wizard-detail-file.png)
 
-### Step 3 - Action
+#### Step 3: Action
+
+Define the operation performed when the trigger conditions are met.
 
 ![Trigger Wizard - Action Tab](/static/img/event-trigger-wizard-action.png)
 
-| Field                  | Required                           | Description                                                                                                                                                                           |
-| :--------------------- | :--------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Action Type**        | Yes                                | Currently supports **Workflow**. Select `Workflow` to run a published akaBot workflow. Selecting `None` means the trigger fires but performs no action.                               |
-| **Workflow**           | Yes (when Action Type is Workflow) | Choose the workflow to execute from the drop-down list of published workflows.                                                                                                        |
-| **Workflow Arguments** | No                                 | Key-value pairs passed to the workflow at runtime. Click **New** to add an argument row. Special variables are available (see [Using Workflow Arguments](#using-workflow-arguments)). |
+| Field | Required | Description |
+| :--- | :--- | :--- |
+| **Action Type** | Yes | Select **Workflow** to run an akaBot process, or **None** to register the event without executing a process. |
+| **Workflow** | Yes (if Action Type is Workflow) | Select the published workflow to execute from the list of available processes. |
+| **Workflow Arguments** | No | Pass custom variables or system-generated parameters to the workflow at runtime (see [Using Workflow Arguments](#using-workflow-arguments)). |
 
-Click **OK** to save the trigger and close the wizard.
+Click **OK** to save the configuration and register the trigger.
+
+### Editing a Trigger
+
+1. Select the target trigger from the list.
+2. Click **Edit Trigger** in the ribbon or double-click the row.
+3. Modify the properties in the **Trigger Wizard** and click **OK** to save changes.
+
+### Enabling and Disabling Triggers
+
+You can change the active state of a trigger in two ways:
+
+* Use the toggle in the **Enabled** column of the grid.
+* Select the trigger and click **Enable Trigger** or **Disable Trigger** in the ribbon.
+
+> **Note:** Disabling a trigger retains its configuration but suspends the background server from monitoring the associated events.
+
+### Deleting a Trigger
+
+1. Select the trigger from the list.
+2. Click **Delete Trigger** in the ribbon.
+3. Confirm deletion in the confirmation dialog.
+
+> **Caution:** Trigger deletion is permanent and cannot be undone.
+
+---
+
+## Refreshing the Trigger Server
+
+The background server automatically refreshes its configuration when triggers are created, edited, enabled, disabled, or deleted. 
+
+If you suspect the background service is out of sync, click **Refresh** in the **Server** group of the ribbon to manually restart the service with the latest settings.
+
+---
+
+## Local Mode vs Center Mode
+
+The execution target of the triggered workflow is controlled by the **Local Mode** toggle in the ribbon.
+
+![Local Mode Toggle Dialog](/static/img/event-trigger-local-mode-toggle.png)
+
+| Mode | Description |
+| :--- | :--- |
+| **Center Mode** (Toggle Off) | Dispatches execution jobs to **akaBot Center**, which assigns them to an available robot. This is the default mode when connected to a server. |
+| **Local Mode** (Toggle On) | Runs the workflow directly on the local machine without routing through akaBot Center. |
+
+> **Note:** If the robot agent is disconnected from akaBot Center, Local Mode is enabled automatically, and the toggle is disabled.
+
+---
+
+## Trigger History
+
+To review execution history, edit the trigger and select the **History** tab in the wizard. The grid lists every instance the trigger was fired. Selecting a row displays detailed logs in the **Details** pane.
 
 ---
 
@@ -110,193 +160,105 @@ Click **OK** to save the trigger and close the wizard.
 
 ### File Trigger
 
-Fires when a file event is detected in a specific folder.
+Monitors file events in a specified directory.
 
-| Field                  | Required | Description                                                                                                     |
-| :--------------------- | :------- | :-------------------------------------------------------------------------------------------------------------- |
-| **Monitoring Folder**  | Yes      | The folder path to watch. Use the **...** button to browse.                                                     |
-| **Include Subfolders** | No       | Check this to also watch all subfolders inside the monitoring folder.                                           |
-| **Event**              | Yes      | One or more file events to react to: **Created**, **Changed**, **Deleted**, **Renamed**. Check at least one.    |
-| **File Filter**        | Yes      | A filter pattern for file names (e.g., `*.xlsx`, `*.pdf`, `report_*.*`). Only matching files trigger the event. |
+| Field | Required | Description |
+| :--- | :--- | :--- |
+| **Monitoring Folder** | Yes | The directory path to monitor. Use the ellipsis (**...**) button to browse. |
+| **Include Subfolders** | No | Enables monitoring of all child directories within the target folder. |
+| **Event** | Yes | The file operations to monitor (**Created**, **Changed**, **Deleted**, **Renamed**). At least one must be selected. |
+| **File Filter** | Yes | A wild card pattern to filter target files (e.g., `*.xlsx`, `*.pdf`, `invoice_*.*`). |
 
 ### Folder Trigger
 
-Fires when a subfolder event is detected in a specific folder. The configuration is identical to the File Trigger except there is no **File Filter** field - it monitors folder-level changes only.
+Monitors directory-level changes within a specified parent folder.
 
-| Field                  | Required | Description                                         |
-| :--------------------- | :------- | :-------------------------------------------------- |
-| **Monitoring Folder**  | Yes      | The folder path to watch.                           |
-| **Include Subfolders** | No       | Also watch nested subfolders.                       |
-| **Event**              | Yes      | **Created**, **Changed**, **Deleted**, **Renamed**. |
+| Field | Required | Description |
+| :--- | :--- | :--- |
+| **Monitoring Folder** | Yes | The directory path to monitor. |
+| **Include Subfolders** | No | Enables monitoring of nested child directories. |
+| **Event** | Yes | The directory operations to monitor (**Created**, **Changed**, **Deleted**, **Renamed**). |
 
 ### Hotkey Trigger
 
-Fires when you press a specific keyboard shortcut anywhere on the desktop.
+Fires when a designated keyboard shortcut is pressed.
 
-| Field        | Required | Description                                                                                                                             |
-| :----------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Modifier** | No       | Optional modifier keys: **Alt**, **Ctrl**, **Shift**, **Win**. Check one or more.                                                       |
-| **Key**      | Yes      | The main key to combine with the modifiers. Choose from the drop-down (letters, numbers, function keys, numpad keys, arrow keys, etc.). |
-
-Example: checking **Ctrl** + **Shift** and selecting **F9** creates the shortcut `Ctrl+Shift+F9`.
+| Field | Required | Description |
+| :--- | :--- | :--- |
+| **Modifier** | No | Keyboard modifiers to combine with the trigger key (**Alt**, **Ctrl**, **Shift**, **Win**). |
+| **Key** | Yes | The primary key from the drop-down list. |
 
 ### Email Trigger
 
-Fires when a new email matching your criteria arrives in a mail server inbox.
+Fires when a new email matching configured rules arrives in the monitored inbox.
 
-| Field                | Required | Description                                                                                          |
-| :------------------- | :------- | :--------------------------------------------------------------------------------------------------- |
-| **Email Protocol**   | Yes      | **IMAP** or **POP3**.                                                                                |
-| **Host**             | Yes      | The mail server address (e.g., `imap.gmail.com`).                                                    |
-| **Port**             | Yes      | The server port (e.g., `993` for IMAP with SSL).                                                     |
-| **Use SSL**          | No       | Enable for a secure (TLS/SSL) connection.                                                            |
-| **Credential**       | Yes      | Select a stored credential (username and password) for the mail account.                             |
-| **Interval**         | Yes      | How often (in seconds) to check for new mail.                                                        |
-| **Mail Folder**      | No       | The mailbox folder to monitor (e.g., `INBOX`).                                                       |
-| **From**             | No       | Only trigger for emails from this sender address.                                                    |
-| **Subject Contains** | No       | Only trigger when the subject line contains this text.                                               |
-| **Attachment**       | No       | Filter by attachment presence: **Both** (any email), **With Attachment**, or **Without Attachment**. |
+| Field | Required | Description |
+| :--- | :--- | :--- |
+| **Email Protocol** | Yes | Select **IMAP** or **POP3**. |
+| **Host** | Yes | The address of the mail server (e.g., `imap.gmail.com`). |
+| **Port** | Yes | The port number (e.g., `993` for SSL/TLS IMAP). |
+| **Use SSL** | No | Enables secure connection protocols. |
+| **Credential** | Yes | The stored username and password profile for the mail account. |
+| **Interval** | Yes | The polling frequency in seconds. |
+| **Mail Folder** | No | The specific folder to monitor (defaults to `INBOX`). |
+| **From** | No | Filters emails by sender email address. |
+| **Subject Contains** | No | Filters emails by a string match in the subject line. |
+| **Attachment** | No | Filters based on attachment status (**Both**, **With Attachment**, or **Without Attachment**). |
 
 ### Process Trigger
 
-Fires when a Windows process starts or stops.
+Monitors the state of specific Windows processes.
 
-| Field            | Required | Description                                                             |
-| :--------------- | :------- | :---------------------------------------------------------------------- |
-| **File Path**    | No       | The full path to the executable (e.g., `C:\Program Files\App\app.exe`). |
-| **Process Name** | Yes      | The process name to watch. Supports regex patterns.                     |
-| **On Start**     | No       | Fire when the process starts.                                           |
-| **On Stop**      | No       | Fire when the process stops.                                            |
-
-Check at least one of **On Start** or **On Stop**.
+| Field | Required | Description |
+| :--- | :--- | :--- |
+| **File Path** | No | The absolute file path to the executable file. |
+| **Process Name** | Yes | The name of the process (supports regular expressions). |
+| **On Start** | No | Triggers when the process launches. |
+| **On Stop** | No | Triggers when the process terminates. |
 
 ### Service Trigger
 
-Fires when a Windows service changes state.
+Monitors state transitions of Windows background services.
 
-| Field            | Required | Description                                        |
-| :--------------- | :------- | :------------------------------------------------- |
-| **Service Name** | Yes      | The Windows service name. Supports regex patterns. |
-| **On Start**     | No       | Fire when the service starts.                      |
-| **On Stop**      | No       | Fire when the service stops.                       |
-| **On Pause**     | No       | Fire when the service pauses.                      |
-| **On Resume**    | No       | Fire when the service resumes from a paused state. |
-
-Check at least one event.
+| Field | Required | Description |
+| :--- | :--- | :--- |
+| **Service Name** | Yes | The name of the Windows service (supports regular expressions). |
+| **On Start** | No | Triggers when the service state changes to Started. |
+| **On Stop** | No | Triggers when the service state changes to Stopped. |
+| **On Pause** | No | Triggers when the service state changes to Paused. |
+| **On Resume** | No | Triggers when the service resumes from a paused state. |
 
 ### Window Trigger
 
-Fires when a desktop application window opens or closes.
+Fires based on window events for desktop applications.
 
-| Field            | Required | Description                                              |
-| :--------------- | :------- | :------------------------------------------------------- |
-| **File Path**    | No       | The path to the application executable.                  |
-| **Window Title** | Yes      | The window title to match. Supports wildcard characters. |
-| **On Open**      | No       | Fire when a matching window opens.                       |
-| **On Close**     | No       | Fire when a matching window closes.                      |
-
-Check at least one of **On Open** or **On Close**.
+| Field | Required | Description |
+| :--- | :--- | :--- |
+| **File Path** | No | The absolute path to the application executable. |
+| **Window Title** | Yes | The title string of the target window (supports wildcard characters). |
+| **On Open** | No | Triggers when the target window opens. |
+| **On Close** | No | Triggers when the target window closes. |
 
 ### Interface Trigger
 
-Fires when a specific UI element on screen receives an interaction. This is the most advanced trigger type.
+Monitors user interactions with specific UI elements.
 
-| Field            | Required | Description                                                                                                                         |
-| :--------------- | :------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| **Pick Element** | Yes      | Click this button, then click the target UI element on screen. The system captures a selector that uniquely identifies the element. |
-| **Selector**     | Yes      | The auto-generated selector string. You can edit it manually if needed.                                                             |
-| **Event**        | Yes      | The UI event to listen for: **Click**, **Selection Changed**, **Got Focus**, or **Lost Focus**.                                     |
-| **Modifier**     | No       | Optional modifier keys (**Alt**, **Ctrl**, **Shift**, **Win**) that must be held during the event.                                  |
-
-The **Pick Element** button launches the element inspector overlay. Hover over the desired control and click to capture it. Press `Escape` to cancel.
-
----
-
-## Editing a Trigger
-
-1. Select a trigger in the list.
-2. Click **Edit Trigger** in the ribbon (or double-click the row).
-3. The trigger wizard opens with the current settings pre-filled across all three tabs.
-4. Make your changes and click **OK** to save.
-
----
-
-## Enabling and Disabling Triggers
-
-There are two ways to enable or disable a trigger:
-
-- **Toggle switch in the list**: Click the toggle in the **Enabled** column to switch a trigger on or off immediately.
-- **Ribbon buttons**: Select a trigger and click **Enable Trigger** or **Disable Trigger**.
-
-Disabling a trigger keeps its configuration but stops the Event Trigger server from monitoring that event.
-
----
-
-## Deleting a Trigger
-
-1. Select the trigger in the list.
-2. Click **Delete Trigger** in the ribbon.
-3. Confirm the deletion in the dialog that appears.
-
-Deletion is permanent.
-
----
-
-## Refreshing the Trigger Server
-
-Click the **Refresh** button in the **Server** group of the ribbon to restart the Event Trigger background server with the latest configuration. This is useful if you suspect the server is out of sync or not responding.
-
-The server is also automatically refreshed whenever you create, edit, enable, disable, or delete a trigger.
-
----
-
-## Local Mode vs Center Mode
-
-The **Local Mode** toggle in the ribbon controls how the triggered workflow is executed.
-
-![Local Mode Toggle Dialog](/static/img/event-trigger-local-mode-toggle.png)
-
-| Mode                         | Behavior                                                                                                                                                |
-| :--------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Center Mode** (toggle off) | The trigger sends the job to **akaBot Center**, which dispatches it to an available robot. This is the default when the agent is connected to a server. |
-| **Local Mode** (toggle on)   | The trigger runs the workflow directly on the local machine without contacting akaBot Center.                                                           |
-
-When the agent is not connected to akaBot Center, Local Mode is enabled automatically and the toggle is disabled.
-
-Turning on Local Mode shows a confirmation dialog: _"When you turn on local mode, the desktop trigger will no longer send tasks to the Center."_
-
----
-
-## Trigger History
-
-When editing a trigger, the **History** tab in the trigger wizard shows a log of past trigger executions. Each row in the history grid represents one time the trigger fired.
-
-Select a row to view its execution details in the **Details** text area below the grid.
-
----
-
-## Changing the Language
-
-Use the **Language** drop-down in the ribbon to switch the display language. The application window reloads with the selected language applied to all labels and messages.
-
-Supported languages:
-
-- English
-- Japanese
-- Chinese (Simplified)
-- Chinese (zh-Hans)
+| Field | Required | Description |
+| :--- | :--- | :--- |
+| **Pick Element** | Yes | Launches the element selector overlay. Hover and click to capture the target control. Press `Escape` to exit. |
+| **Selector** | Yes | The generated XML selector string uniquely identifying the UI element. Can be edited manually. |
+| **Event** | Yes | The UI event to monitor (**Click**, **Selection Changed**, **Got Focus**, **Lost Focus**). |
+| **Modifier** | No | Optional modifier keys required to fire the event. |
 
 ---
 
 ## Using Workflow Arguments
 
-When the action type is **Workflow**, you can pass arguments to the workflow. Click **New** in the Action tab to add a new argument row. Each argument has a **Name** and a **Value**.
+When configuring a workflow action, you can pass parameters from the trigger event to the workflow variables. Click **New** under the Arguments table to add a parameter mapping.
 
-Two special variables can be used as argument values:
+The following system-defined variables are supported:
 
-| Variable           | Description                                                                                                                                                                                               |
-| :----------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `${TriggerOutput}` | The output produced by the trigger. The value depends on the trigger type - for example, the file path for a File trigger, the folder path for a Folder trigger, or the mail object for an Email trigger. |
-| `${TriggerType}`   | The type of the trigger that fired (e.g., `File`, `Hotkey`, `Email`).                                                                                                                                     |
-
-These variables are replaced with actual values at runtime before the workflow starts.
+| Variable | Description |
+| :--- | :--- |
+| `${TriggerOutput}` | Returns the output payload of the event (e.g., the file path for File triggers, directory path for Folder triggers, or the email object for Email triggers). |
+| `${TriggerType}` | Returns the category identifier of the trigger (e.g., `File`, `Hotkey`, `Email`). |
