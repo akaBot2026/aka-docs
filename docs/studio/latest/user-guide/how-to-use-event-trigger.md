@@ -28,7 +28,13 @@ Typical use cases:
 
 ## Launching Event Trigger Manager
 
-The Event Trigger Manager can be launched from **akaBot Studio** or from the Windows Start Menu. Upon launch, the application loads existing trigger configurations from the local settings file (`triggerSettings.json`, located in `%LOCALAPPDATA%\akaBot\`).
+The **Event Trigger Manager** can be launched either from **akaBot Studio** or directly from the Windows Start Menu. The application executable is located at:
+
+`C:\Program Files\FPT Software\akaBot Platform\EventTriggerManager.exe`
+
+When started, the Event Trigger Manager automatically loads existing trigger configurations from the local settings file, `triggerSettings.json`, which is stored in:
+
+`%LOCALAPPDATA%\akaBot\`
 
 ---
 
