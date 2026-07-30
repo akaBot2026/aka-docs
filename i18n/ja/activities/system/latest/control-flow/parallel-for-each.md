@@ -14,7 +14,7 @@ System.Activities.Statements.ParallelForEach
 
 コレクションのすべての要素を反復処理し、各要素の一連のアクティビティを並行して実行できるようにします。
 
-![Core_ParallelForEach](/static/img/parallel.png)
+![Core_Parallel](/static/img/parallel-foreach.png)
 
 \* は必須フィールドを示します。
 
