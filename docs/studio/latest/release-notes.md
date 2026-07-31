@@ -9,6 +9,38 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — Release Notes
 
+## v3.2.0.0
+
+**Changes**
+* Increased: platform version to `3.2.0.0`
+* Changed: Studio / Agent build and runtime target to **net472 only** (no longer prefer net452 output)
+* Changed: Newtonsoft.Json to **13.0.3** on net472 components
+* Added: **C# expression language** support (Roslyn); expression language is a per-project setting (VB or C#)
+* Added: **Workflow Analyzer** (Analyzer Client / CLI) with project-scoped rules
+* Added: **App / Web Recorder** integrated into Studio
+* Added: **AskAI / AkaNinja** with provider options (AI Hub / Cloudflare Worker); settings stored in LocalAppData `settings.json`
+* Added: **project.v1.json** project format; confirmation dialog before migrating legacy `project.json` (migration silent-by-default option in Settings)
+* Added: debugger improvements (Watches with VB compiler evaluation, stepping / highlight / breakpoint fixes); debugger available for **VB projects only** (disabled for C#)
+* Updated: installer loads NuGet packages from **`packages.txt`** into setup output
+* Updated: VC++ PlatformToolset to **v142**
+* Updated: licensing module resolves machine UUID via **PowerShell** when WMIC is unavailable / deprecated (keep machine-code compatibility)
+* Updated: use `%SystemRoot%` instead of hard-coded `C:\WINDOWS` where applicable
+* Removed: Firefox extension registry key from installer
+* Added: broader **i18n** coverage for Studio, Agent, Recorder, Analyzer, and project-migration UI (ja-JP / zh-CN / zh-Hans)
+* Updated: Agent tray menu About; Agent UI language load / apply
+* Updated: BotExecutor prefers `project.v1.json`; falls back to legacy `project.json` when not found
+* Improved: selector dialog detection to reduce open / load time
+* Improved: VB / C# expression editor suggestions, quote handling, and error messaging
+* Fixed: Studio incorrectly loading net452 instead of net472 in some cases
+* Fixed: Open Logs command
+* Fixed: AkaNinja connection details load from `settings.json`
+* Fixed: browser driver major-version mismatch detection / fail-fast on auto-detect
+* Fixed: IsWmicAvailable handling when WMIC returns “Invalid XSL format (or) file name”
+* Fixed: UUID replace / trim handling for machine-code consistency
+* Fixed: Microsoft.CodeAnalysis assembly binding that could cause TypeLoadException at runtime
+* Merged: security vulnerability fixes
+* Updated: Dirkster.MRULib to 1.30 (license display)
+
 ## v3.0.0.0
 
 > NOTE: THIS IS BETA VERSION. PLEASE USE AT YOUR OWN RISK!
