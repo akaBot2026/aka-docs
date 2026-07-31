@@ -9,6 +9,14 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — Release Notes
 
+## v5.0.0.1
+**Added**
+- **[Schedule]**: Added the ability to filter schedules by status.
+
+**Fixed**
+- **[Queue]**: Fixed incorrect translations.
+
+---
 ## v5.0.0.0
 
 Build date: Jul 27, 2026
