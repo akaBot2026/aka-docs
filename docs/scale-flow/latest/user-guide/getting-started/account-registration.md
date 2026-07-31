@@ -92,3 +92,7 @@ If you are joining as a support staff member, go to [Inbox Usage](../operations/
 - Do not share your password with anyone.
 - Always sign out when using a shared computer.
 - Use SSO when available because your company can manage access more safely.
+
+## What to do next
+
+After you can sign in, open the [Getting Started hub](./getting-started-hub). Use the checklist (or **Open quick setup**) to connect a channel, teach AI, and invite teammates.

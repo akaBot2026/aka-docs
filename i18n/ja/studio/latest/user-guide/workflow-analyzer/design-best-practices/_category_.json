@@ -1,0 +1,10 @@
+{
+  "label": "設計ベスト プラクティス",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "このセクションには、akaBot Studio プロジェクトが設計ベスト プラクティスに従っているかどうかをチェックするルールが含まれています。これらのプラクティスに従うことで、オートメーション ワークフローの保守性、可読性、および信頼性が向上します。"
+  }
+}

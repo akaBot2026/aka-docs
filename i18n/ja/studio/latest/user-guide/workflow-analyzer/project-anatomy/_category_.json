@@ -1,0 +1,10 @@
+{
+  "label": "プロジェクト構成",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "index"
+  }
+}

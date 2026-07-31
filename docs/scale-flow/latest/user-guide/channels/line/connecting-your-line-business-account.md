@@ -1,7 +1,7 @@
 ---
 id: connecting-your-line-business-account
 title: LINE Business
-sidebar_label: :LINE Business
+sidebar_label: LINE Business
 sidebar_position: 1
 description: "Step-by-step guide to connect your LINE Official Account to ScaleFlow so you can receive and reply to customer messages."
 displayed_sidebar: scaleFlowSidebar

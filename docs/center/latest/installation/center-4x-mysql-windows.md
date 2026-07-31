@@ -34,7 +34,7 @@ You need to prepare the installation package according to the following list.
 | **#** | **Name** | **File Name** | **Version** | **Description** | **Download Link** |
 | 1 | akaBot Center | akaBot-center- 4.x.x.x.war | Newest version | akaBot Center installation package | akaBot provides through email after the customer makes a purchase. |
 | 2 | Java Developer Kit | openlogic-openjdk-17.0.16 | 17.0.16 | Open logic JDK 17.0.16 | **[Download](https://builds.openlogic.com/downloadJDK/openlogic-openjdk/17.0.16+8/openlogic-openjdk-17.0.16+8-windows-x64.msi)** |
-| 3 | Apache tomcat | apache-tomcat-10.1.52.exe | 10.1.52 | Web server Apache Tomcat | **[Download](https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.52/bin/apache-tomcat-10.1.52.exe)** |
+| 3 | Apache tomcat | apache-tomcat-10.1.57.exe | 10.1.57 | Web server Apache Tomcat | **[Download](https://archive.apache.org/dist/tomcat/tomcat-10/v10.1.57/bin/apache-tomcat-10.1.57.exe)** |
 | 4 | ActiveMQ | apache-activemq- 5.15.1-bin.zip | 5.15.1 | ActiveMQ for Queue functionality in akaBot Center | **[Download](https://archive.apache.org/dist/activemq/5.15.1/apache-activemq-5.15.1-bin.zip)** |
 | 5 | MySQL | Windows (x86, 32-bit), MSI Installer | 8.0.45 | The database engine of akaBot Center | Read **Section 3.1**for more details |
 
