@@ -9,7 +9,41 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — リリースノート
 
+## v3.2.0.0
+
+**変更点**
+* 増加: プラットフォーム バージョンを `3.2.0.0` に引き上げ
+* 変更: Studio / Agent のビルドおよびランタイム ターゲットを **net472 のみ** に変更（net452 出力を優先しなくなりました）
+* 変更: net472 コンポーネントの Newtonsoft.Json を **13.0.3** に変更
+* 追加: **C# 式言語** のサポート（Roslyn）。式言語はプロジェクトごとの設定です（VB または C#）
+* 追加: プロジェクト スコープのルールを持つ **Workflow Analyzer**（Analyzer Client / CLI）
+* 追加: Studio に統合された **App / Web Recorder**
+* 追加: プロバイダー オプション付きの **AskAI / AkaNinja**（AI Hub / Cloudflare Worker）。設定は LocalAppData の `settings.json` に保存されます
+* 追加: **project.v1.json** プロジェクト形式。レガシー `project.json` を移行する前の確認ダイアログ（設定で移行をデフォルトでサイレントにするオプションあり）
+* 追加: デバッガーの改善（VB コンパイラー評価による Watches、ステッピング / ハイライト / ブレークポイントの修正）。デバッガーは **VB プロジェクトのみ** で利用可能（C# では無効）
+* 更新: インストーラーが **`packages.txt`** から NuGet パッケージをセットアップ出力に読み込むように変更
+* 更新: VC++ PlatformToolset を **v142** に更新
+* 更新: WMIC が利用できない / 非推奨の場合、ライセンス モジュールが **PowerShell** 経由でマシン UUID を解決（マシン コード互換性を維持）
+* 更新: 該当する場合、ハードコードされた `C:\WINDOWS` の代わりに `%SystemRoot%` を使用
+* 削除: インストーラーから Firefox 拡張機能のレジストリ キーを削除
+* 追加: Studio、Agent、Recorder、Analyzer、およびプロジェクト移行 UI 向けのより広範な **i18n** カバレッジ（ja-JP / zh-CN / zh-Hans）
+* 更新: Agent トレイ メニューの About。Agent UI 言語の読み込み / 適用
+* 更新: BotExecutor が `project.v1.json` を優先。見つからない場合はレガシー `project.json` にフォールバック
+* 改善: セレクター ダイアログの検出を改善し、開く / 読み込み時間を短縮
+* 改善: VB / C# 式エディターの候補、引用符の処理、およびエラー メッセージ
+* 修正: 一部のケースで Studio が net472 ではなく net452 を誤って読み込む問題
+* 修正: Open Logs コマンド
+* 修正: AkaNinja 接続詳細の `settings.json` からの読み込み
+* 修正: ブラウザ ドライバーのメジャー バージョン不一致の検出 / 自動検出時のフェイルファスト
+* 修正: WMIC が “Invalid XSL format (or) file name” を返した場合の IsWmicAvailable の処理
+* 修正: マシン コード一貫性のための UUID の置換 / トリム処理
+* 修正: 実行時に TypeLoadException を引き起こす可能性があった Microsoft.CodeAnalysis アセンブリ バインディング
+* マージ: セキュリティ脆弱性の修正
+* 更新: Dirkster.MRULib を 1.30 に更新（ライセンス表示）
+
 ## v3.0.0.0
+
+> 注意: これはベータ版です。ご自身の責任でご使用ください。
 
 **変更点**
 * プラットフォームを .NET Framework 4.7.2 にアップグレードする
