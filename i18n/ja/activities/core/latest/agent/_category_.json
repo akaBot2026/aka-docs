@@ -1,0 +1,9 @@
+{
+  "label": "エージェント",
+  "position": 24,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}
