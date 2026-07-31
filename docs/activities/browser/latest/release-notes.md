@@ -8,6 +8,18 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
+### v3.3.0.0
+
+Release notes
+
+- Fixed Error not showing when Chromium Driver and Browser versions mismatch.
+
+### v3.2.0.5
+
+Release notes
+
+- Added Support for .NET 4.7.2
+
 ### v2.3.0.5
 
 Release notes:

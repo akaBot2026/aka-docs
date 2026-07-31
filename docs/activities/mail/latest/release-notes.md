@@ -8,6 +8,22 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
+### v3.2.0.0
+
+Added Support for .NET 4.7.2
+Added SMTP OAuth support following activities:
+- `SendMail`
+- `GetIMAPMailMessages`
+- `MoveIMAPMailMessageToFolder`
+- `GetPOP3MailMessages`
+
+### v2.1.2.0
+
+- Added `Filter` property for `GetExchangeMailMessages`.
+- Added toolbox icon and resource entries for `DeleteExchangeMailMessage`.
+- Added attachment `ContentId` support for SMTP mail HTML inline images.
+- Fixed forwarded mail using `SendOutlookMail` not sending attachments.
+
 ## v2.1.1.0
 
 **Bug Fixes**
