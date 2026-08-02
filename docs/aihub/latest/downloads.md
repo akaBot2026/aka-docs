@@ -4,7 +4,7 @@ title: "Akabot AI Hub — Downloads"
 sidebar_label: Downloads
 sidebar_position: 3
 description: Download links for every released version of Akabot AI Hub.
-displayed_sidebar: centerSidebar
+displayed_sidebar: aiHubSidebar
 ---
 
 # Akabot AI Hub — Downloads
