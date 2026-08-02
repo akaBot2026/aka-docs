@@ -9,6 +9,41 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — Release Notes
 
+## v5.1.0.0
+
+**Added**
+
+- Added **AI Hub integration** to Akabot Center.
+- Added permissions for **AI Chat**, **RAG**, **Channel**, and **Agent Assignment**.
+- Added **token, language, and organization unit** synchronization with AI Hub.
+- Added **user, robot, and agent group** synchronization with AI Service.
+- Added **HMAC authentication** between Akabot Center and AI Service.
+
+**Database**
+
+New tables introduced in this release:
+
+| Table | Purpose |
+|---|---|
+| `ai_integration_entity_version` | Synchronized data versioning. |
+| `ai_lifecycle_outbox` | Storing events awaiting synchronization. |
+| `ai_lifecycle_outbox_ou` | Mapping synchronization events to organization units. |
+
+**Permissions**
+
+Added four AI permissions to the `authority_resource` table:
+
+- AI Chat
+- RAG
+- Channel
+- Agent Assignment
+
+**Notes**
+
+- **Upgrade path:** v5.0.0.1 → v5.1.0.0.
+- AI Hub is **disabled by default** and must be configured before use.
+- Liquibase automatically creates the new database tables and permission records during the upgrade.
+
 ## v5.0.0.1
 **Added**
 - **[Schedule]**: Added the ability to filter schedules by status.

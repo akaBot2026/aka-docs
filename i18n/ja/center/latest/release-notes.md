@@ -9,6 +9,41 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — リリースノート
 
+## v5.1.0.0
+
+**追加**
+
+- Akabot Center に **AI Hub 連携** を追加しました。
+- **AI Chat**、**RAG**、**Channel**、**Agent Assignment** の権限を追加しました。
+- AI Hub との **トークン、言語、組織単位** の同期を追加しました。
+- AI Service との **ユーザー、ロボット、エージェント グループ** の同期を追加しました。
+- Akabot Center と AI Service の間で **HMAC 認証** を追加しました。
+
+**データベース**
+
+このリリースで追加されたテーブル:
+
+| テーブル | 目的 |
+|---|---|
+| `ai_integration_entity_version` | 同期データのバージョニング。 |
+| `ai_lifecycle_outbox` | 同期待ちイベントの保存。 |
+| `ai_lifecycle_outbox_ou` | 同期イベントと組織単位の対応付け。 |
+
+**権限**
+
+`authority_resource` テーブルに 4 つの AI 権限を追加しました:
+
+- AI Chat
+- RAG
+- Channel
+- Agent Assignment
+
+**注記**
+
+- **アップグレード パス:** v5.0.0.1 → v5.1.0.0
+- AI Hub は **デフォルトでは無効** であり、使用前に設定が必要です。
+- Liquibase は、アップグレード時に新しいデータベース テーブルと権限レコードを自動的に作成します。
+
 ## v5.0.0.1
 
 **新機能**
