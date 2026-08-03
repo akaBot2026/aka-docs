@@ -15,6 +15,7 @@ Use the links below to download Akabot Center application file. Each row corresp
 
 | Version    | Build date    | Download                                                                     |
 | ---------- | ------------- | ---------------------------------------------------------------------------- |
+| v5.1.0.0   | Jul 31, 2026  | [Download](https://ws3.akabot.com/s/8kyM9B3pBRt139F)                         |
 | v5.0.0.1   | Jul 31, 2026  | [Download](https://ws3.akabot.com/s/WWueELRSzeccJDw)                         |
 | v5.0.0.0   | Jul 27, 2026  | [Download](https://ws3.akabot.com/s/uBmQ97Ri3FREAan)                         |
 | v4.0.0.14  | Jun 03, 2026  | [Download](https://ws3.fpt-software.vn/s/1pfzfqVnsoNiKDc)                    |
