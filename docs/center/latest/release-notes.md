@@ -44,6 +44,7 @@ Added four AI permissions to the `authority_resource` table:
 - AI Hub is **disabled by default** and must be configured before use.
 - Liquibase automatically creates the new database tables and permission records during the upgrade.
 
+---
 ## v5.0.0.1
 **Added**
 - **[Schedule]**: Added the ability to filter schedules by status.

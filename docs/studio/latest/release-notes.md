@@ -11,36 +11,86 @@ displayed_sidebar: studioSidebar
 
 ## v3.2.0.0
 
-**Changes**
-* Increased: platform version to `3.2.0.0`
-* Changed: Studio / Agent build and runtime target to **net472 only** (no longer prefer net452 output)
-* Changed: Newtonsoft.Json to **13.0.3** on net472 components
-* Added: **C# expression language** support (Roslyn); expression language is a per-project setting (VB or C#)
-* Added: **Workflow Analyzer** (Analyzer Client / CLI) with project-scoped rules
-* Added: **App / Web Recorder** integrated into Studio
-* Added: **AskAI / AkaNinja** with provider options (AI Hub / Cloudflare Worker); settings stored in LocalAppData `settings.json`
-* Added: **project.v1.json** project format; confirmation dialog before migrating legacy `project.json` (migration silent-by-default option in Settings)
-* Added: debugger improvements (Watches with VB compiler evaluation, stepping / highlight / breakpoint fixes); debugger available for **VB projects only** (disabled for C#)
-* Updated: installer loads NuGet packages from **`packages.txt`** into setup output
-* Updated: VC++ PlatformToolset to **v142**
-* Updated: licensing module resolves machine UUID via **PowerShell** when WMIC is unavailable / deprecated (keep machine-code compatibility)
-* Updated: use `%SystemRoot%` instead of hard-coded `C:\WINDOWS` where applicable
-* Removed: Firefox extension registry key from installer
-* Added: broader **i18n** coverage for Studio, Agent, Recorder, Analyzer, and project-migration UI (ja-JP / zh-CN / zh-Hans)
-* Updated: Agent tray menu About; Agent UI language load / apply
-* Updated: BotExecutor prefers `project.v1.json`; falls back to legacy `project.json` when not found
-* Improved: selector dialog detection to reduce open / load time
-* Improved: VB / C# expression editor suggestions, quote handling, and error messaging
-* Fixed: Studio incorrectly loading net452 instead of net472 in some cases
-* Fixed: Open Logs command
-* Fixed: AkaNinja connection details load from `settings.json`
-* Fixed: browser driver major-version mismatch detection / fail-fast on auto-detect
-* Fixed: IsWmicAvailable handling when WMIC returns “Invalid XSL format (or) file name”
-* Fixed: UUID replace / trim handling for machine-code consistency
-* Fixed: Microsoft.CodeAnalysis assembly binding that could cause TypeLoadException at runtime
-* Merged: security vulnerability fixes
-* Updated: Dirkster.MRULib to 1.30 (license display)
+**1. Studio Highlights**
 
+| Feature | Description |
+|---|---|
+| **Security:** | Fixed vulnerability across the entire platform. |
+| **C# expression language** | Projects can now use C# expressions in addition to VB, with a Roslyn-powered editor, IntelliSense, and auto-`using` resolution. |
+| **Enhanced Debugger** | Breakpoints, Watches panel, local-value editing, step execution, and an execution-trail marker. |
+| **AkaNinja pane** | In-Studio AI assistant for asking questions and generating expression code, with slash (`/`) and `@` context commands, now powered by **AI Hub**. |
+| **Recorder for Web/Window app** | New recorder for capturing UI interactions directly into a workflow. |
+| **Workflow Analyzer** | Static analysis of workflows against configurable rules, available in Studio, as a CLI, and via a client. |
+| **`project.v1.json` format** | New project descriptor with guided migration from the legacy `project.json`. |
+
+**C# Expression Support & Roslyn Editor**
+- Added **C# as a project expression language** alongside VB, selectable via radio buttons in the new-project wizard.
+- Added a **code IntelliSense workspace** and **auto-detection / insertion of `using` namespaces** for unknown data types.
+
+**VB Expression Editor**
+- Overload grouping, quote pairing, and literal-aware suggestions.
+- Member suggestions on literal/compound receivers with improved quote and selection handling.
+- Stopped space from committing a suggestion.
+
+**Enhanced Debugger**
+- **Breakpoints** that persist across project open/close, with a dedicated Breakpoints panel and identity-based breakpoint tracking.
+- **Watches panel** with expandable value models, local-value edit dialog, and Watch expressions evaluated by the real VB/C# compiler.
+- **Execution-trail marker** aligned to the title bar; stepping-highlight and step-over pause-position fixes.
+- Debugger restricted to **VB projects only**; debug buttons are disabled on C# projects with an explanatory tooltip.
+
+**AkaNinja Assistant**
+- New **AkaNinja pane** for chat-style assistance and **AI-generated expression code**.
+- **Slash commands** (`/workflow`, `/log`) and **`@` context commands** to pull context from a specific XAML file and its scope, with helper text and prompt guidance.
+- C# language support for AkaNinja and generated expressions.
+
+**Project Format & Migration**
+- Support for **`project.v1.json`** alongside legacy `project.json`, including opening projects via either file.
+- **Confirm-before-migrate** dialog when upgrading a legacy `project.json`, with silent-by-default option controls and a themed, resourced, fixed-size dialog.
+- Upgrade package `Dirkster.MRULib` to 1.30 to fix a license-unknown issue.
+
+**UI/UX**
+- Recent-project and status-bar **VB/C# language badges**.
+- Selector-dialog detection optimized to reduce load time.
+- Help menu points to the new akaBot docs; documentation links are language-specific.
+
+**Workflow Analyzer**
+
+- **Workflow Analyzer feature** with a configurable rule set; analysis scope changed from global to **per-project**.
+- **Navigate to the offending activity/workflow** by double-clicking an analysis result.
+
+**Recorder**
+
+- Web/app recording engine with **counter actions** and **"navigate to"** support.
+- Root-selector trimming and dependency-project handling in exported results.
+- Fixes: navigation mapper, image-search step compatibility, and Unicode variable names returned by *Get Text*.
+- Recorder version aligned to Common ≥ 4.7.0.
+
+**2. akaBot Agent**
+
+- **Agent**: tray-menu "About" update; fixes for missing language designer code.
+- **Bot Executor**: prefers `project.v1.json`, falling back to legacy `project.json`.
+- Target frameworks standardized to **net472**.
+- **Auto Logon module**: Improved discovery of the **LogonUI** candidate windows.
+
+**3. Event Trigger Manager**
+
+- Language-aware combobox that updates when the UI language changes.
+- Removed unused resources and enhanced the UI with icons; added event-trigger translations.
+
+**4. Licensing and Named-pipe**
+
+- Obtain machine UUID via **PowerShell** when WMIC is disabled/deprecated, with a fix for `IsWmicAvailable` when WMIC returns an invalid format.
+- Replaced hard-coded `C:\WINDOWS` with `%SystemRoot%` for non-C: Windows installs.
+- Improved named-pipe connection-pool management for stability.
+
+**5. Setup Installer**
+
+- **Support multi-languages:** English, Japanese, Chinese
+- **Removed packages:** Common.1.0.0, Common.2.0.0.5, Common.2.0.0.6, FormBuilder.2.1.1.1, OCR.2.1.0.1, OCR.2.1.0, PDF.2.1.0, PDF.2.1.1, PDF.2.1.2
+
+- **Added packages:** Aka.RPA.Extras.Taxonomy.3.2.0.1, ActiveDirectory.3.2.0, AIServices.1.1.0, AIServices.3.2.0, AppConnect.Salesforce.1.0.0.1, AppConnect.Salesforce.3.2.0, Box.1.0.0.1, Box.3.2.0, Browser.2.3.0.1, Browser.3.2.0.5, Browser.3.3.0, Catia.3.2.0, Common.2.0.0.9, Common.3.0.1.1, Common.3.0.1, Common.3.1.0.1, Common.4.2.0, Common.4.6.0.1, Common.4.7.0, ComputerVision.1.1.0.5, ComputerVision.3.2.0, Core.3.0.0.1, Core.3.0.0.2, Core.3.3.0, Core.3.4.0, DataService.1.0.1.1, DataService.1.0.1, DataService.3.2.0, Excel.3.2.0, FormBuilder.3.3.0, FTP.3.2.0, GoogleCloud.1.0.0.2, GoogleCloud.3.2.0, GSuite.2.2.1.1, GSuite.3.2.1, GSuite.3.3.0, IDP.1.0.0.1, IDP.3.2.0, IE.3.2.0, Java.2.3.0.1, Java.2.3.0.4, Java.3.4.0, Mail.3.2.0, NativeBrowser.5.0.0.5, NativeBrowser.6.0.0.4, NativeBrowser.6.2.0, OCR.2.1.0.2, OCR.3.2.0, Office365.1.0.1.1, Office365.3.2.0, PCOMM.3.2.0, PDF.2.1.2.1, PDF.3.2.0, Python.3.2.0, Salesforce.1.0.0.1, Salesforce.3.2.0, Windows.3.2.0, Word.3.2.1, Word.3.3.0
+
+---
 ## v3.0.0.0
 
 > NOTE: THIS IS BETA VERSION. PLEASE USE AT YOUR OWN RISK!
