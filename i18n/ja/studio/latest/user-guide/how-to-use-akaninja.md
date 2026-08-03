@@ -21,6 +21,47 @@ displayed_sidebar: studioSidebar
 * **エラーのトラブルシューティングとデバッグ**: ログやエラーメッセージを提供すると、AkaNinjaが根本原因を分析し、問題を解決するための正確な手順を案内します。
 * **式の生成**: 変数やデータ型に合わせて調整されたVB.NetまたはC#の式（例：文字列操作、LINQ、日付形式の変換など）を生成します。
 
+## 設定
+
+AkaNinjaを使用する前に、StudioでAIプロバイダーを設定してください。この設定は「自然言語から式コードの生成」機能と共有されます。
+
+### AI Integration タブを開く
+
+1. **akaBot Studio** を開きます。
+2. **Options** に移動します (Backstage / ホーム → **Options**)。
+3. **AI Integration** タブを選択します。
+4. **Provider** で、以下のいずれかを選択します：
+   - **AI Hub**
+   - **Akabot Cloud AI Server** (Cloudflare Worker)
+
+![AI Integration options](/static/img/ai-integration-options.png)
+
+### プロバイダー: AI Hub
+
+Studioが接続されたAgentを介してCenterと通信する場合は、**AI Hub** を使用します。
+
+1. **AI Integration** で、**Provider** を **AI Hub** に設定します。
+2. **akaBot Agent** を開きます。
+3. **Connect** に移動し、AgentをCenter (Studioで使用されているものと同じ組織/環境) に接続します。
+4. AkaNinjaとチャットしている間、Agentが接続状態を維持していることを確認します。
+
+Agentが接続されていないか、正しく割り当てられていない場合、StudioはAI Hubに認証できず、AkaNinjaのリクエストは失敗します (例: アクセス拒否 / 無効なCenterトークン エラー)。
+
+### プロバイダー: Akabot Cloud AI Server (Cloudflare)
+
+Studioがインターネット経由でCloudflare Workerエンドポイントを呼び出す場合は、**Akabot Cloud AI Server** を使用します。
+
+1. **AI Integration** で、**Provider** を **Akabot Cloud AI Server** に設定します。
+2. **API Endpoint** (WorkerのURL) を入力します。このフィールドは、このプロバイダーが選択されている場合にのみ表示されます。
+3. PCがそのエンドポイントへの **インターネットアクセス** を持っていることを確認します。
+4. Options を保存 / 適用します。
+
+APIエンドポイントは、式の生成やAkaNinjaチャットボットアシスタンスを含むAI機能を強化します。
+
+**注記**
+> * **AI Hub**: Centerに接続されたAgentが必要です。Agentが切断されている場合、インターネットアクセスのみでは不十分です。
+> * **Akabot Cloud AI Server**: 有効なWorker URLと送信インターネットアクセスが必要です。
+
 ## UIの概要
 
 **AkaNinja**パネルはakaBot Studioの右側にドッキングされており、**Properties**、**Outline**、**Locals**とペイン領域を共有しています。
@@ -52,40 +93,47 @@ displayed_sidebar: studioSidebar
 
 自動化開発中にAkaNinjaと対話するには、次の手順に従います。
 
-### ステップ 1: パネルを開く
+### ステップ 1: AI Integration の設定
+
+最初に [設定](#設定) を完了します (**Options → AI Integration**)。
+
+### ステップ 2: パネルを開く
 akaBot Studioの右下パネルにある **AkaNinja** タブをクリックして、チャットインターフェイスを開きます。
 
-### ステップ 2: クエリを作成する
-入力フィールドにプロンプトを入力します。リクエストでコンテキストを認識させるには、次の手順を実行します。
+### ステップ 3: 質問の作成
+入力フィールドにプロンプトを入力します。リクエストでコンテキストを認識させるには：
 1. 入力フィールドに `@` と入力します。
-2. ポップアップメニューから適切なタグを選択します（例：構成について質問する場合は `@activity` を、エラーについて質問する場合は `@output` を選択します）。
-3. 続けて、自然言語で指示を入力します。
+2. ポップアップメニューから適切なタグを選択します (例: 構成について質問する場合は `@activity`、エラーについて質問する場合は `@output` を選択)。
+3. 自然言語で指示の入力を続けます。
 
-### ステップ 3: プロンプトを送信する
-**送信**ボタンをクリックするか、**Enter**キーを押します。AkaNinjaが質問を処理し、添付されたコンテキストを検査して、回答を生成します。
+### ステップ 4: プロンプトの送信
+**Send**（送信）ボタンをクリックするか、**Enter** キーを押します。AkaNinjaは質問を処理し、添付されたコンテキストを確認して、回答を生成します。
 
-### ステップ 4: 確認と適用
-AIによって生成された提案、手順、またはコードブロックを確認します。
+### ステップ 5: 確認と実装
+AIによって生成された提案、手順、またはコードブロックを確認します：
 * **指示の場合**: 提案されたステップバイステップのUI調整に従います。
-* **式/コードの場合**: チャットペイン内のコードスニペットにある**コピー（Copy）**アイコンをクリックし、アクティビティプロパティまたはExpression Editorに直接貼り付けます。
+* **式/コードの場合**: チャットペイン内のコードスニペットにある **Copy** アイコンをクリックし、アクティビティのプロパティまたは Expression Editor に直接貼り付けます。
 
-## 具体的な使用例
 
-RPAタスクを効率化するためにAkaNinjaを使用する代表的なシナリオを以下に示します。
+## 一般的なユースケースと対話例
 
-### エラーの修正サポート
+以下の実用的な例は、開発中にAkaNinjaを効果的に使用する方法を示しています。
 
-ワークフローの実行が失敗した場合、Outputパネルのログを活用してエラーを特定し、解決することができます。
+### エラーのデバッグ
 
-* **シナリオ**: 実行中にファイルがすでに「保護されたビュー（Protected View）」で開かれているため、*Read Range* アクティビティが失敗します。
-* **ステップ 1**: デザイナー（Designer）パネルで失敗している *Read Range* アクティビティをクリックして選択します。
-* **ステップ 2**: **AkaNinja** パネルを開きます。
-* **ステップ 3**: 次のプロンプトを入力します。
-  > "`@output @activity` How do I fix the error shown for my selected activity?"
-* **ステップ 4**: **Send**（送信）をクリックします。AkaNinjaが `@output` タグからアクティブなエラーメッセージ（例：`IOException: The process cannot access the file because it is being used by another process`）を読み取り、選択された `@activity` のプロパティを識別します。
-* **ステップ 5**: AIから提供された解決策を確認して適用します。
+ロボットの実行がエラーで失敗した場合は、AkaNinjaにトラブルシューティングと解決手順を依頼できます。
+
+* **シナリオ**: アクティビティが例外をスローしました：`System.IO.IOException: The process cannot access the file 'C:\Data\Report.xlsx' because it is being used by another process.`
+* **ステップ 1**: **AkaNinja** パネルを開きます。
+* **ステップ 2**: 入力フィールドに `@output` と入力し、リストから参照タグを選択します。
+* **ステップ 3**: 質問を入力します：
+  > "@output Explain why this error happened and provide actionable steps to fix it in my workflow."
+* **ステップ 4**: **Send**（送信）をクリックします。
+* **ステップ 5**: AkaNinjaの分析と解決策の手順を確認します。
 ```markdown
-このエラーは、アクティビティによって使用されているファイルが別のプロセスによってロックされていることを意味します。以下をお試しください。
+## 分析
+
+`System.IO.IOException: The process cannot access the file ... because it is being used by another process.` というエラーは、ロボットがアクセスしようとしているファイルが、現在別のアプリケーションまたはバックグラウンドプロセスによってロックされていることを意味します。以下をお試しください。
 
 1. Excel、Word、PDF リーダー、画像ビューアー、またはその他のアプリケーションでファイルを閉じます。
 2. 同一ファイルにアクセスする可能性のある、ワークフローの重複実行や並行実行を停止します。並行する分岐で同じファイルパスを使用しないようにしてください。

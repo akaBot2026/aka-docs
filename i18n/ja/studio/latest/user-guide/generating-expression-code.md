@@ -23,6 +23,46 @@ akaBot Studioの **Natural Language to Expression Generator（自然言語から
 * ワークフローのロジック、バリデーション、および計算の作成を簡素化します。
 * プログラミングの知識が限られているユーザーでも、式の開発を容易にします。
 
+## 設定
+
+「自然言語から式コードの生成」機能を使用する前に、StudioでAIプロバイダーを設定してください。
+
+### AI Integration タブを開く
+
+1. **akaBot Studio** を開きます。
+2. **Options** に移動します (Backstage / ホーム → **Options**)。
+3. **AI Integration** タブを選択します。
+4. **Provider** で、以下のいずれかを選択します：
+   - **AI Hub**
+   - **Akabot Cloud AI Server** (Cloudflare Worker)
+
+![AI Integration options](/static/img/ai-integration-options.png)
+
+### プロバイダー: AI Hub
+
+Studioが接続されたAgentを介してCenterと通信する場合は、**AI Hub** を使用します。
+
+1. **AI Integration** で、**Provider** を **AI Hub** に設定します。
+2. **akaBot Agent** を開きます。
+3. **Connect** に移動し、AgentをCenter (Studioで使用されているものと同じ組織/環境) に接続します。
+4. 式の生成機能を使用している間、Agentが接続状態を維持していることを確認します。
+
+Agentが接続されていないか、正しく割り当てられていない場合、StudioはAI Hubに認証できず、式の生成に失敗します。
+
+### プロバイダー: Akabot Cloud AI Server (Cloudflare)
+
+Studioがインターネット経由でCloudflare Workerエンドポイントを呼び出す場合は、**Akabot Cloud AI Server** を使用します。
+
+1. **AI Integration** で、**Provider** を **Akabot Cloud AI Server** に設定します。
+2. **API Endpoint** (WorkerのURL) を入力します。このフィールドは、このプロバイダーが選択されている場合にのみ表示されます。
+3. PCがそのエンドポイントへの **インターネットアクセス** を持っていることを確認します。
+
+APIエンドポイントは、式の生成やAkaNinjaチャットボットアシスタンスを含むAI機能を強化します。
+
+**注記**
+> * **AI Hub**: Centerに接続されたAgentが必要です。Agentが切断されている場合、インターネットアクセスのみでは不十分です。
+> * **Akabot Cloud AI Server**: 有効なWorker URLと送信インターネットアクセスが必要です。
+
 ## ユーザーインターフェース（UI）の概要
 
 この機能は、akaBot Studioの標準的な **Expression Editor** ダイアログの下部に直接埋め込まれています。
@@ -47,7 +87,7 @@ akaBot Studioの **Natural Language to Expression Generator（自然言語から
 
 ## ステップバイステップガイド
 
-テキストプロンプトを使用して式コードを生成するには、akaBot StudioがAIサービスにアクティブに接続されていることを確認してください。
+テキストプロンプトを使用して式コードを生成するには、akaBot StudioのAI Integrationプロバイダーが設定されていることを確認してください ([設定](#設定) を参照)。
 
 テキストプロンプトを使用して式コードを生成するには、以下の手順に従います：
 
@@ -75,11 +115,9 @@ Expression Editorダイアログの下部にある、*`Describe your expression 
 
 エディターペインで生成された式を確認します。必要に応じて手動で修正を行い、**OK** をクリックして式を保存し、アクティビティに適用します。
 
-## プロンプト記述のベストプラクティス
+## プロンプト記述のベストプラクティスとコツ
 
-AIアシスタントから最も正確で信頼性の高い式を得るために、以下のプロンプトのガイドラインに従ってください：
-
-* **変数を正確に参照する**: プロジェクトで定義されている変数、引数、またはアセットの正確な名前を常に使用します（例：`customerEmail`、`invoiceDateText`）。
+* **正確な変数名を使用する**: 参照するワークフロー内で定義されている変数、引数、またはアセットの正確な名前を常に使用します（例：`customerEmail`、`invoiceDateText`）。
 * **アクション動詞を指定する**: ロジックを導くために、明確なプログラミングの動詞を使用します（例：*"Convert"*（変換する）、*"Filter"*（フィルタリングする）、*"Extract"*（抽出する）、*"Combine"*（結合する）、*"Check whether"*（〜かどうか確認する））。
 * **デフォルト値を定義する**: 空（empty）になる可能性のある値を処理する場合は、プロンプトでフォールバック（代替値）を指定します（例：*"Convert amountText to Decimal, using 0 if it is empty"*）。
 * **複雑なロジックを分割する**: ロジックに複数のネストされた条件が含まれる場合は、それらを順次説明します（例：*"Check if dt_EmployeeData is not null and has at least one row"*）。
@@ -89,8 +127,9 @@ AIアシスタントから最も正確で信頼性の高い式を得るために
 
  コンパイルエラーを回避するために、以下のルールに留意してください：
  
-> 1. **変数の事前宣言**: AIアシスタントは、名前をプロジェクト内の変数にマッピングします。式を生成する前に、参照されるすべての変数と引数がakaBot Studioの **Variables（変数）** または **Arguments（引数）** パネルで既に作成されていることを確認してください。
+> 1. **変数の事前宣言**: AIアシスタントは、名前をプロジェクト内の変数にマッピングします。式の生成を試みる前に、参照されるすべての変数と引数がakaBot Studioの **Variables（変数）** または **Arguments（引数）** パネルで既に作成されていることを確認してください。
 > 2. **プロジェクトの言語コンテキスト**: 式のフォーマット（VB.NetかC#か）は、プロジェクトの設定によって決定されます。プロジェクトがVB.Netプロジェクトの場合、エディターはVBの式を生成し、C#プロジェクトの場合はC#の式を生成します。
+> 3. **AIプロバイダーの設定**: 最初に **Options → AI Integration** を設定します。**AI Hub** の場合は、AgentをCenterに接続します。**Akabot Cloud AI Server** の場合は、Worker URLを設定し、インターネットアクセスを確保します。
 
 
 ## サンプルライブラリ
