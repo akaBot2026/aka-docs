@@ -15,6 +15,7 @@ displayed_sidebar: studioSidebar
 
 | バージョン   | ビルド日           | ダウンロード                                                                 |
 | ----------- | ----------------- | ---------------------------------------------------------------------------- |
+| v3.2.1.0    | 2026 年 8 月 06 日  | [ダウンロード](https://ws3.akabot.com/s/fTw4exfg6CyWKkv)                         |
 | v3.2.0.0    | 2026 年 7 月 31 日  | [ダウンロード](https://ws3.akabot.com/s/p2nAmp2hAK8uOPL)                    |
 | v2.2.0.14   | 2026 年 7 月 16 日  | [ダウンロード](https://ws3.akabot.com/s/viRRORLdKdnugwm)                    |
 | v2.2.0.13   | 2026 年 6 月 17 日  | [ダウンロード](https://ws3.akabot.com/s/XtLAL29x3vAt4Gu)                    |
@@ -23,8 +24,8 @@ displayed_sidebar: studioSidebar
 | v2.2.0.10   | 2026 年 4 月 21 日 | [ダウンロード](https://ws3.akabot.com/s/btdj2o558GaCHYn)                     |
 | v2.2.0.9    | 2025 年 12 月 24 日 | [ダウンロード](https://ws3.akabot.com/s/2K9pSUmWtOL5KTF)                    |
 | v2.2.0.8b   | 2025 年 12 月 5 日  | [ダウンロード](https://ws3.akabot.com/s/LFHMJd6PSucZrXg)                    |
-| v2.2.0.8a   | 2025 年 11 月 28 日 | [サポート](mailto:support@akabot.com) にお問い合わせください                |
-| v2.2.0.8    | 2025 年 11 月 20 日 | [サポート](mailto:support@akabot.com) にお問い合わせください                |
+| v2.2.0.8a   | 2025 年 11 月 28 日 | にお問い合わせください                                                       |
+| v2.2.0.8    | 2025 年 11 月 20 日 | にお問い合わせください                                                       |
 | v2.2.0.7c   | 2025 年 9 月 23 日  | [ダウンロード](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b)               |
 | v2.2.0.5    | 2025 年 3 月 4 日   | [ダウンロード](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY)               |
 | v2.2.0.3    | 2024 年 6 月 14 日  | [ダウンロード](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ)               |

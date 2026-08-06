@@ -9,6 +9,15 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — Release Notes
 
+## v3.2.1.0
+
+- Added: package `Core 3.4.1` to installer.
+- Added: browser extension v3.0.5 CRX files for browser (Chrome, Edge).
+- Update: changed default Core version to 3.4.1 when create new project.
+- Fixed: Install browser (Chrome, Edge) extension in policy mode.
+- Fixed: duplicate references error when using Studio to compile workflow to a shared library.
+- Fixed: missing appender for log4net in Native Host.
+
 ## v3.2.0.0
 
 **1. Studio Highlights**
