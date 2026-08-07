@@ -37,3 +37,19 @@ displayed_sidebar: activitiesSidebar
 リリースノート：
 
 1. 追加：「PDFフォームを表示」アクティビティを追加。
+
+## **アクティビティをインストールするにはどうすればよいですか?**
+
+**1.パッケージを手動でダウンロード**
+
+- [here](https://ws3.akabot.com/s/TtAmz5RONy2weqB)をクリックしてアクティビティ ファイルをダウンロードします。
+
+- \*.nupkg ファイルを次のフォルダーに置きます: **C:\ProgramData\akaBot\Packages\\**
+
+- **Studio > Package Manager** で、リストからこのアクティビティを検索してインストールします。
+
+**2. Studio パッケージ マネージャーを使用する**
+
+- **Studio > パッケージ マネージャー > 設定 > ユーザー パッケージ ソース** で、次のリポジトリを追加します: https://gitlab.com/api/v4/projects/75840319/packages/nuget/index.json
+
+- リストからこのアクティビティを検索してインストールします。
