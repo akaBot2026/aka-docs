@@ -15,6 +15,7 @@ displayed_sidebar: centerSidebar
 
 | バージョン  | ビルド日           | ダウンロード                                                             |
 | ---------- | ------------- | --------------------------------------------------------------------------- |
+| v5.0.0.2   | 2026年8月10日 | [ダウンロード](https://ws3.akabot.com/s/flCv8nzBcY2Y3Ic)                       |
 | v5.1.0.0   | Jul 31, 2026  | [ダウンロード](https://ws3.akabot.com/s/8kyM9B3pBRt139F)                     |
 | v5.0.0.1   | Jul 31, 2026  | [ダウンロード](https://ws3.akabot.com/s/WWueELRSzeccJDw)                     |
 | v5.0.0.0   | Jul 27, 2026  | [ダウンロード](https://ws3.akabot.com/s/uBmQ97Ri3FREAan)                     |

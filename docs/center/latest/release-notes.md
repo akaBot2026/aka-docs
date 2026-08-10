@@ -9,6 +9,19 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — Release Notes
 
+## v5.0.0.2
+
+Build date: Aug 10, 2026
+
+**Added**
+
+- **[High Availability]**: Added a coordination mechanism between Center nodes to improve processing consistency.
+
+**Fixed**
+
+- **[Schedule]**: Fixed day selection for monthly schedules and improved the labels for selected days.
+
+---
 ## v5.1.0.0
 
 **Added**
