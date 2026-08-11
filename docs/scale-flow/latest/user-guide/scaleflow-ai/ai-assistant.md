@@ -30,6 +30,7 @@ AI Assistant includes several helpers:
 - **Smart Summary**: writes a short summary of a conversation for your team.
 - **Smart Writing**: improves, rewrites, translates, or polishes a message you already typed.
 - **Follow-up Assistant**: sends a follow-up when a conversation has been quiet for a set time.
+- **Close Conversation**: auto-closes idle chats and can add internal closing notes for your team.
 
 Smart Assistant is the core feature for automated customer support. It is the part that can carry a conversation, use Knowledge, and take supported actions such as creating a ticket when needed.
 
@@ -103,6 +104,70 @@ Smart Reply is for assisted human replies. It does not send messages automatical
 Simple Smart Reply instruction example:
 
 > Draft short, friendly replies in Vietnamese. Use business policy from Knowledge when available. If information is missing, ask one clarifying question instead of guessing.
+
+## Set up Smart Summary
+
+Smart Summary writes a short recap of a long conversation so the next teammate can catch up quickly.
+
+1. Open **AI** → **Inbox Assistant** → **Smart Summary**.
+2. Choose a **model**.
+3. Set **Messages used** (how many recent messages to read — often 8–12).
+4. Write **instructions** (for example: bullet points, customer issue, what was promised).
+5. Turn **Enabled** on → **Save changes**.
+
+In **Inbox**, open a conversation and run Smart Summary when you need the recap (exact button label may show as **Summary** or similar in the conversation toolbar).
+
+![Smart Summary settings page](/static/img/smart-summary.png)
+
+## Set up Smart Writing
+
+Smart Writing helps staff polish text they already typed — translate, shorten, make friendlier, and more. You build a **menu of actions** your team sees in the Inbox composer.
+
+1. Open **AI** → **Inbox Assistant** → **Smart Writing**.
+2. Choose a **model** and **Messages used** for context.
+3. Under actions, add items:
+   - **Action** — one command (example: “Translate to English”) with its own prompt
+   - **Group** — folder that holds several actions (example: “Tone” → Friendly / Formal)
+4. For each action set **display name**, **icon**, and **prompt**.
+5. Drag to reorder. Turn **Enabled** on → **Save changes**.
+
+In Inbox, highlight text in the reply box and open the **Smart Writing** menu to pick an action.
+
+![Smart Writing settings page](/static/img/smart-writing.png)
+
+## Set up Follow-up Assistant
+
+Follow-up Assistant nudges quiet conversations after no reply for a while.
+
+1. Open **AI** → **Inbox Assistant** → **Follow-up Assistant**.
+2. Set **Quiet duration (hours)** — how long to wait (1–23 hours in the form).
+3. Set **Messages used** for context.
+4. Choose **model** and turn **Enabled** on.
+5. Pick **Action**:
+   - **Send message** — AI sends a follow-up (write instructions for tone and content)
+   - **Notify** — alert your team instead of messaging the customer
+6. **Save changes**.
+
+![Follow-up Assistant settings page](/static/img/follow-up.png)
+
+## Set up Closure Assistant
+
+Closure Assistant helps tidy finished chats — optionally auto-close after idle time and add an internal closing note.
+
+1. Open **AI** → **Inbox Assistant** → **Closure Assistant** (you can also reach this from **Organization** → **Tenant** conversation settings).
+2. Choose **model** and **Messages used**.
+3. **Auto-close** (optional):
+   - Turn **Auto-close enabled** on
+   - Set **schedule** (when auto-close may run)
+   - Set **Close after** + unit (minutes, hours, or days of no activity)
+4. **Closing note** (optional):
+   - Turn **Closing note enabled** on
+   - Write instructions for the internal note AI should leave for your team
+5. **Save changes**.
+
+Staff can still close conversations manually in Inbox; this assistant automates cleanup for inactive threads.
+
+![Closure Assistant settings page](/static/img/closure-assistant.png)
 
 ## How AI Assistant works in real life
 

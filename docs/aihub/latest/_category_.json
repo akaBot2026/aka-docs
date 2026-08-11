@@ -1,0 +1,10 @@
+{
+  "label": "Akabot AI Hub",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "AI Hub enables users to work with governed AI Channels, ground answers in approved internal documents, connect authorized tools, and monitor AI activity."
+  }
+}

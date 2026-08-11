@@ -18,7 +18,7 @@ System.Activities.Statements.Parallel
 子プロセスが呼び出されても見つからない場合は、プロセス名とともにエラーが記録されます。
 子プロセスの開始後にエラーが発生した場合、親プロセスは影響を受けずに実行を継続します。
 
-![Core_Parallel](/static/img/parallel-foreach.png)
+![Core_ParallelForEach](/static/img/parallel.png)
 
 \* は必須フィールドを示します。
 

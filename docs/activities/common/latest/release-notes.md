@@ -9,6 +9,17 @@ displayed_sidebar: activitiesSidebar
 
 # Release notes
 
+## v4.7.0.0
+
+Build date: Jul 31, 2026
+
+- Added: **Table Extraction** activity that can works with table in browser and desktop applications.
+- Added: **Semantic Selector** (AI-based semantic targeting). It works as an alternative to strict/fuzzy/image selectors.
+- Update: Dependency `Newtonsoft.Json` (net472) changed to 13.0.3.
+- Fixed: `Indicator` now resets mouse state and stops inspectors correctly, preventing stale mouse/process info from carrying over between inspections.
+
+> NOTE: Semantic Selector required to connect to LLM provider via AI Hub.
+
 ## v4.6.0.1
 
 Build date: Jun 15, 2026

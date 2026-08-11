@@ -23,6 +23,46 @@ The **Natural Language to Expression Generator** in akaBot Studio offers the fol
 * Simplifies creating workflow logic, validations, and calculations.
 * Makes expression development easier, even for users with limited programming knowledge.
 
+## Configuration
+
+Before using Natural Language to Expression Code, configure the AI provider in Studio.
+
+### Open the AI Integration tab
+
+1. Open **akaBot Studio**.
+2. Go to **Options** (Backstage / Home → **Options**).
+3. Select the **AI Integration** tab.
+4. In **Provider**, choose one of the following:
+   - **AI Hub**
+   - **Akabot Cloud AI Server** (Cloudflare Worker)
+
+![AI Integration options](/static/img/ai-integration-options.png)
+
+### Provider: AI Hub
+
+Use **AI Hub** when Studio talks to Center through a connected Agent.
+
+1. In **AI Integration**, set **Provider** to **AI Hub**.
+2. Open **akaBot Agent**.
+3. Go to **Connect** and connect the Agent to your Center (same organization / environment used by Studio).
+4. Confirm the Agent stays connected while you use expression generation.
+
+If the Agent is not connected or not assigned correctly, Studio cannot authenticate to AI Hub and expression generation will fail.
+
+### Provider: Akabot Cloud AI Server (Cloudflare)
+
+Use **Akabot Cloud AI Server** when Studio calls a Cloudflare Worker endpoint over the internet.
+
+1. In **AI Integration**, set **Provider** to **Akabot Cloud AI Server**.
+2. Enter the **API Endpoint** (Worker URL). This field appears only when this provider is selected.
+3. Ensure the PC has **internet access** to that endpoint.
+
+The API endpoint powers AI features, including expression generation and AkaNinja Chatbot assistance.
+
+**NOTE**
+> * **AI Hub**: Requires a connected Agent to Center. Internet-only access is not enough if Agent is disconnected.
+> * **Akabot Cloud AI Server**: Requires a valid Worker URL and outbound internet access.
+
 ## User Interface (UI) Overview
 
 The feature is embedded directly at the bottom of the standard **Expression Editor** dialog in akaBot Studio.
@@ -47,7 +87,7 @@ The feature is embedded directly at the bottom of the standard **Expression Edit
 
 ## Step-by-Step Guide
 
-To generate expression code using text prompts, ensure your akaBot Studio has an active connection to the AI service.
+To generate expression code using text prompts, ensure your akaBot Studio AI Integration provider is configured (see [Configuration](#configuration)).
 
 To generate expression code using a text prompt, follow these steps:
 
@@ -91,6 +131,7 @@ To get the most accurate and reliable expressions from the AI assistant, follow 
  
 > 1. **Pre-declare Variables**: The AI assistant maps names to variables in your project. Ensure that all referenced variables and arguments are already created in the **Variables** or **Arguments** panels of akaBot Studio before generating the expression.
 > 2. **Project Language Context**: The expression format (VB.Net vs. C#) is determined by your project settings. If your project is a VB.Net project, the editor generates VB expressions; if it is C#, it generates C# expressions.
+> 3. **AI provider configured**: Configure **Options → AI Integration** first. For **AI Hub**, connect Agent to Center. For **Akabot Cloud AI Server**, set the Worker URL and ensure internet access.
 
 
 ## Examples Library

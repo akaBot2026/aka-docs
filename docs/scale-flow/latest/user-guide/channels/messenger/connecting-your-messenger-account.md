@@ -27,7 +27,7 @@ displayed_sidebar: scaleFlowSidebar
 2. Select **Messenger** from the channel list.
 3. Review **Channel setup** and **Connected accounts**.
 
-![Open Channels from the main navigation](/static/img/open-channel.png)
+![Open Channels from the main navigation](/static/img/open-message.png)
 
 ---
 
@@ -35,8 +35,6 @@ displayed_sidebar: scaleFlowSidebar
 
 1. Click **Connect**.
 2. A Facebook / Meta sign-in window opens.
-
-> **Gợi ý ảnh:** Trang **Channels → Messenger** với nút **Connect**.
 
 ---
 
@@ -47,7 +45,8 @@ displayed_sidebar: scaleFlowSidebar
 3. Review the permissions ScaleFlow requests.
 4. Click **Continue** / **Allow** to approve.
 
-> **Gợi ý ảnh:** Meta OAuth consent screen với Page được chọn.
+
+![Open Channels from the main navigation](/static/img/approve-facebook.png)
 
 ---
 
@@ -59,6 +58,7 @@ displayed_sidebar: scaleFlowSidebar
 
 If the process takes too long, click **Cancel** and try **Connect** again.
 
+![Confirm in ScaleFlow](/static/img/connect-message-success.png)
 ---
 
 ## Manage the connection
@@ -76,6 +76,22 @@ If the process takes too long, click **Cancel** and try **Connect** again.
 1. Click **Test** on the connected account.
 2. Send a message to your Facebook Page from a personal Facebook or Messenger account.
 3. Open [Inbox](../../operations/inbox-usage) and confirm the message appears with a **Messenger** label.
+
+---
+
+## Message templates (for Broadcasts)
+
+After a Page is connected, you can manage **Messenger message templates** used for mass sends in [Broadcasts](../../operations/broadcast-usage).
+
+1. Open **Channels → Messenger**.
+2. Open the connected Page / channel detail.
+3. Open the **Templates** area.
+4. Search or filter by status (**Approved**, **Pending**, **Rejected**) and language.
+5. Create a new template, open a template to view details, or delete a template you no longer need.
+
+Only **Approved** templates are ready to use when you build Messenger broadcast content.
+
+> **Gợi ý ảnh:** Trang chi tiết Facebook/Messenger với bảng Templates (Status, Template name, Language, Category) và nút tạo template mới.
 
 ---
 

@@ -9,6 +9,93 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — Release Notes
 
+## v5.0.0.2
+
+Build date: Aug 10, 2026
+
+**Added**
+
+- **[High Availability]**: Added a coordination mechanism between Center nodes to improve processing consistency.
+
+**Fixed**
+
+- **[Schedule]**: Fixed day selection for monthly schedules and improved the labels for selected days.
+
+---
+## v5.1.0.0
+
+**Added**
+
+- Added **AI Hub integration** to Akabot Center.
+- Added permissions for **AI Chat**, **RAG**, **Channel**, and **Agent Assignment**.
+- Added **token, language, and organization unit** synchronization with AI Hub.
+- Added **user, robot, and agent group** synchronization with AI Service.
+- Added **HMAC authentication** between Akabot Center and AI Service.
+
+**Database**
+
+New tables introduced in this release:
+
+| Table | Purpose |
+|---|---|
+| `ai_integration_entity_version` | Synchronized data versioning. |
+| `ai_lifecycle_outbox` | Storing events awaiting synchronization. |
+| `ai_lifecycle_outbox_ou` | Mapping synchronization events to organization units. |
+
+**Permissions**
+
+Added four AI permissions to the `authority_resource` table:
+
+- AI Chat
+- RAG
+- Channel
+- Agent Assignment
+
+**Notes**
+
+- **Upgrade path:** v5.0.0.1 → v5.1.0.0.
+- AI Hub is **disabled by default** and must be configured before use.
+- Liquibase automatically creates the new database tables and permission records during the upgrade.
+
+---
+## v5.0.0.1
+**Added**
+- **[Schedule]**: Added the ability to filter schedules by status.
+
+**Fixed**
+- **[Queue]**: Fixed incorrect translations.
+
+---
+## v5.0.0.0
+
+Build date: Jul 27, 2026
+
+**Updated**
+- **[Backend]**: Upgraded Spring Boot from 3.3.6 to 4.1.0.
+- **[Frontend]**: Upgraded Angular from 17 to 22.
+- **[Localization]**: Improved translations, relative-time displays, and Date Picker readability.
+- **[Export]**: Improved exported log filenames.
+
+**Added**
+- **[Password Policy]**: Added centralized configuration for password and account security policies.
+- **[Workflow Retention]**: Added retention policies for automatic cleanup of workflow logs and jobs.
+- **[Schedule]**: Added Process Schedule export to Excel.
+- **[Queue]**: Added batch deletion of Queue Items with synchronized statistics.
+- **[User Management]**: Added support for administrators to edit roles assigned to LDAP users.
+
+**Removed**
+- **[Frontend]**: Removed legacy frontend build artifacts, obsolete assets, and unused dependencies.
+
+**Fixed**
+- **[Authentication]**: Fixed email-based login when MFA is enabled.
+- **[Queue]**: Fixed inconsistent data and statistics during Queue Item cleanup, Clear Data, and Queue Item export.
+- **[Dashboard]**: Fixed incorrect task statistics when filtering by Agent.
+- **[Search and Settings]**: Fixed Quick Search and language changes not applying correctly.
+
+**Security**
+- **[Dependencies]**: Updated vulnerable backend and frontend dependencies.
+
+---
 ## v4.0.0.14
 **Updated**
 - **[Schedule]**: Reworked the logic and UI for selecting Agent Group / Agent Pool when creating a schedule; only one can be selected at a time, and the two tabs have been merged into one.

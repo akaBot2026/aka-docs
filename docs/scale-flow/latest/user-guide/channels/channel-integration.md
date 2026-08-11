@@ -36,8 +36,10 @@ Channels you can connect today in ScaleFlow. Each row links to a **dedicated ste
 | **WhatsApp Business API** | [Connecting Your WhatsApp Business API Account](./whatsapp/connecting-your-whatsapp-business-api-account) |
 | **LINE Business** | [Connect Your LINE Business Account](./line/connecting-your-line-business-account) |
 | **Telegram** | [Connect Your Telegram Bot](./telegram/connecting-your-telegram-bot) |
+| **Instagram** | [Connect Your Instagram Account](./instagram/connecting-your-instagram-account) |
+| **Chat Widget** | [Set up Chat Widget](./chat-widget/setting-up-chat-widget) |
 
-Other channels in the list (SMS, WeChat, Viber, Instagram, TikTok, Chat Widget, and more) may show **Coming Soon** and cannot be connected yet.
+Other channel names may appear in the list (for example SMS, WeChat, Viber, TikTok) as **Coming Soon** and cannot be connected yet.
 
 ---
 
@@ -101,6 +103,12 @@ After at least one channel is connected:
 - [WhatsApp Business API](./whatsapp/connecting-your-whatsapp-business-api-account)
 - [LINE Business](./line/connecting-your-line-business-account)
 - [Telegram](./telegram/connecting-your-telegram-bot)
+- [Instagram](./instagram/connecting-your-instagram-account)
+- [Chat Widget](./chat-widget/setting-up-chat-widget)
+
+### Message templates (for Broadcasts)
+
+Channel-specific template guides were removed. Prepare templates directly in each channel provider before running Broadcasts.
 
 ### Related guides
 

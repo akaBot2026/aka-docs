@@ -1,0 +1,10 @@
+{
+  "label": "ワークフロー アナライザー",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "ワークフロー アナライザーを使用して、オートメーション プロジェクトの品質、パフォーマンス、およびセキュリティ基準への準拠を検査する方法を学びます。"
+  }
+}
