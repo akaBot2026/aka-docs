@@ -1,0 +1,10 @@
+{
+  "label": "akaBot AI Hub",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "AI Hub では、管理された AI チャネル、承認済みの社内文書、許可されたツールを使用し、AI の利用状況を監視できます。"
+  }
+}
