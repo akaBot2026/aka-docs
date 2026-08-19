@@ -32,7 +32,7 @@ Look up an error message below, follow the safe response, and escalate to suppor
 ## Before contacting support
 
 1. Confirm the active organization.
-2. Repeat only safe read actions once.
+2. Retry only safe, read-only actions — and only once.
 3. Record the exact time and time zone.
 4. Record the page, action, Channel/knowledge-base name, and expected result.
 5. Copy the **Support reference**/`correlationId`.

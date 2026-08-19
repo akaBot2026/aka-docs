@@ -9,7 +9,7 @@ displayed_sidebar: aiHubSidebar
 
 # Channels
 
-A Channel is a governed AI assistant: a model plus instructions, knowledge bases, tools, and access rules, published as a version people or systems can call. This page walks through the full lifecycle, from creating a draft to archiving a Channel you no longer need.
+A Channel is a governed AI assistant comprising a model, instructions, knowledge bases, tools, and access rules, published as a versioned configuration that authorized users or automated systems can invoke. This guide covers the complete Channel lifecycle — from creating a draft and configuring its behavior, through testing and publishing, to archiving a Channel that is no longer required.
 
 ## Channel lifecycle
 
@@ -45,15 +45,15 @@ Good description: `Analyzes business processes, identifies RPA automation opport
 
 Good instructions normally define:
 
-- role and business objective;
-- intended users;
-- tasks the Channel may perform;
-- authoritative knowledge sources;
-- required response format and tone;
-- when to ask a clarifying question;
-- what the Channel must refuse or escalate;
-- when a tool may be called;
-- verification and citation expectations.
+- Role and business objective
+- Intended users
+- Tasks the Channel may perform
+- Authoritative knowledge sources
+- Required response format and tone
+- When to ask a clarifying question
+- What the Channel must refuse or escalate
+- When a tool may be called
+- Verification and citation expectations.
 
 Example structure:
 
@@ -104,7 +104,7 @@ Consider quality, language, latency, data residency, provider terms, and cost. A
 4. Confirm the selection count.
 5. Save.
 
-The builder must have access to select a knowledge base, and runtime callers must satisfy effective access rules. Test with a representative end-user account. See [Knowledge bases](./knowledge-bases.md) for how to create and share one.
+The builder must have access to select a knowledge base, and runtime callers must satisfy effective access rules. Test with a representative end-user account. See [Knowledge Bases](./knowledge-bases.md) for how to create and share one.
 
 ## Set retrieval policy
 
@@ -139,7 +139,7 @@ If a selected tool is no longer in the catalog, is disabled, or is blocked by po
 
 ## Configure orchestration or helper Channels
 
-A helper Channel is a sub-Channel that the parent delegates specific sub-tasks to. This is an optional feature — contact your platform administrator to confirm it is enabled in your environment before proceeding.
+A helper Channel is a sub-Channel to which the parent Channel delegates specific tasks. This is an optional feature — contact your platform administrator to confirm it is enabled in your environment before proceeding.
 
 **Best practices when configuring helper Channels:**
 
@@ -167,7 +167,7 @@ Do not rely only on a natural-language instruction when a downstream API require
 
 ## Test a draft
 
-Draft testing may bypass controls that apply to real users; read the execution-context notice.
+Draft testing may bypass access controls that apply to end users. Review the context notice displayed in the test interface before proceeding.
 
 Create a test set that covers:
 
@@ -275,12 +275,12 @@ Restoring an earlier version immediately sets that version as the active product
 
 Archiving sets the Channel status to archived, hiding it from active channel lists while preserving its identity and historical data. Before archiving:
 
-- identify active users, robots, API integrations, and schedules;
-- remove or update assignments/integrations;
-- retain required audit or test evidence;
-- communicate the service change.
+- Identify active users, robots, API integrations, and schedules
+- Remove or update assignments/integrations
+- Retain required audit or test evidence
+- Communicate the service change.
 
-Archiving requires Channel Edit (`WRITE_DRAFT`) permission. Archiving an active Channel will prevent new interactions from active integrations until reactivated. Confirm the Channel selection and proceed when approved.
+Archiving requires Channel Edit permission. Archiving an active Channel prevents new interactions from active integrations until the Channel is reactivated. Confirm the Channel selection and proceed when approved.
 
 ## Best practices
 
@@ -313,5 +313,5 @@ Archiving requires Channel Edit (`WRITE_DRAFT`) permission. Archiving an active 
 
 ## Where to go next
 
-- Need documents for the Channel to cite? See [Knowledge bases](./knowledge-bases.md).
+- Need documents for the Channel to cite? See [Knowledge Bases](./knowledge-bases.md).
 - Finished with Channels? See how to administer connections, limits, and system tools — see [Management](./management.md).

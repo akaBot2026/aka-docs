@@ -1,13 +1,13 @@
 ---
 id: quick-reference
-title: "Quick reference"
-sidebar_label: "Quick reference"
+title: "Quick Reference"
+sidebar_label: "Quick Reference"
 sidebar_position: 8
 description: "Quick-lookup table of AI Hub goals, navigation, required roles and permissions, plus support contact information."
 displayed_sidebar: aiHubSidebar
 ---
 
-# Quick reference
+# Quick Reference
 
 ## Navigation & roles
 
@@ -26,7 +26,7 @@ displayed_sidebar: aiHubSidebar
 | Review configuration changes | **Management → Run history → System logs** | Audit reader / Platform admin |
 | Suspend a principal/organization | **Management → Run history → Protective cut-offs** | Emergency operator / Platform admin |
 
-For the full permission model, see [Getting started: Roles and permissions](./getting-started.md#step-3-know-what-youre-allowed-to-do).
+For the full permission model, see [Getting Started: Roles and permissions](./getting-started.md#step-3-know-what-youre-allowed-to-do).
 
 ## Support information
 

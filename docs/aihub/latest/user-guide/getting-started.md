@@ -1,36 +1,27 @@
 ---
 id: getting-started
-title: "Getting started"
-sidebar_label: "Getting started"
+title: "Getting Started"
+sidebar_label: "Getting Started"
 sidebar_position: 1
-description: "Sign in, understand your permissions, and find your way around AI Hub before you start chatting or building Channels."
+description: "Sign in, understand your permissions, and find your way around AI Hub before using Chat or building Channels."
 displayed_sidebar: aiHubSidebar
 ---
 
-# Getting started
+# Getting Started
 
-AI Hub is your workspace for talking to AI assistants called **Channels**, getting answers from approved company documents, and using AI safely within your organization's policies. The application opens from Akabot Center and uses the identity, organization context, and permissions of the current Akabot Center session.
+AI Hub is the platform for interacting with governed AI assistants called **Channels**, retrieving answers grounded in approved organizational documents, and using AI within your organization's policies. The application launches from Akabot Center and inherits the identity, organizational context, and permissions of the current Akabot Center session.
 
-This user guide explains how to:
-
-- chat with an assigned Channel;
-- interpret citations, tool calls, approvals, and usage limits;
-- create and maintain knowledge bases;
-- build, test, publish, restore, archive, and delete Channels;
-- configure AI connections and tools;
-- manage access, governance, usage limits, operations, and audit information;
-- diagnose common user-facing problems and submit an effective support request.
 
 ## How to use the procedures
 
 Each procedure in this guide uses the following conventions:
 
 - **Prerequisites** describe access or configuration required before starting.
-- **Procedure** gives the ordered actions.
+- **Procedure** lists the ordered steps.
 - **Expected result** states what a successful outcome looks like.
-- **If it fails** gives the first safe corrective action.
+- **If it fails** describes the first safe corrective action.
 
-Menu names, button labels, tab names, and status values are shown in **bold**. Values such as `<CENTER_URL>` must be replaced with customer-specific information before release.
+Menu names, button labels, tab names, and status values are shown in **bold**. Values such as `<CENTER_URL>` represent environment-specific addresses provided by your administrator.
 
 ## Step 1: Open the application
 
@@ -46,7 +37,7 @@ Menu names, button labels, tab names, and status values are shown in **bold**. V
 2. Select the organization in which you intend to work.
 3. Open **AI Hub** from the Akabot Center application menu.
 4. Wait for the embedded application to finish loading.
-5. Check the organization indicator in the top bar (if supported by your current Akabot Center integration; if hidden, verify your active organization in Akabot Center).
+5. Confirm the active organization shown in the top bar. If the indicator is not visible, verify your organization selection in Akabot Center before continuing.
 
 > ✅ **Expected result:** The application opens without a second login prompt and displays only permitted navigation items.
 
@@ -61,14 +52,6 @@ Menu names, button labels, tab names, and status values are shown in **bold**. V
 
 ## Step 2: Find your way around
 
-### Main navigation
-
-| Navigation item | Purpose |
-|---|---|
-| **Chat** | Use an assigned Channel in a conversation |
-| **Channels** | Create, configure, test, version, and manage Channels |
-| **Knowledge** | Manage knowledge bases, documents, extraction, and sharing |
-| **Management** | Configure AI, tools, governance, access, operations, and audit |
 
 The top bar may also display a usage meter. Open it to view used, allowed, and remaining quota for the current period.
 
@@ -128,6 +111,6 @@ Use this table as a reference whenever a term in this guide is unfamiliar.
 ## Where to go next
 
 - New to Chat? Continue with [Chat](./chat.md).
-- Setting up documents for a Channel to reference? See [Knowledge bases](./knowledge-bases.md).
+- Setting up documents for a Channel to reference? See [Knowledge Bases](./knowledge-bases.md).
 - Building or publishing a Channel? See [Channels](./channels.md).
 - Configuring providers, tools, or governance? See [Management](./management.md).
