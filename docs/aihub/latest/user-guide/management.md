@@ -121,12 +121,12 @@ Before disabling a tool, identify the Channel drafts and active versions that us
 
 Governance may include:
 
-- Allowed chat models;
-- Default embedding model;
-- Default tool permission mode;
-- Maximum file size and page count;
-- OCR service;
-- Explicit deny rules;
+- Allowed chat models
+- Default embedding model
+- Default tool permission mode
+- Maximum file size and page count
+- OCR service
+- Explicit deny rules
 - Retention and cleanup settings.
 
 **Procedure**

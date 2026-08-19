@@ -45,14 +45,14 @@ Good description: `Analyzes business processes, identifies RPA automation opport
 
 Good instructions normally define:
 
-- Role and business objective;
-- Intended users;
-- Tasks the Channel may perform;
-- Authoritative knowledge sources;
-- Required response format and tone;
-- When to ask a clarifying question;
-- What the Channel must refuse or escalate;
-- When a tool may be called;
+- Role and business objective
+- Intended users
+- Tasks the Channel may perform
+- Authoritative knowledge sources
+- Required response format and tone
+- When to ask a clarifying question
+- What the Channel must refuse or escalate
+- When a tool may be called
 - Verification and citation expectations.
 
 Example structure:
@@ -275,9 +275,9 @@ Restoring an earlier version immediately sets that version as the active product
 
 Archiving sets the Channel status to archived, hiding it from active channel lists while preserving its identity and historical data. Before archiving:
 
-- Identify active users, robots, API integrations, and schedules;
-- Remove or update assignments/integrations;
-- Retain required audit or test evidence;
+- Identify active users, robots, API integrations, and schedules
+- Remove or update assignments/integrations
+- Retain required audit or test evidence
 - Communicate the service change.
 
 Archiving requires Channel Edit permission. Archiving an active Channel prevents new interactions from active integrations until the Channel is reactivated. Confirm the Channel selection and proceed when approved.

@@ -15,11 +15,11 @@ A knowledge base is the managed collection of approved documents that a Channel 
 
 Before creating one, define:
 
-- Business owner and content steward;
-- Purpose and intended Channels;
-- Document classification and permitted audience;
-- Update frequency and authoritative sources;
-- Retention and deletion rules;
+- Business owner and content steward
+- Purpose and intended Channels
+- Document classification and permitted audience
+- Update frequency and authoritative sources
+- Retention and deletion rules
 - Required embedding model and expected language/content type.
 
 Keep content with materially different confidentiality levels in separate knowledge bases. Use the narrowest practical sharing scope.
@@ -68,10 +68,10 @@ Supported UI formats include PDF, DOCX, XLSX, PPTX, HTML, CSV, JSON, Markdown, E
 
 For ZIP archives:
 
-- The archive is expanded into individual documents;
-- Unsupported or unsafe entries may be skipped;
-- The configured maximum number of expanded files applies;
-- Password-protected archives are not suitable for normal ingestion;
+- The archive is expanded into individual documents
+- Unsupported or unsafe entries may be skipped
+- The configured maximum number of expanded files applies
+- Password-protected archives are not suitable for normal ingestion
 - Review the skipped-file message after upload.
 
 ## Understand document states
@@ -93,9 +93,9 @@ Choose **Scan text from images (OCR)** when the source is an image or scanned do
 
 Before using OCR:
 
-- Confirm the document is permitted to be sent to the configured OCR service;
-- Verify language/support requirements;
-- Expect OCR errors in handwriting, low-resolution scans, complex tables, and rotated pages;
+- Confirm the document is permitted to be sent to the configured OCR service
+- Verify language/support requirements
+- Expect OCR errors in handwriting, low-resolution scans, complex tables, and rotated pages
 - Review the extracted preview after processing.
 
 ## Inspect extracted content
@@ -168,10 +168,10 @@ Changing the embedding model requires re-indexing all documents because vector r
 
 Deletion is permanent and removes its documents. Before deletion:
 
-- Identify Channels that reference it;
-- Confirm retention/legal-hold requirements;
-- Export or retain authoritative source documents through the owning business process;
-- Obtain required approval;
+- Identify Channels that reference it
+- Confirm retention/legal-hold requirements
+- Export or retain authoritative source documents through the owning business process
+- Obtain required approval
 - Type the exact knowledge-base name when prompted.
 
 After deletion, test affected Channel drafts and active versions as required by change policy.

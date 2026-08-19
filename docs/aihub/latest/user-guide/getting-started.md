@@ -11,15 +11,6 @@ displayed_sidebar: aiHubSidebar
 
 AI Hub is the platform for interacting with governed AI assistants called **Channels**, retrieving answers grounded in approved organizational documents, and using AI within your organization's policies. The application launches from Akabot Center and inherits the identity, organizational context, and permissions of the current Akabot Center session.
 
-Topics covered in this guide:
-
-- Chat with an assigned Channel;
-- Interpret citations, tool calls, approvals, and usage limits;
-- Create and maintain knowledge bases;
-- Build, test, publish, restore, archive, and delete Channels;
-- Configure AI connections and tools;
-- Manage access, governance, usage limits, operations, and audit information;
-- Diagnose common user-facing problems and submit an effective support request.
 
 ## How to use the procedures
 
@@ -61,14 +52,6 @@ Menu names, button labels, tab names, and status values are shown in **bold**. V
 
 ## Step 2: Find your way around
 
-### Main navigation
-
-| Navigation item | Purpose |
-|---|---|
-| **Chat** | Use an assigned Channel in a conversation |
-| **Channels** | Create, configure, test, version, and manage Channels |
-| **Knowledge** | Manage knowledge bases, documents, extraction, and sharing |
-| **Management** | Configure AI, tools, governance, access, operations, and audit |
 
 The top bar may also display a usage meter. Open it to view used, allowed, and remaining quota for the current period.
 
