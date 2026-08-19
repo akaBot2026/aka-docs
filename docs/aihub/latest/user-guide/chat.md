@@ -9,7 +9,7 @@ displayed_sidebar: aiHubSidebar
 
 # Chat
 
-Chat is where you talk to an assigned Channel, get answers grounded in approved documents, and review the sources behind each answer.
+The Chat interface enables users to converse with an assigned Channel, retrieve answers grounded in approved documents, and review the sources supporting each response.
 
 ## Start a new conversation
 
@@ -35,7 +35,7 @@ Chat is where you talk to an assigned Channel, get answers grounded in approved 
 
 > ⚠️ **If it fails:**
 > - **No Channels assigned:** request an assignment from the Channel owner or access administrator.
-> - **Select a Channel:** choose a Channel before creating or sending.
+> - **Select a Channel:** select a Channel from the selector before starting a new conversation or sending a message.
 > - **Model unavailable:** contact the Channel owner or platform administrator.
 > - **Quota exhausted:** open the quota details and contact the budget owner.
 
@@ -53,7 +53,7 @@ Example:
 
 > Check the root cause of error for agent `<AgentName>` on 2026/07/30 around 10:00 AM.
 
-Avoid vague prompts such as "tell me everything" and avoid combining unrelated tasks in one message.
+Avoid vague prompts such as "tell me everything." Do not combine unrelated tasks in a single message.
 
 ## Stop or retry a response
 
@@ -89,7 +89,7 @@ Where context suggestions are available:
 3. Confirm the selected context before sending.
 4. Remove an incorrect item using its remove action.
 
-Context search may be unavailable when Akabot Center is degraded. Do not paste restricted data manually to work around an access failure.
+Context search may be unavailable when Akabot Center is experiencing issues. Do not paste restricted data manually to work around a connection failure.
 
 ## Manage conversations
 
@@ -113,5 +113,5 @@ See also: [Security and responsible-use checklist](./troubleshooting.md#security
 
 ## Where to go next
 
-- Want to know why a citation looks the way it does, or how a source document is kept up to date? See [Knowledge bases](./knowledge-bases.md).
+- Want to know why a citation looks the way it does, or how a source document is kept up to date? See [Knowledge Bases](./knowledge-bases.md).
 - Ran into an error message? See [Troubleshooting](./troubleshooting.md#user-facing-error-guide).

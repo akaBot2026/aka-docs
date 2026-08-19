@@ -1,26 +1,26 @@
 ---
 id: knowledge-bases
-title: "Knowledge bases"
-sidebar_label: "Knowledge bases"
+title: "Knowledge Bases"
+sidebar_label: "Knowledge Bases"
 sidebar_position: 3
 description: "Plan, create, populate, share, and maintain knowledge bases that ground Channel responses in AI Hub."
 displayed_sidebar: aiHubSidebar
 ---
 
-# Knowledge bases
+# Knowledge Bases
 
-A knowledge base is the set of approved documents a Channel searches to ground its answers and produce citations. This page covers planning, creating, populating, sharing, and maintaining one.
+A knowledge base is the managed collection of approved documents that a Channel searches to ground its responses and produce citations. This guide covers planning, creating, populating, sharing, and maintaining knowledge bases.
 
 ## Plan a knowledge base
 
 Before creating one, define:
 
-- business owner and content steward;
-- purpose and intended Channels;
-- document classification and permitted audience;
-- update frequency and authoritative sources;
-- retention and deletion rules;
-- required embedding model and expected language/content type.
+- Business owner and content steward;
+- Purpose and intended Channels;
+- Document classification and permitted audience;
+- Update frequency and authoritative sources;
+- Retention and deletion rules;
+- Required embedding model and expected language/content type.
 
 Keep content with materially different confidentiality levels in separate knowledge bases. Use the narrowest practical sharing scope.
 
@@ -68,11 +68,11 @@ Supported UI formats include PDF, DOCX, XLSX, PPTX, HTML, CSV, JSON, Markdown, E
 
 For ZIP archives:
 
-- the archive is expanded into individual documents;
-- unsupported or unsafe entries may be skipped;
-- the configured maximum number of expanded files applies;
-- password-protected archives are not suitable for normal ingestion;
-- review the skipped-file message after upload.
+- The archive is expanded into individual documents;
+- Unsupported or unsafe entries may be skipped;
+- The configured maximum number of expanded files applies;
+- Password-protected archives are not suitable for normal ingestion;
+- Review the skipped-file message after upload.
 
 ## Understand document states
 
@@ -93,10 +93,10 @@ Choose **Scan text from images (OCR)** when the source is an image or scanned do
 
 Before using OCR:
 
-- confirm the document is permitted to be sent to the configured OCR service;
-- verify language/support requirements;
-- expect OCR errors in handwriting, low-resolution scans, complex tables, and rotated pages;
-- review the extracted preview after processing.
+- Confirm the document is permitted to be sent to the configured OCR service;
+- Verify language/support requirements;
+- Expect OCR errors in handwriting, low-resolution scans, complex tables, and rotated pages;
+- Review the extracted preview after processing.
 
 ## Inspect extracted content
 
@@ -137,7 +137,7 @@ Before bulk reprocessing, confirm provider capacity, queue health, maintenance t
 **Prerequisites**
 
 - Access-management permission for the knowledge base.
-- The knowledge base is in a mode where explicit individual access is relevant.
+- The knowledge base sharing mode is set to **Private** or another mode that supports individual access grants.
 
 **Procedure**
 
@@ -168,11 +168,11 @@ Changing the embedding model requires re-indexing all documents because vector r
 
 Deletion is permanent and removes its documents. Before deletion:
 
-- identify Channels that reference it;
-- confirm retention/legal-hold requirements;
-- export or retain authoritative source documents through the owning business process;
-- obtain required approval;
-- type the exact knowledge-base name when prompted.
+- Identify Channels that reference it;
+- Confirm retention/legal-hold requirements;
+- Export or retain authoritative source documents through the owning business process;
+- Obtain required approval;
+- Type the exact knowledge-base name when prompted.
 
 After deletion, test affected Channel drafts and active versions as required by change policy.
 
@@ -189,5 +189,5 @@ After deletion, test affected Channel drafts and active versions as required by 
 
 ## Where to go next
 
-- Ready to make this knowledge base answer questions? Attach it to a Channel — see [Channels: Attach knowledge bases](./channels.md#attach-knowledge-bases).
+- Ready to use this knowledge base in a Channel? Attach it to a Channel — see [Channels: Attach Knowledge Bases](./channels.md#attach-knowledge-bases).
 - Documents stuck in **Pending**, **Failed**, or **Waiting to be indexed**? See [Troubleshooting](./troubleshooting.md#user-facing-error-guide).

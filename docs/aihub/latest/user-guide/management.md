@@ -26,7 +26,7 @@ For a new environment, use this order:
 6. Install and manually activate the system Channel pack only when approved.
 7. Configure access and run acceptance tests.
 
-The management hub may hide dependent functions until required AI setup is complete.
+The Management module may hide dependent functions until the required AI setup steps are complete.
 
 ## Add an AI connection
 
@@ -66,7 +66,7 @@ Do not create every provider merely because it appears in the catalog. Configure
 ![Add model dialog showing a model suggested by the active connection with auto-detected model type](/static/img/fig-14-admin-ai-provider-model.png)
 
 3. Use model suggestions when discovery succeeds, or enter the exact model ID manually.
-4. Review the auto-inferred model capability (Chat, Embedding, or Vision) detected by the system based on the Model ID.
+4. Review the model capability (Chat, Embedding, or Vision) inferred from the model ID.
 5. Save and enable the model.
 6. Verify the model status is **Ready**.
 
@@ -121,13 +121,13 @@ Before disabling a tool, identify the Channel drafts and active versions that us
 
 Governance may include:
 
-- allowed chat models;
-- default embedding model;
-- default tool permission mode;
-- maximum file size and page count;
+- Allowed chat models;
+- Default embedding model;
+- Default tool permission mode;
+- Maximum file size and page count;
 - OCR service;
-- explicit deny rules;
-- retention and cleanup settings.
+- Explicit deny rules;
+- Retention and cleanup settings.
 
 **Procedure**
 
@@ -244,7 +244,7 @@ Audit data helps establish what changed; it does not replace business approval r
 
 ## Use emergency controls
 
-Emergency controls require level-4 authority and must follow the incident-response process.
+Emergency controls are restricted to authorized incident commanders and must follow the established incident-response process.
 
 To suspend an organization or principal, follow the incident-response process:
 
@@ -262,4 +262,4 @@ To restore activity, confirm remediation and authorization, use **Restore activi
 ## Where to go next
 
 - New environment? Follow the setup order above, then hand off to Channel builders — see [Channels](./channels.md).
-- Reviewing who can access what? See [Getting started: Roles and permissions](./getting-started.md#step-3-know-what-youre-allowed-to-do).
+- Reviewing who can access what? See [Getting Started: Roles and permissions](./getting-started.md#step-3-know-what-youre-allowed-to-do).
