@@ -1,13 +1,13 @@
 ---
-id: gsuite-application-scope-google-workspace-setup
-title: "GSuite Application Scope Google Workspace Setup"
-sidebar_label: "Google Workspace Setup"
+id: setup-google-workspace
+title: "Application Scope - Setup Google Workspace"
+sidebar_label: "Setup Google Workspace"
 sidebar_position: 17
 description: "Google Workspace setup guide for GSuite Application Scope."
 displayed_sidebar: activitiesSidebar
 ---
 
-# Google Workspace Setup Guide for GSuite Application Scope
+# Setup Guide Google Workspace for GSuite Application Scope
 
 This guide explains how to configure Google Workspace authentication for akaBot `GSuiteApplicationScope`.
 

@@ -2,7 +2,7 @@
 id: gsuite-application-scope
 title: "GSuiteの適用範囲"
 sidebar_label: "GSuiteの適用範囲"
-sidebar_position: 12
+sidebar_position: 1
 description: "GSuite アプリケーション スコープのアクティビティに関するドキュメント。"
 displayed_sidebar: activitiesSidebar
 ---

@@ -2,7 +2,7 @@
 id: change-labels
 title: "Change Labels"
 sidebar_label: "Change Labels"
-sidebar_position: 1
+sidebar_position: 12
 description: "Change Labels activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
