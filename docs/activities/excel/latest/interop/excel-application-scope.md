@@ -54,7 +54,8 @@ This activity allows to open an Excel workbook and provides a scope for Excel Ac
 
 **Output**
 
-* **Workbook (WorkbookApplication)**- The entire information from the Excel spreadsheet stored in a WorkbookApplication variable. This variable can be used in another Excel Application Scope activity. Only WorkbookApplication variables are supported.
+* **Workbook (WorkbookApplication)**- The entire information from the Excel spreadsheet stored in a WorkbookApplication variable. This variable can be used in another Excel Application Scope activity. Only WorkbookApplication variables are supported.  
+  **Note:** To keep Excel open after the scope, assign this output to a variable; otherwise it is closed when the scope ends.
 
 **Use Existing Workbook**
 
