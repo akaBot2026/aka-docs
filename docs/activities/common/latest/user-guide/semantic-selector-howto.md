@@ -17,8 +17,10 @@ displayed_sidebar: activitiesSidebar
 
 Traditional selectors (Strict or Fuzzy) rely on technical underlying properties (like IDs, CSS classes, or tags). If a website or application updates its design or changes its underlying code, these traditional selectors often break, causing the automation to fail.
 
-**Semantic Selector** solves this by finding elements the way a human would. You simply describe the element in plain English (e.g., `"Button Save"`, `"InputBox Email"`). 
+**Semantic Selector** solves this by finding elements the way a human would. You simply describe the element in plain English, such as `"Button Save"` or `"InputBox Email"`.
 By using Semantic Selector, your workflows become highly resilient to UI changes, dynamic IDs, and system updates.
+
+Semantic Selector is scope-only because it grounds against the current application/browser screenshot.
 
 ---
 
@@ -41,7 +43,8 @@ The Semantic Selector requires a connection to the CV (Computer Vision) Server w
   }
 }
 ```
-*(Note: Health checks, grounding, and OCR endpoints are handled internally by the activity package. You only need to set `semantic.url` to the base CV server URL).*
+
+Health checks, grounding, and OCR endpoints are handled internally by the activity package. You only need to set `semantic.url` to the base CV server URL.
 
 ### For RPA Developers (Studio Setup)
 Because Semantic Selector analyzes the current visual state of the application, **the activity must be placed inside an Open/Attach Application or Open/Attach Browser scope.** It cannot be used as a standalone activity outside of these scopes.
@@ -50,7 +53,7 @@ Because Semantic Selector analyzes the current visual state of the application, 
 
 ## 3. Step-by-Step Guide
 
-Follow these steps to configure a Semantic Selector for any supported UI activity (such as `Click`, `Hover`, `Type Into`, `Select Item`, `Get Text`, `Find Element`, etc.).
+Follow these steps to configure a Semantic Selector for a supported UI activity, such as `Click`, `Hover`, `Type Into`, `Type Secure Text`, `Select Item`, `Get Text`, `Find Element`, or `Element Exists`.
 
 ### Step 1: Add a Supported Activity
 Drag and drop your desired UI activity into an **Open/Attach Application** or **Open/Attach Browser** scope.
@@ -68,12 +71,13 @@ Type a clear, short description of the element you want to interact with. Use th
 ![semantic-descriptor-textbox.png](/static/img/semantic-descriptor-textbox.png)
 
 ### Step 5: Validate the Selection
-Click the **Validate** button. The AI will analyze the screen and highlight the element it believes matches your description. 
+Click the **Validate** button. The AI will analyze the screen and highlight the element it believes matches your description.
 
 ![validate](/static/img/validate.gif)
 
-If the highlighted result is correct, click **Confirm** to save your target. 
-*(Note: You can use Semantic Selector as your only targeting method, but the description field must not be left blank).*
+If the highlighted result is correct, click **Confirm** to save your target.
+
+Semantic-only targets are allowed, but the description field must not be left blank.
 
 ---
 
@@ -96,8 +100,10 @@ When you click **Validate**, the system will return a status. Use this table to 
 | Status Message | Meaning & Solution |
 | :--- | :--- |
 | **(Empty)** + Highlight | **Success:** The AI successfully found and highlighted the element matching your description. |
-| `Not same with target element` | **Warning:** The Semantic AI found an element, but it is in a different location than the original element you clicked on. **Solution:** Check if your description is too generic (e.g., there are two "Submit" buttons on screen). Make your description more specific. |
-| `Found no element` | **Error:** The AI could not find anything matching your description on the screen. **Solution:** Check your spelling or use a different role (e.g., change `Button` to `Icon`). |
+| `Not same with target element` | **Warning:** The Semantic AI found an element, but it is in a different location than the original element you clicked on. **Solution:** Check if your description is too generic, such as when there are two "Submit" buttons on screen. Make your description more specific. |
+| `Found no element` | **Error:** The AI could not find anything matching your description on the screen. **Solution:** Check your spelling or use a different role, such as changing `Button` to `Icon`. |
 | `Semantic server not configured` | **Error:** The `cvsettings.json` file is missing or `semantic.url` is empty. **Solution:** Contact your IT admin to configure the CV Server URL. |
 | `Server not available` | **Error:** The configured CV Server is down or unreachable. **Solution:** Verify your network connection or check if the server is running. |
 | `Semantic selector is only available inside an Application/Browser scope.` | **Error:** You placed the activity outside of an Attach/Open scope. **Solution:** Move the activity inside a browser or application scope. |
+
+The current endpoint returns one detection, so there is no `N elements found` ambiguity status.
