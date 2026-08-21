@@ -9,6 +9,16 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — Release Notes
 
+## v5.1.0.1
+
+Build date: Aug 21, 2026
+
+**Fixed**
+
+- **[AD Login]**: Fixed AD/LDAP authentication issues.
+- **[Message/I18n]**: Improved error messages and localization support.
+
+---
 ## v5.0.0.2
 
 Build date: Aug 10, 2026
