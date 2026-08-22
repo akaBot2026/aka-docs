@@ -8,6 +8,20 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
+## v3.3.0
+
+Build: Aug 20, 2026
+
+- Added a `For Each Excel Row` activity that iterates the rows of a range inside an `Excel Application Scope`.
+- Added dedicated `Excel Break` and `Excel Continue` activities that work inside any Excel loop scope.
+- Update the Excel Application Scope `Workbook` tooltip to document the keep-open behavior.
+
+## v2.1.1.3
+
+Build: May 14, 2026
+
+- Fixed: ReadRange (ClosedXML) causing exception reading Pivotable with no name.
+
 ## v2.1.1.0
 
 **Bugs fixed**
@@ -22,3 +36,14 @@ displayed_sidebar: activitiesSidebar
 * [ExcelCopySheet] Screen hangs when typing Destination File Path does not have permission to access.
 * [ExcelSetBorder] Wrong behavior when set property Range = nothing.
 * [ExcelReadCell] Data is not kept when [Preserve Format] is checked and [Cell] is a fixed address.
+
+## **How to install activity?**
+
+**1. Download package manually**
+- Click [here](https://ws3.akabot.com/s/GwTK9bPoChHuv8A) to download activity file.
+- Put the \*.nupkg file to folder: **C:\ProgramData\akaBot\Packages\\**
+- In **Studio > Package Manager**, search and install this activity from the list.
+
+**2. Use Studio Package Manager**
+- In **Studio > Package Manager > Settings > User package sources,** add this repository: https://gitlab.com/api/v4/projects/75840319/packages/nuget/index.json
+- Search and install this activity from the list.

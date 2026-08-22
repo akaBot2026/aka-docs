@@ -9,6 +9,18 @@ displayed_sidebar: activitiesSidebar
 
 # Release notes
 
+## v4.8.0
+
+Build date: Aug 20, 2026
+
+- Added Set Focus and Activate to the activity toolbox with icons, display names and tooltips.
+- Added a `VisibilityCheck` property on Target with three options — None, Interactive (for Fuzzy Selector) and Fully visible.
+- Update the browser inspector so it can indicate popup and child browser windows, and use `idx` to select which window to target.
+- Fixed Attach Browser ignoring `TimeoutMS`: the activity now keeps retrying to locate the browser window and tab for the full timeout instead of failing immediately when it is not found on the first attempt.
+- Fixed the overlay window shown when indicating a table for Table Extraction.
+- Update flow validation in the Selection Options designer control.
+- Fixed async activity completion after a cancellation request.
+
 ## v4.7.0.0
 
 Build date: Jul 31, 2026

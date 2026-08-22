@@ -8,6 +8,13 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
+## v3.5.0
+
+Build date: Aug 20, 2026
+
+- Added Interruptible While and Interruptible Do While activities, which honour the existing Break and Continue activities as flow-control inside the loop body, with designers matching For Each.
+- Added a Return activity that ends the current workflow file while keeping its output arguments available, using the bookmark-based return host.
+
 ## v3.4.1
 
 Build date: Aug 05, 2026
