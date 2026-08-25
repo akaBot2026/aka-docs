@@ -1,179 +1,197 @@
-﻿---
+---
 id: how-to-use
 title: "How to use akaBot Agent"
 sidebar_label: "How to use"
 sidebar_position: 2
-description: "How to use akaBot Agent documentation."
+description: "Step-by-step guide to configuring and operating akaBot Agent."
 displayed_sidebar: agentSidebar
 ---
-# How to use akaBot Agent
+# How to Use akaBot Agent
 
-## **Introduction**
+## **Overview**
 
-The akaBot Agent is an execution agent that enables you to run processes built in Bot akaBot Studio or deployed from akaBot Center.
+akaBot Agent is a runtime execution component that runs automation processes built in akaBot Studio or deployed from akaBot Center.
 
-This document aims to guide you how to use the akaBot Agent.
+This guide walks you through the complete workflow: opening the Agent, connecting to akaBot Center, retrieving process packages, and controlling process execution.
 
-## **Using akaBot Agent**
+## **Getting Started**
 
-To operate a bot, you need to follow below actions:
+Before running a process, complete the following steps in order:
 
-1. Configure network setting to open connection to the akaBot Center if needed.
-2. Configure bot setting & connect to akaBot Center.
-3. Get processes from akaBot Center or akaBot Studio.
-4. Control the processes by running/stopping a process, configuring input arguments, or viewing history.
+1. *(Optional)* Configure network settings if your environment requires a proxy to reach akaBot Center.
+2. Connect akaBot Agent to akaBot Center using your Agent Key.
+3. Retrieve published process packages from akaBot Center or akaBot Studio.
+4. Run, stop, configure arguments, or review execution history for your processes.
 
-To open the akaBot Agent, you need to:  
-– Click system tray to show hidden icons.  
-– Right click akaBot icon.  
-– Select Show akaBot Agent.
+### **Opening akaBot Agent**
 
-![image-20220505174101-1.png](/static/img/d5b6ed_image-20220505174101-1.png)
+To open the akaBot Agent window:
 
-After that, akaBot Agent program is displayed on screen as below:
+1. Click the system tray to reveal hidden icons.
+2. Right-click the **akaBot** icon.
+3. Select **Show akaBot Agent**.
 
-![image-20221117102945-5.png](/static/img/2d6c9f_image-20221117102945-5.png)
+![System tray — right-click akaBot icon to open Agent](/static/img/d5b6ed_image-20220505174101-1.png)
 
----
+The akaBot Agent window opens, displaying the list of available processes.
 
-## **Configure network setting**
-
-If your network requires the proxy to get access to the Bot Center, you need to firstly configure the proxy setting to open the connection by performing below steps:
-
-**Step 1:** In Settings screen (if in the List Workflows screen then select Settings button at the right upper corner).
-
-**Step 2:** Choose Network tab and fill information into Network Configuration form.
-
-If select No proxy or Auto detect option, go to step 3.  
-If select Manual proxy option, you need to specify the proxy setting:
-
-* Select a proxy type.
-* Fill proxy server URL.
-* Fill proxy port.
-* If the proxy requires the authentication, check option Required Authentication then fill user name, password to authenticate.
-
-![image-20221117102229-3.png](/static/img/5d0ea0_image-20221117102229-3.png)
+![akaBot Agent main screen — workflow list](/static/img/2d6c9f_image-20221117102945-5.png)
 
 ---
 
-## **Configure bot setting & connect to Bot Center**
+## **Configure Network Settings**
 
-To connect the bot to akaBot Center, you need to register the bot setting in the akaBot Center first to have an Agent Key.
+If your network requires a proxy to connect to akaBot Center, configure the proxy settings before establishing the connection.
 
-After having the Agent Key, you can perform below actions to connect to the akaBot Center:
+**Step 1:** Navigate to the **Settings** screen. If you are on the Workflow List screen, click the **Settings** button in the upper-right corner.
 
-**Step 1:** In Settings screen (select Settings button at the right upper corner).
+**Step 2:** Select the **Network** tab and complete the **Network Configuration** form.
 
-**Step 2:** Choose Center tab and fill information into Central Configuration form.
+- **No Proxy / Auto Detect**: No additional configuration is required in this section.
+- **Manual Proxy**: Specify the following settings:
+  - **Proxy Type**: Select the appropriate protocol.
+  - **Proxy Server URL**: Enter the proxy server address.
+  - **Proxy Port**: Enter the port number.
+  - **Authentication** *(if required)*: Enable **Required Authentication**, then enter your username and password.
 
-* Machine name: the computer name of current computer (automatically pre-populated).
-* Agent key: the key registered to the Bot Center.
-* Center URL: Bot Center URL.
-
-**Step 3:** Click Connect to perform connecting to akaBot Center.
-
-After connecting successfully, status of akaBot Center turns to be **Connected**.
-
-![image-20221117102433-4.png](/static/img/fabb7a_image-20221117102433-4.png)
-
-If the bot is already connected to the akaBot Center, you can disconnect at any time by clicking Disconnect button.
+![Network Configuration — Manual Proxy settings](/static/img/5d0ea0_image-20221117102229-3.png)
 
 ---
 
-## **Get processes from akaBot Center or akaBot Studio**
+## **Connect akaBot Agent to akaBot Center**
 
-The akaBot Agent will automatically refresh to get all the process packages published from akaBot Center.
+To connect akaBot Agent to akaBot Center, you must first obtain an **Agent Key** by registering the agent in akaBot Center.
 
-You can refer to the link for how to publish a package from akaBot Studio: [How to use akaBot Studio](/docs/studio/latest/user-guide/how-to-use.md)
+Once you have the Agent Key:
+
+**Step 1:** Navigate to the **Settings** screen by clicking the **Settings** button in the upper-right corner.
+
+**Step 2:** Select the **Center** tab and complete the **Center Configuration** form:
+
+- **Machine Name**: The hostname of the current machine (pre-populated automatically).
+- **Agent Key**: The key obtained from akaBot Center registration.
+- **Center URL**: The URL of your akaBot Center instance.
+
+**Step 3:** Click **Connect** to establish the connection.
+
+When the connection is successful, the status indicator changes to **Connected**.
+
+![Center Configuration — Connected status](/static/img/fabb7a_image-20221117102433-4.png)
+
+To disconnect at any time, click **Disconnect**.
 
 ---
 
-## **Control the processes**
+## **Retrieve Processes**
 
-For a process, you can control by performing below actions:
+akaBot Agent automatically synchronizes and retrieves all process packages published from akaBot Center. No manual refresh is required.
 
-* Pull a package.
-* View Details, Configure Arguments, and View History.
-* Start a process (Standard or PiP).
-* Stop a process.
+To learn how to publish a package from akaBot Studio, see: [How to use akaBot Studio](/docs/studio/latest/user-guide/how-to-use.md)
 
-### **1. Pull new version of a package**
+---
 
-To pull a version of package, you need to click on "Down Arrow" symbol. The akaBot Agent will automatically download the new version of package to the local machine.
+## **Control Processes**
 
-After downloading, the changes in new version will be automatically applied in the next running.
+From the workflow list, you can perform the following actions on any process:
 
-![image-20221117102945-5.png](/static/img/2d6c9f_image-20221117102945-5.png)
+- Pull the latest package version.
+- View details, configure input arguments, and review execution history.
+- Start a process in Standard or Picture-in-Picture (PiP) mode.
+- Stop a running process.
+
+### **1. Pull a New Package Version**
+
+To update a process to its latest version, click the **Download** (↓) icon on the workflow card. akaBot Agent downloads and installs the new version automatically.
+
+The updated version takes effect on the next execution.
+
+![Workflow card with Down Arrow button to pull a new package version](/static/img/2d6c9f_image-20221117102945-5.png)
 
 ---
 
 ### **2. Workflow Detail Tabs**
 
-Clicking any workflow card opens the side detail panel featuring **3 tabs**:
+Clicking any workflow card opens a side panel with **three tabs**:
 
 #### **A. Details Tab**
-Displays metadata about the selected workflow:
-* **Name**: The automation package name.
-* **Version**: Installed package version.
-* **Last Run**: Timestamp of the latest execution.
-* **Last Update**: Date when the package was installed or updated.
-* **Description**: Functional description of the package.
-* *Note: All text fields can be highlighted and copied (`Ctrl+C`).*
+
+Displays metadata for the selected workflow:
+
+| Field | Description |
+|---|---|
+| **Name** | The automation package name. |
+| **Version** | The currently installed package version. |
+| **Last Run** | Timestamp of the most recent execution. |
+| **Last Update** | Date the package was installed or last updated. |
+| **Description** | A functional description of the package. |
+
+> **Tip:** All text fields support text selection and can be copied with `Ctrl+C`.
 
 ![Workflow Details Tab](/static/img/agent-details-tab.png)
 
-#### **B. Configure Tab (Input Arguments)**
-Allows users to customize input parameters (`InArgument`) before running the process:
-* **Argument Types & Input Validation**: Supports String (up to 4,000 chars), Int32/Numbers, Boolean, and DateTime.
-* **Required Arguments (`Name*`)**:
-  * Mandatory parameters are marked with a red asterisk (`*`).
-  * **Without Default Value**: The input box is open. The workflow **cannot run** until a value is supplied.
-  * **With Default Value**: Displays *"Use default value"*. Click the **Pencil icon** to edit or **Undo** to revert.
-* **Save & Run**: Click **Save** to persist custom values for future runs, or **Run** to validate and execute immediately.
+#### **B. Configure Tab**
+
+Use this tab to customize input parameters (`InArgument`) before running the process.
+
+**Supported argument types**: String (up to 4,000 characters), Int32, Boolean, and DateTime.
+
+**Required arguments** are marked with a red asterisk (`*`):
+
+- **No default value**: The field is empty and must be filled in before the process can run.
+- **Has default value**: The field displays *"Use default value"*. Click the **Pencil** icon to override the value, or **Undo** to revert to the default.
+
+Click **Save** to persist the configured values for future runs, or **Run** to validate and execute immediately.
 
 ![Workflow Configure Arguments](/static/img/agent-configure-tab.png)
 
-#### **C. History Tab (Task History)**
-Provides an audit log of past executions:
-* **Execution Records**: Status (Success, Failed, Cancelled), start time, and duration.
-* **Task Details Modal**: Click any historical run to inspect execution source (Local, Center, PiP), output argument values, and error logs.
+#### **C. History Tab**
 
-![Workflow Execution History](/static/img/agent-history-tab.png) -->
+Displays an audit log of past executions for the selected workflow.
 
-### **3. Start a process**
+- **Execution records**: Each entry shows the execution status (Success, Failed, or Cancelled), start time, and duration.
+- **Execution details**: Click any record to view the execution source (Local, Center, or PiP), output argument values, and any error messages.
 
-You can only start one process at a time in 2 modes: **Run in user's machine** and **Run Picture-in-Picture**.
-
-#### **Run process in user's machine mode**
-
-To start a process, click the "Play" symbol.
-
-After clicking "Play", the process starts executing and the bot status turns to **Running / Busy**.
-
-![image-20221117103154-6.png](/static/img/119849_image-20221117103154-6.png)
-
-#### **Run process in Picture-in-Picture (PiP) mode**
-
-Picture-in-Picture allows you to run attended automations without interrupting your current activity on the machine. While the Robot works in PiP, your main screen is free.
-
-To start a process in PiP mode: click the PiP icon on the workflow card.
-
-![image-20221117135605-8.png](/static/img/d21165_image-20221117135605-8.png)
-
-For the first-time running in PiP mode, user must supply Windows credentials for the bot to initialize the secondary desktop session.
-
-![image-20221117140949-9.png](/static/img/b6ccf9_image-20221117140949-9.png)
-
-After choosing "Run in PiP", a floating session opens. You can toggle **"Take control"** to interact with mouse/keyboard or **"Keep on top"** to monitor the execution.
-
-![328420978_738762340828688_4227970519572779063_n.png](/static/img/e9d235_328420978_738762340828688_4227970519572779063_n.png)
+![Workflow Execution History](/static/img/agent-history-tab.png)
 
 ---
 
-### **4. Stop a process**
+### **3. Start a Process**
 
-While a process is running, you can stop it manually by clicking the "Stop" button.  
-After stopped, the robot status returns to **Available** and associated processes will terminate.
+Only one process can run at a time. akaBot Agent supports two execution modes:
 
-<!-- [CẦN THAY HÌNH MỚI 13]: Ảnh khi process dừng lại và Agent trở về trạng thái Available -->
-![image-20221117103353-7.png](/static/img/1cd410_image-20221117103353-7.png)
+#### **Standard Mode**
+
+To run a process on the current desktop session, click the **Play** (▶) icon on the workflow card.
+
+The process begins executing and the Agent status changes to **Running / Busy**.
+
+![Agent status turns to Running/Busy after clicking Play](/static/img/agent-play-button.png)
+
+#### **Picture-in-Picture (PiP) Mode**
+
+PiP mode runs an automation in an isolated desktop session, allowing you to continue working on the main screen without interruption.
+
+To start a process in PiP mode, click the **PiP** icon on the workflow card.
+
+![Workflow card with PiP icon highlighted](/static/img/agent-pip-icon.png)
+
+> **Note:** On first use, you will be prompted to enter your Windows credentials. akaBot Agent requires these to initialize the secondary desktop session.
+
+![Windows credentials prompt for first-time PiP session](/static/img/b6ccf9_image-20221117140949-9.png)
+
+Once the PiP session starts, a floating window appears. Use the controls to manage the session:
+
+- **Take Control**: Interact with the PiP session using your mouse and keyboard.
+- **Keep on Top**: Pin the floating window to the foreground to monitor execution.
+
+![PiP floating session with Take control and Keep on top options](/static/img/e9d235_328420978_738762340828688_4227970519572779063_n.png)
+
+---
+
+### **4. Stop a Process**
+
+To stop a running process, click the **Stop** button on the workflow card.
+
+Once stopped, the Agent status returns to **Available** and all associated process threads are terminated.
+
+![Agent status returns to Available after process is stopped](/static/img/agent-stop-process.png)
