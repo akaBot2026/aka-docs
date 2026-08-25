@@ -9,6 +9,12 @@ displayed_sidebar: activitiesSidebar
 
 # Release notes
 
+## v4.8.0.1
+
+Build date: Aug 25, 2026
+
+- Fixed: property `Output Browser` of `Open Browser` and `Attach Browser` activities. Only dispose object when there is no output variable.
+
 ## v4.8.0
 
 Build date: Aug 20, 2026

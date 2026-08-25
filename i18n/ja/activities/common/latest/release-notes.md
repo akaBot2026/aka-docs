@@ -9,6 +9,12 @@ displayed_sidebar: activitiesSidebar
 
 # リリースノート
 
+## v4.8.0.1
+
+ビルド日: 2026年8月25日
+
+- 修正: `Open Browser` および `Attach Browser` アクティビティの `Output Browser` プロパティ。出力変数がない場合のみオブジェクトを破棄するようにしました。
+
 ## v4.8.0
 
 ビルド日: 2026年8月20日
