@@ -1,4 +1,4 @@
-﻿---
+---
 id: set-focus
 title: "Set Focus"
 sidebar_label: "Set Focus"
@@ -14,7 +14,7 @@ RCA.Activities.Common.SetFocus
 
 The Set Focus activity sets keyboard focus to a specified UI element.
 
-![Set Focus Activity](/static/img/set-focus-designer.png) -->
+![Set Focus Activity](/static/img/set-focus-designer.png)
 
 (\* is mandatory)
 
