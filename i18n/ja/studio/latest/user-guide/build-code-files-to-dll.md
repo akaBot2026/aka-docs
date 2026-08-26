@@ -8,46 +8,50 @@ displayed_sidebar: studioSidebar
 ---
 # コードのビルド (C# から DLL) & メソッドの呼び出し
 
-akaBot Studio 機能: `Build C# Code Files To Dll` & `System.Activities.Statements.InvokeMethod`
+## **概要**
 
-## **説明**
-
-**コードのビルド (Build Code)** 機能を使用すると、開発者は C# ソース コード ファイル (`.cs`) を akaBot プロジェクト内に直接含め、ローカル アセンブリ (`.local\Custom_Code.dll`) にコンパイルして、**Invoke Method** アクティビティまたはワークフロー式を使用してカスタム メソッドや型を呼び出すことができます。
+**コードのビルド (Build Code)** 機能を使用すると、C# ソース ファイル (`.cs`) を akaBot Studio プロジェクトに直接組み込み、ローカル アセンブリ (`.local\Custom_Code.dll`) にコンパイルして、**Invoke Method** アクティビティを使用してワークフロー内のカスタム メソッドを呼び出すことができます。
 
 ![リボンの Build Code ボタン](/static/img/build-code-ribbon.png)
 
 ---
 
-## **1. ステップごとのコンパイル プロセス**
+## **1. C# ソース ファイルのコンパイル**
 
-1. **C# ソース ファイルの追加**:
-   * プロジェクト ディレクトリ内に `.cs` ファイルを作成または貼り付けます (例: `JsonDownload.cs`)。
-   * カスタムの public static / インスタンス メソッドやクラスを記述します。
+C# コードを使用可能なアセンブリにコンパイルするには、以下の手順に従ってください。
 
-![CS ファイルを含むプロジェクト エクスプローラー](/static/img/build-code-project-explorer.png)
+1. **プロジェクトに C# ソース ファイルを追加する**:
+   - `.cs` ファイルをプロジェクト ディレクトリに作成またはコピーします (例: `JsonDownload.cs`)。
+   - カスタム クラスと public メソッド (static またはインスタンス) を定義します。
 
-2. **コードのビルド (Build Code) の実行**:
-   * Studio のリボンで **Build Code** をクリックします。
-   * Studio がすべての `.cs` ファイルを `.local\Custom_Code.dll` にコンパイルし、`.local\cache.json` を更新します。
-3. **Studio の再起動**:
-   * コンパイルされた `.cs` ファイルのリストが表示され、Studio の再起動を促すメッセージが表示されます。
-   * **Restart Studio** をクリックしてプロジェクトを再読み込みし、型実行エンジンに新しくコンパイルされたアセンブリを読み込みます。
+   ![CS ファイルを含むプロジェクト エクスプローラー](/static/img/build-code-project-explorer.png)
+
+2. **コードのビルドを実行する**:
+   - Studio のリボンで **[Build Code]** をクリックします。
+   - Studio がすべての `.cs` ファイルをコンパイルし、`.local\Custom_Code.dll` を生成して、`.local\cache.json` を更新します。
+
+3. **Studio を再起動する**:
+   - コンパイルされたファイルの一覧が表示され、再起動を促すプロンプトが表示されます。
+   - **[Restart Studio]** をクリックして、新しいアセンブリを読み込んだ状態でプロジェクトを再読み込みします。
 
 ![コードのビルド成功と再起動プロンプト](/static/img/build-code-success-restart.png)
 
 ---
 
-## **2. Invoke Method を使用したコンパイル済みメソッドの呼び出し**
+## **2. コンパイル済みメソッドの呼び出し**
 
-Studio を再起動した後、**Invoke Method** アクティビティ (`System.Activities.Statements.InvokeMethod`) を使用して、コンパイルされた C# メソッドを呼び出すことができます。
+Studio を再起動した後、**Invoke Method** アクティビティ (`System.Activities.Statements.InvokeMethod`) を使用して、コンパイルした C# メソッドを呼び出します。
 
 ![Invoke Method デザイナー](/static/img/build-code-invoke-method-designer.png)
 
-### **プロパティの設定**:
-* **TargetType**: **Static / Shared** メソッドを呼び出す場合、参照してコンパイル済みの C# クラス型を選択します (例: `MyCompany.Helpers.DataProcessor`)。
-* **TargetObject**: **Instance** メソッドを呼び出す場合、インスタンス化されたオブジェクト変数を指定します。
-* **MethodName**: 正確なメソッド名を入力します (例: `ProcessInvoice`, `ComputeHash`)。
-* **Parameters**: C# メソッドのシグネチャに一致する必要な入力/出力引数を追加します。
-* **Result**: 戻り値を受け取るワークフロー変数を割り当てます。
+以下のプロパティを設定します。
+
+| プロパティ | 説明 |
+|---|---|
+| **TargetType** | **Static** メソッドの場合: コンパイル済みの C# クラスを参照して選択します (例: `MyCompany.Helpers.DataProcessor`)。 |
+| **TargetObject** | **インスタンス** メソッドの場合: インスタンス化されたオブジェクト変数を指定します。 |
+| **MethodName** | 呼び出すメソッドの正確な名前 (例: `ProcessInvoice`, `ComputeHash`)。 |
+| **Parameters** | C# メソッドのシグネチャに対応する入力/出力引数。 |
+| **Result** | メソッドの戻り値を受け取るワークフロー変数。 |
 
 ![Invoke Method プロパティ](/static/img/build-code-invoke-method-properties.png)
