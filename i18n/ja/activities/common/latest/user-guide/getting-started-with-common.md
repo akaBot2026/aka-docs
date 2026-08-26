@@ -1,13 +1,13 @@
 ---
 id: getting-started-with-common
-title: "akaBot Common 入門ガイド"
-sidebar_label: "Common 入門ガイド"
+title: "Common アクティビティ 入門ガイド"
+sidebar_label: "Common アクティビティ"
 sidebar_position: 1
 description: "akaBot Web 拡張機能のセットアップ、セレクターの種類の理解、および Common Activities パッケージを使用した最初のワークフローの構築。"
 displayed_sidebar: activitiesSidebar
 ---
 
-# akaBot Common 入門ガイド
+# Common アクティビティ 入門ガイド
 
 > このガイドでは、**Common Activities** パッケージを使用して最初の自動化を構築する前に必要な基本事項を説明します。akaBot Web 拡張機能のインストール、akaBot が画面上の要素を検索する仕組み (セレクター) の理解、および実践的なワークフロー例を取り上げます。
 
