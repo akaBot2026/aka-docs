@@ -1,4 +1,4 @@
-﻿---
+---
 id: activate
 title: "Activate"
 sidebar_label: "Activate"
