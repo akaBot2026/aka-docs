@@ -2,7 +2,7 @@
 id: table-extraction-guide
 title: "Table Extraction"
 sidebar_label: "Table Extraction"
-sidebar_position: 1
+sidebar_position: 2
 description: "This document describes the complete workflow for using the Table Extraction activity"
 displayed_sidebar: activitiesSidebar
 ---

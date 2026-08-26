@@ -2,7 +2,7 @@
 id: type-secure-text
 title: "Type Secure Text"
 sidebar_label: "Type Secure Text"
-sidebar_position: 14
+sidebar_position: 16
 description: "Type Secure Text activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

@@ -2,7 +2,7 @@
 id: click
 title: "Click"
 sidebar_label: "Click"
-sidebar_position: 2
+sidebar_position: 3
 description: "Click activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

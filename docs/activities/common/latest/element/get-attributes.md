@@ -2,7 +2,7 @@
 id: get-attribute
 title: "Get Attribute"
 sidebar_label: "Get Attribute"
-sidebar_position: 5
+sidebar_position: 6
 description: "Get Attribute activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

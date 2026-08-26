@@ -2,7 +2,7 @@
 id: send-hotkey
 title: "Send Hotkey"
 sidebar_label: "Send Hotkey"
-sidebar_position: 11
+sidebar_position: 12
 description: "Send Hotkey activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
