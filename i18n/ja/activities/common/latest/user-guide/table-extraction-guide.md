@@ -2,7 +2,7 @@
 id: table-extraction-guide
 title: "表の抽出 (Table Extraction)"
 sidebar_label: "表の抽出"
-sidebar_position: 1
+sidebar_position: 2
 description: "このドキュメントでは、Table Extractionアクティビティを使用するための完全なワークフローについて説明します。"
 displayed_sidebar: activitiesSidebar
 ---

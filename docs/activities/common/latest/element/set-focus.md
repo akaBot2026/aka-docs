@@ -2,7 +2,7 @@
 id: set-focus
 title: "Set Focus"
 sidebar_label: "Set Focus"
-sidebar_position: 15
+sidebar_position: 13
 description: "Set Focus activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

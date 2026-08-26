@@ -2,7 +2,7 @@
 id: check
 title: "Check"
 sidebar_label: "Check"
-sidebar_position: 1
+sidebar_position: 2
 description: "Check activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

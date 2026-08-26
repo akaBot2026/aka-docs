@@ -2,7 +2,7 @@
 id: hover
 title: "Hover"
 sidebar_label: "Hover"
-sidebar_position: 8
+sidebar_position: 9
 description: "Hover activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

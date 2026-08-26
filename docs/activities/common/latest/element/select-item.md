@@ -2,7 +2,7 @@
 id: select-item
 title: "Select Item"
 sidebar_label: "Select Item"
-sidebar_position: 9
+sidebar_position: 10
 description: "Select Item activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

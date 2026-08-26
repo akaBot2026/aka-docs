@@ -2,7 +2,7 @@
 id: find-element
 title: "Find Element"
 sidebar_label: "Find Element"
-sidebar_position: 4
+sidebar_position: 5
 description: "Find Element activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

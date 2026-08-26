@@ -2,7 +2,7 @@
 id: take-screenshot
 title: "Take Screenshot"
 sidebar_label: "Take Screenshot"
-sidebar_position: 12
+sidebar_position: 14
 description: "Take Screenshot activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

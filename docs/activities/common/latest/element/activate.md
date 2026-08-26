@@ -2,7 +2,7 @@
 id: activate
 title: "Activate"
 sidebar_label: "Activate"
-sidebar_position: 16
+sidebar_position: 1
 description: "Activate activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
