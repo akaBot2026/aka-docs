@@ -1,13 +1,13 @@
 ---
 id: getting-started-with-common
-title: "Common Activities"
-sidebar_label: "Common Activities"
+title: "Browser Automation"
+sidebar_label: "Browser Automation"
 sidebar_position: 1
-description: "Set up the akaBot Web Extension, understand selector types, and build your first workflow with the Common Activities package."
+description: "Set up the akaBot Web Extension, understand selector types, and build your first workflow"
 displayed_sidebar: activitiesSidebar
 ---
 
-# Getting Started with Common Activities
+# Browser Automation
 
 > This guide walks you through the essentials you need before building your first automation with the **Common Activities** package: installing the akaBot Web Extension, understanding how akaBot locates elements on screen (selectors), and a hands-on example workflow.
 
