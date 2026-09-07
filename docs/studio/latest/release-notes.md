@@ -9,6 +9,17 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — Release Notes
 
+## v3.2.3.0
+
+**License Module**
+
+- Added: per-user Studio and Agent license file on Windows 10/11.
+- Update: Changed all license file operations to UTF-8.
+- Update: License and settings writes are now flushed to physical storage to reduce corruption risk.
+- Fixed: Invalid or placeholder settings keys now fall back to a valid key from the `.lic` file.
+- Fixed: License settings are saved only after activation succeeds.
+- Fixed: The licensing wizard remains usable after detecting corrupted settings, allowing users to enter new information and replace the file.
+
 ## v3.2.2.0
 
 **Studio**
