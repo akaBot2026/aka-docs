@@ -137,6 +137,7 @@ In your registered app, grant the Microsoft Graph permissions matching the **Ser
 
 | Services (in akaBot) | Delegated Permissions (Interactive, IWA, Password) | Application Permissions (ApplicationIdAndSecret, ApplicationIdAndCertificate) |
 | :--- | :--- | :--- |
+| *(All types)* | `User.Read` | `User.Read.All` |
 | **Files** | `Files.ReadWrite.All`, `Sites.ReadWrite.All` | `Files.ReadWrite.All`, `Sites.ReadWrite.All` |
 | **Mail** | `Mail.ReadWrite`, `Mail.Send` | `Mail.ReadWrite`, `Mail.Send` |
 | **Calendar** | `Calendars.ReadWrite` | `Calendars.ReadWrite` |
@@ -172,7 +173,7 @@ Open akaBot Studio, add the **Office 365 Application Scope** activity, and confi
 | **Environment** | `Global` for standard commercial Microsoft 365. |
 | **OAuth2 Username** | *(InteractiveToken only)* User email address to pre-fill in the sign-in prompt. |
 | **Application Secret** / **Secure Application Secret** | *(ApplicationIdAndSecret only)* The Client Secret from Step 3A. |
-| **Certificate As Base64** / **Certificate Password** | *(ApplicationIdAndCertificate only)* The Base64 certificate string and its password. |
+| **Certificate As Base64** / **Certificate Password** | *(ApplicationIdAndCertificate only)* The Base64 certificate string and its password from Step 3B. |
 | **Username** / **Password** (or **Secure Password**) | *(UsernameAndPassword only)* The Office 365 user credentials. |
 | **Timeout** | Maximum time in **milliseconds** to wait for API operations (default: `30000` ms / 30 seconds). |
 
