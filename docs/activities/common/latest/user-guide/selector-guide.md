@@ -9,118 +9,169 @@ displayed_sidebar: activitiesSidebar
 
 # Selector Guide
 
-A **selector** is the XML-based fingerprint that akaBot uses to uniquely identify a UI element at runtime. When you use **Indicate on screen** to pick a target element in akaBot Studio, the platform automatically generates selectors that describe the element so the robot can find it again during execution.
+A **selector** is an XML fragment that akaBot uses to uniquely identify a UI element at runtime across desktop, web, Java, and SAP applications. When you click **Indicate on screen** on any UI activity, akaBot Studio automatically inspects the target element and generates selectors describing its technical hierarchy and attributes.
 
-This guide explains how selectors work in akaBot, what to do when a selector breaks, and how to fix it using the Selector Editor.
+This guide explains how selectors work in akaBot, how to configure search steps in the **Selection Options** window, and how to inspect, fix, and parametrize selectors using the **Selector Editor** (Selector Dialog).
 
 ---
 
-## Selector Types
+## Selector Types and Search Steps
 
-When you indicate a target element on screen, the **Selection Options** window generates up to three selector types simultaneously. Each type has a checkbox to enable or disable it, and an **Accuracy slider** (0.0 → 1.0) that controls how closely the element must match at runtime.
+When indicating an element, akaBot can generate multiple selector types. These correspond to the **SearchSteps** (`TargetSearchSteps`) property under the activity's **Target**:
 
-All three types are enabled by default. akaBot uses them in combination to maximize resilience.
+| Selector Type | Flag in Code | How It Works | When to Use |
+| :--- | :--- | :--- | :--- |
+| **Strict Selector** | `StrictSelector` | Matches the element using exact technical attributes (e.g., tag, id, name, class, automationId), organized in a hierarchical XML structure. | Best when the application has a clean, stable structure with reliable attributes. Fastest and most precise method. |
+| **Fuzzy Selector** | `FuzzySelector` | Compares element attributes using a similarity score against a configurable **Accuracy** slider (range 0.4 → 1.0, default: 0.5). | Best when element attributes contain slight variations or dynamic tokens. More resilient than strict matching. |
+| **Image Selector** | `Image` | Identifies the element visually by matching a captured screenshot region against the screen, controlled by an **Accuracy** slider (range 0.5 → 1.0, default: 0.8). | Best when the element lacks accessible technical attributes, or lives in a virtualized, canvas, or remote desktop environment. |
+| **CV Selector** | `CV` | Locates the element using Computer Vision algorithms based on visual appearance and layout. | Used for Citrix, Remote Desktop, or image-heavy interfaces where DOM/UIA trees are unavailable. |
+| **Semantic Selector** | `Semantic` | Uses AI-powered natural language descriptions to ground and target elements contextually. | Best for dynamic web pages where attributes and layouts change frequently. |
 
-| Selector Type | How It Works | When It Is Most Useful |
-| :--- | :--- | :--- |
-| **Strict Selector** | Matches the element using its exact technical attributes (ID, class, tag, etc.), stored as an XML fragment describing the element and some of its parent windows. | Best when the page or application has a stable structure and the element has unique, reliable attributes. It is the fastest and most precise type, but it breaks if the underlying attributes change. |
-| **Fuzzy Selector** | Matches the element using a similarity score against its attributes, allowing partial or wildcard matches instead of requiring an exact match. | Best when attributes are partly dynamic (for example, an ID that changes slightly between sessions). More resilient than Strict, but slightly less precise. |
-| **Image Selector** | Identifies the element visually, using a screenshot of the element captured at record time, instead of inspecting its underlying attributes. | Best when the element has no reliable attributes to target, or when it lives inside a canvas, image, or virtualized UI component that is not accessible through normal means. |
-
-> **Tip:** If a Strict or Fuzzy selector contains a dynamic value that changes on every run (for example, `id='session_48291'` where the number is randomly generated), you can manually edit the selector in the **Properties** panel and replace the volatile part with a wildcard (`*`).
+> **Resilience Strategy:** You can enable multiple selector types simultaneously (e.g., Strict + Fuzzy + Image). akaBot checks them in sequence at runtime, falling back to subsequent steps if the primary selector fails to resolve.
 
 ---
 
 ## The Selection Options Window
 
-When you click **Indicate on screen** inside a supported activity, akaBot Studio minimizes and a floating **Selection Options** toolbar appears on top of the screen. Hover over the target element until it is highlighted with a red border, then click to select it.
+When you click **Indicate on screen** in a UI activity, akaBot Studio minimizes and the floating **Selection Options** toolbar appears.
 
-The toolbar displays the following instruction:
+Hover over the target element until it is highlighted with a colored border, then click or press **Right Control** to select it.
 
-> *Hover the element you want to indicate and click (or right-click) to select it.*
+The floating toolbar displays the following instruction:
+
+> *Hover the element you want to indicate and click (or right control) to select it*
 >
 > *If the element is not detected, try changing the UI framework (F4), enabling Computer Vision (F8), or using the Image region selection (F3).*
 >
-> *To pause the indicator for two seconds, press F2. To stop it, press Esc.*
+> *To pause the indicator for few seconds, press F2.*
+>
+> *Validating the selected selectors. To stop it, press Esc.*
 
-After you click an element, the selector is validated automatically. The toolbar then shows the result and lets you confirm or adjust the selection.
+![selection-options.png](/static/img/selection-options.png)
 
-| Button / Hotkey | What It Does |
-| :--- | :--- |
-| **F4** | Cycles through available UI frameworks (Default, Active Accessibility, UIA3) to find one that can detect the element. Press repeatedly to cycle. |
-| **F8** | Switches to **Computer Vision** mode, which locates the element by its visual appearance rather than by its underlying attributes. |
-| **F3** | Switches to **Image region selection**, which captures a screenshot of the target area and uses the image as the selector. |
-| **F2** | Pauses the indicator for two seconds so you can hover over a menu or tooltip that would otherwise disappear before you can click. |
-| **Validate** | Checks whether akaBot can currently resolve the generated selector to an element on screen. |
-| **Confirm** | Saves the selection and returns to akaBot Studio. |
-| **Cancel** | Discards the selection and returns to akaBot Studio without saving. |
+### Hotkeys and Controls
 
----
-
-## The Selector Editor
-
-After a selector has been captured, you can inspect and edit it at any time using the **Selector Editor**. To open it:
-
-1. In akaBot Studio, click on the activity in your workflow.
-2. In the **Properties** panel on the right, find the **Selector** field under **Input > Target**.
-3. Click the **Ellipsis (...)** button next to the Selector field.
-4. The **Selector Editor** opens, showing the full XML selector and the list of attributes that were captured.
-
-The Selector Editor provides the following tools:
-
-| Tool | Description |
-| :--- | :--- |
-| **Validate** | Checks whether the current selector resolves to an element currently visible on screen. The result turns green (valid) or red (invalid). |
-| **Indicate Element** | Lets you re-click the target element on screen to regenerate the selector from scratch. |
-| **Repair** | Lets you re-indicate the same element to patch a broken selector without fully replacing it. Only available when the selector is currently invalid. |
-| **Highlight** | Brings the matched element to the foreground so you can visually confirm it is the correct one. Only available when the selector is valid. |
-| **Edit Attributes** | Displays a checklist of all detected attributes. Check or uncheck attributes to include or exclude them from the selector. |
-| **Edit Selector** | Lets you directly edit the raw XML to add wildcards, inject variables, or remove attributes manually. |
-
-> **Note:** If akaBot Studio and the target application are running under different privilege levels (for example, Studio as Administrator and the app as a standard user), the selector may fail to resolve. Always run both with the same privilege level.
+| Key / Control | Function | Description |
+| :--- | :--- | :--- |
+| **F4** | Change UI Framework | Cycles through available automation frameworks: **Default** (Native browser / UIA / SAP / Java), **UIA** (UI Automation), and **MSAA** (Microsoft Active Accessibility). |
+| **F8** | Computer Vision | Switches to Computer Vision (CV) inspection mode. |
+| **F3** | Image Region | Enables region-based image selection to capture a screenshot of the target element. |
+| **F2** | Pause Indicator | Pauses detection for a few seconds, allowing you to open dropdown menus, tooltips, or flyouts before indicating. |
+| **Esc** | Stop / Cancel | Stops the validation process or cancels element indication without saving. |
+| **Right Ctrl** / Click | Select Element | Selects the currently hovered element. |
+| **Confirm** | Save Selection | Saves the generated selectors into the activity's **Target** and returns to akaBot Studio. |
+| **Accuracy Sliders** | Threshold Control | Configures the matching sensitivity for Fuzzy selector (default: 0.5) and Image selector (default: 0.8). |
 
 ---
 
-## Fixing an Unstable Selector
+## The Selector Editor (Selector Dialog)
 
-A selector is **unstable** when it works on one run but fails on another. The usual cause is that one or more attribute values in the selector are *dynamic* — they change each time the application starts or the page reloads.
+To inspect, fine-tune, or edit a selector after indication:
 
-### Step 1 — Uncheck Dynamic Attributes
+1. Select the activity in the workflow designer.
+2. In the **Properties** panel, expand **Input > Target**.
+3. Click the **Ellipsis (...)** button next to the **Selector** (or **FuzzySelector**) field.
+4. The **Selector Dialog** opens.
 
-The simplest way to fix an unstable selector is to completely remove the volatile attributes so akaBot ignores them.
-1. Open the **Selector Editor**. Look at the checklist under **Edit Attributes**.
-2. **Uncheck** any attribute that looks dynamic or temporary. Common culprits include:
-   - **ID with random numbers:** (e.g., `id='session_48291'`).
-   - **Temporary classes:** (e.g., `class='btn-active hover'`).
-   - **Index (`idx`):** Uncheck `idx` unless absolutely necessary. It specifies the element's order among siblings and breaks immediately if a new element is added to the page.
+![selector-dialog.png](/static/img/selector-dialog.png)
 
-### Step 2 — Prioritize Fixed Attributes
+### Toolbar and Sections
 
-After unchecking unstable attributes, ensure the remaining checked attributes are stable enough to uniquely identify the element. Prioritize checking these attributes:
-1. **`aaname`** or **`name`** — The visible label of the element. This rarely changes.
-2. **`tag`** — The HTML element type (e.g., `INPUT`, `BUTTON`).
-3. **`title`** — The window or page title.
+* **Validate (Status Button)** - Checks whether the selector currently resolves to an open window/element on screen. The button color indicates the validation state:
+  - **Green:** Valid — element found on screen.
+  - **Red:** Invalid — element could not be found.
+  - **Yellow / Orange:** Unknown / Modified — the selector was edited and has not been re-validated.
+  - **Gray:** Validating in progress or selector is empty.
 
-### Step 3 — Use Wildcards or Variables (Optional)
+* **Highlight** - Toggles visual highlighting (red border) on the detected element on screen. Only enabled when validation status is **Valid** (Green).
 
-If you cannot simply uncheck an attribute because the remaining attributes aren't unique enough, you can edit the raw XML to replace just the volatile *part* of the value.
+* **Edit Attributes (Expander)** - Displays a checklist of all detected XML nodes and attributes for the element. Check or uncheck attributes to dynamically include or exclude them from the selector.
 
-**Option A — Use a wildcard**
-Replace the dynamic part with a `*` (matches any sequence) or `?` (matches a single character).
-- **Before:** `<webctrl id='session_48291' tag='INPUT' />`
-- **After:** `<webctrl id='session_*' tag='INPUT' />`
+* **Edit Selectors (Expander)** - A full XML text editor with syntax highlighting that allows direct editing of the raw selector string.
 
-**Option B — Use a variable**
-Inject a runtime variable by wrapping its name in double curly braces `{{}}`.
-- `<webctrl id='order_{{orderId}}' tag='INPUT' />`
+### Using Variables and Arguments
 
-### Step 4 — Validate the Fix
+In akaBot, you can make selectors dynamic by injecting variables or arguments directly into attribute values using double curly braces: `{{variableName}}` or `{{argumentName}}`.
 
-After editing, always click **Validate** in the Selector Editor to confirm the updated selector correctly resolves to your intended element before closing.
+Inside the **Edit Selectors** text editor, you can manage variables and arguments via keyboard shortcuts or the right-click context menu:
+
+| Action | Shortcut | Description |
+| :--- | :--- | :--- |
+| **Choose Variable** | `Ctrl + Space` | Opens a popup to select an existing workflow variable. |
+| **Choose Argument** | `Ctrl + Shift + Space` | Opens a popup to select an existing workflow argument. |
+| **Create Variable** | `Ctrl + K` | Quickly creates a new variable and inserts `{{newVar}}` into the selector. |
+| **Create Argument** | `Ctrl + M` | Quickly creates a new argument and inserts `{{newArg}}` into the selector. |
+
+![selector-dialog-short-cut.png](/static/img/selector-dialog-short-cut.png)
+
+---
+
+## Fixing Unstable Selectors
+
+A selector is **unstable** when it works on one execution but fails on another. This usually occurs when an attribute value is dynamic (e.g., dynamically generated session IDs or volatile CSS classes).
+
+> **Tip — Use UI Explorer for Advanced Analysis:**
+> If an element's selector cannot be stabilized using the basic Selector Dialog, open **[UI Explorer](/docs/studio/latest/user-guide/how-to-use-UI-Explorer.md)** to inspect the entire UI tree, examine ancestor/descendant tags, and discover alternative stable attributes. For a complete guide, see [How to Use UI Explorer](/docs/studio/latest/user-guide/how-to-use-UI-Explorer.md).
+
+### Step 1 — Uncheck Dynamic Attributes in Edit Attributes
+
+1. Open the **Selector Dialog**.
+2. Expand **Edit Attributes**.
+3. **Uncheck** volatile attributes:
+   - Dynamic IDs with random numbers (e.g., `id='user_98412'`).
+   - Volatile classes (e.g., `class='btn hover focused'`).
+   - Order index (`idx`): Uncheck `idx` whenever possible, as adding any new element to the page shifts the index.
+
+### Step 2 — Keep Stable Attributes
+
+Ensure the remaining attributes uniquely identify the target element:
+- `aaname` or `name` — The visible text or label.
+- `tag` — The HTML/native control tag (e.g., `BUTTON`, `INPUT`, `A`).
+- `automationId` — Stable identifier in desktop applications.
+- `title` — Window or tab title.
+
+### Step 3 — Use Wildcards or Variables
+
+When an attribute contains both a static prefix/suffix and a dynamic component, edit the raw XML in **Edit Selectors**:
+
+* **Asterisk (`*`):** Matches zero or more characters.
+  - *Before:* `<webctrl id='order_report_20260910' tag='DIV' />`
+  - *After:* `<webctrl id='order_report_*' tag='DIV' />`
+
+* **Question Mark (`?`):** Matches exactly one character.
+  - *Before:* `<webctrl name='step1' tag='BUTTON' />`
+  - *After:* `<webctrl name='step?' tag='BUTTON' />`
+
+* **Variables / Arguments (`{{var}}`):**
+  - `<webctrl id='item_{{itemId}}' tag='INPUT' />`
+
+### Step 4 — Validate and Highlight
+
+1. Click **Validate** to ensure the updated selector turns green.
+2. Click **Highlight** to visually verify that the red bounding box outlines the correct target element.
+
+---
+
+## Target Properties Reference
+
+UI activities in akaBot expose a **Target** object under **Input > Target** with the following properties:
+
+| Property | Type | Description |
+| :--- | :--- | :--- |
+| **Selector** | `InArgument<String>` | The XML string for the strict selector. |
+| **FuzzySelector** | `InArgument<String>` | The XML string for the fuzzy selector. |
+| **SearchSteps** | `TargetSearchSteps` | Bitwise flags defining enabled search methods (`StrictSelector`, `FuzzySelector`, `Image`, `CV`, `Semantic`). |
+| **TimeoutMS** | `InArgument<Int32>` | Maximum wait time in **milliseconds** for the element to be found (e.g., `30000`). |
+| **WaitForReady** | `WaitForReady` | Wait condition before performing action: `None`, `Interactive`, or `Complete`. |
+| **VisibilityCheck** | `VisibilityCheck` | Verification level for element visibility: `None`, `Interactive`, or `FullyVisible`. |
+| **Element** | `InArgument<UIElement>` | An existing `UIElement` variable (e.g., from Find Element or Element Exists). |
+| **SemanticDescriptor** | `InArgument<String>` | Natural language description for semantic targeting. |
+| **CvElement** / **CvType** | `InArgument<String>` / `String` | Descriptors for Computer Vision element targeting. |
 
 ---
 
 ## See Also
 
-- [Troubleshooting UI Automation](troubleshooting.md) — Common runtime errors such as SelectorNotFoundException, Timeout, and Disabled Element.
-- [Semantic Selector Guide](semantic-selector-howto.md) — How to use AI-powered element targeting when traditional selectors are unreliable.
+* [How to Use UI Explorer](/docs/studio/latest/user-guide/how-to-use-UI-Explorer.md) - How to inspect UI trees and construct robust selectors using UI Explorer.
+* [Troubleshooting Common Activities](troubleshooting.md) - How to diagnose and resolve runtime errors like ElementNotFoundException, Timeout, and Disabled Element.
+* [Semantic Selector Guide](semantic-selector-howto.md) - How to use AI-driven semantic selectors.

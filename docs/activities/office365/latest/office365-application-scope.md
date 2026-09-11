@@ -9,7 +9,7 @@ displayed_sidebar: activitiesSidebar
 
 # Office365 Application Scope
 
-RCA.Activities.Office365.Office365ApplicationScope
+`RCA.Activities.Office365.Office365ApplicationScope`
 
 ## Description
 
@@ -37,51 +37,59 @@ All Office 365 activities (such as Upload File, Send Mail, Get List Items) must 
 
 * **Application Id: `InArgument<String>`\*** - The Azure application (client) ID of your registered Microsoft Entra application. Required for all authentication types.
 
-* **Authentication Type** - The method used to authenticate with Microsoft Office 365. Select one of the following values:
+* **Authentication Type: AuthenticationType** - The method used to authenticate with Microsoft Office 365. Default: `InteractiveToken`. Select one of the following values:
 
   | Value | Description |
   | :--- | :--- |
-  | `InteractiveToken` | Opens a browser popup for the user to sign in interactively with their Microsoft account. |
-  | `IntegratedWindowsAuthentication` | Authenticates using the current Windows user's credentials (Windows SSO). Requires the machine to be domain-joined. |
-  | `UsernameAndPassword` | Authenticates using a stored Office 365 username and password. MFA must be disabled on the account. |
-  | `ApplicationAndSecret` | Authenticates as the registered application using a Client Secret. Suitable for unattended automation. |
-  | `ApplicationAndCertificate` | Authenticates as the registered application using a certificate. The most secure option for unattended automation. |
+  | `InteractiveToken` *(default)* | Opens a browser popup for the user to sign in interactively with their Microsoft account. |
+  | `IntegratedWindowsAuthentication` | Authenticates using the current Windows user's credentials (Windows SSO). Requires the machine to be domain-joined and a **Tenant** ID. |
+  | `UsernameAndPassword` | Authenticates using a stored Office 365 username and password. Requires **Tenant**, **Username**, and **Password** (or **Secure Password**). MFA must be disabled on the account. |
+  | `ApplicationIdAndSecret` | Authenticates as the registered application using a Client Secret. Designed for unattended automation. Requires **Tenant** and **Application Secret** (or **Secure Application Secret**). |
+  | `ApplicationIdAndCertificate` | Authenticates as the registered application using a certificate. The most secure unattended option. Requires **Tenant**, **Certificate As Base64**, and **Certificate Password** (if protected). |
 
-* **Services: MicrosoftService** - The Microsoft 365 services that this scope is authorized to access. Select one or more of the following values:
+* **Services: MicrosoftService\*** - The Microsoft 365 services that this scope is authorized to access. Select one or more of the following values (cannot be `Unselected`):
 
   | Value | Service Accessed |
   | :--- | :--- |
   | `Files` | OneDrive and SharePoint file operations (Upload, Download, Copy, Move, Delete, etc.) |
   | `Mail` | Outlook mailbox operations (Send Mail, Get Mail, Move Mail, etc.) |
   | `Calendar` | Outlook calendar operations |
-  | `Groups` | Microsoft 365 Groups |
-  | `Shared` | SharePoint shared resources and sites |
+  | `Groups` | Microsoft 365 Groups operations |
+  | `Shared` | Access to shared resources across services (e.g. shared mailboxes, shared calendars, SharePoint sites) |
 
-* **Tenant: `InArgument<String>`** - The Azure tenant ID or tenant domain name (e.g., `yourcompany.onmicrosoft.com`). If left blank, the scope uses the `common` endpoint, which supports both personal and work accounts.
+* **Tenant: `InArgument<String>`\*** - The Azure directory (tenant) ID or tenant domain name (e.g., `yourcompany.onmicrosoft.com` or a GUID).
+  - For `InteractiveToken`, if left blank, the scope defaults to the `common` endpoint.
+  - For `IntegratedWindowsAuthentication`, `UsernameAndPassword`, `ApplicationIdAndSecret`, and `ApplicationIdAndCertificate`, **Tenant is mandatory**.
 
-* **Environment: HostingEnvironment** - The Microsoft cloud environment to connect to. Default value: `Global`. Change this only if your organization uses a sovereign cloud deployment.
+* **Environment: HostingEnvironment** - The Microsoft cloud environment to connect to. Default: `Global`. Options include `Default`, `Global`, `China`, `Germany`, `USGovernment`, `USGovernmentDOD`. Change this only if your organization uses a sovereign or national cloud deployment.
 
-* **OAuth2 Username: `InArgument<String>`** - The Office 365 email address of the user. Used by `InteractiveToken` and `IntegratedWindowsAuthentication` to identify which account to authenticate.
+* **OAuth2 Username: `InArgument<String>`** - The Office 365 email address of the user. Used by `InteractiveToken` to pre-fill the username in the authentication prompt.
 
 ---
 
 ### Application Certificate And Secret
 
-These properties apply when **Authentication Type** is set to `ApplicationAndCertificate`.
+These properties apply when **Authentication Type** is set to `ApplicationIdAndCertificate`.
 
-* **Certificate As Base64: `InArgument<String>`** - The content of the `.pfx` certificate file encoded as a Base64 string.
+* **Certificate As Base64: `InArgument<String>`\*** - The content of the `.pfx` certificate file encoded as a Base64 string. Required for `ApplicationIdAndCertificate`.
 
-* **Certificate Password: `InArgument<SecureString>`** - The password protecting the certificate file.
+* **Certificate Password: `InArgument<SecureString>`** - The password protecting the certificate file, stored as a `SecureString`.
 
 ---
 
 ### Application ID And Secret
 
-These properties apply when **Authentication Type** is set to `ApplicationAndSecret`.
+These properties apply when **Authentication Type** is set to `ApplicationIdAndSecret`.
 
-* **Application Secret: `InArgument<String>`** - The Client Secret generated in your Azure app registration.
+* **Application Secret: `InArgument<String>`\*** - The Client Secret string generated in your Azure app registration. Required if **Secure Application Secret** is not provided.
 
-* **Secure Application Secret: `InArgument<SecureString>`** - A secure version of the Client Secret, stored as a SecureString variable for better security.
+---
+
+### Secure Application Secret
+
+These properties apply when **Authentication Type** is set to `ApplicationIdAndSecret`.
+
+* **Secure Application Secret: `InArgument<SecureString>`\*** - The Client Secret stored as a `SecureString` variable for enhanced security. Required if **Application Secret** is not provided.
 
 ---
 
@@ -89,27 +97,30 @@ These properties apply when **Authentication Type** is set to `ApplicationAndSec
 
 These properties apply when **Authentication Type** is set to `UsernameAndPassword`.
 
-* **Username: `InArgument<String>`** - The Office 365 email address of the account (e.g., `robot@yourcompany.com`).
+* **Username: `InArgument<String>`\*** - The Office 365 email address of the account (e.g., `robot@yourcompany.com`). Required for `UsernameAndPassword`.
 
-* **Password: `InArgument<String>`** - The account password.
+* **Password: `InArgument<String>`\*** - The account password as plain text. Required if **Secure Password** is not provided.
 
-* **Secure Password: `InArgument<SecureString>`** - A secure version of the password, stored as a SecureString variable.
+* **Secure Password: `InArgument<SecureString>`\*** - The account password stored as a `SecureString` variable. Required if **Password** is not provided.
 
 ---
 
 ### Common
 
-* **Continue On Error (`Boolean`)** - Specifies whether execution should continue if this activity throws an error.
-  - `True`: The workflow continues even if an error occurs within the scope.
+* **Continue On Error: `InArgument<Boolean>`** - Specifies whether execution should continue if this activity throws an error.
+  - `True`: The workflow continues executing the next activity even if an error occurs within the scope.
   - `False` *(default)*: The workflow stops and reports the error.
 
-* **Timeout: `InArgument<Int32>`** - The maximum time, in seconds, to wait for a Microsoft Graph API call to complete before throwing a timeout error.
+* **Timeout: `InArgument<Int32>`** - The maximum time, in **milliseconds**, to wait for authentication and Microsoft Graph API requests before throwing a timeout error. Default: `30000` ms (30 seconds) if unset or `<= 0`.
 
 ---
 
 ### Misc
 
-* **Display Name (`String`)** - The display name of this activity in the workflow designer. You can rename it to make your workflow easier to read.
-  E.g: `[131861867] Office365 Ap...`
+* **Display Name (`String`)** - The display name of this activity in the workflow designer. You can rename it to make your workflow easier to read. Default: `Office365 Application Scope`.
 
-* **Public (Checkbox)** - If checked, this activity is marked as public. Consider data security requirements before enabling this option.
+---
+
+## See Also
+
+* [Connecting to Office 365](azure-app-registration.md) - Step-by-step guide to registering an Azure application and setting up authentication.

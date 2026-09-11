@@ -21,9 +21,9 @@ The **Google Cloud Scope** activity supports three **Credentials Mode** options.
 
 | Credentials Mode | How It Works | When to Use |
 | :--- | :--- | :--- |
-| **AutoDetect** | akaBot automatically detects credentials from the environment — for example, from the `GOOGLE_APPLICATION_CREDENTIALS` environment variable or the Google Cloud metadata server. | Use this when running akaBot on a Google Cloud virtual machine (Compute Engine) that already has a Service Account attached, or in a CI/CD environment where credentials are pre-configured. |
-| **ServiceAccountKey** | Authenticates using the raw JSON content of a Service Account key, provided directly as a secure string in the activity. | Use this when you want to embed the key content directly in the workflow without relying on a local file. Suitable for robot machines where the JSON is stored in a secrets manager. |
-| **ServiceAccountKeyFromFile** | Authenticates using the path to a Service Account JSON key file stored on the robot's local disk. | Use this when the JSON key file is deployed to the robot machine and you want to reference it by its file path. |
+| **AutoDetect** | akaBot automatically detects credentials from the environment — for example, from the `GOOGLE_APPLICATION_CREDENTIALS` environment variable or the Google Cloud metadata server. | Use this when running akaBot on a Google Cloud virtual machine (Compute Engine) that already has a Service Account attached, or in an environment where credentials are pre-configured. |
+| **ServiceAccountKey** *(default)* | Authenticates using the raw JSON content of a Service Account key, provided directly as a `SecureString` in the activity. | Use this when you want to supply the key content directly from akaBot Center (Orchestrator) Assets without storing a physical file on the robot disk. |
+| **ServiceAccountKeyFromFile** | Authenticates using the path to a Service Account JSON key file stored on the robot machine's local disk. | Use this when the JSON key file is deployed to the robot machine and you want to reference it by its local file path. |
 
 ---
 
@@ -35,9 +35,11 @@ The **Google Cloud Scope** activity supports three **Credentials Mode** options.
 4. Click **Create Service Account** at the top of the page.
 5. Fill in the service account details:
    - **Service account name:** Enter a descriptive name (e.g., `akabot-automation`).
-   - **Service account ID:** This is auto-filled based on the name. It will form the service account's email address (e.g., `akabot-automation@your-project.iam.gserviceaccount.com`).
+   - **Service account ID:** Auto-filled based on the name. It forms the service account's email address (e.g., `akabot-automation@your-project.iam.gserviceaccount.com`).
    - **Service account description:** Optional. Describe the purpose of this account.
 6. Click **Create and Continue**.
+
+![gcp-create-service-account.png](/static/img/gcp-create-service-account.png)
 
 ---
 
@@ -45,8 +47,9 @@ The **Google Cloud Scope** activity supports three **Credentials Mode** options.
 
 The service account must be granted a role that gives it permission to access the Google Cloud resources your automation needs.
 
-1. In the **Grant this service account access to project** step, click the **Role** dropdown.
-2. Select the appropriate role for your use case. Common roles for akaBot workflows include:
+1. On the **Service Accounts** list page, click on your service account (e.g., `akabot-automation`) to open its details, then go to the **Permissions** tab and click **Manage access**.
+2. In the **Edit access** panel on the right, under **Assign roles**, click the **Select a role** dropdown.
+3. Search for and select the role required for your automation use case. Common roles for akaBot Google Cloud Storage workflows include:
 
    | akaBot Use Case | Recommended Role |
    | :--- | :--- |
@@ -55,7 +58,9 @@ The service account must be granted a role that gives it permission to access th
    | Upload files to a specific bucket | **Storage Object Creator** |
    | Full access to Storage (buckets + objects) | **Storage Admin** |
 
-3. Click **Continue**, then click **Done** to finish creating the service account.
+4. Click **Save** to apply the role to the service account.
+
+![gcp-grant-role.png](/static/img/gcp-grant-role.png)
 
 ---
 
@@ -69,11 +74,11 @@ The JSON key is the credential file that akaBot uses to authenticate as the Serv
 4. In the dialog, select **JSON** as the key type.
 5. Click **Create**. The JSON key file will be automatically downloaded to your computer.
 
-> **Security Warning:** The JSON key file contains a private key that grants full access to any Google Cloud resource the service account has been given permission for. Store it securely and never commit it to source control (e.g., Git). Treat it with the same level of care as a password.
+![gcp-create-key.png](/static/img/gcp-create-key.png)
 
-**What is this JSON file?**
-The downloaded file contains the cryptographic keys and identifiers that akaBot uses to securely authenticate with Google Cloud on your behalf. It will look similar to this structure:
+> **Security Warning:** The JSON key file contains a private key that grants full access to any Google Cloud resource the service account has permission for. Store it securely and never commit it to source control (e.g., Git). Treat it with the same level of care as a password.
 
+**Example JSON structure:**
 ```json
 {
   "type": "service_account",
@@ -89,31 +94,35 @@ The downloaded file contains the cryptographic keys and identifiers that akaBot 
 
 ---
 
-## Step 4 — Configure the Google Cloud Scope in akaBot
+## Step 4 — Configure the Google Cloud Scope in akaBot Studio
 
-Once you have the JSON key file, open akaBot Studio, add the **Google Cloud Scope** activity, and set the **Credentials Mode** property. Depending on the mode selected, configure the corresponding properties:
+Open akaBot Studio, add the **Google Cloud Scope** activity to your workflow, and set the **Credentials Mode** property:
 
-### ServiceAccountKeyFromFile
+### Mode 1: ServiceAccountKeyFromFile
 
-This mode authenticates using a JSON file stored on the local machine.
-* **Service Account Key From File** - The absolute path to the downloaded JSON key file. The path must be provided as a string literal (enclosed in double quotes), for example: `"C:\akabot\credentials\gcp-key.json"`.
+Authenticates using the path to the downloaded JSON key file stored on the robot machine.
+* In the activity body or Properties panel, set **Credentials Mode** to `ServiceAccountKeyFromFile`.
+* In the **Service Account Key From File** field, provide the absolute path as a string expression:
+  `"C:\akabot\credentials\gcp-key.json"`
 
-### ServiceAccountKey
+### Mode 2: ServiceAccountKey
 
-This mode authenticates using the JSON key content provided directly as a `SecureString`. It is typically used when retrieving credentials from akaBot Center (Orchestrator) Assets.
-* **Service Account Key** - The JSON key content converted to a `SecureString`. 
+Authenticates using the raw JSON key content converted to a `SecureString`. This is ideal when retrieving the key from an akaBot Center Asset.
+* Set **Credentials Mode** to `ServiceAccountKey`.
+* In the **Service Account Key** field, pass a `SecureString` variable containing the JSON content.
+* If you read the JSON content from an Asset into a `String` variable (e.g., `strJsonKey`), convert it to `SecureString` using:
+  `new System.Net.NetworkCredential("", strJsonKey).SecurePassword`
 
-> **Note:** Do not paste raw JSON directly into the Expression Editor, as unescaped double quotes will cause VB.NET/C# syntax errors. To configure this property, retrieve the JSON string from an Asset into a `String` variable (e.g., `strJsonKey`), and use the following expression to convert it:
-> `new System.Net.NetworkCredential("", strJsonKey).SecurePassword`
+### Mode 3: AutoDetect
 
-### AutoDetect
+Authenticates automatically using the machine's environment. No key path or key content needs to be configured in the activity.
+* Set **Credentials Mode** to `AutoDetect`.
+* Ensure either the `GOOGLE_APPLICATION_CREDENTIALS` environment variable points to a valid JSON key file, or the robot runs on a GCP Compute Engine VM with an attached Service Account.
 
-This mode relies on the system environment to provide the credentials. No additional properties need to be configured in the activity. Ensure that one of the following conditions is met:
-* The `GOOGLE_APPLICATION_CREDENTIALS` environment variable on the host machine points to a valid JSON key file path.
-* The robot is running on a Google Cloud virtual machine (Compute Engine) that has a Service Account attached.
+![gcp-scope-studio.png](/static/img/gcp-scope-studio.png)
 
 ---
 
 ## See Also
 
-- [Google Cloud Scope](google-cloud-scope.md) — Full property reference for the scope activity.
+* [Google Cloud Scope](google-cloud-scope.md) - Full property reference for the scope activity.
