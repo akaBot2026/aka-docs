@@ -9,6 +9,10 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — リリースノート
 
+## v3.2.3.1
+
+- 修正: Windows 10/11 でリクエストにユーザー名を含めることで、ライセンスが見つからない問題を修正しました。
+
 ## v3.2.3.0
 
 **ライセンスモジュール**

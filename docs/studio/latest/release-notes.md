@@ -9,6 +9,10 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — Release Notes
 
+## v3.2.3.1
+
+- Fixed: license not found error by including username in requests for Windows 10/11.
+
 ## v3.2.3.0
 
 **License Module**
