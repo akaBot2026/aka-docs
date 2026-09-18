@@ -51,6 +51,10 @@ Creates a Box connection scope and provides the Box client to child Box activiti
 
 * **Client Secret: `InArgument<SecureString>`** - The Box OAuth client secret.
 
+**Note:** Before using this activity, you must create an app in the [Box Developer Console](https://app.box.com/developers/console) that matches your chosen **Authentication Type**:
+* **JWT** - Create a **Custom App**, choose **Server Authentication**, then select **JSON Web Token (JWT)** as the authentication method. Box generates a public/private key pair and a `config.json` file containing your **Client ID**, **Client Secret**, and key information — download this file and use its content or path in **Config File Content**/**Config File Path**. You also need the **User ID** of the Box user to impersonate.
+* **OAuth** - Create a **Custom App** and choose **User Authentication (OAuth 2.0)**. Copy the generated **Client ID** and **Client Secret**, and register a **Redirect URI**. You then need to complete the OAuth 2.0 authorization flow (user login and consent) once to obtain an access token and a refresh token before this activity can connect.
+
 **Misc**
 
 * **Public (Checkbox)** - Check if you want to public the activity. Remember to consider data security requirement before using this property.

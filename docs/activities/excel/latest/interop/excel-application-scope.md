@@ -18,6 +18,8 @@ This activity allows to open an Excel workbook and provides a scope for Excel Ac
 
 (\* for mandatory)
 
+**Note - System Requirements:** This activity uses Excel Interop (COM automation), so **Microsoft Excel must be installed on the Robot machine** — it does not work on machines that only have akaBot Studio/Robot installed without Office. The **bitness of Excel (32-bit or 64-bit)** must match the bitness of akaBot Studio/Robot; otherwise the activity throws an error when opening the file. If you only need to read/write `.xlsx` data without any Excel-specific features (macros, formulas, formatting) and do not want to require Office on the Robot machine, use the **Excel ClosedXML** or **CSV** activities instead, which do not depend on Excel Interop or a local Excel installation.
+
 ## **In the body of the activity**
 
 * **Workbook Path (String)** - The path of the Excel file you want to read.  

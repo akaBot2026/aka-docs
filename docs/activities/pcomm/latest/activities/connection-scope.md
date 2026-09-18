@@ -34,6 +34,8 @@ The Connection Scope activity establishes a new session connection (or attaches 
   * `MIN` - Minimizes the window to the taskbar.
   * `HIDE` - Hides the window completely (runs the session in the background).
 
+**Note:** To create the `.ws` profile file used in **Profile Path**, open **IBM Personal Communications**, create a new session, enter the host name (or IP address) and port, and select the terminal type (**3270** or **5250**). Then use **Save As** to save the session as a `.ws` file. In this **Connection Scope** activity, enter any unused letter (A-Z) as the **Connection Name**, and set **Profile Path** to the location of the `.ws` file you just created. For details, see [IBM Personal Communications - Creating and Configuring Sessions](https://www.ibm.com/docs/en/personal-communications/13.0.0?topic=sessions-creating-configuring).
+
 **Option**
 
 * **Close When Complete (Boolean)** - If selected, automatically closes the connection session when all child activities inside the scope finish executing or if an error occurs.

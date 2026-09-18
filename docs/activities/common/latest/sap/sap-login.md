@@ -18,6 +18,8 @@ Use this activity to log into an SAP system.
 
 (\* For mandatory)
 
+**Note:** This activity logs into an SAP session window that is already open. Use a [SAP Logon](/docs/activities/common/latest/sap/sap-logon.md) activity first — with **SAP Logon Path** and a **Connection Name** matching a connection saved in your SAP Logon Pad — to open that window, then pass its output into this activity's scope. This activity also requires SAP GUI Scripting to be enabled; see the **Prerequisites** note on the [SAP Logon](/docs/activities/common/latest/sap/sap-logon.md) page.
+
 ## **Properties**
 
 **Common**
@@ -44,7 +46,7 @@ Use this activity to log into an SAP system.
 **Options**
 
 * **Is Secure (Checkbox)** - If selected, the activity uses the **Secure Password** property. Otherwise, it uses the standard **Password** property. Default is selected.
-* **Multiple Logon Option (Dropdown List)** - Specifies how to handle the logon if the user is already logged into the system. Options include:
-  * `Single` - Continues with this logon and terminates any other active logons for this user.
+* **Multiple Logon Option (Dropdown List)** - Specifies how to handle the logon if the user is already logged into the system. Default is `Single`. Options include:
+  * `Single` (Default) - Continues with this logon and terminates any other active logons for this user.
   * `Multiple` - Continues with this logon without ending any other active logons.
   * `Terminate` - Terminates this logon attempt.
