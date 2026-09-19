@@ -18,7 +18,7 @@ Use this activity to log into an SAP system.
 
 (\* For mandatory)
 
-**Note:** This activity logs into an SAP session window that is already open. Use a [SAP Logon](/docs/activities/common/latest/sap/sap-logon.md) activity first — with **SAP Logon Path** and a **Connection Name** matching a connection saved in your SAP Logon Pad — to open that window, then pass its output into this activity's scope. This activity also requires SAP GUI Scripting to be enabled; see the **Prerequisites** note on the [SAP Logon](/docs/activities/common/latest/sap/sap-logon.md) page.
+**Note:** This activity logs into an SAP session window that is already open. Use a [SAP Logon](/docs/activities/common/latest/sap/sap-logon.md) activity first — with **SAP Logon Path** and a **Connection Name** matching a connection saved in your SAP Logon Pad — to open that connection. Place **SAP Login** right after it in your workflow; this activity automatically connects to the active SAP GUI session and does not require an input window variable. This activity also requires SAP GUI Scripting to be enabled; see the **Prerequisites** note on the [SAP Logon](/docs/activities/common/latest/sap/sap-logon.md) page.
 
 ## **Properties**
 

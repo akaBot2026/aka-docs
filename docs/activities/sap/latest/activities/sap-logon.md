@@ -55,4 +55,4 @@ Before this activity can connect, SAP GUI Scripting must be turned on for both y
 
 **Output**
 
-* **SAP Login Window (Window)** - The SAP window that this activity just opened, stored in a `Window` variable. Pass this into the [SAP Login](/docs/activities/sap/latest/activities/sap-login.md) activity (or other SAP activities) so they know which window to act on.
+* **SAP Login Window (Window)** - The SAP application window opened by this activity, stored in a `Window` variable. This can be used if you need to perform window actions (such as **Attach Window** or window management). Note that [SAP Login](/docs/activities/sap/latest/activities/sap-login.md) connects directly to the active SAP session and does not require this variable.

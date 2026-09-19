@@ -18,7 +18,7 @@ Use the connection name from the SAP Logon window to log on to your SAP system n
 
 (\* For mandatory)
 
-**Note - Prerequisites:** SAP GUI Scripting must be enabled on both the Robot machine and the SAP server before this activity can connect, otherwise the connection fails.
+**Note - Prerequisites:** SAP GUI Scripting must be enabled on both the Agent machine and the SAP server before this activity can connect, otherwise the connection fails.
 * **Client-side:** Open **SAP Logon**, go to **Options > Accessibility & Scripting > Scripting**, and clear the **Notify when a script attaches to SAP GUI** checkbox (make sure scripting itself is not disabled).
 * **Server-side:** Ask your SAP Basis administrator to set the profile parameter `sapgui/user_scripting = TRUE` via transaction `RZ11`.
 
@@ -45,4 +45,4 @@ Use the connection name from the SAP Logon window to log on to your SAP system n
 
 **Output**
 
-* **SAP Login Window (WindowApp)** - The WindowApp variable that stores the newly opened SAP login window. This variable can be reused in subsequent SAP activities.
+* **SAP Login Window (WindowApp)** - The SAP application window opened by this activity, stored in a `WindowApp` variable. This can be used if you need to perform window actions (such as **Attach Window** or window management). Note that [SAP Login](/docs/activities/common/latest/sap/sap-login.md) connects directly to the active SAP session and does not require this variable.

@@ -16,7 +16,7 @@ Word Application Scope activity provides a space for all other Word activities t
 
 ![image-20220506112026-1.png](/static/img/7c8057_image-20220506112026-1.png)
 
-**Note - System Requirements:** This activity uses Word Interop (COM automation), so **Microsoft Word must be installed on the Robot machine**. The **bitness of Word (32-bit or 64-bit)** must match the bitness of akaBot Studio/Robot; otherwise the activity throws an error when opening the file.
+**Note - System Requirements:** Microsoft Word must be installed on the machine running akaBot Studio or Agent.
 
 **In the body of activity**
 

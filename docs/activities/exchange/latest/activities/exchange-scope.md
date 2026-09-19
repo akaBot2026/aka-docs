@@ -18,13 +18,7 @@ Connects to Exchange and provides a scope for other Exchange activities.
 
 (\* is mandatory)
 
-**IMPORTANT — EWS retirement on Exchange Online:** This activity (and the whole Exchange activity package) connects using **Exchange Web Services (EWS)**.
-
-* Microsoft is **retiring EWS entirely for Exchange Online/Microsoft 365**.
-* **October 2026** - Microsoft begins disabling EWS globally for all organizations.
-* **April 2027** - EWS is **fully disabled** for every tenant. After that, this activity cannot connect to any Microsoft 365/Exchange Online mailbox under any configuration.
-* **Not affected:** on-premises Exchange Server — EWS remains fully supported there, so this activity keeps working for on-prem mailboxes.
-* Official notice: [Deprecation of Exchange Web Services in Exchange Online](https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-ews-exchange-online).
+**Note:** This activity connects using **Exchange Web Services (EWS)** with Basic Authentication and is designed primarily for **on-premises Exchange Server**. For Microsoft 365 or Exchange Online mailboxes, use the **Office 365** activity package instead.
 
 ## **Properties**
 
@@ -51,7 +45,7 @@ Connects to Exchange and provides a scope for other Exchange activities.
 * **Autodiscover** - Fill in only **Email Auto discover** and leave **Exchange Version**/**Server** empty. Works only if the mail server has Autodiscover enabled and reachable.
 * **Manual** - Leave **Email Auto discover** empty and fill in **Exchange Version** + **Server** instead.
 
-This activity authenticates only with a plain **User**/**Password** (Basic Authentication, set in the **Logon** tab) — it does not support Modern Authentication (OAuth). Since October 2022, Microsoft has disabled Basic Authentication for EWS on Exchange Online, so this activity can no longer connect to Microsoft 365/Exchange Online mailboxes unless your tenant still has a Basic Authentication exception in place. (See the **EWS retirement** notice above the Properties section for the bigger, upcoming change.)
+This activity authenticates with **User** and **Password** (Basic Authentication, set in the **Logon** tab) against an Exchange server.
 
 * **Email Auto discover (String)**- Searches automatically for an Exchange server by using an email address from that server. This works only if the Exchange server has Autodiscover enabled.  
   E.g: `http(s)://autodiscover.domain/EWS/Exchange.asmx` (this is a placeholder pattern — replace `domain` with your actual mail domain)
