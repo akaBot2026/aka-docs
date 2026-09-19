@@ -14,7 +14,7 @@ It initiates a connection to a designated Salesforce Organization and provides t
 
 Firstly, you need to configure the connection parameters to connect to Salesforce Organization by using Configure button.
 
-**Note:** Before configuring the connection below, you need a **Connected App** in your Salesforce Organization to obtain the **ConsumerKey** and **ConsumerSecret**. In Salesforce, go to **Setup > App Manager > New Connected App**, fill in the basic information, then under **API (Enable OAuth Settings)** select **Enable OAuth Settings**, set a **Callback URL** (any valid URL if you are not using the web-based OAuth flow), and select the OAuth scopes your automation needs. After saving, open the Connected App to copy the generated **Consumer Key** and **Consumer Secret**.
+**Note:** To connect, you need a **Consumer Key** and **Consumer Secret** obtained from a **Connected App** in your Salesforce Organization.
 
 ![1715509316358-757.png](/static/img/f708ac_1715509316358-757.png)
 
