@@ -18,6 +18,8 @@ RCA.Activities.Excel.ExcelApplicationScope
 
 （\*必須）
 
+**注意 - システム要件:** akaBot Studio または Agent を実行するマシンに Microsoft Excel がインストールされている必要があります。Office がインストールされていない Agent マシンで .xlsx ファイルを読み書きするだけの場合は、代わりに **ClosedXML** または **CSV** アクティビティを使用してください。
+
 ## **アクティビティの本文**
 
 * **ワークブック パス (文字列)** - 読み取りたい Excel ファイルのパス。

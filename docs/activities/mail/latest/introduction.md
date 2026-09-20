@@ -17,3 +17,4 @@ Activities such as [Save Attachments](/docs/activities/mail/latest/activities/s
 **Note:**
 
 * These activities can automate with the **Outlook Desktop application**, **Gmail accounts** and **Outlook 365 online**.
+* **Outlook activities** require the **Outlook Classic** desktop application (they do not support the **New Outlook for Windows** app because Microsoft removed COM API support). Before running these activities, ensure Microsoft Outlook is installed, signed in, and configured with a default profile on the Agent machine.

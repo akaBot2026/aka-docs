@@ -16,4 +16,5 @@ displayed_sidebar: activitiesSidebar
 
 **注:**
 
-* これらのアクティビティは、**Outlook デスクトップ アプリケーション**、** Gmail アカウント**、** Outlook 365 online** を使用して自動化できます。
+* これらのアクティビティは、**Outlook デスクトップ アプリケーション**、**Gmail アカウント**、その他標準プロトコル (POP3、IMAP、SMTP) に対応したメールプロバイダーと連携できます。
+* **Outlook アクティビティ** は **Outlook Classic** デスクトップアプリケーションを必要とします（Microsoft が COM API サポートを廃止したため、**新しい Outlook (New Outlook for Windows)** アプリはサポートされていません）。これらのアクティビティを実行する前に、Agent マシンに Microsoft Outlook がインストールされ、サインイン済みで既定のプロファイルが設定されていることを確認してください。

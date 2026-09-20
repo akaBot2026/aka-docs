@@ -51,6 +51,10 @@ Creates a Box connection scope and provides the Box client to child Box activiti
 
 * **Client Secret: `InArgument<SecureString>`** - The Box OAuth client secret.
 
+**Note:** Before using this activity, you must create an app in the [Box Developer Console](https://app.box.com/developers/console) that matches your chosen **Authentication Type**:
+* **JWT** - Create a **Custom App**, choose **Server Authentication**, then select **JSON Web Token (JWT)** as the authentication method. Box generates a public/private key pair and a `config.json` file containing your **Client ID**, **Client Secret**, and key information — download this file and use its content or path in **Config File Content**/**Config File Path**. Setting **User ID** is optional: if provided, the activity impersonates that user; if left empty, it connects with the Service Account (Enterprise Admin).
+* **OAuth** - Currently not implemented in the runtime (`NotImplementedException`). Use **JWT** or pass an existing `Box Client` instead.
+
 **Misc**
 
 * **Public (Checkbox)** - Check if you want to public the activity. Remember to consider data security requirement before using this property.

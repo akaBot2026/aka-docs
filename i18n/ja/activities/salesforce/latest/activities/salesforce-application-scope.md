@@ -14,6 +14,8 @@ RCA.Activities.Salesforce.SalesforceApplicationScope
 
 まず、[設定] ボタンを使用して、Salesforce 組織に接続するための接続パラメータを設定する必要があります。
 
+**注意:** 接続するには、Salesforce 組織の **接続アプリケーション (Connected App)** から取得した **Consumer Key** と **Consumer Secret** が必要です。
+
 ![1715509316358-757.png](/static/img/f708ac_1715509316358-757.png)
 
 次に、アクティビティをドロップしてワークフローを作成します。
@@ -26,7 +28,7 @@ RCA.Activities.Salesforce.SalesforceApplicationScope
 
 ![1715509378485-784.png](/static/img/af8989_1715509378485-784.png)
 
-* **サーバー** – 接続するサーバー インスタンスのタイプ。このフィールドでサポートされている値は、** Live** (https://login.salesforce.com)、**Test** (https://test.salesforce.com)、** Custom** の 3 つです。文字列と文字列変数のみがサポートされます。
+* **Server Type** – 接続するサーバー インスタンスのタイプ。このフィールドでサポートされている値は、** Live** (https://login.salesforce.com)、**Test** (https://test.salesforce.com)、** Custom** の 3 つです。文字列と文字列変数のみがサポートされます。
 * **ConsumerKey** - Salesforce 接続アプリケーションのコンシューマ キー。文字列と文字列変数のみがサポートされます。
 * **ConsumerSecret** - Salesforce 接続アプリケーションのコンシューマ シークレット。** Microsoft .NET Data Protection API** (DPAPI) を使用して暗号化され、ワークフロー ファイル自体に保存される SecureString 変数に保存されます。 SecureString 変数のみがサポートされています。
 * **ユーザー名** - Salesforce へのログインに使用するユーザー名。文字列と文字列変数のみがサポートされています。

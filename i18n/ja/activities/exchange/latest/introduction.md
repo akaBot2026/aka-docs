@@ -12,3 +12,5 @@ Exchange アクティビティ パックには、自動化プロジェクトの�
 
 * メールを別のフォルダーに移動します。
 * Microsoft Exchange Server で電子メールを送受信します。
+
+**注意:** このパッケージ内のすべてのアクティビティは、基本認証（Basic Authentication）を使用した **Exchange Web Services (EWS)** を介して接続し、主に**オンプレミスの Exchange Server** を対象として設計されています。Microsoft 365 または Exchange Online のメールボックスを操作する場合は、代わりに **Office 365** アクティビティパッケージを使用してください。
