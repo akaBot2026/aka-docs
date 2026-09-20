@@ -9,6 +9,14 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — Release Notes
 
+## v3.2.4.0
+
+**Studio**
+
+- Fixed: compiled libraries using the Invoke Workflow File activity.
+- Fixed: debugger startup logging for required arguments.
+- Added: Core 3.6.0 as the default package when creating a new project.
+
 ## v3.2.3.1
 
 - Fixed: license not found error by including username in requests for Windows 10/11.
