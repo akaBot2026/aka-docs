@@ -40,7 +40,7 @@ The AI Scope activity connects and authenticates to an AI provider. Place AI Ser
 **Input**
 
 * **Api Key (String)\*** - The API key used to authenticate to the selected AI provider.
-* **Endpoint (String)** - The endpoint URL of the service provider. Required when **Provider Type** is AzureOpenAI. This is a placeholder pattern, not a real address — replace `project-name` with your actual endpoint from **Azure AI Foundry** (or Azure Portal).  
+* **Endpoint (String)** - The endpoint URL of the service provider. Required when **Provider Type** is AzureOpenAI. This is a placeholder pattern, not a real address — replace `project-name` with your actual endpoint from **Microsoft Foundry** (or Azure Portal).  
   E.g: `https://project-name.openai.azure.com/`
 * **Model (String)\*** - Model ID used to generate the response. Must be a model your provider account has access to — see [Supported AI Providers](/docs/activities/ai-services/latest/introduction.md#supported-ai-providers) for example model IDs per provider.  
   E.g: `gpt-4o` (OpenAI), `gemini-1.5-pro` (Google Gemini), `claude-3-5-sonnet` (Anthropic)
@@ -52,13 +52,13 @@ The AI Scope activity connects and authenticates to an AI provider. Place AI Ser
 * **OpenAI** - Sign in at [platform.openai.com](https://platform.openai.com/api-keys), open **API keys**, and create a new secret key.
 * **Anthropic** - Sign in at [console.anthropic.com](https://console.anthropic.com/settings/keys), open **API Keys**, and create a new key.
 * **Google Gemini** - Sign in at [aistudio.google.com](https://aistudio.google.com/apikey) and select **Get API Key**.
-* **Azure OpenAI** - Sign in to **Azure AI Foundry** (or the Azure Portal), open your project, and copy your API key and endpoint URL from the project settings. When **Provider Type** is set to `AzureOpenAI`, also fill in the **Endpoint** field with this value.
+* **Azure OpenAI** - Sign in to **Microsoft Foundry** (or the Azure Portal), open your project, and copy your API key and endpoint URL from the project settings. When **Provider Type** is set to `AzureOpenAI`, also fill in the **Endpoint** field with this value. For a complete walkthrough, see the [Azure OpenAI Configuration Guide](/docs/activities/ai-services/latest/user-guide/how-to-configure-azure-openai.md).
 
 **Troubleshooting**
 
 * **Activity fails immediately with an authentication error** - The **Api Key** is missing, incorrect, or has been revoked on the provider's site. Generate a new key (see **How to get an API Key** above) and update **Api Key**.
 * **Activity fails with a model-not-found or invalid-model error** - The value in **Model** is misspelled, or your provider account/API key does not have access to that model. Check the exact model ID on your provider's dashboard, and confirm your account has access to it.
-* **AzureOpenAI provider fails to connect** - **Endpoint** is empty or incorrect. It must be filled in only for `AzureOpenAI`, using the endpoint URL from **Azure AI Foundry** (or Azure Portal).
+* **AzureOpenAI provider fails to connect** - **Endpoint** is empty or incorrect. It must be filled in only for `AzureOpenAI`, using the endpoint URL from **Microsoft Foundry** (or Azure Portal).
 * **Activity times out on long prompts or long documents** - Increase **Timeout MS** (default `30000`) on the specific child AI activity (e.g., **Generate Chat Completion**) inside the scope, rather than on the AI Scope itself.
 
 **Options**

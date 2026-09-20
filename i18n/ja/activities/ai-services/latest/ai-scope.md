@@ -40,7 +40,7 @@ AI Scope アクティビティは AI プロバイダーへの接続と認証を�
 **入力**
 
 * **Api Key (String)\*** - 選択した AI プロバイダーへ認証するために使用する API キー。
-* **Endpoint (String)** - サービスプロバイダーのエンドポイント URL。**Provider Type** が AzureOpenAI の場合に必須です。これはプレースホルダーの形式であり、実際のアドレスではありません — `project-name` の部分を **Azure AI Foundry**（または Azure Portal）から取得した実際のエンドポイントに置き換えてください。  
+* **Endpoint (String)** - サービスプロバイダーのエンドポイント URL。**Provider Type** が AzureOpenAI の場合に必須です。これはプレースホルダーの形式であり、実際のアドレスではありません — `project-name` の部分を **Microsoft Foundry**（または Azure Portal）から取得した実際のエンドポイントに置き換えてください。  
   例: `https://project-name.openai.azure.com/`
 * **Model (String)\*** - 応答を生成するために使用するモデルの ID。プロバイダーアカウントがアクセス権を持つモデルである必要があります。  
   例: `gpt-4o` (OpenAI)、`gemini-1.5-pro` (Google Gemini)、`claude-3-5-sonnet` (Anthropic)
@@ -52,13 +52,13 @@ AI Scope アクティビティは AI プロバイダーへの接続と認証を�
 * **OpenAI** - [platform.openai.com](https://platform.openai.com/api-keys) にサインインし、**API keys** を開いて新しいシークレットキーを作成します。
 * **Anthropic** - [console.anthropic.com](https://console.anthropic.com/settings/keys) にサインインし、**API Keys** を開いて新しいキーを作成します。
 * **Google Gemini** - [aistudio.google.com](https://aistudio.google.com/apikey) にサインインし、**Get API Key** を選択します。
-* **Azure OpenAI** - **Azure AI Foundry**（または Azure Portal）にサインインし、プロジェクトを開いてプロジェクト設定から API キーとエンドポイント URL をコピーします。**Provider Type** を `AzureOpenAI` に設定する場合は、**Endpoint** フィールドにもこの値を入力します。
+* **Azure OpenAI** - **Microsoft Foundry**（または Azure Portal）にサインインし、プロジェクトを開いてプロジェクト設定から API キーとエンドポイント URL をコピーします。**Provider Type** を `AzureOpenAI` に設定する場合は、**Endpoint** フィールドにもこの値を入力します。詳しい手順については、[Azure OpenAI 構成ガイド](/i18n/ja/activities/ai-services/latest/user-guide/how-to-configure-azure-openai.md) を参照してください。
 
 **トラブルシューティング**
 
 * **認証エラーですぐに失敗する** - **Api Key** が不足しているか、誤っているか、またはプロバイダーのサイトで取り消されています。新しいキーを生成し（上記の「**API キーの取得方法**」を参照）、**Api Key** を更新してください。
 * **モデルが見つからない、または無効なモデルエラーで失敗する** - **Model** の値のスペルミス、またはプロバイダーアカウント/API キーがそのモデルへのアクセス権を持っていない可能性があります。プロバイダーのダッシュボードで正確なモデル ID を確認し、アクセス権があることを確認してください。
-* **AzureOpenAI プロバイダーへの接続に失敗する** - **Endpoint** が空または誤っています。`AzureOpenAI` の場合のみ、**Azure AI Foundry**（または Azure Portal）から取得したエンドポイント URL を入力する必要があります。
+* **AzureOpenAI プロバイダーへの接続に失敗する** - **Endpoint** が空または誤っています。`AzureOpenAI` の場合のみ、**Microsoft Foundry**（または Azure Portal）から取得したエンドポイント URL を入力する必要があります。
 * **長いプロンプトや長いドキュメントでタイムアウトする** - AI Scope 自体ではなく、スコープ内の特定の子 AI アクティビティ（例: **Generate Chat Completion**）の **Timeout MS**（デフォルト `30000`）を増やしてください。
 
 **オプション**
