@@ -1,4 +1,4 @@
-﻿---
+---
 id: how-to-configure-azure-openai
 title: "AI Scope - Setup Azure OpenAI"
 sidebar_label: "Setup Azure OpenAI"
