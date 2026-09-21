@@ -8,6 +8,14 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
+## v3.6.0
+
+Build date: Sep 18, 2026
+
+- Improved `Invoke Workflow File` support for compiled library packages.
+- Relative workflow paths can now resolve directly to compiled workflow activities, including workflows stored in project subfolders.
+- Compiled child workflows no longer rely solely on locating and loading an external XAML file at runtime.
+
 ## v3.5.0
 
 Build date: Aug 20, 2026
