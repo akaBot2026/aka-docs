@@ -1,10 +1,10 @@
 {
-  "label": "Scale Check",
+  "label": "AkaCheck",
   "position": 1,
   "collapsible": true,
   "collapsed": false,
   "link": {
     "type": "generated-index",
-    "description": "Scale Check User Guide for setup, services, and integrations."
+    "description": "AkaCheck User Guide for setup, services, and integrations."
   }
 }
