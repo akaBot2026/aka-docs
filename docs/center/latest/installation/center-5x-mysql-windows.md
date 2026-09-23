@@ -12,7 +12,7 @@ displayed_sidebar: centerSidebar
 
 ## **1. Prerequisites**
 
-**1.1. Hardware and OS Requirements**
+### **1.1. Hardware and OS Requirements**
 
 |  |  |
 | --- | --- |
@@ -20,7 +20,7 @@ displayed_sidebar: centerSidebar
 | Hardware | RAM: 32GB or higher <br/> Core: 8 CPU or higher <br/> SSD: 512 GB |
 | Operating System | Windows 10, 11, Server 2012 R2/2016/2019 |
 
-**1.2. Software Packages**
+### **1.2. Software Packages**
 
 The installation must be performed using an account with Administrator (root) privileges on the target machine.  
 You need to prepare the installation package according to the following list.
@@ -38,7 +38,7 @@ You need to prepare the installation package according to the following list.
 | 4 | ActiveMQ | apache-activemq- 5.15.1-bin.zip | 5.15.1 | ActiveMQ for Queue functionality in akaBot Center | **[Download](https://archive.apache.org/dist/activemq/5.15.1/apache-activemq-5.15.1-bin.zip)** |
 | 5 | MySQL | Windows (x86, 32-bit), MSI Installer | 8.0.45 | The database engine of akaBot Center | Read **Section 3.1**for more details |
 
-**1.3. Network & Firewall Requirements**
+### **1.3. Network & Firewall Requirements**
 
 Ensure the following ports are open in **Windows Defender Firewall** (for on-premises / physical servers) or configured in **Cloud Security Groups / Network Security Groups (NSGs)** (for AWS EC2, Azure VM, GCP):
 
@@ -88,11 +88,11 @@ Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that
 
 ### **3.1. Install MySQL**
 
-**Step 1**- Kindly download [**MySQL 8.0**](https://dev.mysql.com/downloads/installer/)
+**Step 1**: Kindly download [**MySQL 8.0**](https://dev.mysql.com/downloads/installer/)
 
 ![1772679894229-198.png](/static/img/6fedc5_1772679894229-198.png)
 
-**Step 2**- Run the installer
+**Step 2**: Run the installer
 
 * Select **"Custom"** option and click **"Next"**
 
@@ -117,7 +117,7 @@ Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that
 
 ![1772680302561-505.png](/static/img/30c53e_1772680302561-505.png)
 
-* When you at the **Accounts and Roles** page, it is recommended you set it to the default password **"sis@12345"** to avoid having to update the config file later. Click **Next"**
+* On the **Accounts and Roles** page, set a strong root password (e.g., replace `<YOUR_PASSWORD>` with your own secret) and remember it — you will need it in later steps. Click **"Next"**
 
 ![1772680441382-833.png](/static/img/636706_1772680441382-833.png)
 
@@ -129,7 +129,7 @@ Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that
 
 ![1772680642000-840.png](/static/img/6ed741_1772680642000-840.png)
 
-### **3.2.Setup MYSQL account to enable remote connection**
+### **3.2. Setup MySQL account to enable remote connection**
 
 Follow these steps to know how to setup remote connection with MySQL. This will help to install MySQL and akaBot Center in separated systems.
 
@@ -213,17 +213,17 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 ### **4.2. Apache Tomcat Configuration**
 
-**4.2.1. Configure log settings**
+#### **4.2.1. Configure log settings**
 
 **Step 1:** Open the file **%TOMCAT\_PATH%\conf\logging.properties**
 
 **Step 2:** Add attribute **maxDays** to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
 
 * Example: keep 90 daysworth of history. Change the number at the end of the following rows:
-  + 1catalina.org.apache.juli.AsyncFileHandler.maxDays = **90**
-  + 2localhost.org.apache.juli.AsyncFileHandler.maxDays =**90**
-  + 3manager.org.apache.juli.AsyncFileHandler.maxDays =**90**
-  + 4host-manager.org.apache.juli.AsyncFileHandler.maxDays =**90**
+  + `catalina.org.apache.juli.AsyncFileHandler.maxDays` = **90**
+  + `localhost.org.apache.juli.AsyncFileHandler.maxDays` = **90**
+  + `manager.org.apache.juli.AsyncFileHandler.maxDays` = **90**
+  + `host-manager.org.apache.juli.AsyncFileHandler.maxDays` = **90**
 
 ![1772682773352-897.png](/static/img/f18ce4_1772682773352-897.png)
 
@@ -253,7 +253,7 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 **Step 6:** Save changes and close the file
 
-**4.2.2. Other settings**
+#### **4.2.2. Other settings**
 
 **Step 1:** Navigate to the path **%TOMCAT\_PATH%\bin** and double-click the file **Tomcat10w.exe** to open the Apache Tomcat Service configuration.
 
@@ -408,13 +408,13 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ### **6.2. akaBot Center configuration**
 
-**6.2.1. Config quartz.properties**
+#### **6.2.1. Config quartz.properties**
 
 **Step 1:** Stop the Apache Tomcat service (if the Apache Tomcat service is currently running).
 
 **Step 2:** Modify the configuration in the file **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/quartz.properties** as follows:
 
-***1. Comment out the jobstore configuration for MySSQL.***
+***1. Comment out the jobstore configuration for MSSQL.***
 
 ![1772684502932-217.png](/static/img/1d2135_1772684502932-217.png)
 
@@ -422,7 +422,7 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ![1772684455566-665.png](/static/img/0060f1_1772684455566-665.png)
 
-**6.2.2.Configure the MySQL Database Connection**
+#### **6.2.2. Configure the MySQL Database Connection**
 
 **Step 1**: Navigate to the path **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/**
 
@@ -444,7 +444,7 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 **Save** files after configuring.
 
-**6.2.3. Log setting**
+#### **6.2.3. Log setting**
 
 1. Open the file **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/logback-spring.xml**
 
@@ -476,7 +476,7 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ### **7.1. ActiveMQ**
 
-**7.1.1. Unable to execute Java command**
+#### **7.1.1. Unable to execute Java command**
 
 * Open the file %ACTIVEMQ\_PATH%\bin\win64\wrapper.conf and configure the parameter:
 
@@ -484,7 +484,7 @@ wrapper.java.command=%JAVA\_HOME%/bin/java.exe
 
 ![1772693674300-402.png](/static/img/75eecc_1772693674300-402.png)
 
-**7.1.2. Other Errors**
+#### **7.1.2. Other Errors**
 
 Please check the error details in the log file of **ActiveMQ: %ACTIVEMQ\_PATH%\logs\data\wrapper.log**
 

@@ -8,11 +8,11 @@ displayed_sidebar: centerSidebar
 ---
 # Install Akabot Center 5X and PostgreSQL on Microsoft Windows
 
-> This guide provides instructions to installing a single instance of **akaBot Center version 5.x** with **MSSQL** as the database engine. The target Operating System (OS) in this guideline is **Microsoft Windows**.
+> This guide provides instructions to installing a single instance of **akaBot Center version 5.x** with **PostgreSQL** as the database engine. The target Operating System (OS) in this guideline is **Microsoft Windows**.
 
 ## **1. Prerequisites**
 
-**1.1. Hardware and OS Requirements**
+### **1.1. Hardware and OS Requirements**
 
 |  |  |
 | --- | --- |
@@ -20,7 +20,7 @@ displayed_sidebar: centerSidebar
 | Hardware | RAM: 32GB or higher <br/> Core: 8 CPU or higher <br/> SSD: 512 GB |
 | Operating System | Windows 10, 11, Server 2012 R2/2016/2019 |
 
-**1.2. Software Packages**
+### **1.2. Software Packages**
 
 The installation must be performed using an account with Administrator (root) privileges on the target machine.  
 You need to prepare the installation package according to the following list.
@@ -38,7 +38,7 @@ You need to prepare the installation package according to the following list.
 | 4 | ActiveMQ | apache-activemq- 5.15.1-bin.zip | 5.15.1 | ActiveMQ for Queue functionality in akaBot Center | **[Download](https://archive.apache.org/dist/activemq/5.15.1/apache-activemq-5.15.1-bin.zip)** |
 | 5 | PostgreSQL | postgresql-18.3-2-windows-x64 | 18.3 | The database engine of akaBot Center | Read**Section 3.1**for more details |
 
-**1.3. Network & Firewall Requirements**
+### **1.3. Network & Firewall Requirements**
 
 Ensure the following ports are open in **Windows Defender Firewall** (for on-premises / physical servers) or configured in **Cloud Security Groups / Network Security Groups (NSGs)** (for AWS EC2, Azure VM, GCP):
 
@@ -125,7 +125,7 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 
 ![1773114856970-621.png](/static/img/5db87e_1773114856970-621.png)
 
-**3.2.Setup Stack builder**
+### **3.2. Setup Stack builder**
 
 * Click **"Next"**
 
@@ -143,7 +143,7 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 
 ![1773130089004-725.png](/static/img/924bea_1773130089004-725.png)
 
-**3.3. Create database**
+### **3.3. Create database**
 
 **Step 1:** Open **pgAdmin4**
 
@@ -164,7 +164,7 @@ Download link: [https://www.enterprisedb.com/downloads/postgres-postgresql-downl
 Apache Tomcat installation:  
 - Uncheck "Run Apache Tomcat"  
 - Uncheck "Show Readme"  
-- Click the "Finish" button to complete the installation.pe your information message here.
+- Click the "Finish" button to complete the installation.
 
 ![1773039471617-579.png](/static/img/a53804_1773039471617-579.png)
 
@@ -176,17 +176,17 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 ### **4.2. Apache Tomcat Configuration**
 
-**4.2.1. Configure log settings**
+#### **4.2.1. Configure log settings**
 
 **Step 1: **Open the file **%TOMCAT\_PATH%\conf\logging.properties**
 
 **Step 2:** Add attribute **maxDays** to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of -1 will be used which means never delete old files.
 
 * Example: keep 90 daysworth of history. Change the number at the end of the following rows:
-  + 1catalina.org.apache.juli.AsyncFileHandler.maxDays = **90**
-  + 2localhost.org.apache.juli.AsyncFileHandler.maxDays =**90**
-  + 3manager.org.apache.juli.AsyncFileHandler.maxDays =**90**
-  + 4host-manager.org.apache.juli.AsyncFileHandler.maxDays =**90**
+  + `catalina.org.apache.juli.AsyncFileHandler.maxDays` = **90**
+  + `localhost.org.apache.juli.AsyncFileHandler.maxDays` = **90**
+  + `manager.org.apache.juli.AsyncFileHandler.maxDays` = **90**
+  + `host-manager.org.apache.juli.AsyncFileHandler.maxDays` = **90**
 
 **Step 3:** Save changes and close the file.
 
@@ -200,7 +200,7 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 **Step 6:** Save changes and close the file
 
-**4.2.2. Other settings**
+#### **4.2.2. Other settings**
 
 **Step 1:** Navigate to the path **%TOMCAT\_PATH%\bin** and double-click the file **Tomcat10w.exe** to open the Apache Tomcat Service configuration.
 
@@ -355,7 +355,7 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ### **6.2. akaBot Center configuration**
 
-**6.2.1. Config quartz.properties**
+#### **6.2.1. Config quartz.properties**
 
 **Step 1:** Stop the Apache Tomcat service (if the Apache Tomcat service is currently running).
 
@@ -367,7 +367,7 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ![1773125144942-717.png](/static/img/ab5dc3_1773125144942-717.png)
 
-**6.2.2. Configure the PostgreSQL Database Connection**
+#### **6.2.2. Configure the PostgreSQL Database Connection**
 
 **Step 1**: Navigate to the path **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/**
 
@@ -393,7 +393,7 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 * **Save** files after configuring.
 
-**6.2.3. Log setting**
+#### **6.2.3. Log setting**
 
 1. Open the file **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/logback-spring.xml**
 
@@ -427,13 +427,13 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ### **7.1. ActiveMQ**
 
-**7.1.1. Unable to execute Java command**
+#### **7.1.1. Unable to execute Java command**
 
 * Open the file %ACTIVEMQ\_PATH%\bin\win64\wrapper.conf and configure the parameter:
 
 wrapper.java.command=%JAVA\_HOME%/bin/java.exe
 
-**7.1.2. Other Errors**
+#### **7.1.2. Other Errors**
 
 Please check the error details in the log file of **ActiveMQ: %ACTIVEMQ\_PATH%\logs\data\wrapper.log**
 

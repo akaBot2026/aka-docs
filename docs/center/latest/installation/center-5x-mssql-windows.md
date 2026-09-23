@@ -12,7 +12,7 @@ displayed_sidebar: centerSidebar
 
 ## **1. Prerequisites**
 
-**1.1. Hardware and OS Requirements**
+### **1.1. Hardware and OS Requirements**
 
 |  |  |
 | --- | --- |
@@ -20,7 +20,7 @@ displayed_sidebar: centerSidebar
 | Hardware | RAM: 32GB or higher <br/> Core: 8 CPU or higher <br/> SSD: 512 GB |
 | Operating System | Windows 10, 11, Server 2012 R2/2016/2019 |
 
-**1.2. Software Packages**
+### **1.2. Software Packages**
 
 The installation must be performed using an account with Administrator (root) privileges on the target machine.  
 You need to prepare the installation package according to the following list.
@@ -38,7 +38,7 @@ You need to prepare the installation package according to the following list.
 | 4 | ActiveMQ | apache-activemq- 5.15.1-bin.zip | 5.15.1 | ActiveMQ for Queue functionality in akaBot Center | **[Download](https://archive.apache.org/dist/activemq/5.15.1/apache-activemq-5.15.1-bin.zip)** |
 | 5 | MS SQL Server | SQL2025-SSEI-Eval | 2025 | The database engine of akaBot Center | Read **Section 3.1** for more details |
 
-**1.3. Network & Firewall Requirements**
+### **1.3. Network & Firewall Requirements**
 
 Ensure the following ports are open in **Windows Defender Firewall** (for on-premises / physical servers) or configured in **Cloud Security Groups / Network Security Groups (NSGs)** (for AWS EC2, Azure VM, GCP):
 
@@ -90,11 +90,11 @@ Run the installer -**openlogic-openjdk-17.0.16** you have downloaded. After that
 
 Download link: **[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-server-2025-download)**
 
-### **3.2.Setup MSSQL**
+### **3.2. Setup MSSQL**
 
 **Step 1:** Install
 
-* Opensetup file from your computer
+* Open setup file from your computer
 * Select **"Download media"** option
 
 ![1773030397244-318.png](/static/img/a90e6a_1773030397244-318.png)
@@ -113,7 +113,7 @@ Download link: **[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-ser
 
 **Step 3:** Set up
 
-* Opensetup file from the computer
+* Open setup file from the computer
 
 ![1773028586816-796.png](/static/img/4024c0_1773028586816-796.png)
 
@@ -159,7 +159,7 @@ Download link: **[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-ser
 
 ### **3.3. Enable Remote Connection**
 
-**Step 1**: Open **SQL Server Management Studio** and connectto server.
+**Step 1**: Open **SQL Server Management Studio** and connect to server.
 
 ![1773030202982-413.png](/static/img/86174f_1773030202982-413.png)
 
@@ -191,7 +191,7 @@ Download link: **[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-ser
 
 ![1773030965635-479.png](/static/img/abd354_1773030965635-479.png)
 
-**3.4. Create new Database empty**
+### **3.4. Create new Database empty**
 
 **Step 1**:Open **SQL Server Management Studio**
 
@@ -214,7 +214,7 @@ Download link: **[MSSQL 2025](https://www.microsoft.com/en-us/evalcenter/sql-ser
 Apache Tomcat installation:  
 - Uncheck "Run Apache Tomcat"  
 - Uncheck "Show Readme"  
-- Click the "Finish" button to complete the installation.pe your information message here.
+- Click the "Finish" button to complete the installation.
 
 ![1773039471617-579.png](/static/img/28a716_1773039471617-579.png)
 
@@ -226,17 +226,17 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 ### **4.2. Apache Tomcat Configuration**
 
-**4.2.1. Configure log setting**s
+#### **4.2.1. Configure log settings**
 
 **Step 1:** Open the file**%TOMCAT\_PATH%\conf\logging.properties**
 
 **Step 2:** Add attribute **maxDay**s to specify the maximum number of days that rotated access logs will be retained for before being deleted for the catalina, localhost, host-manager, manager logs. If not specified, the default value of-1will be used which means never delete old files.
 
 * Example: keep 90 daysworth of history. Change the number at the end of the following rows:
-  + 1catalina.org.apache.juli.AsyncFileHandler.maxDays = **90**
-  + 2localhost.org.apache.juli.AsyncFileHandler.maxDays =**90**
-  + 3manager.org.apache.juli.AsyncFileHandler.maxDays =**90**
-  + 4host-manager.org.apache.juli.AsyncFileHandler.maxDays =**90**
+  + `catalina.org.apache.juli.AsyncFileHandler.maxDays` = **90**
+  + `localhost.org.apache.juli.AsyncFileHandler.maxDays` = **90**
+  + `manager.org.apache.juli.AsyncFileHandler.maxDays` = **90**
+  + `host-manager.org.apache.juli.AsyncFileHandler.maxDays` = **90**
 
 **Step 3:** Save changes and close the file.
 
@@ -250,7 +250,7 @@ The installation path for Apache Tomcat: **%TOMCAT\_PATH%** = **C:\Program Files
 
 **Step 6:** Save changes and close the file
 
-**4.2.2. Other settings**
+#### **4.2.2. Other settings**
 
 **Step 1:** Navigate to the path **%TOMCAT\_PATH%\bin** and double-click the file **Tomcat10w.exe** to open the Apache Tomcat Service configuration.
 
@@ -405,7 +405,7 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ### **6.2. akaBot Center configuration**
 
-**6.2.1. Config quartz.properties**
+#### **6.2.1. Config quartz.properties**
 
 **Step 1:** Stop the Apache Tomcat service (if the Apache Tomcat service is currently running).
 
@@ -419,7 +419,7 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ![1773041651589-503.png](/static/img/ac0096_1773041651589-503.png)
 
-**6.2.2. Configure the MSSQL Database Connection**
+#### **6.2.2. Configure the MSSQL Database Connection**
 
 **Step 1**: Navigate to the path **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/config/**
 
@@ -445,7 +445,7 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 **Save** files after configuring.
 
-**6.2.3. Log setting**
+#### **6.2.3. Log setting**
 
 1. Open the file **%TOMCAT\_PATH%/webapps/ROOT/WEB-INF/classes/logback-spring.xml**
 
@@ -479,13 +479,13 @@ Run command:**C:\Windows\System32>C:\akaBot\apache-activemq-5.15.1\bin\win64\Ins
 
 ### **7.1. ActiveMQ**
 
-**7.1.1. Unable to execute Java command**
+#### **7.1.1. Unable to execute Java command**
 
 * Open the file %ACTIVEMQ\_PATH%\bin\win64\wrapper.conf and configure the parameter:
 
 wrapper.java.command=%JAVA\_HOME%/bin/java.exe
 
-**7.1.2. Other Errors**
+#### **7.1.2. Other Errors**
 
 Please check the error details in the log file of **ActiveMQ: %ACTIVEMQ\_PATH%\logs\data\wrapper.log**
 
