@@ -23,7 +23,7 @@ Mẫu báo cáo giúp bạn ánh xạ mỗi cột trong file Excel với một t
 1. Bấm **Tạo template**.
 2. Nhập **Tên template** và **Ghi chú** (nếu cần).
 3. Ở mục **Cấu hình cột**, bấm **Thêm cột** cho từng cột muốn có trong báo cáo xuất ra.
-4. Với mỗi cột, nhập tiêu đề cột (**Cột trên tệp**), chọn trường dữ liệu hóa đơn để ánh xạ tới (**Dữ liệu xuất ra**), và chọn kiểu dữ liệu (ví dụ TEXT).
+4. Với mỗi cột, nhập tiêu đề cột vào **Cột trên tệp**, chọn trường dữ liệu hóa đơn để ánh xạ tới ở **Dữ liệu xuất ra**, chọn **Kiểu dữ liệu** (ví dụ TEXT), và có thể thêm **Ghi chú** riêng cho cột đó nếu cần.
 5. Bấm **Lưu**.
 
 ![report-template-create-scalecheck](/static/img/report-template-create-scalecheck.png)

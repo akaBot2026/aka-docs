@@ -23,7 +23,7 @@ A report template maps each column in your Excel report to a data field from you
 1. Click **Create Template**.
 2. Enter a **Template Name** and an optional **Note**.
 3. Under **Column Configuration**, click **Add Column** for each column you want in the exported report.
-4. For each column, enter the column header (**Column on File**), choose the invoice data field to map it to (**Output Data**), and select the data type (for example, TEXT).
+4. For each column, enter the column header in **Column on File**, choose the invoice data field to map it to in **Output Data**, select the **Data Type** (for example, TEXT), and optionally add a **Note** for that column.
 5. Click **Save**.
 
 ![report-template-create-scalecheck](/static/img/report-template-create-scalecheck.png)
