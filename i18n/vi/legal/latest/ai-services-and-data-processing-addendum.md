@@ -9,12 +9,6 @@ displayed_sidebar: legalSidebar
 
 # PHỤ LỤC SỬ DỤNG AI VÀ XỬ LÝ DỮ LIỆU AI
 
-**Phiên bản:** 1.0  
-**Ngày cập nhật:** 01/10/2026  
-**Ngày hiệu lực:** 01/10/2026  
-**Đơn vị cung cấp:** CONG TY TNHH FPT IS
----
-
 ## 1. Mục đích
 
 Phụ lục này quy định các điều kiện bổ sung khi Khách hàng sử dụng chức năng AI được cung cấp hoặc tích hợp trong Sản phẩm Akabot.

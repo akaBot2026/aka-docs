@@ -9,15 +9,6 @@ displayed_sidebar: legalSidebar
 
 # TECHNICAL SECURITY & DATA FLOW DESCRIPTION
 
-**Version:** 1.0  
-**Last updated:** 01/10/2026  
-**Effective date:** 01/10/2026  
-**Provider:** FPT IS COMPANY LIMITED
-
-> This document describes the current architecture and may be updated independently of the Terms of Use when the architecture or Products change.
-
----
-
 ## 1. Scope
 
 This document describes:

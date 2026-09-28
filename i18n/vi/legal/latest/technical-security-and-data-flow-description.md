@@ -9,15 +9,6 @@ displayed_sidebar: legalSidebar
 
 # MÔ TẢ BẢO MẬT KỸ THUẬT VÀ LUỒNG DỮ LIỆU
 
-**Phiên bản:** 1.0  
-**Ngày cập nhật:** 01/10/2026  
-**Ngày hiệu lực:** 01/10/2026  
-**Đơn vị cung cấp:** CONG TY TNHH FPT IS
-
-> Tài liệu này mô tả kiến trúc hiện tại và có thể được cập nhật độc lập với Terms of Use khi kiến trúc hoặc Sản phẩm thay đổi.
-
----
-
 ## 1. Phạm vi
 
 Tài liệu mô tả:

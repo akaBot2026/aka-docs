@@ -9,13 +9,6 @@ displayed_sidebar: legalSidebar
 
 # PRIVACY & DATA PROCESSING POLICY
 
-**Version:** 1.0  
-**Last updated:** 01/10/2026  
-**Effective date:** 01/10/2026  
-**Provider:** FPT IS COMPANY LIMITED
-
----
-
 ## 1. Purpose
 
 This Policy describes how Customer Data may be collected, stored, processed, transferred, and protected when the Customer uses Akabot Products.

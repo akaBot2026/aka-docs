@@ -9,13 +9,6 @@ displayed_sidebar: legalSidebar
 
 # AKABOT TERMS OF USE
 
-**Version:** 1.0  
-**Last updated:** 01/10/2026  
-**Effective date:** 01/10/2026  
-**Provider:** FPT IS COMPANY LIMITED
-
----
-
 ## 1. Purpose and Scope
 
 These Terms of Use (the “Terms”) govern access to, installation of, and use of the software products, components, modules, services, and features offered under the Akabot brand (the “Products”).

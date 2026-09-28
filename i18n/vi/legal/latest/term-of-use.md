@@ -9,13 +9,6 @@ displayed_sidebar: legalSidebar
 
 # ĐIỀU KHOẢN SỬ DỤNG SẢN PHẨM AKABOT
 
-**Phiên bản:** 1.0  
-**Ngày cập nhật:** 01/10/2026  
-**Ngày hiệu lực:** 01/10/2026  
-**Đơn vị cung cấp:** CONG TY TNHH FPT IS
-
----
-
 ## 1. Mục đích và phạm vi
 
 Điều khoản Sử dụng này (“Điều khoản”) quy định việc truy cập, cài đặt và sử dụng các sản phẩm phần mềm, thành phần, module, dịch vụ và tính năng được cung cấp dưới thương hiệu Akabot (“Sản phẩm”).

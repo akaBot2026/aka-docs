@@ -9,13 +9,6 @@ displayed_sidebar: legalSidebar
 
 # CHÍNH SÁCH QUYỀN RIÊNG TƯ VÀ XỬ LÝ DỮ LIỆU
 
-**Phiên bản:** 1.0  
-**Ngày cập nhật:** 01/10/2026  
-**Ngày hiệu lực:** 01/10/2026  
-**Đơn vị cung cấp:** CONG TY TNHH FPT IS
-
----
-
 ## 1. Mục đích
 
 Chính sách này mô tả cách Dữ liệu Khách hàng có thể được thu thập, lưu trữ, xử lý, truyền và bảo vệ khi Khách hàng sử dụng Sản phẩm Akabot.

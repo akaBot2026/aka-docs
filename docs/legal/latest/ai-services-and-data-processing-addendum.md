@@ -9,12 +9,6 @@ displayed_sidebar: legalSidebar
 
 # AI SERVICES & DATA PROCESSING ADDENDUM
 
-**Version:** 1.0  
-**Last updated:** 01/10/2026  
-**Effective date:** 01/10/2026  
-**Provider:** FPT IS COMPANY LIMITED
----
-
 ## 1. Purpose
 
 This Addendum sets out additional terms that apply when the Customer uses AI features provided or integrated into Akabot Products.
