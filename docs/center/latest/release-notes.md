@@ -9,6 +9,16 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — Release Notes
 
+## v5.0.0.3
+
+Build date: Sep 28, 2026
+
+**Fixed**
+
+- **[Agent Pool]**: Agent Pool now retrieves a queue item only when a robot is available, keeping items available to `getTransactionItem`.
+- **[Queue]**: Fixed Queue and Queue Item search results. Cloned items now retain their Spec Data, reference, and priority.
+
+---
 ## v5.1.0.1
 
 Build date: Aug 21, 2026
