@@ -1,17 +1,17 @@
 ---
 id: technical-security-and-data-flow-description
-title: Technical Security and Data Flow
+title: Technical Security and Data Flow Description
 sidebar_label: Technical Security and Data Flow
-sidebar_position: 5
+sidebar_position: 6
 description: Akabot's reference architecture, data locations, external connections, and security controls.
 displayed_sidebar: legalSidebar
 ---
 
-# TECHNICAL SECURITY & DATA FLOW DESCRIPTION
+# TECHNICAL SECURITY AND DATA FLOW DESCRIPTION
 
 ## 1. Scope
 
-This document describes:
+This document should be read together with the Terms of Use, the Privacy and Data Processing Policy, and the AI Services and Data Processing Addendum. It describes:
 
 - deployment architecture;
 - data locations;
@@ -334,14 +334,7 @@ Updating this technical document does not, by itself, change ownership of Custom
 
 ## 22. Security Contact
 
-Security issues:
-
-**[support@akabot.com]**
-
-Privacy/Data Protection:
-
-**[support@akabot.com]**
-
-Technical Support:
-
-**[support@akabot.com]**
+**FPT IS COMPANY LIMITED**  
+Security issues: support@akabot.com  
+Privacy/Data Protection: support@akabot.com  
+Technical Support: support@akabot.com

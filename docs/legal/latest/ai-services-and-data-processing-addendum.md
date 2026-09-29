@@ -2,16 +2,16 @@
 id: ai-services-and-data-processing-addendum
 title: AI Services and Data Processing Addendum
 sidebar_label: AI Services Addendum
-sidebar_position: 4
+sidebar_position: 5
 description: Additional terms for AI features and the data shared with AI providers.
 displayed_sidebar: legalSidebar
 ---
 
-# AI SERVICES & DATA PROCESSING ADDENDUM
+# AI SERVICES AND DATA PROCESSING ADDENDUM
 
 ## 1. Purpose
 
-This Addendum sets out additional terms that apply when the Customer uses AI features provided or integrated into Akabot Products.
+This Addendum sets out additional terms that apply when the Customer uses AI features provided or integrated into Akabot Products. This Addendum should be read together with the Terms of Use and the Privacy and Data Processing Policy. Capitalized terms not defined in this Addendum have the meaning given in the Terms of Use.
 
 ## 2. AI Providers
 
@@ -204,3 +204,9 @@ Akabot may:
 to meet technical or security requirements or to respond to changes made by an AI Provider.
 
 Changes that materially affect data flows should be reflected in the corresponding Technical Security and Data Flow documentation.
+
+## 17. Contact
+
+**FPT IS COMPANY LIMITED**  
+Website: https://akabot.com  
+Support: support@akabot.com
