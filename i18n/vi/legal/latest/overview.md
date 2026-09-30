@@ -12,6 +12,7 @@ displayed_sidebar: legalSidebar
 Tại đây có các điều khoản sử dụng, chính sách quyền riêng tư và xử lý dữ liệu, cùng tài liệu về bảo mật kỹ thuật và luồng dữ liệu của Akabot.
 
 - [Điều khoản sử dụng](./term-of-use.md)
+- [Thỏa thuận cấp phép người dùng cuối](./end-user-license-agreement.md)
 - [Chính sách quyền riêng tư và xử lý dữ liệu](./privacy-and-data-processing-policy.md)
 - [Phụ lục sử dụng AI và xử lý dữ liệu](./ai-services-and-data-processing-addendum.md)
 - [Mô tả bảo mật kỹ thuật và luồng dữ liệu](./technical-security-and-data-flow-description.md)
