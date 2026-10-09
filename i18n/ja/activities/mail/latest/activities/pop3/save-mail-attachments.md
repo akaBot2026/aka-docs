@@ -2,7 +2,7 @@
 id: save-mail-attachments
 title: "メールの添付ファイルを保存する"
 sidebar_label: "メールの添付ファイルを保存する"
-sidebar_position: 10
+sidebar_position: 2
 description: "メール添付ファイルの保存アクティビティのドキュメント。"
 displayed_sidebar: activitiesSidebar
 ---

@@ -2,7 +2,7 @@
 id: get-imap-mail-messages
 title: "Get IMAP Mail Messages"
 sidebar_label: "Get IMAP Mail Messages"
-sidebar_position: 6
+sidebar_position: 1
 description: "Get IMAP Mail Messages activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
@@ -15,6 +15,7 @@ RCA.Activities.Mail.GetIMAPMailMessages
 This activity allows you to retrieve an IMAP email message from a specified server.
 
 ![image-20220505162545-1.png](/static/img/b9eea9_image-20220505162545-1.png)  
+
 (\* is mandatory)
 
 ## **Properties**

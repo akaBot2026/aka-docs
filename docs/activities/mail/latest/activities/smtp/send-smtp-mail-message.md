@@ -2,7 +2,7 @@
 id: send-smtp-mail-message
 title: "Send SMTP Mail Message"
 sidebar_label: "Send SMTP Mail Message"
-sidebar_position: 10
+sidebar_position: 1
 description: "Send SMTP Mail Message activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

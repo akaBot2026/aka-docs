@@ -2,7 +2,7 @@
 id: get-pop3-mail-messages
 title: "POP3メールメッセージを取得する"
 sidebar_label: "POP3メールメッセージを取得する"
-sidebar_position: 9
+sidebar_position: 1
 description: "POP3 メール メッセージのアクティビティに関するドキュメントを入手します。"
 displayed_sidebar: activitiesSidebar
 ---

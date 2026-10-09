@@ -124,3 +124,4 @@ These properties apply when **Authentication Type** is set to `UsernameAndPasswo
 ## See Also
 
 * [Connecting to Office 365](azure-app-registration.md) - Step-by-step guide to registering an Azure application and setting up authentication.
+* [Outlook mail activities](outlook/send-mail.md) - Send Mail, Get Mail, Move Mail, Delete Mail, Forward Mail and Replay To Mail. Require the `Mail` service in the scope.

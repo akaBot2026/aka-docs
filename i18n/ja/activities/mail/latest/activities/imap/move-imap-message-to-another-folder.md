@@ -2,7 +2,7 @@
 id: move-imap-message-to-another-folder
 title: "IMAP メッセージを別のフォルダーに移動する"
 sidebar_label: "IMAP メッセージを別のフォルダーに移動する"
-sidebar_position: 7
+sidebar_position: 2
 description: "IMAP メッセージを別のフォルダーに移動するアクティビティのドキュメント。"
 displayed_sidebar: activitiesSidebar
 ---

@@ -2,7 +2,7 @@
 id: get-pop3-mail-messages
 title: "Get POP3 Mail Messages"
 sidebar_label: "Get POP3 Mail Messages"
-sidebar_position: 9
+sidebar_position: 1
 description: "Get POP3 Mail Messages activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

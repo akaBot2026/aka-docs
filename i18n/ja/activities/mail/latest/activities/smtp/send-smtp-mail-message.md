@@ -2,7 +2,7 @@
 id: send-smtp-mail-message
 title: "SMTPメールメッセージを送信する"
 sidebar_label: "SMTPメールメッセージを送信する"
-sidebar_position: 10
+sidebar_position: 1
 description: "SMTP メール メッセージの送信アクティビティに関するドキュメント。"
 displayed_sidebar: activitiesSidebar
 ---

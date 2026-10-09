@@ -179,10 +179,11 @@ Open akaBot Studio, add the **Office 365 Application Scope** activity, and confi
 
 ![office-application-scope.png](/static/img/office-application-scope.png)
 
-Place all your Office 365 activities (Upload File, Send Mail, Get List Items, etc.) inside the **Do** block. The scope handles authentication automatically for all nested activities.
+Place all your Office 365 activities (Upload File, [Send Mail](outlook/send-mail.md), Get List Items, etc.) inside the **Do** block. The scope handles authentication automatically for all nested activities.
 
 ---
 
 ## See Also
 
 * [Office 365 Application Scope](office365-application-scope.md) - Complete property and category reference.
+* [Outlook mail activities](outlook/send-mail.md) - Send Mail, Get Mail, Move Mail, Delete Mail, Forward Mail and Replay To Mail. Require the `Mail` service in the scope.

@@ -2,7 +2,7 @@
 id: save-mail-attachments
 title: "Save Mail Attachments"
 sidebar_label: "Save Mail Attachments"
-sidebar_position: 10
+sidebar_position: 2
 description: "Save Mail Attachments activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

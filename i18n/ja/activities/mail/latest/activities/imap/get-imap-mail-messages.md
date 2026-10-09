@@ -2,7 +2,7 @@
 id: get-imap-mail-messages
 title: "IMAPメールメッセージを取得する"
 sidebar_label: "IMAPメールメッセージを取得する"
-sidebar_position: 6
+sidebar_position: 1
 description: "IMAP メール メッセージのアクティビティに関するドキュメントを入手します。"
 displayed_sidebar: activitiesSidebar
 ---
