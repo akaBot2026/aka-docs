@@ -54,3 +54,11 @@ This activity allows you to send email messages from Outlook.
 * **Bcc (String)** - The hidden recipients of the email message.
 * **Cc (String)** - The secondary recipients of the email message.
 * **To (String)**\* - The main recipients of the email message.
+
+## **See also: Exchange activities**
+
+The Exchange activities are part of the Mail package (in akaBot Studio: **Mail** > **Exchange**). If your mailbox is on your company's own Exchange Server, use them instead:
+
+* [Send Exchange Mail](/docs/activities/exchange/latest/activities/send-exchange-mail.md) - Sends emails through an Exchange Server.
+* [Exchange activities](/docs/activities/exchange/latest/introduction.md) - Overview of all Exchange activities.
+* [Setup Exchange (EWS)](/docs/activities/exchange/latest/user-guide/exchange-ews-configuration.md) - How to collect the connection details and configure Exchange Scope.

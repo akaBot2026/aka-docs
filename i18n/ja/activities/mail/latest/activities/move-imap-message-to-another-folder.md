@@ -8,11 +8,11 @@ displayed_sidebar: activitiesSidebar
 ---
 # IMAP メッセージを別のフォルダーに移動する
 
-RCA.Activities.Mail.MoveIMAPMessageToFolder
+RCA.Activities.Mail.MoveIMAPMailMessageToFolder
 
 ## **説明**
 
-このアクティビティを使用すると、IMAP メッセージを別のフォルダーに移動できます。
+IMAP メッセージを別のフォルダーに移動します。
 
 ![image-20220505162857-1.png](/static/img/24564c_image-20220505162857-1.png)
 
@@ -22,38 +22,48 @@ RCA.Activities.Mail.MoveIMAPMessageToFolder
 
 **入力**
 
-* **From Folder (String)** - メッセージが含まれるフォルダー。
-例: 「受信箱」
-* **メール メッセージ (MailMessage)**\* - 移動するメール メッセージ
+* **移動元フォルダー (文字列)** - メッセージが入っているフォルダー。空の場合は、メッセージを取得したフォルダーが使用されます。
+  例: "Inbox"
+* **メール メッセージ (MailMessage)**\* - 移動するメール メッセージ。
 
-**目的地**
+**宛先**
 
-* **メール フォルダー (文字列)**\* - 移動するメッセージのメール フォルダー。
-例: 「顧客フォルダー」
+* **メール フォルダー (文字列)**\* - メッセージの移動先フォルダー。フォルダーはあらかじめ存在している必要があります。
+  例: "Customer Folder"
 
 **ホスト**
 
-* **ポート (Int32)** - 電子メールの送信に使用されるポート。
-例: 993
-* **Server (String)**\* - 使用される電子メール サーバーのホスト。
-例: 「mail.mydomain.com」
+* **ポート (Int32)** - IMAP サーバーのポート。
+  例: 993
+* **サーバー (文字列)**\* - 使用するメール サーバーのホスト名。
+  例: "mail.mydomain.com"
 
 ![993-imap.png](/static/img/5cf416_993-imap.png)
 
-* **SSL を有効にする (チェックボックス)** - これを選択すると、SSL 暗号化が使用されます。
+* **EnableSSL (チェックボックス)** - 使用されません。暗号化は **安全な接続** で指定します。
 
 **ログオン**
 
-* **電子メール (文字列)**\* - メッセージの送信に使用される電子メール アカウント。
-例: [[email protected]](/cdn-cgi/l/email-protection)
-* **パスワード (文字列)**\* - メッセージの送信に使用されるメール アカウントのパスワード
+* **メール (文字列)**\* - メッセージが入っているメール アカウント。
+  例: "bot.account@gmail.com"
+* **パスワード (文字列)**\* - メール アカウントのパスワード (またはアプリ パスワード)。**パスワード** と **SecurePassword** のどちらか一方を使用します。
+* **SecurePassword (SecureString)** - **パスワード** の代わりに、パスワードを SecureString として指定します。
+* **Use OAuth (ブール値)** - メール サーバーが最新の認証方式 (OAuth 2.0) を必要とする場合に選択します。この場合、**パスワード** にはアカウントのパスワードではなく OAuth アクセス トークンを入力します。
 
 **その他**
 
-* **公開 (チェックボックス)** - 公開する場合にチェックを入れます。使用する前に、データ セキュリティ要件を必ず考慮してください。
-* **表示名 (文字列)** - このアクティビティの名前。アクティビティの名前を編集して、コードをより適切に整理および構造化できます。
-例: IMAP メッセージの移動
+* **公開 (チェックボックス)** - 選択すると、アクティビティのデータがログに記録されます。使用する前に、データ セキュリティ要件を考慮してください。
+* **表示名 (文字列)** - このアクティビティの名前。ワークフローを整理しやすくするために編集できます。  
+  例: Move IMAP Message
 
 **オプション**
 
-* **安全な接続 (ドロップダウン リスト)** - SSL/TLS 暗号化をいつ使用するかを指定します。含まれる内容: None、Auto、SslOnConnect、StartTls、StartTlsWhenAvailable
+* **安全な接続 (ドロップダウンリスト)** - SSL/TLS 暗号化を使用するタイミングを指定します。選択肢: None、Auto、SslOnConnect、StartTls、StartTlsWhenAvailable
+
+## **関連項目: Exchange アクティビティ**
+
+Exchange アクティビティはメール パッケージに含まれています（akaBot Studio では **Mail** > **Exchange**）。メールボックスが社内の Exchange Server にある場合は、こちらを使用してください。
+
+* [Move Message To Another Folder](../../../exchange/latest/activities/move-message-to-another-folder.md) - Exchange メールボックス内のメールを移動します。
+* [Exchange アクティビティ](../../../exchange/latest/introduction.md) - すべての Exchange アクティビティの概要。
+* [Exchange (EWS) の設定](../../../exchange/latest/user-guide/exchange-ews-configuration.md) - 接続情報の集め方と Exchange スコープの設定方法。
