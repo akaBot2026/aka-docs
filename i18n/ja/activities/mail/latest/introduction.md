@@ -1,4 +1,4 @@
-﻿---
+---
 id: introduction
 title: "はじめに"
 sidebar_label: "はじめに"
