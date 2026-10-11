@@ -1,85 +1,92 @@
 ---
 id: smtp-configuration
-title: "Setup Guide: SMTP (Simple Mail Transfer Protocol)"
+title: "Setup Guide: SMTP (Send Email)"
 sidebar_label: "Setup SMTP"
 sidebar_position: 3
-description: "Step-by-step guide to prepare SMTP relay settings and configure the Send SMTP Mail Message activity in akaBot Studio."
+description: "Collect the information needed to send email with SMTP and enter it in the Send SMTP Mail Message activity in akaBot Studio."
 displayed_sidebar: activitiesSidebar
 ---
-# Setup Guide: SMTP (Simple Mail Transfer Protocol)
+# Setup Guide: SMTP (Send Email)
 
-This guide covers how to prepare SMTP relay settings, obtain the necessary credentials, and configure the **Send SMTP Mail Message** activity in akaBot Studio.
+Use **Send SMTP Mail Message** when the Agent needs to **send** emails through a mail server such as Gmail, Yahoo Mail or your company's mail server.
+
+This guide helps you **collect the information** the activity needs and shows **where to enter it**. You do not need to install or configure a mail server.
+
+:::tip Using Exchange Server?
+If you send from a mailbox on your company's own **Exchange Server**, you can also use [Send Exchange Mail](/docs/activities/exchange/latest/activities/send-exchange-mail.md) (in akaBot Studio: **Mail** > **Exchange**). See [Setup Exchange (EWS)](/docs/activities/exchange/latest/user-guide/exchange-ews-configuration.md).
+:::
 
 ---
 
-## 1. What Information You Need
+## 1. Information You Need
 
-| Field in akaBot | Where to Get It | Format / Example |
+| Information | Where to get it | Example |
 |---|---|---|
-| **Server** | Mail provider / IT network team | `"smtp.gmail.com"` or `"smtp.office365.com"` |
-| **Port** | Mail provider / IT network team | `587` (STARTTLS) or `465` (SSL) or `25` (Relay) |
-| **Email** | Your sender email address | `"bot.notifications@company.com"` |
-| **Password** | App Password or account password | String (Omitted if anonymous relay) |
-| **To** | Destination email addresses | `"user1@domain.com;user2@domain.com"` |
-| **Subject** | Email subject | String |
-| **Body** | Email message body | Plain text or HTML string |
+| **Server** | Table in [section 3](#3-server-and-port-reference), or ask your IT team | `"smtp.gmail.com"` |
+| **Port** | Table in [section 3](#3-server-and-port-reference), or ask your IT team | `587` |
+| **Email** | The address that sends the email | `"bot.notifications@gmail.com"` |
+| **Password** | An **App Password**, or the account password if your provider allows it. Leave empty for a company relay without login | 16 letters, no spaces |
+| **To** | The people who receive the email | `"user1@company.com;user2@company.com"` |
 
 ---
 
-## 2. Step-by-Step: Preparing SMTP Credentials
+## 2. Get the Information
 
-### Step 2.1: Public Providers (Gmail, Microsoft 365, Yahoo)
+### Gmail / Yahoo Mail
 
-Public mail providers block direct password authentication if Two-Factor Authentication (2FA) is turned on:
+Create an **App Password** as described in the [IMAP setup guide](/docs/activities/mail/latest/user-guide/imap-configuration.md#gmail). Use it as **Password**. Sending does not require IMAP to be turned on.
 
-- **Gmail**: Generate a 16-character **App Password** via [Google Security Settings](https://myaccount.google.com/apppasswords), as described in the [IMAP setup guide](/docs/activities/mail/latest/user-guide/imap-configuration.md).
-- **Office 365 / Outlook.com**: Ensure SMTP AUTH is enabled for the mailbox in Microsoft 365 Admin Center (*Users > Active users > Mail tab > Manage email apps > Check "Authenticated SMTP"*).
+### Microsoft 365
 
----
+Sending with a normal password only works if your administrator has turned on **Authenticated SMTP** for the mailbox, and Microsoft is switching this off from late 2026. Use [Send Mail in the Office 365 package](/docs/activities/office365/latest/outlook/send-mail.md) instead.
 
-### Step 2.2: Internal Corporate Mail Relays (Port 25)
+### Company mail relay (no login)
 
-Many enterprise networks provide an internal SMTP relay server:
+Many companies have an internal mail server ("relay") that accepts email from approved computers without a password. Send your IT team this request:
 
-- Often requires **no authentication** (Password can be left empty).
-- Authentication is handled by **IP Whitelisting** (the robot machine's static IP address must be permitted on the relay).
-- Request the relay server hostname or IP address from your IT network administrator.
+> Please send me the SMTP relay server name and port for the Agent machine `<computer name or IP address>`, and confirm that it can send email without a login. The Agent will send from the address `<address>`.
 
 ---
 
-## 3. Server & Port Reference Table
+## 3. Server and Port Reference
 
-| Provider / Type | SMTP Server Host | Port | Security / Encryption | Authentication Required |
+| Provider | Server | Port | Secure Connection | Login needed |
 |---|---|---|---|---|
-| **Gmail** | `smtp.gmail.com` | `587` | STARTTLS (`Auto`) | Yes (App Password) |
-| **Gmail (Alternative)** | `smtp.gmail.com` | `465` | SSL/TLS (`SslOnConnect`) | Yes (App Password) |
-| **Outlook.com / M365** | `smtp.office365.com` | `587` | STARTTLS (`Auto`) | Yes |
-| **Yahoo Mail** | `smtp.mail.yahoo.com` | `587` / `465` | STARTTLS / SSL | Yes (App Password) |
-| **Internal Corporate Relay** | `mailrelay.corp.local` | `25` | None or opportunistic | No (Anonymous / IP-based) |
+| **Gmail** | `smtp.gmail.com` | `587` | `StartTls` (or `Auto`) | Yes – App Password |
+| **Gmail (alternative)** | `smtp.gmail.com` | `465` | `SslOnConnect` | Yes – App Password |
+| **Yahoo Mail** | `smtp.mail.yahoo.com` | `465` | `SslOnConnect` | Yes – App Password |
+| **Company relay** | Ask your IT team | Usually `25` | `None` or `Auto` | Usually no |
 
 ---
 
-## 4. How to Configure in akaBot Studio
+## 4. Enter the Information in akaBot Studio
 
-### Step 4.1: Configure Send SMTP Mail Message ([`RCA.Activities.Mail.SendMail`](/docs/activities/mail/latest/activities/smtp/send-smtp-mail-message.md))
+### Send SMTP Mail Message ([`RCA.Activities.Mail.SendMail`](/docs/activities/mail/latest/activities/send-smtp-mail-message.md))
 
-1. In akaBot Studio, search for **Send SMTP Mail Message** under **Mail** > **SMTP** and drag it into your workflow.
-2. In the **Properties** panel:
-   - **Host** category:
-     - **Server**: `"smtp.gmail.com"` (or your corporate relay hostname).
-     - **Port**: `587` (Must be an integer value).
-   - **Logon** category:
-     - **Email**: `"bot.notifications@company.com"`.
-     - **Password**: Enter your 16-character App Password (leave blank if using an anonymous corporate relay).
-   - **Receiver** category:
-     - **To**: `"manager@company.com;finance@company.com"` (Separate multiple recipients with `;`).
-     - **Cc**: `"audit@company.com"`.
-     - **Bcc**: (Optional hidden recipients).
-   - **Mail** category:
-     - **Subject**: `"Daily Processing Report - " + DateTime.Now.ToString("dd/MM/yyyy")`.
-     - **Body**: `"<html><body><h2>Workflow Complete</h2><p>All items have been processed.</p></body></html>"`.
-   - **Option** category:
-     - **Is Body Html**: Check if using HTML tags in the body.
-     - **Secure Connection**: Select `Auto` or `SslOnConnect`.
-   - **Attachments** category:
-     - **Attachments**: Click `...` and add file paths to include (e.g., `"C:\Reports\Summary.xlsx"`).
+1. In the **Activities** panel, open **Mail** > **SMTP** and drag **Send SMTP Mail Message** into your workflow.
+2. In the **Properties** panel, fill in:
+
+| Category | Property | Value |
+|---|---|---|
+| Host | **Server** | `"smtp.gmail.com"` |
+| Host | **Port** | `587` |
+| Logon | **Email** | `"bot.notifications@gmail.com"` |
+| Logon | **Password** | Your App Password |
+| Receiver | **To** (required) | `"manager@company.com;finance@company.com"` – separate addresses with `;` |
+| Receiver | **Cc** / **Bcc** | Optional, same format as **To** |
+| Mail | **Subject** | `"Daily Report - " + DateTime.Now.ToString("dd/MM/yyyy")` |
+| Mail | **Body** | `"All items have been processed."` |
+| Options | **Is Body Html** | Select only if **Body** contains HTML, for example `"<h2>Done</h2>"` |
+| Options | **Secure Connection** | `StartTls` or `Auto` for port 587, `SslOnConnect` for port 465 |
+| Attachments | **Attachments** | Click `...` and add file paths, for example `"C:\Reports\Summary.xlsx"` |
+
+![Send SMTP Mail Message – example settings](/static/img/smtp-relay-properties.png)
+
+*Example settings for Gmail. The password is hidden in this screenshot – enter your App Password in **Password**.*
+
+**For a company relay without login:** leave **Email** and **Password** empty, and enter the sender address in **Sender** > **From**. If you leave **From** empty too, the email is sent from `noreply@anonymous.com`.
+
+:::tip
+- You can enter the password in **SecurePassword** (type `SecureString`) instead of **Password**.
+- If **Email** is filled in, the Agent tries to log in whenever the server offers a login. For a relay without login, keep **Email** empty.
+:::

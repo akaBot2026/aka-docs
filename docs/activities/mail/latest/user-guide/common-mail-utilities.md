@@ -1,86 +1,82 @@
 ---
 id: common-mail-utilities
-title: "Setup Guide: Common Mail Utilities (Save Mail & Attachments)"
+title: "Setup Guide: Save Mail & Attachments"
 sidebar_label: "Save Mail & Attachments"
 sidebar_position: 5
-description: "Step-by-step guide to save email messages to .eml files and extract attachments to local disk using the Save Mail and Save Mail Attachments activities."
+description: "Save emails as .eml files and save their attachments to a folder with the Save Mail and Save Mail Attachments activities."
 displayed_sidebar: activitiesSidebar
 ---
-# Setup Guide: Common Mail Utilities (Save Mail & Attachments)
+# Setup Guide: Save Mail & Attachments
 
-This guide covers how to save in-memory email messages to `.eml` files and extract attachments to local disk using the **Save Mail** and **Save Mail Attachments** activities in akaBot Studio. Both activities work with a `MailMessage` object retrieved from any Get activity, regardless of the mail protocol used (Outlook, Exchange, IMAP, or POP3).
+After the Agent has read emails, you can:
+
+- save each email as an `.eml` file with **Save Mail**, and
+- save the attached files to a folder with **Save Mail Attachments**.
+
+Both activities work with emails read by **Get Outlook Mail Messages**, **Get IMAP Mail Messages**, **Get POP3 Mail Messages** or **Get Exchange Mail Messages**.
+
+:::tip Using Exchange Server?
+Reading emails from your company's own **Exchange Server**? Set up **Get Exchange Mail Messages** first with [Setup Exchange (EWS)](/docs/activities/exchange/latest/user-guide/exchange-ews-configuration.md), then continue with this guide.
+:::
 
 ---
 
-## 1. What Information You Need
+## 1. Information You Need
 
-| Field in akaBot | Where to Get It | Format / Example |
+| Information | Where to get it | Example |
 |---|---|---|
-| **Mail Message** | Output of any Get Mail activity | `MailMessage` object |
-| **File Path** (Save Mail) | Local or network file destination | Full path ending in `.eml`, e.g., `"C:\Mails\invoice.eml"` |
-| **Folder Path** (Save Mail Attachments) | Target storage directory | Directory path, e.g., `"C:\Mails\Attachments"` |
-| **Filter** (Optional) | Regular expression for file names | Regex pattern, e.g., `".*\.(pdf|xlsx)"` |
+| **Emails** | The **Messages** output of a Get activity | `mailList` |
+| **File Path** (Save Mail) | A full path ending in `.eml`. The folder must already exist | `"C:\Mails\invoice.eml"` |
+| **Folder Path** (Save Mail Attachments) | The folder for the attachments. It is created if it does not exist | `"C:\Mails\Attachments"` |
+| **Filter** (optional) | A pattern for the file names to keep (see Step 2.4) | `"(?i)\.pdf$"` |
 
 ---
 
-## 2. Step-by-Step Workflow Pattern
+## 2. Build the Workflow
 
-Both activities operate on individual `MailMessage` objects in memory. You typically retrieve a list of messages using a Get activity, iterate through them with a `For Each` activity, and then save the email or its attachments.
+### Step 2.1: Read the Emails
 
-### Step 2.1: Retrieve Email List
-
-1. Use any retrieval activity (e.g., **Get Outlook Mail Message**, **Get IMAP Mail Messages**, **Get Exchange Mail Messages**, or **Get POP3 Mail Messages**).
-2. Set its output property to a variable, e.g., `mailList` (Type: `List<MailMessage>`).
+1. Add any Get activity, for example **Get Outlook Mail Messages**.
+2. In its **Messages** output, create a variable, for example `mailList`.
 
 ---
 
-### Step 2.2: Add a `For Each` Loop
+### Step 2.2: Loop Through the Emails
 
-1. From the Activities panel, drag a **For Each** activity into your workflow.
-2. In the `Values` input of For Each, enter: `mailList`.
-3. In the Properties panel of For Each, set **TypeArgument** to:
-
-   ```text
-   System.Net.Mail.MailMessage
-   ```
-
-   *(If not listed in the quick dropdown, click "Browse for Types..." and search for `System.Net.Mail.MailMessage`).*
+1. Drag a **For Each** activity below the Get activity.
+2. In **Values**, enter `mailList`.
+3. In the **Properties** panel, set **TypeArgument** to `System.Net.Mail.MailMessage`. If it is not in the list, click **Browse for Types...** and search for `MailMessage`.
 
 ---
 
-### Step 2.3: Configure Save Mail ([`RCA.Activities.Mail.SaveMail`](/docs/activities/mail/latest/activities/pop3/save-mail.md))
+### Step 2.3: Save Mail ([`RCA.Activities.Mail.SaveMail`](/docs/activities/mail/latest/activities/save-mail.md))
 
-1. Drag **Save Mail** inside the **Body** of the For Each loop.
-2. In the **Properties** panel:
-   - **Input** category:
-     - **Mail Message**: Enter `item` (the current loop variable).
-     - **File Path**: Specify the target path with file name:
+1. Drag **Save Mail** into the **Body** of the For Each loop.
+2. Fill in:
+   - **Mail Message**: `item`
+   - **File Path** (required): the full path and file name, for example:
 
-       ```vb
-       "C:\ArchivedEmails\" + item.Subject + "_" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".eml"
-       ```
+     ```vb
+     "C:\ArchivedEmails\mail_" + DateTime.Now.ToString("yyyyMMdd_HHmmssfff") + ".eml"
+     ```
 
-       *(Tip: If the subject might contain invalid filename characters like `\`, `/`, `:`, `*`, sanitize them with `Path.GetInvalidFileNameChars()` or use a fixed naming convention. If left blank, the file is saved in the project folder.)*
+:::caution
+- The folder (`C:\ArchivedEmails` in the example) must **already exist**, otherwise the activity fails. Add a **Create Folder** activity before the loop if needed.
+- A file with the same name is overwritten.
+- If you put the email subject in the file name, characters such as `\ / : * ? " < > |` make the activity fail. The example above uses the date and time instead.
+:::
 
 ---
 
-### Step 2.4: Configure Save Mail Attachments ([`RCA.Activities.Mail.SaveMailAttachements`](/docs/activities/mail/latest/activities/pop3/save-mail-attachments.md))
+### Step 2.4: Save Mail Attachments ([`RCA.Activities.Mail.SaveMailAttachments`](/docs/activities/mail/latest/activities/save-mail-attachments.md))
 
-1. Drag **Save Mail Attachments** inside the **Body** of the For Each loop.
-2. In the **Properties** panel:
-   - **Input** category:
-     - **Message**: Enter `item`.
-     - **Folder Path**: Specify the target directory:
+1. Drag **Save Mail Attachments** into the **Body** of the For Each loop.
+2. Fill in:
+   - **Message** (required): `item`
+   - **Folder Path**: for example `"C:\ArchivedEmails\Attachments"`. The folder is created if it does not exist. If empty, the files are saved in the project folder. Files with the same name are overwritten.
+   - **Filter** (optional): keep only some files. Leave empty to save all attachments.
+     - Only PDF files: `"(?i)\.pdf$"`
+     - PDF and Excel files: `"(?i)\.(pdf|xlsx|xls)$"`
 
-       ```vb
-       "C:\ArchivedEmails\Attachments"
-       ```
-
-       *(Note: If the directory does not exist, akaBot automatically creates it. Files with the same name in the folder are overwritten.)*
-   - **Option** category:
-     - **Filter**: (Optional) Regular expression pattern to only save specific file extensions:
-       - Save only PDFs: `".*\.pdf"`
-       - Save Excel and PDFs: `".*\.(pdf|xlsx|xls)"`
-       - Leave blank to save all attachments.
-   - **Output** category:
-     - **Attachments**: (Optional) Variable of type `IEnumerable<String>` containing the list of saved file paths.
+     *(`(?i)` makes the filter ignore upper/lower case, so `INVOICE.PDF` also matches.)*
+   - **Attachments** (output, optional): a variable of type `IEnumerable<String>` that receives the paths of the saved files.

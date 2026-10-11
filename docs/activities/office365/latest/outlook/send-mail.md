@@ -46,7 +46,7 @@ This activity must be placed inside the **Do** block of [Office 365 Application 
 
 **Recipients**
 
-* **To (String[])\*** - An array of email addresses for the primary recipients. (*At least one recipient must be defined in To, Cc, or Bcc).  
+* **To (String[])** - An array of email addresses for the primary recipients. At least one recipient must be set in **To**, **Cc** or **Bcc**.  
   E.g: {"receiver@example.com"}
 * **Cc (String[])** - An array of email addresses for the secondary recipients (Carbon Copy).  
   E.g: {"manager@example.com"}

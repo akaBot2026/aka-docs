@@ -22,11 +22,13 @@ This activity allows you to delete an email message from Exchange.
 
 **Connection**
 
-* **Email Auto discover (String)**\* - Searches automatically for an Exchange server by using an email address from that server. This works only if the Exchange server has Autodiscover enabled.  
-  E.g: "http(s)://autodiscover.domain/EWS/Exchange.asmx"
-* **Exchange Version (DropDownlist)** – Specifies the lowest version of the Exchange server that is used. The options displayed in this field range from 2007 to the 2013 version. Please note that the version number indicates the lowest level of service you support. This means that if you have a 2016 exchange server, you can select the Exchange2013 option.
-* **Server (String)**\* - The email server host that is to be used and the format should be like the example below  
-  E.g: "https://outlook.office365.com/EWS/Exchange.asmx"
+Leave these properties empty when the activity is inside [Exchange Scope](/docs/activities/exchange/latest/activities/exchange-scope.md). Outside a scope, fill in **Server** or **Email Auto discover** (not both).
+
+* **Email Auto discover (String)** - An email address on the Exchange server. akaBot finds the server automatically (the server must have Autodiscover enabled).  
+  E.g: "user@company.com"
+* **Exchange Version (DropDownlist)** – The lowest Exchange version you need to support. For Exchange 2013 or later, select Exchange2013_SP1.
+* **Server (String)** - The EWS address of the Exchange server.  
+  E.g: "https://mail.company.com/EWS/Exchange.asmx"
 
 **Mail**
 
@@ -34,10 +36,12 @@ This activity allows you to delete an email message from Exchange.
 
 **Logon**
 
-* **Domain (String)**\* - The Active Directory domain to connect to.  
-  E.g: Mydomain.com
-* **Password (String)**\* - The Password of the Exchange account to be used.
-* **User (String)**\* - The User of the Exchange account to be used.
+Leave these properties empty when the activity is inside Exchange Scope.
+
+* **Domain (String)** - The Windows domain of the account.  
+  E.g: MYDOMAIN
+* **Password (String)** - The password of the Exchange account. Required outside Exchange Scope.
+* **User (String)** - The user name of the Exchange account. Required outside Exchange Scope.
 
 **Misc**
 
@@ -49,5 +53,5 @@ This activity allows you to delete an email message from Exchange.
 
 * **Delete Mode (DropDownlist)** - Specifies how the message is deleted. It contains: HardDelete, SoftDelete, MoveToDeletedItems.
   * **HardDelete** - The message is permanently deleted.
-  * **SoftDelete** - Similar to sending the item to the Recycle Bin and then emptying it.
-  * **MoveToDeletedItems** - Similar to sending the item to the Recycle Bin.
+  * **SoftDelete** - The message is removed from all folders, but your IT administrator can still recover it for a limited time.
+  * **MoveToDeletedItems** (default) - The message is moved to the Deleted Items folder.

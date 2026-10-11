@@ -124,3 +124,4 @@ Office 365 に関するすべてのアクティビティ（Upload File、Send Ma
 ## 関連情報
 
 * [Office 365 への接続](azure-app-registration.md) - Azure アプリケーションの登録と認証設定に関するステップバイステップガイドです。
+* [Outlook メール アクティビティ](activities/outlook/send-mail.md) - メールを送信、メールを取得、メールを移動、メールを削除、メールを転送、メールに返信。スコープで `Mail` サービスを選択する必要があります。

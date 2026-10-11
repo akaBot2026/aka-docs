@@ -44,13 +44,11 @@ This activity must be placed inside the **Do** block of [Office 365 Application 
 * **Email Id (String)** - The unique identifier of a specific email message to retrieve.
 * **Query (String)** - A filter query string based on Microsoft Graph API filter syntax.  
   E.g: "contains(subject, 'Invoice')"
-* **Top (Int32)** - The maximum number of email messages to retrieve.  
+* **Top (Int32)** - The maximum number of email messages to retrieve. If empty or 0, 50 messages are retrieved.  
   E.g: 20
 * **Only Unread Messages (Boolean)** - If True, retrieves only unread emails. Default value: True.
 * **Mark As Read (Boolean)** - If True, marks retrieved emails as read. Default value: False.
 * **Order By Date (DropDownlist)** - Specifies the order to retrieve emails by date: NewestFirst or OldestFirst. Default value: NewestFirst.
-
-**Output**
 
 * **Results (Office365Message[])** - The retrieved email messages stored in an array of Office365Message objects.
 

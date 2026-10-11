@@ -178,10 +178,11 @@ akaBot Studio を開き、**Office 365 アプリケーション スコープ** �
 
 ![office-application-scope.png](/static/img/office-application-scope.png)
 
-すべての Office 365 アクティビティ（Upload File、Send Mail、Get List Items など）を **Do** ブロック内に配置します。スコープがネストされたすべてのアクティビティに対して認証を自動的に処理します。
+すべての Office 365 アクティビティ（Upload File、[Send Mail](activities/outlook/send-mail.md)、Get List Items など）を **Do** ブロック内に配置します。スコープがネストされたすべてのアクティビティに対して認証を自動的に処理します。
 
 ---
 
 ## 関連情報
 
 * [Office 365 アプリケーション スコープ](office365-application-scope.md) - 完全なプロパティとカテゴリのリファレンスです。
+* [Outlook メール アクティビティ](activities/outlook/send-mail.md) - メールを送信、メールを取得、メールを移動、メールを削除、メールを転送、メールに返信。スコープで `Mail` サービスを選択する必要があります。
