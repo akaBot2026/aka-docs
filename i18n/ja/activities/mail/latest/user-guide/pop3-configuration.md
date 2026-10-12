@@ -67,7 +67,9 @@ IT 担当者に次のように依頼してください。
 
 ## 4. akaBot Studio に入力する
 
-### Get POP3 Mail Messages ([`RCA.Activities.Mail.GetPOP3MailMessages`](../activities/get-pop3-mail-messages.md))
+### Get POP3 Mail Messages
+
+*このアクティビティのすべての設定: [Get POP3 Mail Messages](../activities/get-pop3-mail-messages.md)*
 
 1. **アクティビティ** パネルで **Mail** > **POP3** を開き、**Get POP3 Mail Messages** をワークフローにドラッグします。
 2. **プロパティ** パネルで次のように入力します。
@@ -81,12 +83,39 @@ IT 担当者に次のように依頼してください。
 | Options | **Secure Connection** | `SslOnConnect` (または `Auto`) |
 | Options | **Top** | `30` (既定) – ダウンロードする最新メールの数 |
 | Options | **Delete Messages** | **選択しないでください。** 選択すると、ダウンロードしたメールはサーバーから**完全に削除**されます。(Gmail ではセクション 2 の POP 設定が優先されます。) |
-| Output | **Messages** | 変数を作成します (例: `popMails`、型 `List<MailMessage>`) |
+| Output | **Messages** | `popMails` – **Ctrl+K** で作成します (手順 3) |
 
 ![Get POP3 Mail Messages – 設定例](/static/img/pop3-properties.png)
 
 *Gmail の場合の設定例。**Password** にはアプリ パスワードを入力し、**Delete Messages** は選択しないでください。*
 
+3. **プロパティ** パネルで、**Output** カテゴリの **Messages** ボックスをクリックし、**Ctrl+K** を押します。
+4. `popMails` と入力して **Enter** を押します。
+5. デザイナー下部の **変数** パネルを開き、次を確認します。
+   - **変数の型** が `List<MailMessage>` であること。
+   - **スコープ** が、**Get POP3 Mail Messages** と **For Each** ループの両方を含む **Sequence** であること。より小さいコンテナーが表示されている場合は、その Sequence に変更します。変更しないとループから変数を使用できません。
+
 :::tip
 **Password** の代わりに **SecurePassword** (型 `SecureString`) に入力することもできます。どちらか一方だけを入力します。
+:::
+
+---
+
+### 結果を確認する
+
+ダウンロードした各メールの件名を出力して、接続できていることを確認します。
+
+1. 取得アクティビティの下 (同じ Sequence 内) に **For Each** アクティビティをドラッグし、次のように設定します。
+   - **Foreach**: `item`
+   - **in**: `popMails`
+   - **TypeArgument** (**プロパティ** パネル): `System.Net.Mail.MailMessage`。一覧にない場合は **型の参照...** を選択し、`MailMessage` を検索します。
+2. ループの **Body** に **Log Message** アクティビティをドラッグし、**Message** に `item.Subject` を設定します。
+3. ワークフローを実行します。ダウンロードしたメールの件名が **出力** パネルに表示されます。
+
+![POP3 ワークフロー – Get POP3 Mail Messages と、Log Message を含む For Each](/static/img/workflow-pop3-log.png)
+
+*ワークフローの例: メールを `popMails` にダウンロードし、各メールの `item.Subject` をログに出力します。*
+
+:::note
+POP3 ではメールが既読になりません。実行するたびに、処理済みのメールも含めて最新のメールが再びダウンロードされます。各メールを一度だけ処理したい場合は、**Only Unread Messages** と **Mark As Read** を使用できる [IMAP](imap-configuration.md) を使用してください。
 :::

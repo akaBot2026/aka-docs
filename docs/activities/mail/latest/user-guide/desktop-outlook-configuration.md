@@ -70,14 +70,18 @@ If the options are grayed out, close Outlook, right-click the Outlook icon and c
 
 All Outlook activities are under **Mail** > **Outlook** in the **Activities** panel.
 
-### Step 3.1: Get Outlook Accounts ([`RCA.Activities.Mail.GetAccounts`](/docs/activities/mail/latest/activities/get-outlook-accounts.md))
+### Step 3.1: Get Outlook Accounts
+
+*All settings for this activity: [Get Outlook Accounts](/docs/activities/mail/latest/activities/get-outlook-accounts.md)*
 
 - **Output Account Names**: create a variable, for example `accountList` (type `String[]`).
 - Result: the email addresses of all accounts in Outlook.
 
 ---
 
-### Step 3.2: Get Outlook Mail Messages ([`RCA.Activities.Mail.GetOutlookMailMessages`](/docs/activities/mail/latest/activities/get-outlook-mail-message.md))
+### Step 3.2: Get Outlook Mail Messages
+
+*All settings for this activity: [Get Outlook Mail Messages](/docs/activities/mail/latest/activities/get-outlook-mail-message.md)*
 
 | Property | Value |
 |---|---|
@@ -86,11 +90,13 @@ All Outlook activities are under **Mail** > **Outlook** in the **Activities** pa
 | **Top** | `30` (default) – how many emails to read |
 | **Only Unread Messages** | Selected by default – clear it to also read emails you have already opened |
 | **Mark As Read** | Select to mark the emails as read |
-| **Messages** | Create a variable, for example `mailList` (type `List<MailMessage>`) |
+| **Messages** | `mailList` (type `List<MailMessage>`). Create the variable by clicking the box and pressing **Ctrl+K**; check in the **Variables** panel that its scope is the Sequence that also contains the **For Each** loop. |
 
 ---
 
-### Step 3.3: Send Outlook Mail ([`RCA.Activities.Mail.SendOutlookMail`](/docs/activities/mail/latest/activities/send-outlook-mail.md))
+### Step 3.3: Send Outlook Mail
+
+*All settings for this activity: [Send Outlook Mail](/docs/activities/mail/latest/activities/send-outlook-mail.md)*
 
 | Property | Value |
 |---|---|
@@ -103,11 +109,15 @@ All Outlook activities are under **Mail** > **Outlook** in the **Activities** pa
 
 ---
 
-### Step 3.4: Move Outlook Message ([`RCA.Activities.Mail.MoveOutlookMessage`](/docs/activities/mail/latest/activities/move-outlook-message.md))
+### Step 3.4: Move Outlook Message
+
+*All settings for this activity: [Move Outlook Message](/docs/activities/mail/latest/activities/move-outlook-message.md)*
 
 | Property | Value |
 |---|---|
 | **Mail Message** | One email, for example the current item of a **For Each** loop over `mailList` |
 | **Mail Folder** | The destination folder, for example `"Inbox\Completed"`. The folder must already exist in Outlook |
 
-![workflow-desktop-outlook-configuration](/static/img/workflow-desktop-outlook-configuration.png)
+![Outlook workflow – Get Outlook Mail Messages, then For Each with Move Outlook Message](/static/img/workflow-desktop-outlook-configuration.png)
+
+*Example workflow: read the emails into `mailList`, then move each `item` to **Inbox\Completed**.*

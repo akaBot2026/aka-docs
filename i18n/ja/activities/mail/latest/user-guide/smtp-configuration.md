@@ -61,7 +61,9 @@ Agent が Gmail、Yahoo メール、社内メール サーバーなどを通じ�
 
 ## 4. akaBot Studio に入力する
 
-### Send SMTP Mail Message ([`RCA.Activities.Mail.SendMail`](../activities/send-smtp-mail-message.md))
+### Send SMTP Mail Message
+
+*このアクティビティのすべての設定: [Send SMTP Mail Message](../activities/send-smtp-mail-message.md)*
 
 1. **アクティビティ** パネルで **Mail** > **SMTP** を開き、**Send SMTP Mail Message** をワークフローにドラッグします。
 2. **プロパティ** パネルで次のように入力します。

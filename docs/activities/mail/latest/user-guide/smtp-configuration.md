@@ -61,7 +61,9 @@ Many companies have an internal mail server ("relay") that accepts email from ap
 
 ## 4. Enter the Information in akaBot Studio
 
-### Send SMTP Mail Message ([`RCA.Activities.Mail.SendMail`](/docs/activities/mail/latest/activities/send-smtp-mail-message.md))
+### Send SMTP Mail Message
+
+*All settings for this activity: [Send SMTP Mail Message](/docs/activities/mail/latest/activities/send-smtp-mail-message.md)*
 
 1. In the **Activities** panel, open **Mail** > **SMTP** and drag **Send SMTP Mail Message** into your workflow.
 2. In the **Properties** panel, fill in:

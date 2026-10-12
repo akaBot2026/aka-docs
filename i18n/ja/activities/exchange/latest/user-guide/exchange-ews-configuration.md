@@ -59,7 +59,9 @@ displayed_sidebar: activitiesSidebar
 
 Exchange アクティビティはすべて、**アクティビティ** パネルの **Mail** > **Exchange** にあります。
 
-### ステップ 3.1: Exchange Scope ([`RCA.Activities.Mail.ExchangeScope`](../activities/exchange-scope.md))
+### ステップ 3.1: Exchange Scope
+
+*このアクティビティのすべての設定: [Exchange Scope](../activities/exchange-scope.md)*
 
 Exchange スコープはメールボックスに**一度だけ**接続します。スコープ内に配置したすべての Exchange アクティビティがその接続を使用します。
 
@@ -79,25 +81,33 @@ Exchange スコープはメールボックスに**一度だけ**接続します�
 
 次のアクティビティを **Exchange Scope** の **Do** 領域に配置します。各アクティビティの **Connection** と **Logon** プロパティは**空**のままにします。スコープの接続が使用されます。
 
-#### A. Get Exchange Mail Messages ([`RCA.Activities.Mail.GetExchangeMailMessages`](../activities/get-exchange-email-messages.md))
+#### A. Get Exchange Mail Messages
+
+*このアクティビティのすべての設定: [Get Exchange Mail Messages](../activities/get-exchange-email-messages.md)*
 
 - **Mail Folder**: `"Inbox"` (既定)
 - **Top**: `30` (既定)
 - **Only Unread Messages**: 既定で選択
-- **Messages**: 変数を作成します (例: `exchangeMails`、型 `List<MailMessage>`)
+- **Messages**: `exchangeMails` (型 `List<MailMessage>`)。変数はボックスをクリックして **Ctrl+K** を押して作成します。**変数** パネルで、スコープが **For Each** ループも含む Sequence であることを確認します。
 
-#### B. Send Exchange Mail ([`RCA.Activities.Mail.SendExchangeMail`](../activities/send-exchange-mail.md))
+#### B. Send Exchange Mail
+
+*このアクティビティのすべての設定: [Send Exchange Mail](../activities/send-exchange-mail.md)*
 
 - **To** (必須): `"client@example.com"`
 - **Subject**: `"Invoice Notification"`
 - **Body**: `"Please find the invoice attached."`
 
-#### C. Move Message To Another Folder ([`RCA.Activities.Mail.MoveMessageToFolder`](../activities/move-message-to-another-folder.md))
+#### C. Move Message To Another Folder
+
+*このアクティビティのすべての設定: [Move Message To Another Folder](../activities/move-message-to-another-folder.md)*
 
 - **Mail Message**: 1 通のメール (例: `exchangeMails` を対象とする **For Each** ループの現在の項目)
 - **Mail Folder**: 移動先フォルダー (例: `"Processed"`)
 
-#### D. Delete Exchange Mail Message ([`RCA.Activities.Mail.DeleteExchangeMailMessage`](../activities/delete-exchange-mail-message.md))
+#### D. Delete Exchange Mail Message
+
+*このアクティビティのすべての設定: [Delete Exchange Mail Message](../activities/delete-exchange-mail-message.md)*
 
 - **Mail Message**: 削除する 1 通のメール
 - **Delete Mode**:
@@ -111,4 +121,6 @@ Exchange スコープはメールボックスに**一度だけ**接続します�
 > - リスト全体ではなく、1 通のメール (ループの現在の項目) を指定します。
 > - 同じメールに対しては **Move** と **Delete** のどちらか一方を使用します。メールを移動した後に、元の変数で削除しようとすると失敗します。
 
-![workflow-mail-exchange](/static/img/workflow-mail-exchange.png)
+![Exchange ワークフロー – Get Exchange Mail Messages と Move Message To Another Folder を含む Exchange Scope](/static/img/workflow-mail-exchange.png)
+
+*ワークフローの例: **Exchange Scope** 内でメールを `exchangeMails` に取得し、各 `item` を **Processed** に移動します。スコープ内のアクティビティの **Connection** と **Logon** は空のままです。*
