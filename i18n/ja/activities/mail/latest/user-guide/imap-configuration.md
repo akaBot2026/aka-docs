@@ -73,6 +73,13 @@ Gmail では、akaBot Agent などのアプリから通常のパスワードを�
 
    *アプリ パスワードは一度しか表示されません。**完了** をクリックする前にコピーしてください。*
 
+**C. 移動先フォルダー (ラベル) を作成する**
+
+ステップ 4.2 ではメールを `Processed` フォルダーに移動します。このフォルダーはワークフローの実行前に存在している必要があります。Gmail ではフォルダーを **ラベル** と呼びます。
+
+1. Gmail の左側のメニューで、**ラベル** の横にある **+** をクリックします。
+2. `Processed` と入力し、**作成** をクリックします。
+
 ### 社内メール サーバー
 
 サーバーは IT 担当者が管理しています。次のように依頼してください。
@@ -98,7 +105,9 @@ Gmail では、akaBot Agent などのアプリから通常のパスワードを�
 
 ## 4. akaBot Studio に入力する
 
-### ステップ 4.1: Get IMAP Mail Messages ([`RCA.Activities.Mail.GetIMAPMailMessages`](../activities/get-imap-mail-messages.md))
+### ステップ 4.1: Get IMAP Mail Messages
+
+*このアクティビティのすべての設定: [Get IMAP Mail Messages](../activities/get-imap-mail-messages.md)*
 
 1. **アクティビティ** パネルで **Mail** > **IMAP** を開き、**Get IMAP Mail Messages** をワークフローにドラッグします。
 2. **プロパティ** パネルで次のように入力します。
@@ -115,11 +124,17 @@ Gmail では、akaBot Agent などのアプリから通常のパスワードを�
 | Options | **Only Unread Messages** | 既定で選択 – 既読のメールも読む場合は選択を外します |
 | Options | **Mark As Read** | 読み取ったメールを既読にする場合に選択します |
 | Options | **Delete Messages** | **選択しないでください。** 選択すると、読み取ったメールはサーバーから**完全に削除**されます |
-| Output | **Messages** | 変数を作成します (例: `imapMails`、型 `List<MailMessage>`) |
+| Output | **Messages** | `imapMails` – **Ctrl+K** で作成します (手順 3) |
 
 ![Get IMAP Mail Messages – 設定例](/static/img/imap-properties.png)
 
 *Gmail の場合の **プロパティ** パネルの設定例。*
+
+3. **プロパティ** パネルで、**Output** カテゴリの **Messages** ボックスをクリックし、**Ctrl+K** を押します。
+4. `imapMails` と入力して **Enter** を押します。
+5. デザイナー下部の **変数** パネルを開き、次を確認します。
+   - **変数の型** が `List<MailMessage>` であること。
+   - **スコープ** が、**Get IMAP Mail Messages** と **For Each** ループの両方を含む **Sequence** であること。より小さいコンテナーが表示されている場合は、その Sequence に変更します。変更しないとループから変数を使用できません。
 
 :::tip
 パスワードを保護するために、**Password** の代わりに **SecurePassword** (型 `SecureString`) に入力することもできます。どちらか一方だけを入力します。
@@ -127,10 +142,15 @@ Gmail では、akaBot Agent などのアプリから通常のパスワードを�
 
 ---
 
-### ステップ 4.2: Move IMAP Mail Message To Another Folder ([`RCA.Activities.Mail.MoveIMAPMailMessageToFolder`](../activities/move-imap-message-to-another-folder.md))
+### ステップ 4.2: Move IMAP Mail Message To Another Folder
 
-1. `imapMails` を対象とする **For Each** ループを追加します。
-2. ループ内に **Move IMAP Mail Message To Another Folder** をドラッグします。
+*このアクティビティのすべての設定: [Move IMAP Mail Message To Another Folder](../activities/move-imap-message-to-another-folder.md)*
+
+1. 取得アクティビティの下 (同じ Sequence 内) に **For Each** アクティビティをドラッグし、次のように設定します。
+   - **Foreach**: `item`
+   - **in**: `imapMails`
+   - **TypeArgument** (**プロパティ** パネル): `System.Net.Mail.MailMessage`。一覧にない場合は **型の参照...** を選択し、`MailMessage` を検索します。
+2. ループの **Body** に **Move IMAP Mail Message To Another Folder** をドラッグします。
 3. 次のように入力します。
    - **Server**、**Port**、**Email**、**Password**: ステップ 4.1 と同じ値。
    - **Mail Message**: ループの現在の項目 (例: `item`)。
@@ -139,3 +159,13 @@ Gmail では、akaBot Agent などのアプリから通常のパスワードを�
 ![Move IMAP Mail Message To Another Folder を含む For Each ループ](/static/img/workflow-imap-move.png)
 
 *`imapMails` の各メールを **Processed** フォルダーに移動します。*
+
+---
+
+### ステップ 4.3: 結果を確認する
+
+1. ワークフローを実行します。
+2. Gmail で **Processed** ラベルを開きます。Agent が読み取ったメールが表示されます。
+3. **受信トレイ** を開きます。それらのメールは受信トレイから消えています。
+
+何も移動されない場合は、**Only Unread Messages** の設定がテスト用メールに合っているか (既定では未読メールのみ読み取ります)、`Processed` ラベルが存在するかを確認してください。

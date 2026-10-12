@@ -37,19 +37,21 @@ Agent がメールを読み取った後、次のことができます。
 ### ステップ 2.1: メールを読み取る
 
 1. 任意の取得アクティビティ (例: **Get Outlook Mail Messages**) を追加します。
-2. その **Messages** 出力に変数 (例: `mailList`) を作成します。
+2. その **Messages** 出力のボックスをクリックし、**Ctrl+K** を押して `mailList` と入力します。**変数** パネルで、型が `List<MailMessage>` で、スコープが **For Each** ループも含む Sequence であることを確認します。
 
 ---
 
 ### ステップ 2.2: メールを 1 通ずつ処理する
 
 1. 取得アクティビティの下に **For Each** アクティビティをドラッグします。
-2. **Values** に `mailList` と入力します。
+2. **Foreach** に `item`、**in** に `mailList` を設定します。
 3. **プロパティ** パネルで **TypeArgument** を `System.Net.Mail.MailMessage` に設定します。一覧にない場合は **型の参照...** をクリックし、`MailMessage` を検索します。
 
 ---
 
-### ステップ 2.3: Save Mail ([`RCA.Activities.Mail.SaveMail`](../activities/save-mail.md))
+### ステップ 2.3: Save Mail
+
+*このアクティビティのすべての設定: [Save Mail](../activities/save-mail.md)*
 
 1. **Save Mail** を For Each ループの **Body** にドラッグします。
 2. 次のように入力します。
@@ -68,7 +70,9 @@ Agent がメールを読み取った後、次のことができます。
 
 ---
 
-### ステップ 2.4: Save Mail Attachments ([`RCA.Activities.Mail.SaveMailAttachments`](../activities/save-mail-attachments.md))
+### ステップ 2.4: Save Mail Attachments
+
+*このアクティビティのすべての設定: [Save Mail Attachments](../activities/save-mail-attachments.md)*
 
 1. **Save Mail Attachments** を For Each ループの **Body** にドラッグします。
 2. 次のように入力します。
@@ -80,3 +84,11 @@ Agent がメールを読み取った後、次のことができます。
 
      *(`(?i)` を付けると大文字と小文字を区別しないため、`INVOICE.PDF` も一致します。)*
    - **Attachments** (出力、任意): 保存されたファイルのパスを受け取る `IEnumerable<String>` 型の変数。
+
+---
+
+### 完成したワークフロー
+
+![ワークフロー – Get Outlook Mail Messages と、Save Mail および Save Mail Attachments を含む For Each](/static/img/workflow-save-mail.png)
+
+*ワークフローの例: メールを `mailList` に取得し、各 `item` について、メールを `.eml` ファイルとして保存し、PDF の添付ファイルを保存します。*

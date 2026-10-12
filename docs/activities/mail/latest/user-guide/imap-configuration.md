@@ -73,6 +73,13 @@ Gmail does not accept your normal password from apps such as the akaBot Agent. C
 
    *The App Password is shown only once. Copy it before you click **Done**.*
 
+**C. Create the destination folder (label)**
+
+Step 4.2 moves emails to a folder named `Processed`, which must exist before the workflow runs. In Gmail, folders are called **labels**:
+
+1. In Gmail, click **+** next to **Labels** in the left menu.
+2. Type `Processed` and click **Create**.
+
 ### Company mail server
 
 Your IT team manages the server. Send them this request:
@@ -98,7 +105,9 @@ Turn on IMAP access and create an App Password in your account's security settin
 
 ## 4. Enter the Information in akaBot Studio
 
-### Step 4.1: Get IMAP Mail Messages ([`RCA.Activities.Mail.GetIMAPMailMessages`](/docs/activities/mail/latest/activities/get-imap-mail-messages.md))
+### Step 4.1: Get IMAP Mail Messages
+
+*All settings for this activity: [Get IMAP Mail Messages](/docs/activities/mail/latest/activities/get-imap-mail-messages.md)*
 
 1. In the **Activities** panel, open **Mail** > **IMAP** and drag **Get IMAP Mail Messages** into your workflow.
 2. In the **Properties** panel, fill in:
@@ -115,11 +124,17 @@ Turn on IMAP access and create an App Password in your account's security settin
 | Options | **Only Unread Messages** | Selected by default – clear it to also read emails you have already opened |
 | Options | **Mark As Read** | Select to mark the emails as read after reading |
 | Options | **Delete Messages** | **Leave cleared.** If selected, the emails are **permanently deleted** from the server after they are read |
-| Output | **Messages** | Create a variable, for example `imapMails` (type `List<MailMessage>`) |
+| Output | **Messages** | `imapMails` – create it with **Ctrl+K** (step 3) |
 
 ![Get IMAP Mail Messages – example settings](/static/img/imap-properties.png)
 
 *Example settings for Gmail in the **Properties** panel.*
+
+3. In the **Properties** panel, click the **Messages** box (in the **Output** category) and press **Ctrl+K**.
+4. Type `imapMails` and press **Enter**.
+5. Open the **Variables** panel at the bottom of the designer and check:
+   - **Variable type** is `List<MailMessage>`.
+   - **Scope** is the **Sequence** that contains both **Get IMAP Mail Messages** and the **For Each** loop. If it shows a smaller container, change it to that Sequence – otherwise the loop cannot use the variable.
 
 :::tip
 To protect the password, you can enter it in **SecurePassword** (type `SecureString`) instead of **Password**. Fill in only one of them.
@@ -127,10 +142,15 @@ To protect the password, you can enter it in **SecurePassword** (type `SecureStr
 
 ---
 
-### Step 4.2: Move IMAP Mail Message To Another Folder ([`RCA.Activities.Mail.MoveIMAPMailMessageToFolder`](/docs/activities/mail/latest/activities/move-imap-message-to-another-folder.md))
+### Step 4.2: Move IMAP Mail Message To Another Folder
 
-1. Add a **For Each** loop over `imapMails`.
-2. Drag **Move IMAP Mail Message To Another Folder** inside the loop.
+*All settings for this activity: [Move IMAP Mail Message To Another Folder](/docs/activities/mail/latest/activities/move-imap-message-to-another-folder.md)*
+
+1. Drag a **For Each** activity below the Get activity (inside the same Sequence) and set:
+   - **Foreach**: `item`
+   - **in**: `imapMails`
+   - **TypeArgument** (in the **Properties** panel): `System.Net.Mail.MailMessage`. If it is not in the list, choose **Browse for Types...** and search for `MailMessage`.
+2. Drag **Move IMAP Mail Message To Another Folder** into the **Body** of the loop.
 3. Fill in:
    - **Server**, **Port**, **Email**, **Password**: the same values as in Step 4.1.
    - **Mail Message**: the current loop item, for example `item`.
@@ -139,3 +159,13 @@ To protect the password, you can enter it in **SecurePassword** (type `SecureStr
 ![For Each loop with Move IMAP Mail Message To Another Folder](/static/img/workflow-imap-move.png)
 
 *Each email in `imapMails` is moved to the **Processed** folder.*
+
+---
+
+### Step 4.3: Check the Result
+
+1. Run the workflow.
+2. In Gmail, open the **Processed** label. The emails the Agent read should be there.
+3. Open the **Inbox**. Those emails should no longer be in it.
+
+If nothing was moved, check that **Only Unread Messages** matches your test emails (by default only unread emails are read) and that the `Processed` label exists.

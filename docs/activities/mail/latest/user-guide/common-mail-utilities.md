@@ -37,19 +37,21 @@ Reading emails from your company's own **Exchange Server**? Set up **Get Exchang
 ### Step 2.1: Read the Emails
 
 1. Add any Get activity, for example **Get Outlook Mail Messages**.
-2. In its **Messages** output, create a variable, for example `mailList`.
+2. In its **Messages** output, click the box, press **Ctrl+K** and type `mailList`. In the **Variables** panel, check that the type is `List<MailMessage>` and the scope is the Sequence that also contains the **For Each** loop.
 
 ---
 
 ### Step 2.2: Loop Through the Emails
 
 1. Drag a **For Each** activity below the Get activity.
-2. In **Values**, enter `mailList`.
+2. Set **Foreach** to `item` and **in** to `mailList`.
 3. In the **Properties** panel, set **TypeArgument** to `System.Net.Mail.MailMessage`. If it is not in the list, click **Browse for Types...** and search for `MailMessage`.
 
 ---
 
-### Step 2.3: Save Mail ([`RCA.Activities.Mail.SaveMail`](/docs/activities/mail/latest/activities/save-mail.md))
+### Step 2.3: Save Mail
+
+*All settings for this activity: [Save Mail](/docs/activities/mail/latest/activities/save-mail.md)*
 
 1. Drag **Save Mail** into the **Body** of the For Each loop.
 2. Fill in:
@@ -68,7 +70,9 @@ Reading emails from your company's own **Exchange Server**? Set up **Get Exchang
 
 ---
 
-### Step 2.4: Save Mail Attachments ([`RCA.Activities.Mail.SaveMailAttachments`](/docs/activities/mail/latest/activities/save-mail-attachments.md))
+### Step 2.4: Save Mail Attachments
+
+*All settings for this activity: [Save Mail Attachments](/docs/activities/mail/latest/activities/save-mail-attachments.md)*
 
 1. Drag **Save Mail Attachments** into the **Body** of the For Each loop.
 2. Fill in:
@@ -80,3 +84,11 @@ Reading emails from your company's own **Exchange Server**? Set up **Get Exchang
 
      *(`(?i)` makes the filter ignore upper/lower case, so `INVOICE.PDF` also matches.)*
    - **Attachments** (output, optional): a variable of type `IEnumerable<String>` that receives the paths of the saved files.
+
+---
+
+### Complete Workflow
+
+![Workflow – Get Outlook Mail Messages, then For Each with Save Mail and Save Mail Attachments](/static/img/workflow-save-mail.png)
+
+*Example workflow: read the emails into `mailList`, then for each `item` save the email as an `.eml` file and save its PDF attachments.*

@@ -59,7 +59,9 @@ If this does not work, send your IT team this request:
 
 All Exchange activities are under **Mail** > **Exchange** in the **Activities** panel.
 
-### Step 3.1: Exchange Scope ([`RCA.Activities.Mail.ExchangeScope`](/docs/activities/exchange/latest/activities/exchange-scope.md))
+### Step 3.1: Exchange Scope
+
+*All settings for this activity: [Exchange Scope](/docs/activities/exchange/latest/activities/exchange-scope.md)*
 
 Exchange Scope connects to the mailbox **once**. Every Exchange activity placed inside it uses that connection.
 
@@ -79,25 +81,33 @@ Exchange Scope connects to the mailbox **once**. Every Exchange activity placed 
 
 Place the following activities in the **Do** area of **Exchange Scope**. Leave their **Connection** and **Logon** properties **empty** – they use the scope's connection.
 
-#### A. Get Exchange Mail Messages ([`RCA.Activities.Mail.GetExchangeMailMessages`](/docs/activities/exchange/latest/activities/get-exchange-email-messages.md))
+#### A. Get Exchange Mail Messages
+
+*All settings for this activity: [Get Exchange Mail Messages](/docs/activities/exchange/latest/activities/get-exchange-email-messages.md)*
 
 - **Mail Folder**: `"Inbox"` (default)
 - **Top**: `30` (default)
 - **Only Unread Messages**: selected by default
-- **Messages**: create a variable, for example `exchangeMails` (type `List<MailMessage>`)
+- **Messages**: `exchangeMails` (type `List<MailMessage>`). Create the variable by clicking the box and pressing **Ctrl+K**; check in the **Variables** panel that its scope is the Sequence that also contains the **For Each** loop.
 
-#### B. Send Exchange Mail ([`RCA.Activities.Mail.SendExchangeMail`](/docs/activities/exchange/latest/activities/send-exchange-mail.md))
+#### B. Send Exchange Mail
+
+*All settings for this activity: [Send Exchange Mail](/docs/activities/exchange/latest/activities/send-exchange-mail.md)*
 
 - **To** (required): `"client@example.com"`
 - **Subject**: `"Invoice Notification"`
 - **Body**: `"Please find the invoice attached."`
 
-#### C. Move Message To Another Folder ([`RCA.Activities.Mail.MoveMessageToFolder`](/docs/activities/exchange/latest/activities/move-message-to-another-folder.md))
+#### C. Move Message To Another Folder
+
+*All settings for this activity: [Move Message To Another Folder](/docs/activities/exchange/latest/activities/move-message-to-another-folder.md)*
 
 - **Mail Message**: one email, for example the current item of a **For Each** loop over `exchangeMails`
 - **Mail Folder**: the destination folder, for example `"Processed"`
 
-#### D. Delete Exchange Mail Message ([`RCA.Activities.Mail.DeleteExchangeMailMessage`](/docs/activities/exchange/latest/activities/delete-exchange-mail-message.md))
+#### D. Delete Exchange Mail Message
+
+*All settings for this activity: [Delete Exchange Mail Message](/docs/activities/exchange/latest/activities/delete-exchange-mail-message.md)*
 
 - **Mail Message**: one email to delete
 - **Delete Mode**:
@@ -111,4 +121,6 @@ Place the following activities in the **Do** area of **Exchange Scope**. Leave t
 > - Use one email (the current loop item), not the whole list.
 > - Use **Move** *or* **Delete** on the same email, not both. After an email is moved, deleting it with the old variable fails.
 
-![workflow-mail-exchange](/static/img/workflow-mail-exchange.png)
+![Exchange workflow – Exchange Scope with Get Exchange Mail Messages and For Each with Move Message To Another Folder](/static/img/workflow-mail-exchange.png)
+
+*Example workflow: inside **Exchange Scope**, read the emails into `exchangeMails`, then move each `item` to **Processed**. The activities inside the scope leave **Connection** and **Logon** empty.*

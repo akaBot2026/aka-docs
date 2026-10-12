@@ -70,14 +70,18 @@ Outlook に「*プログラムが、電子メール アドレス情報にアク�
 
 Outlook アクティビティはすべて、**アクティビティ** パネルの **Mail** > **Outlook** にあります。
 
-### ステップ 3.1: Get Outlook Accounts ([`RCA.Activities.Mail.GetAccounts`](../activities/get-outlook-accounts.md))
+### ステップ 3.1: Get Outlook Accounts
+
+*このアクティビティのすべての設定: [Get Outlook Accounts](../activities/get-outlook-accounts.md)*
 
 - **Output Account Names**: 変数を作成します (例: `accountList`、型 `String[]`)。
 - 結果: Outlook に設定されているすべてのアカウントのメール アドレス。
 
 ---
 
-### ステップ 3.2: Get Outlook Mail Messages ([`RCA.Activities.Mail.GetOutlookMailMessages`](../activities/get-outlook-mail-message.md))
+### ステップ 3.2: Get Outlook Mail Messages
+
+*このアクティビティのすべての設定: [Get Outlook Mail Messages](../activities/get-outlook-mail-message.md)*
 
 | プロパティ | 値 |
 |---|---|
@@ -86,11 +90,13 @@ Outlook アクティビティはすべて、**アクティビティ** パネル�
 | **Top** | `30` (既定) – 読み取るメールの数 |
 | **Only Unread Messages** | 既定で選択 – 既読のメールも読む場合は選択を外します |
 | **Mark As Read** | 読み取ったメールを既読にする場合に選択します |
-| **Messages** | 変数を作成します (例: `mailList`、型 `List<MailMessage>`) |
+| **Messages** | `mailList` (型 `List<MailMessage>`)。変数はボックスをクリックして **Ctrl+K** を押して作成します。**変数** パネルで、スコープが **For Each** ループも含む Sequence であることを確認します。 |
 
 ---
 
-### ステップ 3.3: Send Outlook Mail ([`RCA.Activities.Mail.SendOutlookMail`](../activities/send-outlook-mail.md))
+### ステップ 3.3: Send Outlook Mail
+
+*このアクティビティのすべての設定: [Send Outlook Mail](../activities/send-outlook-mail.md)*
 
 | プロパティ | 値 |
 |---|---|
@@ -103,11 +109,15 @@ Outlook アクティビティはすべて、**アクティビティ** パネル�
 
 ---
 
-### ステップ 3.4: Move Outlook Message ([`RCA.Activities.Mail.MoveOutlookMessage`](../activities/move-outlook-message.md))
+### ステップ 3.4: Move Outlook Message
+
+*このアクティビティのすべての設定: [Move Outlook Message](../activities/move-outlook-message.md)*
 
 | プロパティ | 値 |
 |---|---|
 | **Mail Message** | 1 通のメール (例: `mailList` を対象とする **For Each** ループの現在の項目) |
 | **Mail Folder** | 移動先フォルダー (例: `"Inbox\Completed"`)。フォルダーは Outlook にあらかじめ存在している必要があります |
 
-![workflow-desktop-outlook-configuration](/static/img/workflow-desktop-outlook-configuration.png)
+![Outlook ワークフロー – Get Outlook Mail Messages と、Move Outlook Message を含む For Each](/static/img/workflow-desktop-outlook-configuration.png)
+
+*ワークフローの例: メールを `mailList` に取得し、各 `item` を **Inbox\Completed** に移動します。*
