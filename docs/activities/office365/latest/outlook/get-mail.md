@@ -14,6 +14,8 @@ RCA.Activities.Office365.GetMail
 
 The Get Mail activity retrieves emails from a specified folder in Microsoft Office 365 Outlook.
 
+![get-mail-office.png](/static/img/get-mail-office.png)
+
 :::note
 This activity must be placed inside the **Do** block of [Office 365 Application Scope](/docs/activities/office365/latest/office365-application-scope.md) with the `Mail` service selected. See [Connecting to Office 365](/docs/activities/office365/latest/azure-app-registration.md) for how to set up authentication and permissions.
 :::

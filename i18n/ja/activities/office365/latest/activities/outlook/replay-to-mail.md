@@ -14,6 +14,8 @@ RCA.Activities.Office365.ReplyToMail
 
 Microsoft Office 365 Outlook で既存のメール メッセージに返信します。(akaBot Studio では "Replay To Mail" と表示されます。)
 
+![replay-to-mail-office.png](/static/img/replay-to-mail-office.png)
+
 :::note
 このアクティビティは、`Mail` サービスを選択した [Office 365 アプリケーション スコープ](../../office365-application-scope.md) の **Do** ブロック内に配置する必要があります。認証とアクセス許可の設定方法は [Office 365 への接続](../../azure-app-registration.md) を参照してください。
 :::
@@ -41,7 +43,7 @@ Microsoft Office 365 Outlook で既存のメール メッセージに返信し�
 **受信者**
 
 * **宛先を追加 (String[])** - 返信に追加する主な受信者のメール アドレス。
-  例: {"colleague@example.com"}
+  例: `{"colleague@example.com"}`
 * **CC を追加 (String[])** - 返信に追加する CC 受信者のメール アドレス。
 * **BCC を追加 (String[])** - 返信に追加する BCC 受信者のメール アドレス。
 

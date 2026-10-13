@@ -63,7 +63,7 @@ Reading emails from your company's own **Exchange Server**? Set up **Get Exchang
      ```
 
 :::caution
-- The folder (`C:\ArchivedEmails` in the example) must **already exist**, otherwise the activity fails. Add a **Create Folder** activity before the loop if needed.
+- The folder (`C:\ArchivedEmails` in the example) must **already exist**, otherwise the activity fails. Add an activity that creates the folder before the loop if needed, or create it manually.
 - A file with the same name is overwritten.
 - If you put the email subject in the file name, characters such as `\ / : * ? " < > |` make the activity fail. The example above uses the date and time instead.
 :::
@@ -89,6 +89,6 @@ Reading emails from your company's own **Exchange Server**? Set up **Get Exchang
 
 ### Complete Workflow
 
-![Workflow – Get Outlook Mail Messages, then For Each with Save Mail and Save Mail Attachments](/static/img/workflow-save-mail.png)
+![Workflow – Get Outlook Mail Messages, then For Each with Save Mail and Save Mail Attachments](/static/img/workflow-save-mail-attachments.png)
 
-*Example workflow: read the emails into `mailList`, then for each `item` save the email as an `.eml` file and save its PDF attachments.*
+*Example workflow: read the emails into `mailList`, create the folder, then for each `item` save the email as an `.eml` file and save its attachments.*

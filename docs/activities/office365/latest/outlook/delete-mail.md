@@ -14,6 +14,8 @@ RCA.Activities.Office365.DeleteMail
 
 The Delete Mail activity deletes a specified email message from Microsoft Office 365 Outlook.
 
+![delete-mail-office.png](/static/img/delete-mail-office.png)
+
 :::note
 This activity must be placed inside the **Do** block of [Office 365 Application Scope](/docs/activities/office365/latest/office365-application-scope.md) with the `Mail` service selected. See [Connecting to Office 365](/docs/activities/office365/latest/azure-app-registration.md) for how to set up authentication and permissions.
 :::

@@ -63,7 +63,7 @@ Agent がメールを読み取った後、次のことができます。
      ```
 
 :::caution
-- フォルダー (例では `C:\ArchivedEmails`) は**あらかじめ存在している**必要があります。存在しない場合、アクティビティは失敗します。必要に応じて、ループの前にフォルダーを作成するアクティビティを追加してください。
+- フォルダー (例では `C:\ArchivedEmails`) は**あらかじめ存在している**必要があります。存在しない場合、アクティビティは失敗します。必要に応じて、ループの前にフォルダーを作成するアクティビティを追加するか、手動で作成してください。
 - 同じ名前のファイルは上書きされます。
 - ファイル名にメールの件名を使う場合、`\ / : * ? " < > |` などの文字が含まれるとアクティビティが失敗します。上の例では件名の代わりに日時を使用しています。
 :::
@@ -89,6 +89,6 @@ Agent がメールを読み取った後、次のことができます。
 
 ### 完成したワークフロー
 
-![ワークフロー – Get Outlook Mail Messages と、Save Mail および Save Mail Attachments を含む For Each](/static/img/workflow-save-mail.png)
+![ワークフロー – Get Outlook Mail Messages、および Save Mail と Save Mail Attachments を含む For Each](/static/img/workflow-save-mail-attachments.png)
 
-*ワークフローの例: メールを `mailList` に取得し、各 `item` について、メールを `.eml` ファイルとして保存し、PDF の添付ファイルを保存します。*
+*ワークフローの例: メールを `mailList` に取得し、フォルダーを作成してから、各 `item` について、メールを `.eml` ファイルとして保存し、添付ファイルを保存します。*

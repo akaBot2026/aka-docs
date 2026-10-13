@@ -14,6 +14,8 @@ RCA.Activities.Office365.MoveMail
 
 Microsoft Office 365 Outlook でメール メッセージを指定したフォルダーに移動します。
 
+![move-mail-office.png](/static/img/move-mail-office.png)
+
 :::note
 このアクティビティは、`Mail` サービスを選択した [Office 365 アプリケーション スコープ](../../office365-application-scope.md) の **Do** ブロック内に配置する必要があります。認証とアクセス許可の設定方法は [Office 365 への接続](../../azure-app-registration.md) を参照してください。
 :::
