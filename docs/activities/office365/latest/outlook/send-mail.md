@@ -14,6 +14,8 @@ RCA.Activities.Office365.SendMail
 
 The Send Mail activity allows you to send an email message using Microsoft Office 365 Outlook.
 
+![send-mail-office.png](/static/img/send-mail-office.png)
+
 :::note
 This activity must be placed inside the **Do** block of [Office 365 Application Scope](/docs/activities/office365/latest/office365-application-scope.md) with the `Mail` service selected. See [Connecting to Office 365](/docs/activities/office365/latest/azure-app-registration.md) for how to set up authentication and permissions.
 :::
@@ -47,17 +49,17 @@ This activity must be placed inside the **Do** block of [Office 365 Application 
 **Recipients**
 
 * **To (String[])** - An array of email addresses for the primary recipients. At least one recipient must be set in **To**, **Cc** or **Bcc**.  
-  E.g: {"receiver@example.com"}
+  E.g: `{"receiver@example.com"}`
 * **Cc (String[])** - An array of email addresses for the secondary recipients (Carbon Copy).  
-  E.g: {"manager@example.com"}
+  E.g: `{"manager@example.com"}`
 * **Bcc (String[])** - An array of email addresses for hidden recipients (Blind Carbon Copy).  
-  E.g: {"audit@example.com"}
+  E.g: `{"audit@example.com"}`
 
 **Attachments**
 
 * **Attachments (`List<String>`)** - A list of file paths to attach to the email.
 * **Attachments Collection (`IEnumerable<String>`)** - An IEnumerable collection of file paths representing the attachments to send with the email.  
-  E.g: {"C:\Reports\MonthlyReport.xlsx"}
+  E.g: `{"C:\Reports\MonthlyReport.xlsx"}`
 
 **Options**
 

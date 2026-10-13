@@ -14,6 +14,8 @@ RCA.Activities.Office365.SendMail
 
 Microsoft Office 365 Outlook を使用してメール メッセージを送信します。
 
+![send-mail-office.png](/static/img/send-mail-office.png)
+
 :::note
 このアクティビティは、`Mail` サービスを選択した [Office 365 アプリケーション スコープ](../../office365-application-scope.md) の **Do** ブロック内に配置する必要があります。認証とアクセス許可の設定方法は [Office 365 への接続](../../azure-app-registration.md) を参照してください。
 :::
@@ -47,17 +49,17 @@ Microsoft Office 365 Outlook を使用してメール メッセージを送信�
 **受信者**
 
 * **宛先 (String[])** - 主な受信者のメール アドレスの配列。**宛先**、**Cc**、**Bcc** のいずれかに少なくとも 1 人の受信者を指定する必要があります。
-  例: {"receiver@example.com"}
+  例: `{"receiver@example.com"}`
 * **Cc (String[])** - CC 受信者のメール アドレスの配列。
-  例: {"manager@example.com"}
+  例: `{"manager@example.com"}`
 * **Bcc (String[])** - BCC 受信者のメール アドレスの配列。
-  例: {"audit@example.com"}
+  例: `{"audit@example.com"}`
 
 **添付ファイル**
 
 * **添付ファイル (`List<String>`)** - 添付するファイル パスの一覧。
 * **添付ファイル コレクション (`IEnumerable<String>`)** - 添付するファイル パスのコレクション。
-  例: {"C:\Reports\MonthlyReport.xlsx"}
+  例: `{"C:\Reports\MonthlyReport.xlsx"}`
 
 **オプション**
 

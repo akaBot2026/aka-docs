@@ -62,6 +62,10 @@ Outlook may show *"A program is trying to access email address information..."* 
    - **Invalid** or not shown: select **Never warn me about suspicious activity (not recommended)**.
 4. Click **OK** twice.
 
+![Outlook Options > Trust Center > Trust Center Settings > Programmatic Access](/static/img/desktop-outlook-programmatic-access.png)
+
+*Example: Antivirus status is **Valid** and the recommended option is selected.*
+
 If the options are grayed out, close Outlook, right-click the Outlook icon and choose **Run as administrator**, then try again. If they are still grayed out, the setting is controlled by your company – ask your IT team.
 
 ---

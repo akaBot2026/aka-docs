@@ -14,6 +14,8 @@ RCA.Activities.Office365.ReplyToMail
 
 The Replay To Mail activity replies to an existing email message in Microsoft Office 365 Outlook.
 
+![replay-to-mail-office.png](/static/img/replay-to-mail-office.png)
+
 :::note
 This activity must be placed inside the **Do** block of [Office 365 Application Scope](/docs/activities/office365/latest/office365-application-scope.md) with the `Mail` service selected. See [Connecting to Office 365](/docs/activities/office365/latest/azure-app-registration.md) for how to set up authentication and permissions.
 :::
@@ -41,7 +43,7 @@ This activity must be placed inside the **Do** block of [Office 365 Application 
 **Recipients**
 
 * **Add To (String[])** - Additional primary recipient email addresses to add to the reply.  
-  E.g: {"colleague@example.com"}
+  E.g: `{"colleague@example.com"}`
 * **Add CC (String[])** - Additional CC recipient email addresses to add to the reply.
 * **Add BCC (String[])** - Additional BCC recipient email addresses to add to the reply.
 

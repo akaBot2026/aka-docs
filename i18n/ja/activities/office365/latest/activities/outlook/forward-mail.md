@@ -14,6 +14,8 @@ RCA.Activities.Office365.ForwardMail
 
 Microsoft Office 365 Outlook を使用して、既存のメール メッセージを 1 人以上の受信者に転送します。
 
+![forward-mail-office.png](/static/img/forward-mail-office.png)
+
 :::note
 このアクティビティは、`Mail` サービスを選択した [Office 365 アプリケーション スコープ](../../office365-application-scope.md) の **Do** ブロック内に配置する必要があります。認証とアクセス許可の設定方法は [Office 365 への接続](../../azure-app-registration.md) を参照してください。
 :::
@@ -44,7 +46,7 @@ Microsoft Office 365 Outlook を使用して、既存のメール メッセー�
 **受信者**
 
 * **宛先 (String[])**\* - 主な受信者のメール アドレスの配列。
-  例: {"teammate@example.com"}
+  例: `{"teammate@example.com"}`
 * **CC (String[])** - CC 受信者のメール アドレスの配列。
 * **BCC (String[])** - BCC 受信者のメール アドレスの配列。
 
