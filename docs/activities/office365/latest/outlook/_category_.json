@@ -1,0 +1,9 @@
+{
+  "label": "Outlook",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index"
+  }
+}

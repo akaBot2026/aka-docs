@@ -18,6 +18,8 @@ Exchange に接続し、他の Exchange アクティビティのスコープを�
 
 （\*必須）
 
+**注意:** このアクティビティは基本認証（Basic Authentication）を使用した **Exchange Web Services (EWS)** を介して接続し、主に**オンプレミスの Exchange Server** を対象として設計されています。Microsoft 365 または Exchange Online のメールボックスに接続する場合は、代わりに **Office 365** アクティビティパッケージを使用してください。
+
 ## **プロパティ**
 
 **既存の接続**
@@ -37,6 +39,13 @@ Exchange に接続し、他の Exchange アクティビティのスコープを�
 例：交流活動の範囲
 
 **新しい接続**
+
+**注意:** 接続方法は次の 2 つから選択します:
+
+* **Autodiscover** - **Email Auto discover**（電子メール自動検出）のみを入力し、**Exchange Version** および **Server** を空のままにします。メールサーバーで Autodiscover が有効かつ到達可能な場合のみ機能します。
+* **手動設定 (Manual)** - **Email Auto discover** を空のままにし、代わりに **Exchange Version** と **Server** を入力します。
+
+このアクティビティは、**Logon** タブで設定された **User** と **Password**（基本認証）を使用して Exchange サーバーと認証します。
 
 * **電子メール自動検出 (文字列)** - Exchange サーバーの電子メール アドレスを使用して、Exchange サーバーを自動的に検索します。これは、Exchange サーバーで自動検出が有効になっている場合にのみ機能します。
 例: 「http(s)://autodiscover.domain/EWS/Exchange.asmx」

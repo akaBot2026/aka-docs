@@ -2,7 +2,7 @@
 id: element-exists
 title: "Element Exists"
 sidebar_label: "Element Exists"
-sidebar_position: 3
+sidebar_position: 4
 description: "Element Exists activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

@@ -8,7 +8,7 @@ displayed_sidebar: activitiesSidebar
 ---
 # RCA.Activities.Office365
 
-RCA.Activities.Office365 provides activities for working with Microsoft Office 365 through Microsoft Graph, including OneDrive and SharePoint files/folders, Excel workbook creation, and SharePoint list operations.
+RCA.Activities.Office365 provides activities for working with Microsoft Office 365 through Microsoft Graph, including OneDrive and SharePoint files/folders, Excel workbook creation, SharePoint list operations, and Outlook mail operations.
 
 ## Activities
 
@@ -33,3 +33,9 @@ RCA.Activities.Office365 provides activities for working with Microsoft Office 3
 * Get List Items
 * For Each List
 * For Each List Item
+* Send Mail
+* Get Mail
+* Move Mail
+* Delete Mail
+* Forward Mail
+* Replay To Mail

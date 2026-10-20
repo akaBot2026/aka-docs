@@ -1,0 +1,9 @@
+{
+  "label": "Tính năng chính",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

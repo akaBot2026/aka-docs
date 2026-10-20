@@ -16,7 +16,11 @@ SAP Logon ウィンドウの接続名を使用して、SAP システムにネイ
 
 ![sap-logon.png](/static/img/sap-logon.png)
 
-（\*は必須）
+（*は必須）
+
+**注意 - 前提条件:** このアクティビティが接続するには、Agent マシンと SAP サーバーの両方で SAP GUI Scripting が有効になっている必要があります。有効になっていない場合、接続は失敗します。
+* **クライアント側:** **SAP Logon** を開き、**オプション > アクセシビリティ & スクリプト > スクリプト** に移動して、**スクリプトが SAP GUI にアタッチするときに通知する** のチェックを外します（スクリプト自体が無効化されていないことを確認してください）。
+* **サーバー側:** SAP Basis 管理者に依頼し、トランザクション `RZ11` を介してプロファイルパラメータ `sapgui/user_scripting = TRUE` を設定してもらいます。
 
 ## **プロパティ**
 
@@ -28,10 +32,10 @@ SAP Logon ウィンドウの接続名を使用して、SAP システムにネイ
 
 **入力**
 
-* **Connection Name (文字列)*** - SAP システムへのログオンに使用する SAP Logon パッドの特定の接続名。
+* **Connection Name (文字列)\*** - SAP システムへのログオンに使用する SAP Logon パッドの特定の接続名。
 * **Number of retries (Int32)** - SAP Scripting インターフェイスへの接続試行の最大回数。デフォルトは `5` です。
 * **Retry Interval MS (Int32)** - 各接続試行の間の待機時間（ミリ秒単位）。デフォルトは `500` です。
-* **SAP Logon Path (文字列)*** - `saplogon.exe` プログラムへのファイルパス。これは必須フィールドです（空白のままにするとエラーが発生します）。デフォルトのインストールパスは通常、`C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe` または `C:\Program Files\SAP\FrontEnd\SAPgui\saplogon.exe` です。
+* **SAP Logon Path (文字列)\*** - `saplogon.exe` プログラムへのファイルパス。これは必須フィールドです（空白のままにするとエラーが発生します）。デフォルトのインストールパスは通常、`C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe` または `C:\Program Files\SAP\FrontEnd\SAPgui\saplogon.exe` です。
 
 **その他**
 
@@ -41,4 +45,4 @@ SAP Logon ウィンドウの接続名を使用して、SAP システムにネイ
 
 **出力**
 
-* **SAP Login Window (WindowApp)** - 新しく開かれた SAP ログインウィンドウを格納する WindowApp 変数。この変数は、後続の SAP アクティビティで再利用できます。
+* **SAP Login Window (WindowApp)** - このアクティビティによって新しく開かれた SAP アプリケーションウィンドウが格納される `WindowApp` 変数。ウィンドウ操作（**Attach Window** やウィンドウ管理など）が必要な場合に使用できます。[SAP Login](/i18n/ja/activities/common/latest/sap/sap-login.md) はアクティブな SAP セッションに直接接続するため、この変数を渡す必要はありません。

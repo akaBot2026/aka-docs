@@ -12,3 +12,11 @@ Exchange アクティビティ パックには、自動化プロジェクトの�
 
 * メールを別のフォルダーに移動します。
 * Microsoft Exchange Server で電子メールを送受信します。
+
+**注意:** このパッケージ内のすべてのアクティビティは、基本認証（Basic Authentication）を使用した **Exchange Web Services (EWS)** を介して接続し、主に**オンプレミスの Exchange Server** を対象として設計されています。Microsoft 365 または Exchange Online のメールボックスを操作する場合は、代わりに **Office 365** アクティビティパッケージを使用してください。
+
+## 設定ガイド
+
+* [Exchange (EWS) の設定](user-guide/exchange-ews-configuration.md) - EWS サーバー URL、ドメイン、ユーザーの確認方法と Exchange スコープの設定方法。
+
+これらのアクティビティは、akaBot Studio の **Mail** > **Exchange** に表示されます。Outlook、IMAP、POP3、SMTP のアクティビティについては [メール パッケージ](../../mail/latest/introduction.md) も参照してください。

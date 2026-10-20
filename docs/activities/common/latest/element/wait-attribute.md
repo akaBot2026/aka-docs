@@ -2,7 +2,7 @@
 id: wait-attribute
 title: "Wait Attribute"
 sidebar_label: "Wait Attribute"
-sidebar_position: 15
+sidebar_position: 17
 description: "Wait Attribute activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

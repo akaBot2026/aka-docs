@@ -2,7 +2,7 @@
 id: semantic-selector-guide
 title: "セマンティックセレクター"
 sidebar_label: "セマンティックセレクター"
-sidebar_position: 2
+sidebar_position: 3
 description: "このドキュメントでは、Designerでセマンティックセレクターを設定および使用する方法について説明します"
 displayed_sidebar: activitiesSidebar
 ---

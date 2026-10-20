@@ -2,7 +2,7 @@
 id: change-labels
 title: "ラベルの変更"
 sidebar_label: "ラベルの変更"
-sidebar_position: 1
+sidebar_position: 12
 description: "ラベル変更アクティビティのドキュメント。"
 displayed_sidebar: activitiesSidebar
 ---

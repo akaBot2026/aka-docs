@@ -2,7 +2,7 @@
 id: get-position
 title: "Get Position"
 sidebar_label: "Get Position"
-sidebar_position: 6
+sidebar_position: 7
 description: "Get Position activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

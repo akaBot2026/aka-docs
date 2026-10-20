@@ -1,0 +1,10 @@
+{
+  "label": "AkaXtract",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Hướng dẫn sử dụng AkaXtract cho Pipeline, xử lý tài liệu và tích hợp."
+  }
+}

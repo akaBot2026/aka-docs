@@ -8,11 +8,11 @@ displayed_sidebar: activitiesSidebar
 ---
 # Outlook の添付ファイルを保存する
 
-RCA.Activities.Mail.SaveOutlookAttachments
+RCA.Activities.Mail.SaveOutlookAttachements
 
 ## **説明**
 
-このアクティビティを使用すると、電子メールの添付ファイルを Outlook に保存できます。
+Outlook のメールの添付ファイルを保存します。
 
 ![image-20220505162439-1.png](/static/img/f6680f_image-20220505162439-1.png)
 
@@ -22,17 +22,23 @@ RCA.Activities.Mail.SaveOutlookAttachments
 
 **入力**
 
-* **アカウント (文字列)** - やり取りを行う Outlook アカウント。
-**例**: 「AccountWantToSaveAttachments」
-* **フォルダー パス (文字列)** - 添付ファイルを保存するフォルダー パス。
-**例**: "Data\Output\Content Writer Application" +item.From.DisplayName.ToString"
+* **アカウント (文字列)** - 使用する Outlook アカウント。
+* **フォルダー パス (文字列)** - 添付ファイルの保存先フォルダー。フォルダーはあらかじめ存在している必要があります。空の場合はプロジェクト フォルダーが使用されます。
+  例: "Data\Output\Attachments"
 
 **メール**
 
-* **メール メッセージ (MailMessage)** - 保存するメール メッセージ。このアクティビティは Outlook メール メッセージのみをサポートします
+* **メール メッセージ (MailMessage)** - 添付ファイルを保存するメール メッセージ。Outlook のメール メッセージのみ対応しています。
 
 **その他**
 
-* **公開 (チェックボックス)** - 公開する場合にチェックを入れます。使用する前に、データ セキュリティ要件を必ず考慮してください。
-* **表示名 (文字列)** - このアクティビティの名前。アクティビティの名前を編集して、コードをより適切に整理および構造化できます。
-**例**: Outlook の添付ファイルを保存する
+* **公開 (チェックボックス)** - 選択すると、アクティビティのデータがログに記録されます。使用する前に、データ セキュリティ要件を考慮してください。
+* **表示名 (文字列)** - このアクティビティの名前。ワークフローを整理しやすくするために編集できます。  
+  例: Save Outlook Attachments
+
+## **関連項目: Exchange アクティビティ**
+
+Exchange アクティビティはメール パッケージに含まれています（akaBot Studio では **Mail** > **Exchange**）。メールボックスが社内の Exchange Server にある場合は、こちらを使用してください。
+
+* [Exchange アクティビティ](../../../exchange/latest/introduction.md) - すべての Exchange アクティビティの概要。
+* [Exchange (EWS) の設定](../../../exchange/latest/user-guide/exchange-ews-configuration.md) - 接続情報の集め方と Exchange スコープの設定方法。

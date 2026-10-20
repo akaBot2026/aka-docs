@@ -8,53 +8,57 @@ displayed_sidebar: activitiesSidebar
 ---
 # SAP Login
 
-**SAP Login**
+RCA.Activities.Common.SapLogin
 
-RCA.Activities.Common.SAPLogin
+## Description
 
-You may use this activity to directly log into an SAP system.
+Use this activity to sign into an SAP session window that is already open. Run a [SAP Logon](/docs/activities/sap/latest/activities/sap-logon.md) activity first to open that window, then place this activity right after it (in the same **Do** sequence) to enter the client, username, password, and language and complete the sign-in.
 
 ![1714793840785-992.png](/static/img/1d2608_1714793840785-992.png)
 
-**In the body of activity:**
+(\* is mandatory)
 
-* **Client** - The SAP client number that you want to log into. Text must be quoted.
-* **Username -** The username to log into SAP. Text must be quoted.
-* **Password** – The password to log into SAP. You need to remove the check in option “Is Secure” to use this password. Text must be quoted.
-* **Secure Password** – The secure text to be written in the Password field. You need to check the option “Is Secure” to use this text.
-* **Language** - Language the SAP uses to display screens, menus, and fields. Text must be quoted.
-* **Mutiple Logon Options** – If there are multiple logons to the same account at the same time, you need to specify the way to continue by selecting one of below 3 options:
-  + Single - Continue with this logon and end any other logons.
-  + Multiple - Continue with this logon, without ending any other logons.
-  + Terminate - Terminate this logon.
+**Note:** This activity also requires SAP GUI Scripting to be enabled on both your PC and the SAP server; see the **Prerequisites** section on the [SAP Logon](/docs/activities/sap/latest/activities/sap-logon.md) page.
 
-**Properties**
+## In the body of the activity
+
+* **Client\*** - The SAP client number to log into. Must be a quoted string or a String variable.  
+  E.g: `"800"`
+* **Username\*** - The username to log into SAP. Must be a quoted string or a String variable.
+* **Password** - The password to log into SAP. Used only when **Is Secure** (in **Options**) is cleared. Must be a quoted string or a String variable.
+* **Secure Password** - The password to log into SAP, as a SecureString. Used only when **Is Secure** (in **Options**) is selected — which is the default.
+* **Language\*** - The language SAP uses to display screens, menus, and fields. Must be a quoted string or a String variable.  
+  E.g: `"EN"` for English.
+* **Multiple Logon Option** - If there is already an active logon with the same user at the same time, choose how to proceed:
+  * **Single (Default)** - Continue with this logon and end any other logons.
+  * **Multiple** - Continue with this logon, without ending any other logons.
+  * **Terminate** - Terminate this logon attempt.
+
+## Properties
 
 **Common**
 
-* **ContinueOnError** - Specifies if the automation should continue even when the activity encounters an error. Only Boolean values (True, False) supported. The default value is False. As a result, if the value is blank or False and an error is thrown, the execution of the project stops. If the value is set to True, the project continues to execute regardless of any error.
+* **ContinueOnError (Boolean)** - Whether the workflow keeps running if this activity fails.
+  * **False (Default)** - Stops the workflow and throws an error.
+  * **True** - Ignores the error and continues with the next activity.
 
-**Note:** If this activity is included in **Try Catch** and the value of the **ContinueOnError** property is True, no error is caught when the project is executed.
-
-* **Timeout MS** - Specifies the amount of time (in milliseconds) to wait for the successful login before throwing an error. The default value is 5000 milliseconds.
+  **Note:** If this activity is placed inside a **Try Catch** and **ContinueOnError** is `True`, the **Catch** block does not run, because no error is thrown to catch.
+* **Timeout MS (Int32)** - How long (in milliseconds) to wait for the login to succeed before throwing an error. Default is `5000`.
 
 **Input**
 
-* **Client** - The SAP client number that you want to log into. Text must be quoted.
-* **Language** - Language the SAP uses to display screens, menus, and fields. Text must be quoted.
-* **Password** – The password to log into SAP. You need to remove the check in option “Is Secure” to use this password. Text must be quoted.
-* **Secure Password** – The secure text to be written in the Password field. You need to check the option “Is Secure” to use this text.
-* **Username -** The username to log into SAP. Text must be quoted.
+* **Client (String)\*** - Same as **Client** above.
+* **Language (String)\*** - Same as **Language** above.
+* **Password (String)** - Same as **Password** above.
+* **Secure Password (SecureString)** - Same as **Secure Password** above.
+* **Username (String)\*** - Same as **Username** above.
 
 **Misc**
 
-* **Public** - If selected, the values of variables and arguments will be logged at Verbose level.
-* **DisplayName** - The display name of the activity.
+* **Public (Checkbox)** - If selected, this activity's variable values are written to the execution log at Verbose level. Consider data security before enabling this.
+* **DisplayName (String)** - The name shown for this activity in the workflow designer. You can rename it to keep your workflow organized.
 
 **Options**
 
-* **IsSecure** -  If selected, the **Secure** **Password** field will be used to input to Password Field in SAP, otherwise, the **Password** field.
-* **Mutiple Logon Options** – If there are multiple logons to the same account at the same time, you need to specify the way to continue by selecting one of below 3 options:
-  + Single - Continue with this logon and end any other logons.
-  + Multiple - Continue with this logon, without ending any other logons.
-  + Terminate - Terminate this logon.
+* **IsSecure (Checkbox)** - If selected (the default), the activity logs in using **Secure Password**. If cleared, it uses the plain **Password** field instead.
+* **Multiple Logon Option** - Same as **Multiple Logon Option** above. Default is **Single**.

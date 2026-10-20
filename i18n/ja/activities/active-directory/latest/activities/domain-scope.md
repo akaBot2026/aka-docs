@@ -38,6 +38,8 @@ Active Directory アクティビティのスコープを定義できるコンテ
 
 * **Domain Username: `InArgument<String>`** - ドメインに接続するために使用するユーザー名資格情報。
 
+**注意:** **Domain Username** および **Domain Password** を空のままにした場合、このアクティビティは akaBot Studio または Agent を実行している Windows アカウントを使用して接続します。そのアカウントはドメインに参加しており、Active Directory をクエリする権限を持っている必要があります。個別の **Domain Username** と **Domain Password** を指定する場合、そのアカウントには **Container** で指定された組織単位 (OU)（例: `OU=Sales,DC=domain,DC=com`）に対する十分な権限が必要です。いずれの場合も、Agent マシンは通常 LDAP ポート 389（または LDAPS の場合は 636）を介してドメインコントローラーへのネットワークアクセス権を持っている必要があります。OU に対する AD 権限の委任については、[Active Directory - 制御の委任](https://learn.microsoft.com/ja-jp/windows-server/identity/ad-ds/manage/delegation-control-wizard) を参照してください。
+
 **その他**
 
 * **Continue On Error (Boolean)** - ブール変数は True または False の 2 つの値を取ります。

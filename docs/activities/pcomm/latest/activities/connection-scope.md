@@ -26,13 +26,17 @@ The Connection Scope activity establishes a new session connection (or attaches 
 
 **Input**
 
-* **Connection Name (String)*** - The unique letter identifier (A-Z) for the terminal session. This ID is used by other activities to target this specific connection.
+* **Connection Name (String)** - The unique letter identifier (A-Z) for the terminal session. This ID is used by other activities to target this specific connection.
 * **Profile Path (String)** - The full path to the Personal Communications workstation profile (`.ws` file). Both String variables and absolute paths are supported.
 * **Window State (WINSTATE)** - The initial display state of the emulator window.
   * `RESTORE` - Restores the window to its original size and position.
   * `MAX` - Maximizes the window to full screen.
   * `MIN` - Minimizes the window to the taskbar.
   * `HIDE` - Hides the window completely (runs the session in the background).
+
+**Note:** This activity supports two connection modes:
+* **Start a new session:** Provide the path to a workstation profile (`.ws` file) in **Profile Path**. If **Connection Name** is left empty, the activity automatically detects the newly launched session.
+* **Attach to an existing session:** Leave **Profile Path** empty and specify the letter identifier (A-Z) in **Connection Name** to attach to an already running session (if **Connection Name** is also empty, it attaches to the most recently opened session).
 
 **Option**
 

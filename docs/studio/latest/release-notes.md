@@ -9,6 +9,54 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — Release Notes
 
+## v3.2.4.0
+
+**Studio**
+
+- Fixed: compiled libraries using the Invoke Workflow File activity.
+- Fixed: debugger startup logging for required arguments.
+- Added: Core 3.6.0 as the default package when creating a new project.
+
+## v3.2.3.1
+
+- Fixed: license not found error by including username in requests for Windows 10/11.
+
+## v3.2.3.0
+
+**License Module**
+
+- Added: per-user Studio and Agent license file on Windows 10/11.
+- Update: Changed all license file operations to UTF-8.
+- Update: License and settings writes are now flushed to physical storage to reduce corruption risk.
+- Fixed: Invalid or placeholder settings keys now fall back to a valid key from the `.lic` file.
+- Fixed: License settings are saved only after activation succeeds.
+- Fixed: The licensing wizard remains usable after detecting corrupted settings, allowing users to enter new information and replace the file.
+
+## v3.2.2.0
+
+**Studio**
+
+- Added support for the new Return activity in the workflow runner, debugger, visual tracking and breakpoint handling, so a workflow file can end early and still surface its output arguments.
+- Fixed the Package Manager showing details for the wrong package version: the details panel now follows the version drop-down, version comparison is normalized, and the release date falls back to the on-disk copy for feeds without publish metadata (local folders, unlisted versions).
+- Fixed C# expression editor completions for generic types; variable scopes are now typed with real CLR types, generic type names are rendered correctly, and identifiers are escaped.
+- Fixed silent failures when starting a workflow run: the error is now written to the output pane and log file with message and stack trace, and the job is completed with the failure instead of being swallowed.
+
+**Agent**
+
+- Update the Agent to a redesigned UI, including input-argument configuration, Task History, and a job Detail tab.
+- Added the argument type to the argument configuration view.
+- Added validation when a string value is assigned to an integer argument, and a 4000-character limit for string values in the configuration tab.
+- Added checks for `IsRequired` and default values when configuring arguments.
+
+**Executor**
+
+- Added a dedicated `ERROR_MISSING_REQUIRED_ARGUMENT` return code: an agent-triggered run now fails fast when a required input argument has neither a supplied value nor a default, instead of starting the workflow.
+- Added Return activity support to the console executor.
+
+**Installer**
+
+- Added `RCA.Activities.Core.3.5.0`, `RCA.Activities.Excel.3.3.0` and `RCA.Activities.Common.4.8.0` to the packages shipped with the installer.
+
 ## v3.2.1.0
 
 - Added: package `Core 3.4.1` to installer.

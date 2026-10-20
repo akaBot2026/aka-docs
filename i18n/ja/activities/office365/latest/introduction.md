@@ -8,7 +8,7 @@ displayed_sidebar: activitiesSidebar
 ---
 # RCA.Activities.Office365
 
-RCA.Activities.Office365 は、Microsoft Graph を介して Microsoft Office 365（OneDrive や SharePoint のファイル/フォルダーを含む）を操作するためのアクティビティを提供します。Excel ワークブック作成や SharePoint リスト操作も含まれます。
+RCA.Activities.Office365 は、Microsoft Graph を介して Microsoft Office 365（OneDrive や SharePoint のファイル/フォルダーを含む）を操作するためのアクティビティを提供します。Excel ワークブック作成、SharePoint リスト操作、Outlook メール操作も含まれます。
 
 ## アクティビティ
 
@@ -33,4 +33,9 @@ RCA.Activities.Office365 は、Microsoft Graph を介して Microsoft Office 365
 * リスト項目の取得
 * 各リストに対する繰り返し
 * 各リスト項目に対する繰り返し
-
+* メールを送信
+* メールを取得
+* メールを移動
+* メールを削除
+* メールを転送
+* メールに返信

@@ -1,0 +1,10 @@
+{
+  "label": "AkaXtract",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Pipeline の設定、文書処理、システム連携に関する AkaXtract ユーザーガイド。"
+  }
+}

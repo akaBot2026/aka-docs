@@ -2,7 +2,7 @@
 id: gsuite-application-scope
 title: "GSuite Application Scope"
 sidebar_label: "GSuite Application Scope"
-sidebar_position: 12
+sidebar_position: 1
 description: "GSuite Application Scope activity documentation."
 displayed_sidebar: activitiesSidebar
 ---

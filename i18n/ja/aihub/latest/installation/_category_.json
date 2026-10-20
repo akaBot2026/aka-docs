@@ -1,0 +1,10 @@
+{
+  "label": "インストール",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "要件を確認し、オフライン Docker パッケージを使用して Linux または Windows に akaBot AI Hub をインストールします。"
+  }
+}

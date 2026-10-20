@@ -18,6 +18,8 @@ Connects to Exchange and provides a scope for other Exchange activities.
 
 (\* is mandatory)
 
+**Note:** This activity connects using **Exchange Web Services (EWS)** with Basic Authentication and is designed primarily for **on-premises Exchange Server**. For Microsoft 365 or Exchange Online mailboxes, use the **Office 365** activity package instead.
+
 ## **Properties**
 
 **Existing Connection**
@@ -38,18 +40,23 @@ Connects to Exchange and provides a scope for other Exchange activities.
 
 **New Connection**
 
+**Note:** Choose one of two ways to connect:
+
+* **Autodiscover** - Fill in only **Email Auto discover** and leave **Exchange Version**/**Server** empty. Works only if the mail server has Autodiscover enabled and reachable.
+* **Manual** - Leave **Email Auto discover** empty and fill in **Exchange Version** + **Server** instead.
+
+This activity authenticates with **User** and **Password** (Basic Authentication, set in the **Logon** tab) against an Exchange server.
+
 * **Email Auto discover (String)**- Searches automatically for an Exchange server by using an email address from that server. This works only if the Exchange server has Autodiscover enabled.  
-  E.g: “http(s)://autodiscover.domain/EWS/Exchange.asmx”
+  E.g: `http(s)://autodiscover.domain/EWS/Exchange.asmx` (this is a placeholder pattern — replace `domain` with your actual mail domain)
 * **Exchange Version (DropDownlist)\***– Specifies the lowest version of the Exchange server that is used. The options displayed in this field range from 2007 to the 2013 version. Please note that the version number indicates the lowest level of service you support. This means that if you have a 2016 exchange server, you can select the Exchange2013 option.
-* **Server (String)** - The email server host that is to be used and the format should be like like the example below  
-  E.g: “[https://outlook.office365.com/EWS/Exchange.asmx”](https://outlook.office365.com/EWS/Exchange.asmx%E2%80%9D)
+* **Server (String)** - The email server host to connect to, in the format shown in the example below  
+  E.g: `https://outlook.office365.com/EWS/Exchange.asmx`
 
-EWS
+**Learn more about EWS**
 
-Please refer to these link to know more about EWS
-
-1. https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-set-the-ews-service-url-by-using-the-ews-managed-api
-2. https://docs.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2010/dd877045(v=exchg.140)
+* [Set the EWS service URL by using the EWS Managed API](https://learn.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-set-the-ews-service-url-by-using-the-ews-managed-api) - How the **Server** URL (above) works, and how to find it via Autodiscover.
+* [Exchange Web Services (EWS) in Exchange 2010](<https://learn.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2010/dd877045(v=exchg.140)>) - Background on what EWS is and what operations it supports (archived reference).
 
 **Output**
 

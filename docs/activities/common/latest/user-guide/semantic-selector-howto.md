@@ -2,7 +2,7 @@
 id: semantic-selector-guide
 title: "Semantic Selector"
 sidebar_label: "Semantic Selector"
-sidebar_position: 2
+sidebar_position: 3
 description: "This document describes how to configure and use Semantic Selector in Designer"
 displayed_sidebar: activitiesSidebar
 ---

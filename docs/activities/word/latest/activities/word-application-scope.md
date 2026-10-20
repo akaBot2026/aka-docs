@@ -16,6 +16,8 @@ Word Application Scope activity provides a space for all other Word activities t
 
 ![image-20220506112026-1.png](/static/img/7c8057_image-20220506112026-1.png)
 
+**Note - System Requirements:** Microsoft Word must be installed on the machine running akaBot Studio or Agent.
+
 **In the body of activity**
 
 * **Document Path (String)** – The path of the Word Document that will be processed. String variables and Strings are supported. If the specified file does not exist, a new document file is created.  
