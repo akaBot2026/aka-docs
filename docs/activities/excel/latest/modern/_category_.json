@@ -1,0 +1,9 @@
+{
+  "label": "Modern",
+  "position": 2.5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

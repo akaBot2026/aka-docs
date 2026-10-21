@@ -8,6 +8,19 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
+## v3.6.1
+
+Build date: Oct 18, 2026
+
+**New features**
+
+- **Else If** — new activity that checks a series of conditions in order and runs the first branch whose condition is true, with an optional **Else** branch.
+
+**Improvements & fixes**
+
+- Added: show/hide (eye) button for password input in **Input Dialog**.
+- Fixed: **Invoke Workflow File** inside a loop — **Stop** now cancels the invoked workflow on every iteration, not only the first.
+
 ## v3.6.0
 
 Build date: Sep 18, 2026

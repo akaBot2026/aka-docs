@@ -26,7 +26,7 @@ To start debugging a project, click **Debug** in the Studio ribbon.
 
 ![debug](/static/img/debug.png)
 
-Unlike running a project with **Start**, debugging lets you step through the workflow activity by activity and inspect variables as they change. By default, though, a debugging session runs straight through the workflow just like **Start** — it only pauses when it reaches an activity with a breakpoint, highlighting that activity with a yellow border. See [Setting a Breakpoint](#setting-a-breakpoint) below to make it pause at a specific point.
+Unlike running a project with **Start**, debugging lets you step through the workflow activity by activity and inspect variables as they change. By default, though, a debugging session runs straight through the workflow just like **Start** — it only pauses when it reaches an activity with a breakpoint, highlighting that activity with a dark amber border, or when an activity faults (see [Stopping on Errors](#stopping-on-errors)). See [Setting a Breakpoint](#setting-a-breakpoint) below to make it pause at a specific point.
 
 While debugging is in progress, the following actions become available:
 
@@ -42,9 +42,35 @@ The following actions are available in the Debug ribbon while a debugging sessio
 | Action | Description |
 | --- | --- |
 | **Breakpoints** | Opens a menu to toggle a breakpoint on the selected activity or delete every breakpoint in the project. See [Setting a Breakpoint](#setting-a-breakpoint) below. |
-| **Step Into** | Executes the current activity and pauses on the next one, opening containers (such as **Sequence**, **Flowchart**, or **Invoke Workflow File**) so you can debug the activities inside them one by one. |
-| **Step Over** | Executes the current activity as a whole and pauses on the next one at the same level, without opening containers. Use this when you trust a container's contents and only want to step through the activities around it. |
-| **Slow Step** | Runs the project continuously while automatically opening containers and highlighting each activity as it executes, without requiring you to press an action after every step. This is useful for visually following the execution flow of a large workflow. |
+| **Step Into** | Moves into the current activity. On a container (such as **Sequence**, **Flowchart**, or **State Machine**), execution pauses on its first child activity. On an **Invoke Workflow File** activity, the invoked workflow file is opened and execution pauses on its first activity. On a single activity, execution pauses when that activity finishes (or faults). |
+| **Step Over** | Executes the current activity as a whole, including everything inside it and inside any workflow it invokes, and pauses when it finishes (or faults). Execution still pauses if a breakpoint inside it is hit. Use this when you trust a container's contents and only want to step through the activities around it. |
+| **Slow Step** | A toggle. Turn it on, then click **Debug**: the project runs as an automatic **Step Into**, pausing about 1.5 seconds before and after each activity, so you can follow the execution flow without pressing an action after every step. When a breakpoint is hit, Slow Step stays paused and switches to manual stepping, so you can use **Step Into**, **Step Over**, or **Continue** from there. **Continue** resumes automatic slow stepping. |
+
+When execution is already paused at the end of an activity, both **Step Into** and **Step Over** move to the next activity (or to the end of the parent container). If no debugging session is running, clicking **Step Into** or **Step Over** starts one.
+
+> Available from Studio v3.2.6.0: the stepping behaviour above, and that workflows coming from a compiled library package are run as a single unit. The debugger does not open them, highlight their activities, or stop on breakpoints inside them, even with **Step Into**.
+
+### What You See While Debugging
+
+> Available from Studio v3.2.6.0.
+
+While debugging, Studio highlights the activity that is running with a coloured border and a small badge in its upper-left corner. The colour shows the phase of the activity:
+
+| Colour | Badge | Meaning |
+| --- | --- | --- |
+| Amber | Play triangle | The activity is about to run. |
+| Green | Check mark | The activity has finished. Shown only when stepping (**Step Into**, **Step Over**, or **Slow Step**). |
+| Red | X | The activity faulted (threw an exception), whether or not a **Try Catch** handles it. |
+| Dark amber | — | Execution is paused on a breakpoint. The breakpoint glyph shows an arrow (see [Setting a Breakpoint](#setting-a-breakpoint)). |
+
+**Execution trail** — Studio also marks the activities that have already run during the current session, so you can see the path execution has taken:
+
+- A **green check mark** near the upper-right corner of an activity means it has finished (or, for a container, that execution has entered it).
+- A **red X** means the activity faulted, or was stopped because a fault was raised inside it.
+- When an activity runs again (a new loop iteration, a **Flowchart** jumping back, or a retry), the marks made since its previous run are cleared, and the trail is drawn again for the new pass.
+- The whole trail is cleared when you start a new run, when you click **Stop**, and when the run ends.
+
+**Following the current activity** — The designer automatically opens the workflow file and scrolls to the activity being executed. If the activity is hidden inside a collapsed container, Studio expands the container. If the container cannot show its children in place, such as a collapsed **Flowchart** or **State Machine** node, or the **Entry** / **Exit** of a **State**, Studio opens (drills into) it, just as if you had double-clicked it.
 
 **Open Logs** is available from the **Home** ribbon tab, not the Debug tab. It opens the folder containing the log files generated during execution, so you can review detailed information about what happened while debugging.
 
@@ -57,7 +83,7 @@ The following actions are available in the Debug ribbon while a debugging sessio
 
    ![debug-breakpoint-set](/static/img/debug-breakpoint-set.png)
 
-3. A red marker appears in the upper-left corner of the activity, confirming the breakpoint is set.
+3. A red circle appears in the upper-left corner of the activity, confirming the breakpoint is set. A disabled breakpoint is shown as a hollow red circle. When execution pauses on the breakpoint, the circle shows a white arrow. *(Available from Studio v3.2.6.0.)*
 
    ![breakpoint-log-message](/static/img/breakpoint-log-message.png)
 
@@ -91,7 +117,20 @@ While debugging, the panel is organized into three areas:
 - **Properties of [activity] (previous)** — Shows the input and output properties of the most recently executed activity, such as the **Message** property of a **Log Message** activity.
 - **Arguments** — Lists the arguments defined for the current workflow, together with their type and current value.
 
-The Locals panel is only available while a debugging session is running, and opens automatically the first time you start one. If it isn't visible, look for the **Locals** tab next to **Properties**, **Workflow Outline**, and **AkaNinja**. It updates automatically after each activity executes, making it easy to confirm that your workflow is producing the values you expect.
+The Locals panel is only available while a debugging session is running, and opens automatically the first time you start one. If it isn't visible, look for the **Locals** tab next to **Properties**, **Workflow Outline**, and **AkaNinja**. It updates automatically each time execution pauses, making it easy to confirm that your workflow is producing the values you expect.
+
+### Stopping on Errors
+
+> Available from Studio v3.2.6.0.
+
+The debugger always pauses on the activity that faults, in every mode (including after **Continue** and during **Step Over**), and whether or not the error is handled by a **Try Catch**. The activity is highlighted in red, and the Locals panel shows an extra **Exception** group:
+
+- **$exceptionDetails** — The exception that was thrown. Its value shows the exception message; expand it to see properties such as **Message**, **InnerException**, **Source**, and **StackTrace**. Click the value to open it in a details window.
+- **$exceptionActivityInfo** — The activity that faulted.
+
+The properties group is labelled **Properties of [activity] (faulted)**. The exception information is shown only for this pause and is cleared when execution resumes.
+
+From here, click **Continue** to let the error take its course (if a **Try Catch** handles it, execution continues into the **Catch** block; breakpoints in the **Catch** block are hit as usual), or click **Stop** to end the session.
 
 ## The Breakpoints Panel
 
@@ -129,7 +168,7 @@ The panel has four columns:
 
 To add a new entry, click the empty row at the bottom of the panel (showing **Enter a VB Expression**) and type the variable, argument, or expression you want to monitor.
 
-Values in the Watches panel are refreshed automatically after each activity executes while debugging. Use **Delete** to remove the selected entry, **Clear** to remove every entry at once, or **Refresh** to re-evaluate all watched expressions.
+Values in the Watches panel are refreshed automatically each time execution pauses while debugging. Use **Delete** to remove the selected entry, **Clear** to remove every entry at once, or **Refresh** to re-evaluate all watched expressions.
 
 ## Example: Debugging a Sample Workflow
 
