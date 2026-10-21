@@ -23,7 +23,7 @@ RCA.Activities.Core.InputDialog
 
 **入力**
 
-- **Is Password (Boolean)** - 入力値をパスワードとして扱うかどうかを指定します
+- **Is Password (Boolean)** - 入力値をパスワードとして扱うかどうかを指定します。選択すると入力がマスクされます。入力欄の右側にある目のアイコンをクリックすると入力した値が表示され、もう一度クリックすると非表示に戻ります。**結果** の変数は **SecureString** 型である必要があります。**Options** と同時には使用できません。
 - **Label (InArgument&lt;String&gt;)** - フォームのラベルとして表示するテキスト
 - **Options (InArgument&lt;String[]&gt;)** - テキストボックスの代わりに選択できるオプションの配列を提供します。要素を 1 つだけ含むように設定すると、テキストを書き込むためのテキスト ボックスが表示されます。 2 つまたは 3 つの要素を含むように設定した場合、要素はラジオ ボタンとして表示され、そこから選択できます。 3 つ以上を選択すると、コンボ ボックスとして表示され、選択できます。
 - **タイトル (InArgument&lt;String&gt;)** - ダイアログのタイトル。
@@ -40,4 +40,8 @@ RCA.Activities.Core.InputDialog
 
 **出力**
 
-- **結果 (OutArgument)** - 変数に保存された入力ダイアログでユーザーが挿入した値
+- **結果 (OutArgument)** - 変数に保存された入力ダイアログでユーザーが挿入した値。変数の型は **String** です。**Is Password** を選択した場合は **SecureString** になります。
+
+:::note
+**Is Password** を選択した場合は、**結果** の変数を **SecureString** 型 (System.Security.SecureString) で作成してください。String 型の変数を指定すると、アクティビティに検証エラーが表示されます。同様に、SecureString 型の変数を指定する場合は **Is Password** を選択する必要があります。テキストが必要な場合は [安全な文字列を変換する](../other/convert-secure-string.md) アクティビティを使用してください。
+:::

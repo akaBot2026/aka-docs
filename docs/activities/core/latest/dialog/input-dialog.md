@@ -23,7 +23,7 @@ This activity displays a dialog box that prompts you with a label message and an
 
 **Input**
 
-- **Is Password (Boolean)** - Specifies if the the input value should be treated as a password
+- **Is Password (Boolean)** - Specifies if the input value should be treated as a password. When selected, the input is masked; click the eye icon at the right of the field to show the typed value, and click it again to hide it. The **Result** variable must be of type **SecureString**. Is Password cannot be used together with **Options**.
 - **Label (InArgument&lt;String&gt;)** - The Text to display as the label of the form
 - **Options (InArgument&lt;String[]&gt;)** - Provides an array of options to choose from instead of textbox. If set to contain only one element, a text box appears to write text. If set to contain 2 or 3 elements, they appear as radio buttons to select from . If select more than 3, they appear as a combo box to choose from.
 - **Title (InArgument&lt;String&gt;)** - The title of the dialog.
@@ -40,4 +40,8 @@ This activity displays a dialog box that prompts you with a label message and an
 
 **Output**
 
-- **Result (OutArgument)** - The value inserted by the user in the input dialog stored in a variable
+- **Result (OutArgument)** - The value inserted by the user in the input dialog stored in a variable. The variable type is **String**, or **SecureString** when **Is Password** is selected.
+
+:::note
+When **Is Password** is selected, create the **Result** variable with the **SecureString** type (System.Security.SecureString). With a String variable, Studio shows a validation error on the activity. Likewise, a SecureString variable needs **Is Password** to be selected. Use the [Convert Secure String](../other/convert-secure-string.md) activity when the text is needed.
+:::
