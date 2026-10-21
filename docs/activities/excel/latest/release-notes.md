@@ -27,6 +27,12 @@ Build date: Oct 15, 2026
 
 Build date: Oct 15, 2026
 
+**New features**
+
+- [Modern Excel activities](./modern/about-modern-excel.md) — the **Use Excel File** scope with sheet, range and table references, and 17 new Modern activities.
+
+**Details**
+
 - Added the Modern Excel experience with the `Use Excel File` scope and interactive workbook, sheet, and range references.
 - Added Modern activities for reading, writing, appending, clearing, filling, copying, filtering, finding, replacing, and removing duplicate data.
 - Added Modern activities for renaming, protecting, and unprotecting sheets; running macros; and saving workbooks.

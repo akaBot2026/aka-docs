@@ -9,6 +9,87 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — Release Notes
 
+## v3.2.6.0
+
+**Debugger** — see [How to Use the Debugger](./user-guide/how-to-use-debugger.md)
+
+- Added: step highlight coloured by phase — amber before an activity runs, green after it finishes (stepping only), red when it faults, darker amber on a breakpoint hit.
+- Added: execution trail — finished activities are marked, a faulted activity shows a red ✕; a new loop iteration clears the trail of the previous one.
+- Added: the debugger expands collapsed containers and opens Flowchart, State Machine and State Entry/Exit bodies so the paused activity is always on screen.
+- Update: larger breakpoint glyph, with an arrow on the breakpoint that is currently hit.
+- Update: **Step Into** stops at a container's first child; **Step Over** runs the whole activity and stops at its end (or fault).
+- Update: the debugger always stops where an activity faults, handled or not, and **Locals** shows the exception there.
+- Update: **Slow Step** switches to manual stepping on a breakpoint hit or a Step Into/Over; **Continue** resumes slow stepping.
+- Fixed: breakpoints and steps being skipped on the second and later iterations of a loop, and in parallel branches.
+- Fixed: a breakpoint firing a second time when its activity finished.
+- Fixed: Studio freezing while debugging State Machine workflows; **Stop** stays responsive in endless internal loops.
+- Fixed: workflow arguments missing from **Locals** and **Watches**.
+- Fixed: the invoked workflow being aborted when debugging a workflow compiled into a library; such workflows are now skipped by the debugger.
+- Fixed: **Continue** being disabled at a fault stop until the designer was clicked.
+
+**Universal Search**
+
+- Update: searches all files in the project, opened or not.
+- Added: filters `type:`, `file:`, `var:` and `arg:`, which can be combined with each other and with search text, and a **?** icon that shows the syntax on hover.
+
+**Browser extension**
+
+- Added: **Policy (Offline)** install mode for Chrome and Edge in **Options > Extension** — the extension package is staged on the machine and installed by policy without access to the browser store. Works only on machines joined to a domain or enrolled in MDM.
+- Added: **Refresh** link in **Options > Extension**.
+- Fixed: detection of the installed extension in **Options > Extension**.
+- Update: policy checks use `DeveloperToolsAvailabilityAllowlist` / `DeveloperToolsAvailabilityBlocklist` instead of `DeveloperToolsAvailability`.
+
+**Studio**
+
+- Improved: faster project opening — workflows are loaded when they are needed.
+
+**Installer**
+
+- Added: `/EXTMODE` command-line parameter to choose how the browser extension is installed during unattended setup.
+- Added: `RCA.Activities.Excel.3.4.0.2` and `RCA.Activities.Common.4.8.0.1` to the packages shipped with the installer.
+
+## v3.2.5.0
+
+**New features**
+
+- [Project settings](./user-guide/project-settings.md) — edit the project name and description from the Project panel.
+
+**Event Trigger**
+
+- Added: **Desktop Trigger** button on the Studio **Home** tab to open the Event Trigger Manager.
+- Added: browse for the executable in **Process** and **Window** triggers.
+- Added: **Service** trigger lists the Windows services on the machine.
+- Update: **Process** trigger checks that exactly one of **File Path** or **Process Name** is set; **Service** trigger accepts `*` and `?` wildcards in the service name.
+- Added: **Email** trigger credentials stored in Windows Credential Manager (**Add** / **Remove**), and a check interval in seconds (30–86,400) or minutes (1–1,440).
+- Added: the trigger action's argument dialog shows the variables that can be passed; add arguments with **New**, and update or delete them from the **⋯** button.
+- Update: the trigger server is started and stopped by BotService according to the enabled triggers, and keeps running when the Event Trigger Manager is closed. The tray icon lists the active triggers.
+
+**Library build** — see [Build Workflow to Library Package](./user-guide/build-workflow-to-library.md)
+
+- Added: **Build Library** remembers its settings per project and applies them to the package.
+- Added: set the **Library name** and see the resulting **Full library name** (package ID) as you type.
+- Added: choose an **Icon** for the library's activities in the toolbox.
+- Update: required arguments of the library workflows are marked as required on the generated activities.
+
+**Studio**
+
+- Improved: project name validation when creating a blank project; the error lists the invalid characters.
+- Fixed: `PSObject` imports for variables created with shortcuts.
+
+**Agent**
+
+- Improved: workflow parameters show a loading state while they are read.
+- Improved: long project names wrap instead of being cut off.
+- Added: a clear error when BotService cannot start because the saved machine name does not match this computer.
+
+**Browser extension**
+
+- Update: Commander no longer writes duplicate registry keys.
+
+**Installer**
+
+- Added: `RCA.Activities.Common.4.9.0.1` to the packages shipped with the installer.
+
 ## v3.2.4.0
 
 **Studio**

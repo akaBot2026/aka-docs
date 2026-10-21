@@ -9,6 +9,49 @@ displayed_sidebar: activitiesSidebar
 
 # Release notes
 
+## v4.9.2.0
+
+Build date: Oct 18, 2026
+
+- Added: **Select By Attribute** property in **Select Item** and **Select Multiple Items** (Chromium and IE) — options are matched by an attribute such as `value` or `data-id` instead of their text; exact match first, then wildcards (`*`, `?`).
+- Added: **Ctrl + Space** in the selector editors lists the attributes not yet on the tag and inserts the one you choose; **Choose variable/argument** moved to the context menu.
+- Added: **Policy (Offline)** extension mode support in the browser environment check.
+- Update: the environment check uses `DeveloperToolsAvailabilityAllowlist` / `DeveloperToolsAvailabilityBlocklist`.
+- Fixed: **Select Item** on IE now fails with an error when no option matches, like Chromium, instead of selecting nothing.
+- Fixed: the `parentname` attribute was never matched in web selectors at runtime (Chromium and IE).
+
+## v4.9.1.0
+
+Build date: Oct 15, 2026
+
+- Improved: **Open Browser** and **Attach Browser** find the browser faster.
+
+## v4.9.0.1
+
+Build date: Oct 14, 2026
+
+**New features**
+
+- **Browser environment check** — when **Indicate** cannot reach Chrome or Edge, Studio shows what is wrong with the browser, extension or native host, and fixes it where possible. Unattended robots only log the result.
+
+## v4.9.0
+
+Build date: Sep 28, 2026
+
+**New features**
+
+- **Check App State** — new activity that checks whether a UI element appears or disappears and runs the matching branch.
+
+**Improvements & fixes**
+
+- Added: table cell selectors `tableRow` / `tableCol` for Chromium and IE; a value of `*` matches any row or column.
+- Added: custom HTML attributes in web selectors (e.g. `data-*`, `aria-*`, `ng-reflect-name`) are now matched (Chromium and IE).
+- Improved: **Select Item** and **Select Multiple Items** support wildcards.
+- Improved: IE browser lookup also finds hidden windows.
+- Improved: Table Extraction error logging and UTF-8 output.
+- Fixed: IE elements inside custom tags with `-` in the name (e.g. `my-control`) could not be found.
+- Fixed: a second highlight rectangle left on screen when indicating IE pages.
+
 ## v4.8.0.1
 
 Build date: Aug 25, 2026
