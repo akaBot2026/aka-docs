@@ -188,6 +188,10 @@ You can create all three types from the **New** button on the **Home** tab.
 
 Use a **Flowchart** when the process has several branches or loops. A **Sequence** with many branches and loops still runs correctly, but it is hard to read and maintain.
 
+For example, the `SetTransactionStatus.xaml` workflow of the REFramework template is a Flowchart. Its two decisions, outlined in red, split the process into three branches: Success, Business Rule Exception, and System Error.
+
+![A Flowchart whose two decisions branch into Success, Business Rule Exception, and System Error](/static/img/dev-guidelines-example-flowchart.png)
+
 #### Keep workflows shallow and modular
 
 **Required:** Do not nest activities more than 7 levels deep.
@@ -229,6 +233,16 @@ A project with only one or two workflows can become one large, hard-to-debug fil
   - A workflow file with no executable activities (`ST-DBP-023`).
 
   Delete what you no longer need, or complete the logic. If you leave a branch empty on purpose, add a `Comment` activity that explains why.
+
+#### Examples to fix
+
+In the following workflow, the activities outlined in red keep their default names, such as **Get Agent Credential**, **Convert SecureString**, and **Select File**. The names do not say what each activity does in the process. Rename each one, for example to `Get CIMAS Credential`.
+
+![A Sequence whose activities keep their default display names](/static/img/dev-guidelines-example-default-names.png)
+
+In the following workflow, the main Sequence has no annotation, and the Flowchart inside it keeps its default name. Add an annotation that describes what the workflow does, and give the Flowchart a name that describes its logic.
+
+![A workflow without an annotation and with a Flowchart that keeps its default name](/static/img/dev-guidelines-example-no-annotation.png)
 
 ### 2.4. Variables and arguments
 
@@ -293,6 +307,19 @@ Follow these rules when you work with sensitive values:
 
 ![The SecureString for Sensitive Variables rule with the Keywords parameter](/static/img/st-sec-008.png)
 
+#### Examples
+
+**Recommended:** Get the credential from a credential store. The following workflow first gets a Credential asset from akaBot Center. If that fails, it gets the credential from Windows Credential Manager. No ID or password is written in the workflow.
+
+![A workflow that gets a credential from akaBot Center first, and then from Windows Credential Manager](/static/img/dev-guidelines-example-credential-store.png)
+
+**Avoid:** The following example shows two mistakes, outlined in red:
+
+- The username and the password are typed in as the default values of the `in_username` and `in_password` arguments.
+- The password is converted to a `String` variable, `NewPass`, and shown in a **Message Box**.
+
+![A username and password typed in as argument default values, and a password shown in a Message Box](/static/img/dev-guidelines-example-hardcoded-credentials.png)
+
 ### 2.6. Logging and error handling
 
 - Use **Log Message** to record what the agent does. It has five levels: `Trace`, `Info`, `Warn`, `Error`, and `Fatal`. Log messages are also sent to akaBot Center and shown on the **Logs** page, so consider data security before you include sensitive data in a message.
@@ -301,6 +328,10 @@ Follow these rules when you work with sensitive values:
 - Add at least two **Log Message** activities to each workflow (`ST-USG-020`, `MinLogs` defaults to 2). Log at the start, at the end, and at important decision points.
 
   ![The Minimum Log Messages rule with the MinLogs parameter](/static/img/st-usg-020.png)
+
+  For example, the following workflow writes a Log Message when it starts and when it finishes. Each message names the workflow file, so you can follow the run in the logs. Use the same format in every workflow, for example `"<FileName>.xaml Start call WFL..."` and `"<FileName>.xaml Finish call WFL..."`.
+
+  ![A workflow with a Log Message at its start and at its end](/static/img/dev-guidelines-example-start-end-logs.png)
 - Do not leave a `Catch` block empty (`ST-DBP-003`). An empty `Catch` hides the error, and the agent fails without leaving a trace. Add at least a **Log Message** activity to record the error details.
 - By default, the logs show messages from the `Info` level and higher. To see more detail, open **Agent Settings**, select the **Center** tab, and change the **Logging level**. For example, at the `Verbose` level, messages written with **Log Message** at the `Trace` level are also included. See [Agent Logs](/docs/agent/latest/user-guide/logs.md).
 - To open the folder that contains the log files, click **Open Logs** on the **Home** tab. The log files are stored in `%localappdata%\akaBot\Logs\`.
@@ -367,6 +398,14 @@ Once the basic rules are familiar, you may meet cases they do not cover. Build t
 A fixed **Delay** can make an automation brittle (`ST-DBP-026`). Wait for a condition instead. For example, the Native Browser package provides **Wait Element Vanishes**, **Wait Page Load Complete**, **Wait Page Title**, **Wait Page URL**, and **Wait Web Attribute**, and the **Element Exist** activity checks whether an element exists.
 
 If you must use **Delay**, do not type the duration directly into the activity (`ST-PRR-004`). Store it in a variable, an argument, or a configuration file, so that you can use a different value in Test and Production without editing the workflow.
+
+**Avoid:** In the following workflow, a **Delay** of a fixed 5 seconds runs before each step. On a slow day, 5 seconds may not be enough. On a fast day, the agent wastes time.
+
+![Delay activities with a fixed duration before each step](/static/img/dev-guidelines-example-fixed-delay.png)
+
+**Recommended:** In the following workflow, an **Element Exist** activity checks for the login form, and an **If** activity continues only when the form is there.
+
+![An Element Exist activity followed by an If activity that checks its result](/static/img/dev-guidelines-example-element-exists.png)
 
 #### Avoid image recognition
 
