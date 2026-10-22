@@ -48,11 +48,11 @@ displayed_sidebar: studioSidebar
 
 詳細については、[有人 - 無人エージェント](/docs/agent/latest/user-guide/attended-unattended.md)を参照してください。
 
-## 1. 開始する前に {#1-before-you-start}
+## 1. 開始する前に \{#1-before-you-start}
 
 エージェントを構築する前に、環境をセットアップしてください。このセットアップにもルールがあります。ライセンス、パッケージ ソース、拡張機能、サポートの入手先です。
 
-### 1.1. ライセンスをアクティベートする {#11-activate-your-license}
+### 1.1. ライセンスをアクティベートする \{#11-activate-your-license}
 
 akaBot Studio を使用するには、ライセンスが必要です。環境に合ったアクティベーション方法を選択してください。
 
@@ -70,7 +70,7 @@ Studio の起動時に、Standard ライセンスの場合は **LMS (License Man
 
 **必須:** 組織が提供する akaBot のインストーラーとライセンスのみを使用してください。トライアル版や個人用ライセンスなど、他の入手元のものを業務のためにインストールまたは使用しないでください。
 
-### 1.2. パッケージ ソースを確認する {#12-check-your-package-sources}
+### 1.2. パッケージ ソースを確認する \{#12-check-your-package-sources}
 
 Studio は、パッケージ ソースからアクティビティ パッケージをインストールします。既定では、Studio は次のソースを使用します。
 
@@ -89,7 +89,7 @@ Studio は、パッケージ ソースからアクティビティ パッケー�
 
 組織は、ワークフロー アナライザーのルール [Package Restrictions](./workflow-analyzer/usage/package-restrictions.md) (`ST-USG-014`) と [Required Packages](./workflow-analyzer/usage/required-packages.md) (`ST-USG-027`) を使用して、パッケージを制限したり、必須にしたりできます。
 
-### 1.3. akaBot Web Extension をインストールする {#13-install-the-akabot-web-extension}
+### 1.3. akaBot Web Extension をインストールする \{#13-install-the-akabot-web-extension}
 
 Web サイトを自動化するには、ブラウザーに akaBot Web Extension をインストールします。akaBot は、Chrome、Edge、Firefox の拡張機能をサポートしています。
 
@@ -110,7 +110,7 @@ Citrix またはリモート デスクトップを自動化するには、リモ
 
 ブラウザーが自動更新されると、ブラウザー ドライバーがブラウザーのバージョンと一致しなくなり、エージェントが実行時に失敗する可能性があります。[ブラウザー ドライバーの構成](../installation/configure-browser-driver.md)の説明に従ってドライバーを更新し、Studio の **オプション > 実行 > ブラウザー バージョン** で **自動検出** をオンにしてください。
 
-### 1.4. サポートの入手先 {#14-where-to-find-help}
+### 1.4. サポートの入手先 \{#14-where-to-find-help}
 
 - akaBot ドキュメント: [Studio ユーザー ガイド](./how-to-use.md)ではインターフェイスと一般的なタスクを説明しており、アクティビティのセクションでは各アクティビティとそのプロパティを説明しています。また、各ワークフロー アナライザー ルールには、説明と推奨事項があります。
 - [デバッガー](./how-to-use-debugger.md)と**ホーム**タブの **ログを開く** ボタンは、エージェントが何を行ったかを調査するのに役立ちます。
@@ -120,11 +120,11 @@ Citrix またはリモート デスクトップを自動化するには、リモ
 - [akaBot Academy](https://akademy.akabot.com/courses) ではコースを提供しており、[コミュニティ フォーラム](https://community.akabot.com/)では他の akaBot ユーザーに質問できます。
 - akaBot サポート チーム ([support@akabot.com](mailto:support@akabot.com)) に問い合わせることもできます。
 
-## 2. 基本的な開発ルール {#2-basic-development-rules}
+## 2. 基本的な開発ルール \{#2-basic-development-rules}
 
 自分だけでなく、チームメンバー、レビュー担当者、管理者が読んで理解できるエージェントを構築してください。
 
-### 2.1. プロジェクト {#21-project}
+### 2.1. プロジェクト \{#21-project}
 
 - すべてのプロジェクトには、ルート フォルダーに `Main.xaml` という名前のファイルが必要です。このファイルはプロジェクトのエントリ ポイントです。公開したプロジェクトを akaBot センターまたはエージェントから実行すると、実行は `Main.xaml` から開始されます。`Main.xaml` が存在しない場合、ワークフロー アナライザーはエラーとして報告します (`ST-ANA-006`)。
 - メイン ワークフローの名前が異なる場合は、`Main.xaml` に名前を変更するか、**プロジェクト** パネルで右クリックして **メインとして設定** を選択します。
@@ -135,7 +135,7 @@ Citrix またはリモート デスクトップを自動化するには、リモ
 
 ![名前、場所、説明のフィールドがある新規プロジェクト ウィンドウ](/static/img/image-20220506161409-4.png)
 
-#### プロジェクト名のルール {#project-name-rules}
+#### プロジェクト名のルール \{#project-name-rules}
 
 プロジェクト名は、プロジェクトを公開するときにパッケージ ID になります。そのため、Studio はプロジェクトの作成時に、NuGet のパッケージ ID のルールに照らして名前をチェックします。プロジェクト名は、次のルールに従う必要があります。
 
@@ -154,7 +154,7 @@ Citrix またはリモート デスクトップを自動化するには、リモ
 
 「文字」には、英語以外の文字も含まれます。Studio は、`Hóa_Đơn_Kiểm_Tra` のようなベトナム語の発音区別符号を含む名前や、`請求書チェック` のような日本語の文字を含む名前を受け付けます。これらの言語の句読点 (`、` や `。` など) は受け付けられません。名前はパッケージ ID やファイル パスにも使用されるため、たとえば `HoaDon_KiemTra` のように、発音区別符号のない英字を使用することをお勧めします。ご自身の言語での名前は、代わりに説明に記載してください。
 
-#### 推奨される命名形式 {#recommended-naming-format}
+#### 推奨される命名形式 \{#recommended-naming-format}
 
 Studio は命名形式を強制しません。プロジェクトを探しやすく、レビューしやすく、レポートしやすくするために、組織内で 1 つの形式を取り決めてください。
 
@@ -172,9 +172,9 @@ Studio は命名形式を強制しません。プロジェクトを探しやす�
 
 例: `SLS_SLS1_0001_DailyReport_AA`。名前は 50 文字以内にしてください。また、プロジェクトを公開した後に名前を変更しないでください。新しい名前で akaBot センターに新しいパッケージが作成されるためです。
 
-### 2.2. ワークフロー {#22-workflow}
+### 2.2. ワークフロー \{#22-workflow}
 
-#### ワークフローの種類を選択する {#choose-the-workflow-type}
+#### ワークフローの種類を選択する \{#choose-the-workflow-type}
 
 | 種類 | 使用する場合 |
 | --- | --- |
@@ -192,7 +192,7 @@ Studio は命名形式を強制しません。プロジェクトを探しやす�
 
 ![2 つの判断が Success、Business Rule Exception、System Error に分岐する Flowchart](/static/img/dev-guidelines-example-flowchart.png)
 
-#### ワークフローを浅く、モジュール化して保つ {#keep-workflows-shallow-and-modular}
+#### ワークフローを浅く、モジュール化して保つ \{#keep-workflows-shallow-and-modular}
 
 **必須:** アクティビティを 7 階層を超えてネストしないでください。
 
@@ -210,7 +210,7 @@ Studio は命名形式を強制しません。プロジェクトを探しやす�
 
 ワークフローが 1 つか 2 つしかないプロジェクトは、デバッグしにくい 1 つの大きなファイルになる可能性があります。一方、小さなワークフローが数十個あるプロジェクトは、追跡しにくくなる可能性があります。ワークフローの数は、コード レビューの際の参考として使用してください。
 
-### 2.3. アクティビティ {#23-activity}
+### 2.3. アクティビティ \{#23-activity}
 
 - **各アクティビティに意味のある表示名を付けます。** `Click` や `Type Into` のような既定の名前をそのまま使用しないでください。`Click Login Button` や `Enter Username` のように、プロセスにおけるアクティビティの役割を記述します (`ST-MRD-002`)。このルールは、既定では `Sequence`、`Flowchart`、`StateMachine` をチェックしません。この一覧は **ExcludedActivities** パラメーターで変更できます。
 
@@ -234,7 +234,7 @@ Studio は命名形式を強制しません。プロジェクトを探しやす�
 
   不要になったものは削除するか、ロジックを完成させてください。意図的に分岐を空にする場合は、その理由を説明する `Comment` アクティビティを追加してください。
 
-#### 修正が必要な例 {#examples-to-fix}
+#### 修正が必要な例 \{#examples-to-fix}
 
 次のワークフローでは、赤枠で示したアクティビティが **Get Agent Credential**、**Convert SecureString**、**Select File** などの既定の名前のままになっています。これらの名前では、プロセスにおける各アクティビティの役割がわかりません。たとえば `Get Login Credential` のように、それぞれ名前を変更してください。
 
@@ -244,13 +244,13 @@ Studio は命名形式を強制しません。プロジェクトを探しやす�
 
 ![注釈がなく、Flowchart が既定の名前のままになっているワークフロー](/static/img/dev-guidelines-example-no-annotation.png)
 
-### 2.4. 変数と引数 {#24-variables-and-arguments}
+### 2.4. 変数と引数 \{#24-variables-and-arguments}
 
 **必須:** すべての変数と引数に、保持する内容がわかる名前と、組織で取り決めたプレフィックスを付けてください。`a`、`temp`、`test` のような名前は避けてください。
 
 名前、メール アドレス、コメントなどの短いテキストには `String` を、数値には `Int32` を使用します。アクティビティが必要とする場合は、`Boolean` や `DataTable` などの他の型を使用します。
 
-#### 変数 {#variables}
+#### 変数 \{#variables}
 
 | ルール | ルール ID | 既定 |
 | --- | --- | --- |
@@ -264,17 +264,17 @@ Studio は命名形式を強制しません。プロジェクトを探しやす�
 
 ![Regex と Prefix パラメーターがある Variable Naming ルール](/static/img/st-nmg-01.png)
 
-#### 引数 {#arguments}
+#### 引数 \{#arguments}
 
 引数名は 30 文字を超えないようにしてください (`ST-NMG-016`)。引数を作成するときは、方向として **In**、**Out**、**In/Out**、**Property** のいずれかを選択します。
 
 ![方向リストがある引数パネル](/static/img/dev-guidelines-arguments-panel.png)
 
-#### 式の言語 {#expression-language}
+#### 式の言語 \{#expression-language}
 
 akaBot Studio は、プロジェクトの式の言語として VB.NET と C# の両方をサポートしています。C# プロジェクトについては、[C# 式エディターと IntelliSense](./csharp-expression-editor.md) を参照してください。
 
-### 2.5. 認証情報と機密データ {#25-credentials-and-sensitive-data}
+### 2.5. 認証情報と機密データ \{#25-credentials-and-sensitive-data}
 
 **必須:** ID とパスワードをワークフローに直接入力しないでください。認証情報ストアに保存し、実行時に取得してください。akaBot Studio では、次のオプションを利用できます。
 
@@ -307,7 +307,7 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 
 ![Keywords パラメーターがある SecureString for Sensitive Variables ルール](/static/img/st-sec-008.png)
 
-#### 例 {#examples}
+#### 例 \{#examples}
 
 **推奨:** 認証情報ストアから認証情報を取得します。次のワークフローは、まず akaBot センターから Credential アセットを取得します。それに失敗した場合は、Windows 資格情報マネージャーから認証情報を取得します。ワークフローには ID もパスワードも記述されていません。
 
@@ -320,7 +320,7 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 
 ![引数の既定値として入力されたユーザー名とパスワード、および Message Box に表示されたパスワード](/static/img/dev-guidelines-example-hardcoded-credentials.png)
 
-### 2.6. ログとエラー処理 {#26-logging-and-error-handling}
+### 2.6. ログとエラー処理 \{#26-logging-and-error-handling}
 
 - エージェントの動作を記録するには、**Log Message** を使用します。レベルは `Trace`、`Info`、`Warn`、`Error`、`Fatal` の 5 つです。ログ メッセージは akaBot センターにも送信され、**ログ** ページに表示されます。そのため、メッセージに機密データを含める前に、データ セキュリティを考慮してください。
 
@@ -336,7 +336,7 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 - 既定では、ログには `Info` レベル以上のメッセージが表示されます。より詳細な情報を確認するには、**エージェント設定** を開き、**センター** タブを選択して **ログ レベル** を変更します。たとえば `Verbose` レベルでは、**Log Message** で `Trace` レベルで書き込んだメッセージも含まれます。[エージェント ログ](/docs/agent/latest/user-guide/logs.md)を参照してください。
 - ログ ファイルが格納されているフォルダーを開くには、**ホーム**タブの **ログを開く** をクリックします。ログ ファイルは `%localappdata%\akaBot\Logs\` に保存されます。
 
-#### ログに含まれる内容 {#what-the-logs-contain}
+#### ログに含まれる内容 \{#what-the-logs-contain}
 
 | ログ エントリ | レベル | 含まれる内容 |
 | --- | --- | --- |
@@ -354,11 +354,11 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 - akaBot は、名前に基づいて値を隠すことはしません。`password` という名前の `String` 変数は、そのまま書き込まれます。`SecureString` の値は、読み取り可能な形式では書き込まれません。
 - akaBot エージェントは、ログ エントリを書き込まれたとおりに akaBot センターへ送信します。その内容をマスクしたりフィルターしたりすることはありません。
 
-### 2.7. 避けるべきこと {#27-practices-to-avoid}
+### 2.7. 避けるべきこと \{#27-practices-to-avoid}
 
 エージェントがエラーに遭遇したときに、セキュリティ インシデントや重大な障害が発生するリスクを減らすために、次のことは避けてください。
 
-#### 機密情報や個人データをログに書き込まない {#do-not-write-confidential-information-or-personal-data-to-logs}
+#### 機密情報や個人データをログに書き込まない \{#do-not-write-confidential-information-or-personal-data-to-logs}
 
 **必須:** 機密情報や個人データをログに書き込むと、セキュリティ インシデントにつながる可能性があります。パスワード、トークン、個人データを **Log Message** に含めないでください。また、それらを扱うアクティビティで **Public** オプションを選択しないでください。[認証情報と機密データ](#25-credentials-and-sensitive-data)および[ログに含まれる内容](#what-the-logs-contain)を参照してください。
 
@@ -369,11 +369,11 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 | `"Login: " + v_UserName + " / " + v_PasswordText` | パスワード (機密情報) を書き込んでいる |
 | `"Customer: " + v_FullName + ", phone: " + v_Phone` | 個人データを書き込んでいる |
 
-#### 不要なログを大量に出力しない {#do-not-output-large-amounts-of-unnecessary-logs}
+#### 不要なログを大量に出力しない \{#do-not-output-large-amounts-of-unnecessary-logs}
 
 ログは、プロセスがどのように実行されたかを確認し、インシデントを調査するために使用されます。特にループ内では、不要なログ メッセージを書き込みすぎないようにしてください。
 
-#### 承認、提出、メール送信を自動化しない {#do-not-automate-the-approval-submission-or-sending-of-an-email}
+#### 承認、提出、メール送信を自動化しない \{#do-not-automate-the-approval-submission-or-sending-of-an-email}
 
 **必須:** 自動化の範囲は、承認、提出、またはメール送信の直前のステップまでに限定してください。最終ステップは人が実行します。これにより、エージェントが何らかの理由で失敗した場合に、重大なインシデントが発生するリスクを抑えられます。
 
@@ -383,17 +383,17 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 2. システム内のデータを確認し、取得する。
 3. 顧客宛てのメールを作成する。
 
-#### バックアップなしでファイルを直接更新しない {#do-not-update-a-file-directly-without-a-backup}
+#### バックアップなしでファイルを直接更新しない \{#do-not-update-a-file-directly-without-a-backup}
 
 **必須:** 対象ファイルを編集または更新する前に、たとえば **Copy File** アクティビティなどでバックアップ コピーを作成してください。処理エラーが発生した場合に、ファイルを元の状態に復元できます。
 
-## 3. 高度な開発ルール {#3-advanced-development-rules}
+## 3. 高度な開発ルール \{#3-advanced-development-rules}
 
 基本ルールに慣れてくると、それらでは対応できないケースに遭遇することがあります。そのようなケースは、これらの高度なルールの範囲内で構築してください。
 
-### 3.1. 要素の待機と特定 {#31-waiting-for-and-locating-elements}
+### 3.1. 要素の待機と特定 \{#31-waiting-for-and-locating-elements}
 
-#### 固定の遅延を避ける {#avoid-fixed-delays}
+#### 固定の遅延を避ける \{#avoid-fixed-delays}
 
 固定の **Delay** は、オートメーションを脆弱にする可能性があります (`ST-DBP-026`)。代わりに、条件を待機してください。たとえば、Native Browser パッケージには **Wait Element Vanishes**、**Wait Page Load Complete**、**Wait Page Title**、**Wait Page URL**、**Wait Web Attribute** があり、**Element Exist** アクティビティは要素が存在するかどうかを確認します。
 
@@ -407,11 +407,11 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 
 ![Element Exist アクティビティと、その結果を確認する If アクティビティ](/static/img/dev-guidelines-example-element-exists.png)
 
-#### 画像認識を避ける {#avoid-image-recognition}
+#### 画像認識を避ける \{#avoid-image-recognition}
 
 **Image Click** や **Image Found** など、画像で要素を検索するアクティビティは、セレクターを使用するアクティビティに比べて安定性が低くなります。画像の精度を上げると改善しますが、不安定さがなくなるわけではありません。既定のセレクターで要素が見つからない場合は、まず [UI Explorer](./how-to-use-UI-Explorer.md) でセレクターを調整し、他に方法がない場合にのみ画像認識を使用してください。
 
-#### 値をハードコードしない {#do-not-hard-code-values}
+#### 値をハードコードしない \{#do-not-hard-code-values}
 
 ファイル パス、URL、しきい値をアクティビティに直接入力しないでください。構成ファイルまたは akaBot センターのアセットに保存して、ワークフローを編集せずにエージェントを別の環境へ移行できるようにしてください。
 
@@ -421,7 +421,7 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 | 固定の **Delay** (例: 3 秒) | **On Element Appear**、**Wait Element Exist**、または **Wait Page Load Complete** |
 | アクティビティに入力したパス、URL、しきい値 | 構成ファイル、または akaBot センターのアセット |
 
-#### 適切なセレクターの種類を選択する {#choose-the-right-selector-type}
+#### 適切なセレクターの種類を選択する \{#choose-the-right-selector-type}
 
 画面上の要素を指定すると、Studio は複数の種類のセレクターを生成できます。複数の種類を有効にすることもできます。実行時に、Studio はそれらを順番に試し、最初のセレクターで要素が見つからない場合は次のセレクターにフォールバックします。
 
@@ -439,7 +439,7 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 
 詳細については、[セレクター ガイド](/docs/activities/common/latest/user-guide/selector-guide.md)、[セマンティック セレクターの使用開始](/docs/activities/common/latest/user-guide/semantic-selector-howto.md)、[UI Explorer の使い方](./how-to-use-UI-Explorer.md)を参照してください。
 
-### 3.2. ワークフロー アナライザーでプロジェクトをチェックする {#32-check-your-project-with-workflow-analyzer}
+### 3.2. ワークフロー アナライザーでプロジェクトをチェックする \{#32-check-your-project-with-workflow-analyzer}
 
 ワークフロー アナライザーは、ワークフローを実行せずに分析します。開発中は定期的に実行し、公開する前にはプロジェクト全体に対して実行してください。
 
@@ -476,7 +476,7 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 
 ルールの全一覧については、[ワークフロー アナライザー ルール](./workflow-analyzer/analyze-rules.md)を参照してください。コマンド ラインから分析を実行するには、[ワークフロー アナライザーについて](./workflow-analyzer/about-workflow-analyzer.md)を参照してください。
 
-### 3.3. デバッグと公開 {#33-debug-and-publish}
+### 3.3. デバッグと公開 \{#33-debug-and-publish}
 
 - 公開する前に、Studio がインストールされているマシンでプロジェクトをデバッグしてください。[デバッガーの使い方](./how-to-use-debugger.md)を参照してください。
 
@@ -486,11 +486,11 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 
 ![公開先、新しいバージョン、リリース ノートのフィールドがある公開ウィンドウ](/static/img/image-20230413154502-2.png)
 
-## 4. 業務プロセスの整理 {#4-organizing-the-business-process}
+## 4. 業務プロセスの整理 \{#4-organizing-the-business-process}
 
 エージェントを構築する前に、現在人が行っている業務を整理し、そのうちエージェントが担当する部分を決定してください。事前に整理されていないプロセスは、開発の妨げとなり、運用でエラーを引き起こすことが少なくありません。
 
-### 4.1. プロセスを自動化リストに登録する {#41-register-the-process-in-your-automation-list}
+### 4.1. プロセスを自動化リストに登録する \{#41-register-the-process-in-your-automation-list}
 
 自動化するプロセスの情報を書き出し、組織の自動化リストに登録します。このリストは、組織全体でのエージェントの使用状況を報告するためにも使用されます。
 
@@ -509,7 +509,7 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 | システム | Chrome (勤怠システム) |
 | ステータス | 開発中 |
 
-### 4.2. プロセス フローを描く {#42-draw-the-process-flow}
+### 4.2. プロセス フローを描く \{#42-draw-the-process-flow}
 
 開発する前に、紙、Excel、または PowerPoint にプロセス フローを描いてください。
 
@@ -520,7 +520,7 @@ akaBot センターで Credential アセットを作成するには、**アセ�
 
 プロフェッショナル プロジェクトの場合は、プロセス定義書 (PDD) にプロセスを詳細に記述してください。レベル 1 のプロジェクトでは、簡単なフローで十分です。
 
-## 関連トピック {#related-topics}
+## 関連トピック \{#related-topics}
 
 - [akaBot Studio の使い方](./how-to-use.md)
 - [ワークフロー アナライザー ルール](./workflow-analyzer/analyze-rules.md)
