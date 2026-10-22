@@ -38,6 +38,6 @@ RCA.Activities.Core.GetSecureCredential
 
 **出力**
 
-* **パスワード (文字列)** - 後で使用するために type = 'String' で変数を宣言できる出力パスワード。
+* **パスワード (SecureString)** - 指定されたターゲットに対して取得されたパスワード。後で使用するには、type を `SecureString` として変数を宣言します。
 * **ユーザー名 (文字列)** - 後で使用するために type = 'String' で変数を宣言できる出力ユーザー名。
 * **結果 (ブール値)** - ブール変数としてのアクティビティの結果: True または False。
