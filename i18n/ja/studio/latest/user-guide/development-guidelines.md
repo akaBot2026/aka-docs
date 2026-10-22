@@ -116,7 +116,9 @@ Citrix またはリモート デスクトップを自動化するには、リモ
 - [デバッガー](./how-to-use-debugger.md)と**ホーム**タブの **ログを開く** ボタンは、エージェントが何を行ったかを調査するのに役立ちます。
 - [AkaNinja](./how-to-use-akaninja.md) は Studio に組み込まれた AI アシスタントで、アクティビティとそのプロパティの説明、エラー メッセージの分析と解決方法の提案、VB.NET または C# の式の生成を行います。使用する前に、**オプション > AI 統合** で AI プロバイダーを構成してください。
 
-  ![akaBot Studio の AkaNinja パネル](/static/img/ask-ai.png)
+  たとえば、デザイナーでアクティビティを選択し、そのアクティビティについて AkaNinja に質問します。AkaNinja は、下の赤枠で示した選択項目の表示名と種類を受け取り、そのアクティビティの役割と構成すべきプロパティを説明します。
+
+  ![選択した Assign アクティビティを説明する AkaNinja](/static/img/dev-guidelines-example-akaninja.png)
 - [akaBot Academy](https://akademy.akabot.com/courses) ではコースを提供しており、[コミュニティ フォーラム](https://community.akabot.com/)では他の akaBot ユーザーに質問できます。
 - akaBot サポート チーム ([support@akabot.com](mailto:support@akabot.com)) に問い合わせることもできます。
 
@@ -188,7 +190,7 @@ Studio は命名形式を強制しません。プロジェクトを探しやす�
 
 プロセスに複数の分岐やループがある場合は、**Flowchart** を使用してください。多数の分岐やループがある **Sequence** も正しく実行されますが、読みにくく、保守が困難になります。
 
-たとえば、REFramework テンプレートの `SetTransactionStatus.xaml` ワークフローは Flowchart です。赤枠で示した 2 つの判断により、プロセスは Success、Business Rule Exception、System Error の 3 つの分岐に分かれます。
+たとえば、次の Flowchart には赤枠で示した 2 つの判断があります。これらの判断により、プロセスは Success、Business Rule Exception、System Error の 3 つの分岐に分かれます。
 
 ![2 つの判断が Success、Business Rule Exception、System Error に分岐する Flowchart](/static/img/dev-guidelines-example-flowchart.png)
 

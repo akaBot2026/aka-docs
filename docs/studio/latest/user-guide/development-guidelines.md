@@ -15,7 +15,7 @@ Many of the rules in this guide are checked automatically by [Workflow Analyzer]
 
 Rules marked **Required** must be followed. The other rules are recommendations.
 
-### Required rules
+### Required rules at a glance
 
 | # | Required rule | Section |
 | --- | --- | --- |
@@ -106,7 +106,9 @@ To automate Java applications, install and enable Java Access Bridge. See [Insta
 
 To automate SAP GUI, enable SAP GUI Scripting on both your PC and the SAP server. See [SAP Logon](/docs/activities/sap/latest/activities/sap-logon.md).
 
-To automate Citrix or Remote Desktop, install akaBot Remote Runtime on the remote machine to use native selectors. You can also use the CV selector or the Image selector. See [Choose the right selector type](#choose-the-right-selector-type).
+To automate Citrix or Remote Desktop, use the CV selector or the Image selector. See [Choose the right selector type](#choose-the-right-selector-type).
+
+If your browser updates automatically, the browser driver may no longer match the browser version, and your agent may fail at run time. Update the driver as described in [Configure Browser Driver](../installation/configure-browser-driver.md), and then turn on **Auto Detect** in Studio under **Options > Execution > Browser Version**.
 
 ### 1.4. Where to find help
 
@@ -114,7 +116,9 @@ To automate Citrix or Remote Desktop, install akaBot Remote Runtime on the remot
 - The [Debugger](./how-to-use-debugger.md) and the **Open Logs** button on the **Home** tab help you investigate what an agent did.
 - [AkaNinja](./how-to-use-akaninja.md), the AI assistant built into Studio, can explain activities and their properties, analyze an error message and suggest how to resolve it, and generate VB.NET or C# expressions. Configure the AI provider in **Options > AI Integration** before you use it.
 
-  ![The AkaNinja panel in akaBot Studio](/static/img/ask-ai.png)
+  For example, select an activity in the Designer and ask AkaNinja about it. AkaNinja receives the display name and type of the selected item, outlined in red below, and explains what the activity does and which properties to configure.
+
+  ![AkaNinja explaining a selected Assign activity](/static/img/dev-guidelines-example-akaninja.png)
 - The [akaBot Academy](https://akademy.akabot.com/courses) offers courses, and the [Community Forum](https://community.akabot.com/) lets you ask other akaBot users.
 - You can also contact the akaBot support team at [support@akabot.com](mailto:support@akabot.com).
 
@@ -186,7 +190,7 @@ You can create all three types from the **New** button on the **Home** tab.
 
 Use a **Flowchart** when the process has several branches or loops. A **Sequence** with many branches and loops still runs correctly, but it is hard to read and maintain.
 
-For example, the `SetTransactionStatus.xaml` workflow of the REFramework template is a Flowchart. Its two decisions, outlined in red, split the process into three branches: Success, Business Rule Exception, and System Error.
+For example, the following Flowchart has two decisions, outlined in red. They split the process into three branches: Success, Business Rule Exception, and System Error.
 
 ![A Flowchart whose two decisions branch into Success, Business Rule Exception, and System Error](/static/img/dev-guidelines-example-flowchart.png)
 
@@ -255,8 +259,8 @@ Use `String` for short text such as a name, an email address, or a comment, and 
 | Variable names follow the naming convention. | `ST-NMG-001` | Prefix `v_`, for example `v_Result`. The Regex is empty by default and can be configured. |
 | DataTable variable names start with `dt_`. | `ST-NMG-009` | Prefix `dt_`, for example `dt_EmployeeData`. |
 | Variable names are not too long. | `ST-NMG-008` | 20 characters |
-| A variable does not share a name with an argument. | `ST-NMG-006` | — |
-| A variable in an inner scope does not reuse the name of a variable in an outer scope. | `ST-NMG-005` | — |
+| A variable does not share a name with an argument. | `ST-NMG-006` | |
+| A variable in an inner scope does not reuse the name of a variable in an outer scope. | `ST-NMG-005` | |
 
 You can change the prefix and the Regex in **Analyze Settings** to match your organization's convention. For example, you can use prefixes by data type such as `str_`, `int_`, `bool_`, `list_`, and `dict_`.
 
@@ -327,7 +331,7 @@ Follow these rules when you work with sensitive values:
 
   ![The Minimum Log Messages rule with the MinLogs parameter](/static/img/st-usg-020.png)
 
-  For example, the following workflow writes a Log Message when it starts and when it finishes. Each message names the workflow file, so you can follow the run in the logs.
+  For example, the following workflow writes a Log Message when it starts and when it finishes. Each message names the workflow file, so you can follow the run in the logs. Use the same format in every workflow, for example `"<FileName>.xaml Start call WFL..."` and `"<FileName>.xaml Finish call WFL..."`.
 
   ![A workflow with a Log Message at its start and at its end](/static/img/dev-guidelines-example-start-end-logs.png)
 - Do not leave a `Catch` block empty (`ST-DBP-003`). An empty `Catch` hides the error, and the agent fails without leaving a trace. Add at least a **Log Message** activity to record the error details.
@@ -397,7 +401,7 @@ A fixed **Delay** can make an automation brittle (`ST-DBP-026`). Wait for a cond
 
 If you must use **Delay**, do not type the duration directly into the activity (`ST-PRR-004`). Store it in a variable, an argument, or a configuration file, so that you can use a different value in Test and Production without editing the workflow.
 
-**Avoid:** In the following workflow, a **Delay** of a fixed 5 seconds runs before each step. If the application is slow, 5 seconds may not be enough. If it is fast, the wait is wasted time.
+**Avoid:** In the following workflow, a **Delay** of a fixed 5 seconds runs before each step. On a slow day, 5 seconds may not be enough. On a fast day, the agent wastes time.
 
 ![Delay activities with a fixed duration before each step](/static/img/dev-guidelines-example-fixed-delay.png)
 
