@@ -38,6 +38,6 @@ The Get Secure Credential activity allows you to retrieve the credentials from a
 
 **Output**
 
-* **Password (String)** - Output password that you can declare the variables with type = ‘String’ for further uses.
+* **Password (SecureString)** - The password retrieved for the specified target. Declare the variable with type `SecureString` for further uses.
 * **Username (String)** - Output username that you can declare the variables with type = ‘String’ for further uses.
 * **Result (Boolean)** - Result of the activity as a Boolean variable: True or False.

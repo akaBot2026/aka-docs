@@ -12,7 +12,7 @@ RCA.Activities.Core.GetCredential
 
 ## **Description**
 
-This activity allows you to retrieve the credentials from a specified target from the Windows Credential Manager as a secure string (password) and a string (username). Additionally, a boolean value is returned to let you know if the process was successful or not.
+This activity allows you to retrieve the credentials from a specified target from the Windows Credential Manager as strings (username and password). The password is returned as a plain `String`, not a `SecureString`. To retrieve the password as a `SecureString`, use the [Get Secure Credential](./get-secure-credential.md) activity. Additionally, a boolean value is returned to let you know if the process was successful or not.
 
 ![image-20220505151742-1.png](/static/img/4e589c_image-20220505151742-1.png)
 
@@ -38,6 +38,6 @@ This activity allows you to retrieve the credentials from a specified target fro
 
 **Output**
 
-* **Password (String)**\* - The password retrieved for the specified target, as a secureString variable.
+* **Password (String)**\* - The password retrieved for the specified target, as a `String` variable. It is not a `SecureString`.
 * **Username (String)**\* - The username retrieved for the specified target, as a string variable.
 * **Result (Boolean)** - A Boolean variable that indicates whether the given credentials were successfully get from Windows Credential Manager.
