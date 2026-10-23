@@ -35,7 +35,7 @@ displayed_sidebar: studioSidebar
 
 公開パッケージ サービスはロード バランシングや CDN アドレスを使用します。現在の IP を解決して固定するのではなく、FQDN/SNI で許可してください。
 
-### ファイアウォールの許可リスト {#firewall-allowlist}
+### ファイアウォールの許可リスト \{#firewall-allowlist}
 
 ファイアウォールまたはプロキシで、次の送信接続を許可してください。akaBot はこれらのサービスに固定のパブリック IP アドレスを使用していないため、IP アドレスではなく **ドメイン名 (FQDN/SNI)** で許可してください。すべての接続は Studio、Agent、Center からの送信接続であり、受信ポートは不要です。
 

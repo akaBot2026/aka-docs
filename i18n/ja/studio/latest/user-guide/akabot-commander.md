@@ -17,9 +17,9 @@ displayed_sidebar: studioSidebar
 
 各インストール モードの動作と書き込まれるポリシーについては、[ブラウザーのグループ ポリシー](./browser-group-policies.md) を参照してください。
 
-## 1. 始める前に {#1-before-you-start}
+## 1. 始める前に \{#1-before-you-start}
 
-### 1.1 場所 {#11-location}
+### 1.1 場所 \{#11-location}
 
 Commander.exe は akaBot Studio のインストール フォルダーにあります。既定のインストールの場合:
 
@@ -35,7 +35,7 @@ Commander.exe は akaBot Studio のインストール フォルダーにあり�
 dir /b "C:\Program Files\FPT Software\akaBot Platform\akaBot\MV3"
 ```
 
-### 1.2 管理者権限 {#12-administrator-rights}
+### 1.2 管理者権限 \{#12-administrator-rights}
 
 | コマンド | 管理者として実行 |
 |---|---|
@@ -45,7 +45,7 @@ dir /b "C:\Program Files\FPT Software\akaBot Platform\akaBot\MV3"
 | `install-java` / `remove-java` | Java が `C:\Program Files` にインストールされている場合は必要 |
 | `child-session --enable` / `--disable` | 必要 |
 
-### 1.3 構文 {#13-syntax}
+### 1.3 構文 \{#13-syntax}
 
 ```text
 Commander.exe <command> --<option>:<value> --<option>:<value> ...
@@ -63,7 +63,7 @@ Commander.exe <command> --<option>:<value> --<option>:<value> ...
 > cd /d "C:\Program Files\FPT Software\akaBot Platform"
 > ```
 
-## 2. 拡張機能の識別子 {#2-extension-identifiers}
+## 2. 拡張機能の識別子 \{#2-extension-identifiers}
 
 拡張機能のすべてのコマンドには、ブラウザーの拡張機能 ID とネイティブ メッセージング ホストが必要です。
 
@@ -73,7 +73,7 @@ Commander.exe <command> --<option>:<value> --<option>:<value> ...
 | Edge | `idcmnficjddehpcjmkfcmomijikkgdgh` | `com.akarpa.edgenativemsg` | `akaBot\NativeHost\com.akarpa.edgenativemsg.json` |
 | Firefox | `support@akabot.com` | `com.akarpa.firefoxnativemsg` | `akaBot\NativeHost\com.akarpa.firefoxnativemsg.json` |
 
-## 3. 拡張機能をインストールする {#3-install-the-extension}
+## 3. 拡張機能をインストールする \{#3-install-the-extension}
 
 ```text
 Commander.exe install-chrome | install-edge | install-firefox
@@ -100,7 +100,7 @@ Commander.exe install-chrome | install-edge | install-firefox
 
 > **注:** インストール中はブラウザーを閉じる必要があります。インストール コマンドを実行する前に、ブラウザーでの作業を保存してください。
 
-### 3.1 例: User モード (現在のユーザー、管理者権限不要) {#31-example-user-mode-current-user-no-administrator-rights}
+### 3.1 例: User モード (現在のユーザー、管理者権限不要) \{#31-example-user-mode-current-user-no-administrator-rights}
 
 ```bat
 cd /d "C:\Program Files\FPT Software\akaBot Platform"
@@ -110,7 +110,7 @@ Commander.exe install-chrome --scope:user --id:pflniglmkbjhmlcpcgpnhnpicdfalkjb 
 
 User モードでインストールした後、Chrome を開き、通知で **拡張機能を有効にする** をクリックします ([Akabot Web 拡張機能をインストールする方法](./how-to-install-akabot-web-extension.md#32-enable-extension-in-chrome) を参照)。
 
-### 3.2 例: Policy モード (すべてのユーザー、ストアから) {#32-example-policy-mode-all-users-from-the-store}
+### 3.2 例: Policy モード (すべてのユーザー、ストアから) \{#32-example-policy-mode-all-users-from-the-store}
 
 管理者として開いたコマンド プロンプトで:
 
@@ -122,7 +122,7 @@ Commander.exe install-edge --scope:policy --id:idcmnficjddehpcjmkfcmomijikkgdgh 
 
 Edge は次回の起動時に Edge アドオンから拡張機能をダウンロードするため、コンピューターからストアにアクセスできる必要があります。
 
-### 3.3 例: ポリシー (オフライン) モード (すべてのユーザー、ストアへのアクセス不要) {#33-example-policy-offline-mode-all-users-no-store-access}
+### 3.3 例: ポリシー (オフライン) モード (すべてのユーザー、ストアへのアクセス不要) \{#33-example-policy-offline-mode-all-users-no-store-access}
 
 ドメインに参加しているか MDM に登録されているコンピューターで、管理者として開いたコマンド プロンプトで:
 
@@ -134,7 +134,7 @@ Commander.exe install-chrome --scope:policyoffline --id:pflniglmkbjhmlcpcgpnhnpi
 
 Commander はパッケージを `C:\ProgramData\akaBot\Extensions\chrome` にコピーし、そこから強制インストールします。終了コード `14` で終了した場合、コンピューターは管理対象ではありません。代わりに `--scope:policy` を使用してください。終了コード `15` はパッケージをコピーできなかったことを示します。`C:\ProgramData\akaBot\Extensions` を削除してから、コマンドを再度実行してください。
 
-### 3.4 例: Firefox の Policy モード {#34-example-firefox-in-policy-mode}
+### 3.4 例: Firefox の Policy モード \{#34-example-firefox-in-policy-mode}
 
 管理者として開いたコマンド プロンプトで:
 
@@ -146,7 +146,7 @@ Commander.exe install-firefox --scope:policy --id:support@akabot.com --version:2
 
 > **注:** 例のバージョンは、`akaBot\MV3` フォルダーにあるバージョン (セクション 1.1) に置き換えてください。
 
-## 4. 状態を確認する {#4-check-the-status}
+## 4. 状態を確認する \{#4-check-the-status}
 
 ```text
 Commander.exe status-chrome | status-edge | status-firefox --id:<extension id> --nativeHostId:<native host id>
@@ -169,7 +169,7 @@ echo %ERRORLEVEL%
 
 Chrome と Edge の状態は、Indicate から見た状態です。拡張機能がポリシーで強制インストールされている場合は、User モードのインストールが存在していてもポリシーのインストールが報告されます。
 
-## 5. 拡張機能を削除する {#5-remove-the-extension}
+## 5. 拡張機能を削除する \{#5-remove-the-extension}
 
 ```text
 Commander.exe remove-chrome | remove-edge | remove-firefox --scope:<user|policy|policyoffline> --id:<extension id> --nativeHostId:<native host id>
@@ -185,7 +185,7 @@ Commander.exe remove-chrome --scope:policyoffline --id:pflniglmkbjhmlcpcgpnhnpic
 - 強制インストールされた拡張機能は、ブラウザーの次回の起動時に削除されます。
 - `remove-firefox` は、Firefox が実行中の場合に閉じるかどうかを確認します。
 
-## 6. 終了コード {#6-exit-codes}
+## 6. 終了コード \{#6-exit-codes}
 
 | コード | 名前 | 意味 |
 |---|---|---|
@@ -199,9 +199,9 @@ Commander.exe remove-chrome --scope:policyoffline --id:pflniglmkbjhmlcpcgpnhnpic
 
 `child-session` コマンドは独自のコードを使用します (セクション 7.2)。
 
-## 7. その他のコマンド {#7-other-commands}
+## 7. その他のコマンド \{#7-other-commands}
 
-### 7.1 Java Access Bridge {#71-java-access-bridge}
+### 7.1 Java Access Bridge \{#71-java-access-bridge}
 
 検出されたすべての Java インストール (`JAVA_HOME`、および `C:\Program Files\Java` と `C:\Program Files (x86)\Java` の下のフォルダー) で Java Access Bridge をオンまたはオフにします。akaBot で Java アプリケーションを自動化するには、Java Access Bridge が必要です。
 
@@ -212,7 +212,7 @@ Commander.exe remove-java
 
 コマンドの実行後、Java アプリケーションを再起動してください。
 
-### 7.2 子セッション {#72-child-sessions}
+### 7.2 子セッション \{#72-child-sessions}
 
 同じコンピューター上の別のセッションで自動化を実行するために使用する、Windows の子セッションを管理します。
 
@@ -224,7 +224,7 @@ Commander.exe remove-java
 | `Commander.exe child-session --disable` | 子セッションをオフにします (管理者)。 | `13` |
 | `Commander.exe child-session --logoff:<id>` | 現在のユーザーの指定した子セッションをサインアウトします。 | `14` |
 
-### 7.3 プログラムを起動する {#73-start-a-program}
+### 7.3 プログラムを起動する \{#73-start-a-program}
 
 ```text
 Commander.exe run-program --path:<path\to\app.exe> [--arguments:<Base64>] [--working-dir:<folder>]

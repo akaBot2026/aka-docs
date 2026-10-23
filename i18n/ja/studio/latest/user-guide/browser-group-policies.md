@@ -23,7 +23,7 @@ Google Chrome、Microsoft Edge、Mozilla Firefox をグループ ポリシー (G
 
 このページのポリシーはすべて `HKEY_LOCAL_MACHINE` に保存されるコンピューター ポリシーです。変更には管理者権限が必要で、ブラウザーは **すべての** ブラウザー プロセスが終了した後にのみポリシーを適用します ([バックグラウンド プロセス](#7-background-processes) を参照)。
 
-## 1. akaBot 拡張機能の識別子 {#1-akabot-extension-identifiers}
+## 1. akaBot 拡張機能の識別子 \{#1-akabot-extension-identifiers}
 
 以下のポリシーを設定するときは、次の値を使用します。
 
@@ -35,7 +35,7 @@ Google Chrome、Microsoft Edge、Mozilla Firefox をグループ ポリシー (G
 
 拡張機能は、ネイティブ メッセージング ホスト (`Aka.RPA.NativeMessagingHost`) を介して akaBot Studio および akaBot Agent と通信します。ブラウザーがネイティブ ホストをブロックすると、拡張機能はインストールされていても、**Indicate**、レコーディング、ブラウザー アクティビティはブラウザーにアクセスできません。
 
-## 2. インストール モード {#2-installation-modes}
+## 2. インストール モード \{#2-installation-modes}
 
 akaBot Studio は、拡張機能を 3 つのモードのいずれかでインストールします (**オプション > 拡張機能**)。モードによって、akaBot が書き込むポリシーが決まります。
 
@@ -51,7 +51,7 @@ akaBot Studio は、拡張機能を 3 つのモードのいずれかでインス
 
 手順については、[Akabot Web 拡張機能をインストールする方法](./how-to-install-akabot-web-extension.md) を参照してください。
 
-## 3. akaBot が書き込むポリシー (Chrome と Edge) {#3-policies-akabot-writes-chrome-and-edge}
+## 3. akaBot が書き込むポリシー (Chrome と Edge) \{#3-policies-akabot-writes-chrome-and-edge}
 
 **Policy** または **ポリシー (オフライン)** モードでインストールすると、akaBot はブラウザーのポリシー キー (セクション 1) の下に次の値を書き込みます。各リストは、値の名前が `1`、`2`、`3`… のキーです。akaBot は自身のエントリを再利用し、他の製品のエントリは削除しません。組織がこれらのポリシーを GPO で展開する場合は、GPO にも同じ値を含める必要があります。含めないと、次回の更新時に GPO によって上書きされます。
 
@@ -77,7 +77,7 @@ Edge の場合は、Edge の拡張機能 ID `idcmnficjddehpcjmkfcmomijikkgdgh`�
 
 上記のパスは既定のインストール フォルダーの場合です。キーは 64 ビットと 32 ビットの両方のレジストリ ビューに書き込まれます。
 
-### 3.1 ポリシー (オフライン) のファイル {#31-policy-offline-files}
+### 3.1 ポリシー (オフライン) のファイル \{#31-policy-offline-files}
 
 **ポリシー (オフライン)** モードでは、akaBot は拡張機能パッケージをコンピューターにコピーし、`ExtensionInstallForcelist` が参照する更新マニフェストを書き込みます。
 
@@ -106,7 +106,7 @@ C:\ProgramData\akaBot\Extensions\
 - パッケージは akaBot 拡張機能 (同じ拡張機能 ID) である必要があります。akaBot はポリシーを書き込む前にこれを確認します。
 - これらのファイルを削除しないでください。パッケージがない場合、ブラウザーは次回の起動時に拡張機能を削除します。
 
-## 4. 拡張機能をブロックする可能性があるポリシー (Chrome と Edge) {#4-policies-that-can-block-the-extension-chrome-and-edge}
+## 4. 拡張機能をブロックする可能性があるポリシー (Chrome と Edge) \{#4-policies-that-can-block-the-extension-chrome-and-edge}
 
 コンピューターに次のポリシーのいずれかが設定されていると、拡張機能がインストールされない、または動作しない場合があります。ほとんどの場合、**Policy** または **ポリシー (オフライン)** モードでインストールすると、許可リストのエントリが自動的に書き込まれるため解決します。組織が GPO でポリシーを設定している場合は、IT 管理者に値を GPO に追加するよう依頼してください。
 
@@ -180,7 +180,7 @@ akaBot 拡張機能は、ブラウザーの開発者ツール API (`chrome.debug
 
 > **注:** GPO によってこれらのリストがリセットされると、akaBot の修正は維持されません。その場合、ブラウザー環境チェックで「*開発者ツール ポリシーがまだありません。グループ ポリシーで上書きされた可能性があります。*」と表示されます。2 つの値を GPO に追加してください。
 
-## 5. Firefox のポリシー {#5-firefox-policies}
+## 5. Firefox のポリシー \{#5-firefox-policies}
 
 Firefox は **User** と **Policy** モードをサポートします。**Policy** モードでは、akaBot Studio に同梱の `.xpi` ファイルから拡張機能がインストールされるため、コンピューターから Firefox アドオン サイトにアクセスする必要はありません。Firefox には別のポリシー (オフライン) モードはありません。
 
@@ -196,7 +196,7 @@ akaBot は `HKLM\SOFTWARE\Policies\Mozilla\Firefox` の下に次の値を書き�
 
 組織が `ExtensionSettings` ポリシーまたは `policies.json` ファイルで拡張機能をブロックしている場合は、`support@akabot.com` を許可してください。
 
-## 6. 多数のコンピューターに拡張機能を展開する {#6-deploy-the-extension-to-many-machines}
+## 6. 多数のコンピューターに拡張機能を展開する \{#6-deploy-the-extension-to-many-machines}
 
 ポリシーで拡張機能を展開する方法は 2 つあります。
 
@@ -221,10 +221,10 @@ akaBot は `HKLM\SOFTWARE\Policies\Mozilla\Firefox` の下に次の値を書き�
 
 akaBot Platform のセットアップでも、`/EXTMODE` パラメーター (例: `/EXTMODE=policy`、`/EXTMODE=edge-policy,chrome-policy`) で User または Policy モードで拡張機能をインストールできます。ポリシー (オフライン) は akaBot Studio または Commander から設定します。
 
-## 7. バックグラウンド プロセス {#7-background-processes}
+## 7. バックグラウンド プロセス \{#7-background-processes}
 
 Chrome と Edge は起動時にのみポリシーを読み込みます。ブラウザーがバックグラウンドで実行を続けている場合 (Edge の **スタートアップ ブースト**、または **… を閉じた後もバックグラウンド アプリの実行を続行する**)、ウィンドウを閉じても変更したポリシーは適用されません。すべてのブラウザー プロセスを終了するか (タスク マネージャー、またはブラウザー環境チェックの **[すべてのプロセスを終了]** ボタンを使用)、これらの設定をオフにしてください。対応するポリシーは `StartupBoostEnabled` (Edge) と `BackgroundModeEnabled` です。
 
-## 8. ブラウザー環境チェック {#8-browser-environment-check}
+## 8. ブラウザー環境チェック \{#8-browser-environment-check}
 
 **Indicate** が Chrome または Edge にアクセスできない場合、akaBot Studio はブラウザー環境チェックを開きます (Common アクティビティ パッケージ v4.9.0.1 以降)。インストール モード (User、Policy、ポリシー (オフライン)) を検出し、このページに記載されている拡張機能をブロックするポリシーを一覧表示し、可能な場合は修正します (**[今すぐ修正 (管理者権限が必要)]**)。値が組織の GPO によるもので、コンピューター上で修正できない場合は、IT 管理者に渡すレジストリ キーを表示します。無人ロボットは結果をログに書き込むだけです。
