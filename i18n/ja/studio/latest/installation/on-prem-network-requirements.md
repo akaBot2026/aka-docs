@@ -35,6 +35,40 @@ displayed_sidebar: studioSidebar
 
 公開パッケージ サービスはロード バランシングや CDN アドレスを使用します。現在の IP を解決して固定するのではなく、FQDN/SNI で許可してください。
 
+### ファイアウォールの許可リスト {#firewall-allowlist}
+
+ファイアウォールまたはプロキシで、次の送信接続を許可してください。akaBot はこれらのサービスに固定のパブリック IP アドレスを使用していないため、IP アドレスではなく **ドメイン名 (FQDN/SNI)** で許可してください。すべての接続は Studio、Agent、Center からの送信接続であり、受信ポートは不要です。
+
+**akaBot サービス**
+
+| ドメイン / URL | ポート | 使用元 | 目的 | 必須 |
+|---|---|---|---|---|
+| `https://aegis.akabot.com` | TCP 443 (HTTPS) | Agent/Studio、Center | ライセンスのアクティベーション、更新、非アクティブ化 | はい (オンラインでのライセンス アクティベーション) |
+| `https://center-cloud.akabot.io` | TCP 443 (HTTPS) | Agent/Studio | akaBot Center Cloud | Studio/Agent を akaBot Center Cloud に接続する場合 |
+| `https://akaninja.akabot.com` | TCP 443 (HTTPS) | Studio | AI 機能: akaNinja チャット、式とワークフローの生成 | AI 機能を使用する場合 |
+| `https://docs.akabot.com` | TCP 443 (HTTPS) | Studio、ユーザー | 製品ドキュメントと製品内のヘルプ リンク | 推奨 |
+| `https://ws3.akabot.com` | TCP 443 (HTTPS) | ユーザー、管理者 | インストーラーとパッケージのダウンロード | 任意。ブロックされている場合は、別のコンピューターでファイルをダウンロードしてコピーしてください。 |
+
+**パッケージ フィード**
+
+| ドメイン / URL | ポート | 使用元 | 目的 | 必須 |
+|---|---|---|---|---|
+| `https://gitlab.com/api/v4/projects/75840319/packages/nuget/index.json` | TCP 443 (HTTPS) | Studio、Executor | akaBot アクティビティ パッケージ | はい |
+| `https://api.nuget.org/v3/index.json` | TCP 443 (HTTPS) | Studio、Executor | 公開 NuGet パッケージと依存関係 | はい |
+| `https://www.nuget.org` | TCP 443 (HTTPS) | Studio | パッケージ情報とリンク | 任意 |
+| `https://azuresearch-usnc.nuget.org`、`https://azuresearch-ussc.nuget.org` | TCP 443 (HTTPS) | Studio | Studio Package Manager でのパッケージ検索 | はい (パッケージ検索) |
+
+**ブラウザー拡張機能 (Policy モード)**
+
+| ドメイン | ポート | 使用元 | 目的 |
+|---|---|---|---|
+| `clients2.google.com` | TCP 443 (HTTPS) | Google Chrome | akaBot 拡張機能の Chrome ウェブストア更新チェック |
+| `clients2.googleusercontent.com` | TCP 443 (HTTPS) | Google Chrome | Chrome ウェブストアからの akaBot 拡張機能パッケージのダウンロード |
+| `edge.microsoft.com` | TCP 443 (HTTPS) | Microsoft Edge | akaBot 拡張機能の Edge アドオン更新チェック |
+| `*.dl.delivery.mp.microsoft.com` | TCP 80 (HTTP) および TCP 443 (HTTPS) | Microsoft Edge | Edge アドオンからの akaBot 拡張機能パッケージのダウンロード |
+
+ブラウザーのドメインは、akaBot Web 拡張機能を **Policy** モードでインストールし、ブラウザーがストアから拡張機能をダウンロードする場合にのみ必要です。**User** および **ポリシー (オフライン)** モードでは akaBot Studio に同梱のパッケージからインストールされるため、これらのドメインは不要です。[ブラウザーのグループ ポリシー](../user-guide/browser-group-policies.md) を参照してください。
+
 ### Center のポート
 
 | 方向 | ソース | 宛先 | ポート | 要件 |
@@ -52,7 +86,7 @@ Studio と Agent が Center 通信のすべてを開始します。Agent、Execu
 1. Center のホスト名がすべての Studio と Agent コンピューターから解決できるようにします。
 2. Studio と Agent のコンピューターが Center URL に直接接続できるようにします。
 3. Center ホストをエンタープライズ プロキシから除外します。PAC ファイルでは、一般的なプロキシ ルールの前に Center の FQDN に対して `DIRECT` を返すようにします。
-4. プロキシが上記の GitLab および NuGet.org ドメインへの HTTPS 接続を作成できるようにします。
+4. プロキシが [ファイアウォールの許可リスト](#firewall-allowlist) のドメインへの接続を作成できるようにします。
 5. TLS 検査が有効な場合は、対話型ユーザーと未接続の Agent アカウントの両方に対して、組織の信頼済みルート証明書をインストールします。
 
 PAC の例:
@@ -61,6 +95,7 @@ PAC の例:
 center.company.local  -> DIRECT
 gitlab.com            -> PROXY proxy.company.local:8080
 *.nuget.org           -> PROXY proxy.company.local:8080
+aegis.akabot.com      -> PROXY proxy.company.local:8080
 ```
 
 Center の HTTPS 証明書が DNS 名に対して発行されている場合は、Center を生の IP で構成しないでください。
@@ -186,6 +221,8 @@ Studio コンピューター、および Agent/Executor で使用する Windows 
 | Agent は対話型では動作するが未接続ジョブで失敗する | 未接続アカウントのプロキシ、証明書の信頼、パッケージ構成、パッケージ キャッシュへのアクセスを確認してください |
 | プロキシが繰り返し認証を要求する | 承認済みのサービス アカウントまたは統合認証を使用し、そのアカウントがプロキシ ポリシーで許可されていることを確認してください |
 | TLS 検査が有効な場合のみ HTTPS リクエストが失敗する | 影響を受けるユーザーまたはサービス アカウントの信頼ストアに、企業の検査用 CA をインストールしてください |
-| 公開 IP を許可リストに追加した後、アクセスが断続的に失敗する | GitLab と NuGet.org に対する IP ルールを FQDN/SNI ルールに置き換えてください |
+| 公開 IP を許可リストに追加した後、アクセスが断続的に失敗する | ファイアウォールの許可リストのすべてのドメインについて、IP ルールを FQDN/SNI ルールに置き換えてください |
+| ライセンスのアクティベーションが失敗する | ライセンスをアクティベートするコンピューターまたはアカウントに対して、`aegis.akabot.com` の TCP 443 を許可してください |
+| Policy モードでインストールした後、Chrome または Edge に akaBot 拡張機能がインストールされない | ファイアウォールの許可リストのブラウザー拡張機能ドメインを許可するか、**ポリシー (オフライン)** モードでインストールしてください |
 
 顧客のワークフローやオプションのアクティビティ パッケージに必要な宛先は、この一覧の外にあります。たとえば、電子メール、FTP、ブラウザー、またはサードパーティ API を使用するワークフローでは、そのサービスへのアクセスも必要です。

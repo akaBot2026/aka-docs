@@ -35,6 +35,40 @@ Configure DNS, firewall, and proxy rules before configuring the applications.
 
 Public package services use load-balanced and CDN addresses. Allow them by FQDN/SNI instead of resolving and pinning their current IP addresses.
 
+### Firewall allowlist
+
+Allow the following outbound connections on the firewall or proxy. akaBot does not use fixed public IP addresses for these services, so allow them by **domain name (FQDN/SNI)**, not by IP address. All connections are outbound from Studio, Agent or Center; no inbound port is required.
+
+**akaBot services**
+
+| Domain / URL | Port | Used by | Purpose | Required |
+|---|---|---|---|---|
+| `https://aegis.akabot.com` | TCP 443 (HTTPS) | Agent/Studio, Center | License activation, renewal and deactivation | Yes, for online license activation |
+| `https://center-cloud.akabot.io` | TCP 443 (HTTPS) | Agent/Studio | akaBot Center Cloud | When Studio/Agent connect to akaBot Center Cloud |
+| `https://akaninja.akabot.com` | TCP 443 (HTTPS) | Studio | AI features: akaNinja chat, expression and workflow generation | When AI features are used |
+| `https://docs.akabot.com` | TCP 443 (HTTPS) | Studio, users | Product documentation and in-product help links | Recommended |
+| `https://ws3.akabot.com` | TCP 443 (HTTPS) | Users, administrators | Download of installers and packages | Optional. If it is blocked, download the files on another computer and copy them. |
+
+**Package feeds**
+
+| Domain / URL | Port | Used by | Purpose | Required |
+|---|---|---|---|---|
+| `https://gitlab.com/api/v4/projects/75840319/packages/nuget/index.json` | TCP 443 (HTTPS) | Studio, Executor | akaBot activity packages | Yes |
+| `https://api.nuget.org/v3/index.json` | TCP 443 (HTTPS) | Studio, Executor | Public NuGet packages and dependencies | Yes |
+| `https://www.nuget.org` | TCP 443 (HTTPS) | Studio | Package information and links | Optional |
+| `https://azuresearch-usnc.nuget.org`, `https://azuresearch-ussc.nuget.org` | TCP 443 (HTTPS) | Studio | Package search in Studio Package Manager | Yes, for package search |
+
+**Browser extension (Policy mode)**
+
+| Domain | Port | Used by | Purpose |
+|---|---|---|---|
+| `clients2.google.com` | TCP 443 (HTTPS) | Google Chrome | Chrome Web Store update check for the akaBot extension |
+| `clients2.googleusercontent.com` | TCP 443 (HTTPS) | Google Chrome | Download of the akaBot extension package from the Chrome Web Store |
+| `edge.microsoft.com` | TCP 443 (HTTPS) | Microsoft Edge | Edge Add-ons update check for the akaBot extension |
+| `*.dl.delivery.mp.microsoft.com` | TCP 80 (HTTP) and TCP 443 (HTTPS) | Microsoft Edge | Download of the akaBot extension package from Edge Add-ons |
+
+The browser domains are needed only when the akaBot Web Extension is installed in **Policy** mode, where the browser downloads the extension from its store. In **User** and **Policy (Offline)** mode the extension is installed from the package shipped with akaBot Studio, so these domains are not required. See [Browser Group Policies](../user-guide/browser-group-policies.md).
+
 ### Center ports
 
 | Direction | Source | Destination | Port | Requirement |
@@ -52,7 +86,7 @@ Ask the network administrator to apply these rules:
 1. Make the Center host name resolvable from every Studio and Agent computer.
 2. Allow Studio and Agent computers to connect directly to the Center URL.
 3. Exclude the Center host from the enterprise proxy. In a PAC file, return `DIRECT` for the Center FQDN before the general proxy rule.
-4. Allow the proxy to create HTTPS connections to the GitLab and NuGet.org domains listed above.
+4. Allow the proxy to create connections to the domains in the [firewall allowlist](#firewall-allowlist).
 5. If TLS inspection is enabled, install the organization’s trusted root certificate for both interactive users and unattended Agent accounts.
 
 Example PAC behavior:
@@ -61,6 +95,7 @@ Example PAC behavior:
 center.company.local  -> DIRECT
 gitlab.com            -> PROXY proxy.company.local:8080
 *.nuget.org           -> PROXY proxy.company.local:8080
+aegis.akabot.com      -> PROXY proxy.company.local:8080
 ```
 
 Do not configure Center by raw IP when its HTTPS certificate is issued to a DNS name.
@@ -186,6 +221,8 @@ Perform these checks from a Studio computer and from the Windows account used by
 | Agent works interactively but unattended jobs fail | Verify the unattended account’s proxy, certificate trust, package configuration, and access to the package cache |
 | Proxy repeatedly requests credentials | Use an approved service account or integrated authentication and confirm the account is permitted by proxy policy |
 | HTTPS requests fail only when TLS inspection is enabled | Install the enterprise inspection CA in the trust store used by the affected user or service account |
-| Access fails intermittently after public IPs are allowlisted | Replace IP rules with FQDN/SNI rules for GitLab and NuGet.org |
+| Access fails intermittently after public IPs are allowlisted | Replace IP rules with FQDN/SNI rules for all domains in the firewall allowlist |
+| License activation fails | Allow `aegis.akabot.com` on TCP 443 for the computer or account that activates the license |
+| The akaBot extension is not installed in Chrome or Edge after a Policy-mode installation | Allow the browser extension domains in the firewall allowlist, or install in **Policy (Offline)** mode |
 
 The destinations required by customer workflows or optional activity packages are outside this list. For example, a workflow that uses email, FTP, a browser, or a third-party API also requires access to that service.
