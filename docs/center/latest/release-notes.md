@@ -9,6 +9,44 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — Release Notes
 
+## v5.0.0.4
+
+Build date: Oct 26, 2026
+
+**Added**
+
+- **[Audit Logs]**: Added Authentication Logs and Activity Logs with filtering and Excel export.
+- **[Calendar]**: Added make-up workdays and Excel import/export.
+- **[Agent Group]**: Added Agent Group merging.
+- **[Trigger]**: Added multiple-value selection for trigger conditions.
+- **[License]**: Added a Running Agent list and bulk component deactivation/deletion.
+- **[Help]**: Added a Help menu.
+
+**Updated**
+
+- **[License]**: Improved license information, usage displays, and offline activation/deactivation guidance.
+
+**Fixed**
+
+- **[Schedule]**: Fixed timezone handling, holiday postponement, next-run calculations, and status filtering.
+- **[Job]**: Fixed dispatching multiple pending jobs to the same Agent.
+- **[Search]**: Fixed default sorting and Workflow searches by package name.
+- **[License]**: Fixed license file validation, duplicate detection, and cache refresh.
+
+**Security**
+
+- **[Security]**: Improved protection of authentication server information.
+
+---
+## v4.0.0.3a
+
+Build date: Oct 26, 2026
+
+**Security**
+
+- **[Security]**: Improved protection of authentication server information.
+
+---
 ## v5.0.0.3
 
 Build date: Sep 28, 2026
