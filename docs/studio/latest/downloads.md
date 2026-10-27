@@ -15,7 +15,10 @@ Use the links below to download Akabot Studio installers. Each row corresponds t
 
 | Version     | Build date    | Download                                                                     |
 | ----------- | ------------- | ---------------------------------------------------------------------------- |
-| v3.2.4.0    | Sep 18, 2026  | [Download](https://ws3.akabot.com/s/yNTrzZuMR12sFVk)                         |
+| v3.2.7.0    | Oct 26, 2026  | [Download](https://ws3.akabot.com/s/CfwvWv7lnbt8yA2)                         |
+| v3.2.6.0    | Oct 18, 2026  | [Download](https://ws3.akabot.com/s/kg13K06pRYmMYO8)                         |
+| v3.2.5.0    | Oct 14, 2026  | [Download](https://ws3.akabot.com/s/vPmUgpcp1qW2cOh)                         |
+| v3.2.4.0    | Sep 21, 2026  | [Download](https://ws3.akabot.com/s/yNTrzZuMR12sFVk)                         |
 | v3.2.3.1    | Sep 15, 2026  | [Download](https://ws3.akabot.com/s/TxHofDNGWxhzj3v)                         |
 | v3.2.3.0    | Sep 05, 2026  | [Download](https://ws3.akabot.com/s/UBXln21CuJzCcyB)                         |
 | v3.2.2.0    | Aug 20, 2026  | [Download](https://ws3.akabot.com/s/MCaSXdmASdgS5DB)                         |
@@ -28,8 +31,8 @@ Use the links below to download Akabot Studio installers. Each row corresponds t
 | v2.2.0.10   | Apr 21, 2026  | [Download](https://ws3.akabot.com/s/btdj2o558GaCHYn)                         |
 | v2.2.0.9    | Dec 24, 2025  | [Download](https://ws3.akabot.com/s/2K9pSUmWtOL5KTF)                         |
 | v2.2.0.8b   | Dec 05, 2025  | [Download](https://ws3.akabot.com/s/LFHMJd6PSucZrXg)                         |
-| v2.2.0.8a   | Nov 28, 2025  | Contact [support](mailto:support@akabot.com)                                 |
-| v2.2.0.8    | Nov 20, 2025  | Contact [support](mailto:support@akabot.com)                                 |
+| v2.2.0.8a   | Nov 28, 2025  | Contact support                                                              |
+| v2.2.0.8    | Nov 20, 2025  | Contact support                                                              |
 | v2.2.0.7c   | Sep 23, 2025  | [Download](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b)                    |
 | v2.2.0.5    | Mar 04, 2025  | [Download](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY)                    |
 | v2.2.0.3    | Jun 14, 2024  | [Download](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ)                    |

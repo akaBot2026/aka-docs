@@ -9,6 +9,15 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — Release Notes
 
+## v3.2.7.0
+
+**Studio**
+
+- Fixed: duplicate namespace imports created when a variable is added with the **Ctrl+K** shortcut.
+- Fixed: workflows invoked from compiled libraries can receive required input arguments without being rejected by the direct-activity validation.
+- Added: digital signing certificate to `.exe`, `.dll` and the installer files.
+- Added: package `RCA.Activities.Excel.3.4.0.3` to ship with the installer.
+
 ## v3.2.6.0
 
 **Debugger** — see [How to Use the Debugger](./user-guide/how-to-use-debugger.md)

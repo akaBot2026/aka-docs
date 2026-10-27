@@ -9,6 +9,16 @@ displayed_sidebar: activitiesSidebar
 
 # Release Notes
 
+## v3.4.0.3
+
+Build date: Oct 26, 2026
+
+- Update: Modern range activities now treat a single-cell reference as either a data-block anchor or an exact destination according to the operation.
+- Update: **Append Range** appends immediately after the specified destination range, including when the destination is empty.
+- Fixed: **Replace** preserves the text surrounding the first partial-cell match instead of replacing the entire cell value.
+- Fixed: the output fields in **Find First/Last Data Row** and **Find/Replace Value** accept variables.
+- Fixed: **Use Excel File** and **Excel Application Scope** keep a newly created workbook open when the requested file does not exist, preventing an RPC error on first use.
+
 ## v3.4.0.2
 
 Build date: Oct 15, 2026
