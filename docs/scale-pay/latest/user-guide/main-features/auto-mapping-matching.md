@@ -9,7 +9,7 @@ displayed_sidebar: scalePaySidebar
 
 # Manage Matching Sets
 
-This guide shows you how to review mapped document sets, monitor automatic matching, make manual adjustments, and finalize matching results in Scale Pay.
+This guide shows you how to review mapped document sets, monitor automatic matching, make manual adjustments, and finalize matching results in Aka Pay.
 
 ## Open Matching Sets
 
@@ -22,7 +22,7 @@ This guide shows you how to review mapped document sets, monitor automatic match
 
 Automap follows the mapping rules configured in your [Pipeline Setting](./pipeline-setting.md).
 
-When documents share the same mapping key, Scale Pay automatically groups them into one matching set. Each set displays:
+When documents share the same mapping key, Aka Pay automatically groups them into one matching set. Each set displays:
 
 - **Matching key**: the auto-generated value used to group documents (for example, PO number, invoice number, or reference number).
 - **File count**: the number of documents inside the set.
@@ -33,7 +33,7 @@ When documents share the same mapping key, Scale Pay automatically groups them i
 
 Auto match also follows the matching rules configured in your [Pipeline Setting](./pipeline-setting.md).
 
-After automap completes, Scale Pay starts comparing fields across documents in each set.
+After automap completes, Aka Pay starts comparing fields across documents in each set.
 
 When the system is reconciling, the matching set status shows **Matching**.
 

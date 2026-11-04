@@ -3,13 +3,13 @@ id: pipeline-setting
 title: Pipeline Setting
 sidebar_label: Pipeline Setting
 sidebar_position: 1
-description: Configure dynamic and flexible AP matching rules with Scale Pay pipelines, from workflow creation to outbound delivery.
+description: Configure dynamic and flexible AP matching rules with Aka Pay pipelines, from workflow creation to outbound delivery.
 displayed_sidebar: scalePaySidebar
 ---
 
 # Pipeline Setting
 
-This guide shows you how to build a matching pipeline in Scale Pay. A pipeline lets you configure mapping and matching rules that are dynamic and flexible. Scale Pay already includes several common pipelines with basic default settings, so you can start quickly or customize an existing one to fit your business.
+This guide shows you how to build a matching pipeline in Aka Pay. A pipeline lets you configure mapping and matching rules that are dynamic and flexible. Aka Pay already includes several common pipelines with basic default settings, so you can start quickly or customize an existing one to fit your business.
 
 ## Open the Pipeline tab
 
@@ -46,13 +46,13 @@ Start by defining the basic information for your pipeline:
 
 ### Step 2.2: Set up inbound
 
-Configure how Scale Pay receives and extracts data from each document type:
+Configure how Aka Pay receives and extracts data from each document type:
 
 - **Source**: select the data source for each document type.
 
 ![Create Pipeline](/static/img/input_source.png)
 
-- **Required fields for extraction**: choose which fields Scale Pay must extract from each file.
+- **Required fields for extraction**: choose which fields Aka Pay must extract from each file.
 
 ![Create Pipeline](/static/img/require_fields.png)
 
@@ -87,7 +87,7 @@ Matching rules compare fields across documents at two levels:
 
 For each level, you can add or remove fields to match.
 
-Scale Pay also lets you control which document types participate in each comparison. For example, you can compare **tax ID** between PO and invoice only, without involving the payment document.
+Aka Pay also lets you control which document types participate in each comparison. For example, you can compare **tax ID** between PO and invoice only, without involving the payment document.
 
 ![Create Pipeline](/static/img/matching_fields.png)
 
@@ -106,7 +106,7 @@ Configure when and how users are notified:
 
 ### Step 2.6: Outbound configuration
 
-Define where Scale Pay delivers matched results:
+Define where Aka Pay delivers matched results:
 
 - Push results to multiple destinations in parallel, such as ERP, accounting software, or data warehouses.
 - Expose a **Pull API** so downstream systems can fetch matched data on demand.
@@ -115,7 +115,7 @@ Define where Scale Pay delivers matched results:
 
 ### Step 2.7: Review and activate
 
-After completing all configuration steps, review every setting before activation. Scale Pay shows a summary of your workflow, inbound config, mapping rules, matching rules, notifications, and outbound config. Confirm that everything is correct, then activate the pipeline.
+After completing all configuration steps, review every setting before activation. Aka Pay shows a summary of your workflow, inbound config, mapping rules, matching rules, notifications, and outbound config. Confirm that everything is correct, then activate the pipeline.
 
 ![Create Pipeline](/static/img/review.png)
 
@@ -127,6 +127,6 @@ Once a pipeline is active, you can still:
 
 ## What to do next
 
-If you are setting up Scale Pay for the first time, go to [Import documents](./documents.md) next to learn how to add your invoices, purchase orders, and payment files.
+If you are setting up Aka Pay for the first time, go to [Import documents](./documents.md) next to learn how to add your invoices, purchase orders, and payment files.
 
 If you want to review and manage matched results, go to [Manage matching sets](./auto-mapping-matching.md).

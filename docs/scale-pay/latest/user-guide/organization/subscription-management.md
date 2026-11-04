@@ -92,14 +92,14 @@ The exported report can include document counts, storage usage, and consumption 
 
 ## Configure alert thresholds
 
-You can set thresholds so Scale Pay notifies you before you reach a limit.
+You can set thresholds so Aka Pay notifies you before you reach a limit.
 
 1. Click the **Alert** button.
 2. Set the **Document threshold**: choose a percentage or absolute number.
 3. Set the **Storage threshold**: choose a percentage or absolute number.
 4. Click **Save** to activate the alert.
 
-Example: You set a storage threshold at 80%. When storage reaches 80% of your plan limit, Scale Pay sends a warning so your admin can upgrade or clean up unused documents.
+Example: You set a storage threshold at 80%. When storage reaches 80% of your plan limit, Aka Pay sends a warning so your admin can upgrade or clean up unused documents.
 
 ![Subscription](/static/img/sp_alerts.png)
 ![Subscription](/static/img/sp_set_alert.png)
