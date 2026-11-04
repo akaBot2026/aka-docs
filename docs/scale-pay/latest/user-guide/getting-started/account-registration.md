@@ -3,7 +3,7 @@ id: account-registration
 title: Account Registration
 sidebar_label: Account Registration
 sidebar_position: 1
-description: Beginner-friendly guide to create a Aka Pay account and choose the easiest sign-in option.
+description: Beginner-friendly guide to create an Aka Pay account and choose the easiest sign-in option.
 displayed_sidebar: scalePaySidebar
 ---
 
@@ -45,7 +45,7 @@ Example: A new finance staff joins on Monday morning. Their manager adds them to
 
 ### Option 2: Register with the form
 
-Use the registration form if your organization does not use SSO, or if your admin specifically asks you to create a Aka Pay password.
+Use the registration form if your organization does not use SSO, or if your admin specifically asks you to create an Aka Pay password.
 
 1. Select **Register** or **Create account**.
 2. Enter your name and email address.
