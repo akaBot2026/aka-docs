@@ -7,7 +7,7 @@ description: "Step-by-step guide to connect your Zalo Official Account to ScaleF
 displayed_sidebar: scaleFlowSidebar
 ---
 
-# Connect Your Zalo OA Account
+# Connect Your Zalo OA Account 1
 
 **Zalo OA** (Zalo Official Account) is a business account on Zalo that lets your company receive and send messages with customers.
 
