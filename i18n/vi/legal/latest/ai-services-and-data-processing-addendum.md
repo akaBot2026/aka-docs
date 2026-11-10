@@ -49,16 +49,17 @@ Trách nhiệm về thanh toán, hạn mức sử dụng và thông tin xác th�
 
 ## 5. Luồng dữ liệu AI
 
-Luồng xử lý điển hình:
+Luồng xử lý điển hình gồm các bước sau:
 
-**Môi trường Khách hàng  
-→ Thành phần AI của Akabot  
-→ API của Nhà cung cấp AI  
-→ Mô hình AI  
-→ Thành phần AI của Akabot  
-→ Môi trường Khách hàng**
+| Bước | Nơi thực hiện | Nội dung |
+|---|---|---|
+| 1 | Môi trường Khách hàng | Gửi yêu cầu có sử dụng chức năng AI tới Thành phần AI của Akabot. |
+| 2 | Thành phần AI của Akabot | Chuyển yêu cầu và dữ liệu cần thiết tới API của Nhà cung cấp AI. |
+| 3 | API của Nhà cung cấp AI | Chuyển dữ liệu tới Mô hình AI để xử lý. |
+| 4 | Mô hình AI | Tạo kết quả và trả về cho Thành phần AI của Akabot thông qua API của Nhà cung cấp AI. |
+| 5 | Thành phần AI của Akabot | Trả kết quả về Môi trường Khách hàng. |
 
-Khi AI bên ngoài được sử dụng, dữ liệu được gửi tới Nhà cung cấp AI không còn được xử lý hoàn toàn trong phạm vi tại chỗ.
+Khi Khách hàng đồng ý sử dụng Hệ thống AI từ bên thứ ba, dữ liệu của Khách hàng sẽ được gửi tới Nhà cung cấp AI và Akabot không đảm bảo dữ liệu của Khách hàng sẽ được xử lý hoàn toàn trong phạm vi tại chỗ.
 
 ## 6. Dữ liệu có thể được gửi tới Nhà cung cấp AI
 
@@ -95,7 +96,7 @@ Khách hàng nên giới hạn dữ liệu gửi tới Nhà cung cấp AI ở m�
 
 ## 8. Điều khoản của Nhà cung cấp
 
-Dữ liệu sau khi được gửi tới Nhà cung cấp AI sẽ chịu sự điều chỉnh của:
+Dữ liệu của Khách hàng sau khi được gửi tới Nhà cung cấp AI sẽ chịu sự điều chỉnh của:
 
 - điều khoản của nhà cung cấp;
 - chính sách quyền riêng tư;
@@ -110,16 +111,13 @@ Akabot không thay mặt Nhà cung cấp AI cam kết rằng dữ liệu sẽ kh
 
 ## 9. Huấn luyện mô hình
 
-Akabot không sử dụng Dữ liệu Khách hàng để huấn luyện mô hình AI riêng hoặc mô hình dùng chung cho các Khách hàng khác, trừ khi:
+Akabot không sử dụng Dữ liệu Khách hàng để huấn luyện mô hình AI riêng hoặc mô hình dùng chung cho các Khách hàng khác.
 
-- Khách hàng đã đồng ý rõ ràng; hoặc
-- có thỏa thuận riêng bằng văn bản.
-
-Việc Nhà cung cấp AI sử dụng dữ liệu để cải thiện hoặc huấn luyện mô hình phụ thuộc vào nhà cung cấp, loại dịch vụ, gói tài khoản và cấu hình tại thời điểm sử dụng.
+Việc Nhà cung cấp AI sử dụng dữ liệu để cải thiện hoặc huấn luyện mô hình phụ thuộc vào quy định của nhà cung cấp, loại dịch vụ, gói tài khoản và cấu hình tại thời điểm sử dụng.
 
 ## 10. Thời hạn lưu giữ của Nhà cung cấp
 
-Thời hạn lưu giữ của Nhà cung cấp AI có thể khác nhau theo:
+Thời hạn lưu giữ dữ liệu của Nhà cung cấp AI có thể khác nhau theo:
 
 - nhà cung cấp;
 - tài khoản;
@@ -140,24 +138,22 @@ Nhà cung cấp AI có thể xử lý dữ liệu tại các quốc gia hoặc k
 
 Khách hàng phải đánh giá yêu cầu về vị trí lưu trữ dữ liệu và chuyển dữ liệu xuyên biên giới trước khi kích hoạt nhà cung cấp tương ứng.
 
-## 12. Kết quả AI
+## 12. Kết quả do AI tạo ra
 
-Kết quả AI có thể:
+Kết quả do AI tạo ra có thể:
 
 - không chính xác;
 - không đầy đủ;
-- chứa thông tin bịa đặt (hallucination);
+- chứa thông tin bịa đặt;
 - chứa thiên lệch;
 - thay đổi giữa các lần thực hiện;
 - không phù hợp cho trường hợp sử dụng cụ thể.
 
-Khách hàng chịu trách nhiệm xác minh Kết quả AI trước khi sử dụng cho các quyết định hoặc hành động quan trọng.
+Khách hàng chịu trách nhiệm xác minh Kết quả do AI tạo ra trước khi sử dụng cho các quyết định hoặc hành động quan trọng.
 
 ## 13. Sự giám sát của con người
 
-Đối với các trường hợp sử dụng có tác động cao, Khách hàng nên thiết lập cơ chế kiểm tra hoặc phê duyệt của con người trước khi quy trình tự động thực hiện hành động.
-
-Ví dụ:
+Đối với các trường hợp sử dụng Hệ thống AI có rủi ro cao, bao gồm nhưng không giới hạn ở các trường hợp dưới đây, Khách hàng nên thiết lập cơ chế kiểm tra hoặc phê duyệt của con người trước khi quy trình tự động thực hiện hành động.
 
 - thanh toán;
 - giao dịch tài chính;
@@ -170,28 +166,28 @@ Ví dụ:
 
 ## 14. Hành vi bị cấm
 
-Khách hàng không được sử dụng chức năng AI cho mục đích trái pháp luật hoặc vi phạm chính sách sử dụng của Nhà cung cấp AI.
+Khách hàng không được sử dụng chức năng AI cho mục đích trái pháp luật hoặc vi phạm chính sách sử dụng của Nhà cung cấp AI và Akabot.
 
 ## 15. Tấn công chèn lệnh và bảo mật AI
 
-Khách hàng hiểu rằng hệ thống AI có thể chịu các rủi ro như:
+Khách hàng hiểu rằng Hệ thống AI có thể chịu các rủi ro như:
 
-- tấn công chèn lệnh (prompt injection);
+- tấn công chèn lệnh;
 - tài liệu độc hại;
 - lộ dữ liệu ngoài ý muốn;
 - kết quả mô hình bị thao túng;
 - gọi công cụ không an toàn.
 
-Đối với Agent AI có khả năng thực hiện hành động, Khách hàng nên áp dụng:
+Khi Khách hàng sử dụng Hệ thống AI có khả năng tự thực hiện hành động, Khách hàng nên áp dụng các biện pháp kiểm soát sau:
 
-- nguyên tắc đặc quyền tối thiểu;
-- danh sách công cụ được phép;
-- cơ chế phê duyệt;
-- kiểm tra đầu vào;
-- kiểm tra đầu ra;
-- ghi nhật ký;
-- giám sát;
-- phân tách nhiệm vụ.
+- nguyên tắc đặc quyền tối thiểu: chỉ cấp cho Hệ thống AI các quyền truy cập và thao tác ở mức tối thiểu cần thiết;
+- danh sách công cụ được phép: chỉ cho phép Hệ thống AI sử dụng các công cụ đã được phê duyệt;
+- cơ chế phê duyệt: yêu cầu con người phê duyệt trước khi Hệ thống AI thực hiện hành động quan trọng;
+- kiểm tra đầu vào: kiểm tra yêu cầu và dữ liệu trước khi chuyển cho Hệ thống AI;
+- kiểm tra đầu ra: kiểm tra kết quả của Hệ thống AI trước khi sử dụng hoặc thực hiện hành động dựa trên kết quả đó;
+- ghi nhật ký: ghi lại hoạt động của Hệ thống AI;
+- giám sát: theo dõi hoạt động của Hệ thống AI để phát hiện bất thường;
+- phân tách nhiệm vụ: không giao toàn bộ các bước của một hoạt động quan trọng cho cùng một cá nhân hoặc một hệ thống.
 
 ## 16. Thay đổi Nhà cung cấp AI
 

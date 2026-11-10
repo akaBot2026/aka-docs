@@ -194,23 +194,23 @@ Credentials or unnecessary sensitive data should not be written to logs.
 
 ## 12. AI Data Flow
 
-### 12.1 Request
+This section describes how data travels when a user or workflow uses an AI-enabled feature.
 
-User/Workflow  
-→ AI-enabled Feature  
-→ AI Hub  
-→ AI Provider API.
+### 12.1 Sending the Request
+
+1. A user or workflow uses an AI-enabled feature.
+2. The feature passes the request to the AI Hub.
+3. The AI Hub sends the request to the AI Provider's API.
 
 ### 12.2 Processing
 
 The AI Provider receives the necessary input and performs inference according to the selected service.
 
-### 12.3 Response
+### 12.3 Returning the Result
 
-AI Provider  
-→ AI Hub  
-→ Calling Application/Workflow  
-→ Customer Environment.
+1. The AI Provider returns the result to the AI Hub.
+2. The AI Hub returns the result to the application or workflow that sent the request.
+3. The result is returned to the Customer Environment.
 
 ## 13. AI Data Controls
 
@@ -234,6 +234,8 @@ The Customer should not assume that every model or API endpoint from the same pr
 |---|---|---|---|
 | OpenAI | Prompt/context/files as configured | AI inference | According to applicable OpenAI API policy and configuration |
 | Google Gemini | Prompt/context/files as configured | AI inference | According to applicable Gemini API policy and configuration |
+| Microsoft Azure OpenAI | Prompt/context/files as configured | AI inference | According to applicable Microsoft Azure OpenAI API policy and configuration |
+| Anthropic | Prompt/context/files as configured | AI inference | According to applicable Anthropic API policy and configuration |
 | Other Provider | As configured | AI inference | According to provider policy |
 
 This matrix should be updated when Akabot adds a provider.
@@ -306,7 +308,7 @@ When remote support is requested:
 | AI integration | Primary | Configuration/approval | API service |
 | AI Provider infrastructure | - | Provider selection | Primary |
 | AI Provider retention | - | Provider/config selection | Primary |
-| AI Output verification | - | Primary | Model generation |
+| AI-Generated Output verification | - | Primary | Model generation |
 | API credentials | Secure capability | Primary | Authentication service |
 
 ## 20. Security Incident Responsibility

@@ -194,23 +194,23 @@ Không nên ghi thông tin xác thực hoặc dữ liệu nhạy cảm không c�
 
 ## 12. Luồng dữ liệu AI
 
-### 12.1 Yêu cầu
+Mục này mô tả đường đi của dữ liệu khi người dùng hoặc quy trình tự động sử dụng một tính năng có tích hợp AI.
 
-Người dùng/Quy trình tự động  
-→ Tính năng tích hợp AI  
-→ AI Hub  
-→ API của Nhà cung cấp AI.
+### 12.1 Gửi yêu cầu
+
+1. Người dùng hoặc quy trình tự động sử dụng tính năng có tích hợp AI.
+2. Tính năng đó chuyển yêu cầu tới AI Hub.
+3. AI Hub gửi yêu cầu tới API của Nhà cung cấp AI.
 
 ### 12.2 Xử lý
 
 Nhà cung cấp AI nhận dữ liệu đầu vào cần thiết và thực hiện suy luận theo dịch vụ được lựa chọn.
 
-### 12.3 Phản hồi
+### 12.3 Trả kết quả
 
-Nhà cung cấp AI  
-→ AI Hub  
-→ Ứng dụng/Quy trình tự động gọi yêu cầu  
-→ Môi trường Khách hàng.
+1. Nhà cung cấp AI trả kết quả cho AI Hub.
+2. AI Hub trả kết quả cho ứng dụng hoặc quy trình tự động đã gửi yêu cầu.
+3. Kết quả được trả về môi trường Khách hàng.
 
 ## 13. Kiểm soát dữ liệu AI
 
@@ -234,6 +234,8 @@ Không nên giả định mọi mô hình hoặc điểm cuối API của cùng 
 |---|---|---|---|
 | OpenAI | Câu lệnh/ngữ cảnh/tệp theo cấu hình | Suy luận AI | Theo chính sách API của OpenAI và cấu hình áp dụng |
 | Google Gemini | Câu lệnh/ngữ cảnh/tệp theo cấu hình | Suy luận AI | Theo chính sách API của Gemini và cấu hình áp dụng |
+| Microsoft Azure OpenAI | Câu lệnh/ngữ cảnh/tệp theo cấu hình | Suy luận AI | Theo chính sách API của Microsoft Azure OpenAI và cấu hình áp dụng |
+| Anthropic | Câu lệnh/ngữ cảnh/tệp theo cấu hình | Suy luận AI | Theo chính sách API của Anthropic và cấu hình áp dụng |
 | Nhà cung cấp khác | Theo cấu hình | Suy luận AI | Theo chính sách của nhà cung cấp |
 
 Bảng này phải được cập nhật khi Akabot bổ sung nhà cung cấp.
@@ -306,7 +308,7 @@ Khi hỗ trợ từ xa được yêu cầu:
 | Tích hợp AI | Chính | Cấu hình/phê duyệt | Dịch vụ API |
 | Hạ tầng Nhà cung cấp AI | - | Lựa chọn nhà cung cấp | Chính |
 | Lưu giữ dữ liệu của Nhà cung cấp AI | - | Lựa chọn nhà cung cấp/cấu hình | Chính |
-| Kiểm tra kết quả AI | - | Chính | Tạo kết quả từ mô hình |
+| Kiểm tra Kết quả do AI tạo ra | - | Chính | Tạo kết quả từ mô hình |
 | Thông tin xác thực API | Cung cấp năng lực bảo mật | Chính | Dịch vụ xác thực |
 
 ## 20. Trách nhiệm xử lý sự cố bảo mật

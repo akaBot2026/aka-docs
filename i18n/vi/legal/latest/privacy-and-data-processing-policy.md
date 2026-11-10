@@ -65,7 +65,8 @@ Ví dụ:
 - cấu hình Agent;
 - thông tin kết nối;
 - cấu hình môi trường;
-- cấu hình tài nguyên.
+- cấu hình tài nguyên;
+- cấu hình pipeline trích xuất.
 
 ### 4.3. Dữ liệu nghiệp vụ
 
@@ -92,7 +93,7 @@ Có thể bao gồm:
 - tài liệu;
 - hình ảnh;
 - dữ liệu được trích xuất;
-- phản hồi của mô hình.
+- phản hồi/kết quả do Hệ thống AI tạo ra.
 
 ### 4.6. Dữ liệu kỹ thuật
 
@@ -184,7 +185,7 @@ Bên nhận dữ liệu có nghĩa vụ bảo mật Dữ liệu Khách hàng ph�
 
 ## 11. Chuyển dữ liệu xuyên biên giới
 
-Việc sử dụng dịch vụ đám mây hoặc nhà cung cấp AI bên ngoài có thể dẫn đến việc dữ liệu được xử lý bên ngoài quốc gia nơi Khách hàng hoạt động.
+Việc sử dụng dịch vụ đám mây hoặc nhà cung cấp AI bên ngoài có thể dẫn đến việc dữ liệu được xử lý bên ngoài quốc gia nơi Khách hàng hoạt động. Việc chuyển dữ liệu này phải tuân thủ các quy định của Luật Bảo vệ dữ liệu cá nhân Việt Nam. Khách hàng có trách nhiệm đảm bảo đã thu thập đủ sự đồng ý cần thiết của chủ thể dữ liệu trước khi gửi dữ liệu cá nhân qua các Hệ thống AI xuyên biên giới.
 
 Khách hàng chịu trách nhiệm đánh giá các yêu cầu pháp lý áp dụng trước khi kích hoạt các chức năng đó.
 

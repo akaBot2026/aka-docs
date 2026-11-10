@@ -30,6 +30,8 @@ For purposes of these Terms:
 - **"Customer"** means the individual or legal entity that has entered into an agreement, order, license, or other arrangement with Akabot to access or use the Products, or that installs, activates, accesses, or otherwise uses a Product.
 - **"Products"** has the meaning given in Section 1 (Purpose and Scope).
 - **"Customer Data"** has the meaning given in Section 7 (Ownership of Customer Data).
+- **"AI System"** means a machine-based system designed to perform artificial intelligence capabilities with varying levels of autonomy, which may adapt after deployment and which, for explicit or implicit objectives, infers from the input it receives how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or digital environments.
+- **"AI-Generated Output"** means any text, source code, data, image, analysis, prediction, or other content that an AI System generates automatically based on the Customer's requests or input data.
 
 ## 3. Acceptance of the Terms
 
@@ -67,7 +69,7 @@ The Customer must not:
 
 ## 6. Deployment Model
 
-Products may be deployed in on-premises infrastructure, a private cloud, or another environment managed by the Customer.
+Products may be provided under one of the following models, as agreed in the contract or order: (i) a cloud service operated by Akabot ("SaaS"); (ii) deployment in on-premises infrastructure; or (iii) a private cloud or another environment managed by the Customer.
 
 For an on-premises deployment, the Customer is responsible for managing:
 
@@ -96,13 +98,13 @@ Akabot will not use Customer Data for an independent purpose beyond what is nece
 
 ## 8. Use of AI and Third-Party Services
 
-Some features may integrate with third-party AI or cloud services.
+Some features of the Products may integrate with AI Systems or cloud services provided by third parties.
 
-When the Customer enables these features, the data necessary to fulfill a request may be transmitted from the Customer's environment to the relevant third-party provider.
+By enabling these features, the Customer acknowledges that the Customer's data may be transmitted from the Customer's environment to an AI System or third party in order to fulfill the Customer's requests. The data transmitted is the data necessary for the feature and configuration the Customer uses. Once transmitted, the data is processed by that AI System or third party in accordance with its terms and policies, and is no longer processed solely within the Customer's environment. Details of the data flow and the types of data that may be sent are set out in the AI Services and Data Processing Addendum.
 
-Accordingly, deploying a Product on premises does not mean that all data is always processed within the on-premises infrastructure.
+For this reason, deploying a Product on premises does not mean that all data is always processed within the on-premises infrastructure.
 
-Use of third-party services is subject to the applicable provider's terms and policies.
+By agreeing to use the services of an AI System or third party, the Customer is required to comply with the terms and policies of the relevant service provider.
 
 ## 9. Customer Responsibilities for Data
 
@@ -124,15 +126,19 @@ Products may automatically perform actions in applications, websites, databases,
 
 The Customer is responsible for workflows designed, configured, and deployed in its environment.
 
-The Customer should test workflows before putting them into production and establish appropriate approval controls for high-risk actions.
+The Customer should test workflows before putting them into production. For workflows that execute financial transactions or perform high-risk actions, the Customer is obligated to set its own approval thresholds and to maintain appropriate manual review controls before activation.
 
 ## 11. AI-Generated Outputs
 
-AI outputs are probabilistic and may be inaccurate, incomplete, or unsuitable for a particular use.
+The Customer acknowledges and agrees that AI-Generated Output may be inaccurate, incomplete, or unsuitable for a particular use.
 
-The Customer is responsible for evaluating outputs before using them.
+The Customer is solely responsible for reviewing, evaluating, and verifying the accuracy of AI-Generated Output before using it.
 
-For significant decisions involving finance, legal matters, individual rights, safety, or critical business operations, the Customer should require human review before taking action based on an AI output.
+For significant decisions involving finance, legal matters, individual rights, safety, or critical business operations, the Customer must personally review and approve the AI-Generated Output before taking any action based on it.
+
+Intellectual property rights and copyright in AI-Generated Output are determined in accordance with the Law on Intellectual Property and the applicable Vietnamese laws on artificial intelligence.
+
+The Customer must not knowingly use artificial intelligence features to create or disseminate unlawful content, infringe the intellectual property rights of third parties, or impersonate any individual or organization. The Customer must not exploit or misappropriate an AI System to commit unlawful acts, infringe the lawful rights and interests of any organization or individual, or engage in any conduct prohibited under Vietnamese law.
 
 ## 12. Third-Party Services
 
@@ -202,7 +208,8 @@ Upon termination of these Terms:
 To the extent permitted by applicable law and the agreement between the parties, Akabot is not liable for losses arising from:
 
 - workflows incorrectly configured by the Customer;
-- use of AI outputs without appropriate review;
+- use of AI-Generated Output without appropriate review;
+- the Customer's use of an AI System in violation of applicable law;
 - failures in infrastructure managed by the Customer;
 - loss or disclosure of credentials for which the Customer is responsible;
 - unauthorized acts by the Customer's users;
