@@ -1,0 +1,8 @@
+{
+  "label": "Requests",
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index"
+  }
+}

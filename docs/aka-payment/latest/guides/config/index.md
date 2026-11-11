@@ -1,0 +1,16 @@
+---
+title: "Config"
+description: "See the config section."
+id: index
+sidebar_label: Config
+sidebar_position: 1
+---
+
+# Config
+
+See the config section.
+
+- [Manage shared reconciliation rules](manage-reconciliation-rule.md)
+- [Configure and publish request types](publish-request-type.md)
+- [Restore a previous version of a request type](restore-request-type.md)
+- [How-to guides](how-to/index.md)
