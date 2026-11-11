@@ -1,0 +1,14 @@
+---
+title: "Cách thực hiện"
+description: "Xem mục cách thực hiện."
+id: index
+sidebar_label: Cách thực hiện
+sidebar_position: 1
+---
+
+# Cách thực hiện
+
+Xem mục cách thực hiện.
+
+- [Tìm đề nghị](find-request.md)
+- [Theo dõi một đề nghị](watch-request.md)
