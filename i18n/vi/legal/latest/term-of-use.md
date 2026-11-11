@@ -30,6 +30,8 @@ Trong phạm vi Điều khoản này:
 - **"Khách hàng"** là cá nhân hoặc pháp nhân đã ký kết hợp đồng, đơn đặt hàng, giấy phép sử dụng hoặc thỏa thuận khác với Akabot để truy cập hoặc sử dụng Sản phẩm, hoặc cài đặt, kích hoạt, truy cập hay sử dụng Sản phẩm theo cách khác.
 - **"Sản phẩm"** có nghĩa như được định nghĩa tại Mục 1 (Mục đích và phạm vi).
 - **"Dữ liệu Khách hàng"** có nghĩa như được định nghĩa tại Mục 7 (Quyền sở hữu Dữ liệu Khách hàng).
+- **“Hệ thống AI”** là hệ thống dựa trên máy, được thiết kế để thực hiện các năng lực trí tuệ nhân tạo với các mức độ tự chủ khác nhau, có khả năng tự thích nghi sau khi được triển khai; căn cứ vào các mục tiêu được xác định rõ ràng hoặc được hình thành một cách ngầm định, hệ thống suy luận từ dữ liệu đầu vào để tạo ra các đầu ra như dự đoán, nội dung, khuyến nghị hoặc quyết định có thể gây ảnh hưởng tới môi trường vật lý hoặc môi trường số.
+- **“Kết quả do AI tạo ra”** là bất kỳ văn bản, mã nguồn, dữ liệu, hình ảnh, phân tích, dự đoán hoặc nội dung nào khác được tạo ra tự động bởi Hệ thống AI dựa trên yêu cầu hoặc dữ liệu đầu vào của Khách hàng.
 
 ## 3. Chấp nhận Điều khoản
 
@@ -67,7 +69,7 @@ Khách hàng không được:
 
 ## 6. Mô hình triển khai
 
-Sản phẩm có thể được triển khai trong hạ tầng tại chỗ (on-premises), đám mây riêng (private cloud) hoặc môi trường khác do Khách hàng quản lý.
+Sản phẩm có thể được cung cấp theo một trong các mô hình sau, theo thỏa thuận trong hợp đồng hoặc đơn đặt hàng: (i) dịch vụ đám mây do Akabot vận hành ("SaaS"); (ii) triển khai trong hạ tầng tại chỗ (on-premises); (iii) đám mây riêng (private cloud) hoặc môi trường khác do Khách hàng quản lý.
 
 Đối với mô hình triển khai tại chỗ, Khách hàng chịu trách nhiệm quản lý:
 
@@ -96,13 +98,13 @@ Akabot không được sử dụng Dữ liệu Khách hàng cho mục đích đ�
 
 ## 8. Sử dụng AI và dịch vụ bên thứ ba
 
-Một số chức năng có thể tích hợp với dịch vụ AI hoặc dịch vụ đám mây của bên thứ ba.
+Một số chức năng của Sản phẩm có thể tích hợp với Hệ thống AI hoặc dịch vụ đám mây của bên thứ ba.
 
-Khi Khách hàng kích hoạt các chức năng này, dữ liệu cần thiết để thực hiện yêu cầu có thể được truyền từ môi trường của Khách hàng tới nhà cung cấp bên thứ ba.
+Bằng việc kích hoạt các chức năng này, Khách hàng chấp thuận rằng dữ liệu của Khách hàng có thể được truyền từ môi trường của Khách hàng tới Hệ thống AI hoặc bên thứ ba để thực hiện yêu cầu của Khách hàng. Dữ liệu được truyền đi là dữ liệu cần thiết theo chức năng và cấu hình mà Khách hàng sử dụng. Sau khi được truyền đi, dữ liệu được Hệ thống AI hoặc bên thứ ba đó xử lý theo điều khoản và chính sách của họ, và không còn chỉ được xử lý trong môi trường của Khách hàng. Chi tiết về luồng dữ liệu và các loại dữ liệu có thể được gửi đi được nêu tại Phụ lục Sử dụng AI và Xử lý Dữ liệu AI.
 
-Do đó, việc triển khai Sản phẩm tại chỗ không đồng nghĩa với việc toàn bộ dữ liệu luôn được xử lý trong hạ tầng tại chỗ.
+Vì lý do này, việc triển khai Sản phẩm tại chỗ không đồng nghĩa với việc toàn bộ dữ liệu luôn được xử lý trong hạ tầng tại chỗ.
 
-Việc sử dụng dịch vụ bên thứ ba phải tuân theo các điều khoản và chính sách của nhà cung cấp tương ứng.
+Việc Khách hàng đồng ý sử dụng dịch vụ của Hệ thống AI hoặc bên thứ ba yêu cầu Khách hàng phải tuân thủ các điều khoản và chính sách của nhà cung cấp dịch vụ tương ứng.
 
 ## 9. Trách nhiệm của Khách hàng đối với dữ liệu
 
@@ -124,15 +126,19 @@ Sản phẩm có thể tự động thực hiện hành động trên ứng dụ
 
 Khách hàng chịu trách nhiệm đối với quy trình tự động được thiết kế, cấu hình và triển khai trong môi trường của mình.
 
-Khách hàng cần kiểm thử quy trình tự động trước khi đưa vào môi trường sản xuất và thiết lập cơ chế phê duyệt phù hợp đối với các hành động có rủi ro cao.
+Khách hàng cần kiểm thử quy trình tự động trước khi đưa vào môi trường sản xuất. Đối với các quy trình tự động có thực thi tài chính hoặc hành động có rủi ro cao, Khách hàng có nghĩa vụ tự thiết lập ngưỡng phê duyệt và duy trì cơ chế kiểm tra thủ công phù hợp trước khi kích hoạt.
 
 ## 11. Kết quả do AI tạo ra
 
-Kết quả AI có tính xác suất và có thể không chính xác, không đầy đủ hoặc không phù hợp với mục đích sử dụng cụ thể.
+Khách hàng ghi nhận và đồng ý rằng Kết quả do AI tạo ra có thể không chính xác, không đầy đủ hoặc không phù hợp với mục đích sử dụng cụ thể.
 
-Khách hàng có trách nhiệm đánh giá kết quả trước khi sử dụng.
+Khách hàng có trách nhiệm độc lập trong việc kiểm tra, đánh giá và xác minh độ chính xác của Kết quả do AI tạo ra trước khi sử dụng.
 
-Đối với các quyết định quan trọng liên quan đến tài chính, pháp lý, quyền của cá nhân, an toàn hoặc hoạt động kinh doanh quan trọng, Khách hàng nên có sự kiểm tra của con người trước khi thực hiện hành động dựa trên kết quả AI.
+Đối với các quyết định quan trọng liên quan đến tài chính, pháp lý, quyền của cá nhân, an toàn hoặc hoạt động kinh doanh quan trọng, Khách hàng bắt buộc phải trực tiếp kiểm tra, phê duyệt trước khi thực hiện hành động dựa trên Kết quả do AI tạo ra.
+
+Việc xác định quyền sở hữu trí tuệ hoặc quyền tác giả đối với Kết quả do AI tạo ra được thực hiện theo đúng quy định của Luật Sở hữu trí tuệ và quy định pháp luật Việt Nam về trí tuệ nhân tạo hiện hành.
+
+Khách hàng không được cố ý sử dụng các tính năng của trí tuệ nhân tạo để tạo ra, phát tán nội dung vi phạm pháp luật, xâm phạm quyền sở hữu trí tuệ của bên thứ ba, giả mạo cá nhân/tổ chức, lợi dụng, chiếm đoạt hệ thống trí tuệ nhân tạo để thực hiện hành vi vi phạm pháp luật, xâm phạm quyền, lợi ích hợp pháp của tổ chức, cá nhân hoặc thực hiện các hành vi bị cấm theo quy định pháp luật Việt Nam.
 
 ## 12. Dịch vụ bên thứ ba
 
@@ -202,7 +208,8 @@ Khi Điều khoản này chấm dứt:
 Trong phạm vi pháp luật và hợp đồng cho phép, Akabot không chịu trách nhiệm đối với thiệt hại phát sinh từ:
 
 - quy trình tự động do Khách hàng cấu hình không chính xác;
-- việc sử dụng kết quả AI mà không có kiểm tra phù hợp;
+- việc sử dụng Kết quả do AI tạo ra mà không có kiểm tra phù hợp;
+- việc Khách hàng vi phạm các quy định sử dụng Hệ thống AI trái với quy định pháp luật;
 - lỗi thuộc hạ tầng do Khách hàng quản lý;
 - việc mất hoặc lộ thông tin xác thực thuộc trách nhiệm Khách hàng;
 - hành vi trái phép của người dùng thuộc Khách hàng;

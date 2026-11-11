@@ -49,16 +49,17 @@ Responsibility for billing, quotas, and credentials must be determined by the ap
 
 ## 5. AI Data Flow
 
-Typical processing flow:
+A typical processing flow consists of the following steps:
 
-**Customer Environment  
-→ Akabot AI Component  
-→ AI Provider API  
-→ AI Model  
-→ Akabot AI Component  
-→ Customer Environment**
+| Step | Where it occurs | What happens |
+|---|---|---|
+| 1 | Customer Environment | A request that uses an AI feature is sent to the Akabot AI Component. |
+| 2 | Akabot AI Component | The request and the necessary data are passed to the AI Provider's API. |
+| 3 | AI Provider API | The data is passed to the AI Model for processing. |
+| 4 | AI Model | The result is generated and returned to the Akabot AI Component through the AI Provider's API. |
+| 5 | Akabot AI Component | The result is returned to the Customer Environment. |
 
-When external AI is used, data sent to the AI Provider is no longer processed entirely within the on-premises environment.
+When the Customer agrees to use a third-party AI System, the Customer's data will be sent to the AI Provider, and Akabot does not guarantee that the Customer's data will be processed entirely within the on-premises environment.
 
 ## 6. Data That May Be Sent to AI Providers
 
@@ -95,7 +96,7 @@ In particular, the Customer should consider removing or masking:
 
 ## 8. Provider Terms
 
-Once sent to an AI Provider, data is subject to that provider's:
+Once sent to an AI Provider, the Customer's data is subject to that provider's:
 
 - terms of service;
 - privacy policy;
@@ -108,16 +109,13 @@ Akabot does not make any representation on behalf of an AI Provider that data wi
 
 ## 9. Model Training
 
-Akabot does not use Customer Data to train its own AI models or models shared with other customers, except where:
+Akabot does not use Customer Data to train its own AI models or models shared with other customers.
 
-- the Customer has given explicit consent; or
-- a separate written agreement provides otherwise.
-
-Whether an AI Provider uses data to improve or train models depends on the provider, service type, account plan, and configuration in effect at the time of use.
+Whether an AI Provider uses data to improve or train models depends on the provider's policies, service type, account plan, and configuration in effect at the time of use.
 
 ## 10. Provider Retention
 
-An AI Provider's retention practices may vary by:
+An AI Provider's data retention period may vary by:
 
 - provider;
 - account;
@@ -138,9 +136,9 @@ An AI Provider may process data in countries or regions other than where the Cus
 
 The Customer must assess data residency and cross-border transfer requirements before enabling the relevant provider.
 
-## 12. AI Output
+## 12. AI-Generated Output
 
-AI outputs may:
+AI-Generated Output may:
 
 - be inaccurate;
 - be incomplete;
@@ -149,13 +147,11 @@ AI outputs may:
 - vary between executions; or
 - be unsuitable for a particular use case.
 
-The Customer is responsible for verifying AI outputs before using them for significant decisions or actions.
+The Customer is responsible for verifying AI-Generated Output before using it for significant decisions or actions.
 
 ## 13. Human-in-the-Loop
 
-For high-impact use cases, the Customer should require human review or approval before a workflow takes action.
-
-Examples include:
+For high-risk AI System use cases, including but not limited to those listed below, the Customer should require human review or approval before a workflow takes action.
 
 - payments;
 - financial transactions;
@@ -168,11 +164,11 @@ Examples include:
 
 ## 14. Prohibited Uses
 
-The Customer must not use AI features for unlawful purposes or in violation of an AI Provider's usage policies.
+The Customer must not use AI features for unlawful purposes or in violation of the usage policies of an AI Provider or Akabot.
 
 ## 15. Prompt Injection and AI Security
 
-The Customer acknowledges that AI systems may be exposed to risks such as:
+The Customer acknowledges that AI Systems may be exposed to risks such as:
 
 - prompt injection;
 - malicious documents;
@@ -180,16 +176,16 @@ The Customer acknowledges that AI systems may be exposed to risks such as:
 - manipulated model outputs; and
 - insecure tool invocation.
 
-For AI Agents capable of taking actions, the Customer should implement:
+Where the Customer uses an AI System that is capable of taking actions on its own, the Customer should implement the following controls:
 
-- least privilege;
-- tool allowlists;
-- approval controls;
-- input validation;
-- output validation;
-- logging;
-- monitoring; and
-- separation of duties.
+- least privilege: grant the AI System only the minimum access and permissions it needs;
+- tool allowlists: allow the AI System to use only approved tools;
+- approval controls: require human approval before the AI System takes a significant action;
+- input validation: check requests and data before they are passed to the AI System;
+- output validation: check the AI System's results before using them or acting on them;
+- logging: record the AI System's activity;
+- monitoring: observe the AI System's activity to detect anomalies; and
+- separation of duties: do not assign all steps of a critical activity to a single person or system.
 
 ## 16. Changes to AI Providers
 
