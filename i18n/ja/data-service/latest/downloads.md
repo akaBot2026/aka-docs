@@ -15,8 +15,8 @@ displayed_sidebar: dataServiceSidebar
 
 | バージョン   | ビルド日           | ダウンロード                                                                 |
 | ----------- | ----------------- | ---------------------------------------------------------------------------- |
-| v1.1.1.2    | 2025 年 11 月 18 日 | [ダウンロード](https://ws3.fpt-software.vn/s/uzh0dvDEG3aF4Ud)               |
-| v1.1.1.1    | 2024 年 12 月 10 日 | [ダウンロード](https://ws3.fpt-software.vn/s/E5WUUpHeJ74zPDX)               |
-| v1.1.1.0    | 2024 年 11 月 21 日 | [ダウンロード](https://ws3.fpt-software.vn/s/PHBqW8X15rU5exk)               |
-| v1.0.1.5    | —                 | [サポート](mailto:support@akabot.com) にお問い合わせください                 |
-| v1.0.0      | —                 | [サポート](mailto:support@akabot.com) にお問い合わせください                 |
+| v1.1.1.2    | 2025 年 11 月 18  | [ダウンロード](https://ws3.akabot.com/s/xQEjgAA81z92pHy)                    |
+| v1.1.1.1    | 2024 年 12 月 10  | [ダウンロード](https://ws3.akabot.com/s/ESUCBpMArt4ef1l)                    |
+| v1.1.1.0    | 2024 年 11 月 21  | [ダウンロード](https://ws3.akabot.com/s/SPmPNnya84oBxKB)                    |
+| v1.0.1.5    | —             | サポートにお問い合わせください                                 |
+| v1.0.0      | —             | サポートにお問い合わせください                                 |

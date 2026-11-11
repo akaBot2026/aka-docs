@@ -9,6 +9,17 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — Release Notes
 
+## v3.2.7.1
+
+**Studio**
+
+- Added: **Error List** shows dependency resolution errors and library version conflicts.
+- Added: a warning before publishing a package larger than the configured threshold (25 MB by default, configurable in **Options > Common**).
+- Fixed: Studio crashed when publishing to Center failed. It now shows an error dialog.
+- Fixed: publishing crashed when the project name was not a valid package ID, such as when it contained a full-width space, Japanese brackets, or a trailing period (`.`). Studio now explains how to rename the project and does not change the project version.
+- Fixed: Package Manager could overwrite loaded assemblies when several packages were extracted at the same time.
+- Fixed: the "The license machine code is invalid" error that occurred after WMIC was removed or disabled on Windows 11 when the license had been activated while WMIC was available. This fix applies to both per-user and machine licenses.
+
 ## v3.2.7.0
 
 **Studio**

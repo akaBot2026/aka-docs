@@ -15,6 +15,7 @@ displayed_sidebar: studioSidebar
 
 | バージョン   | ビルド日           | ダウンロード                                                                 |
 | ----------- | ----------------- | ----------------------------------------------------------------------------|
+| v3.2.7.1    | 2026 年 11 月 03   | [ダウンロード](https://ws3.akabot.com/s/mj9QJ8Tuf5I3r2Q)                         |
 | v3.2.7.0    | 2026 年 10 月 26 日 | [ダウンロード](https://ws3.akabot.com/s/CfwvWv7lnbt8yA2)                    |
 | v3.2.6.0    | 2026 年 10 月 18 日 | [ダウンロード](https://ws3.akabot.com/s/kg13K06pRYmMYO8)                    |
 | v3.2.5.0    | 2026 年 10 月 14 日 | [ダウンロード](https://ws3.akabot.com/s/vPmUgpcp1qW2cOh)                    |

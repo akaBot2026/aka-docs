@@ -15,8 +15,8 @@ Use the links below to download Akabot Data Service installers. Each row corresp
 
 | Version     | Build date    | Download                                                                     |
 | ----------- | ------------- | ---------------------------------------------------------------------------- |
-| v1.1.1.2    | Nov 18, 2025  | [Download](https://ws3.fpt-software.vn/s/uzh0dvDEG3aF4Ud)                    |
-| v1.1.1.1    | Dec 10, 2024  | [Download](https://ws3.fpt-software.vn/s/E5WUUpHeJ74zPDX)                    |
-| v1.1.1.0    | Nov 21, 2024  | [Download](https://ws3.fpt-software.vn/s/PHBqW8X15rU5exk)                    |
-| v1.0.1.5    | —             | Contact [support](mailto:support@akabot.com)                                 |
-| v1.0.0      | —             | Contact [support](mailto:support@akabot.com)                                 |
+| v1.1.1.2    | Nov 18, 2025  | [Download](https://ws3.akabot.com/s/xQEjgAA81z92pHy)                    |
+| v1.1.1.1    | Dec 10, 2024  | [Download](https://ws3.akabot.com/s/ESUCBpMArt4ef1l)                    |
+| v1.1.1.0    | Nov 21, 2024  | [Download](https://ws3.akabot.com/s/SPmPNnya84oBxKB)                    |
+| v1.0.1.5    | —             | Contact support                                 |
+| v1.0.0      | —             | Contact support                                 |
