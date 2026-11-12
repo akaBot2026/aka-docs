@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: 使用ルール
 sidebar_label: 使用ルール
 sidebar_position: 1

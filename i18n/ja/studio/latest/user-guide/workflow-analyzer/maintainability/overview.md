@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: 保守性と可読性のルール
 sidebar_label: 保守性と可読性のルール
 sidebar_position: 1

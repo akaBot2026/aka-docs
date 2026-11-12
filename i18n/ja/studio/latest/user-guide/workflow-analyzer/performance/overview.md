@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: パフォーマンス ルール
 sidebar_label: パフォーマンス ルール
 sidebar_position: 1

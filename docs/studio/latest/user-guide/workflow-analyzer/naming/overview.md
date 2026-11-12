@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: Naming Rules
 sidebar_label: Naming Rules
 sidebar_position: 1

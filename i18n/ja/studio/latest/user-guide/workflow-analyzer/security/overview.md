@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: セキュリティ ルール
 sidebar_label: セキュリティ ルール
 sidebar_position: 1

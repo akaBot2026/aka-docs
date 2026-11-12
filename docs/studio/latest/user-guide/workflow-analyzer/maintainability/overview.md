@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: Maintainability and Readability Rules
 sidebar_label: Maintainability and Readability Rules
 sidebar_position: 1

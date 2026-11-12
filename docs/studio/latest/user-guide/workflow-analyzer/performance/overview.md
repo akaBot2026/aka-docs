@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: Performance Rules
 sidebar_label: Performance Rules
 sidebar_position: 1

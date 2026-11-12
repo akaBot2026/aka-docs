@@ -27,7 +27,7 @@ ReturnType: Collection(Resource)
 
 Example:
 
-Make a GET request to the http://botcenter.akabot.io/api/roles/{name} URL
+Make a GET request to the `http://botcenter.akabot.io/api/roles/{name}` URL
 
 ![image-20230307144502-1.png](/static/img/73971b_image-20230307144502-1.png)
 
@@ -458,7 +458,7 @@ ReturnType: Workflow
 
 Example:
 
-Make a PUT request to the http://botcenter.akabot.io/api/work-flows/{id}/version URL
+Make a PUT request to the `http://botcenter.akabot.io/api/work-flows/{id}/version` URL
 
 ![image-20230307144502-54.png](/static/img/af9cf4_image-20230307144502-54.png)
 
@@ -594,7 +594,7 @@ ReturnType: Job
 
 Example:
 
-Make a PUT request to the http://botcenter.akabot.io/api/jobs-processing/{id}/{value} URL
+Make a PUT request to the `http://botcenter.akabot.io/api/jobs-processing/{id}/{value}` URL
 
 ![image-20230307144502-71.png](/static/img/4a4775_image-20230307144502-71.png)
 
@@ -623,7 +623,7 @@ ReturnType: Job
 
 Example:
 
-Make a GET request to the http://botcenter.akabot.io/api/jobs/{id} URL
+Make a GET request to the `http://botcenter.akabot.io/api/jobs/{id}` URL
 
 ![image-20230307144502-74.png](/static/img/577af8_image-20230307144502-74.png)
 
@@ -1065,7 +1065,7 @@ ReturnType: Collection(QueueItems)
 
 Example:
 
-Make a GET request to the http://botcenter.akabot.io/api/queue/{id}/detail URL
+Make a GET request to the `http://botcenter.akabot.io/api/queue/{id}/detail` URL
 
 ![image-20230307144502-123.png](/static/img/c06335_image-20230307144502-123.png)
 

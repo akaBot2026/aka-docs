@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: Project Anatomy Rules
 sidebar_label: Project Anatomy Rules
 sidebar_position: 1

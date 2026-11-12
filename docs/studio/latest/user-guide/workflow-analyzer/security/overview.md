@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: Security Rules
 sidebar_label: Security Rules
 sidebar_position: 1

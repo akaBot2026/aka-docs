@@ -27,7 +27,7 @@ displayed_sidebar: centerSidebar
 
 例：
 
-http://botcenter.akabot.io/api/roles/{name} URL に GET リクエストを送信します。
+`http://botcenter.akabot.io/api/roles/{name}` URL に GET リクエストを送信します。
 
 ![image-20230307144502-1.png](/static/img/73971b_image-20230307144502-1.png)
 
@@ -455,7 +455,7 @@ http://botcenter.akabot.io/api/workflowversion URL に GET リクエストを送
 
 例：
 
-http://botcenter.akabot.io/api/work-flows/{id}/version URL に PUT リクエストを送信します。
+`http://botcenter.akabot.io/api/work-flows/{id}/version` URL に PUT リクエストを送信します。
 
 ![image-20230307144502-54.png](/static/img/af9cf4_image-20230307144502-54.png)
 
@@ -589,7 +589,7 @@ http://botcenter.akabot.io/api/jobs-processing URL に POST リクエストを�
 
 例：
 
-http://botcenter.akabot.io/api/jobs-processing/{id}/{value} URL に PUT リクエストを送信します。
+`http://botcenter.akabot.io/api/jobs-processing/{id}/{value}` URL に PUT リクエストを送信します。
 
 ![image-20230307144502-71.png](/static/img/4a4775_image-20230307144502-71.png)
 
@@ -618,7 +618,7 @@ http://botcenter.akabot.io/api/jobs-processing/{id}/{value} URL に PUT リク�
 
 例：
 
-http://botcenter.akabot.io/api/jobs/{id} URL に GET リクエストを送信します。
+`http://botcenter.akabot.io/api/jobs/{id}` URL に GET リクエストを送信します。
 
 ![image-20230307144502-74.png](/static/img/577af8_image-20230307144502-74.png)
 
@@ -1060,7 +1060,7 @@ QueueItem コレクションを取得します。サポートされているメ�
 
 例：
 
-http://botcenter.akabot.io/api/queue/{id}/detail URL に GET リクエストを送信します。
+`http://botcenter.akabot.io/api/queue/{id}/detail` URL に GET リクエストを送信します。
 
 ![image-20230307144502-123.png](/static/img/c06335_image-20230307144502-123.png)
 

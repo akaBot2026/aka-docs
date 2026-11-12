@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: 設計ベスト プラクティス ルール
 sidebar_label: 設計ベスト プラクティス ルール
 sidebar_position: 1

@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: Usage Rules
 sidebar_label: Usage Rules
 sidebar_position: 1

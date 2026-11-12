@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: Design Best Practices Rules
 sidebar_label: Design Best Practices Rules
 sidebar_position: 1

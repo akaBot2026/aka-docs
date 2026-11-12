@@ -1,5 +1,5 @@
 ---
-id: index
+id: overview
 title: プロジェクト構成ルール
 sidebar_label: プロジェクト構成ルール
 sidebar_position: 1
