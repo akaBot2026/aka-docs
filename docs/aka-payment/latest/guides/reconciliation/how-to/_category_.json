@@ -1,0 +1,10 @@
+{
+  "label": "How To",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Step-by-step instructions to run reconciliation on one or many expense lines and review the results."
+  }
+}

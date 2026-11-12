@@ -1,0 +1,10 @@
+{
+  "label": "Tracking",
+  "position": 15,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Find requests, check approval progress, and follow requests created by others."
+  }
+}

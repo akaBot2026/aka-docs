@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 4,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước tạo đề nghị bằng Trợ lý AI với kỹ năng /hoa-don, /ban-ke hoặc /nhap-tay."
   }
 }

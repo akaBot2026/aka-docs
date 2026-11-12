@@ -1,0 +1,10 @@
+{
+  "label": "Invoice Sources",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Choose where incoming invoices come from: user uploads, IMAP mailboxes, the e-invoice portal, AkaConnect, or AkaPay."
+  }
+}

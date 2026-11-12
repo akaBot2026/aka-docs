@@ -1,0 +1,10 @@
+{
+  "label": "Reconciliation",
+  "position": 12,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Match expense invoices with their supporting documents before a request is submitted."
+  }
+}

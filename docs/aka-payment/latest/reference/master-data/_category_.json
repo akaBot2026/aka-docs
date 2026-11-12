@@ -1,0 +1,10 @@
+{
+  "label": "Master Data",
+  "position": 10,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Duplicate rules for vendors, beneficiary accounts, and expense types in shared master data."
+  }
+}

@@ -31,7 +31,7 @@ Uploaded invoices are assigned to your business unit, automatically read and val
 ## Used in these guides
 
 - [Add an expense from an invoice](../requests/how-to/add-invoice-expense.md) — In the Expense Details step, select Add from invoice, upload an invoice or select one from the Invoice Management list; each invoice becomes an expense line.
-- [ePayment](../../index.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile supporting documents, and manage budgets with an AI assistant.
+- [AkaPayment](../../index.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile supporting documents, and manage budgets with an AI assistant.
 
 ## Before you start
 

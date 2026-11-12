@@ -3,7 +3,7 @@ title: "Dặn trợ lý cách xưng hô và chính sách của công ty"
 description: "Quản trị viên muốn thêm ghi chú riêng của tổ chức để trợ lý dùng đúng tên gọi, giọng điệu và nhắc chính sách."
 id: set-assistant-instructions
 sidebar_label: Dặn trợ lý cách xưng hô và chính sách của công ty
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # Dặn trợ lý cách xưng hô và chính sách của công ty

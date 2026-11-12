@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 7,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước xử lý nhiệm vụ phê duyệt, từ duyệt và ký đến trả lại, từ chối, ủy quyền và tạo quy tắc tự động."
   }
 }

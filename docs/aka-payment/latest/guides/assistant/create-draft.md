@@ -27,7 +27,7 @@ Use the chat window and the /hoa-don, /ban-ke, and /nhap-tay skills to create a 
 ## Used in these guides
 
 - [Create a payment request](../requests/create-draft.md) — The user wants to create a new payment request and save it as a draft.
-- [ePayment](../../index.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile documents, and manage budgets, with an AI assistant.
+- [AkaPayment](../../index.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile documents, and manage budgets, with an AI assistant.
 
 ## Before you start
 

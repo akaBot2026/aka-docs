@@ -23,12 +23,12 @@ In Users, click Add user (verify each email) or Invite (multiple emails with the
    ![Users page: (1) Users in the sidebar, (2) Add user button, (3) Invite button; Name, Status, Last activity, Unit table](/static/img/aka-payment-latest-admin-invite-user-list.webp)
 
 2. To add one user: click **Add user** (2), enter an email, then click **Next** (2). Follow the result of the check:
-   - Already an ePayment user: no need to add them again.
-   - Already a company member: click **Add**; they get access to ePayment immediately, and no email is sent.
+   - Already an AkaPayment user: no need to add them again.
+   - Already a company member: click **Add**; they get access to AkaPayment immediately, and no email is sent.
    - Has an account but isn't in the company: click **Send invitation**; they receive an email and join after accepting.
    - Doesn't have an account: enter **First name**, **Last name**, and **Temporary password** (at least 6 characters; they change the password when they first sign in), then click **Create account**; copy the password immediately because it is shown only once.
 
-   ![Add user to ePayment dialog: (2) Email field and Next button](/static/img/aka-payment-latest-admin-invite-user-dialog.webp)
+   ![Add user to AkaPayment dialog: (2) Email field and Next button](/static/img/aka-payment-latest-admin-invite-user-dialog.webp)
 
 3. To invite multiple people: click **Invite** (3), enter each email (press Enter to add an email), select a **Role** (Member by default), then click **Save**; the page displays "Users invited," and they set their own password the first time they sign in. Invited users receive an email and join using Join company from the invitation (akabot-identity).
 4. For a pending row, use **Resend invitation** or **Revoke invitation**.
@@ -46,4 +46,4 @@ In Users, click Add user (verify each email) or Invite (multiple emails with the
 
 ## Used in these guides
 
-- [Invite a new user to ePayment](../invite-user.md) — For administrators who want to give a colleague access to ePayment.
+- [Invite a new user to AkaPayment](../invite-user.md) — For administrators who want to give a colleague access to AkaPayment.

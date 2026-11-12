@@ -1,0 +1,10 @@
+{
+  "label": "Approvals",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Approve, reject, return, or delegate requests assigned to you, adjust budget allocations, automate replies, and discuss requests."
+  }
+}

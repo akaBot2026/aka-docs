@@ -3,7 +3,7 @@ title: "Thiết lập lịch làm việc"
 description: "Quản trị viên muốn chỉnh giờ làm việc và ngày nghỉ dùng để tính hạn xử lý."
 id: set-working-time
 sidebar_label: Thiết lập lịch làm việc
-sidebar_position: 11
+sidebar_position: 12
 ---
 
 # Thiết lập lịch làm việc

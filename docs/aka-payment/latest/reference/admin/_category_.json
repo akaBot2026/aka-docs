@@ -1,0 +1,10 @@
+{
+  "label": "Admin",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Rules that block deleting or disabling organization units and approver groups that are still in use."
+  }
+}

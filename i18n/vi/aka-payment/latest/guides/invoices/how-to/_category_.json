@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 4,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước tải hóa đơn lên, lọc và mở hóa đơn, thử lại hoặc ghi đè kết quả kiểm tra, nhập tay thông tin và tạo đề nghị thanh toán."
   }
 }

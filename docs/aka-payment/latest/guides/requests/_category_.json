@@ -1,0 +1,10 @@
+{
+  "label": "Requests",
+  "position": 14,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Create, fill in, check, and submit payment requests, add expenses from invoices or document bundles, and resubmit or clone returned and rejected requests."
+  }
+}

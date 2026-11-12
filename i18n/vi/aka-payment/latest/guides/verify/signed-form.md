@@ -3,7 +3,7 @@ title: "Kiểm tra phiếu thanh toán có chữ ký hợp lệ"
 description: "Người nhận phiếu thanh toán PDF muốn xác minh chữ ký số của phiếu."
 id: signed-form
 sidebar_label: Kiểm tra phiếu thanh toán có chữ ký hợp lệ
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Kiểm tra phiếu thanh toán có chữ ký hợp lệ
@@ -26,10 +26,10 @@ Việc kiểm tra chạy trong trình duyệt, tệp không bị gửi lên máy
 
 1. [Xác thực phiếu thanh toán đã ký](how-to/signed-form.md)
    1. Ở thanh bên, nhóm **Hỗ trợ**, bấm **Xác thực chứng từ đã ký**; trang mở ở tab mới và không cần đăng nhập (đường dẫn `/verify`).
-   2. Kéo thả hoặc **chọn tệp** PDF phiếu thanh toán đã tải xuống từ ePayment (chỉ nhận .pdf). Tệp không rời khỏi máy; trình duyệt chỉ tải về các chứng thư gốc công khai của ePayment để đối chiếu.
+   2. Kéo thả hoặc **chọn tệp** PDF phiếu thanh toán đã tải xuống từ AkaPayment (chỉ nhận .pdf). Tệp không rời khỏi máy; trình duyệt chỉ tải về các chứng thư gốc công khai của AkaPayment để đối chiếu.
    3. Chờ "Đang kiểm tra chữ ký…". Nếu lỗi kỹ thuật, trang báo "Không kiểm tra được tệp. Vui lòng thử lại."
    4. Nếu hợp lệ, trang hiện "Phiếu hợp lệ, chưa bị thay đổi" cùng các mục: Phiếu thanh toán (Mã đề nghị, Số chứng từ, Phiên bản tài liệu, Ngày tạo), Chữ ký (Chuẩn, Ký lúc, Dấu thời gian tin cậy, Hàm băm, Thuật toán), Chứng thư người ký (kèm nhãn "Tự ký" với chứng thư tự ký, thường gặp ở môi trường thử nghiệm) và, khi có nhiều chứng thư, Chuỗi chứng thư.
-   5. Nếu không, trang hiện "Không xác thực được" kèm một lý do: tệp không có chữ ký số; tệp đã được thêm nội dung sau khi ký; tệp bị sửa sau khi ký hoặc chữ ký bị hỏng; chữ ký còn nguyên nhưng chứng thư người ký không nằm trong danh sách ePayment tin cậy; chứng thư không còn hiệu lực tại thời điểm ký.
+   5. Nếu không, trang hiện "Không xác thực được" kèm một lý do: tệp không có chữ ký số; tệp đã được thêm nội dung sau khi ký; tệp bị sửa sau khi ký hoặc chữ ký bị hỏng; chữ ký còn nguyên nhưng chứng thư người ký không nằm trong danh sách AkaPayment tin cậy; chứng thư không còn hiệu lực tại thời điểm ký.
 
 ## Nếu có sự cố
 

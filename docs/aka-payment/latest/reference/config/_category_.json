@@ -1,0 +1,10 @@
+{
+  "label": "Config",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Requirements for saving shared reconciliation rules and the conditions for publishing a request type."
+  }
+}

@@ -1,8 +1,10 @@
 {
   "label": "Ai",
+  "position": 3,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Những điều cần biết khi tổ chức dùng mô hình AI riêng: kiểm tra hợp lệ, cách xử lý API key và hành vi khi nhà cung cấp gặp lỗi."
   }
 }

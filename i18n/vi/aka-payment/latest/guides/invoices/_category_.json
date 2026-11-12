@@ -1,8 +1,10 @@
 {
   "label": "Invoices",
+  "position": 8,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Tải lên, tìm và xem hóa đơn đầu vào ở Quản lý hóa đơn, xử lý hóa đơn không qua kiểm tra và tạo đề nghị thanh toán từ hóa đơn Sẵn sàng."
   }
 }

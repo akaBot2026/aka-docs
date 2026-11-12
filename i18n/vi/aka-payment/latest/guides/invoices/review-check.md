@@ -3,7 +3,7 @@ title: "Xử lý hóa đơn bị từ chối, gián đoạn hoặc cần nhập 
 description: "Người dùng muốn biết vì sao hóa đơn chưa Sẵn sàng và xử lý: thử lại, nhập tay thông tin, hoặc ghi đè kết quả kiểm tra."
 id: review-check
 sidebar_label: Xử lý hóa đơn bị từ chối, gián đoạn hoặc cần nhập tay
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Xử lý hóa đơn bị từ chối, gián đoạn hoặc cần nhập tay

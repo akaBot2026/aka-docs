@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 8,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước bật nguồn, thêm hòm thư IMAP bằng mật khẩu ứng dụng hoặc OAuth, tải định kỳ từ Cổng HĐĐT và kết nối AkaConnect hoặc AkaPay."
   }
 }

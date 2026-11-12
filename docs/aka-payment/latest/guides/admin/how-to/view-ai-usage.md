@@ -23,7 +23,7 @@ In AI Settings, open Usage at the bottom of the Document Processing or Assistant
 
 ## Troubleshooting
 
-- Recent usage is not shown yet: new usage appears after about five minutes. The **Other** row groups usage that could not be associated with an ePayment user.
+- Recent usage is not shown yet: new usage appears after about five minutes. The **Other** row groups usage that could not be associated with an AkaPayment user.
 - Date ranges longer than 366 days are rejected: select a shorter range.
 
 

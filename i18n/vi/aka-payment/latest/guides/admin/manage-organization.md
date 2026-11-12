@@ -3,7 +3,7 @@ title: "Chỉnh cơ cấu tổ chức"
 description: "Quản trị viên muốn thêm phòng ban, chuyển người giữa các đơn vị hoặc đặt trưởng bộ phận."
 id: manage-organization
 sidebar_label: Chỉnh cơ cấu tổ chức
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Chỉnh cơ cấu tổ chức

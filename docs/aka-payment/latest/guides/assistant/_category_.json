@@ -1,0 +1,10 @@
+{
+  "label": "Assistant",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Use the AI Assistant to read invoices or statements and prepare draft payment requests through chat."
+  }
+}

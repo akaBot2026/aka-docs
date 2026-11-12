@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 8,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước cho từng giai đoạn tạo đề nghị, từ Tổng quan, Bảng kê chi phí đến kiểm tra ngân sách, Xem lại và nộp."
   }
 }

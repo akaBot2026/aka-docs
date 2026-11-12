@@ -1,8 +1,10 @@
 {
   "label": "Master Data",
+  "position": 9,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Duy trì danh mục dùng chung như nhà cung cấp, ngân hàng, loại chi phí, mục ngân sách và dự án."
   }
 }

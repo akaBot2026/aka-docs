@@ -1,0 +1,10 @@
+{
+  "label": "Ai",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "What to expect when your organization uses its own AI model: validation, API key handling, and behavior when the provider fails."
+  }
+}

@@ -1,8 +1,10 @@
 {
   "label": "Invoice Sources",
+  "position": 7,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Chọn nguồn nhận hóa đơn đầu vào: người dùng tải lên, hòm thư IMAP, Cổng HĐĐT, AkaConnect hoặc AkaPay."
   }
 }

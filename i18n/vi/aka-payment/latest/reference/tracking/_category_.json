@@ -1,8 +1,10 @@
 {
   "label": "Tracking",
+  "position": 12,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Ai được xem một đề nghị, dựa trên vai trò, mức độ tham gia, đơn vị tổ chức và việc chia sẻ."
   }
 }

@@ -1,0 +1,10 @@
+{
+  "label": "Budget",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Set budget limits by period, budget item, unit, and project, and bulk import allocations from Excel."
+  }
+}

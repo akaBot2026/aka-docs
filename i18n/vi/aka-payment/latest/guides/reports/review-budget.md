@@ -3,7 +3,7 @@ title: "So sánh ngân sách với chi tiêu thực tế"
 description: "Người dùng muốn xem kế hoạch ngân sách so với số đã thực hiện."
 id: review-budget
 sidebar_label: So sánh ngân sách với chi tiêu thực tế
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # So sánh ngân sách với chi tiêu thực tế

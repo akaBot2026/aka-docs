@@ -1,8 +1,10 @@
 {
   "label": "Admin",
+  "position": 2,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Quản trị người dùng, cơ cấu tổ chức, nhóm phê duyệt, thời gian làm việc và cài đặt AI cho trợ lý và xử lý chứng từ."
   }
 }

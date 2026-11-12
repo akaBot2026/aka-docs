@@ -3,7 +3,7 @@ title: "Trả đề nghị về để bổ sung"
 description: "Người duyệt yêu cầu người tạo chỉnh sửa hoặc bổ sung thay vì từ chối hẳn."
 id: return-request
 sidebar_label: Trả đề nghị về để bổ sung
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # Trả đề nghị về để bổ sung

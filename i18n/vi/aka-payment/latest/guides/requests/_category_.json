@@ -1,8 +1,10 @@
 {
   "label": "Requests",
+  "position": 14,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Tạo, điền, kiểm tra và nộp đề nghị thanh toán, thêm chi phí từ hóa đơn hoặc bộ chứng từ, và nộp lại hoặc nhân bản đề nghị bị trả lại, bị từ chối."
   }
 }

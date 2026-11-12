@@ -1,0 +1,10 @@
+{
+  "label": "Master Data",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Maintain shared master data such as suppliers, banks, expense types, budget items, and projects."
+  }
+}

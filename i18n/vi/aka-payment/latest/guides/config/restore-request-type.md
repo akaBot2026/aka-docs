@@ -3,7 +3,7 @@ title: "Quay lại phiên bản cũ của loại đề nghị"
 description: "Quản trị viên muốn lấy lại cấu hình loại đề nghị từ một phiên bản đã phát hành."
 id: restore-request-type
 sidebar_label: Quay lại phiên bản cũ của loại đề nghị
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Quay lại phiên bản cũ của loại đề nghị

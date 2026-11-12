@@ -1,0 +1,10 @@
+{
+  "label": "How To",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Step-by-step instructions to create a request with the AI Assistant using the /hoa-don, /ban-ke, or /nhap-tay skills."
+  }
+}

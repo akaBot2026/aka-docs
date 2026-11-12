@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 2,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước thêm hoặc sửa bản ghi trong danh mục dùng chung."
   }
 }

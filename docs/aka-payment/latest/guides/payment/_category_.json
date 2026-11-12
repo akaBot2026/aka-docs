@@ -1,0 +1,10 @@
+{
+  "label": "Payment",
+  "position": 10,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Record approved requests as paid to close out the payment process."
+  }
+}

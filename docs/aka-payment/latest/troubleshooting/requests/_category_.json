@@ -1,0 +1,10 @@
+{
+  "label": "Requests",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Confirm a draft request opened correctly and is ready to submit at the Review step."
+  }
+}

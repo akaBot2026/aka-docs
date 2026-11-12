@@ -3,7 +3,7 @@ title: "Quản lý nhóm người phê duyệt"
 description: "Quản trị viên muốn đổi người duyệt ở một bước của luồng phê duyệt bằng cách sửa thành viên nhóm."
 id: manage-approval-group
 sidebar_label: Quản lý nhóm người phê duyệt
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Quản lý nhóm người phê duyệt

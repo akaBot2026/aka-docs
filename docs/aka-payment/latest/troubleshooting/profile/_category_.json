@@ -1,0 +1,10 @@
+{
+  "label": "Profile",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Confirm your signature and signing password are set up for approval steps that require a signature."
+  }
+}

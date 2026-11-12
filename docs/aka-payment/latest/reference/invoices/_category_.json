@@ -1,0 +1,10 @@
+{
+  "label": "Invoices",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Invoice visibility and permissions, supported file formats and size limits, duplicate handling, and conditions for creating requests from invoices."
+  }
+}

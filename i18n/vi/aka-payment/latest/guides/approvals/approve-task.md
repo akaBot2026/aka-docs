@@ -25,7 +25,7 @@ Bạn có một bước phê duyệt được giao và muốn duyệt đề ngh�
 
 ## Được dùng trong các hướng dẫn
 
-- [ePayment](../../index.md) — Lập, duyệt và theo dõi đề nghị thanh toán; tiếp nhận hóa đơn đầu vào, đối soát chứng từ và quản lý ngân sách, có trợ lý AI.
+- [AkaPayment](../../index.md) — Lập, duyệt và theo dõi đề nghị thanh toán; tiếp nhận hóa đơn đầu vào, đối soát chứng từ và quản lý ngân sách, có trợ lý AI.
 
 ## Trước khi bắt đầu
 

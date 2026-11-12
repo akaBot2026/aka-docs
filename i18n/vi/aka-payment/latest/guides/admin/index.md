@@ -11,7 +11,7 @@ sidebar_position: 1
 Xem mục admin.
 
 - [Bật trợ lý AI và chọn việc trợ lý được làm](enable-assistant-tools.md)
-- [Mời người dùng mới vào ePayment](invite-user.md)
+- [Mời người dùng mới vào AkaPayment](invite-user.md)
 - [Quản lý nhóm người phê duyệt](manage-approval-group.md)
 - [Quản lý kỹ năng của trợ lý AI](manage-assistant-skill.md)
 - [Chỉnh cơ cấu tổ chức](manage-organization.md)

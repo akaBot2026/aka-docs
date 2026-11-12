@@ -1,8 +1,10 @@
 {
   "label": "Admin",
+  "position": 2,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Quy tắc chặn xóa hoặc vô hiệu hóa đơn vị và nhóm phê duyệt khi vẫn đang được sử dụng."
   }
 }

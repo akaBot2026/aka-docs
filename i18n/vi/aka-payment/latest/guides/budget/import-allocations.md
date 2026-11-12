@@ -3,7 +3,7 @@ title: "Nhập phân bổ ngân sách bằng Excel"
 description: "Người dùng muốn nạp phân bổ ngân sách hàng loạt từ tệp Excel."
 id: import-allocations
 sidebar_label: Nhập phân bổ ngân sách bằng Excel
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Nhập phân bổ ngân sách bằng Excel

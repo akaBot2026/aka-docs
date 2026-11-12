@@ -4,6 +4,7 @@
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Hướng dẫn theo tác vụ để tạo, phê duyệt, theo dõi và thanh toán đề nghị, cùng với quản lý hóa đơn, ngân sách và thiết lập hệ thống."
   }
 }

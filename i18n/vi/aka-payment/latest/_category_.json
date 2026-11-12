@@ -1,0 +1,10 @@
+{
+  "label": "AkaPayment",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Hỗ trợ các hoạt động thanh toán doanh nghiệp bằng cách phối hợp các quy trình và giao dịch liên quan."
+  }
+}

@@ -1,8 +1,10 @@
 {
   "label": "Extraction",
+  "position": 7,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Giới hạn tải lên khi thêm hóa đơn, nhập bộ chứng từ và gửi tệp cho trợ lý."
   }
 }

@@ -3,7 +3,7 @@ title: "Đặt chữ ký để ký duyệt"
 description: "Người dùng cần chữ ký cá nhân để ký khi duyệt đề nghị."
 id: set-signature
 sidebar_label: Đặt chữ ký để ký duyệt
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Đặt chữ ký để ký duyệt

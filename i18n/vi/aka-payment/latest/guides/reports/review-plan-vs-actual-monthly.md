@@ -3,7 +3,7 @@ title: "So sánh kế hoạch với thực chi từng tháng"
 description: "Người dùng muốn thấy, cho mỗi tháng trong năm, ngân sách kế hoạch bên cạnh số đã chi."
 id: review-plan-vs-actual-monthly
 sidebar_label: So sánh kế hoạch với thực chi từng tháng
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # So sánh kế hoạch với thực chi từng tháng

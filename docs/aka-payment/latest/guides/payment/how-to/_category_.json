@@ -1,0 +1,10 @@
+{
+  "label": "How To",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Step-by-step instructions to mark an approved request as paid."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Invoice Sources",
+  "position": 8,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Which invoice source settings apply organization-wide and which are configured per unit."
+  }
+}

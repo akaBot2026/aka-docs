@@ -1,8 +1,10 @@
 {
   "label": "Budget",
+  "position": 5,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Đặt hạn mức ngân sách theo kỳ, mục ngân sách, đơn vị và dự án, và nhập phân bổ hàng loạt từ Excel."
   }
 }

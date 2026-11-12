@@ -38,5 +38,5 @@ Each tab in AI Settings has its own Usage section. The data may take about 5 min
 
 ### [View AI token usage](how-to/view-ai-usage.md)
 
-- Recent usage is not shown yet: new usage appears after about five minutes. The **Other** row groups usage that could not be associated with an ePayment user.
+- Recent usage is not shown yet: new usage appears after about five minutes. The **Other** row groups usage that could not be associated with an AkaPayment user.
 - Date ranges longer than 366 days are rejected: select a shorter range.

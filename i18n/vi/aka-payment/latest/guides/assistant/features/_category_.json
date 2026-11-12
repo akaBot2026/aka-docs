@@ -1,8 +1,10 @@
 {
   "label": "Features",
+  "position": 3,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Tìm hiểu kỹ năng của trợ lý: công thức soạn sẵn gọi bằng lệnh dấu / để trợ lý làm theo quy trình của công ty."
   }
 }

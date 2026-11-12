@@ -1,8 +1,10 @@
 {
   "label": "Invoice Sources",
+  "position": 8,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Thiết lập nguồn hóa đơn nào áp dụng cho toàn tổ chức và thiết lập nào cấu hình theo từng đơn vị."
   }
 }

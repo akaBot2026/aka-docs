@@ -1,8 +1,10 @@
 {
   "label": "Assistant",
+  "position": 2,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Xác nhận Trợ lý AI đã khả dụng cho vai trò của bạn sau khi quản trị viên bật công cụ."
   }
 }

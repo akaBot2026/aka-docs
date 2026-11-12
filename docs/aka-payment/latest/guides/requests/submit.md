@@ -22,7 +22,7 @@ Move the request from draft into the approval workflow.
 
 ## Used in these guides
 
-- [ePayment](../../index.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile documents, and manage budgets with an AI assistant.
+- [AkaPayment](../../index.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile documents, and manage budgets with an AI assistant.
 
 ## Before you start
 

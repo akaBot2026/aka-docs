@@ -11,7 +11,7 @@ sidebar_position: 1
 View the admin section.
 
 - [Enable the AI assistant and choose what it can do](enable-assistant-tools.md)
-- [Invite a new user to ePayment](invite-user.md)
+- [Invite a new user to AkaPayment](invite-user.md)
 - [Manage approver groups](manage-approval-group.md)
 - [Manage AI assistant skills](manage-assistant-skill.md)
 - [Edit the organizational structure](manage-organization.md)

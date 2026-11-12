@@ -3,7 +3,7 @@ title: "Theo dõi đề nghị của người khác"
 description: "Người dùng muốn nhận cập nhật và tìm nhanh một đề nghị không phải của mình."
 id: watch-request
 sidebar_label: Theo dõi đề nghị của người khác
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Theo dõi đề nghị của người khác

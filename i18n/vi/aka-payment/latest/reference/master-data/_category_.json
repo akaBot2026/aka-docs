@@ -1,8 +1,10 @@
 {
   "label": "Master Data",
+  "position": 10,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Quy tắc trùng lặp cho nhà cung cấp, tài khoản thụ hưởng và loại chi phí trong danh mục dùng chung."
   }
 }
