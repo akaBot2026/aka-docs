@@ -1,7 +1,7 @@
 ---
-id: overview
-title: Tổng quan
-sidebar_label: Tổng quan
+id: index
+title: Index
+sidebar_label: Index
 sidebar_position: 1
 description: ePayment giúp nhân viên lập đề nghị thanh toán kèm hóa đơn và chứng từ, nộp theo luồng phê duyệt của đơn vị, và giúp người duyệt và kế toán xử lý, đối soát và…
 ---

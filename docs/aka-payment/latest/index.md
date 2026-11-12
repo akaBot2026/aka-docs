@@ -1,7 +1,7 @@
 ---
-id: overview
-title: Overview
-sidebar_label: Overview
+id: index
+title: Index
+sidebar_label: Index
 sidebar_position: 1
 description: ePayment helps employees create payment requests with invoices and supporting documents and submit them through their organization's approval workflow. It also helps approvers and accountants process, reconcile, and record payments…
 ---
