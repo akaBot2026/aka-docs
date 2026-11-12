@@ -24,7 +24,7 @@ Start a new request from scratch, then enter the request details, expenses, and 
 
 - [Create a payment request from invoices in Invoice Management](../invoices/create-request.md) — The user wants to select multiple invoices already processed in Invoice Management and create a payment request, with each invoice as an expense.
 - [Select invoices and create a payment request](../invoices/how-to/create-request.md) — Select the Ready invoices in Invoice Management, click Create Payment Request, select a Request Type, and click Create Payment Request; each invoice becomes an expense in the draft.
-- [AkaPayment](../../index.md) — Create, approve, and track payment requests; process incoming invoices, reconcile documents, and manage budgets with an AI assistant.
+- [AkaPayment](../../overview.md) — Create, approve, and track payment requests; process incoming invoices, reconcile documents, and manage budgets with an AI assistant.
 
 ## Before you start
 

@@ -25,7 +25,7 @@ You have an approval step assigned to you and want to approve the request.
 
 ## Used in guides
 
-- [AkaPayment](../../index.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile supporting documents, and manage budgets with an AI assistant.
+- [AkaPayment](../../overview.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile supporting documents, and manage budgets with an AI assistant.
 
 ## Before you begin
 
