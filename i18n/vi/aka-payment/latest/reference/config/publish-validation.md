@@ -15,7 +15,7 @@ Phát hành không thành công kèm danh sách vấn đề theo tab (Thiết l�
 
 Việc kiểm tra chỉ diễn ra khi bấm Phát hành; trình sửa không báo lỗi trước. Khi không phát hành được, trang hiện "Chưa thể phát hành loại đề nghị này." và không ghi phiên bản nào. Các nhóm vấn đề chính:
 
-- **Thiết lập**: Mã và Tên không được trống; mã không trùng loại khác; Mẫu số chứng từ phải chứa `{NNNNN}` ("Mẫu số chứng từ phải chứa {NNNNN} để mỗi đề nghị có một số riêng.").
+- **Thiết lập**: Mã và Tên không được trống; mã không trùng loại khác; Mẫu số chứng từ phải chứa `{NNNNN}` ("Mẫu số chứng từ phải chứa `{NNNNN}` để mỗi đề nghị có một số riêng.").
 - **Luồng phê duyệt**: ít nhất một bước; mỗi bước có tên, mã không trùng; nhóm hoặc trường chọn người được giao phải còn tồn tại; trường bổ sung của bước phải có tên, lựa chọn hoặc danh mục; điều kiện phải có vế hoàn chỉnh và ít nhất một nhánh; không có bước nào sau bước kết thúc.
 - **Luồng đề nghị**: chứng từ bắt buộc phải có tên, không trùng và đã chọn loại chứng từ; bật tra cứu hóa đơn thì bộ chứng từ phải có hóa đơn; quy tắc đối soát có tên không trùng và hướng dẫn kiểm tra dùng ít nhất một biến hợp lệ; chứng từ mà quy tắc bắt buộc dùng phải là chứng từ bắt buộc (hệ thống tự đánh dấu khi phát hành); quy tắc dùng chung đã lưu trữ hoặc đã xóa phải được gỡ liên kết; không thiếu trường hệ thống, không trùng mã trường; trường phụ thuộc phải trỏ tới trường hoặc thiết lập ngân sách có thật; mục lặp phải có trường khoản mục ngân sách và bộ phận chịu chi phí.
 

@@ -23,12 +23,12 @@ Open Tasks to Process and click Approve on the row, or open the request and clic
    ![My Tasks page: (1) Pending tab, (2) Search box, (3) Approve button at the end of the row](/static/img/aka-payment-latest-approvals-approve-task-list.webp)
 
 2. Find the task using the **Search** box (2), or use the **All Tasks**, **All Departments**, and **All Due Dates** filters if needed.
-3. Click **Approve** (3) at the end of the row, or click the request to open its details page and then click **Approve** on the "Your Tasks" card (in the list, a dialog asks "Approve {code}? ").
+3. Click **Approve** (3) at the end of the row, or click the request to open its details page and then click **Approve** on the "Your Tasks" card (in the list, a dialog asks "Approve `{code}`?").
 4. If the step has required custom fields, fill them in first (the Approve button stays disabled until all required fields are filled in). If the step allows budget allocation adjustments and you need to change a line item or cost center, follow [Adjust the budget allocation when approving](adjust-allocation.md) before approving.
 5. If the **Sign Approval** dialog appears, enter your **Signing Password** (and **Reason** if required), then click **Sign and Approve**. If you see "Complete your signing profile first.", click **Go to Profile** to set up your signature, then return.
 6. If no signing dialog appears, confirm the approval in the dialog (**Reason** is optional): click **Accept** (6) in the dialog opened from the list, or **Confirm** on the details page.
 
-   !["Approve {code}?" dialog opened from the list: optional Reason field and (6) Accept button](/static/img/aka-payment-latest-approvals-approve-task-dialog.webp)
+   !["Approve request code?" dialog opened from the list: optional Reason field and (6) Accept button](/static/img/aka-payment-latest-approvals-approve-task-dialog.webp)
 
 ## Troubleshooting
 
