@@ -4,6 +4,7 @@ description: "Enable the AkaConnect connection, select a unit, click Add connect
 id: connect-akaconnect
 sidebar_label: Connect a Gmail/Outlook mailbox via AkaConnect
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Connect a Gmail/Outlook mailbox via AkaConnect

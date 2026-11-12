@@ -4,6 +4,7 @@ description: "Select Ready invoices in Invoice Management, click Create Payment 
 id: create-request
 sidebar_label: Select Invoices and Create a Payment Request
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Select Invoices and Create a Payment Request

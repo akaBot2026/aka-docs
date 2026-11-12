@@ -4,6 +4,7 @@ description: "Nhận XML, PDF, ảnh PNG/JPEG/HEIC/HEIF (hoặc zip chứa chún
 id: file-types
 sidebar_label: Định dạng, dung lượng và trùng lặp khi tải hóa đơn
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Định dạng, dung lượng và trùng lặp khi tải hóa đơn

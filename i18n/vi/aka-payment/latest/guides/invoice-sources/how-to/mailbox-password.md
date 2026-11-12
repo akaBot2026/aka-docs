@@ -4,6 +4,7 @@ description: "Trong hộp thoại thêm hòm thư, chọn Cách đăng nhập: M
 id: mailbox-password
 sidebar_label: Đăng nhập hòm thư bằng mật khẩu ứng dụng
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đăng nhập hòm thư bằng mật khẩu ứng dụng

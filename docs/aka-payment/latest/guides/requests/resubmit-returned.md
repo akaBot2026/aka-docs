@@ -4,6 +4,7 @@ description: "The creator has a returned request and wants to make changes befor
 id: resubmit-returned
 sidebar_label: Resubmit a Returned Request
 sidebar_position: 9
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Resubmit a Returned Request

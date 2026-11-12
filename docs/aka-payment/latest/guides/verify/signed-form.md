@@ -4,6 +4,7 @@ description: "Recipients of PDF payment forms want to verify the form's digital 
 id: signed-form
 sidebar_label: Verify a payment form has a valid signature
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Verify a payment form has a valid signature

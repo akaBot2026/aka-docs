@@ -4,6 +4,7 @@ description: "Users want to view the budget allocated for each month of the year
 id: review-plan-monthly
 sidebar_label: View the Monthly Budget Plan
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # View the Monthly Budget Plan

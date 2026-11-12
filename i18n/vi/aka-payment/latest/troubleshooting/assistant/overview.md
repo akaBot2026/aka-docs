@@ -4,6 +4,7 @@ description: "Xem mục assistant."
 id: overview
 sidebar_label: Assistant
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Assistant

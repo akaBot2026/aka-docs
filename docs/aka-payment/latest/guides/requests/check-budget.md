@@ -4,6 +4,7 @@ description: "Users want to know whether the request they are drafting exceeds t
 id: check-budget
 sidebar_label: Check whether expenses exceed the budget
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Check whether expenses exceed the budget

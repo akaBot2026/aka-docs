@@ -4,6 +4,7 @@ description: "Xem mục khắc phục sự cố."
 id: overview
 sidebar_label: Khắc phục sự cố
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Khắc phục sự cố

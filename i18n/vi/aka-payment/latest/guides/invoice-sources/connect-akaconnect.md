@@ -4,6 +4,7 @@ description: "Quản trị viên muốn nhận hóa đơn đính kèm thư từ 
 id: connect-akaconnect
 sidebar_label: Nhận hóa đơn từ Gmail/Outlook qua AkaConnect
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nhận hóa đơn từ Gmail/Outlook qua AkaConnect

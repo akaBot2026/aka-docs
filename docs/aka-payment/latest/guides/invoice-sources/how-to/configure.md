@@ -4,6 +4,7 @@ description: "In Administration → Incoming Invoices, select the unit scope, en
 id: configure
 sidebar_label: Enable/disable invoice sources and save settings
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Enable/disable invoice sources and save settings

@@ -4,6 +4,7 @@ description: "Người dùng muốn chọn nhiều hóa đơn đã đọc sẵn 
 id: create-request
 sidebar_label: Tạo ĐNTT từ hóa đơn đã có trong Quản lý hóa đơn
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tạo ĐNTT từ hóa đơn đã có trong Quản lý hóa đơn

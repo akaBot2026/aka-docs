@@ -4,6 +4,7 @@ description: "Users want to receive updates and quickly find a request that isn'
 id: watch-request
 sidebar_label: Watch someone else's request
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Watch someone else's request

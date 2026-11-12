@@ -4,6 +4,7 @@ description: "Mở đề nghị đã nộp và bấm Theo dõi (đổi thành B�
 id: watch-request
 sidebar_label: Theo dõi một đề nghị
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Theo dõi một đề nghị

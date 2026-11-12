@@ -4,6 +4,7 @@ description: "In Organization Structure, click Add unit or Add child unit, then 
 id: manage-organization
 sidebar_label: Add or edit an organization unit
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Add or edit an organization unit

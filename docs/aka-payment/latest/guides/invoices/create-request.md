@@ -4,6 +4,7 @@ description: "Users want to select multiple invoices already processed in Invoic
 id: create-request
 sidebar_label: Create a Payment Request from Existing Invoices in Invoice Management
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Create a Payment Request from Existing Invoices in Invoice Management

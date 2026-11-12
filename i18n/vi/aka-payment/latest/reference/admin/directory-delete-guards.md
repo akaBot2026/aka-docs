@@ -4,6 +4,7 @@ description: "Đơn vị còn đơn vị con, thành viên, đề nghị hoặc 
 id: directory-delete-guards
 sidebar_label: Không xóa hoặc vô hiệu hóa được khi còn đang được dùng
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Không xóa hoặc vô hiệu hóa được khi còn đang được dùng

@@ -4,6 +4,7 @@ description: "Quản trị viên muốn đổi người duyệt ở một bướ
 id: manage-approval-group
 sidebar_label: Quản lý nhóm người phê duyệt
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Quản lý nhóm người phê duyệt

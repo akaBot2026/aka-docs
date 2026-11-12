@@ -4,6 +4,7 @@ description: "In the sidebar, open Reports → Monthly Budget Plan, select a yea
 id: review-plan-monthly
 sidebar_label: Open the Monthly Budget Plan Report
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Open the Monthly Budget Plan Report

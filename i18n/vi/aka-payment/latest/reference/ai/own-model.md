@@ -4,6 +4,7 @@ description: "Mô hình riêng phải qua kiểm tra mới được áp dụng; 
 id: own-model
 sidebar_label: Khi tổ chức dùng mô hình AI riêng
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Khi tổ chức dùng mô hình AI riêng

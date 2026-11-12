@@ -4,6 +4,7 @@ description: "Người tạo có đề nghị bị trả lại và muốn sửa 
 id: resubmit-returned
 sidebar_label: Nộp lại đề nghị đã bị trả lại
 sidebar_position: 10
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nộp lại đề nghị đã bị trả lại

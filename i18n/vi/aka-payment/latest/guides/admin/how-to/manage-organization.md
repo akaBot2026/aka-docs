@@ -4,6 +4,7 @@ description: "Ở Cơ cấu tổ chức, bấm Thêm đơn vị hoặc Thêm đ�
 id: manage-organization
 sidebar_label: Thêm hoặc sửa một đơn vị trong cơ cấu tổ chức
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Thêm hoặc sửa một đơn vị trong cơ cấu tổ chức

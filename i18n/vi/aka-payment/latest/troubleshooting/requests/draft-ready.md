@@ -4,6 +4,7 @@ description: "Ở bước Xem lại, đề nghị hiện trạng thái \"Sẵn s
 id: draft-ready
 sidebar_label: Đề nghị nháp sẵn sàng nộp
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đề nghị nháp sẵn sàng nộp

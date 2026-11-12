@@ -4,6 +4,7 @@ description: "Administrators want to adjust working hours and days off used to c
 id: set-working-time
 sidebar_label: Configure working hours
 sidebar_position: 11
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Configure working hours

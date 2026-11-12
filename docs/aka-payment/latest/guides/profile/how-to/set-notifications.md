@@ -4,6 +4,7 @@ description: "In Personal Profile, on the Notifications tab, turn each notificat
 id: set-notifications
 sidebar_label: Choose which notifications to receive
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Choose which notifications to receive

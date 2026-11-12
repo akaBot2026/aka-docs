@@ -4,6 +4,7 @@ description: "Custom models must pass validation before they can be applied. API
 id: own-model
 sidebar_label: When your organization uses a custom AI model
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # When your organization uses a custom AI model

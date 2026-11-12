@@ -4,6 +4,7 @@ description: "On the Review step, the request shows the \"Ready to submit\" stat
 id: draft-ready
 sidebar_label: Draft Request Ready to Submit
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Draft Request Ready to Submit

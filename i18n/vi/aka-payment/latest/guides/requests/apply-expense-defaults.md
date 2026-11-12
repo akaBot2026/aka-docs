@@ -4,6 +4,7 @@ description: "Người tạo muốn mọi dòng chi phí của đề nghị dùn
 id: apply-expense-defaults
 sidebar_label: Áp dụng cùng khoản mục ngân sách và bộ phận chịu chi phí cho tất cả chi phí
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Áp dụng cùng khoản mục ngân sách và bộ phận chịu chi phí cho tất cả chi phí

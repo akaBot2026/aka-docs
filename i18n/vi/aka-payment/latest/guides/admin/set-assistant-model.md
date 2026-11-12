@@ -4,6 +4,7 @@ description: "Quản trị viên muốn chọn mô hình AI trả lời trong kh
 id: set-assistant-model
 sidebar_label: Chọn mô hình AI cho trợ lý chat
 sidebar_position: 10
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Chọn mô hình AI cho trợ lý chat

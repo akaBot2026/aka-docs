@@ -4,6 +4,7 @@ description: "Ở Việc cần xử lý bấm Tự động hóa, rồi Tạo t�
 id: automate-reply
 sidebar_label: Tạo quy tắc tự động xử lý việc được giao cho tôi
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tạo quy tắc tự động xử lý việc được giao cho tôi

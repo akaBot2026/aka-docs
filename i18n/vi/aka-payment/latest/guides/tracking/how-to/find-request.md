@@ -4,6 +4,7 @@ description: "Mở Đề nghị của tôi và dùng tab, tìm kiếm, bộ lọ
 id: find-request
 sidebar_label: Tìm đề nghị
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tìm đề nghị

@@ -4,6 +4,7 @@ description: "Administrators can choose which AI model responds in the assistant
 id: set-assistant-model
 sidebar_label: Choose an AI model for the chat assistant
 sidebar_position: 9
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Choose an AI model for the chat assistant

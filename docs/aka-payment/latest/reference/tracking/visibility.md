@@ -4,6 +4,7 @@ description: "Administrators, operators, creators, assignees, approvers, watcher
 id: visibility
 sidebar_label: Who can view a request
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Who can view a request

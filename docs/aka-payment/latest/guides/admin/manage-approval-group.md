@@ -4,6 +4,7 @@ description: "An administrator wants to change the approver at a step in an appr
 id: manage-approval-group
 sidebar_label: Manage approver groups
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Manage approver groups

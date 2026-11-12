@@ -4,6 +4,7 @@ description: "Ở thanh bên mở Báo cáo → Kế hoạch và thực hiện n
 id: review-budget
 sidebar_label: Mở báo cáo kế hoạch và thực hiện ngân sách
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Mở báo cáo kế hoạch và thực hiện ngân sách

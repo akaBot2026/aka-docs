@@ -4,6 +4,7 @@ description: "Người duyệt muốn chuyển chi phí của đề nghị sang 
 id: adjust-allocation
 sidebar_label: Sửa khoản mục ngân sách của đề nghị đang duyệt
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Sửa khoản mục ngân sách của đề nghị đang duyệt

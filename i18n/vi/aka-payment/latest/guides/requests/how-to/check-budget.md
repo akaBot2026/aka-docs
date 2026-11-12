@@ -4,6 +4,7 @@ description: "Ở bước Bảng kê chi phí, chọn Kiểm tra ngân sách đ�
 id: check-budget
 sidebar_label: Kiểm tra ngân sách trước khi nộp
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Kiểm tra ngân sách trước khi nộp

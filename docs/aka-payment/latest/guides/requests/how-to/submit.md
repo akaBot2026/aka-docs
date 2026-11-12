@@ -4,6 +4,7 @@ description: "At the Review step, click Submit request. The system opens the fir
 id: submit
 sidebar_label: Submit a request
 sidebar_position: 11
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Submit a request

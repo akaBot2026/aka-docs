@@ -4,6 +4,7 @@ description: "Người dùng muốn xem kế hoạch ngân sách so với số �
 id: review-budget
 sidebar_label: So sánh ngân sách với chi tiêu thực tế
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # So sánh ngân sách với chi tiêu thực tế

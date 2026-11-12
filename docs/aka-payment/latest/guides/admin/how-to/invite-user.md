@@ -4,6 +4,7 @@ description: "In Users, click Add user (verify each email) or Invite (multiple e
 id: invite-user
 sidebar_label: Add or invite users
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Add or invite users

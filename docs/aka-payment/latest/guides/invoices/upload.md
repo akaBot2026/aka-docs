@@ -4,6 +4,7 @@ description: "Users want to add invoice files (XML, PDF, images, or ZIP files) t
 id: upload
 sidebar_label: Upload Incoming Invoices to Invoice Management
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Upload Incoming Invoices to Invoice Management

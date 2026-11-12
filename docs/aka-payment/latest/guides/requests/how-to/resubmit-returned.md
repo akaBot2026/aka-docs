@@ -4,6 +4,7 @@ description: "Open the returned request, click Edit and Resubmit, make changes b
 id: resubmit-returned
 sidebar_label: Edit and Resubmit a Returned Request
 sidebar_position: 9
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Edit and Resubmit a Returned Request

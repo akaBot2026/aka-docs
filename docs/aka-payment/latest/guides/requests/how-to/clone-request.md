@@ -4,6 +4,7 @@ description: "In My Requests, click the copy icon (Clone) on a row to create a n
 id: clone-request
 sidebar_label: Clone a Request
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Clone a Request

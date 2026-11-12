@@ -4,6 +4,7 @@ description: "Ở bước Bảng kê chi phí, chọn Thêm từ hóa đơn, t�
 id: add-invoice-expense
 sidebar_label: Thêm chi phí từ hóa đơn
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Thêm chi phí từ hóa đơn

@@ -4,6 +4,7 @@ description: "Quản trị viên muốn chọn mô hình AI đọc hóa đơn, t
 id: set-document-model
 sidebar_label: Chọn AI đọc hóa đơn và xử lý chứng từ
 sidebar_position: 11
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Chọn AI đọc hóa đơn và xử lý chứng từ

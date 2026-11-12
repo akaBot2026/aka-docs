@@ -4,6 +4,7 @@ description: "Users want to bulk import budget allocations from an Excel file."
 id: import-allocations
 sidebar_label: Import Budget Allocations from Excel
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Import Budget Allocations from Excel

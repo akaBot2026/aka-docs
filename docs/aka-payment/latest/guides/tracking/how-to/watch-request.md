@@ -4,6 +4,7 @@ description: "Open a submitted request and click Follow (which changes to Unfoll
 id: watch-request
 sidebar_label: Follow a request
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Follow a request

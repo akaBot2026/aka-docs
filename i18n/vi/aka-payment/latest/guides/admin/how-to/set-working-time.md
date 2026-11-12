@@ -4,6 +4,7 @@ description: "Ở Thời gian làm việc, chọn ngày và khung giờ làm vi�
 id: set-working-time
 sidebar_label: Đặt giờ làm việc và ngày nghỉ
 sidebar_position: 11
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đặt giờ làm việc và ngày nghỉ

@@ -4,6 +4,7 @@ description: "Mở danh mục (Cấu hình → Danh mục dùng chung, hoặc Qu
 id: manage-list
 sidebar_label: Thêm hoặc sửa một bản ghi danh mục
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Thêm hoặc sửa một bản ghi danh mục

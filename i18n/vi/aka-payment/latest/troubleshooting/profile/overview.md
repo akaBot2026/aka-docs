@@ -4,6 +4,7 @@ description: "Xem mục profile."
 id: overview
 sidebar_label: Profile
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Profile

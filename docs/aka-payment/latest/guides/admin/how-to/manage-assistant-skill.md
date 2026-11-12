@@ -4,6 +4,7 @@ description: "In AI Settings, open the Assistant tab and the Skills section, the
 id: manage-assistant-skill
 sidebar_label: Add or edit an assistant skill
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Add or edit an assistant skill

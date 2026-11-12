@@ -4,6 +4,7 @@ description: "Admins want to receive invoice attachments from Gmail or Outlook m
 id: connect-akaconnect
 sidebar_label: Receive invoices from Gmail/Outlook via AkaConnect
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Receive invoices from Gmail/Outlook via AkaConnect

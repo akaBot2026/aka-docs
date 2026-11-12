@@ -4,6 +4,7 @@ description: "Người dùng muốn lập một đề nghị thanh toán mới v
 id: create-draft
 sidebar_label: Tạo đề nghị thanh toán
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tạo đề nghị thanh toán

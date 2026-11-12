@@ -4,6 +4,7 @@ description: "In Personal Profile, on the Preferences tab, choose By organizatio
 id: set-assistant-display
 sidebar_label: Choose how to open the assistant in Preferences
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Choose how to open the assistant in Preferences

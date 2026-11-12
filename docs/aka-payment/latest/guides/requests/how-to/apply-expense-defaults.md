@@ -4,6 +4,7 @@ description: "In the Expense list step, open Apply to all expenses, select the i
 id: apply-expense-defaults
 sidebar_label: Apply allocation to all expenses
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Apply allocation to all expenses

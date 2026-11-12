@@ -4,6 +4,7 @@ description: "Xem mục master data."
 id: overview
 sidebar_label: Master data
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Master data

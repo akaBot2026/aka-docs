@@ -4,6 +4,7 @@ description: "Người duyệt không đồng ý và từ chối hẳn một đ�
 id: reject-request
 sidebar_label: Từ chối đề nghị
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Từ chối đề nghị

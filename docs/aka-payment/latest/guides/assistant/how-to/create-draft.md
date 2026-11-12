@@ -4,6 +4,7 @@ description: "Open the AI Assistant, select the /hoa-don, /ban-ke, or /nhap-tay 
 id: create-draft
 sidebar_label: Create a Request with the AI Assistant
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Create a Request with the AI Assistant

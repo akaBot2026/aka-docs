@@ -4,6 +4,7 @@ description: "Quản trị viên muốn lấy lại cấu hình loại đề ngh
 id: restore-request-type
 sidebar_label: Quay lại phiên bản cũ của loại đề nghị
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Quay lại phiên bản cũ của loại đề nghị

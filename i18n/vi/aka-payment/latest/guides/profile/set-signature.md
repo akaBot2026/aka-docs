@@ -4,6 +4,7 @@ description: "Người dùng cần chữ ký cá nhân để ký khi duyệt đ�
 id: set-signature
 sidebar_label: Đặt chữ ký để ký duyệt
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đặt chữ ký để ký duyệt

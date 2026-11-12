@@ -4,6 +4,7 @@ description: "Người dùng muốn biết đề nghị đang soạn có vượt
 id: check-budget
 sidebar_label: Xem chi phí có vượt ngân sách không
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Xem chi phí có vượt ngân sách không

@@ -4,6 +4,7 @@ description: "Không nộp được nếu biểu mẫu chưa đủ, hóa đơn t
 id: submission
 sidebar_label: Điều kiện để nộp đề nghị
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Điều kiện để nộp đề nghị

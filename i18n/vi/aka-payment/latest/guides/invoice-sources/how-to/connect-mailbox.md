@@ -4,6 +4,7 @@ description: "Chọn đơn vị, bấm Thêm hòm thư ở thẻ Email, nhập �
 id: connect-mailbox
 sidebar_label: Thêm hòm thư nhận hóa đơn qua IMAP
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Thêm hòm thư nhận hóa đơn qua IMAP

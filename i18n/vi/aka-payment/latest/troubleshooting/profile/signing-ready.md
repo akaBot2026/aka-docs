@@ -4,6 +4,7 @@ description: "Hồ sơ cá nhân đã có ảnh chữ ký và mật khẩu ký, 
 id: signing-ready
 sidebar_label: Đã có chữ ký và mật khẩu ký
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đã có chữ ký và mật khẩu ký

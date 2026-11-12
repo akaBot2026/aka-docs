@@ -4,6 +4,7 @@ description: "Open Tasks to Process and click Approve on the row, or open the re
 id: approve-task
 sidebar_label: Approve an Assigned Task
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Approve an Assigned Task

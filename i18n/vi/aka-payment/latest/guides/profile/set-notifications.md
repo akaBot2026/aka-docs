@@ -4,6 +4,7 @@ description: "Người dùng muốn tắt bớt hoặc bật thêm các loại t
 id: set-notifications
 sidebar_label: Đổi thông báo tôi nhận
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đổi thông báo tôi nhận

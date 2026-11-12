@@ -4,6 +4,7 @@ description: "Trong Hồ sơ cá nhân, tab Chữ ký, vẽ hoặc tải ảnh c
 id: set-signature
 sidebar_label: Đặt chữ ký và mật khẩu ký trong hồ sơ
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đặt chữ ký và mật khẩu ký trong hồ sơ

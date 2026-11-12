@@ -4,6 +4,7 @@ description: "Người dùng muốn nhận cập nhật và tìm nhanh một đ�
 id: watch-request
 sidebar_label: Theo dõi đề nghị của người khác
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Theo dõi đề nghị của người khác

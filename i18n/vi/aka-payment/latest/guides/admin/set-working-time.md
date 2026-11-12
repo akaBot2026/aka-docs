@@ -4,6 +4,7 @@ description: "Quản trị viên muốn chỉnh giờ làm việc và ngày ngh�
 id: set-working-time
 sidebar_label: Thiết lập lịch làm việc
 sidebar_position: 12
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Thiết lập lịch làm việc

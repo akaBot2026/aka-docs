@@ -4,6 +4,7 @@ description: "Quản trị viên muốn thêm hoặc sửa bản ghi danh mục:
 id: manage-list
 sidebar_label: Cập nhật danh mục dùng chung
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Cập nhật danh mục dùng chung

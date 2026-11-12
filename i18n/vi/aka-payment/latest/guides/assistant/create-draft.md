@@ -4,6 +4,7 @@ description: "Người dùng muốn trợ lý đọc hóa đơn hoặc bản kê
 id: create-draft
 sidebar_label: Nhờ trợ lý AI lập đề nghị
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nhờ trợ lý AI lập đề nghị

@@ -4,6 +4,7 @@ description: "An administrator wants to add a department, move people between un
 id: manage-organization
 sidebar_label: Edit the organization structure
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Edit the organization structure

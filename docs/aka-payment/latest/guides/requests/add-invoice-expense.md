@@ -4,6 +4,7 @@ description: "Users have invoices (XML, PDF, or images) or invoices already in I
 id: add-invoice-expense
 sidebar_label: Create expenses from existing invoices
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Create expenses from existing invoices

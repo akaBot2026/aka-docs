@@ -4,6 +4,7 @@ description: "Ở bước Xem lại bấm Nộp đề nghị; hệ thống mở 
 id: submit
 sidebar_label: Nộp đề nghị
 sidebar_position: 11
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nộp đề nghị

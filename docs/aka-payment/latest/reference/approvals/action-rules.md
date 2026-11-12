@@ -4,6 +4,7 @@ description: "Returning requires a reason; delegation requires selecting another
 id: action-rules
 sidebar_label: Rules for approving, rejecting, returning, and delegating
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Rules for approving, rejecting, returning, and delegating

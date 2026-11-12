@@ -4,6 +4,7 @@ description: "In AI Settings, open the Assistant tab, expand Assistant Instructi
 id: set-assistant-instructions
 sidebar_label: Write custom instructions for the assistant
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Write custom instructions for the assistant

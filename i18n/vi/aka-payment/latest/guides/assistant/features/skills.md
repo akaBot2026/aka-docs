@@ -4,6 +4,7 @@ description: "Công thức soạn sẵn gồm các bước viết bằng ngôn n
 id: skills
 sidebar_label: Kỹ năng của trợ lý AI
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Kỹ năng của trợ lý AI

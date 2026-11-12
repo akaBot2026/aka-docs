@@ -4,6 +4,7 @@ description: "Người dùng muốn nạp phân bổ ngân sách hàng loạt t�
 id: import-allocations
 sidebar_label: Nhập phân bổ ngân sách bằng Excel
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nhập phân bổ ngân sách bằng Excel

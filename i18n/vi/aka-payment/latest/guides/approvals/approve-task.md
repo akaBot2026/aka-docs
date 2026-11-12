@@ -4,6 +4,7 @@ description: "Người duyệt xử lý một việc đang chờ mình trong Vi�
 id: approve-task
 sidebar_label: Duyệt đề nghị được giao cho tôi
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Duyệt đề nghị được giao cho tôi
@@ -44,7 +45,7 @@ Bạn có một bước phê duyệt được giao và muốn duyệt đề ngh�
    4. Nếu bước có trường riêng bắt buộc, điền chúng trước (nút Duyệt bị khóa cho đến khi điền đủ). Nếu bước cho phép điều chỉnh phân bổ ngân sách và cần sửa khoản mục hoặc đơn vị chịu chi phí, làm theo [Điều chỉnh phân bổ ngân sách khi duyệt](how-to/adjust-allocation.md) trước khi duyệt.
    5. Nếu hộp thoại **Ký duyệt** hiện ra, nhập **Mật khẩu ký** (và **Lý do** nếu cần) rồi bấm **Ký và duyệt**. Nếu báo "Hãy hoàn tất hồ sơ ký trước.", bấm **Đi đến hồ sơ** để đặt chữ ký rồi quay lại.
    6. Nếu không có hộp thoại ký, xác nhận hộp thoại duyệt (ô **Lý do** không bắt buộc): bấm **Chấp nhận** (6) ở hộp thoại mở từ danh sách, hoặc **Xác nhận** ở trang chi tiết.
-      ![Hộp thoại "Duyệt {mã}?" mở từ danh sách: ô Lý do không bắt buộc và (6) nút Chấp nhận](/static/img/aka-payment-latest-approvals-approve-task-dialog.webp)
+      ![Hộp thoại "Duyệt `{mã}`?" mở từ danh sách: ô Lý do không bắt buộc và (6) nút Chấp nhận](/static/img/aka-payment-latest-approvals-approve-task-dialog.webp)
    Tùy chọn: [Đã có chữ ký và mật khẩu ký](../../troubleshooting/profile/signing-ready.md) — Hồ sơ cá nhân → tab "Chữ ký" hiện ảnh chữ ký và dòng "Đã đặt mật khẩu ký." Nếu chưa đáp ứng, hãy cân nhắc [Đặt chữ ký và mật khẩu ký trong hồ sơ](../profile/how-to/set-signature.md).
 
 ## Nếu có sự cố

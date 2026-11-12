@@ -4,6 +4,7 @@ description: "See the features section."
 id: overview
 sidebar_label: Features
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Features

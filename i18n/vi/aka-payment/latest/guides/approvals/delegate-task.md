@@ -4,6 +4,7 @@ description: "Người duyệt vắng hoặc không phụ trách muốn chuyển
 id: delegate-task
 sidebar_label: Giao việc duyệt cho người khác
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Giao việc duyệt cho người khác

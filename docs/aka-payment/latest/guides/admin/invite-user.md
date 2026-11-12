@@ -4,6 +4,7 @@ description: "An administrator wants to give a colleague access to AkaPayment."
 id: invite-user
 sidebar_label: Invite a new user to AkaPayment
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Invite a new user to AkaPayment

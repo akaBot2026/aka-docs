@@ -4,6 +4,7 @@ description: "Bật/tắt, định dạng, dung lượng và Kiểm tra trên C�
 id: unit-scope
 sidebar_label: "Thiết lập nguồn hóa đơn: chung cho tổ chức hay riêng từng đơn vị"
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Thiết lập nguồn hóa đơn: chung cho tổ chức hay riêng từng đơn vị

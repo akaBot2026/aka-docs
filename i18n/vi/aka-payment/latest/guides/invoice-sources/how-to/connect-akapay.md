@@ -4,6 +4,7 @@ description: "Bật Tài khoản AkaPay, bấm Thêm tài khoản, dán API key,
 id: connect-akapay
 sidebar_label: Kết nối tài khoản AkaPay bằng API key
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Kết nối tài khoản AkaPay bằng API key

@@ -4,6 +4,7 @@ description: "The approver disagrees with and permanently rejects an assigned re
 id: reject-request
 sidebar_label: Reject a request
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Reject a request

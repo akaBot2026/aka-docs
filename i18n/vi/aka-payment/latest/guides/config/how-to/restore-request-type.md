@@ -4,6 +4,7 @@ description: "Mở loại đề nghị, bấm Lịch sử và Khôi phục ở p
 id: restore-request-type
 sidebar_label: Khôi phục phiên bản loại đề nghị
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Khôi phục phiên bản loại đề nghị

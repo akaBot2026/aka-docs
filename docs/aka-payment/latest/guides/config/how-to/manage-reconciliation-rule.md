@@ -4,6 +4,7 @@ description: "Settings → Shared rules: Add a shared rule (Code, Name, Check in
 id: manage-reconciliation-rule
 sidebar_label: Create and edit shared reconciliation rules
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Create and edit shared reconciliation rules

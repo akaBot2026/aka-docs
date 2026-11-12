@@ -4,6 +4,7 @@ description: "See the Verify section."
 id: overview
 sidebar_label: Verify
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Verify

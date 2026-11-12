@@ -4,6 +4,7 @@ description: "In AI Settings, open Usage at the bottom of the Document Processin
 id: view-ai-usage
 sidebar_label: View AI Token Usage
 sidebar_position: 12
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # View AI Token Usage

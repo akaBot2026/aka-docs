@@ -4,6 +4,7 @@ description: "Quản trị viên muốn hệ thống tự tải hóa đơn đầ
 id: connect-tax-portal
 sidebar_label: Tải hóa đơn đầu vào định kỳ từ Cổng HĐĐT
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tải hóa đơn đầu vào định kỳ từ Cổng HĐĐT

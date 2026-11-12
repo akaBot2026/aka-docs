@@ -4,6 +4,7 @@ description: "For a Rejected or Interrupted invoice, click Override, enter an op
 id: overrule-check
 sidebar_label: Override invoice check results
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Override invoice check results

@@ -4,6 +4,7 @@ description: "Mở hóa đơn, xem bước kiểm tra nào dừng; bấm Thử l
 id: review-check
 sidebar_label: Xem kết quả kiểm tra và xử lý hóa đơn bị dừng
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Xem kết quả kiểm tra và xử lý hóa đơn bị dừng

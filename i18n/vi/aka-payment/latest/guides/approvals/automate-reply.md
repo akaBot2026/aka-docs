@@ -4,6 +4,7 @@ description: "Người duyệt muốn hệ thống tự duyệt, từ chối ho�
 id: automate-reply
 sidebar_label: Tự động xử lý việc giao cho tôi
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tự động xử lý việc giao cho tôi

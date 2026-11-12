@@ -4,6 +4,7 @@ description: "Open the catalog (Settings → Shared Master Data, or Budget Manag
 id: manage-list
 sidebar_label: Add or edit a catalog record
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Add or edit a catalog record

@@ -4,6 +4,7 @@ description: "Ở thanh bên mở Báo cáo → Kế hoạch ngân sách hàng t
 id: review-plan-monthly
 sidebar_label: Mở báo cáo kế hoạch ngân sách hàng tháng
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Mở báo cáo kế hoạch ngân sách hàng tháng

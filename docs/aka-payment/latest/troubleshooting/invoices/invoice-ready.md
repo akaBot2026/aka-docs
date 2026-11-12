@@ -4,6 +4,7 @@ description: "Invoices that have passed the checks (or been overridden or entere
 id: invoice-ready
 sidebar_label: Invoices in Ready Status
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Invoices in Ready Status

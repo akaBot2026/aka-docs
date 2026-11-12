@@ -4,6 +4,7 @@ description: "Người dùng có hóa đơn (XML, PDF, ảnh) hoặc hóa đơn 
 id: add-invoice-expense
 sidebar_label: Lập chi phí từ hóa đơn có sẵn
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Lập chi phí từ hóa đơn có sẵn

@@ -4,6 +4,7 @@ description: "In Personal Profile, open the Signature tab to draw or upload a si
 id: set-signature
 sidebar_label: Set a signature and signing password in your profile
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Set a signature and signing password in your profile

@@ -4,6 +4,7 @@ description: "Người tạo muốn hệ thống so khớp hóa đơn với các
 id: check-expense
 sidebar_label: Đối soát hóa đơn và chứng từ của chi phí
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đối soát hóa đơn và chứng từ của chi phí

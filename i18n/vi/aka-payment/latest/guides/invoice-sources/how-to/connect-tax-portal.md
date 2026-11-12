@@ -4,6 +4,7 @@ description: "Bật Tải định kỳ từ TCT, đặt lịch tải, phạm vi,
 id: connect-tax-portal
 sidebar_label: Tải hóa đơn định kỳ từ Cổng HĐĐT Tổng cục Thuế
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tải hóa đơn định kỳ từ Cổng HĐĐT Tổng cục Thuế

@@ -4,6 +4,7 @@ description: "You cannot submit if the form is incomplete, an invoice is duplica
 id: submission
 sidebar_label: Submission requirements
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Submission requirements

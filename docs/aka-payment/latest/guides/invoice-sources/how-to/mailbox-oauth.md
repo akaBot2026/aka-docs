@@ -4,6 +4,7 @@ description: "Select OAuth - Microsoft 365, OAuth - Google, or OAuth - Other ide
 id: mailbox-oauth
 sidebar_label: Log in to a mailbox with OAuth (Microsoft 365, Google, other servers)
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Log in to a mailbox with OAuth (Microsoft 365, Google, other servers)

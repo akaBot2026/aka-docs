@@ -4,6 +4,7 @@ description: "Người quản lý ngân sách muốn đặt hạn mức theo k�
 id: allocate
 sidebar_label: Phân bổ ngân sách
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Phân bổ ngân sách

@@ -4,6 +4,7 @@ description: "Số tiền không âm; mỗi tổ hợp chỉ một dòng trong m
 id: allocation-rules
 sidebar_label: Quy tắc nhập phân bổ ngân sách
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Quy tắc nhập phân bổ ngân sách

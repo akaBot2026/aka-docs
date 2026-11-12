@@ -4,6 +4,7 @@ description: "Preconfigured recipes made up of steps written in natural language
 id: skills
 sidebar_label: AI Assistant Skills
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # AI Assistant Skills

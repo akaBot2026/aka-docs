@@ -4,6 +4,7 @@ description: "Quản trị viên muốn tạo hoặc sửa một quy tắc đố
 id: manage-reconciliation-rule
 sidebar_label: Quản lý quy tắc đối soát dùng chung
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Quản lý quy tắc đối soát dùng chung

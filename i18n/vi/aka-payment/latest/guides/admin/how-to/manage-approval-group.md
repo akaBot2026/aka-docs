@@ -4,6 +4,7 @@ description: "Ở Nhóm phê duyệt, bấm Thêm nhóm phê duyệt, rồi thê
 id: manage-approval-group
 sidebar_label: Thêm hoặc sửa nhóm phê duyệt
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Thêm hoặc sửa nhóm phê duyệt

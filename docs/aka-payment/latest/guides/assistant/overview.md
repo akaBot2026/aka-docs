@@ -4,6 +4,7 @@ description: "See the assistant section."
 id: overview
 sidebar_label: Assistant
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Assistant

@@ -4,6 +4,7 @@ description: "Open the request awaiting your action and click Reject on the Your
 id: reject-request
 sidebar_label: Reject a request
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Reject a request

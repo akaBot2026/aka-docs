@@ -4,6 +4,7 @@ description: "An approver wants to reassign a request's expense to a different b
 id: adjust-allocation
 sidebar_label: Edit the budget allocation of a request under review
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Edit the budget allocation of a request under review

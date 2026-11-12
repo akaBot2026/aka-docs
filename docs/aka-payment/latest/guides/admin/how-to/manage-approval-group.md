@@ -4,6 +4,7 @@ description: "In Approval Groups, click Add Approval Group, then add or remove m
 id: manage-approval-group
 sidebar_label: Add or Edit an Approval Group
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Add or Edit an Approval Group

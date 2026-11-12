@@ -4,6 +4,7 @@ description: "Hóa đơn thuộc đơn vị của người tải lên; đơn v�
 id: access
 sidebar_label: Ai thấy và thao tác được hóa đơn đầu vào
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Ai thấy và thao tác được hóa đơn đầu vào

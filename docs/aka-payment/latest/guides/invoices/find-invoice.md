@@ -4,6 +4,7 @@ description: "Users want to find an invoice that has been received (by upload, e
 id: find-invoice
 sidebar_label: Find and view an incoming invoice
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Find and view an incoming invoice

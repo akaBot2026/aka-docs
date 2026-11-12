@@ -4,6 +4,7 @@ description: "In AI Settings, on the Assistant tab, under Assistant tools, selec
 id: enable-assistant-tools
 sidebar_label: Enable assistant tools
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Enable assistant tools

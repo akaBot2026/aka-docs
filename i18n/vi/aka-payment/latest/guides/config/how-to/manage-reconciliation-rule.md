@@ -4,6 +4,7 @@ description: "Cấu hình → Quy tắc dùng chung: Thêm quy tắc dùng chung
 id: manage-reconciliation-rule
 sidebar_label: Tạo và sửa quy tắc đối soát dùng chung
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tạo và sửa quy tắc đối soát dùng chung

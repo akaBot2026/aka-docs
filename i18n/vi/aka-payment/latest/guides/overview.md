@@ -4,6 +4,7 @@ description: "Xem mục hướng dẫn."
 id: overview
 sidebar_label: Hướng dẫn
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Hướng dẫn

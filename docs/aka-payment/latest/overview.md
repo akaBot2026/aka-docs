@@ -3,6 +3,7 @@ id: overview
 title: Overview
 sidebar_label: Overview
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 description: AkaPayment helps employees create payment requests with invoices and supporting documents and submit them through their organization's approval workflow. It also helps approvers and accountants process, reconcile, and record payments…
 ---
 AkaPayment helps employees create payment requests with invoices and supporting documents and submit them through their organization's approval workflow. It also helps approvers and accountants process, reconcile, and record payments. Incoming invoices can be received from files uploaded by users, email, the e-invoice portal, AkaConnect, or AkaPay; budgets are allocated and checked as requests are created.

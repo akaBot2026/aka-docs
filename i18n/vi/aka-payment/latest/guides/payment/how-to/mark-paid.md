@@ -4,6 +4,7 @@ description: "Người vận hành hoặc quản trị viên mở đề nghị �
 id: mark-paid
 sidebar_label: Ghi nhận đã thanh toán
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Ghi nhận đã thanh toán

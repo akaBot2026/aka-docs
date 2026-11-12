@@ -4,6 +4,7 @@ description: "Ở đề nghị đang chờ bạn duyệt, mở dòng chi phí tr
 id: adjust-allocation
 sidebar_label: Điều chỉnh phân bổ ngân sách khi duyệt
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Điều chỉnh phân bổ ngân sách khi duyệt

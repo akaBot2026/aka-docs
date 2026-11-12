@@ -4,6 +4,7 @@ description: "Xem mục tham khảo."
 id: overview
 sidebar_label: Tham khảo
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tham khảo

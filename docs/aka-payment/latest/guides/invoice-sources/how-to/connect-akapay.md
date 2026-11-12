@@ -4,6 +4,7 @@ description: "Enable AkaPay Account, click Add account, paste the API key, load 
 id: connect-akapay
 sidebar_label: Connect an AkaPay account using an API key
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Connect an AkaPay account using an API key

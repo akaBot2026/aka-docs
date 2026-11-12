@@ -4,6 +4,7 @@ description: "Open the verification page (no sign-in required) and drop in a PDF
 id: signed-form
 sidebar_label: Verify signed payment form
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Verify signed payment form

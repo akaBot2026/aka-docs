@@ -4,6 +4,7 @@ description: "Users want to view a summary of payments for each month."
 id: review-payments
 sidebar_label: View Monthly Payments
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # View Monthly Payments

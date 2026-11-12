@@ -4,6 +4,7 @@ description: "An administrator wants to bring invoices from an AkaPay pipeline i
 id: connect-akapay
 sidebar_label: Receive invoices from an AkaPay pipeline
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Receive invoices from an AkaPay pipeline

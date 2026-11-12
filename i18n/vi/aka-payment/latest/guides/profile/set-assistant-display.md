@@ -4,6 +4,7 @@ description: "Người dùng muốn trợ lý mở ở Bảng bên phải hoặc
 id: set-assistant-display
 sidebar_label: Chọn cách mở trợ lý cho riêng tôi
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Chọn cách mở trợ lý cho riêng tôi

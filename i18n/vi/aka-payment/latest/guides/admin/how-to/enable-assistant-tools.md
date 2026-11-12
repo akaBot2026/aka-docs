@@ -4,6 +4,7 @@ description: "Ở Cài đặt AI, tab Trợ lý, mục Công cụ của trợ l�
 id: enable-assistant-tools
 sidebar_label: Bật công cụ của trợ lý
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Bật công cụ của trợ lý

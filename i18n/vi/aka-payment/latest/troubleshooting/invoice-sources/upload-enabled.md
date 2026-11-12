@@ -4,6 +4,7 @@ description: "Nguồn hóa đơn Người dùng tải lên đang bật, nên ng�
 id: upload-enabled
 sidebar_label: Nguồn Người dùng tải lên đang bật
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nguồn Người dùng tải lên đang bật

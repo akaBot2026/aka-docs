@@ -4,6 +4,7 @@ description: "The creator wants every expense line on a request to use the same 
 id: apply-expense-defaults
 sidebar_label: Apply the Same Budget Item and Cost Center to All Expenses
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Apply the Same Budget Item and Cost Center to All Expenses

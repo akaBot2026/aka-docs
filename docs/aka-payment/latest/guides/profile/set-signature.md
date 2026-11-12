@@ -4,6 +4,7 @@ description: "Users need a personal signature to sign when approving requests."
 id: set-signature
 sidebar_label: Set a Signature for Approval
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Set a Signature for Approval

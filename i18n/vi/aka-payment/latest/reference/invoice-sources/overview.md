@@ -4,6 +4,7 @@ description: "Xem mục invoice sources."
 id: overview
 sidebar_label: Invoice sources
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Invoice sources

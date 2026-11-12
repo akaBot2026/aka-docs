@@ -4,6 +4,7 @@ description: "Administration → Incoming Invoices: enable or disable sources, c
 id: settings
 sidebar_label: Manage Invoice Sources
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Manage Invoice Sources

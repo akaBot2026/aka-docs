@@ -4,6 +4,7 @@ description: "Administrators can add, edit, disable, or restore a skill (a /comm
 id: manage-assistant-skill
 sidebar_label: Manage AI assistant skills
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Manage AI assistant skills

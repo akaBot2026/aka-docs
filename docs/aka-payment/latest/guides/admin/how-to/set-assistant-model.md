@@ -4,6 +4,7 @@ description: "In AI Settings, on the Assistant tab, select AkaPayment AI or your
 id: set-assistant-model
 sidebar_label: Choose an AI model for the assistant
 sidebar_position: 9
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Choose an AI model for the assistant

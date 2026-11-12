@@ -4,6 +4,7 @@ description: "Accept XML, PDF, PNG/JPEG/HEIC/HEIF images (or ZIP files containin
 id: file-types
 sidebar_label: Invoice Upload Formats, File Size, and Duplicates
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Invoice Upload Formats, File Size, and Duplicates

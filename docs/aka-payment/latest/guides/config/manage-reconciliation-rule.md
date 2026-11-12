@@ -4,6 +4,7 @@ description: "Administrators can create or edit a document reconciliation rule o
 id: manage-reconciliation-rule
 sidebar_label: Manage Shared Reconciliation Rules
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Manage Shared Reconciliation Rules

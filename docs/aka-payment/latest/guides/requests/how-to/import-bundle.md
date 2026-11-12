@@ -4,6 +4,7 @@ description: "In the Expense Report step, select Import bundle and upload multip
 id: import-bundle
 sidebar_label: Import a document bundle as expense lines
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Import a document bundle as expense lines

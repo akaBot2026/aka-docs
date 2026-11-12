@@ -4,6 +4,7 @@ description: "Quản trị viên muốn tạo hoặc thay đổi một loại đ
 id: publish-request-type
 sidebar_label: Cấu hình và phát hành loại đề nghị
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Cấu hình và phát hành loại đề nghị

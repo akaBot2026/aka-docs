@@ -4,6 +4,7 @@ description: "An administrator wants to restore a request type configuration fro
 id: restore-request-type
 sidebar_label: Revert to an Earlier Version of a Request Type
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Revert to an Earlier Version of a Request Type

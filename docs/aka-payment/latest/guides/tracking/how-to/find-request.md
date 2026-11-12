@@ -4,6 +4,7 @@ description: "Open My Requests and use tabs, search, and filters, or use global 
 id: find-request
 sidebar_label: Find a Request
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Find a Request

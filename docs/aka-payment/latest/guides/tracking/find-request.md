@@ -4,6 +4,7 @@ description: "Users want to find a request and check its approval progress."
 id: find-request
 sidebar_label: Find a request
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Find a request

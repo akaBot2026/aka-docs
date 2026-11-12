@@ -4,6 +4,7 @@ description: "In the Expense Report step, select Check budget to see whether exp
 id: check-budget
 sidebar_label: Check budget before submitting
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Check budget before submitting

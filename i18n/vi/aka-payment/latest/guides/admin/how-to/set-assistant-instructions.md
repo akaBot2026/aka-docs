@@ -4,6 +4,7 @@ description: "Ở Cài đặt AI, tab Trợ lý, mở mục Hướng dẫn cho t
 id: set-assistant-instructions
 sidebar_label: Viết hướng dẫn riêng cho trợ lý
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Viết hướng dẫn riêng cho trợ lý

@@ -4,6 +4,7 @@ description: "Mở Trợ lý AI, chọn kỹ năng /hoa-don, /ban-ke hoặc /nha
 id: create-draft
 sidebar_label: Lập đề nghị bằng trợ lý AI
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Lập đề nghị bằng trợ lý AI

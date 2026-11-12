@@ -4,6 +4,7 @@ description: "Ở Cài đặt AI, tab Trợ lý, thẻ Mô hình của trợ lý
 id: set-assistant-model
 sidebar_label: Chọn mô hình AI cho trợ lý
 sidebar_position: 9
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Chọn mô hình AI cho trợ lý

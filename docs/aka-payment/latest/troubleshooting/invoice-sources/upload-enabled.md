@@ -4,6 +4,7 @@ description: "The User Upload invoice source is enabled, so users can upload inv
 id: upload-enabled
 sidebar_label: User Upload Source Is Enabled
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # User Upload Source Is Enabled

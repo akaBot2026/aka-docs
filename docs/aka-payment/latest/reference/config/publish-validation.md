@@ -4,6 +4,7 @@ description: "Publishing fails and displays a list of issues grouped by tab (Set
 id: publish-validation
 sidebar_label: Request Type Publishing Conditions
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Request Type Publishing Conditions

@@ -4,6 +4,7 @@ description: "View the reconciliation section."
 id: overview
 sidebar_label: Reconciliation
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Reconciliation

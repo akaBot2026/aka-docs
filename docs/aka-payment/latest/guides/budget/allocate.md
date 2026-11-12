@@ -4,6 +4,7 @@ description: "Budget managers want to set limits by period, category, and entity
 id: allocate
 sidebar_label: Budget Allocation
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Budget Allocation

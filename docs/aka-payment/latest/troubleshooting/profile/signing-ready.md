@@ -4,6 +4,7 @@ description: "Your personal profile has a signature image and signing password, 
 id: signing-ready
 sidebar_label: Signature and signing password are configured
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Signature and signing password are configured

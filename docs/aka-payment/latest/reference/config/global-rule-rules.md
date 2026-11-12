@@ -4,6 +4,7 @@ description: "Code must be 1–32 characters (letters, numbers, _, . or -) and c
 id: global-rule-rules
 sidebar_label: Shared Rule Save Requirements
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Shared Rule Save Requirements

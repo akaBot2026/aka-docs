@@ -4,6 +4,7 @@ description: "Xem mục budget."
 id: overview
 sidebar_label: Budget
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Budget

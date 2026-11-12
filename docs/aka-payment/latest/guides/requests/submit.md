@@ -4,6 +4,7 @@ description: "The creator has finished filling out the request and wants to subm
 id: submit
 sidebar_label: Submit a payment request for approval
 sidebar_position: 10
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Submit a payment request for approval

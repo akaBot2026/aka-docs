@@ -4,6 +4,7 @@ description: "An administrator enabled at least one assistant tool used by your 
 id: tools-enabled
 sidebar_label: AI Assistant is enabled for your role
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # AI Assistant is enabled for your role

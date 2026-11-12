@@ -4,6 +4,7 @@ description: "See the requests section."
 id: overview
 sidebar_label: Requests
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Requests

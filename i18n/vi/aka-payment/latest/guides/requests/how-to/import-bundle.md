@@ -4,6 +4,7 @@ description: "Ở bước Bảng kê chi phí, chọn Nhập bộ chứng từ v
 id: import-bundle
 sidebar_label: Nhập bộ chứng từ thành các dòng chi phí
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nhập bộ chứng từ thành các dòng chi phí

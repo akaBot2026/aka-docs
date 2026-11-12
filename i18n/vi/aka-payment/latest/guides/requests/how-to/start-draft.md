@@ -4,6 +4,7 @@ description: "Bấm Tạo đề nghị thanh toán, điền bước Tổng quan 
 id: start-draft
 sidebar_label: Mở đề nghị mới và điền bước Tổng quan
 sidebar_position: 10
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Mở đề nghị mới và điền bước Tổng quan

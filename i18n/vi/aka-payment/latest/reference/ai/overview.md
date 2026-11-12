@@ -4,6 +4,7 @@ description: "Xem mục ai."
 id: overview
 sidebar_label: Ai
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Ai

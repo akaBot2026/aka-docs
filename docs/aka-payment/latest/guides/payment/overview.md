@@ -4,6 +4,7 @@ description: "See the payment section."
 id: overview
 sidebar_label: Payment
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Payment

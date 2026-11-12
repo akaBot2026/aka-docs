@@ -4,6 +4,7 @@ description: "An administrator wants to add organization-specific notes so the a
 id: set-assistant-instructions
 sidebar_label: Tell the assistant how to address people and follow company policies
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tell the assistant how to address people and follow company policies

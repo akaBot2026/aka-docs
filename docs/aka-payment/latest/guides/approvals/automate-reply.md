@@ -4,6 +4,7 @@ description: "Approvers want the system to approve, reject, or delegate tasks on
 id: automate-reply
 sidebar_label: Automatically handle tasks assigned to me
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Automatically handle tasks assigned to me

@@ -4,6 +4,7 @@ description: "In the sidebar, open Reports → Monthly Budget Plan and Actual, s
 id: review-plan-vs-actual-monthly
 sidebar_label: Open the Monthly Budget Plan and Actual Report
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Open the Monthly Budget Plan and Actual Report

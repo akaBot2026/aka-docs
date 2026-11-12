@@ -4,6 +4,7 @@ description: "Quản trị viên, người vận hành, người tạo, người
 id: visibility
 sidebar_label: Ai xem được một đề nghị
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Ai xem được một đề nghị

@@ -4,6 +4,7 @@ description: "Người tạo có đề nghị bị từ chối (không sửa đ�
 id: clone-request
 sidebar_label: Làm lại đề nghị bị từ chối
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Làm lại đề nghị bị từ chối

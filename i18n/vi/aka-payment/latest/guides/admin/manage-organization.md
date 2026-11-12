@@ -4,6 +4,7 @@ description: "Quản trị viên muốn thêm phòng ban, chuyển người gi�
 id: manage-organization
 sidebar_label: Chỉnh cơ cấu tổ chức
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Chỉnh cơ cấu tổ chức

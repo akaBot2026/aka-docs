@@ -4,6 +4,7 @@ description: "Users want to see the planned budget alongside the amount spent fo
 id: review-plan-vs-actual-monthly
 sidebar_label: Compare Plan with Actual Spending by Month
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Compare Plan with Actual Spending by Month

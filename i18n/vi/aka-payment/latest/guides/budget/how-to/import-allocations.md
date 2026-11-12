@@ -4,6 +4,7 @@ description: "Ở Phân bổ ngân sách, tải tệp mẫu, điền, bấm Impo
 id: import-allocations
 sidebar_label: Nhập phân bổ ngân sách từ Excel
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nhập phân bổ ngân sách từ Excel

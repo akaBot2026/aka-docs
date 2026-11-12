@@ -4,6 +4,7 @@ description: "Quản trị viên muốn thêm ghi chú riêng của tổ chức 
 id: set-assistant-instructions
 sidebar_label: Dặn trợ lý cách xưng hô và chính sách của công ty
 sidebar_position: 9
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Dặn trợ lý cách xưng hô và chính sách của công ty

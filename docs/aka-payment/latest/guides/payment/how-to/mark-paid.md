@@ -4,6 +4,7 @@ description: "An operator or admin opens an approved request and clicks Mark Pai
 id: mark-paid
 sidebar_label: Record as Paid
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Record as Paid

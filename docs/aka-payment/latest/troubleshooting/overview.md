@@ -4,6 +4,7 @@ description: "See the troubleshooting section."
 id: overview
 sidebar_label: Troubleshooting
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Troubleshooting

@@ -4,6 +4,7 @@ description: "Một đề nghị đang ở trạng thái Bản nháp trong quy t
 id: draft-open
 sidebar_label: Đang mở một đề nghị nháp
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đang mở một đề nghị nháp

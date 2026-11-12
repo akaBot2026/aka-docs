@@ -4,6 +4,7 @@ description: "Open Reports → Monthly Payments in the sidebar, select a year, a
 id: review-payments
 sidebar_label: Open the Monthly Payment Report
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Open the Monthly Payment Report

@@ -4,6 +4,7 @@ description: "The approver handles a task assigned to them in Tasks to Do."
 id: approve-task
 sidebar_label: Approve a Request Assigned to Me
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Approve a Request Assigned to Me

@@ -4,6 +4,7 @@ description: "Administrators can choose the AI model used to read invoices, spli
 id: set-document-model
 sidebar_label: Choose AI for Invoice Reading and Document Processing
 sidebar_position: 10
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Choose AI for Invoice Reading and Document Processing

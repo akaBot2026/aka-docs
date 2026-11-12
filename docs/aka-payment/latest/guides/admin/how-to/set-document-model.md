@@ -4,6 +4,7 @@ description: "In AI Settings, open the Document Processing tab, choose AkaPaymen
 id: set-document-model
 sidebar_label: Choose an AI Model for Document Processing
 sidebar_position: 10
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Choose an AI Model for Document Processing

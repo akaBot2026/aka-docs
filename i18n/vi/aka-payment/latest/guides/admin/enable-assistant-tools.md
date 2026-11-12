@@ -4,6 +4,7 @@ description: "Quản trị viên muốn bật trợ lý AI cho người dùng v�
 id: enable-assistant-tools
 sidebar_label: Bật trợ lý AI và chọn việc trợ lý được làm
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Bật trợ lý AI và chọn việc trợ lý được làm

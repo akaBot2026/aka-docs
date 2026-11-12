@@ -4,6 +4,7 @@ description: "Open an invoice to see which check stopped. Click Retry for an int
 id: review-check
 sidebar_label: View Check Results and Handle Paused Invoices
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # View Check Results and Handle Paused Invoices

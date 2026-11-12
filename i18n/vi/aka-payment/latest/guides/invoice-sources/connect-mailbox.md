@@ -4,6 +4,7 @@ description: "Quản trị viên muốn hệ thống tự đọc hóa đơn đí
 id: connect-mailbox
 sidebar_label: Nhận hóa đơn qua hòm thư email (IMAP)
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nhận hóa đơn qua hòm thư email (IMAP)

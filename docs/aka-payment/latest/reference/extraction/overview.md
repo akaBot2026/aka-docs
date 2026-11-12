@@ -4,6 +4,7 @@ description: "See the extraction section."
 id: overview
 sidebar_label: Extraction
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Extraction

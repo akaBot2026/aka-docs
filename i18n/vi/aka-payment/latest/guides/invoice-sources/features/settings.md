@@ -4,6 +4,7 @@ description: "Trang Quản trị → Hóa đơn đầu vào: bật/tắt nguồn
 id: settings
 sidebar_label: Quản trị nguồn hóa đơn đầu vào
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Quản trị nguồn hóa đơn đầu vào

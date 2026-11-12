@@ -4,6 +4,7 @@ description: "Người dùng muốn tìm một hóa đơn đã tiếp nhận (t�
 id: find-invoice
 sidebar_label: Tìm và xem một hóa đơn đầu vào
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tìm và xem một hóa đơn đầu vào

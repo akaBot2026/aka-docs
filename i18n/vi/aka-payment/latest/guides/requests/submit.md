@@ -4,6 +4,7 @@ description: "Người tạo đã điền xong và muốn nộp đề nghị cho
 id: submit
 sidebar_label: Nộp đề nghị thanh toán để duyệt
 sidebar_position: 11
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nộp đề nghị thanh toán để duyệt

@@ -4,6 +4,7 @@ description: "Administrators can enable the AI assistant for users and choose wh
 id: enable-assistant-tools
 sidebar_label: Enable the AI assistant and choose what it can do
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Enable the AI assistant and choose what it can do

@@ -4,6 +4,7 @@ description: "Enable Scheduled download from TCT, set the download schedule, sco
 id: connect-tax-portal
 sidebar_label: Download Invoices on a Schedule from the General Department of Taxation's e-Invoice Portal
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Download Invoices on a Schedule from the General Department of Taxation's e-Invoice Portal

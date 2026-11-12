@@ -4,6 +4,7 @@ description: "Mở đề nghị bị trả lại, bấm Sửa và gửi lại, c
 id: resubmit-returned
 sidebar_label: Sửa và nộp lại đề nghị bị trả lại
 sidebar_position: 9
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Sửa và nộp lại đề nghị bị trả lại

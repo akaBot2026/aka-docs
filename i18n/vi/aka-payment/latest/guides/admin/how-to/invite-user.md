@@ -4,6 +4,7 @@ description: "Ở Người dùng, bấm Thêm người dùng (kiểm tra từng 
 id: invite-user
 sidebar_label: Thêm hoặc mời người dùng
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Thêm hoặc mời người dùng

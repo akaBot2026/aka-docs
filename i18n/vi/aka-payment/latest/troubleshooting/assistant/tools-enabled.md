@@ -4,6 +4,7 @@ description: "Quản trị viên đã bật ít nhất một công cụ của tr
 id: tools-enabled
 sidebar_label: Trợ lý AI đã được bật cho vai trò của bạn
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Trợ lý AI đã được bật cho vai trò của bạn

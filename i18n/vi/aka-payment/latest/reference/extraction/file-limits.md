@@ -4,6 +4,7 @@ description: "Thêm từ hóa đơn tối đa 50 hóa đơn mỗi lần; nhập 
 id: file-limits
 sidebar_label: Giới hạn khi tải chứng từ
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Giới hạn khi tải chứng từ

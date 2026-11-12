@@ -4,6 +4,7 @@ description: "Hóa đơn đã qua các bước kiểm tra (hoặc được ghi �
 id: invoice-ready
 sidebar_label: Hóa đơn ở trạng thái Sẵn sàng
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Hóa đơn ở trạng thái Sẵn sàng

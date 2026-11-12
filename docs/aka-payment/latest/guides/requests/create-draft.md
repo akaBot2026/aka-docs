@@ -4,6 +4,7 @@ description: "The user wants to create a new payment request and save it as a dr
 id: create-draft
 sidebar_label: Create a payment request
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Create a payment request

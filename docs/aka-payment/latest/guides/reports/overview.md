@@ -4,6 +4,7 @@ description: "View the reports section."
 id: overview
 sidebar_label: Reports
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Reports

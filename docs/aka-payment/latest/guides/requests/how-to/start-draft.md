@@ -4,6 +4,7 @@ description: "Click Create Payment Request, complete the Overview step, then cli
 id: start-draft
 sidebar_label: Start a New Request and Complete the Overview Step
 sidebar_position: 10
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Start a New Request and Complete the Overview Step

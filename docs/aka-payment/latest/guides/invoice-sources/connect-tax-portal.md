@@ -4,6 +4,7 @@ description: "An administrator wants the system to automatically download incomi
 id: connect-tax-portal
 sidebar_label: Scheduled Download of Incoming Invoices from the E-Invoice Portal
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Scheduled Download of Incoming Invoices from the E-Invoice Portal

@@ -4,6 +4,7 @@ description: "Invoices belong to the uploader’s unit and are visible to that u
 id: access
 sidebar_label: Who can view and act on incoming invoices
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Who can view and act on incoming invoices

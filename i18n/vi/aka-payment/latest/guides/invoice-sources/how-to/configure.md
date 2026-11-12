@@ -4,6 +4,7 @@ description: "Ở Quản trị → Hóa đơn đầu vào, chọn phạm vi đơ
 id: configure
 sidebar_label: Bật/tắt nguồn hóa đơn và lưu thiết lập
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Bật/tắt nguồn hóa đơn và lưu thiết lập

@@ -4,6 +4,7 @@ description: "Không tạo được nhà cung cấp trùng mã số thuế, tài
 id: duplicates
 sidebar_label: Quy tắc trùng trong danh mục dùng chung
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Quy tắc trùng trong danh mục dùng chung

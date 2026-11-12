@@ -4,6 +4,7 @@ description: "Người nhận phiếu thanh toán PDF muốn xác minh chữ ký
 id: signed-form
 sidebar_label: Kiểm tra phiếu thanh toán có chữ ký hợp lệ
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Kiểm tra phiếu thanh toán có chữ ký hợp lệ

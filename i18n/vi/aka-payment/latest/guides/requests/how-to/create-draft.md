@@ -4,6 +4,7 @@ description: "Sau khi mở đề nghị mới, thêm chi phí ở Bảng kê chi
 id: create-draft
 sidebar_label: Tạo đề nghị và điền đến bước Xem lại
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tạo đề nghị và điền đến bước Xem lại

@@ -4,6 +4,7 @@ description: "Mỗi bước của quy trình tạo có trường bắt buộc; k
 id: draft-validation
 sidebar_label: Điều kiện để đi tiếp trong quy trình tạo đề nghị
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Điều kiện để đi tiếp trong quy trình tạo đề nghị

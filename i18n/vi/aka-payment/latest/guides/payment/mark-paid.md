@@ -4,6 +4,7 @@ description: "Kế toán muốn đánh dấu một đề nghị đã duyệt là
 id: mark-paid
 sidebar_label: Ghi nhận đề nghị đã chi tiền
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Ghi nhận đề nghị đã chi tiền

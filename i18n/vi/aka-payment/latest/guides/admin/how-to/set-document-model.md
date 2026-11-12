@@ -4,6 +4,7 @@ description: "Ở Cài đặt AI, tab Xử lý chứng từ, chọn AkaPayment A
 id: set-document-model
 sidebar_label: Chọn mô hình AI xử lý chứng từ
 sidebar_position: 10
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Chọn mô hình AI xử lý chứng từ

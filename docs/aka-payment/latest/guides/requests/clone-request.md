@@ -4,6 +4,7 @@ description: "The requester has a rejected request that they cannot edit and wan
 id: clone-request
 sidebar_label: Re-create a rejected request
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Re-create a rejected request

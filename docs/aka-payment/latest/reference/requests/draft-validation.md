@@ -4,6 +4,7 @@ description: "Each step in the creation flow has required fields. If any are mis
 id: draft-validation
 sidebar_label: Conditions for proceeding in the request creation flow
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Conditions for proceeding in the request creation flow

@@ -4,6 +4,7 @@ description: "Người dùng muốn thấy, cho mỗi tháng trong năm, ngân s
 id: review-plan-vs-actual-monthly
 sidebar_label: So sánh kế hoạch với thực chi từng tháng
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # So sánh kế hoạch với thực chi từng tháng

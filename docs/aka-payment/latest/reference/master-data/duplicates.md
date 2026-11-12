@@ -4,6 +4,7 @@ description: "You can't create vendors with duplicate tax IDs, beneficiary accou
 id: duplicates
 sidebar_label: Duplicate rules in shared master data
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Duplicate rules in shared master data

@@ -4,6 +4,7 @@ description: "See the budget section."
 id: overview
 sidebar_label: Budget
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Budget

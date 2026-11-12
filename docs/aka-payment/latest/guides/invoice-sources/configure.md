@@ -4,6 +4,7 @@ description: "Administrators can choose which sources send invoices to Invoice M
 id: configure
 sidebar_label: Enable or disable incoming invoice sources
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Enable or disable incoming invoice sources

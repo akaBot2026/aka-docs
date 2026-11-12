@@ -4,6 +4,7 @@ description: "Users have multiple invoices and supporting documents and want to 
 id: import-bundle
 sidebar_label: Import an entire document bundle at once
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Import an entire document bundle at once

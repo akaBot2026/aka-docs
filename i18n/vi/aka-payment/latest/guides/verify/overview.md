@@ -4,6 +4,7 @@ description: "Xem mục verify."
 id: overview
 sidebar_label: Verify
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Verify

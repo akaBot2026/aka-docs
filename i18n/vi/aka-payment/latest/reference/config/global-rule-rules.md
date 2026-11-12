@@ -4,6 +4,7 @@ description: "Mã 1–32 ký tự (chữ, số, _ . -) không đổi sau khi t�
 id: global-rule-rules
 sidebar_label: Điều kiện lưu quy tắc dùng chung
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Điều kiện lưu quy tắc dùng chung

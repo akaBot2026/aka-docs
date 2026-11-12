@@ -4,6 +4,7 @@ description: "In Budget Management → Budget Allocation, select the year, month
 id: allocate
 sidebar_label: Allocate a budget for a period
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Allocate a budget for a period

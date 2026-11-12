@@ -4,6 +4,7 @@ description: "Trong Hồ sơ cá nhân, tab Thông báo, bật hoặc tắt từ
 id: set-notifications
 sidebar_label: Chọn thông báo muốn nhận
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Chọn thông báo muốn nhận

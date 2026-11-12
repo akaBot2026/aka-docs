@@ -4,6 +4,7 @@ description: "Người dùng muốn đính kèm hợp đồng, báo giá hoặc 
 id: add-documents
 sidebar_label: Đính kèm chứng từ dùng chung cho đề nghị
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đính kèm chứng từ dùng chung cho đề nghị

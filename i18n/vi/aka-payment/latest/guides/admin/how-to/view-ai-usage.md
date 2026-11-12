@@ -4,6 +4,7 @@ description: "Ở Cài đặt AI, mở mục Mức sử dụng ở cuối tab X�
 id: view-ai-usage
 sidebar_label: Xem mức sử dụng token AI
 sidebar_position: 12
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Xem mức sử dụng token AI

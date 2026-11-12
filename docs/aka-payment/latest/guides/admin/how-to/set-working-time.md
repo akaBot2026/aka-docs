@@ -4,6 +4,7 @@ description: "In Working Time, select the working days and hours for the week, a
 id: set-working-time
 sidebar_label: Set Working Hours and Holidays
 sidebar_position: 11
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Set Working Hours and Holidays

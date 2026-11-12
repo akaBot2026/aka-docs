@@ -4,6 +4,7 @@ description: "Với loại đề nghị bật đối soát, bấm Đối soát �
 id: check-expense
 sidebar_label: Đối soát chứng từ của một chi phí
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đối soát chứng từ của một chi phí

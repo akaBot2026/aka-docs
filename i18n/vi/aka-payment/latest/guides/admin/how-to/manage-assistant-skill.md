@@ -4,6 +4,7 @@ description: "Ở Cài đặt AI, tab Trợ lý, mục Kỹ năng, bấm Thêm k
 id: manage-assistant-skill
 sidebar_label: Thêm hoặc sửa kỹ năng của trợ lý
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Thêm hoặc sửa kỹ năng của trợ lý

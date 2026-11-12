@@ -4,6 +4,7 @@ description: "An accountant wants to mark an approved request as paid."
 id: mark-paid
 sidebar_label: Mark a Request as Paid
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Mark a Request as Paid

@@ -4,6 +4,7 @@ description: "Ở Quản lý hóa đơn, chọn tab, tìm theo số hóa đơn/n
 id: find-invoice
 sidebar_label: Lọc danh sách và mở một hóa đơn
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Lọc danh sách và mở một hóa đơn

@@ -4,6 +4,7 @@ description: "Trả lại bắt buộc có lý do; Ủy quyền bắt buộc ch�
 id: action-rules
 sidebar_label: Quy tắc khi duyệt, từ chối, trả lại, ủy quyền
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Quy tắc khi duyệt, từ chối, trả lại, ủy quyền

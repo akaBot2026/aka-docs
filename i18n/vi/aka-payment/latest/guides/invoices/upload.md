@@ -4,6 +4,7 @@ description: "Người dùng muốn đưa tệp hóa đơn (XML, PDF, ảnh, zip
 id: upload
 sidebar_label: Tải hóa đơn đầu vào lên Quản lý hóa đơn
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tải hóa đơn đầu vào lên Quản lý hóa đơn

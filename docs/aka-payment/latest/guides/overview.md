@@ -4,6 +4,7 @@ description: "Browse the guides."
 id: overview
 sidebar_label: Guides
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Guides

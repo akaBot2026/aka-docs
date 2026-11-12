@@ -4,6 +4,7 @@ description: "Administrators can create or update a request type and make it ava
 id: publish-request-type
 sidebar_label: Configure and publish a request type
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Configure and publish a request type

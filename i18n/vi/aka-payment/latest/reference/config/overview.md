@@ -4,6 +4,7 @@ description: "Xem mục config."
 id: overview
 sidebar_label: Config
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Config

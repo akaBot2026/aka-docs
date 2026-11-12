@@ -4,6 +4,7 @@ description: "Người duyệt yêu cầu người tạo chỉnh sửa hoặc b�
 id: return-request
 sidebar_label: Trả đề nghị về để bổ sung
 sidebar_position: 9
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Trả đề nghị về để bổ sung

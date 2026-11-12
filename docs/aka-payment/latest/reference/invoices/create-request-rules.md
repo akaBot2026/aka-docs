@@ -4,6 +4,7 @@ description: "Only Ready invoices can be selected, with a maximum of 50 invoices
 id: create-request-rules
 sidebar_label: Conditions for Creating a Payment Request from Invoices
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Conditions for Creating a Payment Request from Invoices

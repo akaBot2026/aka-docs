@@ -4,6 +4,7 @@ description: "Ở Cài đặt AI, tab Trợ lý, mục Cách hiển thị trợ 
 id: set-assistant-display
 sidebar_label: Đặt cách hiển thị mặc định của trợ lý
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đặt cách hiển thị mặc định của trợ lý

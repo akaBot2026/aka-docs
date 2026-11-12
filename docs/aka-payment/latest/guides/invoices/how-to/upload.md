@@ -4,6 +4,7 @@ description: "In Invoice Management, click Upload on the User uploads card, sele
 id: upload
 sidebar_label: Upload Invoice Files to Invoice Management
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Upload Invoice Files to Invoice Management

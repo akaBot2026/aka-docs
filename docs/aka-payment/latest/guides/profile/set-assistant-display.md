@@ -4,6 +4,7 @@ description: "Users want the assistant to open in the Right panel or as a Floati
 id: set-assistant-display
 sidebar_label: Choose how the assistant opens for me
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Choose how the assistant opens for me

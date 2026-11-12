@@ -4,6 +4,7 @@ description: "Enable/disable settings, formats, file size limits, and Check on t
 id: unit-scope
 sidebar_label: "Configure invoice sources: organization-wide or per unit"
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Configure invoice sources: organization-wide or per unit

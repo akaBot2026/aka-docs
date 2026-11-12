@@ -4,6 +4,7 @@ description: "Mở đề nghị đang chờ bạn và bấm Từ chối ở th�
 id: reject-request
 sidebar_label: Từ chối một đề nghị
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Từ chối một đề nghị

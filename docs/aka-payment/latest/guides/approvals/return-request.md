@@ -4,6 +4,7 @@ description: "The approver asks the requester to edit or add information instead
 id: return-request
 sidebar_label: Return a Request for More Information
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Return a Request for More Information

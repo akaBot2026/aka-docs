@@ -4,6 +4,7 @@ description: "Users want to attach a contract, quotation, or payment notice that
 id: add-documents
 sidebar_label: Attach shared documents to a request
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Attach shared documents to a request

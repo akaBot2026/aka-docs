@@ -4,6 +4,7 @@ description: "Administrators can view AI token usage by day and user for documen
 id: view-ai-usage
 sidebar_label: View AI token usage by user
 sidebar_position: 12
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # View AI token usage by user

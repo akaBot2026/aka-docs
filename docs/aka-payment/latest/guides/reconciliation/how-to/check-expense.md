@@ -4,6 +4,7 @@ description: "For request types with reconciliation enabled, click Reconcile on 
 id: check-expense
 sidebar_label: Reconcile Documents for an Expense
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Reconcile Documents for an Expense

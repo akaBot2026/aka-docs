@@ -4,6 +4,7 @@ description: "In AI Settings, on the Assistant tab, under Assistant display, sel
 id: set-assistant-display
 sidebar_label: Set the assistant's default display
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Set the assistant's default display

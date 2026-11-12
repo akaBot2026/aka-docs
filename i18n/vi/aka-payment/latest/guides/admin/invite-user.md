@@ -4,6 +4,7 @@ description: "Quản trị viên muốn cho một đồng nghiệp truy cập Ak
 id: invite-user
 sidebar_label: Mời người dùng mới vào AkaPayment
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Mời người dùng mới vào AkaPayment

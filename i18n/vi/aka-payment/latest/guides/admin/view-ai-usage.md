@@ -4,6 +4,7 @@ description: "Quản trị viên muốn xem số token AI đã dùng theo ngày 
 id: view-ai-usage
 sidebar_label: Xem ai dùng bao nhiêu token AI
 sidebar_position: 13
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Xem ai dùng bao nhiêu token AI

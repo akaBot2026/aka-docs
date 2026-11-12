@@ -4,6 +4,7 @@ description: "Người dùng muốn xem ngân sách đã phân bổ của từng
 id: review-plan-monthly
 sidebar_label: Xem kế hoạch ngân sách theo từng tháng
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Xem kế hoạch ngân sách theo từng tháng

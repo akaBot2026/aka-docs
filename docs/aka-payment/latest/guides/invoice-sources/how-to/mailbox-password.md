@@ -4,6 +4,7 @@ description: "In the Add mailbox dialog, select Login method: App password, then
 id: mailbox-password
 sidebar_label: Sign in to a mailbox using an app password
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Sign in to a mailbox using an app password

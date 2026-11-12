@@ -4,6 +4,7 @@ description: "On the request details page, post in Discussion or click Share to 
 id: discuss-request
 sidebar_label: Discuss and share a request
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Discuss and share a request

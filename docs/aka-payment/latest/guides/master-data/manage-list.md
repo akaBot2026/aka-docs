@@ -4,6 +4,7 @@ description: "An administrator wants to add or edit a master data record: a supp
 id: manage-list
 sidebar_label: Update shared master data
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Update shared master data

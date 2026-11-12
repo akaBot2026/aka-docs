@@ -4,6 +4,7 @@ description: "Users want to compare the budget plan with actual spending."
 id: review-budget
 sidebar_label: Compare budget with actual spending
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Compare budget with actual spending

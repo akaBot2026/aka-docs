@@ -4,6 +4,7 @@ description: "A request is in Draft status in the creation flow and already has 
 id: draft-open
 sidebar_label: Opening a draft request
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Opening a draft request

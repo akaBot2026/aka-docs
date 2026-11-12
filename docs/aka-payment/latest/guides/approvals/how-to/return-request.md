@@ -4,6 +4,7 @@ description: "Open the request, click Return, enter the required reason, and cli
 id: return-request
 sidebar_label: Return a Request to Its Creator
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Return a Request to Its Creator

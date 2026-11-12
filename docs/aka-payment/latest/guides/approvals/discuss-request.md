@@ -4,6 +4,7 @@ description: "Users want to discuss a request or let a colleague view it."
 id: discuss-request
 sidebar_label: Comment on or share a request
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Comment on or share a request

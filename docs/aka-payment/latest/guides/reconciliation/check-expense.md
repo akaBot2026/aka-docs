@@ -4,6 +4,7 @@ description: "The requester wants the system to match invoices with their suppor
 id: check-expense
 sidebar_label: Reconcile expense invoices and supporting documents
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Reconcile expense invoices and supporting documents

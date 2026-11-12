@@ -4,6 +4,7 @@ description: "Quản trị viên muốn chọn cách trợ lý mở cho cả t�
 id: set-assistant-display
 sidebar_label: "Đặt cách mở trợ lý mặc định: Bảng bên phải hay Bong bóng nổi"
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đặt cách mở trợ lý mặc định: Bảng bên phải hay Bong bóng nổi

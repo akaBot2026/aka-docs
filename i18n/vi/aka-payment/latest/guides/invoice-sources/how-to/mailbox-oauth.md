@@ -4,6 +4,7 @@ description: "Chọn OAuth - Microsoft 365, OAuth - Google hoặc OAuth - máy c
 id: mailbox-oauth
 sidebar_label: Đăng nhập hòm thư bằng OAuth (Microsoft 365, Google, máy chủ khác)
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đăng nhập hòm thư bằng OAuth (Microsoft 365, Google, máy chủ khác)

@@ -4,6 +4,7 @@ description: "Ở thanh bên mở Báo cáo → Thanh toán hàng tháng, chọn
 id: review-payments
 sidebar_label: Mở báo cáo thanh toán hàng tháng
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Mở báo cáo thanh toán hàng tháng

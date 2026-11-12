@@ -4,6 +4,7 @@ description: "Add from invoices: up to 50 invoices per upload; import a document
 id: file-limits
 sidebar_label: Document upload limits
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Document upload limits

@@ -4,6 +4,7 @@ description: "Open the request, click Delegate, select a recipient, and click Co
 id: delegate-task
 sidebar_label: Delegate a task to someone else
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Delegate a task to someone else

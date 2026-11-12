@@ -4,6 +4,7 @@ description: "In the Expense Breakdown step, select Add from invoices, upload in
 id: add-invoice-expense
 sidebar_label: Add expenses from invoices
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Add expenses from invoices

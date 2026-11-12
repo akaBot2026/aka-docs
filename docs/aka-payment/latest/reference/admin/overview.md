@@ -4,6 +4,7 @@ description: "View the admin section."
 id: overview
 sidebar_label: Admin
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Admin

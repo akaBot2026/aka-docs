@@ -4,6 +4,7 @@ description: "Learn why an invoice is not Ready and how to handle it: retry, ent
 id: review-check
 sidebar_label: Handle rejected, interrupted, or manually entered invoices
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Handle rejected, interrupted, or manually entered invoices

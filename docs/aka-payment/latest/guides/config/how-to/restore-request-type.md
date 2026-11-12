@@ -4,6 +4,7 @@ description: "Open the request type, click History, then click Restore on the ve
 id: restore-request-type
 sidebar_label: Restore a request type version
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Restore a request type version

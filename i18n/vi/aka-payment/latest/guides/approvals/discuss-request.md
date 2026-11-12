@@ -4,6 +4,7 @@ description: "Người dùng muốn trao đổi về đề nghị hoặc cho đ�
 id: discuss-request
 sidebar_label: Bình luận hoặc chia sẻ đề nghị
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Bình luận hoặc chia sẻ đề nghị

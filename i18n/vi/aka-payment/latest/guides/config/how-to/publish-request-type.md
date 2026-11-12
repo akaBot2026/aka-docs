@@ -4,6 +4,7 @@ description: "Mở loại đề nghị, chỉnh các tab, bấm Lưu rồi Phát
 id: publish-request-type
 sidebar_label: Thiết lập và phát hành loại đề nghị
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Thiết lập và phát hành loại đề nghị

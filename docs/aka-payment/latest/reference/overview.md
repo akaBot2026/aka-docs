@@ -4,6 +4,7 @@ description: "View the reference section."
 id: overview
 sidebar_label: Reference
 sidebar_position: 1
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Reference

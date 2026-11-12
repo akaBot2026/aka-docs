@@ -4,6 +4,7 @@ description: "Trong Hồ sơ cá nhân, tab Tùy chọn, ở dòng Trợ lý AI 
 id: set-assistant-display
 sidebar_label: Chọn cách mở trợ lý trong Tùy chọn
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Chọn cách mở trợ lý trong Tùy chọn

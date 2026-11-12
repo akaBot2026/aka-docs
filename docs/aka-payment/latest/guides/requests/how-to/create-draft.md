@@ -4,6 +4,7 @@ description: "After opening a new request, add expenses in Expense Details, fill
 id: create-draft
 sidebar_label: Create a Request and Fill It Through the Review Step
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Create a Request and Fill It Through the Review Step

@@ -4,6 +4,7 @@ description: "Set Budget Check to Off, Warning, or Block for each request type. 
 id: overrun
 sidebar_label: Budget Overrun Rules
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Budget Overrun Rules

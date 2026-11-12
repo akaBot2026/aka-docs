@@ -4,6 +4,7 @@ description: "Ở bước Bảng kê chi phí, mở Áp dụng cho tất cả ch
 id: apply-expense-defaults
 sidebar_label: Áp dụng phân bổ cho tất cả chi phí
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Áp dụng phân bổ cho tất cả chi phí

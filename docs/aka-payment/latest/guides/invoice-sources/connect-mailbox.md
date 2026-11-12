@@ -4,6 +4,7 @@ description: "An administrator wants the system to automatically read invoice at
 id: connect-mailbox
 sidebar_label: Receive invoices through an email mailbox (IMAP)
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Receive invoices through an email mailbox (IMAP)

@@ -4,6 +4,7 @@ description: "Mỗi loại đề nghị đặt Kiểm tra ngân sách là Tắt,
 id: overrun
 sidebar_label: Quy tắc vượt ngân sách
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Quy tắc vượt ngân sách

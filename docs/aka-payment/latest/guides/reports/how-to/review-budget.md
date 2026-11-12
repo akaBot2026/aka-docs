@@ -4,6 +4,7 @@ description: "In the sidebar, open Reports → Budget Plan vs. Actual, select a 
 id: review-budget
 sidebar_label: Open the Budget Plan vs. Actual report
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Open the Budget Plan vs. Actual report

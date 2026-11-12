@@ -4,6 +4,7 @@ description: "Trên hóa đơn Bị từ chối hoặc Gián đoạn, bấm Ghi 
 id: overrule-check
 sidebar_label: Ghi đè kết quả kiểm tra hóa đơn
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Ghi đè kết quả kiểm tra hóa đơn

@@ -4,6 +4,7 @@ description: "Mở trang xác thực (không cần đăng nhập), thả tệp P
 id: signed-form
 sidebar_label: Xác thực phiếu thanh toán đã ký
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Xác thực phiếu thanh toán đã ký

@@ -4,6 +4,7 @@ description: "Users want the assistant to read invoices or a statement (or ask q
 id: create-draft
 sidebar_label: Ask the AI Assistant to Create a Request
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Ask the AI Assistant to Create a Request

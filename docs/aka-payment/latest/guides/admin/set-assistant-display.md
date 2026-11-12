@@ -4,6 +4,7 @@ description: "Administrators can choose how the assistant opens for the entire o
 id: set-assistant-display
 sidebar_label: "Set the Default Assistant Opening Mode: Right Panel or Floating Bubble"
 sidebar_position: 7
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Set the Default Assistant Opening Mode: Right Panel or Floating Bubble

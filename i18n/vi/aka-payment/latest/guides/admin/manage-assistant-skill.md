@@ -4,6 +4,7 @@ description: "Quản trị viên muốn thêm, sửa, tắt hoặc khôi phục 
 id: manage-assistant-skill
 sidebar_label: Quản lý kỹ năng của trợ lý AI
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Quản lý kỹ năng của trợ lý AI

@@ -4,6 +4,7 @@ description: "Ở bước Bảng kê chi phí, bấm Chứng từ chung và đí
 id: add-shared-documents
 sidebar_label: Đính kèm chứng từ chung cho cả đề nghị
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Đính kèm chứng từ chung cho cả đề nghị

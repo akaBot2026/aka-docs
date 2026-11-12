@@ -4,6 +4,7 @@ description: "Ở Quản lý hóa đơn, bấm Tải lên trên thẻ Người d
 id: upload
 sidebar_label: Tải tệp hóa đơn lên Quản lý hóa đơn
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tải tệp hóa đơn lên Quản lý hóa đơn

@@ -4,6 +4,7 @@ description: "For a request awaiting your approval, open an expense line in the 
 id: adjust-allocation
 sidebar_label: Adjust budget allocations during approval
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Adjust budget allocations during approval

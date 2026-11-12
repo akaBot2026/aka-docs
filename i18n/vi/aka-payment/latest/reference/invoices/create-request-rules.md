@@ -4,6 +4,7 @@ description: "Chỉ chọn được hóa đơn Sẵn sàng, tối đa 50 hóa đ
 id: create-request-rules
 sidebar_label: Điều kiện tạo ĐNTT từ hóa đơn
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Điều kiện tạo ĐNTT từ hóa đơn

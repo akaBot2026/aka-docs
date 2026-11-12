@@ -4,6 +4,7 @@ description: "Users want to turn off some types of notifications or turn on othe
 id: set-notifications
 sidebar_label: Change the notifications I receive
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Change the notifications I receive

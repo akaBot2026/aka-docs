@@ -4,6 +4,7 @@ description: "Open a request type, edit its tabs, and click Save and then Publis
 id: publish-request-type
 sidebar_label: Configure and publish a request type
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Configure and publish a request type

@@ -4,6 +4,7 @@ description: "Mở đề nghị, bấm Trả lại, nhập lý do bắt buộc v
 id: return-request
 sidebar_label: Trả lại đề nghị cho người tạo
 sidebar_position: 8
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Trả lại đề nghị cho người tạo

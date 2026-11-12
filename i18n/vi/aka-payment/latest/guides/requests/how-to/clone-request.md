@@ -4,6 +4,7 @@ description: "Ở Đề nghị của tôi, bấm biểu tượng sao chép (Nhâ
 id: clone-request
 sidebar_label: Nhân bản một đề nghị
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nhân bản một đề nghị

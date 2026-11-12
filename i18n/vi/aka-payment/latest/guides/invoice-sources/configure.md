@@ -4,6 +4,7 @@ description: "Quản trị viên muốn chọn nguồn nào đưa hóa đơn và
 id: configure
 sidebar_label: Bật/tắt nguồn nhận hóa đơn đầu vào
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Bật/tắt nguồn nhận hóa đơn đầu vào

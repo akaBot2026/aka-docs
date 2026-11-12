@@ -4,6 +4,7 @@ description: "Select an organization, click Add mailbox on the Email tab, enter 
 id: connect-mailbox
 sidebar_label: Add an IMAP invoice mailbox
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Add an IMAP invoice mailbox

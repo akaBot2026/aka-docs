@@ -4,6 +4,7 @@ description: "Người dùng muốn tìm lại một đề nghị và xem tiến
 id: find-request
 sidebar_label: Tìm một đề nghị
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Tìm một đề nghị

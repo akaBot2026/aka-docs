@@ -4,6 +4,7 @@ description: "Người dùng có nhiều hóa đơn và chứng từ kèm theo v
 id: import-bundle
 sidebar_label: Nhập cả bộ chứng từ một lần
 sidebar_position: 9
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nhập cả bộ chứng từ một lần

@@ -4,6 +4,7 @@ description: "A reviewer who is absent or not responsible for an approval wants 
 id: delegate-task
 sidebar_label: Delegate an Approval Task to Someone Else
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Delegate an Approval Task to Someone Else

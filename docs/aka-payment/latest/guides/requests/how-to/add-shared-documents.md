@@ -4,6 +4,7 @@ description: "At the Expense Details step, click Shared documents and attach fil
 id: add-shared-documents
 sidebar_label: Attach shared documents to the entire request
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Attach shared documents to the entire request

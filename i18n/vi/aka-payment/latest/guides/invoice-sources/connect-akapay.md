@@ -4,6 +4,7 @@ description: "Quản trị viên muốn đưa hóa đơn từ một pipeline Aka
 id: connect-akapay
 sidebar_label: Nhận hóa đơn từ pipeline AkaPay
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Nhận hóa đơn từ pipeline AkaPay

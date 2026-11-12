@@ -4,6 +4,7 @@ description: "Người dùng muốn biết vì sao hóa đơn chưa Sẵn sàng 
 id: review-check
 sidebar_label: Xử lý hóa đơn bị từ chối, gián đoạn hoặc cần nhập tay
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Xử lý hóa đơn bị từ chối, gián đoạn hoặc cần nhập tay

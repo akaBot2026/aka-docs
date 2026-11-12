@@ -4,6 +4,7 @@ description: "A unit cannot be deleted while it has child units, members, reques
 id: directory-delete-guards
 sidebar_label: Cannot delete or disable while still in use
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Cannot delete or disable while still in use

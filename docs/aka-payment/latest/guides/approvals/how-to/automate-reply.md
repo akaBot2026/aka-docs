@@ -4,6 +4,7 @@ description: "In To Do, click Automation, then Create automation to automaticall
 id: automate-reply
 sidebar_label: Create a rule to automatically handle tasks assigned to me
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Create a rule to automatically handle tasks assigned to me

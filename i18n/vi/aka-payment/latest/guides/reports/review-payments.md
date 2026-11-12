@@ -4,6 +4,7 @@ description: "Người dùng muốn xem tổng hợp các khoản thanh toán th
 id: review-payments
 sidebar_label: Xem thanh toán theo tháng
 sidebar_position: 4
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Xem thanh toán theo tháng

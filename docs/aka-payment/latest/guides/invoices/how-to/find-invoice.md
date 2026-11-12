@@ -4,6 +4,7 @@ description: "In Invoice Management, select a tab, search by invoice number/vend
 id: find-invoice
 sidebar_label: Filter the List and Open an Invoice
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Filter the List and Open an Invoice

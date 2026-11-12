@@ -4,6 +4,7 @@ description: "Tích các hóa đơn Sẵn sàng ở Quản lý hóa đơn, bấm
 id: create-request
 sidebar_label: Chọn hóa đơn và tạo đề nghị thanh toán
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Chọn hóa đơn và tạo đề nghị thanh toán

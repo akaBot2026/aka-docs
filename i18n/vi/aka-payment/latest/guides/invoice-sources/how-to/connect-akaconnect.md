@@ -4,6 +4,7 @@ description: "Bật Kết nối AkaConnect, chọn đơn vị, bấm Thêm kết
 id: connect-akaconnect
 sidebar_label: Kết nối hòm thư Gmail/Outlook qua AkaConnect
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Kết nối hòm thư Gmail/Outlook qua AkaConnect

@@ -4,6 +4,7 @@ description: "Amounts must be non-negative; each combination can appear only onc
 id: allocation-rules
 sidebar_label: Budget Allocation Import Rules
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Budget Allocation Import Rules

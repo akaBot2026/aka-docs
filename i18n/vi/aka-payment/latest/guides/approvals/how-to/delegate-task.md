@@ -4,6 +4,7 @@ description: "Mở đề nghị, bấm Ủy quyền, chọn người nhận và 
 id: delegate-task
 sidebar_label: Ủy quyền một việc cho người khác
 sidebar_position: 5
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Ủy quyền một việc cho người khác

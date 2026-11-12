@@ -4,6 +4,7 @@ description: "Ở Quản lý ngân sách → Phân bổ ngân sách chọn năm,
 id: allocate
 sidebar_label: Phân bổ ngân sách cho một kỳ
 sidebar_position: 2
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Phân bổ ngân sách cho một kỳ

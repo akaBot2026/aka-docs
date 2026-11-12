@@ -4,6 +4,7 @@ description: "Phát hành không thành công kèm danh sách vấn đề theo t
 id: publish-validation
 sidebar_label: Điều kiện phát hành loại đề nghị
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Điều kiện phát hành loại đề nghị

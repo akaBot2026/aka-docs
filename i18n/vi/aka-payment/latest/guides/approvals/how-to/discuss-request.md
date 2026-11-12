@@ -4,6 +4,7 @@ description: "Ở trang chi tiết đề nghị, viết ở mục Trao đổi ho
 id: discuss-request
 sidebar_label: Trao đổi và chia sẻ một đề nghị
 sidebar_position: 6
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Trao đổi và chia sẻ một đề nghị

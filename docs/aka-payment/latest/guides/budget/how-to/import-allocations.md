@@ -4,6 +4,7 @@ description: "In Budget Allocation, download the template, fill it in, click Imp
 id: import-allocations
 sidebar_label: Import Budget Allocations from Excel
 sidebar_position: 3
+displayed_sidebar: akaPaymentSidebar
 ---
 
 # Import Budget Allocations from Excel
