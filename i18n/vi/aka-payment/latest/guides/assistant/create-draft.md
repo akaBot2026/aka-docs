@@ -27,7 +27,7 @@ Dùng khung chat và các kỹ năng /hoa-don, /ban-ke, /nhap-tay để tạo b�
 ## Được dùng trong các hướng dẫn
 
 - [Tạo đề nghị thanh toán](../requests/create-draft.md) — Người dùng muốn lập một đề nghị thanh toán mới và lưu thành bản nháp.
-- [AkaPayment](../../index.md) — Lập, duyệt và theo dõi đề nghị thanh toán; tiếp nhận hóa đơn đầu vào, đối soát chứng từ và quản lý ngân sách, có trợ lý AI.
+- [AkaPayment](../../overview.md) — Lập, duyệt và theo dõi đề nghị thanh toán; tiếp nhận hóa đơn đầu vào, đối soát chứng từ và quản lý ngân sách, có trợ lý AI.
 
 ## Trước khi bắt đầu
 
