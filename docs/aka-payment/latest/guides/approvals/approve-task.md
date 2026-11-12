@@ -40,7 +40,7 @@ You have an approval step assigned to you and want to approve the request.
    1. Open **Tasks to Do** in the sidebar; the "My Tasks" page opens on the **Pending** tab (1).
       ![My Tasks page: (1) Pending tab, (2) Search field, (3) Approve button at the end of the row](/static/img/aka-payment-latest-approvals-approve-task-list.webp)
    2. Find the task using the **Search** field (2) or, if needed, the **All Tasks**, **All Units**, and **All Due Dates** filters.
-   3. Click **Approve** (3) at the end of the row, or click the request to open its details page and then click **Approve** on the "Your Tasks" card (in the list, a confirmation dialog asks "Approve {code}?").
+   3. Click **Approve** (3) at the end of the row, or click the request to open its details page and then click **Approve** on the "Your Tasks" card (in the list, a confirmation dialog asks "Approve `{code}`?").
    4. If the step has required custom fields, fill them in first (the Approve button remains disabled until all required fields are filled in). If the step allows budget allocation adjustments and you need to change a line item or cost center, follow [Adjust budget allocation during approval](how-to/adjust-allocation.md) before approving.
    5. If the **Sign Approval** dialog appears, enter your **Signing Password** (and **Reason** if required), then click **Sign and Approve**. If you see the message "Please complete your signing profile first.", click **Go to Profile** to set up your signature, then return.
    6. If no signing dialog appears, confirm the approval in the dialog (the **Reason** field is optional): click **Accept** (6) in the dialog opened from the list, or **Confirm** on the details page.
