@@ -3,7 +3,7 @@ title: "Xem ai dùng bao nhiêu token AI"
 description: "Quản trị viên muốn xem số token AI đã dùng theo ngày và theo người, cho xử lý chứng từ và cho trợ lý."
 id: view-ai-usage
 sidebar_label: Xem ai dùng bao nhiêu token AI
-sidebar_position: 12
+sidebar_position: 13
 ---
 
 # Xem ai dùng bao nhiêu token AI
@@ -38,5 +38,5 @@ Mỗi tab của Cài đặt AI có mục Mức sử dụng riêng, số liệu c
 
 ### [Xem mức sử dụng token AI](how-to/view-ai-usage.md)
 
-- Chưa thấy lượt dùng vừa xong: mức sử dụng mới hiển thị sau khoảng năm phút. Dòng **Khác** gom lượt dùng không gắn được với một người dùng ePayment.
+- Chưa thấy lượt dùng vừa xong: mức sử dụng mới hiển thị sau khoảng năm phút. Dòng **Khác** gom lượt dùng không gắn được với một người dùng AkaPayment.
 - Khoảng ngày dài hơn 366 ngày bị từ chối: chọn khoảng ngắn hơn.

@@ -1,0 +1,10 @@
+{
+  "label": "How To",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Step-by-step instructions to search and filter requests and follow a request to receive updates."
+  }
+}

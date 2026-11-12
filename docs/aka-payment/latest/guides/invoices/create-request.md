@@ -30,7 +30,7 @@ The request is created as a draft with expense items prefilled from the invoices
 ## Used in these guides
 
 - [Create a payment request](../requests/create-draft.md) — Users want to create a new payment request and save it as a draft.
-- [ePayment](../../index.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile documents, and manage budgets with an AI assistant.
+- [AkaPayment](../../index.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile documents, and manage budgets with an AI assistant.
 
 ## Before you begin
 

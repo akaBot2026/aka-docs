@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 2,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước mở và lọc các báo cáo Kế hoạch và thực hiện ngân sách, Thanh toán hàng tháng và Kế hoạch ngân sách hàng tháng."
   }
 }

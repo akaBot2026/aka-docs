@@ -1,8 +1,10 @@
 {
   "label": "Reports",
+  "position": 13,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Xem báo cáo kế hoạch ngân sách, thanh toán hàng tháng và so sánh kế hoạch với thực chi."
   }
 }

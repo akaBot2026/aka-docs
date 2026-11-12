@@ -1,0 +1,10 @@
+{
+  "label": "Budget",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Budget allocation import rules and budget overrun check levels (Off, Warning, Block)."
+  }
+}

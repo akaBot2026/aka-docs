@@ -1,0 +1,10 @@
+{
+  "label": "Features",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Overview of the Incoming Invoices settings page, where administrators enable sources and manage mailboxes, portal accounts, and connections."
+  }
+}

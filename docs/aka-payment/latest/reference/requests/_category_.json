@@ -1,0 +1,10 @@
+{
+  "label": "Requests",
+  "position": 11,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Required fields for each step of the request creation flow and the conditions a request must meet before submission."
+  }
+}

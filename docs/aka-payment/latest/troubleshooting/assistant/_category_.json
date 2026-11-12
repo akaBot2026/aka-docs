@@ -1,0 +1,10 @@
+{
+  "label": "Assistant",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Confirm the AI Assistant is available for your role once an administrator enables its tools."
+  }
+}

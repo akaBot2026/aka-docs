@@ -1,8 +1,10 @@
 {
   "label": "Profile",
+  "position": 5,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Xác nhận chữ ký và mật khẩu ký đã thiết lập cho các bước duyệt bắt buộc ký."
   }
 }

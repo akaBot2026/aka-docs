@@ -1,0 +1,10 @@
+{
+  "label": "How To",
+  "position": 8,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Step-by-step instructions to enable sources, add IMAP mailboxes with an app password or OAuth, schedule e-invoice portal downloads, and connect AkaConnect or AkaPay."
+  }
+}

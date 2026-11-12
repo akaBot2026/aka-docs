@@ -3,7 +3,7 @@ title: "Xem thanh toán theo tháng"
 description: "Người dùng muốn xem tổng hợp các khoản thanh toán theo từng tháng."
 id: review-payments
 sidebar_label: Xem thanh toán theo tháng
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Xem thanh toán theo tháng

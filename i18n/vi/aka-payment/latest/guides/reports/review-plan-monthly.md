@@ -3,7 +3,7 @@ title: "Xem kế hoạch ngân sách theo từng tháng"
 description: "Người dùng muốn xem ngân sách đã phân bổ của từng tháng trong năm, theo đơn vị hoặc khoản mục ngân sách."
 id: review-plan-monthly
 sidebar_label: Xem kế hoạch ngân sách theo từng tháng
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Xem kế hoạch ngân sách theo từng tháng

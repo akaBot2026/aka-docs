@@ -1,0 +1,10 @@
+{
+  "label": "Admin",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Administer users, the organization structure, approver groups, working hours, and AI settings for the assistant and document processing."
+  }
+}

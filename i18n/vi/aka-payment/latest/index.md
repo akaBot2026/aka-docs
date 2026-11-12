@@ -1,11 +1,11 @@
 ---
 id: index
-title: Index
-sidebar_label: Index
+title: Overview
+sidebar_label: Overview
 sidebar_position: 1
-description: ePayment giúp nhân viên lập đề nghị thanh toán kèm hóa đơn và chứng từ, nộp theo luồng phê duyệt của đơn vị, và giúp người duyệt và kế toán xử lý, đối soát và…
+description: AkaPayment giúp nhân viên lập đề nghị thanh toán kèm hóa đơn và chứng từ, nộp theo luồng phê duyệt của đơn vị, và giúp người duyệt và kế toán xử lý, đối soát và…
 ---
-ePayment giúp nhân viên lập đề nghị thanh toán kèm hóa đơn và chứng từ, nộp theo luồng phê duyệt của đơn vị,
+AkaPayment giúp nhân viên lập đề nghị thanh toán kèm hóa đơn và chứng từ, nộp theo luồng phê duyệt của đơn vị,
 và giúp người duyệt và kế toán xử lý, đối soát và ghi nhận chi tiền. Hóa đơn đầu vào được nhận từ tệp người dùng tải lên,
 email, Cổng HĐĐT, AkaConnect hoặc AkaPay; ngân sách được phân bổ và kiểm tra ngay khi lập đề nghị.
 

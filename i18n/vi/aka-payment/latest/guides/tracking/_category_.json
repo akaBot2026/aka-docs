@@ -1,8 +1,10 @@
 {
   "label": "Tracking",
+  "position": 15,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Tìm đề nghị, xem tiến độ phê duyệt và theo dõi đề nghị của người khác."
   }
 }

@@ -3,7 +3,7 @@ title: "Nhập cả bộ chứng từ một lần"
 description: "Người dùng có nhiều hóa đơn và chứng từ kèm theo và muốn tạo các dòng chi phí cùng lúc."
 id: import-bundle
 sidebar_label: Nhập cả bộ chứng từ một lần
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # Nhập cả bộ chứng từ một lần

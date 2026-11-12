@@ -3,7 +3,7 @@ title: "Cập nhật danh mục dùng chung"
 description: "Quản trị viên muốn thêm hoặc sửa bản ghi danh mục: nhà cung cấp, ngân hàng, loại chi phí, hay khoản mục ngân sách và dự án."
 id: manage-list
 sidebar_label: Cập nhật danh mục dùng chung
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Cập nhật danh mục dùng chung

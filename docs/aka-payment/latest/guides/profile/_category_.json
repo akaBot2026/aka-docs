@@ -1,0 +1,10 @@
+{
+  "label": "Profile",
+  "position": 11,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Personalize your account: approval signature and signing password, notification preferences, and how the assistant opens."
+  }
+}

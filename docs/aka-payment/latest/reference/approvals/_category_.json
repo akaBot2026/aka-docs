@@ -1,0 +1,10 @@
+{
+  "label": "Approvals",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Requirements for approving, rejecting, returning, and delegating, including reasons and signatures."
+  }
+}

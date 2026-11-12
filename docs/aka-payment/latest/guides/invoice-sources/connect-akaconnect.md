@@ -18,7 +18,7 @@ Admins want to receive invoice attachments from Gmail or Outlook mailboxes conne
 **Required permission:** admin
 
 
-AkaConnect is a separate integration product. ePayment opens the AkaConnect connection page in a pop-up window, then retrieves emails at the selected **Sync frequency** (the admin page does not offer Real-time for this source).
+AkaConnect is a separate integration product. AkaPayment opens the AkaConnect connection page in a pop-up window, then retrieves emails at the selected **Sync frequency** (the admin page does not offer Real-time for this source).
 
 
 ## How to

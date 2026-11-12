@@ -24,7 +24,7 @@ Bắt đầu một đề nghị mới từ đầu, điền thông tin, chi phí 
 
 - [Tạo ĐNTT từ hóa đơn đã có trong Quản lý hóa đơn](../invoices/create-request.md) — Người dùng muốn chọn nhiều hóa đơn đã đọc sẵn trong Quản lý hóa đơn và lập một đề nghị thanh toán, mỗi hóa đơn là một khoản chi.
 - [Chọn hóa đơn và tạo đề nghị thanh toán](../invoices/how-to/create-request.md) — Tích các hóa đơn Sẵn sàng ở Quản lý hóa đơn, bấm Tạo ĐNTT, chọn Loại yêu cầu và bấm Tạo ĐNTT; mỗi hóa đơn thành một khoản chi trong bản nháp.
-- [ePayment](../../index.md) — Lập, duyệt và theo dõi đề nghị thanh toán; tiếp nhận hóa đơn đầu vào, đối soát chứng từ và quản lý ngân sách, có trợ lý AI.
+- [AkaPayment](../../index.md) — Lập, duyệt và theo dõi đề nghị thanh toán; tiếp nhận hóa đơn đầu vào, đối soát chứng từ và quản lý ngân sách, có trợ lý AI.
 
 ## Trước khi bắt đầu
 

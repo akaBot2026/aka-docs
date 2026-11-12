@@ -1,8 +1,10 @@
 {
   "label": "Reconciliation",
+  "position": 12,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Đối chiếu hóa đơn chi phí với chứng từ đi kèm trước khi nộp đề nghị."
   }
 }

@@ -3,7 +3,7 @@ title: "Nộp lại đề nghị đã bị trả lại"
 description: "Người tạo có đề nghị bị trả lại và muốn sửa rồi nộp lại cho người duyệt."
 id: resubmit-returned
 sidebar_label: Nộp lại đề nghị đã bị trả lại
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 # Nộp lại đề nghị đã bị trả lại

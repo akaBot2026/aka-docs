@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 3,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước tìm kiếm, lọc đề nghị và theo dõi một đề nghị để nhận cập nhật."
   }
 }

@@ -3,7 +3,7 @@ title: "Chọn cách mở trợ lý cho riêng tôi"
 description: "Người dùng muốn trợ lý mở ở Bảng bên phải hoặc Bong bóng nổi trên trình duyệt của mình, khác mặc định của tổ chức."
 id: set-assistant-display
 sidebar_label: Chọn cách mở trợ lý cho riêng tôi
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Chọn cách mở trợ lý cho riêng tôi

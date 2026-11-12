@@ -1,8 +1,10 @@
 {
   "label": "Payment",
+  "position": 10,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Ghi nhận đề nghị đã duyệt là đã thanh toán để hoàn tất quy trình chi."
   }
 }

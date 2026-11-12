@@ -3,7 +3,7 @@ title: "Đặt cách mở trợ lý mặc định: Bảng bên phải hay Bong b
 description: "Quản trị viên muốn chọn cách trợ lý mở cho cả tổ chức: Bảng bên phải hoặc Bong bóng nổi kéo được."
 id: set-assistant-display
 sidebar_label: "Đặt cách mở trợ lý mặc định: Bảng bên phải hay Bong bóng nổi"
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 # Đặt cách mở trợ lý mặc định: Bảng bên phải hay Bong bóng nổi

@@ -3,7 +3,7 @@ title: "Nộp đề nghị thanh toán để duyệt"
 description: "Người tạo đã điền xong và muốn nộp đề nghị cho người duyệt."
 id: submit
 sidebar_label: Nộp đề nghị thanh toán để duyệt
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 # Nộp đề nghị thanh toán để duyệt
@@ -22,7 +22,7 @@ Người tạo đã điền xong và muốn nộp đề nghị cho người duy�
 
 ## Được dùng trong các hướng dẫn
 
-- [ePayment](../../index.md) — Lập, duyệt và theo dõi đề nghị thanh toán; tiếp nhận hóa đơn đầu vào, đối soát chứng từ và quản lý ngân sách, có trợ lý AI.
+- [AkaPayment](../../index.md) — Lập, duyệt và theo dõi đề nghị thanh toán; tiếp nhận hóa đơn đầu vào, đối soát chứng từ và quản lý ngân sách, có trợ lý AI.
 
 ## Trước khi bắt đầu
 

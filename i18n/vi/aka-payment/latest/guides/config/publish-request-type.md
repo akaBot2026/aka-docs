@@ -3,7 +3,7 @@ title: "Cấu hình và phát hành loại đề nghị"
 description: "Quản trị viên muốn tạo hoặc thay đổi một loại đề nghị và đưa vào sử dụng."
 id: publish-request-type
 sidebar_label: Cấu hình và phát hành loại đề nghị
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Cấu hình và phát hành loại đề nghị

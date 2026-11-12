@@ -1,0 +1,10 @@
+{
+  "label": "Invoices",
+  "position": 8,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Upload, find, and review incoming invoices in Invoice Management, handle failed checks, and turn Ready invoices into payment requests."
+  }
+}

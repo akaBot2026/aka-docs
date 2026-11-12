@@ -1,8 +1,10 @@
 {
   "label": "Invoice Sources",
+  "position": 3,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Xác nhận nguồn Người dùng tải lên đang bật để người dùng tải được tệp hóa đơn."
   }
 }

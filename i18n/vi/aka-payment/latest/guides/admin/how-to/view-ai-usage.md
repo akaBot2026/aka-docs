@@ -23,7 +23,7 @@ sidebar_position: 12
 
 ## Xử lý lỗi
 
-- Chưa thấy lượt dùng vừa xong: mức sử dụng mới hiển thị sau khoảng năm phút. Dòng **Khác** gom lượt dùng không gắn được với một người dùng ePayment.
+- Chưa thấy lượt dùng vừa xong: mức sử dụng mới hiển thị sau khoảng năm phút. Dòng **Khác** gom lượt dùng không gắn được với một người dùng AkaPayment.
 - Khoảng ngày dài hơn 366 ngày bị từ chối: chọn khoảng ngắn hơn.
 
 

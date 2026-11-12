@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 3,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước chạy đối chiếu cho một hoặc nhiều dòng chi phí và xem kết quả."
   }
 }

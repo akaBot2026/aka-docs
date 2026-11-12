@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 2,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước xuất bản loại đề nghị, khôi phục phiên bản trước và tạo hoặc sửa quy tắc đối chiếu dùng chung."
   }
 }

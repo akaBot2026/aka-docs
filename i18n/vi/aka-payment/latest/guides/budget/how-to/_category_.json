@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 3,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước phân bổ ngân sách cho một kỳ và nhập phân bổ từ tệp Excel mẫu."
   }
 }

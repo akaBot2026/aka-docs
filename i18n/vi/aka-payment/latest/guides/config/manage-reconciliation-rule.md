@@ -3,7 +3,7 @@ title: "Quản lý quy tắc đối soát dùng chung"
 description: "Quản trị viên muốn tạo hoặc sửa một quy tắc đối soát chứng từ một lần và dùng cho nhiều loại đề nghị."
 id: manage-reconciliation-rule
 sidebar_label: Quản lý quy tắc đối soát dùng chung
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Quản lý quy tắc đối soát dùng chung
@@ -36,7 +36,7 @@ Quy tắc dùng chung nằm trong một thư viện: sửa một lần, áp dụ
    1. Ở thanh bên, mục **Cấu hình**, mở **Quy tắc dùng chung** (1) (chỉ người vận hành và quản trị viên, chỉ trên máy tính; bảng Mã, Tên, Đang dùng = số loại đề nghị, Trạng thái; tìm bằng ô **Tìm kiếm**, bật **Hiện quy tắc đã lưu trữ** để xem cả quy tắc đã lưu trữ).
       ![Trang Quy tắc dùng chung: (1) mục Quy tắc dùng chung ở thanh bên, ô Tìm kiếm, công tắc Hiện quy tắc đã lưu trữ và (2) nút Thêm quy tắc dùng chung; bảng Mã, Tên, Đang dùng, Trạng thái](/static/img/aka-payment-latest-config-reconciliation-rule-list.webp)
    2. Bấm **Thêm quy tắc dùng chung** (2), hoặc **Sửa quy tắc dùng chung** ở dòng một quy tắc.
-   3. Nhập **Mã** (chỉ khi tạo mới; có gợi ý sẵn), **Tên** và **Hướng dẫn kiểm tra** (3); gõ `@` trong ô hướng dẫn để chèn biến của chứng từ hoặc của đề nghị (ví dụ "Mã số thuế người bán `{{doc.invoice.sellerTaxCode}} `phải trùng mã số thuế nhà cung cấp `{{input.supplierTaxCode}}`.").\
+   3. Nhập **Mã** (chỉ khi tạo mới; có gợi ý sẵn), **Tên** và **Hướng dẫn kiểm tra** (3); gõ `@` trong ô hướng dẫn để chèn biến của chứng từ hoặc của đề nghị (ví dụ "Mã số thuế người bán `{{doc.invoice.sellerTaxCode}}` phải trùng mã số thuế nhà cung cấp `{{input.supplierTaxCode}}`.").\
       ![Hộp thoại Thêm quy tắc dùng chung: (3) các ô Mã (gợi ý rule-01), Tên và Hướng dẫn kiểm tra kèm gợi ý gõ @, (4) nút Lưu](/static/img/aka-payment-latest-config-reconciliation-rule-dialog.webp)
    4. Bấm **Lưu** (4). Nếu quy tắc đang được dùng, hộp thoại liệt kê các loại đề nghị bị ảnh hưởng; bấm **Lưu và áp dụng**.
    5. Để ngừng dùng, bấm **Lưu trữ** ở dòng (quy tắc đang dùng sẽ hỏi lại); **Khôi phục** để dùng lại. Menu cạnh nút **Thêm quy tắc dùng chung** có **Xuất JSON** và **Nhập JSON** để chuyển quy tắc giữa các môi trường.

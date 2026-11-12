@@ -1,8 +1,10 @@
 {
   "label": "Assistant",
+  "position": 4,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Dùng Trợ lý AI để đọc hóa đơn hoặc bảng kê và soạn đề nghị thanh toán nháp ngay trong khung chat."
   }
 }

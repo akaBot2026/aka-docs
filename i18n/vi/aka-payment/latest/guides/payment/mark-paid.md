@@ -3,7 +3,7 @@ title: "Ghi nhận đề nghị đã chi tiền"
 description: "Kế toán muốn đánh dấu một đề nghị đã duyệt là đã thanh toán."
 id: mark-paid
 sidebar_label: Ghi nhận đề nghị đã chi tiền
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Ghi nhận đề nghị đã chi tiền

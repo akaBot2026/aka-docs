@@ -18,7 +18,7 @@ Quản trị viên muốn nhận hóa đơn đính kèm thư từ hòm thư Gmai
 **Quyền cần có:** admin
 
 
-AkaConnect là sản phẩm kết nối riêng; ePayment mở trang kết nối của AkaConnect trong cửa sổ bật lên rồi lấy thư định kỳ theo **Tần suất đồng bộ** đã chọn (trang quản trị không cho chọn Thời gian thực cho nguồn này).
+AkaConnect là sản phẩm kết nối riêng; AkaPayment mở trang kết nối của AkaConnect trong cửa sổ bật lên rồi lấy thư định kỳ theo **Tần suất đồng bộ** đã chọn (trang quản trị không cho chọn Thời gian thực cho nguồn này).
 
 
 ## Các cách thực hiện

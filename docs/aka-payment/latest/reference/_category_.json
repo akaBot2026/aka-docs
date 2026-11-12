@@ -1,0 +1,10 @@
+{
+  "label": "Reference",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Rules, limits, and conditions that govern requests, approvals, budgets, invoices, configuration, and AI features."
+  }
+}

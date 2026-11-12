@@ -1,0 +1,10 @@
+{
+  "label": "Guides",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Task-based guides for creating, approving, tracking, and paying requests, plus managing invoices, budgets, and system settings."
+  }
+}

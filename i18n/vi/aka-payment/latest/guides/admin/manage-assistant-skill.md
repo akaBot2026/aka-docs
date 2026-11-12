@@ -3,7 +3,7 @@ title: "Quản lý kỹ năng của trợ lý AI"
 description: "Quản trị viên muốn thêm, sửa, tắt hoặc khôi phục một kỹ năng (lệnh /) để trợ lý làm theo quy trình của công ty."
 id: manage-assistant-skill
 sidebar_label: Quản lý kỹ năng của trợ lý AI
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Quản lý kỹ năng của trợ lý AI

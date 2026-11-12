@@ -1,8 +1,10 @@
 {
   "label": "Invoices",
+  "position": 4,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Hiểu trạng thái Sẵn sàng và khi nào hóa đơn dùng được để tạo đề nghị thanh toán."
   }
 }

@@ -1,0 +1,10 @@
+{
+  "label": "Reports",
+  "position": 13,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "View budget plans, monthly payments, and plan vs. actual spending reports."
+  }
+}

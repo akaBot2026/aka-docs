@@ -1,8 +1,10 @@
 {
   "label": "Approvals",
+  "position": 3,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Duyệt, từ chối, trả lại hoặc ủy quyền đề nghị được giao, điều chỉnh phân bổ ngân sách, tự động xử lý và trao đổi về đề nghị."
   }
 }

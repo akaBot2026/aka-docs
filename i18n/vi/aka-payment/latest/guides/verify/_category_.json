@@ -1,8 +1,10 @@
 {
   "label": "Verify",
+  "position": 16,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Xác minh chữ ký số trên phiếu thanh toán PDF."
   }
 }

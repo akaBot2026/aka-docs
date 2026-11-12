@@ -25,7 +25,7 @@ Limits are the basis for the request's Remaining amount and Budget Check.
 
 ## Used in guides
 
-- [ePayment](../../index.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile documents, and manage budgets with an AI assistant.
+- [AkaPayment](../../index.md) — Create, approve, and track payment requests; receive incoming invoices, reconcile documents, and manage budgets with an AI assistant.
 
 ## Before you start
 

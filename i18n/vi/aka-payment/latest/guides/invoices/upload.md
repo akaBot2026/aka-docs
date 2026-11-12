@@ -3,7 +3,7 @@ title: "Tải hóa đơn đầu vào lên Quản lý hóa đơn"
 description: "Người dùng muốn đưa tệp hóa đơn (XML, PDF, ảnh, zip) vào kho Quản lý hóa đơn để hệ thống tự đọc và kiểm tra, trước khi lập đề nghị."
 id: upload
 sidebar_label: Tải hóa đơn đầu vào lên Quản lý hóa đơn
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Tải hóa đơn đầu vào lên Quản lý hóa đơn
@@ -31,7 +31,7 @@ Hóa đơn tải lên được gán cho đơn vị của bạn, tự đọc và 
 ## Được dùng trong các hướng dẫn
 
 - [Thêm chi phí từ hóa đơn](../requests/how-to/add-invoice-expense.md) — Ở bước Bảng kê chi phí, chọn Thêm từ hóa đơn, tải hóa đơn lên hoặc chọn từ danh sách Quản lý hóa đơn; mỗi hóa đơn thành một dòng chi phí.
-- [ePayment](../../index.md) — Lập, duyệt và theo dõi đề nghị thanh toán; tiếp nhận hóa đơn đầu vào, đối soát chứng từ và quản lý ngân sách, có trợ lý AI.
+- [AkaPayment](../../index.md) — Lập, duyệt và theo dõi đề nghị thanh toán; tiếp nhận hóa đơn đầu vào, đối soát chứng từ và quản lý ngân sách, có trợ lý AI.
 
 ## Trước khi bắt đầu
 

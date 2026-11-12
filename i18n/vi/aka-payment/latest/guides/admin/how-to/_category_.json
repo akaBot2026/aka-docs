@@ -1,8 +1,10 @@
 {
   "label": "How To",
+  "position": 3,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Các bước mời người dùng, sửa đơn vị và nhóm phê duyệt, đặt thời gian làm việc, cấu hình mô hình AI, kỹ năng, công cụ và xem mức sử dụng."
   }
 }

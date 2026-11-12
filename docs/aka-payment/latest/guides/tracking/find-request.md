@@ -25,7 +25,7 @@ Look up requests you created by keyword, type, or date.
 
 ## Used in these guides
 
-- [ePayment](../../index.md) — Create, approve, and track payment requests; process incoming invoices, reconcile supporting documents, and manage budgets with an AI assistant.
+- [AkaPayment](../../index.md) — Create, approve, and track payment requests; process incoming invoices, reconcile supporting documents, and manage budgets with an AI assistant.
 
 ## Steps
 

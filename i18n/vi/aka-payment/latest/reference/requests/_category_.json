@@ -1,8 +1,10 @@
 {
   "label": "Requests",
+  "position": 11,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Trường bắt buộc ở từng bước tạo đề nghị và các điều kiện đề nghị phải đáp ứng trước khi nộp."
   }
 }

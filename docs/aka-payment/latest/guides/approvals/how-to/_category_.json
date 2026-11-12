@@ -1,0 +1,10 @@
+{
+  "label": "How To",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Step-by-step instructions for handling approval tasks, from approving and signing to returning, rejecting, delegating, and creating automation rules."
+  }
+}

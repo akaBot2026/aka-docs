@@ -1,8 +1,10 @@
 {
   "label": "Config",
+  "position": 6,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Cấu hình và xuất bản loại đề nghị, khôi phục phiên bản cũ và quản lý quy tắc đối chiếu dùng chung."
   }
 }

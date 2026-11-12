@@ -1,9 +1,10 @@
 {
-  "label": "Latest",
+  "label": "AkaPayment",
   "position": 1,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Support business payment operations by coordinating related workflows and transaction processes."
   }
 }

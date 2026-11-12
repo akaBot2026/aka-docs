@@ -1,0 +1,10 @@
+{
+  "label": "Tracking",
+  "position": 12,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Who can view a request, based on role, involvement, organizational unit, and sharing."
+  }
+}

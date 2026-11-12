@@ -1,8 +1,10 @@
 {
   "label": "Invoices",
+  "position": 9,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Quyền xem và thao tác với hóa đơn, định dạng và dung lượng tệp hỗ trợ, xử lý trùng lặp và điều kiện tạo đề nghị từ hóa đơn."
   }
 }

@@ -1,0 +1,10 @@
+{
+  "label": "Features",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about assistant skills: preconfigured slash-command recipes that guide the assistant through company procedures."
+  }
+}

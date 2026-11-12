@@ -3,7 +3,7 @@ title: "Đổi thông báo tôi nhận"
 description: "Người dùng muốn tắt bớt hoặc bật thêm các loại thông báo."
 id: set-notifications
 sidebar_label: Đổi thông báo tôi nhận
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Đổi thông báo tôi nhận

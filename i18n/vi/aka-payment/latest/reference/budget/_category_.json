@@ -1,8 +1,10 @@
 {
   "label": "Budget",
+  "position": 5,
   "collapsible": true,
   "collapsed": false,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Quy tắc nhập phân bổ ngân sách và các mức kiểm tra vượt ngân sách (Tắt, Cảnh báo, Chặn)."
   }
 }
