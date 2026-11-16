@@ -26,11 +26,11 @@ Bên được cấp phép theo đây đồng ý tuân thủ và thực hiện th
 
 ## Cấp phép sử dụng
 
-Căn cứ theo Đơn đặt hàng, và với điều kiện thanh toán đầy đủ các khoản phí cấp phép và chi phí khác trong Thời hạn Cấp phép, đồng thời tuân thủ các điều khoản của Thỏa thuận này, Bên cấp phép cấp cho Bên được cấp phép quyền sử dụng Phần mềm để phục vụ các chức năng kinh doanh nội bộ của Bên được cấp phép, phù hợp với các điều khoản, điều kiện và giới hạn của Thỏa thuận này. Quyền sử dụng này có giới hạn, không độc quyền, không thể chuyển nhượng (trừ trường hợp được nêu tại đây) và không được cấp lại phép cho bên thứ ba.
+Căn cứ theo Đơn đặt hàng, và với điều kiện thanh toán đầy đủ các khoản phí cấp phép và chi phí khác trong Thời hạn Cấp phép, đồng thời tuân thủ các điều khoản của Thỏa thuận này, Bên cấp phép cấp cho Bên được cấp phép quyền sử dụng Phần mềm để phục vụ các chức năng kinh doanh nội bộ của Bên được cấp phép, phù hợp với các điều khoản, điều kiện và giới hạn của Thỏa thuận này. Quyền sử dụng này có giới hạn, không độc quyền, không thể chuyển nhượng (trừ trường hợp được nêu tại đây) và không được cấp phép lại cho bên thứ ba.
 
-Phần mềm được cấp phép theo hình thức Cấp phép Khóa theo Thiết bị (Node-locked License), theo đó Phần mềm chỉ được sử dụng trên máy tính đã cài đặt Phần mềm. Giấy phép này không được chuyển sang bất kỳ máy tính hoặc tổ chức nào khác trừ khi có sự đồng ý bằng văn bản của Bên cấp phép.
+Phần mềm được cấp phép theo hình thức Giấy phép khóa theo Thiết bị (Node-locked License), theo đó Phần mềm chỉ được sử dụng trên máy tính đã cài đặt Phần mềm. Giấy phép này không được chuyển nhượng, chuyển giao sang bất kỳ thiết bị, hệ thống máy tính hoặc bất kỳ tổ chức, cá nhân nào khác trừ khi có sự đồng ý bằng văn bản của Bên cấp phép.
 
-Bên được cấp phép xác nhận rằng Bên cấp phép có lợi ích độc quyền có giá trị đối với Phần mềm. Bên cấp phép giữ quyền sở hữu và toàn bộ bản quyền cùng các quyền sở hữu trí tuệ khác đối với Phần mềm. Bên được cấp phép không được cấp bất kỳ quyền, danh nghĩa hoặc lợi ích nào đối với Phần mềm, ngoại trừ quyền sử dụng Phần mềm theo Thỏa thuận này.
+Bên được cấp phép xác nhận rằng Bên cấp phép có lợi ích độc quyền đối với Phần mềm. Bên cấp phép giữ quyền sở hữu và toàn bộ bản quyền cùng các quyền sở hữu trí tuệ khác đối với Phần mềm. Bên được cấp phép không được cấp bất kỳ quyền, danh nghĩa hoặc lợi ích nào đối với Phần mềm, ngoại trừ quyền sử dụng Phần mềm theo Thỏa thuận này.
 
 **Giới hạn đối với giấy phép phi sản xuất.** Giấy phép phi sản xuất (non-production) chỉ được sử dụng trong phạm vi môi trường phát triển nội bộ, kiểm thử, đảm bảo chất lượng và các mục đích tương tự. Giấy phép này không được sử dụng cho môi trường sản xuất hoặc cho bất kỳ mục đích thương mại nào. Việc sử dụng theo giấy phép này đồng nghĩa với việc Bên được cấp phép phải cấp cho Bên cấp phép toàn quyền truy cập nhằm mục đích thực hiện kiểm tra tuân thủ tự động đối với các giới hạn phi sản xuất nêu trên.
 
@@ -40,7 +40,7 @@ Bên được cấp phép:
 
 - đồng ý tuân thủ mọi yêu cầu pháp lý liên quan đến việc sử dụng Phần mềm;
 - đồng ý rằng mọi quyền đối với Phần mềm không được cấp phép rõ ràng đều thuộc về Bên cấp phép;
-- đồng ý không cấp lại phép, chuyển nhượng, chuyển giao, thế chấp, dùng làm tài sản bảo đảm hoặc gây bất lợi cho Phần mềm hoặc bất kỳ quyền nào được cấp trong Thỏa thuận này, ngoại trừ theo cách được quy định rõ ràng trong Thỏa thuận;
+- đồng ý không cấp phép lại, chuyển nhượng, chuyển giao, thế chấp, dùng làm tài sản bảo đảm hoặc gây bất lợi cho Phần mềm hoặc bất kỳ quyền nào được cấp trong Thỏa thuận này, ngoại trừ theo cách được quy định rõ ràng trong Thỏa thuận;
 - đồng ý không sử dụng Phần mềm theo bất kỳ cách thức hoặc mục đích nào vi phạm các điều khoản của Thỏa thuận này;
 - xác nhận và đồng ý rằng tại bất kỳ thời điểm nào trong Thời hạn Cấp phép hoặc sau đó, sẽ không (i) thách thức quyền sở hữu hoặc bất kỳ quyền nào khác của Bên cấp phép hoặc bên kế thừa đối với Phần mềm hoặc bất kỳ phần nào, bản dẫn xuất hoặc biến thể nào của Phần mềm, (ii) yêu cầu bất kỳ quyền, danh nghĩa hoặc lợi ích nào đối với Phần mềm hoặc bất kỳ phần nào, bản dẫn xuất hoặc biến thể nào của Phần mềm;
 - xác nhận rằng Bên cấp phép có thể phát triển và đưa ra thị trường các chương trình máy tính mới hoặc khác, hoặc các phiên bản của Phần mềm có sử dụng một phần Phần mềm hoặc thực hiện toàn bộ hay một phần chức năng của Phần mềm. Không nội dung nào trong Thỏa thuận này trao cho Bên được cấp phép bất kỳ quyền nào đối với các chương trình máy tính mới hoặc khác, hoặc các phiên bản đó;
@@ -54,7 +54,7 @@ Bên được cấp phép:
 
 **Bảo vệ quyền.** Ngoại trừ các điều khoản và điều kiện trong Thỏa thuận này, Bên được cấp phép không được và không được cho phép bất kỳ người nào khác sao chép, dịch, dịch ngược mã nguồn, nhúng thư viện phần mềm được cung cấp như một phần của Phần mềm vào các sản phẩm phần mềm khác, hoặc giải mã, cũng như không được tạo hoặc cố gắng tạo mã nguồn từ mã đối tượng của Phần mềm dưới bất kỳ hình thức nào, hoặc gỡ bỏ hay thay đổi bất kỳ nhãn hiệu, tên thương mại, biểu tượng, bản quyền hoặc thông báo, ký hiệu, biểu tượng hay nhãn độc quyền nào khác trong Phần mềm. Việc dịch ngược Phần mềm và các Tài liệu khác của Bên cấp phép bị nghiêm cấm. Bên được cấp phép không được thực hiện, tiến hành bất kỳ hoạt động kinh doanh nào có thể ảnh hưởng đến khả năng tồn tại về kinh tế của Bên cấp phép đối với Phần mềm.
 
-Bên được cấp phép được phép sao lưu dữ liệu theo thông lệ công nghệ thông tin tốt và, vì mục đích này, được tạo các bản sao lưu cần thiết của Phần mềm.
+Bên được cấp phép được phép sao lưu dữ liệu theo thông lệ công nghệ thông tin và quy định của pháp luật, vì mục đích này, được tạo các bản sao lưu cần thiết của Phần mềm.
 
 Bên được cấp phép không được thay đổi hoặc gỡ bỏ thông báo bản quyền và quyền tác giả của Bên cấp phép. Mọi quyền không được cấp rõ ràng cho Bên được cấp phép trong Thỏa thuận này đều được Bên cấp phép và bên kế thừa bảo lưu.
 

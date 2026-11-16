@@ -2,7 +2,7 @@
 id: the-user-interface
 title: "The User Interface"
 sidebar_label: "The User Interface"
-sidebar_position: 2
+sidebar_position: 3
 description: "The User Interface documentation."
 displayed_sidebar: centerSidebar
 ---
