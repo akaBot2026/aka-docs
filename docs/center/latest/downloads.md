@@ -30,6 +30,7 @@ Use the links below to download Akabot Center application file. Each row corresp
 | v4.0.0.5   | Apr 29, 2025  | [Download](https://ws3.fpt-software.vn/s/6WHOc43INlx8Sbe)                    |
 | v4.0.0.4   | Mar 19, 2025  | [Download](https://ws3.fpt-software.vn/s/7rMqTLMgBqMKrY2)                    |
 | v4.0.0.2   | Dec 24, 2024  | [Download](https://ws3.fpt-software.vn/s/MZXtKm0GUBhsFKh)                    |
+| v3.0.1.10  | May 27, 2026  | [Download](https://ws3.akabot.com/s/RilNxxRydNlvzaC)                         |
 | v3.0.1.4   | May 21, 2024  | [Download](https://ws3.fpt-software.vn/s/etKbBjmxRyrBlbb)                    |
 | v3.0.1.3   | Sep 22, 2023  | [Download](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ)                    |
 | v3.0.1.2   | Jul 27, 2023  | [Download](https://ws3.fpt-software.vn/s/fDHTRwDqNpE10ZI)                    |

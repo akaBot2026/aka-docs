@@ -343,6 +343,117 @@ Build date: Jul 27, 2026
 - **[User Management]**: Resolve issue preventing role permission changes.
 
 ---
+## v3.0.1.10
+
+Build date: May 27, 2026
+
+**Added**
+
+- **[Login]**: Added a show/hide password toggle to the login form.
+
+**Fixed**
+
+- **[Schedule]**: Fixed pending jobs from one schedule blocking other schedules of the same workflow on the same Agent.
+- **[Schedule]**: Skipped license checks and logging for jobs held by holiday postponement until they can run.
+- **[Job]**: Fixed the order in which pending jobs are sent to the Agent.
+- **[Clean Data]**: Fixed incomplete cleanup by running Clean Data in a database transaction.
+- **[Build]**: Fixed build configuration issues in dev and prod.
+
+---
+## v3.0.1.9
+
+Build date: Feb 10, 2025
+
+**Fixed**
+
+- **[Schedule]**: Fixed schedule deletion on SQL Server when related items are also deleted.
+- **[Asset]**: Fixed an error when setting Asset values.
+
+---
+## v3.0.1.8
+
+Build date: Dec 18, 2024
+
+**Added**
+
+- **[Authentication]**: Added Microsoft Azure sign-in via OAuth 2.0.
+
+**Updated**
+
+- **[Agent Pool]**: Added `correlationID` and `priority` to the Application Integration request example.
+
+**Fixed**
+
+- **[Job]**: Fixed duplicate job keys and duplicate job detection.
+- **[Queue]**: Fixed the page size display on the Queue Detail screen.
+- **[Asset]**: Fixed Asset export.
+- **[Storage]**: Fixed file path validation for uploaded files.
+- **[Schedule]**: Fixed invalid cron expression errors.
+- **[Cache]**: Fixed a serialization error when Redis cache is enabled.
+- **[Search]**: Fixed the Elasticsearch backend configuration.
+- **[Webhook]**: Fixed the webhook URL validation pattern.
+
+**Security**
+
+- **[Dependencies]**: Upgraded Spring Framework to 5.3.26 and fixed vulnerabilities reported by Snyk.
+
+---
+## v3.0.1.7
+
+Build date: Nov 6, 2024
+
+**Updated**
+
+- **[Localization]**: Updated translations, including the side menu.
+
+**Fixed**
+
+- **[Agent Pool]**: Fixed job priority and Queue Item references being overwritten by job keys.
+
+**Security**
+
+- **[Dependencies]**: Updated Apache Commons Text to 1.12.0 and Apache Commons Lang to 3.17.0.
+
+---
+## v3.0.1.6
+
+Build date: Oct 18, 2024
+
+**Updated**
+
+- **[Asset]**: Removed the length limit on Asset values and expanded their database storage.
+
+**Fixed**
+
+- **[Human Task]**: Fixed a browser console error when loading the pending Human Task count.
+
+---
+## v3.0.1.5
+
+Build date: Sep 27, 2024
+
+**Added**
+
+- **[Clean Data]**: Added scheduled cleanup with cron expressions and time zones.
+- **[Job]**: Added APIs to find and delete duplicate jobs.
+
+**Updated**
+
+- **[Application Integration]**: The push API now applies the requested priority to Queue Items.
+- **[Pagination]**: Invalid pagination properties now return HTTP 400, and oversized page sizes no longer fail by default.
+
+**Fixed**
+
+- **[Schedule]**: Fixed Process Schedules running more than once.
+- **[Clean Data]**: Fixed custom date cleanup, disabled schedules, time zones, and reindexing.
+- **[Job]**: Fixed missing bot task output and duplicate job keys.
+- **[Workflow]**: Fixed workflow JSON generation and workflow parameter lookup.
+- **[Delete]**: Fixed deleting Agent Pools, Jobs, Robots, and Workflows.
+- **[Human Task]**: Enabled the Submit button for users with View permission.
+- **[UI]**: Fixed akb-select pagination, Recurrence form errors, and Refresh button alignment.
+- **[Build]**: Fixed Liquibase changelog generation from the command line.
+
+---
 ## v3.0.1.4
 **Added**
 - **[Agent Pool]**: Add priority for agent pool.
