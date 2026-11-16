@@ -2,7 +2,7 @@
 id: the-user-interface
 title: "ユーザーインターフェース"
 sidebar_label: "ユーザーインターフェース"
-sidebar_position: 2
+sidebar_position: 3
 description: "ユーザーインターフェイスのドキュメント。"
 displayed_sidebar: centerSidebar
 ---

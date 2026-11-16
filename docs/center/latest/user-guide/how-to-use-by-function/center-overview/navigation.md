@@ -2,7 +2,7 @@
 id: navigation
 title: "akaBot Center - Navigation"
 sidebar_label: "akaBot Center - Navigation"
-sidebar_position: 3
+sidebar_position: 4
 description: "akaBot Center - Navigation documentation."
 displayed_sidebar: centerSidebar
 ---

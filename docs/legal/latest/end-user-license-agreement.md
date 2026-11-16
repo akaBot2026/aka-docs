@@ -28,9 +28,9 @@ LICENSEE HEREBY AGREES TO COMPLY AND ABIDE WITH THE FOLLOWING:
 
 Pursuant to a Purchase Order, and subject to payment of all applicable license fees and other charges under the License Term and compliance with the terms of this EULA, the Licensor grants the Licensee a limited, non-sublicensable, non-transferable (except as set forth herein), non-exclusive license to use the Software for the Licensee's own internal business functions in accordance with the terms, conditions, and restrictions of this EULA.
 
-The Software is licensed on a Node-locked License basis, then the Software may be used on the computer on which the Software is installed. This license may not be transferred to any other computer or entity or the like unless the Licensor consents in writing.
+The Software is licensed on a Node-locked License basis, then the Software may be used on the computer on which the Software is installed. This license may not be assigned or transferred to any other device, computer system, organization, or individual unless the Licensor consents in writing.
 
-The Licensee acknowledges that Licensor has a valuable proprietary interest in the Software. The Licensor retains title to and all copyright and other intellectual property rights in the Software. The Licensee is not granted any right, title, or interest in the Software, except the right to use the Software in accordance with this EULA.
+The Licensee acknowledges that Licensor has a proprietary interest in the Software. The Licensor retains title to and all copyright and other intellectual property rights in the Software. The Licensee is not granted any right, title, or interest in the Software, except the right to use the Software in accordance with this EULA.
 
 **Non-Production License Restriction.** Non-production licenses are strictly limited to internal development, testing, quality assurance, and similar purposes. They must not be used in any production environment or for any commercial purpose. Usage under this license mandates the Licensee to grant the Licensor full access for the purpose of automated compliance auditing against these non-production restrictions.
 
@@ -54,7 +54,7 @@ The Licensee:
 
 **Protection of Rights.** Except for terms and conditions in this EULA, the Licensee shall not and shall not permit any other person to copy, translate, disassemble, embed software libraries provided as part of the Software into other software products, or decompile, nor create or attempt to create the source code from the object code of the Software in any manner or remove or alter any trademark, trade name logo, copyright or other proprietary notices, legends, symbols or labels in the Software. Reverse engineering of the Software and other Licensor Materials is prohibited. In no event shall the Licensee carry out, procure any business activities that might impact to the Licensor's economic viability of the Software.
 
-The Licensee is permitted to back up data in accordance with good information technology practice and for this purpose to create the necessary backup copies of the Software.
+The Licensee is permitted to back up data in accordance with information technology practice and applicable law, and for this purpose to create the necessary backup copies of the Software.
 
 The Licensee must not change or remove Licensor's copyright and authorship notices. All rights not expressly granted to the Licensee in this EULA are reserved by the Licensor and its successors.
 
