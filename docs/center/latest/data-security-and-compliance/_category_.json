@@ -1,0 +1,10 @@
+{
+  "label": "Data Security and Compliance",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "How Akabot secures its products and your data in Akabot Center."
+  }
+}

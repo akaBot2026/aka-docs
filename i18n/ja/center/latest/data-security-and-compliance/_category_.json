@@ -1,0 +1,10 @@
+{
+  "label": "データセキュリティとコンプライアンス",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Akabotが製品とAkabot Center上のデータをどのように保護しているかを説明します。"
+  }
+}
