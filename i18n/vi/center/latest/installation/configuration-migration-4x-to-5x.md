@@ -3,13 +3,13 @@ id: configuration-migration-4x-to-5x
 title: "Chuyển đổi cấu hình từ 4.x lên 5.x"
 sidebar_label: "Chuyển đổi cấu hình 4.x lên 5.x"
 sidebar_position: 23
-description: "Rà soát và chuyển đổi cấu hình akaBot Center từ 4.x lên 5.x, gồm đổi tên thuộc tính, retention, HA và tích hợp AI tùy chọn."
+description: "Rà soát và chuyển đổi cấu hình Akabot Center từ 4.x lên 5.x, gồm đổi tên thuộc tính, retention, HA và tích hợp AI tùy chọn."
 displayed_sidebar: centerSidebar
 ---
 
 # Chuyển đổi cấu hình từ 4.x lên 5.x
 
-> Hướng dẫn này liệt kê các cấu hình cần rà soát khi nâng cấp **akaBot Center 4.0.0.14** lên **5.0.0.0, 5.0.0.1, 5.0.0.2, 5.0.0.4, 5.0.0.5, 5.1.0.0 hoặc 5.1.0.1**. Áp dụng các thay đổi chung trước, sau đó áp dụng cấu hình đúng với phiên bản đích và tính năng đang sử dụng.
+> Hướng dẫn này liệt kê các cấu hình cần rà soát khi nâng cấp **Akabot Center 4.0.0.14** lên **5.0.0.0, 5.0.0.1, 5.0.0.2, 5.0.0.4, 5.0.0.5, 5.1.0.0 hoặc 5.1.0.1**. Áp dụng các thay đổi chung trước, sau đó áp dụng cấu hình đúng với phiên bản đích và tính năng đang sử dụng.
 
 Để cài đặt server, chuẩn bị phần mềm và chuyển dữ liệu sang Windows server mới, xem [Di chuyển server và nâng cấp lên 5.x](/docs/center/latest/installation/migrate-server-upgrade-5x.md).
 

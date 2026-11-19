@@ -3,13 +3,13 @@ id: configuration-migration-4x-to-5x
 title: "Configuration Migration from 4.x to 5.x"
 sidebar_label: "Configuration Migration (4.x to 5.x)"
 sidebar_position: 23
-description: "Review and migrate akaBot Center configuration from 4.x to 5.x, including renamed properties, retention, HA, and optional AI integration."
+description: "Review and migrate Akabot Center configuration from 4.x to 5.x, including renamed properties, retention, HA, and optional AI integration."
 displayed_sidebar: centerSidebar
 ---
 
 # Configuration Migration from 4.x to 5.x
 
-> This guide lists the configuration updates to review when upgrading **akaBot Center 4.0.0.14** to **5.0.0.0, 5.0.0.1, 5.0.0.2, 5.0.0.4, 5.0.0.5, 5.1.0.0, or 5.1.0.1**. Apply the common changes first, then the settings for your exact target version and enabled features.
+> This guide lists the configuration updates to review when upgrading **Akabot Center 4.0.0.14** to **5.0.0.0, 5.0.0.1, 5.0.0.2, 5.0.0.4, 5.0.0.5, 5.1.0.0, or 5.1.0.1**. Apply the common changes first, then the settings for your exact target version and enabled features.
 
 For server installation, software prerequisites, and moving data to a new Windows server, follow [Server Migration and Upgrade to 5.x](/docs/center/latest/installation/migrate-server-upgrade-5x.md).
 
