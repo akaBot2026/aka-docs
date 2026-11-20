@@ -219,7 +219,7 @@ There are two ways to deploy the extension by policy:
 
 - **Your own GPO.** Add the values of section 3 to your GPO (Chrome and Edge administrative templates). The native host must also be registered for the machine (section 3), which installing once in Policy mode from akaBot Studio or Commander does. For **Policy (Offline)**, the files of section 3.1 must also exist on each machine.
 
-The akaBot Platform setup can also install the extensions in User or Policy mode with the `/EXTMODE` parameter, for example `/EXTMODE=policy` or `/EXTMODE=edge-policy,chrome-policy`. Policy (Offline) is set from akaBot Studio or Commander.
+The akaBot Platform setup can also install the extensions in User, Policy or Policy (Offline) mode with the `/EXTMODE` parameter, for example `/EXTMODE=policy /VERYSILENT`, `/EXTMODE=policy-offline` or `/EXTMODE=edge-policy,chrome-user`. See [Install from Command Line](./install-akabot-platform-from-command-line.md).
 
 ## 7. Background processes
 
