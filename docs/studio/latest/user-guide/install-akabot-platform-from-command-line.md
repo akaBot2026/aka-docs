@@ -25,7 +25,7 @@ You do not need to be an expert. Follow the 4 steps below one by one.
 2. On the right, click **Run as administrator** (box **2**).
 3. If Windows asks *"Do you want to allow this app to make changes to your device?"*, click **Yes**.
 
-A black window opens. Its title starts with **Administrator:**.
+A black window opens. Its title starts with **Administrator:**
 
 ![Open the Command Prompt as administrator](/static/img/installer-cmd-step1-run-as-admin.png)
 

@@ -25,7 +25,7 @@ The Modern activities automate Microsoft Excel itself, so Microsoft Excel must b
 * Leaving **Reference as** empty restores the default name `Excel`.
 * To work with two workbooks in one workflow, nest two **Use Excel File** scopes and give them different **Reference as** names.
 
-Every Modern activity (all activities on these pages except the scope itself) must be placed inside a **Use Excel File** scope. Putting one directly inside the classic **Excel Application Scope** shows a validation error, because the classic scope does not publish a reference. Nesting a classic scope between the Use Excel File and the Modern activity is allowed.
+Every Modern activity (all activities on these pages except the two scopes, **Use Excel File** and **Excel Process Scope**) must be placed inside a **Use Excel File** scope. Putting one directly inside the classic **Excel Application Scope** shows a validation error, because the classic scope does not publish a reference. Nesting a classic scope between the Use Excel File and the Modern activity is allowed.
 
 ![The Use Excel File designer with the Excel file and Reference as fields and the "Do" drop zone](/static/img/excel-modern-about-scope.png)
 
@@ -41,7 +41,7 @@ The name published by the scope (here `Excel`) has the following methods. Each r
 | `Excel.Table("Sheet1", "Table1")` | The Excel table (ListObject) *Table1* on *Sheet1*. |
 | `Excel.Table("Table1")` | The table *Table1* on the sheet currently in context; *Sheet1* when there is none. |
 
-The arguments are ordinary expressions, so variables work too, e.g. `Excel.Sheet(sheetName)`. Sheet names are matched without regard to case. The sheet must already exist when the activity runs: the Modern activities do not create missing sheets.
+The arguments are ordinary expressions, so variables work too, e.g. `Excel.Sheet(sheetName)`. Sheet names are matched without regard to case. The sheet must already exist when the activity runs: the Modern activities do not create missing sheets. To add a sheet, use [Insert Sheet](./insert-sheet.md) or [Duplicate Sheet](./duplicate-sheet.md) first.
 
 The scope reference also exposes `Excel.FilePath` (the full path of the open workbook) and `Excel.Sheets` (the names of its worksheets).
 
@@ -97,6 +97,42 @@ A few Modern activities share a name with a classic one but behave differently:
 | [Run Spreadsheet Macro](./run-spreadsheet-macro.md) | Runs a macro in the workbook. |
 | [Save Excel File](./save-excel-file.md) | Saves the workbook. |
 | [Save Excel File As](./save-excel-file-as.md) | Saves the workbook as another file, optionally in another format. |
+| [Excel Process Scope](./excel-process-scope.md) | Starts or attaches to one Excel process with the given settings, for the Excel activities inside it. |
+| [Write Cell](./write-cell.md) | Enters a text or a formula in a cell. |
+| [Read Cell Value](./read-cell-value.md) | Reads the value of a cell. |
+| [Read Cell Formula](./read-cell-formula.md) | Reads the formula of a cell. |
+| [Get Cell Color](./get-cell-color.md) | Reads the background color of a cell. |
+| [Fill Range](./fill-range.md) | Writes one value into every cell of a range. |
+| [Autofit Range](./autofit-range.md) | Fits column widths and row heights to the data. |
+| [Format Range](./format-range.md) | Applies cell formats (number, currency, date and others) to a range. |
+| [Format as Table](./format-as-table.md) | Formats a range of cells as an Excel table. |
+| [Insert Sheet](./insert-sheet.md) | Inserts a new sheet in the workbook. |
+| [Delete Sheet](./delete-sheet.md) | Deletes a sheet from the workbook. |
+| [Duplicate Sheet](./duplicate-sheet.md) | Copies a sheet under a new name. |
+| [Insert Rows](./insert-rows.md) | Inserts rows in a sheet, range or table. |
+| [Delete Rows](./delete-rows.md) | Deletes rows from a sheet, range or table. |
+| [Insert Column](./insert-column.md) | Inserts a column in a sheet, range or table. |
+| [Delete Column](./delete-column.md) | Deletes a column from a sheet, range or table. |
+| [Sort](./sort.md) | Sorts a sheet, range or table by one or more columns. |
+| [Text to Columns](./text-to-columns.md) | Splits the text of a range into columns. |
+| [Lookup](./lookup.md) | Searches a range and returns the paired value from a result range. |
+| [VLookup](./vlookup.md) | Searches the first column of a range and returns a cell from the matching row. |
+| [Match Function](./match-function.md) | Returns the position of a value in a row or column. |
+| [Create Pivot Table](./create-pivot-table.md) | Creates a pivot table from a range or table. |
+| [Pivot Table Field](./pivot-table-field.md) | Moves a pivot table field into the row, column, filter or value position. |
+| [Filter Pivot Table](./filter-pivot-table.md) | Filters a pivot table on one column, or clears its filters. |
+| [Refresh Pivot Table](./refresh-pivot-table.md) | Updates the data of a pivot table. |
+| [Change Pivot Data Source](./change-pivot-data-source.md) | Changes the source range of a pivot table. |
+| [Insert Chart](./insert-chart.md) | Creates a chart from a data range. |
+| [Update Chart](./update-chart.md) | Changes the title, legend, data labels, axes or data range of a chart. |
+| [Get Chart](./get-chart.md) | Copies a chart to the clipboard or saves it as a picture. |
+| [Export to CSV](./export-to-csv.md) | Exports a sheet, range or table to a CSV file. |
+| [Save As PDF](./save-as-pdf.md) | Saves the workbook as a PDF file. |
+| [Get Selected Range](./get-selected-range.md) | Gets the range currently selected in the Excel file. |
+| [For Each Excel Row](./for-each-excel-row.md) | Runs its body once for each row of a sheet, range or table. |
+| [For Each Excel Sheet](./for-each-excel-sheet.md) | Runs its body once for each worksheet of the workbook. |
+
+The activities from **Excel Process Scope** to **For Each Excel Sheet** in this table are available from **RCA.Activities.Excel 3.5.0**.
 
 ## **Example: copy a sheet's data into a new sheet**
 
