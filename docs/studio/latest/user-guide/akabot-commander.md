@@ -12,6 +12,7 @@ displayed_sidebar: studioSidebar
 **Commander.exe** is the command-line tool that akaBot Studio uses behind **Options > Extensions**. IT administrators can run it directly to:
 
 - install, check and remove the akaBot Web Extension for Chrome, Edge and Firefox in **User**, **Policy** or **Policy (Offline)** mode, for example from a deployment script on many robot machines;
+- install, check and remove the akaBot **Remote Desktop** and **Citrix** extensions used by Studio and Robot to automate remote sessions;
 - turn the Java Access Bridge on or off;
 - manage Windows child sessions and start a program.
 
@@ -42,6 +43,8 @@ dir /b "C:\Program Files\FPT Software\akaBot Platform\akaBot\MV3"
 | `install-…` / `remove-…` with `--scope:user` | No. Run it as the Windows user who uses the browser — it changes that user's settings only. |
 | `install-…` / `remove-…` with `--scope:policy` or `--scope:policyoffline` | **Yes.** Open **Command Prompt** with **Run as administrator**. |
 | `status-…` | No |
+| `install-rdp` / `remove-rdp` / `status-rdp` | No. Run it as the Windows user who opens the Remote Desktop session. |
+| `install-citrix` / `remove-citrix` | **Yes** |
 | `install-java` / `remove-java` | Yes, when Java is installed in `C:\Program Files` |
 | `child-session --enable` / `--disable` | Yes |
 
@@ -192,7 +195,7 @@ Commander.exe remove-chrome --scope:policyoffline --id:pflniglmkbjhmlcpcgpnhnpic
 | `0` | Success | The command succeeded. For `status-…`: the extension is installed. |
 | `1` | CancelledByUser | You clicked **No** or **Cancel** in a confirmation dialog. Nothing was changed. |
 | `2` | UnexpectedError | The command failed; the reason is printed. Common causes: a policy scope run without administrator rights, a missing option, or a package file that does not exist. |
-| `6` | ExtensionNotInstalled | `status-…`: the extension is not installed, or its policy setup is incomplete. |
+| `6` | ExtensionNotInstalled | `status-…`: the extension is not installed, or its policy setup is incomplete. Also used by `status-rdp` and `status-citrix`. |
 | `10` | OperationNotSupported | Unknown command. |
 | `14` | MachineNotManaged | `--scope:policyoffline` on a machine that is not joined to a domain or enrolled in MDM. Nothing was changed. Use `--scope:policy`. |
 | `15` | StagingFailed | `--scope:policyoffline`: the package could not be copied to `C:\ProgramData\akaBot\Extensions`, or the package is not the akaBot extension for this `--id`, or `--version` is missing. |
@@ -244,3 +247,29 @@ Then run:
 ```bat
 Commander.exe run-program --path:"C:\Windows\System32\notepad.exe" --arguments:IkM6XFRlbXBccmVwb3J0LnR4dCI=
 ```
+
+### 7.4 Remote Desktop and Citrix extensions
+
+Registers the akaBot client extensions that Studio and Robot use to automate applications inside a Remote Desktop or Citrix session. Run these commands on the machine that **opens** the session. The remote machine needs akaBot Remote Runtime instead (see [Install akaBot Remote Runtime from the Command Line](./install-remote-runtime-from-command-line.md)).
+
+The Studio installer can run these commands for you with `/REMOTEEXT=rdp,citrix` (see [Install akaBot Platform from the Command Line](./install-akabot-platform-from-command-line.md#remote-desktop-and-citrix-extensions-remoteext)).
+
+| Command | Scope |
+|---|---|
+| `install-rdp [--root:<dir>] [--silent:true]` | The current Windows user (HKCU). No administrator rights. |
+| `remove-rdp` | The current Windows user. |
+| `status-rdp [--root:<dir>]` | Exit code `0`: installed. `6`: not installed. |
+| `install-citrix [--root:<dir>] [--silent:true]` | The whole machine, in Citrix Workspace app. Administrator. |
+| `remove-citrix` | The whole machine. Administrator. |
+| `status-citrix [--root:<dir>]` | Exit code `0` or `6`, and the state as `Key=Value` lines. |
+
+- `--root` is the folder that holds the `x64\` and `x86\` copies of the extension. By default: `RemoteRuntime\Client` (Remote Desktop) or `RemoteRuntime\Client\Citrix` (Citrix) in the Studio install folder.
+- These commands show no dialogs. `--silent` is accepted only so that the syntax matches the browser commands.
+
+Example:
+
+```bat
+"C:\Program Files\FPT Software\akaBot Platform\Commander.exe" install-rdp
+```
+
+The path above is an example. Use the folder where Studio is installed.

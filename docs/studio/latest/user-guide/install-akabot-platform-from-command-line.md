@@ -137,6 +137,27 @@ To use a different mode for each browser, write one Edge value and one Chrome va
 | ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE = policy` |
 | ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=edge-policy, chrome-user` |
 
+## Remote Desktop and Citrix extensions (/REMOTEEXT)
+
+To automate applications inside a Remote Desktop or Citrix session, the machine that **opens** the session (where Studio or Robot runs) needs the akaBot Remote Desktop or Citrix extension. The Studio installer always copies these extensions. `/REMOTEEXT` also registers them.
+
+The remote machine (the Remote Desktop host or Citrix VDA) needs **akaBot Remote Runtime**, which has its own installer. See [Install akaBot Remote Runtime from the Command Line](./install-remote-runtime-from-command-line.md).
+
+| Option | What it does |
+|---|---|
+| *(no `/REMOTEEXT`)* | Copies the extensions only (to `RemoteRuntime\Client\x86`, `\x64`, and `RemoteRuntime\Client\Citrix\x86`, `\x64` in the install folder). Nothing is registered. |
+| `/REMOTEEXT=rdp` | Registers the Remote Desktop extension for the user running setup, and for every other Windows user at their next sign-in (Active Setup). |
+| `/REMOTEEXT=citrix` | Registers the Citrix extension for the whole machine. Skipped if Citrix Workspace app is not installed. |
+| `/REMOTEEXT=rdp,citrix` | Both. |
+
+Example:
+
+```bat
+akaBotPlatform-3.3.0.0-x64.exe /VERYSILENT /SUPPRESSMSGBOXES /REMOTEEXT=rdp,citrix /LOG="C:\Temp\studio-setup.log"
+```
+
+You can also register or remove these extensions later from **Studio > Options > Extensions**, or with [akaBot Commander](./akabot-commander.md#74-remote-desktop-and-citrix-extensions) (`install-rdp`, `install-citrix`).
+
 ## Good to know
 
 - **Updating akaBot:** if you install a new version **without** `/EXTMODE`, the extension keeps the same mode as before. Add `/EXTMODE=...` only to change it.
