@@ -69,13 +69,15 @@ What this command does:
 - Installs akaBot **without showing any window** (`/VERYSILENT`).
 - Adds the akaBot extension to **Edge and Chrome for every user** of this computer (`/EXTMODE=policy`). The extension is **always on**, and users cannot turn it off or remove it.
 - **Closes Edge and Chrome automatically.**
-- Shows **no message boxes** (`/SUPPRESSMSGBOXES`). If something goes wrong, the error is written to the log file.
+- Shows **no message boxes** (`/SUPPRESSMSGBOXES`). If something goes wrong, the error is written to the log files (see the next point).
 - Does **not restart** the computer (`/NORESTART`).
-- Writes the installation log to `C:\Windows\Temp\akabot-setup.log` (`/LOG`). If the installation fails, this file shows why.
+- Writes the installation log to `C:\Windows\Temp\akabot-setup.log` (`/LOG`). The installer also writes a second log, about the akaBot service and the browser extension, to `C:\ProgramData\akaBot\Logs\<date>_Aka.RPA.InstallerV2.log` (for example `2026-11-22_Aka.RPA.InstallerV2.log`). If the installation fails, these **two log files** show why.
 
 ![Run the install command](/static/img/installer-cmd-step3-run-command.png)
 
 After you press **Enter**, nothing appears on the screen. This is normal. **Wait about 5 minutes**: the black window is ready again at once, but the installation keeps running in the background. It is finished when **akaBot** appears in the Start menu.
+
+> **If a message appears in the black window** (for example `Unknown option: /VERYSLIENT` or `Invalid value for /EXTMODE: "polcy"`), the command has a typo. The installer checks the command **before** it installs anything, so nothing was installed and nothing was changed. Correct the command and run it again. See [Typing rules](#typing-rules).
 
 ## Step 4. Check that the extension is installed
 
@@ -134,15 +136,44 @@ To use a different mode for each browser, write one Edge value and one Chrome va
 
 ### Typing rules
 
+- Start every option with `/`, not `-` (write `/VERYSILENT`, not `-VERYSILENT`).
 - Put **one space** before each `/`.
 - Do **not** put spaces around `=` or `,`.
-- If the value after `/EXTMODE=` is not in the list above (for example `/EXTMODE=normal`, or a typo such as `/EXTMODE=polcy`), the installer uses **User mode** and writes a warning in the log file you set with `/LOG` (in the recommended command: `C:\Windows\Temp\akabot-setup.log`).
+- Put a path with spaces in quotes: `/LOG="C:\My Logs\akabot-setup.log"`.
 
-| | Example |
-|---|---|
-| ✅ Correct | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="C:\Windows\Temp\akabot-setup.log"` |
-| ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE = policy` |
-| ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=edge-policy, chrome-user` |
+The installer checks the whole command **before** it installs anything. If an option name is misspelled (for example `/VERYSLIENT`), a value is not in the list (for example `/EXTMODE=polcy`), a value is missing (`/EXTMODE` alone), or there is a space where there should not be one, the installer **stops**:
+
+- It shows the problem and the list of supported options **in the black window** and in the log file set with `/LOG`.
+- It shows a **message box only when someone is there to close it**: when the installer was started without a command window (for example from a shortcut) and does not run silently. It never shows one when it runs silently (`/SILENT`, `/VERYSILENT`), as the SYSTEM account, or from a deployment tool (SCCM, Intune, Citrix or RDS image builds), so an unattended install never waits for a click.
+- It installs **nothing** and changes nothing. If an older akaBot is installed, it stays as it is.
+- It ends with **exit code 1**.
+
+**Example in the Command Prompt.** `polcy` is a typo for `policy`. The first line of the message says what is wrong (orange boxes), and the list below shows the options and values you can use:
+
+![Wrong command in the Command Prompt: the installer prints the error and the supported options](/static/img/installer-cmd-wrong-command-cmd.png)
+
+**Example in Windows PowerShell.** There is a space after the comma. PowerShell splits the value at the space, so the installer receives `chrome-user` as a separate word and reports it:
+
+![Wrong command in Windows PowerShell: the installer prints the error and the supported options](/static/img/installer-cmd-wrong-command-powershell.png)
+
+> **Note:** The Command Prompt and PowerShell do not wait for the installer, so the message can appear just after the next prompt line (`C:\Users\your-name\Downloads>`). This is normal.
+
+> **For scripts:** to wait for the installer and get its exit code (`0` = installed, `1` = wrong command or setup could not start), use `start /wait`:
+>
+> ```bat
+> start "" /wait akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="C:\Windows\Temp\akabot-setup.log"
+> echo %ERRORLEVEL%
+> ```
+
+| | Example | What the installer says |
+|---|---|---|
+| ✅ Correct | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="C:\Windows\Temp\akabot-setup.log"` | Installs |
+| ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=polcy` | `Invalid value for /EXTMODE: "polcy".` |
+| ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe /VERYSLIENT` | `Unknown option: /VERYSLIENT. Check the spelling.` |
+| ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe -VERYSILENT` | `Options start with "/", not "-": write /VERYSILENT instead of -VERYSILENT.` |
+| ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE = policy` | `/EXTMODE has no value. Write it as /EXTMODE=<value>, without spaces around "=".` |
+| ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=edge-policy, chrome-user` | Command Prompt: `Invalid value for /EXTMODE: "edge-policy,".`<br/>PowerShell: `Unknown command-line argument: "chrome-user".` |
+| ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe /VERYSILENT=yes` | `/VERYSILENT does not take a value. Write it without "=".` |
 
 ## Remote Desktop and Citrix extensions (/REMOTEEXT)
 
@@ -150,7 +181,7 @@ To automate applications inside a Remote Desktop or Citrix session, the machine 
 
 The remote machine (the Remote Desktop host or Citrix VDA) needs **akaBot Remote Runtime**, which has its own installer. See [Install akaBot Remote Runtime from the Command Line](./install-remote-runtime-from-command-line.md).
 
-> **Citrix:** a Citrix VDA also needs one setting in your Citrix policy (the **Virtual channel allow list**). Ask your Citrix administrator to add it. See [Citrix: allow the akaBot virtual channel](./install-remote-runtime-from-command-line.md#14-citrix-allow-the-akabot-virtual-channel).
+> **Citrix:** a Citrix VDA also needs an entry in the **Virtual channel allow list**. The Remote Runtime installer adds it on the VDA, but in a company where Citrix policies are managed centrally, the policy can remove it later. Ask your Citrix administrator to add it to the Citrix policy as well. See [Citrix: allow the akaBot virtual channel](./install-remote-runtime-from-command-line.md#14-citrix-allow-the-akabot-virtual-channel).
 
 | Option | What it does |
 |---|---|
@@ -180,9 +211,9 @@ You can also register or remove these extensions later from **Studio > Options >
 | *"... is not recognized as an internal or external command"* | You are not in the right folder, or the file name is different. Do Step 2 again and use the exact file name you see. |
 | *"Access is denied"* | Open the Command Prompt with **Run as administrator** (Step 1). |
 | The extension does not appear (policy mode) | Close the browser completely and open it again. The computer must be able to reach the Edge/Chrome store on the internet. If it cannot, use command **I** (policy offline). |
-| The extension is in User mode, but I asked for another mode | Check the spelling after `/EXTMODE=`. An unknown value installs User mode. The warning is in the log file you set with `/LOG` (in the recommended command: `C:\Windows\Temp\akabot-setup.log`). |
+| A message such as `Unknown option`, `Invalid value for ...`, or `... has no value` appears in the black window, or the installer ends with exit code `1` | The command has a typo. Nothing was installed. Compare your command with the supported options shown in the message, correct it, and run it again. See [Typing rules](#typing-rules). |
 | The extension does not appear (policy offline) | Policy offline works only on company-managed computers. Ask your IT team, or use command **D** instead. |
-| The installation fails or the extension does not appear, and no message is shown | The recommended command hides all message boxes (`/SUPPRESSMSGBOXES`), so errors are only in the log. Open `C:\Windows\Temp\akabot-setup.log` and look for the error. If you need help, send this file to akaBot support. |
+| The installation fails or the extension does not appear, and no message is shown | The recommended command hides all message boxes (`/SUPPRESSMSGBOXES`), so errors are only in the log files. Open both `C:\Windows\Temp\akabot-setup.log` and `C:\ProgramData\akaBot\Logs\<date>_Aka.RPA.InstallerV2.log` and look for the error. If you need help, send both files to akaBot support. |
 | I lost unsaved work in my browser | Silent commands (`/VERYSILENT`) close Edge and Chrome without asking. Save your work before you run them. |
 
 If it still does not work, contact your IT team or akaBot support and tell them **which command** you used.

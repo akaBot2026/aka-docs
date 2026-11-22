@@ -70,7 +70,7 @@ This installs Remote Runtime without a wizard, registers the Chrome extension in
 
 ### 1.4 Citrix: allow the akaBot virtual channel
 
-Since Citrix Virtual Apps and Desktops 7 2109, all custom virtual channels are blocked by default. For Remote Runtime to work in a Citrix session, add this entry to the Citrix policy **[Virtual channel allow list](https://docs.citrix.com/us/en/citrix-virtual-apps-desktops/current-release/policies/reference/ica-policy-settings/virtual-channel-allow-list-policy-settings.html)**:
+Since Citrix Virtual Apps and Desktops 7 2109, all custom virtual channels are blocked by default. For Remote Runtime to work in a Citrix session, the **[Virtual channel allow list](https://docs.citrix.com/us/en/citrix-virtual-apps-desktops/current-release/policies/reference/ica-policy-settings/virtual-channel-allow-list-policy-settings.html)** must contain this entry:
 
 ```text
 AKABOT,C:\Program Files\FPT Software\akaBot Remote Runtime\AkaBot.RemoteRuntime.Server.exe
@@ -78,11 +78,15 @@ AKABOT,C:\Program Files\FPT Software\akaBot Remote Runtime\AkaBot.RemoteRuntime.
 
 - The entry has the form `<channel name>,<path of the process that uses the channel>`. The channel name is `AKABOT`.
 - If you installed Remote Runtime in another folder (with `/DIR`), use the path of `AkaBot.RemoteRuntime.Server.exe` in that folder.
-- Restart the Citrix VDA after you change the policy.
+- Restart the Citrix VDA after the allow list changes.
 
-Remote Runtime does not change the Citrix policy of your organization. In an enterprise environment, the Citrix policy is managed in your Citrix environment, so ask your Citrix administrator to add the entry.
+**What the installer does.** On a Citrix VDA, the installer adds this entry to the allow list stored on the VDA itself (registry `HKLM\SOFTWARE\WOW6432Node\Policies\Citrix\VCPolicies`, value `VirtualChannelWhiteList`). It does this in both wizard and silent installs. If the allow list is turned off, or already contains the entry, nothing is changed. Uninstalling Remote Runtime leaves the allow list as it is.
 
-On a Citrix VDA, the setup wizard shows a reminder about this entry. A silent install (`/SILENT`, `/VERYSILENT`) does not show the reminder, so add the entry yourself.
+**In an enterprise environment, also ask your Citrix administrator.** When your company manages the allow list with a Citrix policy (from Citrix Studio or Group Policy), the next policy refresh replaces the list on the VDA with the list from the policy. The akaBot entry is then removed, for example after a restart or on the next day, and Remote Runtime stops working in Citrix sessions. To keep it, ask your Citrix administrator to add the entry above to the Citrix policy **Virtual channel allow list**.
+
+On a Citrix VDA, the setup wizard shows a reminder about this entry. A silent install (`/SILENT`, `/VERYSILENT`) does not show the reminder: the entry is still added on the VDA, but you still need to send it to your Citrix administrator.
+
+To check the entry later, run `runtime validate` of the [setup tool](#2-setup-tool-after-installation).
 
 ## 2. Setup tool (after installation)
 
@@ -128,5 +132,6 @@ Example: check the Chrome extension registered in policy mode.
 | No extension is registered for a browser | Check the spelling after `/EXTMODE=`. Write `policyoffline` without a hyphen. A value that is not recognized registers no extension for that browser. |
 | *"Extensions could not be registered"*, or exit code `3` | You used `policyoffline` on a machine that is not domain-joined or enrolled in MDM. Use `policy` or `user` instead. |
 | You want to check what is registered | Run `extension validate` of the [setup tool](#2-setup-tool-after-installation). It prints the reason for any failure. |
-| Remote Runtime does not work in a Citrix session | Check that the Citrix policy **Virtual channel allow list** contains the akaBot entry, and that the VDA was restarted after the change. See [Citrix: allow the akaBot virtual channel](#14-citrix-allow-the-akabot-virtual-channel). |
+| Remote Runtime does not work in a Citrix session | Run `runtime validate` to check the allow-list entry, and check that the VDA was restarted after the change. See [Citrix: allow the akaBot virtual channel](#14-citrix-allow-the-akabot-virtual-channel). |
+| Remote Runtime worked in Citrix after installation, but stopped working later (for example the next day) | Your company's Citrix policy replaced the allow list on the VDA and removed the akaBot entry. Ask your Citrix administrator to add the entry to the Citrix policy **Virtual channel allow list**, then restart the VDA. See [Citrix: allow the akaBot virtual channel](#14-citrix-allow-the-akabot-virtual-channel). |
 | A setup tool command fails because of missing rights | `runtime install`, `runtime validate`, and the `machine`, `policy` and `policyoffline` scopes need administrator rights. Run the command in an elevated window. |
