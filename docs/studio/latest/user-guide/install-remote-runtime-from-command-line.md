@@ -63,13 +63,26 @@ For what each mode writes, see [Browser Group Policies](./browser-group-policies
 In an elevated PowerShell window:
 
 ```powershell
-.\akaBotRemoteRuntime-3.3.0.0-x64.exe /VERYSILENT /SUPPRESSMSGBOXES /EXTMODE=chrome-policy,edge-user /LOG="C:\Temp\rr-setup.log"
+.\akaBotRemoteRuntime-3.3.0.0-x64.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /EXTMODE=chrome-policy,edge-user /LOG="C:\Windows\Temp\rr-setup.log"
 ```
 
-This installs Remote Runtime without a wizard, registers the Chrome extension in policy mode and the Edge extension in user mode, and writes the log to `C:\Temp\rr-setup.log`.
+This installs Remote Runtime without a wizard, registers the Chrome extension in policy mode and the Edge extension in user mode, does not restart the computer, and writes the log to `C:\Windows\Temp\rr-setup.log`.
 
-> **Citrix VDA:** a silent install does not show the allow-list message. Add this entry to the Citrix policy **Virtual channel allow list**, then restart the machine:
-> `AKABOT,C:\Program Files\FPT Software\akaBot Remote Runtime\AkaBot.RemoteRuntime.Server.exe` (use the install folder if you changed it with `/DIR`).
+### 1.4 Citrix: allow the akaBot virtual channel
+
+Since Citrix Virtual Apps and Desktops 7 2109, all custom virtual channels are blocked by default. For Remote Runtime to work in a Citrix session, add this entry to the Citrix policy **[Virtual channel allow list](https://docs.citrix.com/us/en/citrix-virtual-apps-desktops/current-release/policies/reference/ica-policy-settings/virtual-channel-allow-list-policy-settings.html)**:
+
+```text
+AKABOT,C:\Program Files\FPT Software\akaBot Remote Runtime\AkaBot.RemoteRuntime.Server.exe
+```
+
+- The entry has the form `<channel name>,<path of the process that uses the channel>`. The channel name is `AKABOT`.
+- If you installed Remote Runtime in another folder (with `/DIR`), use the path of `AkaBot.RemoteRuntime.Server.exe` in that folder.
+- Restart the Citrix VDA after you change the policy.
+
+Remote Runtime does not change the Citrix policy of your organization. In an enterprise environment, the Citrix policy is managed in your Citrix environment, so ask your Citrix administrator to add the entry.
+
+On a Citrix VDA, the setup wizard shows a reminder about this entry. A silent install (`/SILENT`, `/VERYSILENT`) does not show the reminder, so add the entry yourself.
 
 ## 2. Setup tool (after installation)
 
@@ -106,3 +119,14 @@ Example: check the Chrome extension registered in policy mode.
 | `1` | Failure. The reason is written to standard error. |
 | `2` | Invalid command line. |
 | `3` | `policyoffline` on a machine that is not domain-joined or enrolled in MDM. Use `policy` or `user` instead. |
+
+## 3. Troubleshooting
+
+| Problem | What to do |
+|---|---|
+| The installation fails, and no message is shown | `/SUPPRESSMSGBOXES` hides error messages. Open the log file you set with `/LOG` (for example `C:\Windows\Temp\rr-setup.log`) and look for the error. |
+| No extension is registered for a browser | Check the spelling after `/EXTMODE=`. Write `policyoffline` without a hyphen. A value that is not recognized registers no extension for that browser. |
+| *"Extensions could not be registered"*, or exit code `3` | You used `policyoffline` on a machine that is not domain-joined or enrolled in MDM. Use `policy` or `user` instead. |
+| You want to check what is registered | Run `extension validate` of the [setup tool](#2-setup-tool-after-installation). It prints the reason for any failure. |
+| Remote Runtime does not work in a Citrix session | Check that the Citrix policy **Virtual channel allow list** contains the akaBot entry, and that the VDA was restarted after the change. See [Citrix: allow the akaBot virtual channel](#14-citrix-allow-the-akabot-virtual-channel). |
+| A setup tool command fails because of missing rights | `runtime install`, `runtime validate`, and the `machine`, `policy` and `policyoffline` scopes need administrator rights. Run the command in an elevated window. |

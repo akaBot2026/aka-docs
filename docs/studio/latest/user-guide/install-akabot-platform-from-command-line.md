@@ -3,7 +3,7 @@ id: install-akabot-platform-from-command-line
 title: Install akaBot Platform from the Command Line
 sidebar_label: Install from Command Line
 sidebar_position: 4.4
-description: Install akaBot Platform with one command, step by step, and choose how the akaBot browser extension is added to Edge and Chrome.
+description: Install akaBot Platform with one command, step by step, choose how the akaBot browser extension is added to Edge and Chrome, and register the Remote Desktop and Citrix extensions.
 displayed_sidebar: studioSidebar
 ---
 
@@ -59,7 +59,7 @@ Copy the command below, paste it into the black window, and press **Enter**.
 **This is the recommended command:**
 
 ```bat
-akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT
+akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="C:\Windows\Temp\akabot-setup.log"
 ```
 
 > **Important:** If your file has a different name (for example `akaBotPlatform-3.4.0.0-x64.exe`), change the file name in the command to match the name you saw in Step 2.
@@ -67,8 +67,11 @@ akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT
 What this command does:
 
 - Installs akaBot **without showing any window** (`/VERYSILENT`).
-- Adds the akaBot extension to **Edge and Chrome for every user** of this computer (`/EXTMODE=policy`). The extension is **always on** and users cannot remove it by mistake.
+- Adds the akaBot extension to **Edge and Chrome for every user** of this computer (`/EXTMODE=policy`). The extension is **always on**, and users cannot turn it off or remove it.
 - **Closes Edge and Chrome automatically.**
+- Shows **no message boxes** (`/SUPPRESSMSGBOXES`). If something goes wrong, the error is written to the log file.
+- Does **not restart** the computer (`/NORESTART`).
+- Writes the installation log to `C:\Windows\Temp\akabot-setup.log` (`/LOG`). If the installation fails, this file shows why.
 
 ![Run the install command](/static/img/installer-cmd-step3-run-command.png)
 
@@ -102,7 +105,7 @@ The recommended command is **D**. Use another one only if you need it.
 | **A** | `akaBotPlatform-3.3.0.0-x64.exe` | User mode | "Install the extension?" and "Close the browsers?" |
 | **B** | `akaBotPlatform-3.3.0.0-x64.exe /VERYSILENT` | User mode | None. Browsers are closed automatically. |
 | **C** | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy` | Policy mode | Only "Close the browsers?" |
-| **D** ⭐ | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT` | Policy mode | None. Browsers are closed automatically. **(Recommended)** |
+| **D** ⭐ | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="C:\Windows\Temp\akabot-setup.log"` | Policy mode | None. Browsers are closed automatically. No restart. The log is written to `C:\Windows\Temp\akabot-setup.log`. **(Recommended)** |
 | **E** | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=user` | User mode | Only "Close the browsers?" |
 | **F** | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=edge-policy,chrome-user` | Edge: policy mode<br/>Chrome: user mode | Only "Close the browsers?" |
 | **G** | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=none` | No extension | None about the extension |
@@ -111,6 +114,8 @@ The recommended command is **D**. Use another one only if you need it.
 | **J** | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=chrome-policy-offline,edge-user` | Chrome: policy offline<br/>Edge: user mode | Only "Close the browsers?" |
 
 > **Note:** With **G** (no extension), robots cannot automate websites in Edge or Chrome. Use it only if you do not automate browsers.
+
+> **Tip:** The other silent commands (**B** and **I**) can use the same extra options as **D**: `/SUPPRESSMSGBOXES /NORESTART /LOG="C:\Windows\Temp\akabot-setup.log"`. They hide error messages and keep a log file, which is useful when you install on many computers.
 
 ### Values you can use after `/EXTMODE=`
 
@@ -125,15 +130,17 @@ The recommended command is **D**. Use another one only if you need it.
 
 To use a different mode for each browser, write one Edge value and one Chrome value separated by a comma, **without spaces**. For example: `/EXTMODE=edge-policy,chrome-user`.
 
+> **Note:** Write `policy-offline` **with a hyphen** for this installer. The Remote Runtime installer uses a different spelling (`policyoffline`, without a hyphen). See [Install akaBot Remote Runtime from the Command Line](./install-remote-runtime-from-command-line.md#11-extmode-browser-extensions).
+
 ### Typing rules
 
 - Put **one space** before each `/`.
 - Do **not** put spaces around `=` or `,`.
-- If the value after `/EXTMODE=` is not in the list above (for example `/EXTMODE=normal`, or a typo such as `/EXTMODE=polcy`), the installer uses **User mode** and writes a warning in the installer log: `C:\ProgramData\akaBot\Logs\<date>_Aka.RPA.InstallerV2.log` (for example `2026-11-20_Aka.RPA.InstallerV2.log`).
+- If the value after `/EXTMODE=` is not in the list above (for example `/EXTMODE=normal`, or a typo such as `/EXTMODE=polcy`), the installer uses **User mode** and writes a warning in the log file you set with `/LOG` (in the recommended command: `C:\Windows\Temp\akabot-setup.log`).
 
 | | Example |
 |---|---|
-| ✅ Correct | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT` |
+| ✅ Correct | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="C:\Windows\Temp\akabot-setup.log"` |
 | ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE = policy` |
 | ❌ Wrong | `akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=edge-policy, chrome-user` |
 
@@ -142,6 +149,8 @@ To use a different mode for each browser, write one Edge value and one Chrome va
 To automate applications inside a Remote Desktop or Citrix session, the machine that **opens** the session (where Studio or Robot runs) needs the akaBot Remote Desktop or Citrix extension. The Studio installer always copies these extensions. `/REMOTEEXT` also registers them.
 
 The remote machine (the Remote Desktop host or Citrix VDA) needs **akaBot Remote Runtime**, which has its own installer. See [Install akaBot Remote Runtime from the Command Line](./install-remote-runtime-from-command-line.md).
+
+> **Citrix:** a Citrix VDA also needs one setting in your Citrix policy (the **Virtual channel allow list**). Ask your Citrix administrator to add it. See [Citrix: allow the akaBot virtual channel](./install-remote-runtime-from-command-line.md#14-citrix-allow-the-akabot-virtual-channel).
 
 | Option | What it does |
 |---|---|
@@ -153,7 +162,7 @@ The remote machine (the Remote Desktop host or Citrix VDA) needs **akaBot Remote
 Example:
 
 ```bat
-akaBotPlatform-3.3.0.0-x64.exe /VERYSILENT /SUPPRESSMSGBOXES /REMOTEEXT=rdp,citrix /LOG="C:\Temp\studio-setup.log"
+akaBotPlatform-3.3.0.0-x64.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /REMOTEEXT=rdp,citrix /LOG="C:\Windows\Temp\akabot-setup.log"
 ```
 
 You can also register or remove these extensions later from **Studio > Options > Extensions**, or with [akaBot Commander](./akabot-commander.md#74-remote-desktop-and-citrix-extensions) (`install-rdp`, `install-citrix`).
@@ -169,10 +178,11 @@ You can also register or remove these extensions later from **Studio > Options >
 | Problem | What to do |
 |---|---|
 | *"... is not recognized as an internal or external command"* | You are not in the right folder, or the file name is different. Do Step 2 again and use the exact file name you see. |
-| *"Access is denied"*, or the install fails | Open the Command Prompt with **Run as administrator** (Step 1). |
+| *"Access is denied"* | Open the Command Prompt with **Run as administrator** (Step 1). |
 | The extension does not appear (policy mode) | Close the browser completely and open it again. The computer must be able to reach the Edge/Chrome store on the internet. If it cannot, use command **I** (policy offline). |
-| The extension is in User mode, but I asked for another mode | Check the spelling after `/EXTMODE=`. An unknown value installs User mode. The warning is in `C:\ProgramData\akaBot\Logs\<date>_Aka.RPA.InstallerV2.log`. |
+| The extension is in User mode, but I asked for another mode | Check the spelling after `/EXTMODE=`. An unknown value installs User mode. The warning is in the log file you set with `/LOG` (in the recommended command: `C:\Windows\Temp\akabot-setup.log`). |
 | The extension does not appear (policy offline) | Policy offline works only on company-managed computers. Ask your IT team, or use command **D** instead. |
+| The installation fails or the extension does not appear, and no message is shown | The recommended command hides all message boxes (`/SUPPRESSMSGBOXES`), so errors are only in the log. Open `C:\Windows\Temp\akabot-setup.log` and look for the error. If you need help, send this file to akaBot support. |
 | I lost unsaved work in my browser | Silent commands (`/VERYSILENT`) close Edge and Chrome without asking. Save your work before you run them. |
 
 If it still does not work, contact your IT team or akaBot support and tell them **which command** you used.
