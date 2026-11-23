@@ -58,8 +58,6 @@ Allow the following outbound connections on the firewall or proxy. akaBot does n
 | `https://www.nuget.org` | TCP 443 (HTTPS) | Studio | Package information and links | Optional |
 | `https://azuresearch-usnc.nuget.org`, `https://azuresearch-ussc.nuget.org` | TCP 443 (HTTPS) | Studio | Package search in Studio Package Manager | Yes, for package search |
 
-If the package feeds cannot be allowed, give Studio and Agent the packages from a folder instead: see [Fallback package folders](./package-folders.md#fallback-package-folders).
-
 **Browser extension (Policy mode)**
 
 | Domain | Port | Used by | Purpose |
