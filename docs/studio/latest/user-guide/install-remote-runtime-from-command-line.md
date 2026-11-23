@@ -49,7 +49,11 @@ Then check that the installer is there. Copy, paste, and press **Enter**:
 dir akaBotRemoteRuntime*.exe
 ```
 
-You should see the installer file name in the list. Remember this exact name for Step 3.
+You should see the installer file name in the list (orange box). Remember this exact name for Step 3.
+
+In the picture, `your-name` is where your own Windows user name appears.
+
+![Go to the Downloads folder and find the Remote Runtime installer](/static/img/installer-rr-step2-downloads-folder.png)
 
 > **Tip:** If you saved the installer somewhere else, change the folder in the first line. For example, for `D:\Setup`:
 > `cd /d "D:\Setup"`
@@ -75,6 +79,8 @@ What this command does:
 - Writes the installation log to `C:\Windows\Temp\akabot-rr-setup.log` (`/LOG`). If the installation fails, this file shows why.
 - On a Citrix VDA, also adds the akaBot entry to the Citrix **Virtual channel allow list** on this machine. In a company that manages Citrix policies centrally, ask your Citrix administrator to add it to the Citrix policy too: see [Citrix: allow the akaBot virtual channel](#14-citrix-allow-the-akabot-virtual-channel).
 
+![Run the Remote Runtime install command](/static/img/installer-rr-step3-run-command.png)
+
 Unlike the akaBot Platform installer, the Remote Runtime installer does **not** close Edge and Chrome.
 
 After you press **Enter**, nothing appears on the screen. This is normal. **Wait about 1 minute**: the black window is ready again at once, but the installation keeps running in the background. It is finished when **akaBot Remote Runtime** appears in **Settings > Apps > Installed apps**.
@@ -98,13 +104,17 @@ After you press **Enter**, nothing appears on the screen. This is normal. **Wait
    "C:\Program Files\FPT Software\akaBot Remote Runtime\Setup\AkaBot.RemoteRuntime.Setup.exe" extension validate --type chrome,edge --scope policy
    ```
 
-   No error means the Chrome and Edge extensions are registered in policy mode.
+   It prints `Remote Runtime validation passed.` when the Chrome and Edge extensions are registered in policy mode. Otherwise it prints the reason.
 
 2. Check the sign-in task (and, on a Citrix VDA, the allow-list entry):
 
    ```bat
    "C:\Program Files\FPT Software\akaBot Remote Runtime\Setup\AkaBot.RemoteRuntime.Setup.exe" runtime validate
    ```
+
+   It also prints `Remote Runtime validation passed.` when everything is in place.
+
+   ![Check the Remote Runtime installation: both checks print "Remote Runtime validation passed."](/static/img/installer-rr-step4-check.png)
 
 3. In a Remote Desktop or Citrix session on this machine, open **Edge** or **Chrome**, go to `edge://extensions` or `chrome://extensions`, and check that **akaBot** is in the list with a small **briefcase icon** next to its switch. The first time, the extension can take **a minute** to appear. If you do not see it, close the browser completely and open it again.
 
@@ -194,6 +204,10 @@ What the installer does with a mistake:
 | Misspelled or unknown option name | `/VERYSLIENT`, `/EXTMOD=policy` | Setup **stops before it installs anything** with exit code `1`. The message `Unsupported option: ...` is written to the log and shown in a message box (not with `/SUPPRESSMSGBOXES`). Run the installer with `/HELP` to see the supported options. |
 | Wrong value after `/EXTMODE=` | `/EXTMODE=polcy`, `/EXTMODE=policy-offline` | Setup installs Remote Runtime but registers **no** extension for that browser, without a message. Check the spelling. Write `policyoffline` without a hyphen. |
 | A browser extension or the sign-in task cannot be registered | `/EXTMODE=policyoffline` on a machine that is not domain-joined | Setup finishes, but ends with exit code `10`. The reason is written to the log and shown in a message box (not with `/SUPPRESSMSGBOXES`). |
+
+For example, `akaBotRemoteRuntime-3.3.0.0-x64.exe /VERYSLIENT /EXTMODE=policy /LOG="C:\Windows\Temp\akabot-rr-setup.log"` (without `/SUPPRESSMSGBOXES`) shows this message and installs nothing. With `/SUPPRESSMSGBOXES`, the same text is only in the log file.
+
+![Unsupported option: the Remote Runtime installer stops and names the wrong option](/static/img/installer-rr-wrong-option-message.png)
 
 | | Example |
 |---|---|
