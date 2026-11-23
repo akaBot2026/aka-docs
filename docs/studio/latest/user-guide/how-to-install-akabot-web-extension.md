@@ -145,6 +145,8 @@ In Policy mode, Akabot:
 
 For the exact values, see [Browser Group Policies](./browser-group-policies.md#3-policies-akabot-writes-chrome-and-edge).
 
+To install akaBot and the extension together with one command (for example `/EXTMODE=policy /VERYSILENT`), see [Install from Command Line](./install-akabot-platform-from-command-line.md).
+
 To install the extension on many machines without opening Akabot Studio, use the command line: see [akaBot Commander (Command Line)](./akabot-commander.md).
 
 ## 7. Install in Policy (Offline) mode
