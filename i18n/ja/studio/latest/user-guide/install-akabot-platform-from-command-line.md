@@ -140,6 +140,11 @@ akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT /SUPPRESSMSGBOXES /NO
 - 各 `/` の前には **スペースを 1 つ** 入れます。
 - `=` や `,` の前後にスペースを **入れません**。
 - スペースを含むパスは引用符で囲みます: `/LOG="C:\My Logs\akabot-setup.log"`
+- 複数の値は **カンマ** だけで区切ります (`;` は使えません): `/EXTMODE=edge-policy,chrome-user`、`/REMOTEEXT=rdp,citrix`
+
+> **ヒント:** インストーラーで使用できるすべてのオプションを確認するには、`/HELP` を付けて実行します。
+> `akaBotPlatform-3.3.0.0-x64.exe /HELP`
+> ウィンドウに標準のオプションが表示され、最後に akaBot のオプション (`/EXTMODE`、`/REMOTEEXT`) とその値が表示されます。何もインストールされません。
 
 インストーラーは、何かをインストールする **前に** コマンド全体を確認します。オプション名のスペルが間違っている (たとえば `/VERYSLIENT`)、値が一覧にない (たとえば `/EXTMODE=polcy`)、値がない (`/EXTMODE` だけ)、または入れてはいけない場所にスペースがある場合、インストーラーは **停止します**:
 

@@ -140,6 +140,11 @@ To use a different mode for each browser, write one Edge value and one Chrome va
 - Put **one space** before each `/`.
 - Do **not** put spaces around `=` or `,`.
 - Put a path with spaces in quotes: `/LOG="C:\My Logs\akabot-setup.log"`.
+- Separate several values with a **comma** only (not `;`): `/EXTMODE=edge-policy,chrome-user`, `/REMOTEEXT=rdp,citrix`.
+
+> **Tip:** To see every option the installer accepts, run it with `/HELP`:
+> `akaBotPlatform-3.3.0.0-x64.exe /HELP`
+> A window lists the standard options, and at the end the akaBot options (`/EXTMODE`, `/REMOTEEXT`) with their values. Nothing is installed.
 
 The installer checks the whole command **before** it installs anything. If an option name is misspelled (for example `/VERYSLIENT`), a value is not in the list (for example `/EXTMODE=polcy`), a value is missing (`/EXTMODE` alone), or there is a space where there should not be one, the installer **stops**:
 
