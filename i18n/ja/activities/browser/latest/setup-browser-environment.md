@@ -14,7 +14,7 @@ displayed_sidebar: activitiesSidebar
 **注:**
 akaBot Studio を使用して Web ブラウザ（Chrome、Edge、Firefox）を自動化するには、主に 2 つのコンポーネントを構成する必要があります:
 1. **WebDriver (例: ChromeDriver、EdgeDriver)**: ロボットがブラウザを起動・制御できるようにします（本ガイドで設定）。
-2. **akaBot Web Extension**: ロボットが Web 要素を検出・操作できるようにします。設定方法については [akaBot Web 拡張機能 インストールガイド](/i18n/ja/studio/latest/user-guide/how-to-install-akabot-web-extension.md) を参照してください。
+2. **akaBot Web Extension**: ロボットが Web 要素を検出・操作できるようにします。設定方法については [akaBot Web 拡張機能 インストールガイド](/i18n/ja/studio/latest/installation/how-to-install-akabot-web-extension.md) を参照してください。
 
 Chrome または Edge を使用して akaBot Studio で Web ベースのフローを自動化する際、インストールされているブラウザが自動更新されると、WebDriver の不一致エラー（例: `SessionNotCreatedException`）が発生することがあります。
 
@@ -106,4 +106,4 @@ Chrome または Edge を使用して akaBot Studio で Web ベースのフロ�
 
 WebDriver をセットアップした後、Web ページ上の要素の検出と対話を可能にするために、**akaBot Web Extension** をインストールする必要があります。拡張機能がない場合、akaBot Studio は設計時に要素をハイライトまたはキャプチャできません。
 
-お使いのブラウザに合わせて拡張機能をインストールおよび有効化する手順については、[akaBot Web 拡張機能 インストールガイド](/i18n/ja/studio/latest/user-guide/how-to-install-akabot-web-extension.md) を参照してください。
+お使いのブラウザに合わせて拡張機能をインストールおよび有効化する手順については、[akaBot Web 拡張機能 インストールガイド](/i18n/ja/studio/latest/installation/how-to-install-akabot-web-extension.md) を参照してください。

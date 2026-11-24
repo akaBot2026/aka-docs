@@ -2,7 +2,7 @@
 id: how-to-install-akabot-web-extension
 title: "Akabot Web 拡張機能をインストールする方法"
 sidebar_label: "Akabot Web 拡張機能をインストールする方法"
-sidebar_position: 4
+sidebar_position: 10
 description: "Akabot Studio を使用して、自動化ワークフローを視覚的に設計、構築、テストします。"
 displayed_sidebar: studioSidebar
 ---
@@ -36,7 +36,7 @@ Akabot Studio は 3 つのモードで拡張機能をインストールできま
 
 - **Policy** と **ポリシー (オフライン)** モードでは、拡張機能は強制インストールされます。自動的にオンになり、ユーザーはオフにしたり削除したりできません。
 - **ポリシー (オフライン)** には管理対象のコンピューター (Active Directory ドメインに参加しているか、Intune などのデバイス管理 (MDM) に登録されているコンピューター) が必要です。Chrome は Chrome Browser Cloud Management も受け入れます。それ以外のコンピューターでは、Chrome と Edge はストア以外から強制インストールされた拡張機能を無視します。
-- Akabot が書き込むポリシーと、拡張機能をブロックする可能性があるポリシーについては、[ブラウザーのグループ ポリシー](./browser-group-policies.md) を参照してください。
+- Akabot が書き込むポリシーと、拡張機能をブロックする可能性があるポリシーについては、[ブラウザーのグループ ポリシー](../user-guide/browser-group-policies.md) を参照してください。
 
 ## 3. Google Chrome 用の Akabot 拡張機能をインストールする
 ### 3.1 Akabot Studio からインストールを起動する
@@ -141,9 +141,9 @@ Policy モードでは、Akabot は次の処理を行います。
 - Akabot 拡張機能に対してのみ開発者ツールを許可します (`DeveloperToolsAvailabilityAllowlist` / `DeveloperToolsAvailabilityBlocklist`、Chrome と Edge)。
 - 2 つのインストールが競合しないように、現在のユーザーの User モードのインストールがあれば削除します。
 
-正確な値については、[ブラウザーのグループ ポリシー](./browser-group-policies.md#3-policies-akabot-writes-chrome-and-edge) を参照してください。
+正確な値については、[ブラウザーのグループ ポリシー](../user-guide/browser-group-policies.md#3-policies-akabot-writes-chrome-and-edge) を参照してください。
 
-Akabot Studio を開かずに多数のコンピューターに拡張機能をインストールするには、コマンド ラインを使用します。[akaBot Commander (コマンド ライン)](./akabot-commander.md) を参照してください。
+Akabot Studio を開かずに多数のコンピューターに拡張機能をインストールするには、コマンド ラインを使用します。[akaBot Commander (コマンド ライン)](../user-guide/akabot-commander.md) を参照してください。
 
 ## 7. ポリシー (オフライン) モードでインストールする \{#7-install-in-policy-offline-mode}
 Chrome ウェブストアや Edge アドオンにアクセスできない管理対象のコンピューター (ドメイン参加または MDM 登録済み) で、このモードを使用します (閉じたネットワーク内のロボット コンピューターなど)。**Chrome** と **Edge** で使用できます。
@@ -176,9 +176,9 @@ Akabot は Policy モードと同じポリシーを書き込みますが、ス�
 
 ## 8. 状態を確認し、モードを切り替える \{#8-check-the-status-and-switch-the-mode}
 - **更新:** Akabot Studio の外で拡張機能をインストールまたは変更した場合 (グループ ポリシーなど)、**拡張機能** ページの **更新** をクリックして現在の状態を確認します。
-- **ポリシーのセットアップが未完了:** 組織がグループ ポリシーで拡張機能を強制インストールしているものの、必要なポリシーの一部が不足している場合、ブラウザーの下に「*この拡張機能は組織によって追加されていますが、セットアップが完了していないため Indicate が動作しません。*」と表示されます。**[インストール]** (管理者権限が必要) をクリックして、不足している値を追加します。値が繰り返し消える場合は、グループ ポリシーによってリセットされています。[ブラウザーのグループ ポリシー](./browser-group-policies.md) の値を IT 管理者に渡してください。
+- **ポリシーのセットアップが未完了:** 組織がグループ ポリシーで拡張機能を強制インストールしているものの、必要なポリシーの一部が不足している場合、ブラウザーの下に「*この拡張機能は組織によって追加されていますが、セットアップが完了していないため Indicate が動作しません。*」と表示されます。**[インストール]** (管理者権限が必要) をクリックして、不足している値を追加します。値が繰り返し消える場合は、グループ ポリシーによってリセットされています。[ブラウザーのグループ ポリシー](../user-guide/browser-group-policies.md) の値を IT 管理者に渡してください。
 
   ![ポリシーのセットアップが未完了の警告](/static/img/studio-extension-policy-incomplete.png)
 
 - **Policy とポリシー (オフライン) の切り替え:** もう一方のモードを選択し、**[インストール]** をクリックします。拡張機能が既にもう一方のモードで強制インストールされている場合は、ポリシー エントリを置き換える前に確認が表示されます。
-- **Indicate がブラウザーにアクセスできない:** Akabot Studio はブラウザー環境チェックを開き、インストール モードと検出された問題を表示し、可能な場合は修正します。[ブラウザーのグループ ポリシー](./browser-group-policies.md#8-browser-environment-check) を参照してください。
+- **Indicate がブラウザーにアクセスできない:** Akabot Studio はブラウザー環境チェックを開き、インストール モードと検出された問題を表示し、可能な場合は修正します。[ブラウザーのグループ ポリシー](../user-guide/browser-group-policies.md#8-browser-environment-check) を参照してください。

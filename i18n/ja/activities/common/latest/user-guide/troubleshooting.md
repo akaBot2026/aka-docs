@@ -53,7 +53,7 @@ Web アプリケーション（Chrome、Edge、Firefox）の自動化では、�
 ### 1. akaBot Web 拡張機能とネイティブホスト
 - **Web 拡張機能の状態:** **akaBot Web 拡張機能** がインストール済みで有効になっており、プライベートセッションを自動化する場合はシークレット/InPrivate モードで許可されていることを確認します。
 - **ネイティブホスト通信:** akaBot は `Aka.RPA.NativeMessagingHost` を介してブラウザーと通信します。企業のウイルス対策ソフトまたはグループポリシーがネイティブメッセージングホストをブロックしている場合、ロボットはタブと対話できません。
-- セットアップ手順については、[akaBot Web 拡張機能インストール ガイド](/docs/studio/latest/user-guide/how-to-install-akabot-web-extension.md) を参照してください。
+- セットアップ手順については、[akaBot Web 拡張機能インストール ガイド](/docs/studio/latest/installation/how-to-install-akabot-web-extension.md) を参照してください。
 
 ### 2. ブラウザーの種類の不一致
 - **Open Browser** および **Attach Browser** で、**Browser Type** プロパティが起動またはアタッチするブラウザーの実行ファイル（`Chrome`、`Edge`、`Firefox`、`IE`）と一致していることを確認します。

@@ -14,7 +14,7 @@ Step-by-step instructions to configure ChromeDriver / EdgeDriver for akaBot Stud
 **Note:**
 To automate web browsers (Chrome, Edge, Firefox) using akaBot Studio, you need to configure two main components:
 1. **WebDriver (e.g. ChromeDriver, EdgeDriver)**: Enables the robot to launch and control the browser (configured in this guide).
-2. **akaBot Web Extension**: Enables the robot to detect and interact with web elements. See the [akaBot Web Extension Installation Guide](/docs/studio/latest/user-guide/how-to-install-akabot-web-extension.md) to set this up.
+2. **akaBot Web Extension**: Enables the robot to detect and interact with web elements. See the [akaBot Web Extension Installation Guide](/docs/studio/latest/installation/how-to-install-akabot-web-extension.md) to set this up.
 
 When automating web-based flows in akaBot Studio using Chrome or Edge, your automation might throw WebDriver mismatch errors (e.g., `SessionNotCreatedException`) if your installed web browser has updated automatically. 
 
@@ -108,4 +108,4 @@ To solve this, follow these steps to manually update and configure the browser d
 
 After setting up the WebDriver, you must install the **akaBot Web Extension** to enable element detection and interaction on web pages. Without the extension, akaBot Studio cannot highlight or capture elements during design time.
 
-For step-by-step instructions on installing and enabling the extension for your browser, see the [akaBot Web Extension Installation Guide](/docs/studio/latest/user-guide/how-to-install-akabot-web-extension.md).
+For step-by-step instructions on installing and enabling the extension for your browser, see the [akaBot Web Extension Installation Guide](/docs/studio/latest/installation/how-to-install-akabot-web-extension.md).

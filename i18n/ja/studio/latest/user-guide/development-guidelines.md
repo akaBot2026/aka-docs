@@ -100,7 +100,7 @@ Web サイトを自動化するには、ブラウザーに akaBot Web Extension 
 
 ![オプション > 拡張機能から akaBot 拡張機能をインストールする](/static/img/9453eb_1773283802504-331.png)
 
-詳細な手順については、[akaBot Web Extension のインストール方法](./how-to-install-akabot-web-extension.md)を参照してください。
+詳細な手順については、[akaBot Web Extension のインストール方法](../installation/how-to-install-akabot-web-extension.md)を参照してください。
 
 Java アプリケーションを自動化するには、Java Access Bridge をインストールして有効にします。[Java Access Bridge のインストールと有効化](/docs/activities/java/latest/introduction.md)を参照してください。
 
