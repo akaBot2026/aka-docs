@@ -1,8 +1,8 @@
 ---
 id: install-akabot-platform-from-command-line
 title: Install akaBot Platform from the Command Line
-sidebar_label: Install from Command Line
-sidebar_position: 4.4
+sidebar_label: Install Akabot Platform from Command Line
+sidebar_position: 11
 description: Install akaBot Platform with one command, step by step, choose how the akaBot browser extension is added to Edge and Chrome, and register the Remote Desktop and Citrix extensions.
 displayed_sidebar: studioSidebar
 ---
@@ -201,13 +201,13 @@ Example:
 akaBotPlatform-3.3.0.0-x64.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /REMOTEEXT=rdp,citrix /LOG="C:\Windows\Temp\akabot-setup.log"
 ```
 
-You can also register or remove these extensions later from **Studio > Options > Extensions**, or with [akaBot Commander](./akabot-commander.md#74-remote-desktop-and-citrix-extensions) (`install-rdp`, `install-citrix`).
+You can also register or remove these extensions later from **Studio > Options > Extensions**, or with [akaBot Commander](../user-guide/akabot-commander.md#74-remote-desktop-and-citrix-extensions) (`install-rdp`, `install-citrix`).
 
 ## Good to know
 
 - **Updating akaBot:** if you install a new version **without** `/EXTMODE`, the extension keeps the same mode as before. Add `/EXTMODE=...` only to change it.
 - **Uninstalling akaBot** removes the extension that the installer added, in the same mode. An extension you added yourself in another way (for example from Studio > Options > Extensions, in another mode) must be removed the same way.
-- For details about policy mode, see [How to Install Akabot Web Extension](./how-to-install-akabot-web-extension.md) and [Browser Group Policies](./browser-group-policies.md).
+- For details about policy mode, see [How to Install Akabot Web Extension](./how-to-install-akabot-web-extension.md) and [Browser Group Policies](../user-guide/browser-group-policies.md).
 
 ## Troubleshooting
 

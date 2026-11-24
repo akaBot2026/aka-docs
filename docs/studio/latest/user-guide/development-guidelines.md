@@ -100,7 +100,7 @@ To automate websites, install the akaBot Web Extension for your browser. akaBot 
 
 ![Install the akaBot extension from Options > Extensions](/static/img/9453eb_1773283802504-331.png)
 
-For the full steps, see [How to install Akabot Web Extension](./how-to-install-akabot-web-extension.md).
+For the full steps, see [How to install Akabot Web Extension](../installation/how-to-install-akabot-web-extension.md).
 
 To automate Java applications, install and enable Java Access Bridge. See [Install and Enable Java Access Bridge](/docs/activities/java/latest/introduction.md).
 

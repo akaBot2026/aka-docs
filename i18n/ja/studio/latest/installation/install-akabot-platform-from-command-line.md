@@ -1,8 +1,8 @@
 ---
 id: install-akabot-platform-from-command-line
 title: "コマンド ラインから akaBot Platform をインストールする"
-sidebar_label: "コマンド ラインからインストール"
-sidebar_position: 4.4
+sidebar_label: "コマンド ラインから Akabot Platform をインストール"
+sidebar_position: 11
 description: "1 つのコマンドで akaBot Platform を手順どおりにインストールし、Edge と Chrome への akaBot ブラウザー拡張機能の追加方法を選び、リモート デスクトップと Citrix の拡張機能を登録します。"
 displayed_sidebar: studioSidebar
 ---
@@ -203,13 +203,13 @@ akaBotPlatform-3.3.0.0-x64.exe /EXTMODE=policy /VERYSILENT /SUPPRESSMSGBOXES /NO
 akaBotPlatform-3.3.0.0-x64.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /REMOTEEXT=rdp,citrix /LOG="C:\Windows\Temp\akabot-setup.log"
 ```
 
-これらの拡張機能は、後から **Studio > オプション > 拡張機能** または [akaBot Commander](./akabot-commander.md) (`install-rdp`、`install-citrix`) で登録・削除することもできます。
+これらの拡張機能は、後から **Studio > オプション > 拡張機能** または [akaBot Commander](../user-guide/akabot-commander.md) (`install-rdp`、`install-citrix`) で登録・削除することもできます。
 
 ## 知っておくと便利なこと \{#good-to-know}
 
 - **akaBot の更新:** `/EXTMODE` を **指定せずに** 新しいバージョンをインストールすると、拡張機能は以前と同じモードのままになります。モードを変更する場合にだけ `/EXTMODE=...` を指定してください。
 - **akaBot のアンインストール** では、インストーラーが追加した拡張機能が同じモードで削除されます。別の方法で (たとえば Studio > オプション > 拡張機能 から別のモードで) 自分で追加した拡張機能は、同じ方法で削除する必要があります。
-- Policy モードの詳細は、[Akabot Web 拡張機能をインストールする方法](./how-to-install-akabot-web-extension.md) と [ブラウザーのグループ ポリシー](./browser-group-policies.md) を参照してください。
+- Policy モードの詳細は、[Akabot Web 拡張機能をインストールする方法](./how-to-install-akabot-web-extension.md) と [ブラウザーのグループ ポリシー](../user-guide/browser-group-policies.md) を参照してください。
 
 ## トラブルシューティング \{#troubleshooting}
 

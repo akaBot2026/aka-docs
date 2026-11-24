@@ -2,7 +2,7 @@
 id: how-to-install-akabot-web-extension
 title: How to Install Akabot Web Extension
 sidebar_label: How to Install Akabot Web Extension
-sidebar_position: 4
+sidebar_position: 10
 description: Design, build, and test automation workflows visually with Akabot Studio.
 displayed_sidebar: studioSidebar
 ---
@@ -36,7 +36,7 @@ Akabot Studio can install the extension in three modes. Choose the mode in the l
 
 - In **Policy** and **Policy (Offline)** mode the extension is force-installed: it is turned on automatically and users cannot turn it off or remove it.
 - **Policy (Offline)** requires a managed machine: joined to an Active Directory domain or enrolled in device management (MDM, for example Intune). Chrome also accepts Chrome Browser Cloud Management. Chrome and Edge ignore extensions force-installed from outside their store on other machines.
-- For the policies that Akabot writes and the policies that can block the extension, see [Browser Group Policies](./browser-group-policies.md).
+- For the policies that Akabot writes and the policies that can block the extension, see [Browser Group Policies](../user-guide/browser-group-policies.md).
 
 ## 3. Install Akabot extension for Google Chrome 
 ### 3.1 Launch Installation from Akabot Studio 
@@ -143,11 +143,11 @@ In Policy mode, Akabot:
 - allows the developer tools for the Akabot extension only (`DeveloperToolsAvailabilityAllowlist` / `DeveloperToolsAvailabilityBlocklist`, Chrome and Edge);
 - removes the User-mode installation of the current user, if any, so that the two installations do not conflict.
 
-For the exact values, see [Browser Group Policies](./browser-group-policies.md#3-policies-akabot-writes-chrome-and-edge).
+For the exact values, see [Browser Group Policies](../user-guide/browser-group-policies.md#3-policies-akabot-writes-chrome-and-edge).
 
 To install akaBot and the extension together with one command (for example `/EXTMODE=policy /VERYSILENT`), see [Install from Command Line](./install-akabot-platform-from-command-line.md).
 
-To install the extension on many machines without opening Akabot Studio, use the command line: see [akaBot Commander (Command Line)](./akabot-commander.md).
+To install the extension on many machines without opening Akabot Studio, use the command line: see [akaBot Commander (Command Line)](../user-guide/akabot-commander.md).
 
 ## 7. Install in Policy (Offline) mode
 Use this mode on managed machines (domain-joined or MDM-enrolled) that cannot reach the Chrome Web Store or Edge Add-ons, for example robot machines in a closed network. It is available for **Chrome** and **Edge**.
@@ -180,9 +180,9 @@ Akabot writes the same policies as in Policy mode, but instead of the store it c
 
 ## 8. Check the status and switch the mode
 - **Refresh:** if you installed or changed an extension outside Akabot Studio (for example by Group Policy), click **Refresh** on the **Extensions** page to see its current status.
-- **Incomplete policy setup:** if your organization force-installs the extension by Group Policy but some required policies are missing, Akabot Studio shows *"This extension was added by your organization, but its setup is incomplete, so Indicate does not work."* under the browser. Click **Install** (administrator rights required) to add the missing values. If the values keep disappearing, the Group Policy resets them: give your IT administrator the values in [Browser Group Policies](./browser-group-policies.md).
+- **Incomplete policy setup:** if your organization force-installs the extension by Group Policy but some required policies are missing, Akabot Studio shows *"This extension was added by your organization, but its setup is incomplete, so Indicate does not work."* under the browser. Click **Install** (administrator rights required) to add the missing values. If the values keep disappearing, the Group Policy resets them: give your IT administrator the values in [Browser Group Policies](../user-guide/browser-group-policies.md).
 
   ![Incomplete policy setup warning](/static/img/studio-extension-policy-incomplete.png)
 
 - **Switch between Policy and Policy (Offline):** select the other mode and click **Install**. If the extension is already force-installed in the other mode, Akabot Studio asks for confirmation before it replaces the policy entry.
-- **Indicate cannot reach the browser:** Akabot Studio opens the browser environment check, which shows the installation mode, the problems found, and fixes them where possible. See [Browser Group Policies](./browser-group-policies.md#8-browser-environment-check).
+- **Indicate cannot reach the browser:** Akabot Studio opens the browser environment check, which shows the installation mode, the problems found, and fixes them where possible. See [Browser Group Policies](../user-guide/browser-group-policies.md#8-browser-environment-check).

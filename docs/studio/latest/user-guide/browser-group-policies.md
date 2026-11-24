@@ -49,7 +49,7 @@ Use **Policy** or **Policy (Offline)** when your organization's policies block U
 
 > **Note:** Chrome and Edge on Windows only load a force-installed extension from outside their store on a **managed** machine: joined to an Active Directory domain or enrolled in device management (MDM, for example Intune). Chrome also accepts machines enrolled in Chrome Browser Cloud Management. On other machines akaBot refuses to install in Policy (Offline) mode — use **Policy** instead.
 
-For step-by-step instructions, see [How to install akaBot Web Extension](./how-to-install-akabot-web-extension.md).
+For step-by-step instructions, see [How to install akaBot Web Extension](../installation/how-to-install-akabot-web-extension.md).
 
 ## 3. Policies akaBot writes (Chrome and Edge)
 
@@ -219,7 +219,7 @@ There are two ways to deploy the extension by policy:
 
 - **Your own GPO.** Add the values of section 3 to your GPO (Chrome and Edge administrative templates). The native host must also be registered for the machine (section 3), which installing once in Policy mode from akaBot Studio or Commander does. For **Policy (Offline)**, the files of section 3.1 must also exist on each machine.
 
-The akaBot Platform setup can also install the extensions in User, Policy or Policy (Offline) mode with the `/EXTMODE` parameter, for example `/EXTMODE=policy /VERYSILENT`, `/EXTMODE=policy-offline` or `/EXTMODE=edge-policy,chrome-user`. See [Install from Command Line](./install-akabot-platform-from-command-line.md).
+The akaBot Platform setup can also install the extensions in User, Policy or Policy (Offline) mode with the `/EXTMODE` parameter, for example `/EXTMODE=policy /VERYSILENT`, `/EXTMODE=policy-offline` or `/EXTMODE=edge-policy,chrome-user`. See [Install from Command Line](../installation/install-akabot-platform-from-command-line.md).
 
 ## 7. Background processes
 

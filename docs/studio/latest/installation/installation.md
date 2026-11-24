@@ -77,4 +77,4 @@ Now you should have the shortcuts for **akaBot Studio & Agent** presenting on yo
 **Next Steps**
 
 - You need to **[activate the Studio](./activation.md)** and **[Agent](/docs/agent/latest/installation/license-activation.md)**  to unlock the features.
-- You may need to **[install the akaBot web extension](/docs/studio/latest/user-guide/how-to-install-akabot-web-extension.md)** for akaBot to automate on web browsers.
+- You may need to **[install the akaBot web extension](/docs/studio/latest/installation/how-to-install-akabot-web-extension.md)** for akaBot to automate on web browsers.

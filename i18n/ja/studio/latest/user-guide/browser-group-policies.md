@@ -49,7 +49,7 @@ akaBot Studio は、拡張機能を 3 つのモードのいずれかでインス
 
 > **注:** Windows 上の Chrome と Edge は、**管理対象** のコンピューター (Active Directory ドメインに参加しているか、Intune などのデバイス管理 (MDM) に登録されているコンピューター) でのみ、ストア以外から強制インストールされた拡張機能を読み込みます。Chrome は Chrome Browser Cloud Management に登録されたコンピューターも受け入れます。それ以外のコンピューターでは、akaBot はポリシー (オフライン) モードでのインストールを拒否します。代わりに **Policy** を使用してください。
 
-手順については、[Akabot Web 拡張機能をインストールする方法](./how-to-install-akabot-web-extension.md) を参照してください。
+手順については、[Akabot Web 拡張機能をインストールする方法](../installation/how-to-install-akabot-web-extension.md) を参照してください。
 
 ## 3. akaBot が書き込むポリシー (Chrome と Edge) \{#3-policies-akabot-writes-chrome-and-edge}
 

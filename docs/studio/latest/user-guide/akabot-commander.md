@@ -111,7 +111,7 @@ cd /d "C:\Program Files\FPT Software\akaBot Platform"
 Commander.exe install-chrome --scope:user --id:pflniglmkbjhmlcpcgpnhnpicdfalkjb --version:3.0.3 --file:"akaBot\MV3\akaBot-Chrome-3.0.3.crx" --nativeHostId:com.akarpa.chromenativemsg --fileNativeHost:"akaBot\NativeHost\com.akarpa.chromenativemsg.json"
 ```
 
-After a User-mode install, open Chrome and click **Enable extension** in the notification (see [How to install akaBot Web Extension](./how-to-install-akabot-web-extension.md#32-enable-extension-in-chrome)).
+After a User-mode install, open Chrome and click **Enable extension** in the notification (see [How to install akaBot Web Extension](../installation/how-to-install-akabot-web-extension.md#32-enable-extension-in-chrome)).
 
 ### 3.2 Example: Policy mode (all users, from the store)
 
@@ -250,9 +250,9 @@ Commander.exe run-program --path:"C:\Windows\System32\notepad.exe" --arguments:I
 
 ### 7.4 Remote Desktop and Citrix extensions
 
-Registers the akaBot client extensions that Studio and Robot use to automate applications inside a Remote Desktop or Citrix session. Run these commands on the machine that **opens** the session. The remote machine needs akaBot Remote Runtime instead (see [Install akaBot Remote Runtime from the Command Line](./install-remote-runtime-from-command-line.md)).
+Registers the akaBot client extensions that Studio and Robot use to automate applications inside a Remote Desktop or Citrix session. Run these commands on the machine that **opens** the session. The remote machine needs akaBot Remote Runtime instead (see [Install akaBot Remote Runtime from the Command Line](../installation/install-remote-runtime-from-command-line.md)).
 
-The Studio installer can run these commands for you with `/REMOTEEXT=rdp,citrix` (see [Install akaBot Platform from the Command Line](./install-akabot-platform-from-command-line.md#remote-desktop-and-citrix-extensions-remoteext)).
+The Studio installer can run these commands for you with `/REMOTEEXT=rdp,citrix` (see [Install akaBot Platform from the Command Line](../installation/install-akabot-platform-from-command-line.md#remote-desktop-and-citrix-extensions-remoteext)).
 
 | Command | Scope |
 |---|---|

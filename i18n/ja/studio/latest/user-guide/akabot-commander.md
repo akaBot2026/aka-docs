@@ -108,7 +108,7 @@ cd /d "C:\Program Files\FPT Software\akaBot Platform"
 Commander.exe install-chrome --scope:user --id:pflniglmkbjhmlcpcgpnhnpicdfalkjb --version:3.0.3 --file:"akaBot\MV3\akaBot-Chrome-3.0.3.crx" --nativeHostId:com.akarpa.chromenativemsg --fileNativeHost:"akaBot\NativeHost\com.akarpa.chromenativemsg.json"
 ```
 
-User モードでインストールした後、Chrome を開き、通知で **拡張機能を有効にする** をクリックします ([Akabot Web 拡張機能をインストールする方法](./how-to-install-akabot-web-extension.md#32-enable-extension-in-chrome) を参照)。
+User モードでインストールした後、Chrome を開き、通知で **拡張機能を有効にする** をクリックします ([Akabot Web 拡張機能をインストールする方法](../installation/how-to-install-akabot-web-extension.md#32-enable-extension-in-chrome) を参照)。
 
 ### 3.2 例: Policy モード (すべてのユーザー、ストアから) \{#32-example-policy-mode-all-users-from-the-store}
 

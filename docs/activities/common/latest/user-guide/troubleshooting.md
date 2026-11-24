@@ -53,7 +53,7 @@ When automating web applications (Chrome, Edge, Firefox), check the following co
 ### 1. akaBot Web Extension and Native Host
 - **Web Extension Status:** Ensure the **akaBot Web Extension** is installed, enabled, and allowed in Incognito/InPrivate mode if automating private sessions.
 - **Native Host Communication:** akaBot communicates with the browser via `Aka.RPA.NativeMessagingHost`. If enterprise antivirus or group policy blocks native messaging hosts, the robot cannot interact with tabs.
-- For setup instructions, see the [akaBot Web Extension Installation Guide](/docs/studio/latest/user-guide/how-to-install-akabot-web-extension.md).
+- For setup instructions, see the [akaBot Web Extension Installation Guide](/docs/studio/latest/installation/how-to-install-akabot-web-extension.md).
 
 ### 2. Browser Type Mismatch
 - In **Open Browser** and **Attach Browser**, ensure the **Browser Type** property matches the browser executable you are launching or attaching to (`Chrome`, `Edge`, `Firefox`, `IE`).

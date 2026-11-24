@@ -2,7 +2,7 @@
 id: install-remote-runtime-from-command-line
 title: Install akaBot Remote Runtime from the Command Line
 sidebar_label: Install Remote Runtime from Command Line
-sidebar_position: 4.45
+sidebar_position: 12
 description: Install akaBot Remote Runtime on a Remote Desktop host or Citrix VDA from the command line, choose how the browser extensions are registered, and use the Remote Runtime setup tool.
 displayed_sidebar: studioSidebar
 ---
@@ -14,7 +14,7 @@ akaBot needs two parts to automate applications inside a Remote Desktop or Citri
 | Part | Where it is installed | Installed by |
 |---|---|---|
 | **Remote Runtime** (server and browser extensions used inside the session) | The **remote machine**: the Remote Desktop host or the Citrix VDA | `akaBotRemoteRuntime-<version>-x64.exe` (this page) |
-| **Remote Desktop / Citrix extension** (client DLL) | The machine that **opens** the session, where Studio or Robot runs | The Studio installer. See [Remote Desktop and Citrix extensions](./install-akabot-platform-from-command-line.md#remote-desktop-and-citrix-extensions-remoteext) and [akaBot Commander](./akabot-commander.md#74-remote-desktop-and-citrix-extensions). |
+| **Remote Desktop / Citrix extension** (client DLL) | The machine that **opens** the session, where Studio or Robot runs | The Studio installer. See [Remote Desktop and Citrix extensions](./install-akabot-platform-from-command-line.md#remote-desktop-and-citrix-extensions-remoteext) and [akaBot Commander](../user-guide/akabot-commander.md#74-remote-desktop-and-citrix-extensions). |
 
 The Remote Runtime installer does **not** install the Remote Desktop or Citrix client DLL.
 
@@ -145,7 +145,7 @@ After you press **Enter**, nothing appears on the screen. This is normal. **Wait
 | `policyoffline` | A browser policy that installs the package staged in `C:\ProgramData`, with no store. Only for a machine that is domain-joined or enrolled in MDM. On any other machine the registration fails and Setup shows an error. |
 | `none` | No browser extension. |
 
-For what each mode writes, see [Browser Group Policies](./browser-group-policies.md).
+For what each mode writes, see [Browser Group Policies](../user-guide/browser-group-policies.md).
 
 ### 1.2 Standard Inno Setup options
 
